@@ -1,0 +1,150 @@
+
+*, *::before, *::after {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+}
+
+body {
+  background-color: #111;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  perspective: 800px;
+  perspective-origin: center calc(50% - 2.4em);
+  overflow: hidden;
+}
+
+
+.container {
+  position: relative;
+  -webkit-animation: rotate 60s infinite linear;
+          animation: rotate 60s infinite linear;
+}
+
+@-webkit-keyframes rotate {
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes rotate {
+  to {
+    transform: rotateY(360deg);
+  }
+}
+.floor {
+  position: absolute;
+  top: 60%;
+  width: 20em;
+  height: 20em;
+  background-color: #fff;
+  background-image: radial-gradient(#012a, #111 66%), url("https://assets.codepen.io/1948355/marble01.jpg");
+  background-size: 20em, 10em;
+  transform: translate(-50%, -50%) rotateX(90deg) translateZ(-3em);
+}
+.floor::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 4.5em;
+  height: 4.5em;
+  background-color: #000;
+  filter: blur(0.9em);
+}
+
+
+.cube {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-animation: cubeRotate 10s linear infinite;
+          animation: cubeRotate 10s linear infinite;
+}
+
+@-webkit-keyframes cubeRotate {
+  from {
+    -webkit-transform: rotateY(0deg) rotateX(720deg) rotateZ(0deg);
+            transform: rotateY(0deg) rotateX(720deg) rotateZ(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(360deg) rotateX(0deg) rotateZ(360deg);
+            transform: rotateY(360deg) rotateX(0deg) rotateZ(360deg);
+  }
+}
+
+@keyframes cubeRotate {
+  from {
+    -webkit-transform: rotateY(0deg) rotateX(720deg) rotateZ(0deg);
+            transform: rotateY(0deg) rotateX(720deg) rotateZ(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(360deg) rotateX(0deg) rotateZ(360deg);
+            transform: rotateY(360deg) rotateX(0deg) rotateZ(360deg);
+  }
+}
+
+.side {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  border: 2px solid white;
+}
+
+.front {
+  background-color: #d50000;
+  background-image: url("../images/marble01.jpg");
+  background-size: 200px 200px;  
+  -webkit-transform: translateZ(100px);
+          transform: translateZ(100px);
+}
+
+.back {
+  background-color: #aa00ff;
+  background-image: url("../images/i_love_movie.jpg");
+  background-size: 200px 200px;
+  -webkit-transform: translateZ(-100px);
+          transform: translateZ(-100px);
+}
+
+.left {
+  background-color: #304ffe;
+  background-image: url("../images/colorful-movie-logo.jpg");
+  background-size: 200px 200px;
+  -webkit-transform: rotateY(90deg) translateZ(100px);
+          transform: rotateY(90deg) translateZ(100px);
+}
+
+.right {
+  background-color: #0091ea;
+  background-image: url("../images/click-movie-logo.jpg");
+  background-size: 200px 200px;
+  -webkit-transform: rotateY(-90deg) translateZ(100px);
+          transform: rotateY(-90deg) translateZ(100px);
+}
+
+.top {
+  background-color: #00bfa5;
+  background-image: url("../images/YouTube-Dark-Theme-803x420.jpg");
+  background-size: 200px 200px;
+  -webkit-transform: rotateX(90deg) translateZ(100px);
+          transform: rotateX(90deg) translateZ(100px);
+}
+
+.bottom {
+  background-color: #64dd17;
+  background-image: url("../images/iptv.png");
+  background-size: 200px 200px;
+ -webkit-transform: rotateX(-90deg) translateZ(100px);
+          transform: rotateX(-90deg) translateZ(100px);
+}
+

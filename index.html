@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+    <meta http-equiv="Cache-Control" content="max-age=604800" />
+    <link rel="icon" href="https://pkjdemo.herokuapp.com/static/movie.ico">
+    <link rel="stylesheet" href="https://pkjdemo.herokuapp.com/static/css/movie.css" />
+    <link rel="canonical" href="https://getbootstrap.com/">
+    <link href="https://pkjdemo.herokuapp.com/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://pkjdemo.herokuapp.com/static/css/docs.css" rel="stylesheet">
+    <title>CSS DEMO</title>
+</head>
+
+<script src="https://pkjdemo.herokuapp.com/static/js/bootstrap.bundle.min.js"></script>
+<script src="https://pkjdemo.herokuapp.com/static/js/docs.min.js"></script>
+<script src="https://pkjdemo.herokuapp.com/static/js/cn.js"></script>
+
+<script>
+    var i = 0;
+    var k = 0;
+    function slide() {
+        css_url = new Array("cube.html", "morph.html", "dominoes.html", "cradle.html");
+        k = i % 4;
+        document.getElementById('xlogo').src = css_url[k];
+        //alert(css_url[k]);
+        i++;
+        setTimeout("slide()", 32000);
+    }
+</script>
+
+<body onload='slide();'>
+
+    <header class="navbar navbar-expand-md navbar-dark bd-navbar">
+        <nav class="container-fluid flex-wrap flex-md-nowrap" aria-label="Main navigation">
+            <a class="navbar-brand" href="index.html"><img src="https://pkjdemo.herokuapp.com/static/home.png" height=40px></a>
+
+            <div class="collapse navbar-collapse" id="bdNavbar">
+                <ul class="navbar-nav flex-row flex-wrap me-auto mb-2 mb-lg-0">
+                    <li class="nav-item col-6 col-md-auto"><a class="nav-link ps-3 pe-3" href="https://pkjdemo.herokuapp.com/cube.html">cube</a></li>
+                    <li class="nav-item col-6 col-md-auto"><a class="nav-link ps-3 pe-3" href="https://pkjdemo.herokuapp.com/cradle.html">cradle</a>
+                    </li>
+                    <li class="nav-item col-6 col-md-auto"><a class="nav-link ps-3 pe-3"
+                            href="https://pkjdemo.herokuapp.com/dominoes.html">dominoes</a>
+                    </li>
+                    <li class="nav-item col-6 col-md-auto"><a class="nav-link ps-3 pe-3" href="https://pkjdemo.herokuapp.com/morph.html">morph</a>
+                    </li>
+                    <li class="nav-item col-6 col-md-auto"><a class="nav-link ps-3 pe-3"
+                            href="https://pkjdemo.herokuapp.com/turningpages.html">turningpages</a> </li>
+                    <li class="nav-item col-6 col-md-auto"><a class="nav-link ps-3 pe-3" href="https://pkjdemo.herokuapp.com/stock">twstock</a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <div style='clear:both;'></div>
+
+    <div class="container-fluid center" style="padding:0;">
+        
+        <iframe id=xlogo src='https://pkjdemo.herokuapp.com/cube.html' width=100% height=800px></iframe>
+        
+    </div>
+    <div style='clear:both;'></div><br>
+
+
+    <footer class="navbar fixed-bottom navbar-expand-md navbar-dark bg-dark">
+        <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
+            <a class="navbar-brand" href="https://www.youtube.com/"><img src="https://pkjdemo.herokuapp.com/static/YouTube-Dark-Theme-803x420.png"
+                    height=46px></a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bgNavbar"
+                aria-controls="bgNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="bi" fill="currentColor"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+
+            <div class="collapse navbar-collapse" id="bgNavbar">
+                <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-md-0">
+                    <li class="nav-item"><a class="nav-link pe-3"
+                            href="https://www.youtube.com/embed/videoseries?list=PLyYNOzVuJM_0cCbjBvGHJRBittNhkbRDc&autostart=1&playinline=1">新聞直播</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link pe-3"
+                            href="https://www.youtube.com/embed/ERT_7u5L0dc?list=RDCMUCK6cr8UqdrKZ4213X-FOStQ">電影音樂</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link pe-3"
+                            href="https://www.youtube.com/embed/videoseries?list=PLyYNOzVuJM_09a5uMIEFPs7Ltwprw3hPM">演唱會</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link pe-3"
+                            href="https://www.youtube.com/embed/videoseries?list=PLdE3Y3U0HligtAoAay48Kwl7RE_PD1RfG">中文流行歌曲</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link pe-3"
+                            href="https://www.youtube.com/embed/videoseries?list=PLoj6YVKua1uJmN0GxnD7gRoASjnsS_ATD">4K
+                            MV</a></li>
+                    <li class="nav-item"><a class="nav-link pe-3"
+                            href="https://www.youtube.com/embed/videoseries?list=PLyYNOzVuJM_2SJSQiEHGMty12geoHo-CY">網路電影</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link pe-3" href="https://radios.tw/">Radio</a></li>
+                    <li class="nav-item"><a class="nav-link pe-3"
+                            href="https://www.radiotaiwan.tw/podcasts">Podcasts</a></li>
+                    <li class="nav-item"><a class="nav-link pe-3"
+                            href="https://www.4gtv.tv/channel?channelSet_id=4">4gtv</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    <div class="center">本站為程式開發測試之用，資料蒐集於網際網路，版權歸官方所有</div>
+
+</body>
+
+</html>

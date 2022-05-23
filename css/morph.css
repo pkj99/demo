@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+
+body {
+  background-color: #111;
+  /* color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  perspective: 800px;
+  perspective-origin: center calc(50% - 2.4em);
+  overflow: hidden; */
+}
+
+
+.morphing {
+    position: relative;
+    /* position: absolute;
+    top: 90%;
+    left: 50%; */
+    font-family: "Roboto Slab", serif;        
+    font-size: 240px;
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+    filter: contrast(25) blur(1px);
+  }
+  
+  .word {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-animation: word 32s infinite ease-in-out;
+            animation: word 32s infinite ease-in-out;
+  }
+  .word:nth-child(1) {
+    -webkit-animation-delay: -32s;
+            animation-delay: -32s;
+  }
+  .word:nth-child(2) {
+    -webkit-animation-delay: -28s;
+            animation-delay: -28s;
+  }
+  .word:nth-child(3) {
+    -webkit-animation-delay: -24s;
+            animation-delay: -24s;
+  }
+  .word:nth-child(4) {
+    -webkit-animation-delay: -20s;
+            animation-delay: -20s;
+  }
+  .word:nth-child(5) {
+    -webkit-animation-delay: -16s;
+            animation-delay: -16s;
+  }
+  .word:nth-child(6) {
+    -webkit-animation-delay: -12s;
+            animation-delay: -12s;
+  }
+  .word:nth-child(7) {
+    -webkit-animation-delay: -8s;
+            animation-delay: -8s;
+  }
+  @-webkit-keyframes word {
+    0%, 5%, 100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+    20%, 80% {
+      filter: blur(1em);
+      opacity: 0;
+    }
+  }
+  @keyframes word {
+    0%, 5%, 100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+    20%, 80% {
+      filter: blur(1em);
+      opacity: 0;
+    }
+  }
