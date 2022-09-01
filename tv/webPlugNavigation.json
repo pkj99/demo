@@ -133,7 +133,7 @@
         },
         "html": {
           "episodes": {
-            "hasUrlPrefix": false,
+            "hasUrlPrefix": true,
             "isListItemAttr": true,
             "listCss": "div.myui-panel_hd",
             "isMultiList": true,
