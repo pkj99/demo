@@ -4,7 +4,7 @@
 	
 	{
       "name": "PKJ Studio(電影)",
-      "pic": "https://pkjweb.herokuapp.com/static/images/colorful-movie-logo.jpg",
+      "pic": "https://pkj99.github.io/demo/images/movie.png",
       "type": "webPlug",
       "ads": "",
       "webUrl": "https://pkjweb.herokuapp.com/",
@@ -101,7 +101,7 @@
 	
 	{
       "name": "PKJ Studio(電視劇)",
-      "pic": "https://pkjweb.herokuapp.com/static/images/colorful-movie-logo.jpg",
+      "pic": "https://pkj99.github.io/demo/images/tvshow.png",
       "type": "webPlug",
       "ads": "",
       "webUrl": "https://pkjweb.herokuapp.com/",
@@ -196,7 +196,7 @@
 	
 	{
       "name": "Gimy(规则)",
-      "pic": "https://www.gdaily.org/wp-content/uploads/2019/05/gimy-tv_1.png",
+      "pic": "https://pkj99.github.io/demo/images/gimy.png",
       "type": "webPlug",
       "ads": "",
       "webUrl": "https://gimytv.co/",
@@ -298,7 +298,7 @@
 	
 	{
       "name": "ifimv(规则)",
-      "pic": "https://www.ifimv.com/mvstatic/image/logo.png",
+      "pic": "https://pkj99.github.io/demo/images/ifimv.png",
       "type": "webPlug",
       "ads": "",
       "webUrl": "https://ifimv.com/",
@@ -664,7 +664,7 @@
 
         {
             "name":"PKJ Studio(Web)",
-            "pic":"https://pkjweb.herokuapp.com/static/images/watch_online.png",
+            "pic":"https://pkj99.github.io/demo/images/watch_online.png",
             "keyDownPlay":false,
             "keyUpPlay":false,
             "userAgent":"PC",
@@ -675,7 +675,7 @@
         },
         {
             "name":"唐人街(Web)",
-            "pic":"https://www.gdaily.org/wp-content/uploads/2021/12/tangrenjie.jpg",
+            "pic":"https://pkj99.github.io/demo/images/watch_online.png",
             "keyDownPlay":false,
             "keyUpPlay":false,
             "userAgent":"PC",
@@ -686,7 +686,7 @@
         },
         {
             "name":"gimy(Web)",
-            "pic":"https://www.gdaily.org/wp-content/uploads/2019/05/gimy-tv_1.png",
+            "pic":"https://pkj99.github.io/demo/images/watch_online.png",
             "keyDownPlay":false,
             "keyUpPlay":false,
             "userAgent":"PC",

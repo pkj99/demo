@@ -2,7 +2,7 @@
   "data": [
       {
       "name": "電視直播",
-      "pic": "https://pkjweb.herokuapp.com/static/images/iptv.png",
+      "pic": "https://pkj99.github.io/demo/images/iptv.png",
       "webUrl": "https://pkjweb.herokuapp.com/mytv.m3u",
       "type": "m3u",
       "subTitle": "",
@@ -18,7 +18,7 @@
     },
     {
       "name": "熱播電影",
-      "pic": "https://pkjweb.herokuapp.com/static/images/watch_online.png",
+      "pic": "https://pkj99.github.io/demo/images/watch_online.png",
       "webUrl": "https://pkjweb.herokuapp.com/movie-hits.m3u",
       "type": "m3u",
       "subTitle": "",
@@ -66,7 +66,7 @@
     },
     {
       "name": "漫威電影",
-      "pic": "https://pkjweb.herokuapp.com/static/images/Marvel_logo.png",
+      "pic": "https://pkj99.github.io/demo/images/marvel.png",
       "webUrl": "https://pkjweb.herokuapp.com/movie-marvel.m3u",
       "type": "m3u",
       "subTitle": "",
@@ -82,7 +82,7 @@
     },
     {
       "name": "DC電影",
-      "pic": "https://pkjweb.herokuapp.com/static/images/DC_logo.png",
+      "pic": "https://pkj99.github.io/demo/images/dc.png",
       "webUrl": "https://pkjweb.herokuapp.com/movie-dc.m3u",
       "type": "m3u",
       "subTitle": "",
@@ -98,7 +98,7 @@
     },
     {
       "name": "Netflix電影",
-      "pic": "https://pkjweb.herokuapp.com/static/images/Netflix_logo.png",
+      "pic": "https://pkj99.github.io/demo/images/netflix.png",
       "webUrl": "https://pkjweb.herokuapp.com/movie-netflix.m3u",
       "type": "m3u",
       "subTitle": "",
