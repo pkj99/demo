@@ -694,6 +694,17 @@
             "webUrl":"https://gimytv.co/",
             "webOpen":true,
             "click":true
+        },
+        {
+            "name":"everydaytv(Web)",
+            "pic":"https://pkj99.github.io/demo/images/watch_online.png",
+            "keyDownPlay":false,
+            "keyUpPlay":false,
+            "userAgent":"PC",
+            "ads":"",
+            "webUrl":"http://iptv.everydaytv.top/?act=list&tid=%F0%9F%87%B9%F0%9F%87%BC%E5%8F%B0%E7%81%A3%E9%A0%BB%E9%81%93",
+            "webOpen":true,
+            "click":true
         }
     ]
 }
