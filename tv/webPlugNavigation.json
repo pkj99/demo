@@ -671,21 +671,19 @@
       "click": true,
       "webPlus": {
         "search_url": "",
-        "nav_url": "https://www.4gtv.tv/channel_sub.html?channelSet_id=4&asset_id=4gtv-4gtv003&channel_id=1",
+        "nav_url": "https://www.4gtv.tv/channel_sub.html?channelSet_id=4&asset_id=navCate&channel_id=navName",
         "web_name": "天空影视",
 		"search":false,
         "navHtml": {
           "name": [
-            "电影",
-            "电视剧",
-            "动漫",
-            "综艺"
-          ],
-          "cate": [
             "1",
             "2",
-            "4",
             "3"
+          ],
+          "cate": [
+            "4gtv-4gtv003",
+            "4gtv-4gtv001",
+            "4gtv-4gtv002"
           ],
           "page": "1"
         },
