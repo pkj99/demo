@@ -1,8 +1,8 @@
 {
   "data": [
       {
-      "name": "電視直播",
-      "pic": "https://pkj99.github.io/demo/images/iptv.png",
+      "name": "電視直播(精簡)",
+      "pic": "https://pkj99.github.io/demo/images/pkj_studio.png",
       "webUrl": "https://pkjweb.herokuapp.com/mytv.m3u",
       "type": "m3u",
       "subTitle": "",
@@ -20,23 +20,6 @@
       "name": "電視直播(IPTV)",
       "pic": "https://pkj99.github.io/demo/images/iptv.png",
       "webUrl": "https://pkjweb.herokuapp.com/iptv.m3u",
-      "type": "m3u",
-      "subTitle": "",
-      "click": true,
-      "autoNext": false,
-      "webOpen": false,
-      "keyDownPlay": true,
-      "keyUpPlay": true,
-      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4535.3 Safari/537.36",
-      "ads": "",
-      "decoder": 0,
-      "webPlus": {}
-    },
-
-    {
-      "name": "Radio",
-      "pic": "https://pkj99.github.io/demo/images/iptv.png",
-      "webUrl": "https://pkjweb.herokuapp.com/radio.m3u",
       "type": "m3u",
       "subTitle": "",
       "click": true,
