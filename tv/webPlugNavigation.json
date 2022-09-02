@@ -662,7 +662,7 @@
       }
     },
 	{
-      "name": "4gtv(规则)",
+      "name": "天天iptv(规则)",
       "pic": "https://m.4gtv.tv/image/4gtv.png",
       "type": "webPlug",
       "ads": "",
@@ -671,19 +671,15 @@
       "click": true,
       "webPlus": {
         "search_url": "",
-        "nav_url": "https://www.4gtv.tv/channel_sub.html?channelSet_id=4&asset_id=navCate",
+        "nav_url": "http://iptv.everydaytv.top/?act=list&tid=navCate",
         "web_name": "天空影视",
 		"search":false,
         "navHtml": {
           "name": [
-            "1",
-            "2",
-            "3"
+            "台灣頻道"
           ],
           "cate": [
-            "4gtv-4gtv003",
-            "4gtv-4gtv001",
-            "4gtv-4gtv002"
+            "🇹🇼台灣頻道"
           ],
           "page": "1"
         },
@@ -691,13 +687,13 @@
           "episodes": {
             "hasUrlPrefix": false,
             "isListItemAttr": false,
-            "listCss": "div.tab-pane.fade.in.clearfix",
+            "listCss": "",
             "isMultiList": false,
-            "listCssMulti": "ul > li",
-            "listItemAttr": "href",
-            "listItemCss": "a",
+            "listCssMulti": "",
+            "listItemAttr": "src",
+            "listItemCss": "iframe",
             "listItemIndex": 0,
-            "mainCss": "div.VideoPlayer",
+            "mainCss": "div.ui-content",
             "mainIndex": 0
           },
           "nav": {
@@ -712,15 +708,15 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.leftTable",
+            "mainCss": "body",
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "div.TableMenu",
+            "searchListCss": "ul > li > div.ui-btn-text",
             "urlAttr": "href",
             "urlCss": "a",
-            "urlIndex": 0
+            "urlIndex": 1
           },
           "search": {
             "descAttr": "",
