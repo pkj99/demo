@@ -214,13 +214,13 @@
           "episodes": {
             "hasUrlPrefix": true,
             "isListItemAttr": true,
-            "listCss": "div.myui-panel_hd",
+            "listCss": "",
             "isMultiList": false,
-            "listCssMulti": "ul > li",
-            "listItemAttr": "href",
-            "listItemCss": "a",
+            "listCssMulti": "",
+            "listItemAttr": "src",
+            "listItemCss": "video",
             "listItemIndex": 0,
-            "mainCss": "div.myui-panel.myui-panel-bg.clearfix",
+            "mainCss": "body",
             "mainIndex": 0
           },
           "nav": {
