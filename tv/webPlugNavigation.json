@@ -203,8 +203,10 @@
         "search":false,
             "navHtml": {
               "name": [
+                "電視"
               ],
               "cate": [
+                ""
               ],
               "page": "1"
             },
@@ -225,7 +227,7 @@
             "descAttr": "",
             "descCss": "span.pic-tag.pic-tag-right",
             "descIndex": 0,
-            "hasUrlPrefix": false,
+            "hasUrlPrefix": true,
             "imgAttr": "data-original",
             "imgCss": "a",
             "imgIndex": 0,
