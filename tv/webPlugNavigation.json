@@ -663,7 +663,7 @@
     },
 	{
       "name": "4gtv(规则)",
-      "pic": "https://www.4gtv.tv/image/LOGO4GTV.svg",
+      "pic": "https://m.4gtv.tv/image/4gtv.png",
       "type": "webPlug",
       "ads": "",
       "webUrl": "https://www.4gtv.tv/",
@@ -671,7 +671,7 @@
       "click": true,
       "webPlus": {
         "search_url": "",
-        "nav_url": "https://www.4gtv.tv/channel_sub.html?channelSet_id=4&asset_id=navCate&channel_id=navName",
+        "nav_url": "https://www.4gtv.tv/channel_sub.html?channelSet_id=4&asset_id=navCate",
         "web_name": "天空影视",
 		"search":false,
         "navHtml": {
