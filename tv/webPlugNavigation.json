@@ -20,11 +20,16 @@
                 "熱播",
                 "高分榜",
                 "隨意看",
-                "Marvel",
+                "漫威",
                 "DC",
-                "Netflix",
+                "NF",
                 "瀏覽",
-                "國片"
+                "國",
+                "陸",
+                "港",
+                "日",
+                "韓",
+                "美"
                     ],
               "cate": [
                 "hits?",
@@ -34,7 +39,12 @@
                 "dc?",
                 "netflix?",
                 "if101?",
-                "filter?catalog=臺灣&"
+                "filter?catalog=臺灣&",
+                "filter?catalog=大陸&",
+                "filter?catalog=香港&",
+                "filter?catalog=日本&",
+                "filter?catalog=韓國&",
+                "filter?catalog=歐美&"
                     ],
               "page": "1"
             },
