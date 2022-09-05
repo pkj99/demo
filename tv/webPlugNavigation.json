@@ -12,30 +12,32 @@
       "click": true,
       "webPlus": {
         "search_url": "https://pkjweb.herokuapp.com/search?v={kw}",
-        "nav_url": "https://pkjweb.herokuapp.com/navCate?p=navPage",
-        "web_name": "PKJ Studio",
-		"search":true,
-        "navHtml": {
-          "name": [
-            "熱播",
-			"高分榜",
-			"隨意看",
-			"Marvel",
-			"DC",
-			"Netflix",
-			"瀏覽"
-          ],
-          "cate": [
-            "hits",
-			"imdb",
-			"random",
-			"marvel",
-			"dc",
-			"netflix",
-			"if101"
-          ],
-          "page": "1"
-        },
+        "nav_url": "https://pkjweb.herokuapp.com/navCatep=navPage",
+        "web_name": "PKJ電影",
+        "search":true,
+            "navHtml": {
+              "name": [
+                "熱播",
+                "高分榜",
+                "隨意看",
+                "Marvel",
+                "DC",
+                "Netflix",
+                "瀏覽",
+                "國片"
+                    ],
+              "cate": [
+                "hits?",
+                "imdb?",
+                "random?",
+                "marvel?",
+                "dc?",
+                "netflix?",
+                "if101?",
+                "filter?catalog=臺灣&"
+                    ],
+              "page": "1"
+            },
         "html": {
           "episodes": {
             "hasUrlPrefix": true,
@@ -110,25 +112,25 @@
       "webPlus": {
         "search_url": "https://pkjweb.herokuapp.com/tvshow?word={kw}",
         "nav_url": "https://pkjweb.herokuapp.com/tvshow?p=navPage&genre=navCate",
-        "web_name": "PKJ Studio",
+        "web_name": "PKJ電視劇",
 		"search":true,
         "navHtml": {
           "name": [
             "台劇",
-			"陸劇",
-			"日劇",
-			"韓劇",
-			"美劇",
-			"紀錄片"
-          ],
+            "陸劇",
+            "日劇",
+            "韓劇",
+            "美劇",
+            "紀錄片"
+                ],
           "cate": [
             "台劇",
-			"國產劇",
-			"日劇",
-			"韓劇",
-			"歐美劇",
-			"紀錄片"
-          ],
+            "國產劇",
+            "日劇",
+            "韓劇",
+            "歐美劇",
+            "紀錄片"
+                ],
           "page": "1"
         },
         "html": {
@@ -211,27 +213,27 @@
           "name": [
             "電影",
             "電視劇",
-			"綜藝",
-			"動漫",
-			"台劇",
-			"韓劇",
-			"陸劇",
-			"美劇",
-			"日劇",
-			"紀錄片"
-          ],
+            "綜藝",
+            "動漫",
+            "台劇",
+            "韓劇",
+            "陸劇",
+            "美劇",
+            "日劇",
+            "紀錄片"
+                ],
           "cate": [
             "movies",
             "tvseries",
-			"tv_show",
-			"anime",
-			"tw",
-			"kr",
-			"cn",
-			"us",
-			"jp",
-			"documentary"
-          ],
+            "tv_show",
+            "anime",
+            "tw",
+            "kr",
+            "cn",
+            "us",
+            "jp",
+            "documentary"
+                ],
           "page": "1"
         },
         "html": {
