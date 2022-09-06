@@ -446,11 +446,11 @@
           },
           "nav": {
             "descAttr": "",
-            "descCss": "div.title-wrap > span.text-score",
+            "descCss": "div.title-wrap > p.main > span.text-score",
             "descIndex": 0,
             "hasUrlPrefix": false,
             "imgAttr": "style",
-            "imgCss": "div.qy-mod-cover",
+            "imgCss": "a > div > div.qy-mod-cover",
             "imgIndex": 0,
             "isDescAttr": false,
             "isImgAttr": true,
@@ -461,7 +461,7 @@
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "ul > li > div.qy-mod-link-wrap",
+            "searchListCss": "ul > li > div.qy-list-img,vertical > div.qy-mod-link-wrap",
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
