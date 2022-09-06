@@ -450,7 +450,7 @@
             "descIndex": 0,
             "hasUrlPrefix": false,
             "imgAttr": "style",
-            "imgCss": "a > div > div.qy-mod-cover",
+            "imgCss": "div.qy-mod-link-wrap > a.qy-mod-link > div > div.qy-mod-cover",
             "imgIndex": 0,
             "isDescAttr": false,
             "isImgAttr": true,
@@ -461,9 +461,9 @@
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "ul > li > div.qy-list-img,vertical > div.qy-mod-link-wrap",
+            "searchListCss": "ul.qy-mod-ul > li.qy-mod-li > div.qy-list-img.vertical ",
             "urlAttr": "href",
-            "urlCss": "a",
+            "urlCss": "div.qy-mod-link-wrap > a.qy-mod-link",
             "urlIndex": 0
           },
           "search": {
