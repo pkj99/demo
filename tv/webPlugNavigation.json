@@ -776,6 +776,7 @@
             "webOpen":true,
             "click":true
         },
+
         {
             "name":"唐人街(Web)",
             "pic":"https://pkj99.github.io/demo/images/watch_online.png",
@@ -787,6 +788,7 @@
             "webOpen":true,
             "click":true
         },
+
         {
             "name":"gimy(Web)",
             "pic":"https://pkj99.github.io/demo/images/watch_online.png",
@@ -798,6 +800,7 @@
             "webOpen":true,
             "click":true
         },
+
         {
             "name":"modvod(Web)",
             "pic":"https://pkj99.github.io/demo/images/watch_online.png",
@@ -808,6 +811,18 @@
             "webUrl":"https://www.mudvod.tv/class.html?channelId=1",
             "webOpen":true,
             "click":true
-        }
+        },
+
+        {
+          "name":"4gtv(Web)",
+          "pic":"https://pkj99.github.io/demo/images/watch_online.png",
+          "keyDownPlay":false,
+          "keyUpPlay":false,
+          "userAgent":"PC",
+          "ads":"",
+          "webUrl":"https://www.4gtv.tv/channel?channelSet_id=4",
+          "webOpen":true,
+          "click":true
+      }        
     ]
 }
