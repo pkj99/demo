@@ -208,6 +208,90 @@
       }
     },	
 
+
+    {
+      "name": "PKJ Studio(電視)",
+      "pic": "https://pkj99.github.io/demo/images/movie.png",
+      "type": "webPlug",
+      "ads": "",
+      "webUrl": "https://pkjweb.herokuapp.com/",
+      "webOpen": false,
+      "click": true,
+      "webPlus": {
+        "search_url": "https://pkjweb.herokuapp.com/search?v={kw}",
+        "nav_url": "https://pkjweb.herokuapp.com/navCate",
+        "web_name": "PKJ電影",
+        "search":false,
+            "navHtml": {
+              "name": [
+                "電視"
+                    ],
+              "cate": [
+                "tv"
+                    ],
+              "page": "1"
+            },
+        "html": {
+          "episodes": {
+            "hasUrlPrefix": true,
+            "isListItemAttr": true,
+            "listCss": "div.myui-panel_hd",
+            "isMultiList": true,
+            "listCssMulti": "ul > li",
+            "listItemAttr": "href",
+            "listItemCss": "a",
+            "listItemIndex": 0,
+            "mainCss": "div.myui-panel.myui-panel-bg.clearfix",
+            "mainIndex": 0
+          },
+          "nav": {
+            "descAttr": "",
+            "descCss": "span.pic-tag.pic-tag-top",
+            "descIndex": 0,
+            "hasUrlPrefix": true,
+            "imgAttr": "data-original",
+            "imgCss": "a",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "div.myui-panel_bd.clearfix",
+            "mainListIndex": 0,
+            "nameAttr": "title",
+            "nameCss": "a",
+            "nameIndex": 0,
+            "searchListCss": "ul > li > div.myui-vodlist__box",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
+          },
+          "search": {
+            "descAttr": "",
+            "descCss": "span.pic-tag.pic-tag-top",
+            "descIndex": 0,
+            "hasUrlPrefix": false,
+            "imgAttr": "data-original",
+            "imgCss": "a",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "div.myui-panel_bd.clearfix",
+            "mainListIndex": 0,
+            "nameAttr": "title",
+            "nameCss": "a",
+            "nameIndex": 0,
+            "searchListCss": "ul > li > div.myui-vodlist__box",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
+          }
+        }
+      }
+    },	
+	    
     
 	{
       "name": "Gimy(规则)",
@@ -403,90 +487,6 @@
     },	
 
 	
-    {
-      "name": "4gtv(规则)",
-      "pic": "https://m.4gtv.tv/image/4gtv.png",
-      "type": "webPlug",
-      "ads": "",
-      "webUrl": "https://www.4gtv.tv/",
-      "webOpen": false,
-      "click": true,
-      "webPlus": {
-        "search_url": "",
-        "nav_url": "https://www.4gtv.tv/channel?channelSet_id=navCate",
-        "web_name": "4gtv",
-        "search":false,
-        "navHtml": {
-          "name": [
-            "免費頻道"
-          ],
-          "cate": [
-            "4"
-          ],
-          "page": "1"
-        },
-        "html": {
-          "episodes": {
-            "hasUrlPrefix": false,
-            "isListItemAttr": true,
-            "listCss": "ul.stui-content__playlist.clearfix",
-            "isMultiList": true,
-            "listCssMulti": "li > a",
-            "listItemAttr": "href",
-            "listItemCss": "a",
-            "listItemIndex": 0,
-            "mainCss": "div.stui-pannel.clearfix",
-            "mainIndex": 0
-          },
-          "nav": {
-            "descAttr": "",
-            "descCss": "",
-            "descIndex": 0,
-            "hasUrlPrefix": false,
-            "imgAttr": "src",
-            "imgCss": "div.Recommend > img.lazy",
-            "imgIndex": 0,
-            "isDescAttr": false,
-            "isImgAttr": true,
-            "isNameAttr": true,
-            "isUrlAttr": true,
-            "mainCss": "div.R_list.MainContainer_2 > div.Content_Channel > ul",
-            "mainListIndex": 0,
-            "nameAttr": "",
-            "nameCss": "div.Recommend > p.NameTit",
-            "nameIndex": 0,
-            "searchListCss": "li",
-            "urlAttr": "href",
-            "urlCss": "a",
-            "urlIndex": 0
-          },
-          "search": {
-            "descAttr": "",
-            "descCss": "span.hl-lc-1.remarks",
-            "descIndex": 0,
-            "hasUrlPrefix": false,
-            "imgAttr": "data-original",
-            "imgCss": "a",
-            "imgIndex": 0,
-            "isDescAttr": false,
-            "isImgAttr": true,
-            "isNameAttr": true,
-            "isUrlAttr": true,
-            "mainCss": "ul.hl-one-list",
-            "mainListIndex": 0,
-            "nameAttr": "title",
-            "nameCss": "a",
-            "nameIndex": 0,
-            "searchListCss": "li",
-            "urlAttr": "href",
-            "urlCss": "a",
-            "urlIndex": 0
-          }
-        }
-      }
-    },	
-
-
 
 
 
@@ -811,18 +811,7 @@
             "webUrl":"https://www.mudvod.tv/class.html?channelId=1",
             "webOpen":true,
             "click":true
-        },
-
-        {
-          "name":"4gtv(Web)",
-          "pic":"https://pkj99.github.io/demo/images/watch_online.png",
-          "keyDownPlay":false,
-          "keyUpPlay":false,
-          "userAgent":"PC",
-          "ads":"",
-          "webUrl":"https://www.4gtv.tv/channel?channelSet_id=4",
-          "webOpen":true,
-          "click":true
-      }        
+        }
+      
     ]
 }
