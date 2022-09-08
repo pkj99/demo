@@ -208,90 +208,6 @@
       }
     },	
 
-
-    {
-      "name": "PKJ Studio(電視)",
-      "pic": "https://pkj99.github.io/demo/images/tvshow.png",
-      "type": "webPlug",
-      "ads": "",
-      "webUrl": "https://pkjweb.herokuapp.com/",
-      "webOpen": false,
-      "click": true,
-      "webPlus": {
-        "search_url": "https://pkjweb.herokuapp.com/tvshow?word={kw}",
-        "nav_url": "https://pkjweb.herokuapp.com/navCate",
-        "web_name": "PKJ電視",
-		    "search":false,
-        "navHtml": {
-          "name": [
-            "電視頻道"
-                ],
-          "cate": [
-            "tv"
-                ],
-          "page": "1"
-        },
-        "html": {
-          "episodes": {
-            "hasUrlPrefix": true,
-            "isListItemAttr": false,
-            "listCss": "",
-            "isMultiList": false,
-            "listCssMulti": "ul > li",
-            "listItemAttr": "href",
-            "listItemCss": "a",
-            "listItemIndex": 0,
-            "mainCss": "",
-            "mainIndex": 0
-          },
-          "nav": {
-            "descAttr": "",
-            "descCss": "a.myui-vodlist__thumb.lazyload > span.pic-text.text-right",
-            "descIndex": 0,
-            "hasUrlPrefix": true,
-            "imgAttr": "data-original",
-            "imgCss": "a",
-            "imgIndex": 0,
-            "isDescAttr": false,
-            "isImgAttr": true,
-            "isNameAttr": true,
-            "isUrlAttr": false,
-            "mainCss": "div.myui-panel_bd.clearfix",
-            "mainListIndex": 0,
-            "nameAttr": "title",
-            "nameCss": "a",
-            "nameIndex": 0,
-            "searchListCss": "ul > li > div.myui-vodlist__box",
-            "urlAttr": "href",
-            "urlCss": "a",
-            "urlIndex": 0
-          },
-          "search": {
-            "descAttr": "",
-            "descCss": "span.pic-tag.pic-tag-right",
-            "descIndex": 0,
-            "hasUrlPrefix": false,
-            "imgAttr": "data-original",
-            "imgCss": "a",
-            "imgIndex": 0,
-            "isDescAttr": false,
-            "isImgAttr": true,
-            "isNameAttr": true,
-            "isUrlAttr": true,
-            "mainCss": "div.myui-panel_bd.clearfix",
-            "mainListIndex": 0,
-            "nameAttr": "title",
-            "nameCss": "a",
-            "nameIndex": 0,
-            "searchListCss": "ul > li > div.myui-vodlist__box",
-            "urlAttr": "href",
-            "urlCss": "a",
-            "urlIndex": 0
-          }
-        }
-      }
-    },	
-  
     
 	{
       "name": "Gimy(规则)",
@@ -305,7 +221,7 @@
         "search_url": "",
         "nav_url": "https://gimytv.co/genre/navCate---navPage.html",
         "web_name": "Gimy",
-		"search":false,
+		    "search":false,
         "navHtml": {
           "name": [
             "電影",
@@ -407,7 +323,7 @@
         "search_url": "",
         "nav_url": "https://www.ifimv.com/vodshow/navCate--------navPage---.html",
         "web_name": "ifimv",
-		"search":false,
+    		"search":false,
         "navHtml": {
           "name": [
             "電影",
@@ -485,9 +401,6 @@
         }
       }
     },	
-
-	
-
 
 
   {
@@ -688,7 +601,7 @@
         "search_url": "",
         "nav_url": "https://www.tkys.tv/vodtype/navCate-navPage.html",
         "web_name": "天空影视",
-		"search":false,
+		    "search":false,
         "navHtml": {
           "name": [
             "电影",
