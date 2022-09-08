@@ -255,7 +255,7 @@
             "isDescAttr": false,
             "isImgAttr": true,
             "isNameAttr": true,
-            "isUrlAttr": true,
+            "isUrlAttr": false,
             "mainCss": "div.myui-panel_bd.clearfix",
             "mainListIndex": 0,
             "nameAttr": "title",
