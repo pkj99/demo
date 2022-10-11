@@ -18,18 +18,6 @@
 <script src="js/docs.min.js"></script>
 <script src="js/cn.js"></script>
 
-<script>
-    var i = 0;
-    var k = 0;
-    function slide() {
-        css_url = new Array("cube.html", "morph.html", "dominoes.html", "cradle.html");
-        k = i % 4;
-        document.getElementById('xlogo').src = css_url[k];
-        //alert(css_url[k]);
-        i++;
-        setTimeout("slide()", 32000);
-    }
-</script>
 
 <body onload='slide();'>
 
@@ -57,7 +45,7 @@
                             href="https://pkj99.github.io/demo/media/KODIMEDIA.zip">KODI-MEDIA</a> </li>
 
                     <li class="nav-item col-6 col-md-auto"><a class="nav-link ps-3 pe-3"
-                            href="tv.html">TV</a> </li>
+                                href="tv.html">TV</a> </li>
     
 
                     <li class="nav-item col-6 col-md-auto"><a class="nav-link ps-3 pe-3"
@@ -81,14 +69,19 @@
 
     <div style='clear:both;'></div>
 
-    <div class="container-fluid center" style="padding:0;">
+    <div>
         
-        <iframe id=xlogo src='cube.html' width=100% height=800px></iframe>
-        
+        <table style = "border: solid; padding:10; font-size: 14pt;">
+        <tr><td>FreeDTV : </td><td>https://pkj99.github.io/demo/tv/</td></tr>
+        <tr><td>DIYP : </td><td>https://pkj99.github.io/demo/media/iptv.txt</td></tr>
+        <tr><td>Tivimate : </td><td>https://pkj99.github.io/demo/media/iptv.m3u</td></tr>
+        <tr><td>EPG :   </td><td>http://epg.51zmt.top:8000/e.xml<br> http://epg.51zmt.top:8000/api/diyp/</td></tr>
+        </table>
+
     </div>
     <div style='clear:both;'></div><br>
 
-
+    
 
     <footer class="navbar fixed-bottom navbar-expand-md navbar-dark bg-dark">
         <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
