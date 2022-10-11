@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Android APK Download</title>
+    <meta name="keywords" content="APK" />
+    <meta name="bookmark-image" content="../static/images/logo.png" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" href="../static/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../static/css/mytheme-font.css" type="text/css" />
+    <link rel="stylesheet" href="../static/css/mytheme-ui.css" type="text/css" />
+    <link rel="stylesheet" href="../static/css/mytheme-site.css" type="text/css" />
+    <link rel="stylesheet" href="../static/css/mytheme-share.css" type="text/css" />
+    <link rel="stylesheet" href="../static/css/mytheme-color.css" type="text/css" name="default" />
+
+    <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/mytheme-site.js"></script>
+    <script type="text/javascript" src="../static/js/mytheme-ui.js"></script>
+    <script type="text/javascript" src="../static/js/mytheme-cms.js"></script>
+    <script type="text/javascript" src="../static/js/home.js"></script>
+    <script type="text/javascript" src="../static/js/cn.js"></script>
+
+    <style>
+        body {
+            font-family: "Microsoft YaHei", "微軟正黑體", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+            padding-top: 0px;
+        }
+
+        .myui-header__top {
+            position: relative;
+        }
+
+        body.active {
+            padding-top: 60px;
+        }
+
+        [class*=col-],
+        .myui-content__list li,
+        .myui-vodlist__media.col li {
+            padding: 10px
+        }
+
+        .btn {
+            border-radius: 5px;
+        }
+
+        .myui-vodlist__thumb {
+            border-radius: 5px;
+            padding-top: 100%;
+            background: url(../static/images/loading.gif) no-repeat;
+        }
+
+        .myui-vodlist__thumb.square {
+            padding-top: 100%;
+            background: url('') no-repeat;
+        }
+
+        .myui-vodlist__thumb.wide {
+            padding-top: 60%;
+            background: url(../static/images/loading2.gif) no-repeat;
+        }
+
+        .myui-vodlist__thumb.actor {
+            padding-top: 140%;
+        }
+
+        .flickity-prev-next-button.previous {
+            left: 10px;
+        }
+
+        .flickity-prev-next-button.next {
+            right: 10px;
+        }
+
+        .myui-sidebar {
+            padding: 0 0 0 20px;
+        }
+
+        .myui-panel {
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .myui-panel-mb {
+            margin-bottom: 20px;
+        }
+
+        .myui-player__item .fixed {
+            width: 500px;
+        }
+
+        .myui-vodlist__text li a,
+        .myui-vodlist__media li {
+            padding: 10px 0;
+        }
+
+        .myui-screen__list {
+            padding: 5px 5px 0;
+        }
+
+        .myui-screen__list li {
+            margin-right: 10px;
+        }
+
+        .myui-page {
+            padding: 0 10px;
+        }
+
+        .myui-extra {
+            right: 20px;
+            bottom: 30px;
+        }
+
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 1920px;
+            }
+
+            .container {
+                padding-left: 120px;
+                padding-right: 120px;
+            }
+
+            .container.min {
+                width: 1200px;
+                padding: 0;
+            }
+        }
+
+        @media (max-width: 767px) {
+
+            body,
+            body.active {
+                padding-bottom: 50px;
+            }
+
+            [class*=col-],
+            .myui-panel,
+            .myui-content__list li {
+                padding: 5px
+            }
+
+            .flickity-prev-next-button.previous {
+                left: 5px;
+            }
+
+            .flickity-prev-next-button.next {
+                right: 5px;
+            }
+
+            .myui-vodlist__text li a,
+            .myui-vodlist__media li {
+                padding: 10px 0;
+            }
+
+            .myui-screen__list {
+                padding: 10px 5px 0;
+            }
+
+            .myui-screen__list li {
+                margin-bottom: 5px;
+                margin-right: 5px;
+            }
+
+            .myui-extra {
+                right: 20px;
+                bottom: 50px;
+            }
+
+            .myui-page {
+                padding: 0 5px;
+            }
+        }
+
+        .myui-topbg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+        }
+
+        .myui-header__search {
+            position: relative;
+        }
+
+        .myui-header__menu>li {
+            margin-left: 25px;
+        }
+
+        .myui-header__menu>li .dropdown-box {
+            margin-left: -150px;
+        }
+
+        .myui-header__menu>li .dropdown-box .item {
+            width: 250px;
+        }
+
+        .filter {
+            font-size: medium;
+        }
+
+        .menu_header {
+            height: 40px;
+        }
+
+        .m3u_list {
+            font-size: 16px;
+            padding: 10px 4px;
+            width: 450px;
+        }
+
+        .item_nba {
+            font-size: 20px;
+            /* margin: 0;
+            padding: 20px;
+            position: relative; */
+        }
+    </style>
+    
+    <script>
+        function logout() {
+            location.href = '/logout';
+        }
+        function copy_to_clipboard(id) {
+            var copyText = document.getElementById(id);
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); /* For mobile devices */
+            navigator.clipboard.writeText(copyText.value);
+            // alert("Copied the text: " + copyText.value);
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <header class="myui-header__top clearfix" id="header-top">
+        <div class="container" style="margin-bottom: 4px;">
+            <div class="row">
+                <div class="myui-header_bd clearfix">
+                    <div class="myui-header__logo" style="padding-top: 5px;">
+                        <a class="logo" href="/">
+                            <img class="img-responsive hidden-xs" src="../static/images/logo.png"
+                                style="width:100px;height:50px" />
+                            <img class="img-responsive visible-xs" src="../static/images/logo.png"
+                                style="width:80px;height:40px" />
+                        </a>
+                    </div>
+
+                    <ul class="myui-header__menu">
+                        <!-- <li class="active"><a class="logo" href="/">Home</a></li> -->
+                        <li class="menu_header"><a href="/apk">APK</a></li>
+                        <li class="menu_header"><a href="https://github.com/pkj99/kodi">KODI</a></li>
+                        <li class="menu_header"><a href="/tv">TV</a></li>
+                    </ul>
+                </div>
+
+                <ul class="myui-header__user">
+                </ul>
+
+
+
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="myui-panel myui-panel-bg clearfix">
+                <div class="myui-panel-box clearfix">
+                    <div class="myui-panel_hd">
+                        <div class="myui-panel__head clearfix">
+                            <span class="text-muted more pull-right"><i class="fa fa-user"></i>
+                                 <a href="/logout">logout</a>
+
+                                
+
+
+                            </span>
+                            <h3 class="title">
+                                
+                                <li><H2> DIYP Configuration </H2></li><li><button type="button" class="btn btn-secondary" onclick=copy_to_clipboard("iptvtxt")>Copy</button>IPTV.txt : <input class="m3u_list" type="text" id="iptvtxt" value="https://pkjweb.herokuapp.com/iptv.txt"></li><li><button type="button" class="btn btn-secondary" onclick=copy_to_clipboard("epgdiyp")>Copy</button>EPG for DIYP : <input class="m3u_list" type="text" id="epgdiyp" value="http://epg.51zmt.top:8000/api/diyp/"></li>
+                                
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="myui-panel-box clearfix">
+                    <div class="myui-panel_bd">
+
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+
+    <div class="myui-foot clearfix">
+        <div class="container min">
+            <div class="row">
+                <div class="col-pd text-center masked">
+                    <p class="margin-0">本站為程式開發測試之用，資料蒐集於網際網路，版權歸官方所有 Powered by PKJ Studio 2021</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
