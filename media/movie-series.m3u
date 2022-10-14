@@ -21,7 +21,7 @@ https://m3u.if101.tv/xm3u8/1400f0ac824fdd8393a2adf40cec1c40c4f7533244a0df36236be
 #EXTINF:-1 tvg-logo="https://img.if101.tv/ximgs/a28cd049a029534186c838788b913bf601aa1890e10c3b8b08163aa05ebfdc79f88d0c8e13168c6c15320beb2ecce247.jpg" tvg-name="不可能的任務：全面瓦解" group-title="不可能的任務",不可能的任務：全面瓦解
 https://m3u.if101.tv/xm3u8/1400f0ac824fdd8393a2adf40cec1c40c4f7533244a0df36236becee12b50ae49921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://img.if101.tv/ximgs/183af537d926aa5c61aecbd1101dcfd53f68be1f0ec82426cd10da8491c95d828eda553b0545b36bab7a609ae4890d27.jpg" tvg-name="不可能的任務：失控國度" group-title="不可能的任務",不可能的任務：失控國度
-https://m3u.if101.tv/xm3u8/e9c21d5c385f860a53f209be69a283a3b125b8ef3d7456bb7bdd588aae393a729921f11e97d0da21.m3u8
+https://vod.bunediy.com/20200707/IJG0Drvd/index.m3u8
 #EXTINF:-1 tvg-logo="https://img.if101.tv/ximgs/183af537d926aa5cfbc6dc688ccc5098cfc9a75751bbefaa751bcc3e2ec25a0a3b8c3cfd50876182fede4dfc0c80979d.jpg" tvg-name="不可能的任務：鬼影行動" group-title="不可能的任務",不可能的任務：鬼影行動
 https://m3u.if101.tv/xm3u8/0ddd0369e9fbde9f1bb30a354360baf97ffd8f2f3794cc264b0b443bb29b40e49921f11e97d0da21.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
@@ -267,6 +267,8 @@ https://m3u.if101.tv/xm3u8/97f76f048fb72d2b7b6d95b2d666869c61630b166f70e0b9b2973
 https://pkjweb.herokuapp.com/static/4gtv/哥吉拉之南海大決鬥.1966.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202103120020/哥吉拉之怪獸大戰爭.jpg" tvg-name="哥吉拉之怪獸大戰爭" group-title="哥吉拉",哥吉拉之怪獸大戰爭
 https://pkjweb.herokuapp.com/static/4gtv/哥吉拉之怪獸大戰爭.1965.4gtv.m3u8
+#EXTINF:-1 tvg-logo="https://img.1777cdn.com/upload/vod/20210404-1/015ea3143e1c6d88defef802853c01dc.jpg" tvg-name="哥吉拉大戰金剛" group-title="哥吉拉",哥吉拉大戰金剛
+https://vod.bunediy.com/20210331/LBhwkrkZ/index.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/201906210004/600x848_動漫.jpg" tvg-name="哥吉拉的誕生" group-title="哥吉拉",哥吉拉的誕生
 https://pkjweb.herokuapp.com/static/4gtv/哥吉拉的誕生.1954.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202103120023/哥吉拉的逆襲.jpg" tvg-name="哥吉拉的逆襲" group-title="哥吉拉",哥吉拉的逆襲

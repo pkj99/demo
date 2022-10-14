@@ -1,14 +1,12 @@
 台灣頻道,#genre#
 HBO Family,http://50.7.220.74:8278/fyi_twn/playlist.m3u8?tid=MFCF7312728573127285&ct=18393&tsum=bc4d3db9ca83c3765cc75512a1bbbbe3
-HBO HD,http://50.7.220.74:8278/hbohd_twn/playlist.m3u8?tid=ME7E8473082984730829&ct=18392&tsum=acad12b7c208bda39b68dec98349e138
 HBO HITS,http://50.7.220.74:8278/hbohead_twn/playlist.m3u8?tid=MCDC6663932966639329&ct=19193&tsum=6999a99699b097f3af2ef550e5c81f93
 TVBS-Asia,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
 TVBSG,http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
-东森戏剧 HD,http://50.7.220.74:8278/ettvdrama/playlist.m3u8?tid=m921dcb630ebe17354109&ct=17874&tsum=695370160923af940d1a90d44c262acc
-东森综合 HD,http://50.7.220.74:8278/ettvzhonghe/playlist.m3u8?tid=m65c4e525f24617101171&ct=17874&tsum=663db593cfeefc92ce4b5d7461988f3f
 东森美洲,http://38.64.72.148:80/hls/modn/list/2015/chunklist1.m3u8
 中天娱乐 HD,http://50.7.220.74:8278/ctient/playlist.m3u8?tid=MA8A3069789530697895&ct=19193&tsum=20c49fe9e15ad366c6e32b141f03bf8a
 华视 HD,http://50.7.220.74:8278/ctshd_twn/playlist.m3u8?tid=MD3D4860867448608674&ct=19193&tsum=773d4005ddbc68ed16154cc49ba1fc76
+台视新闻 HD,http://50.7.220.74:8278/ttvnews_twn/playlist.m3u8?tid=MD9D1039476110394761&ct=19193&tsum=9f33349842788bfb7b0e90e93f7bf02c
 台视,rtmp://59.124.75.138/sat/tv071
 台视,rtmp://161.202.204.248/sat/tv071
 台视,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=76
@@ -18,9 +16,8 @@ TVBSG,http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
 华视,rtmp://161.202.204.248/sat/tv111
 华视,rtmp://59.124.75.138/sat/tv111
 华视,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=53
-公视,http://50.7.220.74:8278/ctv_taiwan/playlist.m3u8?tid=13765524&ct=17990&tsum=03eb77c1c186944b97737f14e95076c0
 公视,http://50.7.220.74:8278/ctv_taiwan/playlist.m3u8?tid=MD4D6839548568395485&ct=19193&tsum=56b3e3b150f4fcbc1877e081b313bcd4
-三立台湾台,http://50.7.220.74:8278/sanlitaiwan/playlist.m3u8?tid=MBFB2351438523514385&ct=19193&tsum=15393958be0bf6c0905bbb578dad1240
+公视,http://50.7.220.74:8278/ctv_taiwan/playlist.m3u8?tid=13765524&ct=17990&tsum=03eb77c1c186944b97737f14e95076c0
 东森超视,rtmp://59.124.75.138/sat/tv521
 东森超视,rtmp://161.202.204.248/sat/tv521
 东森超视,rtmp://161.202.204.248:1935/sat/tv521
@@ -29,13 +26,13 @@ TVBSG,http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
 东森新闻台,http://seb.sason.top/sc/dsxw_fhd.m3u8
 东森新闻台,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=43
 华视新闻,http://seb.sason.top/sc/hsxw_fhd.m3u8
-三立新闻台,http://seb.sason.top/sc/slinews_fhd.m3u8
 三立新闻台,http://seb.sason.top/sc/sllive_fhd.m3u8
+三立新闻台,http://seb.sason.top/sc/slinews_fhd.m3u8
 三立新闻台,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=75
 TVBS新闻台,http://seb.sason.top/sc/tvbsxw_fhd.m3u8
-TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 TVBS新闻台,http://38.64.72.148/hls/modn/list/4006/chunklist0.m3u8
 TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist0.m3u8
+TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 TVBS新闻台,rtmp://161.202.204.248/sat/tv551
 TVBS新闻台,rtmp://161.202.204.248:1935/sat/tv551
 TVBS新闻台,rtmp://59.124.75.138/sat/tv551
@@ -48,7 +45,6 @@ TVBS新闻台,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=81
 中视新闻,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=90
 中天新闻台,http://seb.sason.top/sc/ztxw_fhd.m3u8
 寰宇新闻,http://seb.sason.top/sc/hyxw.m3u8
-AXN,http://50.7.220.74:8278/axn_twn/playlist.m3u8?tid=m1776995e9b3e16458394&ct=17874&tsum=b8a111d0b13c7761ce8b4e8f047adddb
 TVBS,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=78
 纬来育乐台,rtmp://59.124.75.138/sat/tv701
 纬来育乐台,rtmp://161.202.204.248/sat/tv701
@@ -61,8 +57,8 @@ ELEVEN体育一台,rtmp://59.124.75.138:1935/sat/tv731
 ELEVEN体育一台,rtmp://161.202.204.248:1935/sat/tv731
 ELEVEN体育一台,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=50
 ELEVEN体育二台,rtmp://59.124.75.138:1935/sat/tv741
-ELEVEN体育二台,rtmp://161.202.204.248:1935/sat/tv741
 ELEVEN体育二台,rtmp://161.202.204.248/sat/md041
+ELEVEN体育二台,rtmp://161.202.204.248:1935/sat/tv741
 ELEVEN体育二台,rtmp://59.124.75.138/sat/md041
 ELEVEN体育二台,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=51
 MoMo综合台,rtmp://59.124.75.138/sat/tv761
@@ -86,8 +82,8 @@ TVBS欢乐台,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=79
 台视新闻台,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=77
 爱尔达体育1,rtmp://161.202.204.248/sat/md021
 爱尔达体育1,rtmp://59.124.75.138:1935/sat/md011
-爱尔达体育1,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=47
 爱尔达体育1,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=46
+爱尔达体育1,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=47
 爱尔达体育2,rtmp://161.202.204.248/sat/md031
 爱尔达体育2,rtmp://59.124.75.138:1935/sat/md021
 爱尔达体育2,rtmp://59.124.75.138:1935/sat/md041
@@ -95,19 +91,19 @@ TVBS欢乐台,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=79
 爱尔达体育3,rtmp://59.124.75.138:1935/sat/md051
 新聞頻道,#genre#
 TVBS新闻台,http://seb.sason.top/sc/tvbsxw_fhd.m3u8
-TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
-TVBS新闻台,https://epg.pm/stream/215ede58359c29ec190657d813abcc47baf7316e7ed87c97638c7bb733df304a.m3u8
-TVBS新闻台,https://epg.pm/stream/b25d1fa77951f24d82b6f83f0a6eb8e9a9d4f22fc734ff47c86e3ac7a9d3e65a.m3u8
-TVBS新闻台,https://epg.pm/stream/472a4d7fa23f959fa1dcb24e36ec10d6ae18d6cb906e6d655991d3932f7e34d0.m3u8
 TVBS新闻台,http://38.64.72.148/hls/modn/list/4006/chunklist0.m3u8
 TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist0.m3u8
+TVBS新闻台,https://epg.pm/stream/472a4d7fa23f959fa1dcb24e36ec10d6ae18d6cb906e6d655991d3932f7e34d0.m3u8
+TVBS新闻台,https://epg.pm/stream/215ede58359c29ec190657d813abcc47baf7316e7ed87c97638c7bb733df304a.m3u8
+TVBS新闻台,https://epg.pm/stream/b25d1fa77951f24d82b6f83f0a6eb8e9a9d4f22fc734ff47c86e3ac7a9d3e65a.m3u8
+TVBS新闻台,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 TVBS新闻台,rtmp://59.124.75.138/sat/tv551
 TVBS新闻台,rtmp://59.124.75.138:1935/sat/tv551
 TVBS新闻台,rtmp://161.202.204.248/sat/tv551
 TVBS新闻台,rtmp://161.202.204.248:1935/sat/tv551
 TVBS新闻台,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=81
-三立新闻台,http://seb.sason.top/sc/slinews_fhd.m3u8
 三立新闻台,http://seb.sason.top/sc/sllive_fhd.m3u8
+三立新闻台,http://seb.sason.top/sc/slinews_fhd.m3u8
 三立新闻台,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=75
 东森新闻台,http://seb.sason.top/sc/dsxw_fhd.m3u8
 东森新闻台,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=43
@@ -119,10 +115,11 @@ TVBS新闻台,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=81
 中视新闻,http://seb.sason.top/sc/zsxw_fhd.m3u8
 中视新闻,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=90
 华视新闻,http://seb.sason.top/sc/hsxw_fhd.m3u8
+台视新闻 HD,http://50.7.220.74:8278/ttvnews_twn/playlist.m3u8?tid=MD9D1039476110394761&ct=19193&tsum=9f33349842788bfb7b0e90e93f7bf02c
 台视新闻台,http://seb.sason.top/sc/tsxw_fhd.m3u8
 台视新闻台,http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
-台视新闻台,https://epg.pm/stream/dc6941ad1ea0592ef8189f4315353b7de9f8a1d5574caa04298de9f154c2f46d.m3u8
 台视新闻台,http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8
+台视新闻台,https://epg.pm/stream/dc6941ad1ea0592ef8189f4315353b7de9f8a1d5574caa04298de9f154c2f46d.m3u8
 台视新闻台,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=77
 壹电视新闻台,https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=86
 寰宇新闻,http://seb.sason.top/sc/hyxw.m3u8
