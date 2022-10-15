@@ -40,7 +40,7 @@
       "subTitle": "",
       "click": true,
       "autoNext": false,
-      "webOpen": false,
+      "webOpen": true,
       "keyDownPlay": true,
       "keyUpPlay": true,
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4535.3 Safari/537.36",
@@ -61,7 +61,7 @@
       "keyUpPlay": true,
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4535.3 Safari/537.36",
       "ads": "",
-      "decoder": 0,
+      "decoder": 1,
       "webPlus": {}
     },
     {
