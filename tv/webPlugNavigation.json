@@ -153,9 +153,9 @@
             "isListItemAttr": true,
             "listCss": "div.myui-panel_bd.clearfix",
             "isMultiList": true,
-            "listCssMulti": "ul > li > h4",
+            "listCssMulti": "ul > li",
             "listItemAttr": "href",
-            "listItemCss": "a",
+            "listItemCss": "a.play-m3u8",
             "listItemIndex": 0,
             "mainCss": "div.myui-panel.myui-panel-bg.clearfix",
             "mainIndex": 0
