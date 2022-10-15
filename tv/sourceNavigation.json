@@ -33,6 +33,22 @@
       "webPlus": {}
     },
     {
+    "name": "電視直播(IPTV2)",
+    "pic": "https://pkj99.github.io/demo/images/iptv.png",
+    "webUrl": "https://pkj99.github.io/demo/media/iptv.txt",
+    "type": "txt",
+    "subTitle": "",
+    "click": true,
+    "autoNext": false,
+    "webOpen": false,
+    "keyDownPlay": true,
+    "keyUpPlay": true,
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4535.3 Safari/537.36",
+    "ads": "",
+    "decoder": 0,
+    "webPlus": {}
+  },
+    {
       "name": "熱播電影",
       "pic": "https://pkj99.github.io/demo/images/watch_online.png",
       "webUrl": "https://pkj99.github.io/demo/media/movie-hits.m3u",
@@ -40,7 +56,7 @@
       "subTitle": "",
       "click": true,
       "autoNext": false,
-      "webOpen": true,
+      "webOpen": false,
       "keyDownPlay": true,
       "keyUpPlay": true,
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4535.3 Safari/537.36",
@@ -61,7 +77,7 @@
       "keyUpPlay": true,
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4535.3 Safari/537.36",
       "ads": "",
-      "decoder": 1,
+      "decoder": 0,
       "webPlus": {}
     },
     {
