@@ -58,7 +58,7 @@
             "isListItemAttr": true,
             "listCss": "div.myui-panel_hd",
             "isMultiList": true,
-            "listCssMulti": "ul > li",
+            "listCssMulti": "ul > li > div.myui-vodlist__detail",
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
