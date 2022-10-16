@@ -1,94 +1,259 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
     <meta http-equiv="Cache-Control" content="max-age=604800" />
     <link rel="icon" href="images/movie.ico">
-    <link rel="stylesheet" href="css/movie.css" />
-    <link rel="canonical" href="https://getbootstrap.com/">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/docs.css" rel="stylesheet">
     <title>DEMO</title>
-    <link rel="stylesheet" href="css/mystyle.css" type="text/css" />
-</head>
+    <link rel="canonical" href="https://bootstrap5.hexschool.com/docs/5.1/examples/offcanvas-navbar/">
 
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/docs.min.js"></script>
-<script src="js/cn.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-<script>
-    var i = 0;
-    var k = 0;
-    function slide() {
+    <meta name="theme-color" content="#7952b3">
+
+    <!-- Favicons -->
+<!-- <link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#7952b3"> -->
+
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .center {
+        text-align: center;
+        }
+    </style>
+    
+    <!-- Custom styles for this template -->
+    <link href="css/offcanvas.css" rel="stylesheet">
+
+    
+        <script>
+        var i = 0;
+        var k = 0;
+        function slide() {
         css_url = new Array("cube.html", "morph.html", "dominoes.html", "cradle.html");
         k = i % 4;
         document.getElementById('xlogo').src = css_url[k];
         //alert(css_url[k]);
         i++;
         setTimeout("slide()", 32000);
-    }
-</script>
+        }
+        </script>
 
-<body onload='slide();'>
+</head>    
 
-    <header class="navbar navbar-expand-md navbar-dark bd-navbar">
-        <nav class="container-fluid flex-wrap flex-md-nowrap" aria-label="Main navigation">
-            <a class="navbar-brand" href="index.html"><img src="images/home.png" height=40px></a>
 
-            <div class="collapse navbar-collapse" id="bdNavbar">
-                <ul class="navbar-nav flex-row flex-wrap me-auto mb-2 mb-lg-0">
-                    <li class="nav-item col-6 col-md-auto"><a class="nav-link ps-3 pe-3" href="cube.html">cube</a></li>
-                    <li class="nav-item col-6 col-md-auto"><a class="nav-link ps-3 pe-3" href="cradle.html">cradle</a>
-                    </li>
-                    <li class="nav-item col-6 col-md-auto"><a class="nav-link ps-3 pe-3"
-                            href="dominoes.html">dominoes</a>
-                    </li>
-                    <li class="nav-item col-6 col-md-auto"><a class="nav-link ps-3 pe-3" href="morph.html">morph</a>
-                    </li>
-                    <li class="nav-item col-6 col-md-auto"><a class="nav-link ps-3 pe-3"
-                            href="turningpages.html">turningpages</a> </li>
-							
-                    <li class="nav-item col-6 col-md-auto"><a class="nav-link ps-3 pe-3"
-                            href="https://pkj99.github.io/demo/media/MEDIA.zip">MEDIA</a> </li>
-							
-                    <li class="nav-item col-6 col-md-auto"><a class="nav-link ps-3 pe-3"
-                            href="https://pkj99.github.io/demo/media/KODIMEDIA.zip">KODI-MEDIA</a> </li>
-
-                    <li class="nav-item col-6 col-md-auto"><a class="nav-link ps-3 pe-3"
-                            href="tv.html">TV</a> </li>
+<!-- <body class="bg-light" onload='slide();'> -->
+<body class="bg-light">
     
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">
+        <!-- <img class="img-responsive hidden-xs" src="../images/logo.png"  style="width:100px;height:50px" /> -->
+        <img src="images/home.png" style="width:40px;height:40px" />
+    </a>
+    <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-                    <li class="nav-item col-6 col-md-auto"><a class="nav-link ps-3 pe-3"
-                            href="https://pkj99.github.io/demo/apk/index.html">APK</a> </li>
-
-                    <li class="nav-item col-6 col-md-auto"><a class="nav-link ps-3 pe-3"
-                            href="https://www.gdaily.org/app">Gdaily</a> </li>
-
-                    <li class="nav-item col-6 col-md-auto"><a class="nav-link ps-3 pe-3"
-                            href="https://www.dibotv.xyz/">DIBO</a> </li>
-
-                    <li class="nav-item col-6 col-md-auto"><a class="nav-link ps-3 pe-3"
-                            href="https://ub6789.com/">UB6789</a> </li>
-                                
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
 
-
-    <div style='clear:both;'></div>
-
-    <div class="container-fluid center" style="padding:0;">
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">DOWNLOAD</a>
+        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                      
+                <li class="nav-item"><a class="dropdown-item" href="https://pkj99.github.io/demo/media/MEDIA.zip">MEDIA</a> </li>
+                <li class="nav-item"><a class="dropdown-item" href="https://pkj99.github.io/demo/media/KODIMEDIA.zip">KODI-MEDIA</a> </li>
+                <!-- <li class="nav-item"><a class="dropdown-item" href="tv.html">TV</a> </li> -->
         
-        <iframe id=xlogo src='cube.html' width=100% height=800px></iframe>
-        
+        </ul>
+        </li>
+                
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-bs-toggle="dropdown" aria-expanded="false">APK</a>
+        <ul class="dropdown-menu" aria-labelledby="dropdown02">
+              
+                <li class="nav-item"><a class="dropdown-item" href="https://pkj99.github.io/demo/apk/index.html">APK</a> </li>
+                <li class="nav-item"><a class="dropdown-item" href="https://www.gdaily.org/app">Gdaily</a> </li>
+                <li class="nav-item"><a class="dropdown-item" href="https://www.dibotv.xyz/">DIBO</a> </li>
+                <li class="nav-item"><a class="dropdown-item" href="https://ub6789.com/">UB6789</a> </li>
+        </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">CSS</a>
+        <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                <li><a class="dropdown-item" href="cube.html">cube</a></li>
+                <li><a class="dropdown-item" href="cradle.html">cradle</a></li>
+                <li><a class="dropdown-item" href="dominoes.html">dominoes</a></li>
+                <li><a class="dropdown-item" href="morph.html">morph</a></li>
+                <li><a class="dropdown-item" href="turningpages.html">turningpages</a></li>
+        </ul>
+        </li>
+      </ul>
+      <!-- <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> -->
     </div>
-    <div style='clear:both;'></div><br>
+  </div>
+</nav>
+<!-- 
+<div class="nav-scroller bg-body shadow-sm">
+  <nav class="nav nav-underline" aria-label="Secondary navigation">
+    <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+    <a class="nav-link" href="#">
+      Friends
+      <span class="badge bg-light text-dark rounded-pill align-text-bottom">27</span>
+    </a>
+    <a class="nav-link" href="#">Explore</a>
+    <a class="nav-link" href="#">Suggestions</a>
+    <a class="nav-link" href="#">Link</a>
+    <a class="nav-link" href="#">Link</a>
+    <a class="nav-link" href="#">Link</a>
+    <a class="nav-link" href="#">Link</a>
+    <a class="nav-link" href="#">Link</a>
+  </nav>
+</div> -->
 
+<main class="container">
+        <div style='clear:both;'></div>
+
+        <div class="container-fluid center" style="padding:30px;">
+            
+            <iframe id=xlogo src='cube.html' width=100% height=400px></iframe>
+            
+        </div>
+        <div style='clear:both;'></div><br>
+
+
+        <!-- <div>
+        
+                <table style = "border: solid; padding:10; font-size: 12pt;">
+                <tr><td>FreeDTV : </td><td>https://pkj99.github.io/demo/tv/</td></tr>
+                <tr><td>DIYP : </td><td>https://pkj99.github.io/demo/media/iptv.txt</td></tr>
+                <tr><td>Tivimate : </td><td>https://pkj99.github.io/demo/media/iptv.m3u</td></tr>
+                <tr><td>EPG :   </td><td>http://epg.51zmt.top:8000/e.xml<br> http://epg.51zmt.top:8000/api/diyp/</td></tr>
+                </table>
+        
+        </div> -->
+
+  <div class="d-flex align-items-center p-3 my-3 text-white bg-purple rounded shadow-sm">
+    <img class="me-3" src="images/iptv.png" alt="" width="48" height="38">
+    <div class="lh-1">
+      <h1 class="h6 mb-0 text-white lh-1">IPTV</h1>
+      <small>Tips</small>
+    </div>
+  </div>
+
+  <div class="my-3 p-3 bg-body rounded shadow-sm">
+    <h6 class="border-bottom pb-2 mb-0">Configuration path</h6>
+    <div class="d-flex text-muted pt-3">
+      <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#007bff"/><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text></svg>
+
+      <p class="pb-3 mb-0 small lh-sm border-bottom">
+        <strong class="d-block text-gray-dark">FreeDTV</strong>
+        https://pkj99.github.io/demo/tv/
+      </p>
+    </div>
+    <div class="d-flex text-muted pt-3">
+      <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#e83e8c"/><text x="50%" y="50%" fill="#e83e8c" dy=".3em">32x32</text></svg>
+
+      <p class="pb-3 mb-0 small lh-sm border-bottom">
+        <strong class="d-block text-gray-dark">DIYP</strong>
+        https://pkj99.github.io/demo/media/iptv.txt
+      </p>
+    </div>
+    <div class="d-flex text-muted pt-3">
+      <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#6f42c1"/><text x="50%" y="50%" fill="#6f42c1" dy=".3em">32x32</text></svg>
+
+      <p class="pb-3 mb-0 small lh-sm border-bottom">
+        <strong class="d-block text-gray-dark">Tivimate</strong>
+        https://pkj99.github.io/demo/media/iptv.m3u
+      </p>
+    </div>
+    <div class="d-flex text-muted pt-3">
+        <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#2f43c1"/><text x="50%" y="50%" fill="#2f43c1" dy=".3em">32x32</text></svg>
+  
+        <p class="pb-3 mb-0 small lh-sm border-bottom">
+          <strong class="d-block text-gray-dark">EPG</strong>
+          http://epg.51zmt.top:8000/e.xml<br> http://epg.51zmt.top:8000/api/diyp/
+        </p>
+      </div>
+  
+
+    <!-- <small class="d-block text-end mt-3">
+      <a href="#">All updates</a>
+    </small> -->
+  </div>
+<!-- 
+  <div class="my-3 p-3 bg-body rounded shadow-sm">
+    <h6 class="border-bottom pb-2 mb-0">Suggestions</h6>
+    <div class="d-flex text-muted pt-3">
+      <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#007bff"/><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text></svg>
+
+      <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+        <div class="d-flex justify-content-between">
+          <strong class="text-gray-dark">Full Name</strong>
+          <a href="#">Follow</a>
+        </div>
+        <span class="d-block">@username</span>
+      </div>
+    </div>
+    <div class="d-flex text-muted pt-3">
+      <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#007bff"/><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text></svg>
+
+      <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+        <div class="d-flex justify-content-between">
+          <strong class="text-gray-dark">Full Name</strong>
+          <a href="#">Follow</a>
+        </div>
+        <span class="d-block">@username</span>
+      </div>
+    </div>
+    <div class="d-flex text-muted pt-3">
+      <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#007bff"/><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text></svg>
+
+      <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+        <div class="d-flex justify-content-between">
+          <strong class="text-gray-dark">Full Name</strong>
+          <a href="#">Follow</a>
+        </div>
+        <span class="d-block">@username</span>
+      </div>
+    </div>
+    <small class="d-block text-end mt-3">
+      <a href="#">All suggestions</a>
+    </small>
+  </div> -->
+
+
+
+</main>
 
 
     <footer class="navbar fixed-bottom navbar-expand-md navbar-dark bg-dark">
@@ -135,8 +300,11 @@
             </div>
         </nav>
     </footer>
+    <br>
     <div class="center">本站為程式開發測試之用，資料蒐集於網際網路，版權歸官方所有</div>
 
-</body>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/offcanvas.js"></script>
 
+</body>
 </html>
