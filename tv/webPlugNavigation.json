@@ -84,7 +84,7 @@
             "nameIndex": 0,
             "searchListCss": "ul > li > div.myui-vodlist__box",
             "urlAttr": "href",
-            "urlCss": "a",
+            "urlCss": "a.myui-vodlist__thumb.lazyload",
             "urlIndex": 0
           },
           "search": {
