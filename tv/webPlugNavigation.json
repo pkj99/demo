@@ -552,9 +552,9 @@
           "mainCss": "div.pannel.clearfix",
           "mainListIndex": 0,
           "nameAttr": "title",
-          "nameCss": "a.vodlist_thumb.lazyload",
+          "nameCss": "a",
           "nameIndex": 0,
-          "searchListCss": "ul > li",
+          "searchListCss": "ul > li.vodlist_item",
           "urlAttr": "href",
           "urlCss": "a",
           "urlIndex": 0
