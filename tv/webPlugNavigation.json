@@ -56,7 +56,7 @@
           "episodes": {
             "hasUrlPrefix": true,
             "isListItemAttr": true,
-            "listCss": "div.myui-panel_hd",
+            "listCss": "div.myui-panel__head.clearfix",
             "isMultiList": true,
             "listCssMulti": "ul > li",
             "listItemAttr": "href",
@@ -84,7 +84,7 @@
             "nameIndex": 0,
             "searchListCss": "ul > li > div.myui-vodlist__box",
             "urlAttr": "href",
-            "urlCss": "a.myui-vodlist__thumb.lazyload",
+            "urlCss": "a",
             "urlIndex": 0
           },
           "search": {
