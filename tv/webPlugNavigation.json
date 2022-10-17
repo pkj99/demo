@@ -222,10 +222,10 @@
       "webOpen": false,
       "click": true,
       "webPlus": {
-        "search_url": "",
+        "search_url": "https://gimytv.tv/search/-------------.html?wd={kw}",
         "nav_url": "https://gimytv.co/genre/navCate---navPage.html",
         "web_name": "Gimy",
-		    "search":false,
+		    "search":true,
         "navHtml": {
           "name": [
             "電影",
@@ -290,7 +290,7 @@
           },
           "search": {
             "descAttr": "",
-            "descCss": "span.hl-lc-1.remarks",
+            "descCss": "span.pic-text.text-right",
             "descIndex": 0,
             "hasUrlPrefix": false,
             "imgAttr": "data-original",
@@ -300,12 +300,12 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "ul.hl-one-list",
+            "mainCss": "div.myui-panel_bd.col-pd.clearfix",
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "li",
+            "searchListCss": "ul > li",
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
