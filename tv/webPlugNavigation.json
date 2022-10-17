@@ -554,7 +554,7 @@
           "nameAttr": "title",
           "nameCss": "a",
           "nameIndex": 0,
-          "searchListCss": "ul > li > div.vodlist_titbox > center",
+          "searchListCss": "ul > li",
           "urlAttr": "href",
           "urlCss": "a",
           "urlIndex": 0
