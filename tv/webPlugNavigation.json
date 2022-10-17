@@ -635,7 +635,7 @@
         "isNameAttr": true,
         "isUrlAttr": true,
         "mainCss": "div.pannel.clearfix > ul",
-        "mainListIndex": 1,
+        "mainListIndex": 0,
         "nameAttr": "title",
         "nameCss": "a",
         "nameIndex": 0,
