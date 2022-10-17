@@ -539,7 +539,7 @@
         },
         "nav": {
           "descAttr": "",
-          "descCss": "li > span.vodlist_top > em.voddate.voddate_year",
+          "descCss": "span.vodlist_top > em.voddate.voddate_year",
           "descIndex": 0,
           "hasUrlPrefix": false,
           "imgAttr": "data-original",
@@ -549,12 +549,12 @@
           "isImgAttr": true,
           "isNameAttr": true,
           "isUrlAttr": true,
-          "mainCss": "ul.vodlist.vodlist_wi.author*qq3626/95/000.clearfix",
+          "mainCss": "div.pannel.clearfix",
           "mainListIndex": 0,
           "nameAttr": "title",
           "nameCss": "a",
           "nameIndex": 0,
-          "searchListCss": "li > div.vodlist_titbox > center",
+          "searchListCss": "ul > li > div.vodlist_titbox > center",
           "urlAttr": "href",
           "urlCss": "a",
           "urlIndex": 0
