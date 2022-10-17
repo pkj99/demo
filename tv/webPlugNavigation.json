@@ -554,10 +554,10 @@
           "nameAttr": "title",
           "nameCss": "a",
           "nameIndex": 0,
-          "searchListCss": "ul > li",
+          "searchListCss": "ul.vodlist.vodlist_wi.author*qq3626/95/000.clearfix > li",
           "urlAttr": "href",
           "urlCss": "a",
-          "urlIndex": 1
+          "urlIndex": 0
         },
         "search": {
           "descAttr": "",
