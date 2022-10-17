@@ -812,13 +812,13 @@
         },
 
         {
-            "name":"modvod(Web)",
+            "name":"nivod(Web)",
             "pic":"https://pkj99.github.io/demo/images/watch_online.png",
             "keyDownPlay":false,
             "keyUpPlay":false,
             "userAgent":"PC",
             "ads":"",
-            "webUrl":"https://www.mudvod.tv/class.html?channelId=1",
+            "webUrl":"https://www.nivod.tv/class.html?channelId=1",
             "webOpen":true,
             "click":true
         }
