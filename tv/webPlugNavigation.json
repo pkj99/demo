@@ -332,16 +332,16 @@
           "name": [
             "電影",
             "電視劇",
-			"國產劇",
-			"日韓劇",
-			"美劇"
+            "國產劇",
+            "日韓劇",
+            "美劇"
           ],
           "cate": [
             "1",
             "2",
-			"13",
-			"15",
-			"14"
+            "13",
+            "15",
+            "14"
           ],
           "page": "1"
         },
@@ -351,9 +351,9 @@
             "isListItemAttr": true,
             "listCss": "div.module-blocklist.scroll-box.scroll-box-y",
             "isMultiList": true,
-            "listCssMulti": "div.scroll-content > a > span",
+            "listCssMulti": "div.scroll-content > a",
             "listItemAttr": "href",
-            "listItemCss": "a",
+            "listItemCss": "a > span",
             "listItemIndex": 0,
             "mainCss": "div.module",
             "mainIndex": 0
@@ -445,22 +445,22 @@
           },
           "nav": {
             "descAttr": "",
-            "descCss": "article.item.movies > div.mepo > span.quality",
+            "descCss": "div.animation-2.items > article.item.movies > div.mepo > span.quality",
             "descIndex": 0,
             "hasUrlPrefix": true,
             "imgAttr": "src",
-            "imgCss": "article.item.movies > div.poster > img",
+            "imgCss": "div.animation-2.items > article.item.movies > div.poster > img",
             "imgIndex": 0,
             "isDescAttr": false,
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.animation-2.items",
+            "mainCss": "div.module",
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "article.item.movies > div.data",
+            "searchListCss": "div.animation-2.items > article.item.movies > div.data",
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
