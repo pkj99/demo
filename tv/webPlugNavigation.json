@@ -1,217 +1,6 @@
 {
     "data":[
 
-	
-	{
-      "name": "PKJ Studio(電影)",
-      "pic": "https://pkj99.github.io/demo/images/movie.png",
-      "type": "webPlug",
-      "ads": "",
-      "webUrl": "https://pkjweb.herokuapp.com/",
-      "webOpen": false,
-      "click": true,
-      "webPlus": {
-        "search_url": "https://pkjweb.herokuapp.com/search?v={kw}",
-        "nav_url": "https://pkjweb.herokuapp.com/navCatep=navPage",
-        "web_name": "PKJ電影",
-        "search":true,
-            "navHtml": {
-              "name": [
-                "熱播",
-                "高分",
-                "隨意看",
-                "漫威",
-                "DC",
-                "NF",
-                "LiTV",
-                "4gTV",
-                "瀏覽",
-                "台",
-                "陸",
-                "港",
-                "日",
-                "韓",
-                "美"
-                    ],
-              "cate": [
-                "hits?",
-                "imdb?",
-                "random?",
-                "marvel?",
-                "dc?",
-                "netflix?",
-                "litv?",
-                "4gtv?",
-                "if101?",
-                "filter?catalog=臺灣&",
-                "filter?catalog=大陸&",
-                "filter?catalog=香港&",
-                "filter?catalog=日本&",
-                "filter?catalog=韓國&",
-                "filter?catalog=歐美&"
-                    ],
-              "page": "1"
-            },
-        "html": {
-          "episodes": {
-            "hasUrlPrefix": true,
-            "isListItemAttr": true,
-            "listCss": "ul.myui-content__list.sort-list.scrollbar.clearfix",
-            "isMultiList": true,
-            "listCssMulti": "li",
-            "listItemAttr": "href",
-            "listItemCss": "a",
-            "listItemIndex": 0,
-            "mainCss": "span.msg-panel",
-            "mainIndex": 0
-          },
-          "nav": {
-            "descAttr": "",
-            "descCss": "span.pic-tag.pic-tag-top",
-            "descIndex": 0,
-            "hasUrlPrefix": false,
-            "imgAttr": "data-original",
-            "imgCss": "a",
-            "imgIndex": 0,
-            "isDescAttr": false,
-            "isImgAttr": true,
-            "isNameAttr": true,
-            "isUrlAttr": true,
-            "mainCss": "ul.myui-vodlist.clearfix",
-            "mainListIndex": 0,
-            "nameAttr": "title",
-            "nameCss": "a",
-            "nameIndex": 0,
-            "searchListCss": "li",
-            "urlAttr": "href",
-            "urlCss": "a",
-            "urlIndex": 0
-          },
-          "search": {
-            "descAttr": "",
-            "descCss": "span.pic-tag.pic-tag-top",
-            "descIndex": 0,
-            "hasUrlPrefix": false,
-            "imgAttr": "data-original",
-            "imgCss": "a",
-            "imgIndex": 0,
-            "isDescAttr": false,
-            "isImgAttr": true,
-            "isNameAttr": true,
-            "isUrlAttr": true,
-            "mainCss": "ul.myui-vodlist.clearfix",
-            "mainListIndex": 0,
-            "nameAttr": "title",
-            "nameCss": "a",
-            "nameIndex": 0,
-            "searchListCss": "li",
-            "urlAttr": "href",
-            "urlCss": "a",
-            "urlIndex": 0
-          }
-        }
-      }
-    },	
-	
-	{
-      "name": "PKJ Studio(電視劇)",
-      "pic": "https://pkj99.github.io/demo/images/tvshow.png",
-      "type": "webPlug",
-      "ads": "",
-      "webUrl": "https://pkjweb.herokuapp.com/",
-      "webOpen": false,
-      "click": true,
-      "webPlus": {
-        "search_url": "https://pkjweb.herokuapp.com/tvshow?word={kw}",
-        "nav_url": "https://pkjweb.herokuapp.com/tvshow?p=navPage&genre=navCate",
-        "web_name": "PKJ電視劇",
-		    "search":true,
-        "navHtml": {
-          "name": [
-            "熱播",
-            "台劇",
-            "陸劇",
-            "日劇",
-            "韓劇",
-            "美劇",
-            "紀錄片",
-            "台灣綜藝",
-            "大陸綜藝"
-                ],
-          "cate": [
-            "熱播",
-            "台劇",
-            "國產劇",
-            "日劇",
-            "韓劇",
-            "歐美劇",
-            "紀錄片",
-            "港台綜藝&catalog=臺灣",
-            "國產綜藝"
-                ],
-          "page": "1"
-        },
-        "html": {
-          "episodes": {
-            "hasUrlPrefix": true,
-            "isListItemAttr": true,
-            "listCss": "ul.myui-content__list.sort-list.scrollbar.clearfix",
-            "isMultiList": true,
-            "listCssMulti": "li",
-            "listItemAttr": "href",
-            "listItemCss": "a",
-            "listItemIndex": 0,
-            "mainCss": "span.msg-panel",
-            "mainIndex": 0
-          },
-          "nav": {
-            "descAttr": "",
-            "descCss": "span.pic-tag.pic-tag-right",
-            "descIndex": 0,
-            "hasUrlPrefix": false,
-            "imgAttr": "data-original",
-            "imgCss": "a",
-            "imgIndex": 0,
-            "isDescAttr": false,
-            "isImgAttr": true,
-            "isNameAttr": true,
-            "isUrlAttr": true,
-            "mainCss": "ul.myui-vodlist.clearfix",
-            "mainListIndex": 0,
-            "nameAttr": "title",
-            "nameCss": "a",
-            "nameIndex": 0,
-            "searchListCss": "li > div.myui-vodlist__box",
-            "urlAttr": "href",
-            "urlCss": "a",
-            "urlIndex": 0
-          },
-          "search": {
-            "descAttr": "",
-            "descCss": "span.pic-tag.pic-tag-right",
-            "descIndex": 0,
-            "hasUrlPrefix": false,
-            "imgAttr": "data-original",
-            "imgCss": "a",
-            "imgIndex": 0,
-            "isDescAttr": false,
-            "isImgAttr": true,
-            "isNameAttr": true,
-            "isUrlAttr": true,
-            "mainCss": "ul.myui-vodlist.clearfix",
-            "mainListIndex": 0,
-            "nameAttr": "title",
-            "nameCss": "a",
-            "nameIndex": 0,
-            "searchListCss": "li > div.myui-vodlist__box",
-            "urlAttr": "href",
-            "urlCss": "a",
-            "urlIndex": 0
-          }
-        }
-      }
-    },	
-
     
 	{
       "name": "Gimy(规则)",
@@ -585,10 +374,6 @@
 },
 
 
-
-
-
-
   {
       "name":"久久看片(规则)",
       "pic":"https://imgpub.chuangkit.com/materials/2021/12/18/7ff10ed7-82ba-4234-b76d-64373dca66bc?x-oss-process=image/resize,w_200/format,webp",
@@ -680,7 +465,7 @@
 
   {
       "name":"爱迪(规则)",
-      "pic":"https://imgpub.chuangkit.com/materials/2021/12/18/702e9f4a-017d-4410-97d3-a3bddd108bb9?x-oss-process=image/resize,w_200/format,webp",
+      "pic":"https://pkj99.github.io/demo/images/aidi.png",
       "type":"webPlug",
       "ads":"",
       "webUrl":"https://aidi.tv",
@@ -693,15 +478,15 @@
           "search":true,
           "navHtml":{
               "name":[
-                  "电影",
-                  "连续剧",
-                  "综艺",
-                  "动漫"
+                  "電影","動作片","喜劇片","愛情片","科幻片","恐怖片","劇情片","戰爭片","傳記",
+                  "連續劇","大陸劇","港台劇","韓劇","美劇","日劇","英劇","泰劇","其他劇",
+                  "綜藝","內地綜藝","港台綜藝","韓國綜藝","歐美綜藝",
+                  "動漫"
               ],
               "cate":[
-                  "dianying",
-                  "lianxuju",
-                  "zongyi",
+                  "dianying","dongzuopian","xijupian","aiqingpian","kehuanpian","kongbupian","juqingpian","zhanzhengpian","zhuanji",
+                  "lianxuju","guochanju","gangtaiju","hanju","meiju","riju","yingju","taiju","qita",
+                  "zongyi","ndzy","gtzy","variety","oumeizongyi",
                   "dongman"
               ],
               "page":"1"
@@ -774,6 +559,223 @@
           }
       }
   },
+
+
+
+	
+	{
+    "name": "PKJ Studio(電影)",
+    "pic": "https://pkj99.github.io/demo/images/movie.png",
+    "type": "webPlug",
+    "ads": "",
+    "webUrl": "https://pkjweb.herokuapp.com/",
+    "webOpen": false,
+    "click": true,
+    "webPlus": {
+      "search_url": "https://pkjweb.herokuapp.com/search?v={kw}",
+      "nav_url": "https://pkjweb.herokuapp.com/navCatep=navPage",
+      "web_name": "PKJ電影",
+      "search":true,
+          "navHtml": {
+            "name": [
+              "熱播",
+              "高分",
+              "隨意看",
+              "漫威",
+              "DC",
+              "NF",
+              "LiTV",
+              "4gTV",
+              "瀏覽",
+              "台",
+              "陸",
+              "港",
+              "日",
+              "韓",
+              "美"
+                  ],
+            "cate": [
+              "hits?",
+              "imdb?",
+              "random?",
+              "marvel?",
+              "dc?",
+              "netflix?",
+              "litv?",
+              "4gtv?",
+              "if101?",
+              "filter?catalog=臺灣&",
+              "filter?catalog=大陸&",
+              "filter?catalog=香港&",
+              "filter?catalog=日本&",
+              "filter?catalog=韓國&",
+              "filter?catalog=歐美&"
+                  ],
+            "page": "1"
+          },
+      "html": {
+        "episodes": {
+          "hasUrlPrefix": true,
+          "isListItemAttr": true,
+          "listCss": "ul.myui-content__list.sort-list.scrollbar.clearfix",
+          "isMultiList": true,
+          "listCssMulti": "li",
+          "listItemAttr": "href",
+          "listItemCss": "a",
+          "listItemIndex": 0,
+          "mainCss": "span.msg-panel",
+          "mainIndex": 0
+        },
+        "nav": {
+          "descAttr": "",
+          "descCss": "span.pic-tag.pic-tag-top",
+          "descIndex": 0,
+          "hasUrlPrefix": false,
+          "imgAttr": "data-original",
+          "imgCss": "a",
+          "imgIndex": 0,
+          "isDescAttr": false,
+          "isImgAttr": true,
+          "isNameAttr": true,
+          "isUrlAttr": true,
+          "mainCss": "ul.myui-vodlist.clearfix",
+          "mainListIndex": 0,
+          "nameAttr": "title",
+          "nameCss": "a",
+          "nameIndex": 0,
+          "searchListCss": "li",
+          "urlAttr": "href",
+          "urlCss": "a",
+          "urlIndex": 0
+        },
+        "search": {
+          "descAttr": "",
+          "descCss": "span.pic-tag.pic-tag-top",
+          "descIndex": 0,
+          "hasUrlPrefix": false,
+          "imgAttr": "data-original",
+          "imgCss": "a",
+          "imgIndex": 0,
+          "isDescAttr": false,
+          "isImgAttr": true,
+          "isNameAttr": true,
+          "isUrlAttr": true,
+          "mainCss": "ul.myui-vodlist.clearfix",
+          "mainListIndex": 0,
+          "nameAttr": "title",
+          "nameCss": "a",
+          "nameIndex": 0,
+          "searchListCss": "li",
+          "urlAttr": "href",
+          "urlCss": "a",
+          "urlIndex": 0
+        }
+      }
+    }
+  },	
+
+{
+    "name": "PKJ Studio(電視劇)",
+    "pic": "https://pkj99.github.io/demo/images/tvshow.png",
+    "type": "webPlug",
+    "ads": "",
+    "webUrl": "https://pkjweb.herokuapp.com/",
+    "webOpen": false,
+    "click": true,
+    "webPlus": {
+      "search_url": "https://pkjweb.herokuapp.com/tvshow?word={kw}",
+      "nav_url": "https://pkjweb.herokuapp.com/tvshow?p=navPage&genre=navCate",
+      "web_name": "PKJ電視劇",
+      "search":true,
+      "navHtml": {
+        "name": [
+          "熱播",
+          "台劇",
+          "陸劇",
+          "日劇",
+          "韓劇",
+          "美劇",
+          "紀錄片",
+          "台灣綜藝",
+          "大陸綜藝"
+              ],
+        "cate": [
+          "熱播",
+          "台劇",
+          "國產劇",
+          "日劇",
+          "韓劇",
+          "歐美劇",
+          "紀錄片",
+          "港台綜藝&catalog=臺灣",
+          "國產綜藝"
+              ],
+        "page": "1"
+      },
+      "html": {
+        "episodes": {
+          "hasUrlPrefix": true,
+          "isListItemAttr": true,
+          "listCss": "ul.myui-content__list.sort-list.scrollbar.clearfix",
+          "isMultiList": true,
+          "listCssMulti": "li",
+          "listItemAttr": "href",
+          "listItemCss": "a",
+          "listItemIndex": 0,
+          "mainCss": "span.msg-panel",
+          "mainIndex": 0
+        },
+        "nav": {
+          "descAttr": "",
+          "descCss": "span.pic-tag.pic-tag-right",
+          "descIndex": 0,
+          "hasUrlPrefix": false,
+          "imgAttr": "data-original",
+          "imgCss": "a",
+          "imgIndex": 0,
+          "isDescAttr": false,
+          "isImgAttr": true,
+          "isNameAttr": true,
+          "isUrlAttr": true,
+          "mainCss": "ul.myui-vodlist.clearfix",
+          "mainListIndex": 0,
+          "nameAttr": "title",
+          "nameCss": "a",
+          "nameIndex": 0,
+          "searchListCss": "li > div.myui-vodlist__box",
+          "urlAttr": "href",
+          "urlCss": "a",
+          "urlIndex": 0
+        },
+        "search": {
+          "descAttr": "",
+          "descCss": "span.pic-tag.pic-tag-right",
+          "descIndex": 0,
+          "hasUrlPrefix": false,
+          "imgAttr": "data-original",
+          "imgCss": "a",
+          "imgIndex": 0,
+          "isDescAttr": false,
+          "isImgAttr": true,
+          "isNameAttr": true,
+          "isUrlAttr": true,
+          "mainCss": "ul.myui-vodlist.clearfix",
+          "mainListIndex": 0,
+          "nameAttr": "title",
+          "nameCss": "a",
+          "nameIndex": 0,
+          "searchListCss": "li > div.myui-vodlist__box",
+          "urlAttr": "href",
+          "urlCss": "a",
+          "urlIndex": 0
+        }
+      }
+    }
+  },	
+
+
+
+
 
         {
             "name":"PKJ Studio(Web)",
