@@ -140,7 +140,7 @@
             "isListItemAttr": true,
             "listCss": "div.scroll-content",
             "isMultiList": true,
-            "listCssMulti": "a > span",
+            "listCssMulti": "a",
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
