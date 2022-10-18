@@ -233,7 +233,7 @@
           },
           "nav": {
             "descAttr": "",
-            "descCss": "div.module-item-cover > div.module-item-caption > span.video-class",
+            "descCss": "div.module-item-cover > div.module-item-caption > span",
             "descIndex": 0,
             "hasUrlPrefix": false,
             "imgAttr": "data-src",
