@@ -56,13 +56,13 @@
           "episodes": {
             "hasUrlPrefix": true,
             "isListItemAttr": true,
-            "listCss": "div.myui-panel__head.clearfix",
+            "listCss": "ul.myui-content__list.sort-list.scrollbar.clearfix",
             "isMultiList": true,
             "listCssMulti": "li",
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "ul.myui-content__list.sort-list.scrollbar.clearfix",
+            "mainCss": "div.myui-panel__head.clearfix",
             "mainIndex": 0
           },
           "nav": {
