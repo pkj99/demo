@@ -474,24 +474,24 @@
 
 
   {
-    "name":"泥巴影院(规则)",
-    "pic":"https://pkj99.github.io/demo/images/mudvod.png",
+    "name":"555(规则)",
+    "pic":"https://pkj99.github.io/demo/images/555dy.png",
     "type":"webPlug",
     "ads":"",
-    "webUrl":"https://www.mudvod.tv",
+    "webUrl":"https://www.o8tv.com",
     "webOpen":false,
     "click":true,
     "webPlus":{
         "search_url":"",
-        "nav_url":"https://www.mudvod.tv/filter.html?x=1&channelId=navCate",
-        "web_name":"泥巴影院",
+        "nav_url":"https://www.o8tv.com/vodshow/1---navCate-----navPage---.html",
+        "web_name":"4kvm",
         "search":false,
         "navHtml":{
             "name":[
-                "電影"
+                "電影","Netflix"
             ],
             "cate":[
-                "1"
+                "","Netflix"
             ],
             "page":"1"
         },
@@ -499,35 +499,35 @@
             "episodes":{
                 "hasUrlPrefix":true,
                 "isListItemAttr":true,
-                "listCss":"div.qy-episode-tab",
+                "listCss":"div.module",
                 "isMultiList":true,
-                "listCssMulti":"ul > li",
+                "listCssMulti":"div.module-play-list-content.module-play-list-larger",
                 "listItemAttr":"href",
                 "listItemCss":"a",
                 "listItemIndex":0,
-                "mainCss":"div.padding-box",
+                "mainCss":"div.content",
                 "mainIndex":0
             },
             "nav":{
                 "descAttr":"",
-                "descCss":"div.qy-mod-cover",
+                "descCss":"div.module-item-note",
                 "descIndex":0,
                 "hasUrlPrefix":false,
-                "imgAttr":"style#background-image",
-                "imgCss":"div",
+                "imgAttr":"src",
+                "imgCss":"img",
                 "imgIndex":0,
                 "isDescAttr":false,
                 "isImgAttr":true,
-                "isNameAttr":false,
+                "isNameAttr":true,
                 "isUrlAttr":true,
-                "mainCss":"div.qy-list-wrap",
+                "mainCss":"div.module-items.module-poster-items-base",
                 "mainListIndex":0,
                 "nameAttr":"title",
-                "nameCss":"a.link-txt",
-                "nameIndex":1,
-                "searchListCss":"ul > li",
+                "nameCss":"a",
+                "nameIndex":0,
+                "searchListCss":"a",
                 "urlAttr":"href",
-                "urlCss":"a.link-txt",
+                "urlCss":"a",
                 "urlIndex":0
             },
             "search":{
