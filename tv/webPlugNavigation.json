@@ -559,8 +559,91 @@
             }
         }
     }
-},
+  },
 
+ 
+	{
+    "name": "94i影城(规则)",
+    "pic": "https://pkj99.github.io/demo/images/movie.png",
+    "type": "webPlug",
+    "ads": "",
+    "webUrl": "https://94itv.net",
+    "webOpen": false,
+    "click": true,
+    "webPlus": {
+      "search_url": "https://94itv.net/search--------------.html?wd={kw}",
+      "nav_url": "https://94itv.net/choose-navCate--------navPage---.html",
+      "web_name": "94i影城",
+      "search":true,
+          "navHtml": {
+            "name": [
+              "動作片","喜劇片","愛情片","科幻片","恐怖片","劇情片","戰爭片","動畫片"
+                  ],
+            "cate": [
+              "action","comedy","lover","sciencefiction","terror","plot","war","donghuapian"
+                  ],
+            "page": "1"
+          },
+      "html": {
+        "episodes": {
+          "hasUrlPrefix": true,
+          "isListItemAttr": true,
+          "listCss": "ul.myui-content__list.sort-list.clearfix",
+          "isMultiList": true,
+          "listCssMulti": "li",
+          "listItemAttr": "href",
+          "listItemCss": "a",
+          "listItemIndex": 0,
+          "mainCss": "div.tab-content.myui-panel_bd",
+          "mainIndex": 0
+        },
+        "nav": {
+          "descAttr": "",
+          "descCss": "span.pic-tag.pic-tag-top",
+          "descIndex": 0,
+          "hasUrlPrefix": false,
+          "imgAttr": "data-original",
+          "imgCss": "a",
+          "imgIndex": 0,
+          "isDescAttr": false,
+          "isImgAttr": true,
+          "isNameAttr": true,
+          "isUrlAttr": true,
+          "mainCss": "ul.myui-vodlist.clearfix",
+          "mainListIndex": 0,
+          "nameAttr": "title",
+          "nameCss": "a",
+          "nameIndex": 0,
+          "searchListCss": "li",
+          "urlAttr": "href",
+          "urlCss": "a",
+          "urlIndex": 0
+        },
+        "search": {
+          "descAttr": "",
+          "descCss": "span.pic-tag.pic-tag-top",
+          "descIndex": 0,
+          "hasUrlPrefix": false,
+          "imgAttr": "data-original",
+          "imgCss": "a",
+          "imgIndex": 0,
+          "isDescAttr": false,
+          "isImgAttr": true,
+          "isNameAttr": true,
+          "isUrlAttr": true,
+          "mainCss": "ul.myui-vodlist__media.clearfix",
+          "mainListIndex": 0,
+          "nameAttr": "title",
+          "nameCss": "a",
+          "nameIndex": 0,
+          "searchListCss": "li",
+          "urlAttr": "href",
+          "urlCss": "a",
+          "urlIndex": 0
+        }
+      }
+    }
+  },	
 
   
 	{
@@ -673,6 +756,9 @@
       }
     }
   },	
+
+
+
 
 {
     "name": "PKJ Studio(電視劇)",
