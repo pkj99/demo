@@ -499,13 +499,13 @@
             "episodes":{
                 "hasUrlPrefix":true,
                 "isListItemAttr":true,
-                "listCss":"div.playlist_full",
+                "listCss":"div.qy-episode-tab",
                 "isMultiList":true,
                 "listCssMulti":"ul > li",
                 "listItemAttr":"href",
                 "listItemCss":"a",
                 "listItemIndex":0,
-                "mainCss":"div.play_source",
+                "mainCss":"div.padding-box",
                 "mainIndex":0
             },
             "nav":{
@@ -520,12 +520,12 @@
                 "isImgAttr":true,
                 "isNameAttr":false,
                 "isUrlAttr":true,
-                "mainCss":"ul.qy-mod-ul",
+                "mainCss":"div.qt-list-wrap",
                 "mainListIndex":0,
                 "nameAttr":"title",
                 "nameCss":"a.link-txt",
                 "nameIndex":1,
-                "searchListCss":"li",
+                "searchListCss":"ul > li",
                 "urlAttr":"href",
                 "urlCss":"a.link-txt",
                 "urlIndex":0
