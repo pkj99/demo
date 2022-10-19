@@ -513,8 +513,8 @@
                 "descCss":"div.module-item-note",
                 "descIndex":0,
                 "hasUrlPrefix":false,
-                "imgAttr":"src",
-                "imgCss":"img",
+                "imgAttr":"data-original",
+                "imgCss":"img.lazy.lazyload",
                 "imgIndex":0,
                 "isDescAttr":false,
                 "isImgAttr":true,
@@ -786,7 +786,7 @@
 
         {
             "name":"唐人街(Web)",
-            "pic":"https://pkj99.github.io/demo/images/watch_online.png",
+            "pic":"https://pkj99.github.io/demo/images/trj.png",
             "keyDownPlay":false,
             "keyUpPlay":false,
             "userAgent":"PC",
@@ -798,7 +798,7 @@
 
         {
             "name":"gimy(Web)",
-            "pic":"https://pkj99.github.io/demo/images/watch_online.png",
+            "pic":"https://pkj99.github.io/demo/images/gimy.png",
             "keyDownPlay":false,
             "keyUpPlay":false,
             "userAgent":"PC",
@@ -808,17 +808,30 @@
             "click":true
         },
 
+        
         {
-            "name":"nivod(Web)",
-            "pic":"https://pkj99.github.io/demo/images/watch_online.png",
-            "keyDownPlay":false,
-            "keyUpPlay":false,
-            "userAgent":"PC",
-            "ads":"",
-            "webUrl":"https://www.nivod.tv/class.html?channelId=1",
-            "webOpen":true,
-            "click":true
-        }
+          "name":"nivod(Web)",
+          "pic":"https://pkj99.github.io/demo/images/mudvod.png",
+          "keyDownPlay":false,
+          "keyUpPlay":false,
+          "userAgent":"PC",
+          "ads":"",
+          "webUrl":"https://www.nivod.tv/class.html?channelId=1",
+          "webOpen":true,
+          "click":true
+      },
+        
+      {
+          "name":"555(Web)",
+          "pic":"https://pkj99.github.io/demo/images/555dy.png",
+          "keyDownPlay":false,
+          "keyUpPlay":false,
+          "userAgent":"PC",
+          "ads":"",
+          "webUrl":"https://www.o8tv.com/vodtype/1.html",
+          "webOpen":true,
+          "click":true
+      }
       
     ]
 }
