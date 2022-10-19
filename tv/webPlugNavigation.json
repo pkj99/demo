@@ -475,7 +475,7 @@
 
   {
     "name":"泥巴影院(规则)",
-    "pic":"https://pkj99.github.io/demo/images/aidi.png",
+    "pic":"https://pkj99.github.io/demo/images/mudvod.png",
     "type":"webPlug",
     "ads":"",
     "webUrl":"https://www.mudvod.tv",
@@ -520,7 +520,7 @@
                 "isImgAttr":true,
                 "isNameAttr":false,
                 "isUrlAttr":true,
-                "mainCss":"div.qt-list-wrap",
+                "mainCss":"div.qy-list-wrap",
                 "mainListIndex":0,
                 "nameAttr":"title",
                 "nameCss":"a.link-txt",
