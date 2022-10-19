@@ -564,7 +564,7 @@
  
 	{
     "name": "94i影城(规则)",
-    "pic": "https://pkj99.github.io/demo/images/movie.png",
+    "pic": "https://pkj99.github.io/demo/images/94i.png",
     "type": "webPlug",
     "ads": "",
     "webUrl": "https://94itv.net",
@@ -572,21 +572,25 @@
     "click": true,
     "webPlus": {
       "search_url": "https://94itv.net/search--------------.html?wd={kw}",
-      "nav_url": "https://94itv.net/choose-navCate--------navPage---.html",
+      "nav_url": "https://94itv.net/choose-navCate--hits------navPage---.html",
       "web_name": "94i影城",
       "search":true,
           "navHtml": {
             "name": [
-              "動作片","喜劇片","愛情片","科幻片","恐怖片","劇情片","戰爭片","動畫片"
+              "動作片","喜劇片","愛情片","科幻片","恐怖片","劇情片","戰爭片","動畫片",
+              "台灣劇","日劇","陸劇","韓劇","歐美劇","香港劇","泰國劇",
+              "綜藝","動漫"
                   ],
             "cate": [
-              "action","comedy","lover","sciencefiction","terror","plot","war","donghuapian"
+              "action","comedy","lover","sciencefiction","terror","plot","war","donghuapian",
+              "taiwan","jp","china","kr","usa","hkg","tailan",
+              "variety","anime"
                   ],
             "page": "1"
           },
       "html": {
         "episodes": {
-          "hasUrlPrefix": true,
+          "hasUrlPrefix": false,
           "isListItemAttr": true,
           "listCss": "ul.myui-content__list.sort-list.clearfix",
           "isMultiList": true,
