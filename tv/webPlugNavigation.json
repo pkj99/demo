@@ -502,7 +502,7 @@
         },
         "html":{
             "episodes":{
-                "hasUrlPrefix":true,
+                "hasUrlPrefix":false,
                 "isListItemAttr":true,
                 "listCss":"div.playlist_full",
                 "isMultiList":true,
@@ -791,7 +791,7 @@
 
         {
             "name":"唐人街(Web)",
-            "pic":"https://pkj99.github.io/demo/images/trj.png",
+            "pic":"https://pkj99.github.io/demo/images/watch_online.png",
             "keyDownPlay":false,
             "keyUpPlay":false,
             "userAgent":"PC",
@@ -803,7 +803,7 @@
 
         {
             "name":"gimy(Web)",
-            "pic":"https://pkj99.github.io/demo/images/gimy.png",
+            "pic":"https://pkj99.github.io/demo/images/watch_online.png",
             "keyDownPlay":false,
             "keyUpPlay":false,
             "userAgent":"PC",
@@ -816,7 +816,7 @@
         
         {
           "name":"nivod(Web)",
-          "pic":"https://pkj99.github.io/demo/images/mudvod.png",
+          "pic":"https://pkj99.github.io/demo/images/watch_online.png",
           "keyDownPlay":false,
           "keyUpPlay":false,
           "userAgent":"PC",
@@ -828,7 +828,7 @@
         
       {
           "name":"555(Web)",
-          "pic":"https://pkj99.github.io/demo/images/555dy.png",
+          "pic":"https://pkj99.github.io/demo/images/watch_online.png",
           "keyDownPlay":false,
           "keyUpPlay":false,
           "userAgent":"PC",
