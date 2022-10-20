@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "if101",
-      "url": "https://demo.if101.tv/api.php/provide/vod/at/xml/?ac=list",
+      "url": "https://demo.if101.tv/api.php/provide/vod/at/xml",
       "cate": "动作片,30&&喜剧片,33&&爱情片,40&&科幻片,42&&恐怖片,35&&剧情片,29&&战争片,117&&国产剧,122&&台剧,125&&韩剧,121&&欧美剧,119&&综艺,23&&动漫,22",
       "click": true,
 	  "type": "xml",
