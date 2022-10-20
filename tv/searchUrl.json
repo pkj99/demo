@@ -2,6 +2,16 @@
   "data": [
     {
       "id": 1,
+      "name": "if101",
+      "url": "https://demo.if101.tv/api.php/provide/vod/at/xml/?ac=list",
+      "cate": "动作片,30&&喜剧片,33&&爱情片,40&&科幻片,42&&恐怖片,35&&剧情片,29&&战争片,117&&国产剧,122&&台剧,125&&韩剧,121&&欧美剧,119&&综艺,23&&动漫,22",
+      "click": true,
+	  "type": "xml",
+	  "detailUrl": ""
+    },
+
+    {
+      "id": 1,
       "name": "快播",
       "url": "http://www.kuaibozy.com/api.php/provide/vod/from/kbm3u8/at/xml",
       "cate": "动作片,6&&喜剧片,7&&爱情片,8&&科幻片,9&&恐怖片,10&&剧情片,11&&战争片,12&&国产剧,13&&港台剧,14&&日韩剧,15&&欧美剧,16&&综艺,3&&动漫,4",
