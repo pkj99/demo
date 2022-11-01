@@ -926,7 +926,23 @@
           "webUrl":"https://www.o8tv.com/vodtype/1.html",
           "webOpen":true,
           "click":true
-      }
-      
+      },
+
+        
+      {
+        "name":"浙江衛視(Web)",
+        "pic":"https://pkj99.github.io/demo/images/watch_online.png",
+        "keyDownPlay":false,
+        "keyUpPlay":false,
+        "userAgent":"PC",
+        "ads":"",
+        "webUrl":"http://www.zjstv.com/",
+        "webOpen":true,
+        "click":true
+    }
+    
+
+
+
     ]
 }
