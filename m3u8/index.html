@@ -37,13 +37,38 @@
 
   <body>
     <script>
+      var urlParams;
+      (window.onpopstate = function () {
+        var match,
+          pl     = /\+/g,  // Regex for replacing addition symbol with a space
+          search = /([^&=]+)=?([^&]*)/g,
+          decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+          query  = window.location.search.substring(1);
+  
+        urlParams = {};
+        while (match = search.exec(query))
+          urlParams[decode(match[1])] = decode(match[2]);
+      })();
+      // alert(urlParams["path"]);
+
       (async () => {
-        const response = await fetch('https://api.github.com/repos/pkj99/demo/contents/m3u8');
+        let url = 'https://api.github.com/repos/pkj99/demo/contents/m3u8/' + urlParams["path"]
+        // alert(url);
+        const response = await fetch(url);
         const data = await response.json();
         let htmlString = '<ul>';
         
         for (let file of data) {
-          htmlString += `<li><a href="${file.name}">${file.name}</a></li>`;
+          // alert(file.path);
+          if (file.name != "index.html") {
+            if (file.type != "folder") {
+              var newURL = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname + window.location.search + file.name;
+              htmlString += `<li><a href="${newURL}">${file.name}</a></li>`;
+            }
+            else {
+              htmlString += `<li><a href="${file.download_url}">${file.name}</a></li>`;
+            }
+          }
         }
 
         htmlString += '</ul>';
