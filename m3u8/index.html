@@ -1,79 +1,153 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
-    <!-- <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
-    <meta http-equiv="Cache-Control" content="max-age=604800" />
-    <link rel="icon" href="../images/movie.ico">
-    <title>DEMO</title>
-    <link rel="canonical" href="https://bootstrap5.hexschool.com/docs/5.1/examples/offcanvas-navbar/"> -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Movie Collections</title>
+    <meta name="keywords" content="movie, tv, radio" />
+    <meta name="bookmark-image" content="https://pkjweb.herokuapp.com/static/images/logo.png" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" href="https://pkjweb.herokuapp.com/static/images/favicon.ico" type="image/x-icon" />
 
-    <!-- Bootstrap core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link media="all" href="https://pkjweb.herokuapp.com/static/css/autoptimize.css" rel="stylesheet" />
+    <script defer src="https://pkjweb.herokuapp.com/static/js/autoptimize.js"></script>
 
-    <!-- <meta name="theme-color" content="#7952b3"> -->
-<!-- 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-      .center {
-        text-align: center;
-        }
-    </style> -->
-   
+    <link rel="stylesheet" href="https://pkjweb.herokuapp.com/static/css/mytheme-font.css" type="text/css" />
+    <link rel="stylesheet" href="https://pkjweb.herokuapp.com/static/css/mytheme-ui.css" type="text/css" />
+    <link rel="stylesheet" href="https://pkjweb.herokuapp.com/static/css/mytheme-site.css" type="text/css" />
+    <link rel="stylesheet" href="https://pkjweb.herokuapp.com/static/css/mytheme-share.css" type="text/css" />
+    <link rel="stylesheet" href="https://pkjweb.herokuapp.com/static/css/mytheme-color.css" type="text/css" name="default" />
+
+    <script type="text/javascript" src="https://pkjweb.herokuapp.com/static/js/jquery.min.js"></script>
+
+    <script type="text/javascript" src="https://pkjweb.herokuapp.com/static/js/mytheme-site.js"></script>
+    <script type="text/javascript" src="https://pkjweb.herokuapp.com/static/js/mytheme-ui.js"></script>
+    <script type="text/javascript" src="https://pkjweb.herokuapp.com/static/js/mytheme-cms.js"></script>
+    <script type="text/javascript" src="https://pkjweb.herokuapp.com/static/js/home.js"></script>
+    <script type="text/javascript" src="https://pkjweb.herokuapp.com/static/js/cn.js"></script>
+
+    <link rel="stylesheet" href="https://pkjweb.herokuapp.com/static/css/mystyle.css" type="text/css" />
+    <script type="text/javascript" src="https://pkjweb.herokuapp.com/static/js/myjavascript.js"></script>
+
+    <script src="https://pkjweb.herokuapp.com/static/js/hls.min.js"></script>
+    <script src="https://pkjweb.herokuapp.com/static/js/DPlayer.min.js"></script>  
+
+
+
+
 </head>
 
-  <body>
-    <script>
-      var urlParams;
-      (window.onpopstate = function () {
-        var match,
-          pl     = /\+/g,  // Regex for replacing addition symbol with a space
-          search = /([^&=]+)=?([^&]*)/g,
-          decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
-          query  = window.location.search.substring(1);
-  
-        urlParams = {};
-        while (match = search.exec(query))
-          urlParams[decode(match[1])] = decode(match[2]);
-      })();
-      // alert(urlParams["path"]);
+<body>
+  <header class="myui-header__top clearfix" id="header-top">
+    <div class="container" style="margin-bottom: 4px;">
+        <div class="row">
+            <div class="myui-header_bd clearfix">
+                <div class="myui-header__logo" style="padding-top: 5px;">
+                    <a class="" href="/">
+                        <img class="img-responsive hidden-xs" src="https://pkjweb.herokuapp.com/static/images/logo.png"
+                            style="width:100px;height:50px" />
+                        <img class="img-responsive visible-xs" src="https://pkjweb.herokuapp.com/static/images/logo.png"
+                            style="width:80px;height:40px" />
+                    </a>
+                </div>
 
-      (async () => {
-        let url = 'https://api.github.com/repos/pkj99/demo/contents/m3u8/' + urlParams["path"]
-        // alert(url);
-        const response = await fetch(url);
-        const data = await response.json();
-        let htmlString = '<ul>';
-        
-        for (let file of data) {
-          // alert(file.path);
-          if (file.name != "index.html") {
-            if (file.type != "folder") {
-              var newURL = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname + window.location.search + file.name;
-              htmlString += `<li><a href="${newURL}">${file.name}</a></li>`;
-            }
-            else {
-              htmlString += `<li><a href="${file.download_url}">${file.name}</a></li>`;
-            }
+                <ul class="myui-header__menu">
+                    <!-- <li class="active"><a class="logo" href="/">Home</a></li> -->
+                    <li class="menu_header active"><a href="?path=hits">熱播</a></li>
+                    <li class="menu_header"><a href="?path=imdb">高分榜</a></li>
+                    <li class="menu_header"><a href="?path=marvel">Marvel</a></li>
+                    <li class="menu_header"><a href="?path=dc">DC</a></li>
+                    <li class="menu_header"><a href="?path=netflix">Netflix</a></li>
+                    <li class="menu_header"><a href="?path=litv">LiTV</a></li>
+                    <li class="menu_header"><a href="?path=4gtv">4gTV</a></li>
+                </ul>
+            </div>
+
+            <ul class="myui-header__user">
+            </ul>
+
+
+
+        </div>
+    </div>
+    </div>
+</header>
+
+
+
+  <div class="container">
+    <div class="row">
+        <div class="myui-panel myui-panel-bg clearfix">
+            <div class="myui-panel-box clearfix" id="movielist">
+
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+
+  <script>
+    var urlParams;
+    (window.onpopstate = function () {
+      var match,
+        pl     = /\+/g,  // Regex for replacing addition symbol with a space
+        search = /([^&=]+)=?([^&]*)/g,
+        decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+        query  = window.location.search.substring(1);
+
+      urlParams = {};
+      while (match = search.exec(query))
+        urlParams[decode(match[1])] = decode(match[2]);
+    })();
+    // alert(urlParams["path"]);
+
+    (async () => {
+      var url = 'https://api.github.com/repos/pkj99/demo/contents/m3u8/' + urlParams["path"]
+      // alert(url);
+      const response = await fetch(url);
+      const data = await response.json();
+      let htmlString = '<ul>';
+      
+      for (let file of data) {
+        // alert(file.path);
+        var m3u8link = "https://pkj99.github.io/demo/" + file.path
+        var imglink = encodeURI(m3u8link.replace('m3u8/','images/').replace('.m3u8','.jpg'))
+        // var m3u8link =  window.location.protocol +  window.location.host + "/" + window.location.pathname + "/" + file.path
+        if (file.name != "index.html") {
+          if (file.type == "dir") {
+            var newURL = window.location.protocol +  window.location.host + "/" + window.location.pathname + window.location.search + file.name;
+            htmlString += `<li><a href="${newURL}">${file.name}</a></li>`;
+          } else {
+            // htmlString += `<li><a href="${m3u8link}">${file.name}</a></li>`;
+            htmlString += '<li class="col-lg-8 col-md-8 col-sm-5 col-xs-3">';
+            htmlString += '<div class="myui-vodlist__box">';
+            htmlString += '<a class="myui-vodlist__thumb lazyload" href="'+ m3u8link + '" ';
+            htmlString += 'title="' + file.name +'" ';
+            htmlString += 'data-original="' + file.path + '" ';
+            htmlString += 'style="background-image: url(' + imglink +')"';
+            htmlString += '</a>';
+            htmlString += '</div>';
+            htmlString += '<div class="myui-vodlist__detail">';
+            htmlString += '<h4 class="title text-overflow"><a href="'+m3u8link+'">'+file.name+'</a></h4>';
+            htmlString += '</div>';
+            htmlString += '</li>';
           }
         }
+      }
 
-        htmlString += '</ul>';
-        document.getElementsByTagName('body')[0].innerHTML = htmlString;
-      })()
-    </script>
-  <body>
+      htmlString += '</ul>';
+      // alert(htmlString);
+      // document.getElementsById("movielist")[0].innerHTML = htmlString;
+      document.getElementsByClassName('myui-panel-box clearfix')[0].innerHTML = htmlString;
+      // document.getElementsByTagName('body')[0].innerHTML = htmlString;
+    })()
+  </script>
+
+
+<body>
 </html>
+
+
+
