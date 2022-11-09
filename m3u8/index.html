@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
 
-    <!-- <link media="all" href="https://pkjweb.herokuapp.com/static/css/autoptimize.css" rel="stylesheet" />
-    <script defer src="https://pkjweb.herokuapp.com/static/js/autoptimize.js"></script> -->
+    <link media="all" href="../css/autoptimize.css" rel="stylesheet" />
+    <script defer src="../js/autoptimize.js"></script>
 
 
     <link rel="stylesheet" href="../css/mytheme-font.css" type="text/css" />
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="../css/mytheme-share.css" type="text/css" />
     <link rel="stylesheet" href="../css/mytheme-color.css" type="text/css" name="default" />
 
-    <!-- <script type="text/javascript" src="https://pkjweb.herokuapp.com/static/js/jquery.min.js"></script> -->
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
 
     <script type="text/javascript" src="../js/mytheme-site.js"></script>
     <script type="text/javascript" src="../js/mytheme-ui.js"></script>
@@ -137,19 +137,52 @@
       while (match = search.exec(query))
         urlParams[decode(match[1])] = decode(match[2]);
     })();
-    // alert(urlParams["path"]);
+
+
+    if (urlParams["path"] == null){
+      
+      // alert(urlParams["path"]);
+      // (async () => {
+      // var url = 'https://api.github.com/repos/pkj99/demo/contents/m3u8/hits';
+      // const response = await fetch(url);
+      // const data = await response.json();
+      // let htmlString = '<div id="slider-movies" class="animation-1 slider" style="background-color:black">';
+      
+      // for (let file of data) {
+      //   // alert(file.path);
+      //   var m3u8link = "https://pkj99.github.io/demo/" + file.path;
+      //   var imglink = encodeURI(m3u8link.replace('m3u8/','images/').replace('.m3u8','.jpg').replace(' (','.').replace(').','.'));
+
+      //   htmlString += '<article class="item" id="'+file.name+'">\n';
+      //   htmlString += '<div class="image">\n';
+      //   htmlString += '<a href="'+m3u8link+'"><img src="'+imglink+'" alt="'+file.name+'" /></a>\n';
+      //   htmlString += '<a href="'+m3u8link+'">\n';
+      //   htmlString += '<div class="data">\n';
+      //   htmlString += '<h3 class="title">'+file.name+'</h3>\n';
+      //   htmlString += '</div>\n';
+      //   htmlString += '</a>\n';
+      //   htmlString += '<span class="item_type">熱播</span>\n';
+      //   htmlString += '</div>\n';
+      //   htmlString += '</article>\n';
+      // }
+      // htmlString += '</div>';
+      // // alert(htmlString);
+      // // document.getElementsById("movielist")[0].innerHTML = htmlString;
+      // document.getElementsByClassName('myui-panel-box clearfix')[0].innerHTML = htmlString;
+      // })()
+    }
+    
 
     (async () => {
       var url = 'https://api.github.com/repos/pkj99/demo/contents/m3u8/' + urlParams["path"]
-      // alert(url);
       const response = await fetch(url);
       const data = await response.json();
       let htmlString = '<ul>';
       
       for (let file of data) {
         // alert(file.path);
-        var m3u8link = "https://pkj99.github.io/demo/" + file.path
-        var imglink = encodeURI(m3u8link.replace('m3u8/','images/').replace('.m3u8','.jpg').replace(' (','.').replace(').','.'))
+        var m3u8link = "https://pkj99.github.io/demo/" + file.path;
+        var imglink = encodeURI(m3u8link.replace('m3u8/','images/').replace('.m3u8','.jpg').replace(' (','.').replace(').','.'));
         // var m3u8link =  window.location.protocol +  window.location.host + "/" + window.location.pathname + "/" + file.path
         if (file.name != "index.html") {
           if (file.type == "dir") {
@@ -182,7 +215,37 @@
   </script>
 
 
+<script type="text/javascript">
+  jQuery(document).ready(
+      function($) 
+      {
+          $("#slider-movies").owlCarousel
+          ({ 
+              autoPlay:4000,
+              items:2,
+              stopOnHover:true,
+              pagination:true,
+              itemsDesktop:[1200,2],
+              itemsDesktopSmall:[980,2],
+              itemsTablet:[768,2],
+              itemsTabletSmall:[600,1],
+              itemsMobile:[479,1] 
+          });
+          $("#slider-movies-tvshows").owlCarousel
+          ({ 
+              autoPlay:4000,
+              items:4,
+              stopOnHover:true,
+              pagination:true,
+              itemsDesktop:[1200,2],
+              itemsDesktopSmall:[980,2],
+              itemsTablet:[768,2],
+              itemsTabletSmall:[600,1],
+              itemsMobile:[479,1] 
+          });
 
+      });
+</script>
 
 <body>
 </html>
