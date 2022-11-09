@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="shortcut icon" href="https://pkjweb.herokuapp.com/static/images/favicon.ico" type="image/x-icon" />
 
-    <link media="all" href="https://pkjweb.herokuapp.com/static/css/autoptimize.css" rel="stylesheet" />
-    <script defer src="https://pkjweb.herokuapp.com/static/js/autoptimize.js"></script>
+    <!-- <link media="all" href="https://pkjweb.herokuapp.com/static/css/autoptimize.css" rel="stylesheet" />
+    <script defer src="https://pkjweb.herokuapp.com/static/js/autoptimize.js"></script> -->
 
 
     <link rel="stylesheet" href="https://pkjweb.herokuapp.com/static/css/mytheme-font.css" type="text/css" />
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://pkjweb.herokuapp.com/static/css/mytheme-share.css" type="text/css" />
     <link rel="stylesheet" href="https://pkjweb.herokuapp.com/static/css/mytheme-color.css" type="text/css" name="default" />
 
-    <script type="text/javascript" src="https://pkjweb.herokuapp.com/static/js/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="https://pkjweb.herokuapp.com/static/js/jquery.min.js"></script> -->
 
     <script type="text/javascript" src="https://pkjweb.herokuapp.com/static/js/mytheme-site.js"></script>
     <script type="text/javascript" src="https://pkjweb.herokuapp.com/static/js/mytheme-ui.js"></script>
@@ -30,8 +30,8 @@
     <link rel="stylesheet" href="https://pkjweb.herokuapp.com/static/css/mystyle.css" type="text/css" />
     <script type="text/javascript" src="https://pkjweb.herokuapp.com/static/js/myjavascript.js"></script>
 
-    <script src="https://pkjweb.herokuapp.com/static/js/hls.min.js"></script>
-    <script src="https://pkjweb.herokuapp.com/static/js/DPlayer.min.js"></script>  
+    <!-- <script src="https://pkjweb.herokuapp.com/static/js/hls.min.js"></script>
+    <script src="https://pkjweb.herokuapp.com/static/js/DPlayer.min.js"></script>   -->
 
 
 
@@ -44,10 +44,10 @@
         <div class="row">
             <div class="myui-header_bd clearfix">
                 <div class="myui-header__logo" style="padding-top: 5px;">
-                    <a class="" href="/">
-                        <img class="img-responsive hidden-xs" src="https://pkjweb.herokuapp.com/static/images/logo.png"
+                    <a class="" href="/demo/m3u8/">
+                        <img class="img-responsive hidden-xs" src="/demo/images/logo.png"
                             style="width:100px;height:50px" />
-                        <img class="img-responsive visible-xs" src="https://pkjweb.herokuapp.com/static/images/logo.png"
+                        <img class="img-responsive visible-xs" src="/demo/images/logo.png"
                             style="width:80px;height:40px" />
                     </a>
                 </div>
@@ -59,6 +59,7 @@
                     <li class="menu_header"><a href="?path=marvel">Marvel</a></li>
                     <li class="menu_header"><a href="?path=dc">DC</a></li>
                     <li class="menu_header"><a href="?path=netflix">Netflix</a></li>
+                    <li class="menu_header"><a href="?path=series">系列</a></li>
                     <li class="menu_header"><a href="?path=litv">LiTV</a></li>
                     <li class="menu_header"><a href="?path=4gtv">4gTV</a></li>
                 </ul>
@@ -113,7 +114,7 @@
       for (let file of data) {
         // alert(file.path);
         var m3u8link = "https://pkj99.github.io/demo/" + file.path
-        var imglink = encodeURI(m3u8link.replace('m3u8/','images/').replace('.m3u8','.jpg').replace(' (','.').replace(').','.'))
+        var imglink = m3u8link.replace('m3u8/','images/').replace('.m3u8','.jpg').replace(' (','.').replace(').','.')
         // var m3u8link =  window.location.protocol +  window.location.host + "/" + window.location.pathname + "/" + file.path
         if (file.name != "index.html") {
           if (file.type == "dir") {
