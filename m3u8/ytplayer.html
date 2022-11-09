@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Youtube Player</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/docs.css" rel="stylesheet">
+    <script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="../js/docs.min.js"></script>
+    <link rel="stylesheet" href="../css/movie.css" />
+    <style>
+        /* Make the youtube video responsive */
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            height: 0;
+        }
+
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+</head>
+
+<body style="background-color: #333;">
+
+    <div class="iframe-container" id="myVideo">
+        <iframe id="yt" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </div>
+
+
+
+    <script>
+        var urlParams;
+        (window.onpopstate = function () {
+          var match,
+            pl     = /\+/g,  // Regex for replacing addition symbol with a space
+            search = /([^&=]+)=?([^&]*)/g,
+            decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+            query  = window.location.search.substring(1);
+    
+          urlParams = {};
+          while (match = search.exec(query))
+            urlParams[decode(match[1])] = decode(match[2]);
+        })();
+    
+    
+        if (urlParams["url"] != null){
+        //   alert(urlParams["url"]);
+        
+            let htmlString = '<iframe id="yt" src="'+urlParams["url"]
+            htmlString += '" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; ';
+            htmlString += 'clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+    
+        document.getElementsByClassName('iframe-container')[0].innerHTML = htmlString;
+        // document.getElementsByTagName('body')[0].innerHTML = htmlString;
+        }
+        
+      </script>
+
+
+</body>
+</html>
