@@ -102,6 +102,13 @@ body.active {
         width: 1200px;
         padding: 0;
     }
+
+    
+    .myui-content__detail {
+        font-size: 16px;
+        /* padding: 10px 14px; */
+        width: 1200px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -146,6 +153,11 @@ body.active {
 
     .myui-page {
         padding: 0 5px;
+    }
+    .myui-content__detail {
+        font-size: 16px;
+        /* padding: 10px 14px; */
+        width: 450px;
     }
 }
 

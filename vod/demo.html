@@ -86,7 +86,8 @@ textarea {
 
 
   var outputField = document.getElementById('output');
-  var urlField = 'https://api.haiwaikan.com/v1/vod?ac=detail&t=2';
+  // var urlField = 'https://api.haiwaikan.com/v1/vod?ac=detail&t=2';
+  var urlField = 'https://haiwaikan.com/index.php/vod/search.html?wd=%E8%BF%AB%E9%99%8D%E8%88%AA%E7%8F%AD';
   var j = doCORSRequest(
     { method: 'GET', url: urlField, }, 
     function printResult(result) {
@@ -97,7 +98,8 @@ textarea {
 
   // Bind event
   (function() {
-    var urlField = 'https://api.haiwaikan.com/v1/vod?ac=detail&t=2';
+    // var urlField = 'https://api.haiwaikan.com/v1/vod?ac=detail&t=2';
+    var urlField = 'https://haiwaikan.com/index.php/vod/search.html?wd=%E8%BF%AB%E9%99%8D%E8%88%AA%E7%8F%AD';
     var dataField = document.getElementById('data');
     var outputField = document.getElementById('output');
     document.getElementById('get').onclick =
