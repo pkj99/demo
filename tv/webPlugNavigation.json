@@ -865,6 +865,18 @@
 
 
 
+  {
+    "name":"PKJ Demo(Web)",
+    "pic":"https://pkj99.github.io/demo/images/watch_online.png",
+    "keyDownPlay":false,
+    "keyUpPlay":false,
+    "userAgent":"PC",
+    "ads":"",
+    "webUrl":"https://pkj99.github.io/demo/",
+    "webOpen":true,
+    "click":true
+},
+
 
 
         {
