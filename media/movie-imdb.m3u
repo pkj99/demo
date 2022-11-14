@@ -97,8 +97,6 @@ https://m3u.haiwaikan.com/xm3u8/8b7eb51690aae383f010a97f14e322e3708870b262c5858e
 https://m3u.haiwaikan.com/xm3u8/dad22b6c184751666a781ca83de56febcb7023308743cab161cc555301f324439921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/183af537d926aa5cce8fb9412760d8aa9f7344a07c35f12c991d02af88bc48c9c4314442cb6a780bcfa0f24247ce6f69.jpg" tvg-name="與神同行：最終審判" group-title="韓國",與神同行：最終審判
 https://m3u.haiwaikan.com/xm3u8/2e5422f71360421d72204a6167c1b13ee629cf7c8736ea36f73a890e760441129921f11e97d0da21.m3u8
-#EXTINF:-1 tvg-logo="https://img.1777cdn.com/upload/vod/20210501-1/5479287779d2309eca13ee288e9046bb.jpg" tvg-name="生命盡頭的美好時光" group-title="美國",生命盡頭的美好時光
-https://dy1.yle888.vip/20220331/c22iuzZS/index.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a02953411605b6f647ec6f2b33b4c5c16632b02bc488467ffe4a81c282f7c47611f2934d8197ecd2725ec5a5.jpg" tvg-name="愛上觸不到的你" group-title="歐美",愛上觸不到的你
 https://m3u.haiwaikan.com/xm3u8/c0803070b390b9aef6cac129f99365f94b24ac4c2be74b36dc766552858282fa9921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/183af537d926aa5ca1294c66d79aade86287322c3c3484878b4ba923463401e0252ac5e44c99d89236be75590a333002.jpg" tvg-name="回到未來" group-title="歐美",回到未來
@@ -199,3 +197,10 @@ https://pkj99.github.io/demo/m3u8/4gtv/單車失竊記.1948.4gtv.m3u8
 https://pkj99.github.io/demo/m3u8/4gtv/孤兒流浪記.1921.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202107120006/EmbeddedImage.jpg" tvg-name="大都會" group-title="4gtv",大都會
 https://pkj99.github.io/demo/m3u8/4gtv/大都會.1927.4gtv.m3u8
+<<<<<<< HEAD
+=======
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a0295341e5adf0c1dc95a9e90545f543c1d6afbe9c2c769d0efac71e3e3dcc5381bcca82aff73964b6c31814.jpg" tvg-name="我想有個家" group-title="歐美",我想有個家
+https://m3u.haiwaikan.com/xm3u8/8c850742b71452f1a4e4eeb9061c63599f4b9055c28a8aa9bf270e2a28a596ce9921f11e97d0da21.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202112130004/A0556_用心棒.jpg" tvg-name="大鏢客" group-title="4gtv",大鏢客
+https://pkj99.github.io/demo/m3u8/4gtv/用心棒.1961.4gtv.m3u8
+>>>>>>> d7104758d85733be20c6f60abf6ba66807e83cca
