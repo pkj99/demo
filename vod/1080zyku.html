@@ -25,7 +25,7 @@
     <script type="text/javascript" src="../js/mytheme-cms.js"></script>
 
     <link rel="stylesheet" href="../css/mystyle.css" type="text/css" />
-    <script type="text/javascript" src="../static/js/myjavascript.js"></script>
+    <script type="text/javascript" src="../js/myjavascript.js"></script>
 
 </head>
 
@@ -35,7 +35,7 @@
         <div class="row">
             <div class="myui-header_bd clearfix">
                 <div class="myui-header__logo" style="padding-top: 5px;">
-                    <a class="" href="../vod/index.html">
+                    <a class="" href="../index.html">
                         <img class="img-responsive hidden-xs" src="../images/logo.png" style="width:100px;height:50px" />
                         <img class="img-responsive visible-xs" src="../images/logo.png" style="width:80px;height:40px" />
                     </a>
@@ -93,7 +93,7 @@
   })();
 
 
-  if (urlParams["t"] == null){ var t = "2"; } else { var t = urlParams["t"];}
+  if (urlParams["t"] == null){ var t = ""; } else { var t = urlParams["t"];}
   if (urlParams["pg"] == null){ var pg = "1"; } else { var pg = urlParams["pg"];}
 
   var urlAPI = '';
@@ -107,6 +107,14 @@
       let htmlString = x.responseText.split('<class>')[1].split('</class>')[0];
       htmlString = htmlString.replaceAll('<ty id="','<li class="menu_header"><a href="'+pagename+'?t=');
       htmlString = htmlString.replaceAll('</ty>','</a></li>');
+
+      htmlString += '<li class="menu_header"><div class="myui-header__search search-box" style="width:120px;">';
+      htmlString += '<form id="search" name="search" method="get" action="'+pagename+'">';
+      htmlString += '<input type="text" id="wd" name="wd" class="search_wd form-control" value=""';
+      htmlString += 'placeholder="請輸入關鍵字" autocomplete="off" style=" padding-left: 20px; width:140px;" />';
+      htmlString += '<button class="submit search_submit" id="searchbutton" type="submit"><i class="fa fa-search"></i></button>';
+      htmlString += '</form></div"></li>';
+
       document.getElementsByClassName('myui-header__menu')[0].innerHTML = htmlString;
     }
     x.send(options.data);
@@ -158,8 +166,8 @@
       document.getElementsByClassName('myui-panel-box clearfix')[0].innerHTML = htmlString;
     
      
-      var p = page;
-      var bottom_p = pagecount;
+      var p = parseInt(page);
+      var bottom_p = parseInt(pagecount);
       var referer = pagename + '?t=' + t
       if (p > 1) { prev_p = p-1;} else { prev_p = 1;}
       if (p < bottom_p) { next_p = p+1;} else { next_p = bottom_p;}
@@ -288,15 +296,20 @@
 
 
   var urlAPI = 'https://api.1080zyku.com/inc/apijson.php?ac=detail';
-  var urlField = urlAPI + '&t=' + t + '&pg=' + pg;
-  var j = doCORSRequest( { method: 'GET', url: urlField, }, function printResult(result) {outputField.value = result; } )
-
-
-  if (urlParams["id"] != null) {
-      var id = urlParams["id"];
-      var urlField = urlAPI + '&ids=' + id;
-      var j = doCORSRequestById( { method: 'GET', url: urlField, }, function printResult(result) { outputField.value = result; } )
+  if (urlParams["id"] == null) {
+    if (urlParams["wd"] == null) {
+      var urlField = urlAPI + '&t=' + t + '&pg=' + pg;
+      var j = doCORSRequest( { method: 'GET', url: urlField, }, function printResult(result) {outputField.value = result; } )
+    } else {
+      var urlField = urlAPI + '&wd=' + urlParams["wd"];
+      var j = doCORSRequest( { method: 'GET', url: urlField, }, function printResult(result) {outputField.value = result; } )
+    }
+  } else {
+    var id = urlParams["id"];
+    var urlField = urlAPI + '&ids=' + id;
+    var j = doCORSRequestById( { method: 'GET', url: urlField, }, function printResult(result) { outputField.value = result; } )
   }
+
 
 </script>
 

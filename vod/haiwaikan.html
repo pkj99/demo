@@ -35,12 +35,67 @@
         <div class="row">
             <div class="myui-header_bd clearfix">
                 <div class="myui-header__logo" style="padding-top: 5px;">
-                    <a class="" href="../vod/index.html">
+                    <a class="" href="../index.html">
                         <img class="img-responsive hidden-xs" src="../images/logo.png" style="width:100px;height:50px" />
                         <img class="img-responsive visible-xs" src="../images/logo.png" style="width:80px;height:40px" />
                     </a>
                 </div>
                 <ul class="myui-header__menu">
+                  <li class="menu_header"><a href="index.html?t=1">冒险片</a></li>
+                  <li class="menu_header"><a href="index.html?t=2">剧情片</a></li>
+                  <li class="menu_header"><a href="index.html?t=3">动作片</a></li>
+                  <li class="menu_header"><a href="index.html?t=4">动画电影片</a></li>
+                  <li class="menu_header"><a href="index.html?t=5">同性片</a></li>
+                  <li class="menu_header"><a href="index.html?t=6">喜剧片</a></li>
+                  <li class="menu_header"><a href="index.html?t=7">奇幻片</a></li>
+                  <li class="menu_header"><a href="index.html?t=8">恐怖片</a></li>
+                  <li class="menu_header"><a href="index.html?t=9">悬疑片</a></li>
+                  <li class="menu_header"><a href="index.html?t=10">惊悚片</a></li>
+                  <li class="menu_header"><a href="index.html?t=11">战争片</a></li>
+                  <li class="menu_header"><a href="index.html?t=12">歌舞片</a></li>
+                  <li class="menu_header"><a href="index.html?t=13">灾难片</a></li>
+                  <li class="menu_header"><a href="index.html?t=14">爱情片</a></li>
+                  <li class="menu_header"><a href="index.html?t=15">犯罪片</a></li>
+                  <li class="menu_header"><a href="index.html?t=16">科幻片</a></li>
+                  <li class="menu_header"><a href="index.html?t=17">经典片</a></li>
+                  <li class="menu_header"><a href="index.html?t=18">网络电影片</a></li>
+
+                  <li class="menu_header"><a href="index.html?t=101">欧美剧</a></li>
+                  <li class="menu_header"><a href="index.html?t=102">日剧</a></li>
+                  <li class="menu_header"><a href="index.html?t=103">韩剧</a></li>
+                  <li class="menu_header"><a href="index.html?t=104">国产剧</a></li>
+                  <li class="menu_header"><a href="index.html?t=105">泰剧</a></li>
+                  <li class="menu_header"><a href="index.html?t=106">港剧</a></li>
+                  <li class="menu_header"><a href="index.html?t=107">台剧</a></li>
+                  <li class="menu_header"><a href="index.html?t=108">新马剧</a></li>
+                  <li class="menu_header"><a href="index.html?t=109">其他剧</a></li>
+
+                  <li class="menu_header"><a href="index.html?t=201">欧美综艺</a></li>
+                  <li class="menu_header"><a href="index.html?t=202">日本综艺</a></li>
+                  <li class="menu_header"><a href="index.html?t=203">韩国综艺</a></li>
+                  <li class="menu_header"><a href="index.html?t=204">国产综艺</a></li>
+                  <li class="menu_header"><a href="index.html?t=206">港台综艺</a></li>
+                  <li class="menu_header"><a href="index.html?t=207">其他综艺</a></li>
+
+                  <li class="menu_header"><a href="index.html?t=301">欧美动漫</a></li>
+                  <li class="menu_header"><a href="index.html?t=302">日本动漫</a></li>
+                  <li class="menu_header"><a href="index.html?t=303">韩国动漫</a></li>
+                  <li class="menu_header"><a href="index.html?t=304">国产动漫</a></li>
+                  <li class="menu_header"><a href="index.html?t=306">港台动漫</a></li>
+                  <li class="menu_header"><a href="index.html?t=307">其他动漫</a></li>
+                  <li class="menu_header"><a href="index.html?t=401">体育赛事</a></li>
+                  <li class="menu_header"><a href="index.html?t=501">纪录片</a></li>                  
+
+                  <li class="menu_header">
+                    <div class="myui-header__search search-box" style="width:120px;">
+                      <form id="search" name="search" method="get" action="index.html">
+                      <input type="text" id="wd" name="wd" class="search_wd form-control" value="" placeholder="請輸入關鍵字" autocomplete="off" style=" padding-left: 20px; width:140px;" />
+                      <button class="submit search_submit" id="searchbutton" type="submit"><i class="fa fa-search"></i></button>
+                      </form>
+                    </div">
+                  </li>
+                 
+
                 </ul>
             </div>
 
@@ -158,8 +213,8 @@
       document.getElementsByClassName('myui-panel-box clearfix')[0].innerHTML = htmlString;
     
      
-      var p = page;
-      var bottom_p = pagecount;
+      var p = parseInt(page);
+      var bottom_p = parseInt(pagecount);
       var referer = pagename + '?t=' + t
       if (p > 1) { prev_p = p-1;} else { prev_p = 1;}
       if (p < bottom_p) { next_p = p+1;} else { next_p = bottom_p;}
@@ -280,16 +335,22 @@
 
 
 
-  var urlAPI = 'https://haiwaikan.com/api.php/provide/vod/at/xml';
-  var urlField = urlAPI;
-  var outputField = document.getElementById('output');
-  var j = doCORSRequestMenu( { method: 'GET', url: urlField, },  function printResult(result) { outputField.value = result; } )
+  // var urlAPI = 'https://haiwaikan.com/api.php/provide/vod/at/xml';
+  // var urlField = urlAPI;
+  // var outputField = document.getElementById('output');
+  // var j = doCORSRequestMenu( { method: 'GET', url: urlField, },  function printResult(result) { outputField.value = result; } )
 
 
   var urlAPI = 'http://api.haiwaikan.com/v1/vod?ac=detail';
   if (urlParams["id"] == null) {
-    var urlField = urlAPI + '&t=' + t + '&pg=' + pg;
-    var j = doCORSRequest( { method: 'GET', url: urlField, }, function printResult(result) {outputField.value = result; } )
+    if (urlParams["wd"] == null) {
+      var urlField = urlAPI + '&t=' + t + '&pg=' + pg;
+      var j = doCORSRequest( { method: 'GET', url: urlField, }, function printResult(result) {outputField.value = result; } )
+    } else {
+      var urlAPI = 'https://haiwaikan.com/api.php/provide/vod/?ac=detail';
+      var urlField = urlAPI + '&wd=' + urlParams["wd"];
+      var j = doCORSRequest( { method: 'GET', url: urlField, }, function printResult(result) {outputField.value = result; } )
+    }
   } else {
     var id = urlParams["id"];
     var urlField = urlAPI + '&ids=' + id;

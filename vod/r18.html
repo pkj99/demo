@@ -30,7 +30,7 @@
 </head>
 
 <body>
-  <header class="myui-header__top clearfix" id="header-top">
+    <header class="myui-header__top clearfix" id="header-top">
     <div class="container" style="margin-bottom: 4px;">
         <div class="row">
             <div class="myui-header_bd clearfix">
@@ -41,50 +41,6 @@
                     </a>
                 </div>
                 <ul class="myui-header__menu">
-                    <li class="menu_header"><a href="index.html?t=1">冒险片</a></li>
-                    <li class="menu_header"><a href="index.html?t=2">剧情片</a></li>
-                    <li class="menu_header"><a href="index.html?t=3">动作片</a></li>
-                    <li class="menu_header"><a href="index.html?t=4">动画电影片</a></li>
-                    <li class="menu_header"><a href="index.html?t=5">同性片</a></li>
-                    <li class="menu_header"><a href="index.html?t=6">喜剧片</a></li>
-                    <li class="menu_header"><a href="index.html?t=7">奇幻片</a></li>
-                    <li class="menu_header"><a href="index.html?t=8">恐怖片</a></li>
-                    <li class="menu_header"><a href="index.html?t=9">悬疑片</a></li>
-                    <li class="menu_header"><a href="index.html?t=10">惊悚片</a></li>
-                    <li class="menu_header"><a href="index.html?t=11">战争片</a></li>
-                    <li class="menu_header"><a href="index.html?t=12">歌舞片</a></li>
-                    <li class="menu_header"><a href="index.html?t=13">灾难片</a></li>
-                    <li class="menu_header"><a href="index.html?t=14">爱情片</a></li>
-                    <li class="menu_header"><a href="index.html?t=15">犯罪片</a></li>
-                    <li class="menu_header"><a href="index.html?t=16">科幻片</a></li>
-                    <li class="menu_header"><a href="index.html?t=17">经典片</a></li>
-                    <li class="menu_header"><a href="index.html?t=18">网络电影片</a></li>
-
-                    <li class="menu_header"><a href="index.html?t=101">欧美剧</a></li>
-                    <li class="menu_header"><a href="index.html?t=102">日剧</a></li>
-                    <li class="menu_header"><a href="index.html?t=103">韩剧</a></li>
-                    <li class="menu_header"><a href="index.html?t=104">国产剧</a></li>
-                    <li class="menu_header"><a href="index.html?t=105">泰剧</a></li>
-                    <li class="menu_header"><a href="index.html?t=106">港剧</a></li>
-                    <li class="menu_header"><a href="index.html?t=107">台剧</a></li>
-                    <li class="menu_header"><a href="index.html?t=108">新马剧</a></li>
-                    <li class="menu_header"><a href="index.html?t=109">其他剧</a></li>
-
-                    <li class="menu_header"><a href="index.html?t=201">欧美综艺</a></li>
-                    <li class="menu_header"><a href="index.html?t=202">日本综艺</a></li>
-                    <li class="menu_header"><a href="index.html?t=203">韩国综艺</a></li>
-                    <li class="menu_header"><a href="index.html?t=204">国产综艺</a></li>
-                    <li class="menu_header"><a href="index.html?t=206">港台综艺</a></li>
-                    <li class="menu_header"><a href="index.html?t=207">其他综艺</a></li>
-
-                    <li class="menu_header"><a href="index.html?t=301">欧美动漫</a></li>
-                    <li class="menu_header"><a href="index.html?t=302">日本动漫</a></li>
-                    <li class="menu_header"><a href="index.html?t=303">韩国动漫</a></li>
-                    <li class="menu_header"><a href="index.html?t=304">国产动漫</a></li>
-                    <li class="menu_header"><a href="index.html?t=306">港台动漫</a></li>
-                    <li class="menu_header"><a href="index.html?t=307">其他动漫</a></li>
-                    <li class="menu_header"><a href="index.html?t=401">体育赛事</a></li>
-                    <li class="menu_header"><a href="index.html?t=501">纪录片</a></li>                    
                 </ul>
             </div>
 
@@ -96,7 +52,7 @@
   <div class="container">
     <div class="row">
         <div class="myui-panel myui-panel-bg clearfix">
-            <div class="myui-panel-box clearfix" id="movielist">
+            <div class="myui-panel-box clearfix">
 
             </div>
         </div>
@@ -121,9 +77,8 @@
 </div>
 
 
-
 <script>
-
+  let pagename = window.location.pathname.split('/').slice(-1);
   var urlParams;
   (window.onpopstate = function () {
     var match,
@@ -138,12 +93,94 @@
   })();
 
 
-  if (urlParams["id"] == null){ var id = ""; } else { var id = urlParams["id"];}
+  if (urlParams["t"] == null){ var t = ""; } else { var t = urlParams["t"];}
+  if (urlParams["pg"] == null){ var pg = "1"; } else { var pg = urlParams["pg"];}
 
-  var urlAPI = 'https://api.haiwaikan.com/v1/vod?ac=detail';
+  var urlAPI = '';
   var cors_api_url = 'https://cors-anywhere.herokuapp.com/';
 
+  function doCORSRequestMenu(options, printResult) {
+    var x = new XMLHttpRequest();
+    x.open(options.method, cors_api_url + options.url);
+    x.onload = x.onerror = function() 
+    {
+      let htmlString = x.responseText.split('<class>')[1].split('</class>')[0];
+      htmlString = htmlString.replaceAll('<ty id="','<li class="menu_header"><a href="'+pagename+'?t=');
+      htmlString = htmlString.replaceAll('</ty>','</a></li>');
+      document.getElementsByClassName('myui-header__menu')[0].innerHTML = htmlString;
+    }
+    x.send(options.data);
+    // return result;
+  }
+
   function doCORSRequest(options, printResult) {
+    var x = new XMLHttpRequest();
+    x.open(options.method, cors_api_url + options.url);
+    x.onload = x.onerror = function() 
+    {
+      var data = JSON.parse(x.responseText);
+
+      page = data.page;
+      pagecount = data.pagecount;
+
+      let htmlString = '<ul>';
+      
+      for (let file of data.list) {
+        var m3u8 = file.vod_play_url.split('$')[1];
+        var img = file.vod_pic;
+        var title = file.vod_name;
+        var year = file.vod_year;
+        var quality = file.vod_play_url.split('$')[0];
+        var type_name = file.type_name;
+        var id = file.vod_id;        
+
+        htmlString += '<li class="col-lg-10 col-md-8 col-sm-5 col-xs-3">';
+        htmlString += '<div class="myui-vodlist__box">';
+        htmlString += '<a class="myui-vodlist__thumb lazyload" href="'+pagename+'?id='+ id + '" ';
+        htmlString += 'title="' + title +'" ';
+        htmlString += 'data-original="' + img + '" ';
+        htmlString += 'style="background-image: url(' + img +')"';
+
+        htmlString += '<span class="play hidden-xs"></span>';
+        htmlString += '<span class="pic-tag pic-tag-top" style="background-color: #5bb7fe;">' + quality+'</span>';
+        htmlString += '<span class="pic-text text-right">'+year+'</span>';
+        htmlString += '<span class="pic-text text-left">'+type_name+'</span>';
+
+        htmlString += '</a>';
+        htmlString += '</div>';
+        htmlString += '<div class="myui-vodlist__detail">';
+        htmlString += '<h4 class="title text-overflow"><a href="'+m3u8+'">'+title+'</a></h4>';
+        htmlString += '</div>';
+        htmlString += '</li>';
+      }
+
+      htmlString += '</ul>';
+      document.getElementsByClassName('myui-panel-box clearfix')[0].innerHTML = htmlString;
+    
+     
+      var p = parseInt(page);
+      var bottom_p = parseInt(pagecount);
+      var referer = pagename + '?t=' + t
+      if (p > 1) { prev_p = p-1;} else { prev_p = 1;}
+      if (p < bottom_p) { next_p = p+1;} else { next_p = bottom_p;}
+      var nav = '<li class="hidden-xs"><a class="btn btn-default" href="' + referer+'&pg=1">1</a></li>';
+      nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer+'&pg=' + prev_p +'">Prev</a></li>';
+      for (let i = p - 5; i < p + 5; i++) {
+          if ( i == p ) {  nav += '<li class="hidden-xs"><a class="btn btn-warm" href="' + referer+'&pg=' + i +'">'+ i +'</a></li>'; }
+          else if ( i < bottom_p && i > 0) {  nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer+'&pg=' + i +'">'+ i +'</a></li>'; }
+      }
+
+      nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer + '&pg=' + next_p +'">Next</a></li>';
+      nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer + '&pg=' + bottom_p +'">'+bottom_p+'</a></li>';
+
+      document.getElementsByClassName('myui-page text-center clearfix')[0].innerHTML = nav;
+
+    }
+    x.send(options.data);
+    // return result;
+  }
+
+  function doCORSRequestById(options, printResult) {
     var x = new XMLHttpRequest();
     x.open(options.method, cors_api_url + options.url);
     x.onload = x.onerror = function() 
@@ -194,17 +231,17 @@
 
         htmlString += '<div class="myui-content__detail">';
         htmlString += '<h1 class="title">'+ title +'</h1>';
-				htmlString += '<p class="data">';
+        htmlString += '<p class="data">';
         htmlString += '<span class="text-muted">分類：</span><a href="index.html?t='+type_id+'">'+type_name+'</a>';
         htmlString += '<span class="split-line"></span>';
         htmlString += '<span class="text-muted hidden-xs">地區：</span>'+area;
         htmlString += '<span class="split-line"></span>';
         htmlString += '<span class="text-muted hidden-xs">年份：</span>'+year;
-				htmlString += '</p>';
-				htmlString += '<p class="data"><span class="text-muted">主演：</span>'+actor+'</p>';
-				htmlString += '<p class="data"><span class="text-muted">導演：</span>'+director+'</p>';
-				htmlString += '<p class="data"><span class="text-muted">狀態：</span>'+remarks+'</p>';
-				htmlString += '<p class="data"><span class="text-muted">更新：</span>'+vod_time+'</p>';
+        htmlString += '</p>';
+        htmlString += '<p class="data"><span class="text-muted">主演：</span>'+actor+'</p>';
+        htmlString += '<p class="data"><span class="text-muted">導演：</span>'+director+'</p>';
+        htmlString += '<p class="data"><span class="text-muted">狀態：</span>'+remarks+'</p>';
+        htmlString += '<p class="data"><span class="text-muted">更新：</span>'+vod_time+'</p>';
         htmlString += '<p class="data"><span class="text-muted">簡介：</span></p>'+content;
         htmlString += '</div>';
 
@@ -231,7 +268,6 @@
         htmlString += '</div>';
         htmlString += '</li>';
 
-
       }
 
       htmlString += '</ul>';
@@ -239,21 +275,32 @@
 
     }
     x.send(options.data);
-    return result;
+    // return result;
   }
 
 
-  var urlField = urlAPI + '&ids=' + id;
+
+  var urlAPI = 'https://caiji.semaozy.net/inc/api.php';
+  var urlField = urlAPI;
   var outputField = document.getElementById('output');
-  var j = doCORSRequest(
-    { method: 'GET', url: urlField, }, 
-    function printResult(result) {
-        outputField.value = result;
-    }
-  )
+  var j = doCORSRequestMenu( { method: 'GET', url: urlField, },  function printResult(result) { outputField.value = result; } )
+
+
+
+  var urlAPI = 'https://caiji.semaozy.net/inc/apijson_vod.php?ac=detail';
+  if (urlParams["id"] == null) {
+    var urlField = urlAPI + '&t=' + t + '&pg=' + pg;
+    var j = doCORSRequest( { method: 'GET', url: urlField, }, function printResult(result) {outputField.value = result; } )
+  } else {
+    var id = urlParams["id"];
+    var urlField = urlAPI + '&ids=' + id;
+    var j = doCORSRequestById( { method: 'GET', url: urlField, }, function printResult(result) { outputField.value = result; } )
+  }
 
 
 </script>
+
+
 
 <body>
 </html>
