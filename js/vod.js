@@ -1,83 +1,5 @@
-<!doctype html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Movie Collections</title>
-    <meta name="keywords" content="movie, tv, radio" />
-    <meta name="bookmark-image" content="../images/logo.png" />
-    <meta name="renderer" content="webkit|ie-comp|ie-stand">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
-
-    <link media="all" href="../css/autoptimize.css" rel="stylesheet" />
-    <script defer src="../js/autoptimize.js"></script>
-
-    <link rel="stylesheet" href="../css/mytheme-font.css" type="text/css" />
-    <link rel="stylesheet" href="../css/mytheme-ui.css" type="text/css" />
-    <link rel="stylesheet" href="../css/mytheme-site.css" type="text/css" />
-    <link rel="stylesheet" href="../css/mytheme-share.css" type="text/css" />
-    <link rel="stylesheet" href="../css/mytheme-color.css" type="text/css" name="default" />
-
-    <script type="text/javascript" src="../js/jquery.min.js"></script>
-
-    <script type="text/javascript" src="../js/mytheme-site.js"></script>
-    <script type="text/javascript" src="../js/mytheme-ui.js"></script>
-    <script type="text/javascript" src="../js/mytheme-cms.js"></script>
-
-    <link rel="stylesheet" href="../css/mystyle.css" type="text/css" />
-    <script type="text/javascript" src="../js/myjavascript.js"></script>
-
-</head>
-
-<body>
-    <header class="myui-header__top clearfix" id="header-top">
-    <div class="container" style="margin-bottom: 4px;">
-        <div class="row">
-            <div class="myui-header_bd clearfix">
-                <div class="myui-header__logo" style="padding-top: 5px;">
-                    <a class="" href="../index.html">
-                        <img class="img-responsive hidden-xs" src="../images/logo.png" style="width:100px;height:50px" />
-                        <img class="img-responsive visible-xs" src="../images/logo.png" style="width:80px;height:40px" />
-                    </a>
-                </div>
-                <ul class="myui-header__menu">
-                </ul>
-            </div>
-
-        </div>
-    </div>
-    </div>
-    </header>
-
-  <div class="container">
-    <div class="row">
-        <div class="myui-panel myui-panel-bg clearfix">
-            <div class="myui-panel-box clearfix">
-
-            </div>
-        </div>
-    </div>
-  </div>
-
-  <ul class="myui-page text-center clearfix">
-  </ul>
-
-  <div class="myui-foot clearfix">
-    <div class="container min">
-        <div class="row">
-            <div class="col-pd text-center masked">
-                <p class="">To temporarily unlock access to the demo, click on the following link:
-                    <a href="https://cors-anywhere.herokuapp.com/corsdemo">cors-anywhere</a>
-                    <span class="split-line"></span>
-                </p>
-                <p class="margin-0">本站為程式開發測試之用，資料蒐集於網際網路，版權歸官方所有 Powered by PKJ Studio 2022</p>
-            </div>
-        </div>
-    </div>
-</div>
 
 
-<script>
   let pagename = window.location.pathname.split('/').slice(-1);
   var urlParams;
   (window.onpopstate = function () {
@@ -95,31 +17,106 @@
 
   if (urlParams["t"] == null){ var t = ""; } else { var t = urlParams["t"];}
   if (urlParams["pg"] == null){ var pg = "1"; } else { var pg = urlParams["pg"];}
+  
+  if (urlParams["s"] == null){ var s = "haiwaikan"; } else { var s = urlParams["s"];}
 
-  var urlAPI = '';
+    
+  switch(s){
+    case 'haiwaikan':
+      var menuAPI = 'https://haiwaikan.com/api.php/provide/vod/at/xml';
+      var urlAPI = 'https://haiwaikan.com/api.php/provide/vod/?ac=detail';
+      document.getElementById('menu-movie').href = 'index.html?s='+s+'&t=28';
+      document.getElementById('menu-tvshow').href = 'index.html?s='+s+'&t=119';
+      document.getElementById('menu-variety').href = 'index.html?s='+s+'&t=128';
+      document.getElementById('menu-animation').href = 'index.html?s='+s+'&t=135';
+      break;
+    case 'kuaibozy':
+      var menuAPI = 'https://www.kuaibozy.com/api.php/provide/vod/from/kbm3u8/at/xml';
+      var urlAPI = 'https://www.kuaibozy.com/api.php/provide/vod/?ac=detail';
+      document.getElementById('menu-movie').href = 'index.html?s='+s+'&t=6';
+      document.getElementById('menu-tvshow').href = 'index.html?s='+s+'&t=13';
+      document.getElementById('menu-variety').href = 'index.html?s='+s+'&t=3';
+      document.getElementById('menu-animation').href = 'index.html?s='+s+'&t=4';
+      break;
+    case 'guangsu':
+      var menuAPI = 'https://api.guangsuapi.com/api.php/provide/vod/at/xml/';
+      var urlAPI = 'https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/at/json?ac=detail';
+      document.getElementById('menu-movie').href = 'index.html?s='+s+'&t=6';
+      document.getElementById('menu-tvshow').href = 'index.html?s='+s+'&t=13';
+      document.getElementById('menu-variety').href = 'index.html?s='+s+'&t=3';
+      document.getElementById('menu-animation').href = 'index.html?s='+s+'&t=4';
+      break;
+    case 'xinlang':
+      var menuAPI = 'https://api.xinlangapi.com/xinlangapi.php/provide/vod/at/xml';
+      var urlAPI = 'https://api.xinlangapi.com/xinlangapi.php/provide/vod/at/json?ac=detail';
+      document.getElementById('menu-movie').href = 'index.html?s='+s+'&t=6';
+      document.getElementById('menu-tvshow').href = 'index.html?s='+s+'&t=13';
+      document.getElementById('menu-variety').style.visibility = 'hidden';
+      document.getElementById('menu-animation').href = 'index.html?s='+s+'&t=3';
+      break;
+    case 'bdzy':
+      var menuAPI = 'https://api.apibdzy.com/api.php/provide/vod/from/dbm3u8/at/xml';
+      var urlAPI = 'https://api.apibdzy.com/api.php/provide/vod/?ac=detail';
+      document.getElementById('menu-movie').href = 'index.html?s='+s+'&t=6';
+      document.getElementById('menu-tvshow').href = 'index.html?s='+s+'&t=13';
+      document.getElementById('menu-variety').style.visibility = 'hidden';
+      document.getElementById('menu-animation').style.visibility = 'hidden';
+      document.getElementById('search').style.visibility = 'hidden';
+      break;
+    case '1080zyku':
+      var menuAPI = 'https://api.1080zyku.com/inc/ldg_api.php';
+      var urlAPI = 'https://api.1080zyku.com/inc/apijson.php?ac=detail';
+      document.getElementById('menu-movie').href = 'index.html?s='+s+'&t=5';
+      document.getElementById('menu-tvshow').href = 'index.html?s='+s+'&t=12';
+      document.getElementById('menu-variety').href = 'index.html?s='+s+'&t=3';
+      document.getElementById('menu-animation').href = 'index.html?s='+s+'&t=4';
+      break;
+    default:
+      var menuAPI = 'https://haiwaikan.com/api.php/provide/vod/at/xml';
+      var urlAPI = 'https://haiwaikan.com/api.php/provide/vod/?ac=detail';
+      document.getElementById('menu-movie').href = 'index.html?s='+s+'&t=28';
+      document.getElementById('menu-tvshow').href = 'index.html?s='+s+'&t=119';
+      document.getElementById('menu-variety').href = 'index.html?s='+s+'&t=128';
+      document.getElementById('menu-animation').href = 'index.html?s='+s+'&t=135';
+      break;
+  }
+  
+
   var cors_api_url = 'https://cors-anywhere.herokuapp.com/';
+  
 
   function doCORSRequestMenu(options, printResult) {
     var x = new XMLHttpRequest();
     x.open(options.method, cors_api_url + options.url);
     x.onload = x.onerror = function() 
     {
-        let htmlString = x.responseText.split('<class>')[1].split('</class>')[0];
-        htmlString = htmlString.replaceAll('<ty id="','<li class="menu_header"><a href="'+pagename+'?t=');
-        htmlString = htmlString.replaceAll('</ty>','</a></li>');
-
-        htmlString += '<li class="menu_header"><div class="myui-header__search search-box" style="width:120px;">';
-        htmlString += '<form id="search" name="search" method="get" action="'+pagename+'">';
-        htmlString += '<input type="text" id="wd" name="wd" class="search_wd form-control" value=""';
-        htmlString += 'placeholder="請輸入關鍵字" autocomplete="off" style=" padding-left: 20px; width:140px;" />';
-        htmlString += '<button class="submit search_submit" id="searchbutton" type="submit"><i class="fa fa-search"></i></button>';
-        htmlString += '</form></div"></li>';
-
-        document.getElementsByClassName('myui-header__menu')[0].innerHTML = htmlString;
+      const parser = new DOMParser();
+      const d = parser.parseFromString(x.responseText, "text/html");
+      var list = d.getElementsByTagName('ty');
+      let menu_type = '';
+      for (let i=0; i<list.length;i++){
+        var menu_id = list[i].id;
+        var menu_name = list[i].textContent;
+        if (menu_id == t){
+          menu_type = menu_name.substring(menu_name.length-1);
+        }
+      }
+      let htmlString = '';
+      for (let i=0; i<list.length;i++){
+        var menu_id = list[i].id;
+        var menu_name = list[i].textContent;
+        const cate = ['电影','电视剧','综艺','动漫']
+        if (!cate.includes(menu_name)) {
+          if (menu_name.substring(menu_name.length-1) == menu_type){
+            htmlString += '<li class="menu_header"><a href="'+pagename+'?s='+s+'&t='+menu_id+'">'+menu_name+'</a></li>';
+          }
+        }
+      }
+      document.getElementById('myui-menu').innerHTML = htmlString;
     }
     x.send(options.data);
-    // return result;
   }
+
 
   function doCORSRequest(options, printResult) {
     var x = new XMLHttpRequest();
@@ -141,16 +138,21 @@
         var quality = file.vod_play_url.split('$')[0];
         var type_name = file.type_name;
         var id = file.vod_id;        
+        var remarks = file.vod_remarks;
+        var state = file.vod_state;
 
         htmlString += '<li class="col-lg-10 col-md-8 col-sm-5 col-xs-3">';
         htmlString += '<div class="myui-vodlist__box">';
-        htmlString += '<a class="myui-vodlist__thumb lazyload" href="'+pagename+'?id='+ id + '" ';
+        htmlString += '<a class="myui-vodlist__thumb lazyload" href="'+pagename+'?s='+s+'&t=' + t + '&id='+ id + '" ';
         htmlString += 'title="' + title +'" ';
         htmlString += 'data-original="' + img + '" ';
         htmlString += 'style="background-image: url(' + img +')"';
 
         htmlString += '<span class="play hidden-xs"></span>';
-        htmlString += '<span class="pic-tag pic-tag-top" style="background-color: #5bb7fe;">' + quality+'</span>';
+        if (quality != '1'){
+            htmlString += '<span class="pic-tag pic-tag-top" style="background-color: #5bb7fe;">' + quality+'</span>';
+        }
+        htmlString += '<span class="pic-tag pic-tag-right">'+remarks+'</span>';
         htmlString += '<span class="pic-text text-right">'+year+'</span>';
         htmlString += '<span class="pic-text text-left">'+type_name+'</span>';
 
@@ -163,12 +165,13 @@
       }
 
       htmlString += '</ul>';
-      document.getElementsByClassName('myui-panel-box clearfix')[0].innerHTML = htmlString;
+      
+      document.getElementById('myui-panel').innerHTML = htmlString;
     
      
       var p = parseInt(page);
       var bottom_p = parseInt(pagecount);
-      var referer = pagename + '?t=' + t
+      var referer = pagename+'?s='+s+'&t=' + t
       if (p > 1) { prev_p = p-1;} else { prev_p = 1;}
       if (p < bottom_p) { next_p = p+1;} else { next_p = bottom_p;}
       var nav = '<li class="hidden-xs"><a class="btn btn-default" href="' + referer+'&pg=1">1</a></li>';
@@ -180,13 +183,13 @@
 
       nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer + '&pg=' + next_p +'">Next</a></li>';
       nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer + '&pg=' + bottom_p +'">'+bottom_p+'</a></li>';
-
-      document.getElementsByClassName('myui-page text-center clearfix')[0].innerHTML = nav;
+      
+      document.getElementById('myui-page').innerHTML = nav;
 
     }
     x.send(options.data);
-    // return result;
   }
+
 
   function doCORSRequestById(options, printResult) {
     var x = new XMLHttpRequest();
@@ -239,25 +242,26 @@
 
         htmlString += '<div class="myui-content__detail">';
         htmlString += '<h1 class="title">'+ title +'</h1>';
-				htmlString += '<p class="data">';
-        htmlString += '<span class="text-muted">分類：</span><a href="'+pagename+'?t='+type_id+'">'+type_name+'</a>';
+        htmlString += '<p class="data">';
+        htmlString += '<span class="text-muted">分類：</span><a href="'+pagename+'?s='+s+'&t='+type_id+'">'+type_name+'</a>';
         htmlString += '<span class="split-line"></span>';
         htmlString += '<span class="text-muted hidden-xs">地區：</span>'+area;
         htmlString += '<span class="split-line"></span>';
         htmlString += '<span class="text-muted hidden-xs">年份：</span>'+year;
-				htmlString += '</p>';
-				htmlString += '<p class="data"><span class="text-muted">主演：</span>'+actor+'</p>';
-				htmlString += '<p class="data"><span class="text-muted">導演：</span>'+director+'</p>';
-				htmlString += '<p class="data"><span class="text-muted">狀態：</span>'+remarks+'</p>';
-				htmlString += '<p class="data"><span class="text-muted">更新：</span>'+vod_time+'</p>';
+        htmlString += '</p>';
+        htmlString += '<p class="data"><span class="text-muted">主演：</span>'+actor+'</p>';
+        htmlString += '<p class="data"><span class="text-muted">導演：</span>'+director+'</p>';
+        htmlString += '<p class="data"><span class="text-muted">狀態：</span>'+remarks+'</p>';
+        htmlString += '<p class="data"><span class="text-muted">更新：</span>'+vod_time+'</p>';
         htmlString += '<p class="data"><span class="text-muted">簡介：</span></p>'+content;
         htmlString += '</div>';
 
         htmlString += '</li>';
 
 
+        //  create playlists buttons
         htmlString += '<li class="col-lg-2 col-md-2 col-sm-2 col-xs-1">';
-        htmlString += '<div style="margin: 10px; padding: 4px; opacity:1 !important;">';
+        htmlString += '<div class="myui-content__detail">';
 
         const playlists = file.vod_play_url.split('#');
         if( playlists.length == 1 ){
@@ -268,8 +272,9 @@
               const p = pl.split('$');
               var pl_name = p[0];
               var pl_m3u8 = p[1];
-              // htmlString += '<button class="btn btn-outline-primary" type="button" style="width:120px;margin:2px">';
-              htmlString += '<a style="font-size: 20px;" href="'+pl_m3u8+'"><button class="btn btn-outline-primary" type="button" style="width:120px;margin:2px">'+pl_name+'</button></a>';
+              htmlString += '<a href="'+pl_m3u8+'">';
+              htmlString += '<button class="btn btn-outline-primary" type="button" style="width:140px;margin:2px;font-size: 20px;">'
+              htmlString += pl_name+'</button></a>';
           }
         }
 
@@ -277,31 +282,26 @@
         htmlString += '</li>';
 
       }
-
       htmlString += '</ul>';
-      document.getElementsByClassName('myui-panel-box clearfix')[0].innerHTML = htmlString;
+      document.getElementById('myui-panel').innerHTML = htmlString;
 
     }
     x.send(options.data);
-    // return result;
   }
 
-
-
-  var urlAPI = 'https://api.apibdzy.com/api.php/provide/vod/from/dbm3u8/at/xml';
-  var urlField = urlAPI;
+  // create menu items
+  var urlField = menuAPI;
   var outputField = document.getElementById('output');
   var j = doCORSRequestMenu( { method: 'GET', url: urlField, },  function printResult(result) { outputField.value = result; } )
 
-
-
-  var urlAPI = 'https://api.apibdzy.com/api.php/provide/vod/?ac=detail';
+  // create movie lists, keyword search and vod by id
   if (urlParams["id"] == null) {
     if (urlParams["wd"] == null) {
       var urlField = urlAPI + '&t=' + t + '&pg=' + pg;
       var j = doCORSRequest( { method: 'GET', url: urlField, }, function printResult(result) {outputField.value = result; } )
     } else {
-      var urlField = urlAPI + '&wd=' + urlParams["wd"];
+      var keyword = Simplized(urlParams["wd"])  // 繁轉簡
+      var urlField = urlAPI + '&wd=' + keyword;
       var j = doCORSRequest( { method: 'GET', url: urlField, }, function printResult(result) {outputField.value = result; } )
     }
   } else {
@@ -309,13 +309,5 @@
     var urlField = urlAPI + '&ids=' + id;
     var j = doCORSRequestById( { method: 'GET', url: urlField, }, function printResult(result) { outputField.value = result; } )
   }
-
-</script>
-
-
-
-<body>
-</html>
-
 
 
