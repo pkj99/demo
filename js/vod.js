@@ -278,6 +278,9 @@
           }
         }
 
+        htmlString += '<button class="btn btn-secondary" type="button">';
+        htmlString += '<a style="font-size: 24px;" href="" onclick="setCookieBySourceId('+s+','+id+')" id="favorites">收藏</a></button>';
+
         htmlString += '</div>';
         htmlString += '</li>';
 
