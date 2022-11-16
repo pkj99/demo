@@ -107,9 +107,10 @@
   }
 
   function setCookieBySourceId(source,id) {
-      var ids = getCookieByName(source);
+      var ids = '';
+      ids = getCookieByName(source);
       var idNew = ',' + id ;
-      if (ids.includes(idNew)){
+      if (ids.contains(idNew)){
         document.getElementById('favorites').textContent = '收藏';
         document.getElementById('favorites').className = 'btn btn-secondary';
         ids = ids.replace(idNew,'');
@@ -123,7 +124,8 @@
   }
 
   function checkCookieBySourceId(source,id) {
-      var ids = getCookieByName(source);
+      var ids = '';
+      ids = getCookieByName(source);
       var idsAry = ids.split(',');
       for (var i=0, l=idsAry.length; i<l; ++i) {
           if (id == idsAry[i]){
