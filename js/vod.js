@@ -278,8 +278,10 @@
           }
         }
 
-        htmlString += '<button class="btn btn-secondary" type="button">';
-        htmlString += '<a style="font-size: 24px;" href="" onclick="setCookieBySourceId('+s+','+id+')" id="favorites">收藏</a></button>';
+        htmlString += '<button class="btn btn-secondary" type="button" onclick="setCookieBySourceId('+s+','+id+')" id="favorites" style="font-size: 24px;">收藏</button>';
+
+        // htmlString += '<button class="btn btn-secondary" type="button">';
+        // htmlString += '<a style="font-size: 24px;" href="" onclick="setCookieBySourceId('+s+','+id+')" id="favorites">收藏</a></button>';
 
         htmlString += '</div>';
         htmlString += '</li>';
@@ -289,7 +291,7 @@
       document.getElementById('myui-panel').innerHTML = htmlString;
 
       checkCookieBySourceId(source,id)
-      
+
     }
     x.send(options.data);
   }
