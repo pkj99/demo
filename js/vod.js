@@ -288,6 +288,8 @@
       htmlString += '</ul>';
       document.getElementById('myui-panel').innerHTML = htmlString;
 
+      checkCookieBySourceId(source,id)
+      
     }
     x.send(options.data);
   }

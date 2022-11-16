@@ -123,15 +123,29 @@
   }
 
   function setCookieBySourceId(source,id) {
-      document.cookie = source + '=' + id +';';
+      var ids = getCookieByName(source);
+      ids += id + '#';
+      document.cookie = source + '=' + ids ;
   }
-  var source = 'haiwaikan'
-  var id = '88472';
-  setCookieBySourceId(source,id);
+
+  function checkCookieBySourceId(source,id) {
+      var ids = getCookieByName(source);
+      var idsAry = ids.split('#');
+      for (var i=0, l=idsAry.length; i<l; ++i) {
+          if (id == idsAry[i]){
+              document.getElementById('favorites').textContent = '已收藏';
+          }
+      }      
+  }
+
+
+  // var source = 'haiwaikan'
+  // var id = '88472';
+  // setCookieBySourceId(source,id);
 
   var cookies = document.cookie;
-  alert(cookies);
-  alert(getCookieByName(source));
+  // alert(cookies);
+  // alert(getCookieByName(source));
   console.log(cookies);
 </script>
 
