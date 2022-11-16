@@ -108,8 +108,6 @@
 
   function setCookieBySourceId(source,id) {
       var ids = getCookieByName(source);
-      console.log(source);
-      console.log(ids);
       if (ids == null) { ids = '';}
       var idNew = ',' + id ;
       if (ids.includes(idNew)){
@@ -127,8 +125,6 @@
 
   function checkCookieBySourceId(source,id) {
       var ids = getCookieByName(source);
-      console.log(source);
-      console.log(ids);
       if (ids == null) { ids = '';}
       var idsAry = ids.split(',');
       for (var i=0, l=idsAry.length; i<l; ++i) {
@@ -382,7 +378,7 @@
   } else {
     if (urlParams["ids"] == 'clear'){
       alert(urlParams["ids"]);
-      document.cookie = '';
+      document.cookie[s] = '';
     } else {
       var id = getCookieByName(s);
       var urlField = urlAPI + '&ids=' + id;
