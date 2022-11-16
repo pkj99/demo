@@ -98,6 +98,42 @@
 </body>
 </html>
 
+<script>
+  function parseCookie() {
+      var cookieObj = {};
+      var cookieAry = document.cookie.split(';');
+      var cookie;
+      
+      for (var i=0, l=cookieAry.length; i<l; ++i) {
+          cookie = jQuery.trim(cookieAry[i]);
+          cookie = cookie.split('=');
+          cookieObj[cookie[0]] = cookie[1];
+      }
+      
+      return cookieObj;
+  }
+
+  function getCookieByName(name) {
+      var value = parseCookie()[name];
+      if (value) {
+          value = decodeURIComponent(value);
+      }
+
+      return value;
+  }
+
+  function setCookieBySourceId(source,id) {
+      document.cookie = source + '=' + id +';';
+  }
+  var source = 'haiwaikan'
+  var id = '88472';
+  setCookieBySourceId(source,id);
+
+  var cookies = document.cookie;
+  alert(cookies);
+  alert(getCookieByName(source));
+  console.log(cookies);
+</script>
 
 <!-- 海外看 -->
 <!-- <script>
