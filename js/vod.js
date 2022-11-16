@@ -377,8 +377,9 @@
     }
   } else {
     if (urlParams["ids"] == 'clear'){
-      alert(urlParams["ids"]);
-      document.cookie[s] = '';
+      console.log(urlParams["ids"]);
+      document.cookie = s + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT';
+      console.log(document.cookie);
     } else {
       var id = getCookieByName(s);
       var urlField = urlAPI + '&ids=' + id;
