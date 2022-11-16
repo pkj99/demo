@@ -29,6 +29,7 @@
       document.getElementById('menu-tvshow').href = 'index.html?s='+s+'&t=119';
       document.getElementById('menu-variety').href = 'index.html?s='+s+'&t=128';
       document.getElementById('menu-animation').href = 'index.html?s='+s+'&t=135';
+      document.getElementById('menu-favorites').href = 'index.html?s='+s+'&ids=favorites';
       break;
     case 'kuaibozy':
       var menuAPI = 'https://www.kuaibozy.com/api.php/provide/vod/from/kbm3u8/at/xml';
@@ -37,6 +38,7 @@
       document.getElementById('menu-tvshow').href = 'index.html?s='+s+'&t=13';
       document.getElementById('menu-variety').href = 'index.html?s='+s+'&t=3';
       document.getElementById('menu-animation').href = 'index.html?s='+s+'&t=4';
+      document.getElementById('menu-favorites').href = 'index.html?s='+s+'&ids=favorites';
       break;
     case 'guangsu':
       var menuAPI = 'https://api.guangsuapi.com/api.php/provide/vod/at/xml/';
@@ -45,6 +47,7 @@
       document.getElementById('menu-tvshow').href = 'index.html?s='+s+'&t=13';
       document.getElementById('menu-variety').href = 'index.html?s='+s+'&t=3';
       document.getElementById('menu-animation').href = 'index.html?s='+s+'&t=4';
+      document.getElementById('menu-favorites').href = 'index.html?s='+s+'&ids=favorites';
       break;
     case 'xinlang':
       var menuAPI = 'https://api.xinlangapi.com/xinlangapi.php/provide/vod/at/xml';
@@ -53,6 +56,7 @@
       document.getElementById('menu-tvshow').href = 'index.html?s='+s+'&t=13';
       document.getElementById('menu-variety').style.visibility = 'hidden';
       document.getElementById('menu-animation').href = 'index.html?s='+s+'&t=3';
+      document.getElementById('menu-favorites').href = 'index.html?s='+s+'&ids=favorites';
       break;
     case 'bdzy':
       var menuAPI = 'https://api.apibdzy.com/api.php/provide/vod/from/dbm3u8/at/xml';
@@ -62,6 +66,7 @@
       document.getElementById('menu-variety').style.visibility = 'hidden';
       document.getElementById('menu-animation').style.visibility = 'hidden';
       document.getElementById('search').style.visibility = 'hidden';
+      document.getElementById('menu-favorites').href = 'index.html?s='+s+'&ids=favorites';
       break;
     case '1080zyku':
       var menuAPI = 'https://api.1080zyku.com/inc/ldg_api.php';
@@ -70,6 +75,7 @@
       document.getElementById('menu-tvshow').href = 'index.html?s='+s+'&t=12';
       document.getElementById('menu-variety').href = 'index.html?s='+s+'&t=3';
       document.getElementById('menu-animation').href = 'index.html?s='+s+'&t=4';
+      document.getElementById('menu-favorites').href = 'index.html?s='+s+'&ids=favorites';
       break;
     default:
       var menuAPI = 'https://haiwaikan.com/api.php/provide/vod/at/xml';
@@ -78,6 +84,7 @@
       document.getElementById('menu-tvshow').href = 'index.html?s='+s+'&t=119';
       document.getElementById('menu-variety').href = 'index.html?s='+s+'&t=128';
       document.getElementById('menu-animation').href = 'index.html?s='+s+'&t=135';
+      document.getElementById('menu-favorites').href = 'index.html?s='+s+'&ids=favorites';
       break;
   }
 
