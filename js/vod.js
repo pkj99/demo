@@ -17,10 +17,10 @@
 
   if (urlParams["t"] == null){ var t = ""; } else { var t = urlParams["t"];}
   if (urlParams["pg"] == null){ var pg = "1"; } else { var pg = urlParams["pg"];}
-  
   if (urlParams["s"] == null){ var s = "haiwaikan"; } else { var s = urlParams["s"];}
 
-    
+
+  // 來源分類
   switch(s){
     case 'haiwaikan':
       var menuAPI = 'https://haiwaikan.com/api.php/provide/vod/at/xml';
@@ -80,12 +80,56 @@
       document.getElementById('menu-animation').href = 'index.html?s='+s+'&t=135';
       break;
   }
-  
 
+  // 收藏設定 Cookie 
+ 
+  function parseCookie() {
+    var cookieObj = {};
+    var cookieAry = document.cookie.split(';');
+    var cookie;
+    
+    for (var i=0, l=cookieAry.length; i<l; ++i) {
+        cookie = jQuery.trim(cookieAry[i]);
+        cookie = cookie.split('=');
+        cookieObj[cookie[0]] = cookie[1];
+    }
+    
+    return cookieObj;
+  } 
+
+  function getCookieByName(name) {
+      var value = parseCookie()[name];
+      if (value) {
+          value = decodeURIComponent(value);
+      }
+
+      return value;
+  }
+
+  function setCookieBySourceId(source,id) {
+      var ids = getCookieByName(source);
+      ids += id + '#';
+      document.cookie = source + '=' + ids ;
+  }
+
+  function checkCookieBySourceId(source,id) {
+      var ids = getCookieByName(source);
+      alert(ids);
+      var idsAry = ids.split('#');
+      for (var i=0, l=idsAry.length; i<l; ++i) {
+          if (id == idsAry[i]){
+              document.getElementById('favorites').textContent = '已收藏';
+              document.getElementById('favorites').className = 'btn btn-danger';
+          }
+      }      
+  }
+
+
+
+// 解決CORS問題
   var cors_api_url = 'https://cors-anywhere.herokuapp.com/';
-  
 
-  function doCORSRequestMenu(options, printResult) {
+    function doCORSRequestMenu(options, printResult) {
     var x = new XMLHttpRequest();
     x.open(options.method, cors_api_url + options.url);
     x.onload = x.onerror = function() 
