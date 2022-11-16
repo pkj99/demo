@@ -337,7 +337,7 @@
       htmlString += '</ul>';
       document.getElementById('myui-panel').innerHTML = htmlString;
 
-      checkCookieBySourceId(source,id);
+      checkCookieBySourceId(s,id);
 
     }
     x.send(options.data);
