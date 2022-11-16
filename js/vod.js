@@ -322,8 +322,10 @@
           }
         }
 
-        htmlString += '<button class="btn btn-secondary" type="button" onclick="setCookieBySourceId('+s+','+id+')" id="favorites" '
+        htmlString += '<button class="btn btn-secondary" type="button" onclick="setCookieBySourceId(\''+s+'\',\''+id+'\');" id="favorites" '
         htmlString += 'style="font-size: 24px;margin:2px;">收藏</button>';
+        htmlString += '<button class="btn btn-secondary" type="button" onclick="setCookieBySourceId("'+s+'","'+id+'");" id="favorites2" '
+        htmlString += 'style="font-size: 24px;margin:2px;">收藏2</button>';
 
         // htmlString += '<button class="btn btn-secondary" type="button">';
         // htmlString += '<a style="font-size: 24px;" href="" onclick="setCookieBySourceId('+s+','+id+')" id="favorites">收藏</a></button>';
