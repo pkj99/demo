@@ -108,14 +108,23 @@
 
   function setCookieBySourceId(source,id) {
       var ids = getCookieByName(source);
-      ids += id + '#';
-      document.cookie = source + '=' + ids ;
+      var idNew = ',' + id ;
+      if (ids.includes(idNew)){
+        document.getElementById('favorites').textContent = '收藏';
+        document.getElementById('favorites').className = 'btn btn-secondary';
+        ids = ids.replace(idNew,'');
+        document.cookie = source + '=' + ids ;
+      } else {
+        document.getElementById('favorites').textContent = '已收藏';
+        document.getElementById('favorites').className = 'btn btn-danger';
+        ids += idNew ;
+        document.cookie = source + '=' + ids ;
+      }
   }
 
   function checkCookieBySourceId(source,id) {
       var ids = getCookieByName(source);
-      alert(ids);
-      var idsAry = ids.split('#');
+      var idsAry = ids.split(',');
       for (var i=0, l=idsAry.length; i<l; ++i) {
           if (id == idsAry[i]){
               document.getElementById('favorites').textContent = '已收藏';
@@ -129,7 +138,7 @@
 // 解決CORS問題
   var cors_api_url = 'https://cors-anywhere.herokuapp.com/';
 
-    function doCORSRequestMenu(options, printResult) {
+  function doCORSRequestMenu(options, printResult) {
     var x = new XMLHttpRequest();
     x.open(options.method, cors_api_url + options.url);
     x.onload = x.onerror = function() 
@@ -159,7 +168,7 @@
       document.getElementById('myui-menu').innerHTML = htmlString;
     }
     x.send(options.data);
-  }
+  } 
 
 
   function doCORSRequest(options, printResult) {
@@ -324,8 +333,6 @@
 
         htmlString += '<button class="btn btn-secondary" type="button" onclick="setCookieBySourceId(\''+s+'\',\''+id+'\');" id="favorites" '
         htmlString += 'style="font-size: 24px;margin:2px;">收藏</button>';
-        htmlString += '<button class="btn btn-secondary" type="button" onclick="setCookieBySourceId("'+s+'","'+id+'");" id="favorites2" '
-        htmlString += 'style="font-size: 24px;margin:2px;">收藏2</button>';
 
         // htmlString += '<button class="btn btn-secondary" type="button">';
         // htmlString += '<a style="font-size: 24px;" href="" onclick="setCookieBySourceId('+s+','+id+')" id="favorites">收藏</a></button>';
@@ -349,19 +356,26 @@
   var j = doCORSRequestMenu( { method: 'GET', url: urlField, },  function printResult(result) { outputField.value = result; } )
 
   // create movie lists, keyword search and vod by id
-  if (urlParams["id"] == null) {
-    if (urlParams["wd"] == null) {
-      var urlField = urlAPI + '&t=' + t + '&pg=' + pg;
-      var j = doCORSRequest( { method: 'GET', url: urlField, }, function printResult(result) {outputField.value = result; } )
+  if (urlParams["ids"] == null) {
+    if (urlParams["id"] == null) {
+      if (urlParams["wd"] == null) {
+        var urlField = urlAPI + '&t=' + t + '&pg=' + pg;
+        var j = doCORSRequest( { method: 'GET', url: urlField, }, function printResult(result) {outputField.value = result; } )
+      } else {
+        var keyword = Simplized(urlParams["wd"])  // 繁轉簡
+        var urlField = urlAPI + '&wd=' + keyword;
+        var j = doCORSRequest( { method: 'GET', url: urlField, }, function printResult(result) {outputField.value = result; } )
+      }
     } else {
-      var keyword = Simplized(urlParams["wd"])  // 繁轉簡
-      var urlField = urlAPI + '&wd=' + keyword;
-      var j = doCORSRequest( { method: 'GET', url: urlField, }, function printResult(result) {outputField.value = result; } )
+      var id = urlParams["id"];
+      var urlField = urlAPI + '&ids=' + id;
+      var j = doCORSRequestById( { method: 'GET', url: urlField, }, function printResult(result) { outputField.value = result; } )
     }
   } else {
-    var id = urlParams["id"];
+    // var id = urlParams["ids"];
+    var id = getCookieByName(s);
     var urlField = urlAPI + '&ids=' + id;
-    var j = doCORSRequestById( { method: 'GET', url: urlField, }, function printResult(result) { outputField.value = result; } )
+    var j = doCORSRequest( { method: 'GET', url: urlField, }, function printResult(result) { outputField.value = result; } )
   }
 
 
