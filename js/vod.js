@@ -330,7 +330,7 @@
         const playlists = file.vod_play_url.split('#');
         if( playlists.length == 1 ){
             htmlString += '<button class="btn btn-primary" type="button" style="font-size: 24px;margin:2px;">';
-            htmlString += '<a href="'+m3u8+'">播放</a></button>';
+            htmlString += '<a href="../vod/playvideo.html?url='+m3u8+'">播放</a></button>';
         } else {
           for (let pl of playlists){
               const p = pl.split('$');

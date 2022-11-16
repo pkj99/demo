@@ -9,10 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
 
-    <!-- <link media="all" href="../css/autoptimize.css" rel="stylesheet" />
-    <script defer src="../js/autoptimize.js"></script> -->
-
-
     <link rel="stylesheet" href="../css/mytheme-font.css" type="text/css" />
     <link rel="stylesheet" href="../css/mytheme-ui.css" type="text/css" />
     <link rel="stylesheet" href="../css/mytheme-site.css" type="text/css" />
@@ -24,18 +20,10 @@
     <script type="text/javascript" src="../js/mytheme-site.js"></script>
     <script type="text/javascript" src="../js/mytheme-ui.js"></script>
     <script type="text/javascript" src="../js/mytheme-cms.js"></script>
-    <!-- <script type="text/javascript" src="https://pkjweb.herokuapp.com/static/js/home.js"></script>
-    <script type="text/javascript" src="https://pkjweb.herokuapp.com/static/js/cn.js"></script> -->
 
     <link rel="stylesheet" href="../css/mystyle.css" type="text/css" />
     <script type="text/javascript" src="../js/myjavascript.js"></script>
-
-    <!-- <script src="https://pkjweb.herokuapp.com/static/js/hls.min.js"></script>
-    <script src="https://pkjweb.herokuapp.com/static/js/DPlayer.min.js"></script>   -->
-
-
-
-
+   
 </head>
 
 <body>
@@ -45,15 +33,12 @@
             <div class="myui-header_bd clearfix">
                 <div class="myui-header__logo" style="padding-top: 5px;">
                     <a class="" href="../index.html">
-                        <img class="img-responsive hidden-xs" src="../images/logo.png"
-                            style="width:100px;height:50px" />
-                        <img class="img-responsive visible-xs" src="../images/logo.png"
-                            style="width:80px;height:40px" />
+                        <img class="img-responsive hidden-xs" src="../images/logo.png" style="width:100px;height:50px" />
+                        <img class="img-responsive visible-xs" src="../images/logo.png"  style="width:80px;height:40px" />
                     </a>
                 </div>
 
                 <ul class="myui-header__menu">
-                    <!-- <li class="active"><a class="logo" href="/">Home</a></li> -->
                     <li class="menu_header active"><a href="?path=hits">熱播</a></li>
                     <li class="menu_header"><a href="?path=imdb">高分榜</a></li>
                     <li class="menu_header"><a href="?path=marvel">Marvel</a></li>
@@ -65,11 +50,6 @@
                     <li class="menu_header"><a href="?path=iptv">TVChannel</a></li>
                 </ul>
             </div>
-
-            <ul class="myui-header__user">
-            </ul>
-
-
 
         </div>
     </div>
@@ -94,28 +74,6 @@
     <div class="container min">
         <div class="row">
             <div class="col-pd text-center masked">
-
-                <!-- <p class="hidden-xs"> -->
-                <p class="">
-                    <a
-                        href="ytplayer.html?url=https://www.youtube.com/embed/videoseries?list=PLyYNOzVuJM_0cCbjBvGHJRBittNhkbRDc&autostart=1&playinline=1&msg=新聞直播">新聞直播</a>
-                    <span class="split-line"></span>
-                    <a
-                        href="ytplayer.html?url=https://www.youtube.com/embed/ERT_7u5L0dc?list=RDCMUCK6cr8UqdrKZ4213X-FOStQ&msg=電影音樂">電影音樂</a><span
-                        class="split-line"></span>
-                    <a
-                        href="ytplayer.html?url=https://www.youtube.com/embed/videoseries?list=PLyYNOzVuJM_09a5uMIEFPs7Ltwprw3hPM&msg=演唱會">演唱會</a><span
-                        class="split-line"></span>
-                    <a
-                        href="ytplayer.html?url=https://www.youtube.com/embed/videoseries?list=PLdE3Y3U0HligtAoAay48Kwl7RE_PD1RfG&msg=中文流行歌曲">中文流行歌曲</a><span
-                        class="split-line"></span>
-                    <a
-                        href="ytplayer.html?url=https://www.youtube.com/embed/videoseries?list=PLoj6YVKua1uJmN0GxnD7gRoASjnsS_ATD&msg=4K">4K
-                        MV</a><span class="split-line"></span>
-                    <a
-                        href="ytplayer.html?url=https://www.youtube.com/embed/videoseries?list=PLyYNOzVuJM_2SJSQiEHGMty12geoHo-CY&msg=網路電影">網路電影</a>
-                    <span class="split-line"></span>
-                </p>
                 <p class="margin-0">本站為程式開發測試之用，資料蒐集於網際網路，版權歸官方所有 Powered by PKJ Studio 2022</p>
             </div>
         </div>
@@ -125,7 +83,7 @@
 
 
 
-  <script>
+<script>
     var urlParams;
     (window.onpopstate = function () {
       var match,
@@ -138,40 +96,6 @@
       while (match = search.exec(query))
         urlParams[decode(match[1])] = decode(match[2]);
     })();
-
-
-    if (urlParams["path"] == null){
-      
-      // alert(urlParams["path"]);
-      // (async () => {
-      // var url = 'https://api.github.com/repos/pkj99/demo/contents/m3u8/hits';
-      // const response = await fetch(url);
-      // const data = await response.json();
-      // let htmlString = '<div id="slider-movies" class="animation-1 slider" style="background-color:black">';
-      
-      // for (let file of data) {
-      //   // alert(file.path);
-      //   var m3u8link = "https://pkj99.github.io/demo/" + file.path;
-      //   var imglink = encodeURI(m3u8link.replace('m3u8/','images/').replace('.m3u8','.jpg').replace(' (','.').replace(').','.'));
-
-      //   htmlString += '<article class="item" id="'+file.name+'">\n';
-      //   htmlString += '<div class="image">\n';
-      //   htmlString += '<a href="'+m3u8link+'"><img src="'+imglink+'" alt="'+file.name+'" /></a>\n';
-      //   htmlString += '<a href="'+m3u8link+'">\n';
-      //   htmlString += '<div class="data">\n';
-      //   htmlString += '<h3 class="title">'+file.name+'</h3>\n';
-      //   htmlString += '</div>\n';
-      //   htmlString += '</a>\n';
-      //   htmlString += '<span class="item_type">熱播</span>\n';
-      //   htmlString += '</div>\n';
-      //   htmlString += '</article>\n';
-      // }
-      // htmlString += '</div>';
-      // // alert(htmlString);
-      // // document.getElementsById("movielist")[0].innerHTML = htmlString;
-      // document.getElementsByClassName('myui-panel-box clearfix')[0].innerHTML = htmlString;
-      // })()
-    }
     
 
     (async () => {
@@ -181,19 +105,16 @@
       let htmlString = '<ul>';
       
       for (let file of data) {
-        // alert(file.path);
         var m3u8link = "https://pkj99.github.io/demo/" + file.path;
         var imglink = encodeURI(m3u8link.replace('m3u8/','images/').replace('.m3u8','.jpg').replace(' (','.').replace(').','.'));
-        // var m3u8link =  window.location.protocol +  window.location.host + "/" + window.location.pathname + "/" + file.path
         if (file.name != "index.html") {
           if (file.type == "dir") {
             var newURL = window.location.protocol +  window.location.host + "/" + window.location.pathname + window.location.search + file.name;
             htmlString += `<li><a href="${newURL}">${file.name}</a></li>`;
           } else {
-            // htmlString += `<li><a href="${m3u8link}">${file.name}</a></li>`;
             htmlString += '<li class="col-lg-8 col-md-8 col-sm-5 col-xs-3">';
             htmlString += '<div class="myui-vodlist__box">';
-            htmlString += '<a class="myui-vodlist__thumb lazyload" href="'+ m3u8link + '" ';
+            htmlString += '<a class="myui-vodlist__thumb lazyload" href="../vod/playvideo.html?url='+ m3u8link + '" ';
             htmlString += 'title="' + file.name +'" ';
             htmlString += 'data-original="' + file.path + '" ';
             htmlString += 'style="background-image: url(' + imglink +')"';
@@ -206,49 +127,13 @@
           }
         }
       }
-
       htmlString += '</ul>';
-      // alert(htmlString);
-      // document.getElementsById("movielist")[0].innerHTML = htmlString;
-      document.getElementsByClassName('myui-panel-box clearfix')[0].innerHTML = htmlString;
-      // document.getElementsByTagName('body')[0].innerHTML = htmlString;
+      document.getElementById("movielist").innerHTML = htmlString;
     })()
-  </script>
 
-
-<script type="text/javascript">
-  jQuery(document).ready(
-      function($) 
-      {
-          $("#slider-movies").owlCarousel
-          ({ 
-              autoPlay:4000,
-              items:2,
-              stopOnHover:true,
-              pagination:true,
-              itemsDesktop:[1200,2],
-              itemsDesktopSmall:[980,2],
-              itemsTablet:[768,2],
-              itemsTabletSmall:[600,1],
-              itemsMobile:[479,1] 
-          });
-          $("#slider-movies-tvshows").owlCarousel
-          ({ 
-              autoPlay:4000,
-              items:4,
-              stopOnHover:true,
-              pagination:true,
-              itemsDesktop:[1200,2],
-              itemsDesktopSmall:[980,2],
-              itemsTablet:[768,2],
-              itemsTabletSmall:[600,1],
-              itemsMobile:[479,1] 
-          });
-
-      });
 </script>
 
-<body>
+</body>
 </html>
 
 
