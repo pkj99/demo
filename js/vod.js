@@ -374,10 +374,13 @@
       var j = doCORSRequestById( { method: 'GET', url: urlField, }, function printResult(result) { outputField.value = result; } )
     }
   } else {
-    // var id = urlParams["ids"];
-    var id = getCookieByName(s);
-    var urlField = urlAPI + '&ids=' + id;
-    var j = doCORSRequest( { method: 'GET', url: urlField, }, function printResult(result) { outputField.value = result; } )
+    if (urlParams["ids"] == 'clear'){
+      document.cookie = '';
+    } else {
+      var id = getCookieByName(s);
+      var urlField = urlAPI + '&ids=' + id;
+      var j = doCORSRequest( { method: 'GET', url: urlField, }, function printResult(result) { outputField.value = result; } )
+    }
   }
 
 
