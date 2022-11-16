@@ -110,8 +110,9 @@
       var ids = getCookieByName(source);
       console.log(source);
       console.log(ids);
+      if (ids == null) { ids = '';}
       var idNew = ',' + id ;
-      if (ids.contains(idNew)){
+      if (ids.includes(idNew)){
         document.getElementById('favorites').textContent = '收藏';
         document.getElementById('favorites').className = 'btn btn-secondary';
         ids = ids.replace(idNew,'');
@@ -128,6 +129,7 @@
       var ids = getCookieByName(source);
       console.log(source);
       console.log(ids);
+      if (ids == null) { ids = '';}
       var idsAry = ids.split(',');
       for (var i=0, l=idsAry.length; i<l; ++i) {
           if (id == idsAry[i]){
