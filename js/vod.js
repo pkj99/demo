@@ -107,8 +107,9 @@
   }
 
   function setCookieBySourceId(source,id) {
-      var ids = '';
-      ids = getCookieByName(source);
+      var ids = getCookieByName(source);
+      console.log(source);
+      console.log(ids);
       var idNew = ',' + id ;
       if (ids.contains(idNew)){
         document.getElementById('favorites').textContent = '收藏';
@@ -124,8 +125,9 @@
   }
 
   function checkCookieBySourceId(source,id) {
-      var ids = '';
-      ids = getCookieByName(source);
+      var ids = getCookieByName(source);
+      console.log(source);
+      console.log(ids);
       var idsAry = ids.split(',');
       for (var i=0, l=idsAry.length; i<l; ++i) {
           if (id == idsAry[i]){
