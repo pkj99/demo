@@ -265,20 +265,21 @@
 
         const playlists = file.vod_play_url.split('#');
         if( playlists.length == 1 ){
-            htmlString += '<button class="btn btn-primary" type="button">';
-            htmlString += '<a style="font-size: 24px;" href="'+m3u8+'">Play</a></button>';
+            htmlString += '<button class="btn btn-primary" type="button" style="font-size: 24px;margin:2px;">';
+            htmlString += '<a href="'+m3u8+'">播放</a></button>';
         } else {
           for (let pl of playlists){
               const p = pl.split('$');
               var pl_name = p[0];
               var pl_m3u8 = p[1];
               htmlString += '<a href="'+pl_m3u8+'">';
-              htmlString += '<button class="btn btn-outline-primary" type="button" style="width:140px;margin:2px;font-size: 20px;">'
+              htmlString += '<button class="btn btn-outline-primary" type="button" style="width:140px;margin:2px;font-size: 20px;">';
               htmlString += pl_name+'</button></a>';
           }
         }
 
-        htmlString += '<button class="btn btn-secondary" type="button" onclick="setCookieBySourceId('+s+','+id+')" id="favorites" style="font-size: 24px;">收藏</button>';
+        htmlString += '<button class="btn btn-secondary" type="button" onclick="setCookieBySourceId('+s+','+id+')" id="favorites" '
+        htmlString += 'style="font-size: 24px;margin:2px;">收藏</button>';
 
         // htmlString += '<button class="btn btn-secondary" type="button">';
         // htmlString += '<a style="font-size: 24px;" href="" onclick="setCookieBySourceId('+s+','+id+')" id="favorites">收藏</a></button>';
@@ -290,7 +291,7 @@
       htmlString += '</ul>';
       document.getElementById('myui-panel').innerHTML = htmlString;
 
-      checkCookieBySourceId(source,id)
+      checkCookieBySourceId(source,id);
 
     }
     x.send(options.data);
