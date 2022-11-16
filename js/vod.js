@@ -375,6 +375,7 @@
     }
   } else {
     if (urlParams["ids"] == 'clear'){
+      alert(urlParams["ids"]);
       document.cookie = '';
     } else {
       var id = getCookieByName(s);
