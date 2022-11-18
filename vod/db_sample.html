@@ -1,0 +1,50 @@
+<meta charset="utf8" />
+<html>
+  <script type="text/javascript" src='js/sql.js'></script>
+  <script>
+    // Create an HTML table
+    var tableCreate = function () {
+      function valconcat(vals, tagName) {
+        if (vals.length === 0) return '';
+        var open = '<' + tagName + '>', close = '</' + tagName + '>';
+        return open + vals.join(close + open) + close;
+      }
+      return function (columns, values) {
+        var tbl = document.createElement('table');
+        var html = '<thead>' + valconcat(columns, 'th') + '</thead>';
+        var rows = values.map(function (v) { return valconcat(v, 'td'); });
+        html += '<tbody>' + valconcat(rows, 'tr') + '</tbody>';
+        tbl.innerHTML = html;
+        return tbl;
+      }
+    }();
+
+
+
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', 'https://pkj99.github.io/demo/vod/db/movie.db', true);
+    xhr.responseType = 'arraybuffer';
+
+    xhr.onload = e => {
+      const uInt8Array = new Uint8Array(xhr.response);
+      const db = new SQL.Database(uInt8Array);
+      const contents = db.exec("SELECT * FROM iptv");
+      var results = JSON.parse(JSON.stringify(contents));
+
+      var outputElm = document.getElementById('output');
+      outputElm.innerHTML = "";
+      for (var i = 0; i < results.length; i++) {
+        outputElm.appendChild(tableCreate(results[i].columns, results[i].values));
+      }
+      console.log('Here is a row: ' + JSON.stringify(contents));      
+      // contents is now [{columns:['col1','col2',...], values:[[first row], [second row], ...]}]
+    };
+    xhr.send();
+
+
+  </script>
+
+<body>
+    <pre id="output">Results will be displayed here</pre>
+</body>
+</html>
