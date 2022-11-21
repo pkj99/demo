@@ -42,10 +42,9 @@
                     </a>
                 </div>
                 <ul class="myui-header__menu">
-                  <li class="menu_header"><a href="db_sample.html?t=28" id="menu-movie">電影</a></li>
-                  <li class="menu_header"><a href="db_sample.html?t=119" id="menu-tvshow">電視劇</a></li>
-                  <li class="menu_header"><a href="db_sample.html?t=128" id="menu-variety">綜藝</a></li>
-                  <li class="menu_header"><a href="db_sample.html?t=135" id="menu-animation">動漫</a></li>
+                  <li class="menu_header"><a href="db_sample.html?t=1" id="menu-movie">電影</a></li>
+                  <li class="menu_header"><a href="db_sample.html?t=103" id="menu-tvshow">電視劇</a></li>
+                  <li class="menu_header"><a href="db_sample.html?t=204" id="menu-variety">綜藝</a></li>
                   <li class="menu_header"><a href="db_sample.html?ids=favorites" id="menu-favorites">收藏</a></li>
                   <li class="menu_header" style="width:200px;"></li>
                   <li class="menu_header"><div class="myui-header__search search-box" style="width:220px;">
@@ -454,8 +453,9 @@
         console.log(document.cookie);
       } else {
         var id = getCookieByName(s);
-        var sqlstring = "select * from movie where id in (" + id +")";
-        movieById(sqlstring);
+        var sqlstring = "select * from movie where id in (0" + id +")";
+        console.log(sqlstring);
+        movielists(sqlstring);
       }
     }
 
