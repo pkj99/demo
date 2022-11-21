@@ -432,20 +432,31 @@
 
     // var sqlstring = "select * from movie where type_id = 2 order by time desc";
     // movielists(sqlstring);
-
-    if (urlParams["id"] == null) {
-      if (urlParams["wd"] == null) {
-        var sqlstring = "select * from movie where type_id = "+t+" order by time desc";
-        movielists(sqlstring);
+    if (urlParams["ids"] == null) {
+      if (urlParams["id"] == null) {
+        if (urlParams["wd"] == null) {
+          var sqlstring = "select * from movie where type_id = "+t+" order by time desc";
+          movielists(sqlstring);
+        } else {
+          var keyword = Simplized(urlParams["wd"])  // 繁轉簡
+          var sqlstring = "select * from movie where name like '%"+keyword+"%'";
+          movielists(sqlstring);
+        }
       } else {
-        var keyword = Simplized(urlParams["wd"])  // 繁轉簡
-        var sqlstring = "select * from movie where name like '%"+keyword+"%'";
-        movielists(sqlstring);
+        var id = urlParams["id"];
+        var sqlstring = "select * from movie where id = "+id;
+        movieById(sqlstring);
       }
     } else {
-      var id = urlParams["id"];
-      var sqlstring = "select * from movie where id = "+id;
-      movieById(sqlstring);
+      if (urlParams["ids"] == 'clear'){
+        console.log(urlParams["ids"]);
+        document.cookie = s + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT';
+        console.log(document.cookie);
+      } else {
+        var id = getCookieByName(s);
+        var sqlstring = "select * from movie where id in (" + id +")";
+        movieById(sqlstring);
+      }
     }
 
 
