@@ -64,7 +64,7 @@
           <div class="myui-header_bd clearfix">
 
             <ul class="myui-header__menu" id="myui-menu">
-              <li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=1">冒险片</a></li>
+              <!-- <li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=1">冒险片</a></li>
               <li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=2">剧情片</a></li>
               <li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=3">动作片</a></li>
               <li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=5">同性片</a></li>
@@ -79,7 +79,7 @@
               <li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=14">爱情片</a></li>
               <li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=15">犯罪片</a></li>
               <li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=16">科幻片</a></li>
-              <li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=17">经典片</a></li>
+              <li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=17">经典片</a></li> -->
             </ul>
 
           </div>
@@ -117,6 +117,8 @@
 
   <script type="text/javascript" src='../js/sql.js'></script>
   <script>
+    
+    
 
     // 收藏設定 Cookie 
   
@@ -210,12 +212,87 @@
     if (urlParams["t"] == null){ var t = "0"; } else { var t = urlParams["t"];}
     if (urlParams["pg"] == null){ var pg = "1"; } else { var pg = urlParams["pg"];}
     if (urlParams["s"] == null){ var s = "haiwaikan"; } else { var s = urlParams["s"];}
+    
+    var submenu='';
+    
+    if (t>0 && t<20) {
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=1">冒险片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=2">剧情片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=3">动作片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=5">同性片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=6">喜剧片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=7">奇幻片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=8">恐怖片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=9">悬疑片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=10">惊悚片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=11">战争片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=12">歌舞片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=13">灾难片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=14">爱情片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=15">犯罪片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=16">科幻片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=17">经典片</a></li>';
+    } else if (t>100 && t<200) {
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=103">韩剧</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=104">国产剧</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=107">台剧</a></li>';
+    } else if (t>200 && t<300) {
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=204">国产综艺</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=206">港台综艺</a></li>';
+    }
+    document.getElementById('myui-menu').innerHTML = submenu;
+    // alert(submenu);   
 
 
     var db_url = 'https://pkj99.github.io/demo/vod/db/haiwaikan-movie.db';
 
+    function getCount(sqlstring){
+      var pagecount;
+
+      const xpl = new XMLHttpRequest();
+      xpl.open('GET', db_url, true);
+      xpl.responseType = 'arraybuffer';
+
+      xpl.onload = e => {      
+        const uInt8Array = new Uint8Array(xpl.response);
+        const xpldb = new SQL.Database(uInt8Array);
+        const xplcontents = xpldb.exec(sqlstring);
+        var data = JSON.parse(JSON.stringify(xplcontents));
+        data = data[0].values;
+        pagecount = parseInt(data[0][0] / 30);
+        console.log(pagecount);
+      }
+      xpl.send();
+      return pagecount;
+    }
+
     // create movie list 
     function movielists(sqlstring){
+
+      // var pagecount = getCount(sqlstring.replace('select *','select count(*)'));
+      // alert(pagecount);
+
+      // var pagecount = 0;
+
+      // const xpl = new XMLHttpRequest();
+      // xpl.open('GET', db_url, true);
+      // xpl.responseType = 'arraybuffer';
+
+      // xpl.onload = e => {      
+      //   const uInt8Array = new Uint8Array(xpl.response);
+      //   const xpldb = new SQL.Database(uInt8Array);
+      //   const xplcontents = xpldb.exec(sqlstring.replace('select *','select count(*)'));
+      //   var data = JSON.parse(JSON.stringify(xplcontents));
+      //   data = data[0].values;
+      //   pagecount = parseInt(data[0][0] / 30);
+      //   // console.log(pagecount);
+      // }
+      // xpl.send();
+      
+      // alert(pagecount);
+      // if (pagecount>10){pagecount=10;}
+      var pagecount = 10;
+
       const xhr = new XMLHttpRequest();
       xhr.open('GET', db_url, true);
       xhr.responseType = 'arraybuffer';
@@ -224,7 +301,6 @@
         const uInt8Array = new Uint8Array(xhr.response);
         const db = new SQL.Database(uInt8Array);
         
-        var pagecount = 100;
         var page = (parseInt(pg)-1)*30;
         if (sqlstring.includes("where name like")){
           console.log(sqlstring);
@@ -311,6 +387,31 @@
 
     // query by movie id
     function movieById(sqlstring){
+
+      var vod_play_url = '';
+      const xpl = new XMLHttpRequest();
+      xpl.open('GET', db_url, true);
+      xpl.responseType = 'arraybuffer';
+
+      xpl.onload = e => {      
+        const uInt8Array = new Uint8Array(xpl.response);
+        const xpldb = new SQL.Database(uInt8Array);
+        const xplcontents = xpldb.exec(sqlstring.replace('movie','movielink')+' order by seq');
+        var data = JSON.parse(JSON.stringify(xplcontents));
+        data = data[0].values;
+        for (var i = 0; i < data.length; i++) {
+          var id = data[i][0];        
+          var seq = data[i][1];
+          if (seq<10) {seq='0'+seq}
+          var url = data[i][2];
+          vod_play_url = vod_play_url+seq+'$'+url+'#';
+        }
+        vod_play_url = vod_play_url.replace(/#$/,'');
+        console.log(vod_play_url);
+      }
+      xpl.send();
+
+
       const xhr = new XMLHttpRequest();
       xhr.open('GET', db_url, true);
       xhr.responseType = 'arraybuffer';
@@ -393,8 +494,9 @@
           htmlString += '<li class="col-lg-2 col-md-2 col-sm-2 col-xs-1">';
           htmlString += '<div class="myui-content__detail">';
 
-          // const playlists = file.vod_play_url.split('#');
-          const playlists = [m3u8];
+          const playlists = vod_play_url.split('#');
+          playlists.sort();
+          // const playlists = [m3u8];
           if( playlists.length == 1 ){
               htmlString += '<button class="btn btn-primary" type="button" style="font-size: 24px;margin:2px;">';
               htmlString += '<a href="../vod/playvideo.html?url='+m3u8+'">播放</a></button>';
@@ -404,7 +506,7 @@
                 var pl_name = p[0];
                 var pl_m3u8 = p[1];
                 htmlString += '<a href="'+pl_m3u8+'">';
-                htmlString += '<button class="btn btn-outline-primary" type="button" style="width:140px;margin:2px;font-size: 20px;">';
+                htmlString += '<button class="btn btn-outline-primary" type="button" style="margin:2px;font-size: 24px;">';
                 htmlString += pl_name+'</button></a>';
             }
           }
