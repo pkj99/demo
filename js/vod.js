@@ -169,10 +169,12 @@
       for (let i=0; i<list.length;i++){
         var menu_id = list[i].id;
         var menu_name = list[i].textContent;
-        const cate = ['电影','电视剧','综艺','动漫']
+        const cate = ['电影','电视剧','综艺','动漫'];
+        var menu_active = ' style="border-radius: 5px; padding: 5px 10px;"';
         if (!cate.includes(menu_name)) {
           if (menu_name.substring(menu_name.length-1) == menu_type){
-            htmlString += '<li class="menu_header"><a href="'+pagename+'?s='+s+'&t='+menu_id+'">'+menu_name+'</a></li>';
+            if (menu_id == t) {menu_active = 'style="background-color:#b0c4de;border-radius: 5px; padding: 5px 10px;"';}
+            htmlString += '<li class="menu_header"><a href="'+pagename+'?s='+s+'&t='+menu_id+'" '+menu_active+'>'+menu_name+'</a></li>';
           }
         }
       }
@@ -336,7 +338,7 @@
               const p = pl.split('$');
               var pl_name = p[0];
               var pl_m3u8 = p[1];
-              htmlString += '<a href="'+pl_m3u8+'">';
+              htmlString += '<a href="../vod/playvideo.html?url='+pl_m3u8+'">';
               htmlString += '<button class="btn btn-outline-primary" type="button" style="width:140px;margin:2px;font-size: 20px;">';
               htmlString += pl_name+'</button></a>';
           }
