@@ -89,15 +89,12 @@
     <div class="container">
       <div class="row">
           <div class="myui-panel myui-panel-bg clearfix">
-              <div class="myui-panel-box clearfix" id="myui-panel">
-
-              </div>
+              <div class="myui-panel-box clearfix" id="myui-panel"> </div>
           </div>
-      </div>
+          <ul class="myui-page text-center clearfix" id="myui-page"> </ul>
+        </div>
     </div>
 
-    <ul class="myui-page text-center clearfix" id="myui-page">
-    </ul>
 
     <div class="myui-foot clearfix">
       <div class="container min">
@@ -241,56 +238,33 @@
         submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=206">港台综艺</a></li>';
     }
     document.getElementById('myui-menu').innerHTML = submenu;
-    // alert(submenu);   
 
 
     var db_url = 'https://pkj99.github.io/demo/vod/db/haiwaikan-movie.db';
 
     function getCount(sqlstring){
       var pagecount;
-
-      const xpl = new XMLHttpRequest();
-      xpl.open('GET', db_url, true);
-      xpl.responseType = 'arraybuffer';
-
-      xpl.onload = e => {      
-        const uInt8Array = new Uint8Array(xpl.response);
-        const xpldb = new SQL.Database(uInt8Array);
-        const xplcontents = xpldb.exec(sqlstring);
-        var data = JSON.parse(JSON.stringify(xplcontents));
+      const xhr = new XMLHttpRequest();
+      xhr.open('GET', db_url, true);
+      xhr.responseType = 'arraybuffer';
+      xhr.onload = e => {      
+        const uInt8Array = new Uint8Array(xhr.response);
+        const db = new SQL.Database(uInt8Array);
+        const contents = db.exec(sqlstring);
+        var data = JSON.parse(JSON.stringify(contents));
         data = data[0].values;
         pagecount = parseInt(data[0][0] / 30);
-        console.log(pagecount);
+        document.getElementById('pagecount').textContent = pagecount;
+        // console.log(pagecount);
+        // alert(pagecount);
       }
-      xpl.send();
-      return pagecount;
+      xhr.send();
+      // return document.getElementById('pagecount').textContent;
     }
 
     // create movie list 
     function movielists(sqlstring){
 
-      // var pagecount = getCount(sqlstring.replace('select *','select count(*)'));
-      // alert(pagecount);
-
-      // var pagecount = 0;
-
-      // const xpl = new XMLHttpRequest();
-      // xpl.open('GET', db_url, true);
-      // xpl.responseType = 'arraybuffer';
-
-      // xpl.onload = e => {      
-      //   const uInt8Array = new Uint8Array(xpl.response);
-      //   const xpldb = new SQL.Database(uInt8Array);
-      //   const xplcontents = xpldb.exec(sqlstring.replace('select *','select count(*)'));
-      //   var data = JSON.parse(JSON.stringify(xplcontents));
-      //   data = data[0].values;
-      //   pagecount = parseInt(data[0][0] / 30);
-      //   // console.log(pagecount);
-      // }
-      // xpl.send();
-      
-      // alert(pagecount);
-      // if (pagecount>10){pagecount=10;}
       var pagecount = 10;
 
       const xhr = new XMLHttpRequest();
@@ -315,7 +289,7 @@
         
         let htmlString = '<ul>';
         
-        data = data[0].values;
+        if (typeof data[0] == "undefined" ) { data = [];} else { data = data[0].values; }
 
         for (var i = 0; i < data.length; i++) {
           var m3u8 = data[i][9];
@@ -361,13 +335,13 @@
         if (p > 1) { prev_p = p-1;} else { prev_p = 1;}
         if (p < bottom_p) { next_p = p+1;} else { next_p = bottom_p;}
         var nav = '<li class="hidden-xs"><a class="btn btn-default" href="' + referer+'&pg=1">1</a></li>';
-        nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer+'&pg=' + prev_p +'">Prev</a></li>';
+        nav += '<li><a class="btn btn-default" href="' + referer+'&pg=' + prev_p +'">Prev</a></li>';
         for (let i = p - 5; i < p + 5; i++) {
             if ( i == p ) {  nav += '<li class="hidden-xs"><a class="btn btn-warm" href="' + referer+'&pg=' + i +'">'+ i +'</a></li>'; }
             else if ( i < bottom_p && i > 0) {  nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer+'&pg=' + i +'">'+ i +'</a></li>'; }
         }
 
-        nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer + '&pg=' + next_p +'">Next</a></li>';
+        nav += '<li><a class="btn btn-default" href="' + referer + '&pg=' + next_p +'">Next</a></li>';
         nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer + '&pg=' + bottom_p +'">'+bottom_p+'</a></li>';
 
         // var p = parseInt(pg);
@@ -430,7 +404,7 @@
         
         let htmlString = '<ul>';
         
-        data = data[0].values;
+        if (typeof data[0] == "undefined" ) { data = [];} else { data = data[0].values; }
 
         for (var i = 0; i < data.length; i++) {
           var id = data[i][0];        
@@ -506,7 +480,7 @@
                 var pl_name = p[0];
                 var pl_m3u8 = p[1];
                 htmlString += '<a href="'+pl_m3u8+'">';
-                htmlString += '<button class="btn btn-outline-primary" type="button" style="margin:2px;font-size: 24px;">';
+                htmlString += '<button class="btn btn-outline-primary" type="button" style="margin:2px;font-size: 16px;">';
                 htmlString += pl_name+'</button></a>';
             }
           }
@@ -529,10 +503,8 @@
     }
 
 
+    var pagecount;
 
-
-    // var sqlstring = "select * from movie where type_id = 2 order by time desc";
-    // movielists(sqlstring);
     if (urlParams["ids"] == null) {
       if (urlParams["id"] == null) {
         if (urlParams["wd"] == null) {

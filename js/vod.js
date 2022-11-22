@@ -238,15 +238,15 @@
       var referer = pagename+'?s='+s+'&t=' + t
       if (p > 1) { prev_p = p-1;} else { prev_p = 1;}
       if (p < bottom_p) { next_p = p+1;} else { next_p = bottom_p;}
-      var nav = '<li class="hidden-xs"><a class="btn btn-default" href="' + referer+'&pg=1">1</a></li>';
-      nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer+'&pg=' + prev_p +'">Prev</a></li>';
+      var nav = '<li><a class="btn btn-default" href="' + referer+'&pg=1">1</a></li>';
+      nav += '<li><a class="btn btn-default" href="' + referer+'&pg=' + prev_p +'">Prev</a></li>';
       for (let i = p - 5; i < p + 5; i++) {
           if ( i == p ) {  nav += '<li class="hidden-xs"><a class="btn btn-warm" href="' + referer+'&pg=' + i +'">'+ i +'</a></li>'; }
           else if ( i < bottom_p && i > 0) {  nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer+'&pg=' + i +'">'+ i +'</a></li>'; }
       }
 
-      nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer + '&pg=' + next_p +'">Next</a></li>';
-      nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer + '&pg=' + bottom_p +'">'+bottom_p+'</a></li>';
+      nav += '<li><a class="btn btn-default" href="' + referer + '&pg=' + next_p +'">Next</a></li>';
+      nav += '<li><a class="btn btn-default" href="' + referer + '&pg=' + bottom_p +'">'+bottom_p+'</a></li>';
       
       document.getElementById('myui-page').innerHTML = nav;
 
