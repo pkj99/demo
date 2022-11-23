@@ -24,7 +24,7 @@
     // create movie list 
     function movielists(sqlstring){
 
-      var pagecount = 750;
+      var pagecount = 320;
 
       const xhr = new XMLHttpRequest();
       xhr.open('GET', db_url, true);
@@ -41,7 +41,7 @@
           sqlstring += " limit 15 offset " + page
         }
         
-        console.log(sqlstring);
+        // console.log(sqlstring);
         const contents = db.exec(sqlstring);
         var data = JSON.parse(JSON.stringify(contents));
         // console.log(data);
