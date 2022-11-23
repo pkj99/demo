@@ -24,7 +24,7 @@ body.active {
 .myui-vodlist__thumb {
     border-radius: 5px;
     padding-top: 150%;
-    background: url(../static/images/loading.gif) no-repeat;
+    background: url(../images/loading.gif) no-repeat;
 }
 
 .myui-vodlist__thumb.square {
@@ -34,7 +34,7 @@ body.active {
 
 .myui-vodlist__thumb.wide {
     padding-top: 60%;
-    background: url(../static/images/loading2.gif) no-repeat;
+    background: url(../images/loading2.gif) no-repeat;
 }
 
 .myui-vodlist__thumb.actor {

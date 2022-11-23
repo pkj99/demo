@@ -329,26 +329,23 @@
         htmlString += '<li class="col-lg-2 col-md-2 col-sm-2 col-xs-1">';
         htmlString += '<div class="myui-content__detail">';
 
-        const playlists = file.vod_play_url.split('#');
-        if( playlists.length == 1 ){
-            htmlString += '<button class="btn btn-primary" type="button" style="font-size: 24px;margin:2px;">';
-            htmlString += '<a href="../vod/playvideo.html?url='+m3u8+'">播放</a></button>';
-        } else {
+        htmlString += '<button class="btn btn-primary" type="button" style="font-size: 24px;margin:2px;">';
+        htmlString += '<a href="../vod/playvideo.html?url='+m3u8+'">播放</a></button>';
+        htmlString += '<button class="btn btn-secondary" type="button" onclick="setCookieBySourceId(\''+s+'\',\''+id+'\');" id="favorites" '
+        htmlString += 'style="font-size: 24px;margin:2px;">收藏</button><br><br>';
+
+        const playlists = file.vod_play_url.split('$$$')[0].split('#');
+        console.log(file.vod_play_url);
+        if ( playlists.length > 1 ){
           for (let pl of playlists){
               const p = pl.split('$');
               var pl_name = p[0];
               var pl_m3u8 = p[1];
               htmlString += '<a href="../vod/playvideo.html?url='+pl_m3u8+'">';
-              htmlString += '<button class="btn btn-outline-primary" type="button" style="width:140px;margin:2px;font-size: 20px;">';
+              htmlString += '<button class="btn btn-outline-primary" type="button" style="width:120px;margin:2px;font-size: 16px;">';
               htmlString += pl_name+'</button></a>';
           }
         }
-
-        htmlString += '<button class="btn btn-secondary" type="button" onclick="setCookieBySourceId(\''+s+'\',\''+id+'\');" id="favorites" '
-        htmlString += 'style="font-size: 24px;margin:2px;">收藏</button>';
-
-        // htmlString += '<button class="btn btn-secondary" type="button">';
-        // htmlString += '<a style="font-size: 24px;" href="" onclick="setCookieBySourceId('+s+','+id+')" id="favorites">收藏</a></button>';
 
         htmlString += '</div>';
         htmlString += '</li>';

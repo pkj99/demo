@@ -1,0 +1,27 @@
+﻿
+head {
+	display: block;
+}
+title {
+	display: block;
+}
+title {
+	margin: 1em; text-align: center; font-family: Arial, sans-serif; font-size: 2em;
+}
+
+html {
+	background: rgb(34, 34, 34);
+}
+html:root {
+	background: rgb(239, 239, 239);
+}
+
+body {
+	background: radial-gradient(circle, hsl(60, 7%, 97%) 88px, hsl(0, 0%, 99%) 106px, hsla(0, 0%, 0%, 0) 107px), radial-gradient(circle at 50% 51%, hsla(60, 2%, 50%, 0.33) 106px, hsla(0, 0%, 0%, 0) 118px), linear-gradient(hsl(60, 2%, 92%) 70%, hsla(60, 2%, 60%, 0.33)); margin: 4em auto; border-radius: 16%; width: 320px; height: 320px; position: relative; box-shadow: 0px 8px 8px 1px hsl(60,2%,40%), inset 0px 24px 24px 4px hsl(0,0%,98%), inset 0px -40px 40px 0px hsl(60,2%,80%);
+}
+body::before {
+	background: radial-gradient(circle at 50% 52%, hsla(0, 0%, 0%, 0) 40px, hsla(0, 0%, 100%, 0.1) 50px, hsla(0, 0%, 0%, 0) 55px), radial-gradient(circle at 54% 54%, hsla(180, 90%, 60%, 0.7), hsla(0, 0%, 0%, 0) 3px), radial-gradient(circle at 45% 43%, hsla(180, 90%, 60%, 0.7) 2px, hsla(0, 0%, 0%, 0) 7px), radial-gradient(at 50% 40%, hsla(0, 0%, 100%, 0.1) 24px, hsla(0, 0%, 0%, 0) 28px), radial-gradient(circle at 50% 49%, hsla(200, 60%, 1%, 0.6) 13px, hsla(0, 0%, 0%, 0) 14px), radial-gradient(circle, hsla(0, 0%, 0%, 0) 4px, hsla(180, 100%, 50%, 0.15) 14px, hsla(0, 0%, 0%, 0) 14px), linear-gradient(hsla(0, 0%, 0%, 0.4) 60%, hsla(0, 0%, 0%, 0)), radial-gradient(hsla(0, 0%, 0%, 0) 51px, hsl(27, 18%, 30%) 52px, hsl(27, 18%, 40%) 53px, hsl(27, 18%, 30%) 54px, hsl(27, 18%, 30%) 66px, hsl(28, 19%, 16%) 67px, hsl(28, 19%, 16%) 68px, hsl(29, 18%, 27%) 69px, hsl(29, 18%, 27%) 73px, hsl(39, 20%, 20%) 74px, hsl(39, 20%, 20%) 79px, hsl(38, 22%, 10%) 81px, hsl(60, 4%, 60%) 82px, hsl(60, 4%, 60%) 86px), radial-gradient(circle at 50% 58%, hsla(0, 0%, 0%, 0) 13px, hsla(0, 0%, 100%, 0.2) 50px, hsla(0, 0%, 0%, 0) 55px), linear-gradient(hsl(240, 90%, 60%) 24%, hsl(190, 60%, 2%) 36%, hsl(190, 60%, 2%) 60%, hsl(300, 20%, 45%) 76%); border-radius: 100%; left: 73px; top: 73px; width: 174px; height: 174px; position: absolute; content: ""; box-shadow: 0px 48px 24px 4px hsla(35, 100%, 7%, 0.7);
+}
+body::after {
+	background: radial-gradient(circle at 22px 18px, hsl(0, 59%, 70%), hsla(0, 0%, 0%, 0) 12px), radial-gradient(circle, hsl(0, 60%, 50%) 12px, hsl(0, 80%, 30%) 18px, hsla(0, 0%, 0%, 0) 19px), linear-gradient(hsl(60, 2%, 84%), hsl(60, 2%, 92%)); border-radius: 100%; left: 28px; top: 28px; width: 50px; height: 50px; position: absolute; content: "";
+}

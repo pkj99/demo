@@ -1,0 +1,270 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Movie Collections</title>
+    <meta name="keywords" content="movie, tv, radio" />
+    <meta name="bookmark-image" content="../images/logo.png" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="../css/mytheme-font.css" type="text/css" />
+    <link rel="stylesheet" href="../css/mytheme-ui.css" type="text/css" />
+    <link rel="stylesheet" href="../css/mytheme-site.css" type="text/css" />
+    <link rel="stylesheet" href="../css/mytheme-share.css" type="text/css" />
+    <link rel="stylesheet" href="../css/mytheme-color.css" type="text/css" name="default" />
+
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="../css/mystyle.css" type="text/css" />
+    <script type="text/javascript" src="../js/myjavascript.js"></script>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <header class="myui-header__top clearfix" id="header-top">
+    <div class="container" style="margin-bottom: 4px;">
+        <div class="row">
+            <div class="myui-header_bd clearfix">
+                <div class="myui-header__logo" style="padding-top: 5px;">
+                    <a class="" href="../index.html">
+                        <img class="img-responsive hidden-xs" src="../images/logo.png" style="width:100px;height:50px" />
+                        <img class="img-responsive visible-xs" src="../images/logo.png" style="width:80px;height:40px" />
+                    </a>
+                </div>
+                <ul class="myui-header__menu">
+                  <li class="menu_header"><a href="db_sample.html?t=1" id="menu-movie">電影</a></li>
+                  <li class="menu_header"><a href="db_sample.html?t=103" id="menu-tvshow">電視劇</a></li>
+                  <li class="menu_header"><a href="db_sample.html?t=204" id="menu-variety">綜藝</a></li>
+                  <li class="menu_header"><a href="db_sample.html?ids=favorites" id="menu-favorites">收藏</a></li>
+                  <li class="menu_header" style="width:200px;"></li>
+                  <li class="menu_header"><div class="myui-header__search search-box" style="width:220px;">
+                  <form id="search" name="search" method="get" action="db_sample.html">
+                  <input type="text" id="wd" name="wd" class="search_wd form-control" value=""
+                  placeholder="請輸入關鍵字" autocomplete="off" style=" padding-left: 20px; width:240px;" />
+                  <button class="submit search_submit" id="searchbutton" type="submit"><i class="fa fa-search"></i></button>
+                  </form></div"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </header>
+
+    <div class="container" style="margin-bottom: 4px;">
+      <div class="row">
+          <div class="myui-header_bd clearfix">
+            <ul class="myui-header__menu" id="myui-menu">
+            </ul>
+          </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+          <div class="myui-panel myui-panel-bg clearfix">
+              <div class="myui-panel-box clearfix" id="myui-panel"> </div>
+          </div>
+          <ul class="myui-page text-center clearfix" id="myui-page"> </ul>
+        </div>
+    </div>
+
+
+    <div class="myui-foot clearfix">
+      <div class="container min">
+          <div class="row">
+              <div class="col-pd text-center masked">
+                  <p class="margin-0">本站為程式開發測試之用，資料蒐集於網際網路，版權歸官方所有 Powered by PKJ Studio 2022</p>
+              </div>
+          </div>
+      </div>
+    </div>
+
+</body>
+</html>
+
+
+
+
+  <script type="text/javascript" src='../js/sql.js'></script>
+  <script>
+
+    // // Create an HTML table
+    // var tableCreate = function () {
+    //   function valconcat(vals, tagName) {
+    //     if (vals.length === 0) return '';
+    //     var open = '<' + tagName + '>', close = '</' + tagName + '>';
+    //     return open + vals.join(close + open) + close;
+    //   }
+    //   return function (columns, values) {
+    //     var tbl = document.createElement('table');
+    //     var html = '<thead>' + valconcat(columns, 'th') + '</thead>';
+    //     var rows = values.map(function (v) { return valconcat(v, 'td'); });
+    //     html += '<tbody>' + valconcat(rows, 'tr') + '</tbody>';
+    //     tbl.innerHTML = html;
+    //     return tbl;
+    //   }
+    // }();
+
+    let pagename = window.location.pathname.split('/').slice(-1);
+    var urlParams;
+    (window.onpopstate = function () {
+      var match,
+        pl     = /\+/g,  // Regex for replacing addition symbol with a space
+        search = /([^&=]+)=?([^&]*)/g,
+        decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+        query  = window.location.search.substring(1);
+
+      urlParams = {};
+      while (match = search.exec(query))
+        urlParams[decode(match[1])] = decode(match[2]);
+    })();
+
+
+    if (urlParams["t"] == null){ var t = "0"; } else { var t = urlParams["t"];}
+    if (urlParams["pg"] == null){ var pg = "1"; } else { var pg = urlParams["pg"];}
+    if (urlParams["s"] == null){ var s = "haiwaikan"; } else { var s = urlParams["s"];}
+    
+    var submenu='';
+    
+    if (t>0 && t<20) {
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=1">冒险片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=2">剧情片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=3">动作片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=5">同性片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=6">喜剧片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=7">奇幻片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=8">恐怖片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=9">悬疑片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=10">惊悚片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=11">战争片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=12">歌舞片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=13">灾难片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=14">爱情片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=15">犯罪片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=16">科幻片</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=17">经典片</a></li>';
+    } else if (t>100 && t<200) {
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=103">韩剧</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=104">国产剧</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=107">台剧</a></li>';
+    } else if (t>200 && t<300) {
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=204">国产综艺</a></li>';
+        submenu += '<li class="menu_header"><a href="db_sample.html?s=haiwaikan&amp;t=206">港台综艺</a></li>';
+    }
+    document.getElementById('myui-menu').innerHTML = submenu;
+
+
+    var db_url = 'https://pkj99.github.io/demo/vod/db/haiwaikan-movie.db';
+
+    // create movie list 
+    function movielists(sqlstring){
+
+      var pagecount = 1000;
+
+      const xhr = new XMLHttpRequest();
+      xhr.open('GET', db_url, true);
+      xhr.responseType = 'arraybuffer';
+
+      xhr.onload = e => {
+        const uInt8Array = new Uint8Array(xhr.response);
+        const db = new SQL.Database(uInt8Array);
+        
+        var page = (parseInt(pg)-1)*30;
+        if (sqlstring.includes("where name like")){
+          console.log(sqlstring);
+        } else {
+          sqlstring += " limit 30 offset " + page
+        }
+        
+
+        const contents = db.exec(sqlstring);
+        var data = JSON.parse(JSON.stringify(contents));
+        // console.log(data);
+        
+        let htmlString = '';
+
+        htmlString += '<div class="container">';
+        htmlString += '<table class="table table-hover">';
+        htmlString += '<thead>';
+        htmlString += '<tr>';
+        htmlString += '<td>台灣片名</td>';
+        htmlString += '<td>大陸片名</td>';
+        htmlString += '<td>來源國</td>';
+        htmlString += '<td>原始片名</td>';
+        htmlString += '<td>發行日期</td>';
+        htmlString += '<td>熱門度</td>';
+        htmlString += '<td>評分</td>';
+        htmlString += '<td>投票數</td>';
+        htmlString += '</tr>';
+        htmlString += '</thead>';
+
+        htmlString += '<tbody>';
+        
+        if (typeof data[0] == "undefined" ) { data = [];} else { data = data[0].values; }
+
+        for (var i = 0; i < data.length; i++) {
+
+            var id=data[i][0];
+            var title_tw = data[i][2];
+            var title_cn = data[i][3];
+            var original_language =data[i][5];
+            var original_title = data[i][6];
+            var release_date = data[i][7];
+            var popularity = data[i][9];
+            var vote_average = data[i][10];
+            var vote_count = data[i][11];
+
+            htmlString += '<tr>';
+            htmlString += '<td><a href="">'+title_tw+'</a></td> ';
+            htmlString += '<td><a href="">'+title_cn+'</a></td> ';
+            htmlString += '<td>'+original_language+'</td> ';
+            htmlString += '<td><a href="https://www.themoviedb.org/movie/'+id+'">'+original_title+'</a></td> ';
+            htmlString += '<td>'+release_date+'</td> ';
+            htmlString += '<td align="right">'+popularity+'</td> ';
+            htmlString += '<td align="right">'+vote_average+'</td> ';
+            htmlString += '<td align="right">'+vote_count+'</td> ';
+            htmlString += '</tr> ';
+
+        }
+
+        htmlString += '</tbody>';
+        htmlString += '</table>';
+        htmlString += '</div>';
+        
+        document.getElementById('myui-panel').innerHTML = htmlString;
+        
+        var p = parseInt(pg);
+        var bottom_p = parseInt(pagecount);
+        var referer = pagename+'?s='+s+'&t=' + t
+        if (p > 1) { prev_p = p-1;} else { prev_p = 1;}
+        if (p < bottom_p) { next_p = p+1;} else { next_p = bottom_p;}
+        var nav = '<li class="hidden-xs"><a class="btn btn-default" href="' + referer+'&pg=1">1</a></li>';
+        nav += '<li><a class="btn btn-default" href="' + referer+'&pg=' + prev_p +'">Prev</a></li>';
+        for (let i = p - 5; i < p + 5; i++) {
+            if ( i == p ) {  nav += '<li class="hidden-xs"><a class="btn btn-warm" href="' + referer+'&pg=' + i +'">'+ i +'</a></li>'; }
+            else if ( i < bottom_p && i > 0) {  nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer+'&pg=' + i +'">'+ i +'</a></li>'; }
+        }
+
+        nav += '<li><a class="btn btn-default" href="' + referer + '&pg=' + next_p +'">Next</a></li>';
+        nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer + '&pg=' + bottom_p +'">'+bottom_p+'</a></li>';
+
+        document.getElementById('myui-page').innerHTML = nav;
+
+      };
+      xhr.send();
+    }
+
+
+    var pagecount;
+
+    var sqlstring = "select * from tmdb where same_title = 0 order by vote_count desc";
+    movielists(sqlstring);
+
+
+  </script>
+
+

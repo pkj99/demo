@@ -38,8 +38,8 @@
                     </a>
                 </div>
 
-                <ul class="myui-header__menu">
-                    <li class="menu_header active"><a href="?path=hits">熱播</a></li>
+                <ul class="myui-header__menu" id="myui-menu">
+                    <li class="menu_header"><a href="?path=hits">熱播</a></li>
                     <li class="menu_header"><a href="?path=imdb">高分榜</a></li>
                     <li class="menu_header"><a href="?path=marvel">Marvel</a></li>
                     <li class="menu_header"><a href="?path=dc">DC</a></li>
@@ -96,10 +96,17 @@
       while (match = search.exec(query))
         urlParams[decode(match[1])] = decode(match[2]);
     })();
+
+	const collection = document.getElementsByClassName("menu_header");
+	for (let i = 0; i < collection.length; i++) {
+		if ( collection[i].innerHTML.includes(urlParams["path"]) ){
+			collection[i].classList.add("active");
+		}
+	}
     
 
     (async () => {
-      var url = 'https://api.github.com/repos/pkj99/demo/contents/m3u8/' + urlParams["path"]
+      var url = 'https://api.github.com/repos/pkj99/demo/contents/m3u8/' + urlParams["path"];
       const response = await fetch(url);
       const data = await response.json();
       let htmlString = '<ul>';
