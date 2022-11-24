@@ -52,6 +52,8 @@
         }      
     }
 
+    // get information
+
     function getCount(sqlstring,callback){
         var pagecount;
         const xhr = new XMLHttpRequest();
@@ -60,7 +62,8 @@
         xhr.onload = e => {      
             const uInt8Array = new Uint8Array(xhr.response);
             const db = new SQL.Database(uInt8Array);
-            const contents = db.exec(sqlstring);
+            console.log(sqlstring.replace('select * ','select count(*) '));
+            const contents = db.exec(sqlstring.replace('select * ','select count(*) '));
             var data = JSON.parse(JSON.stringify(contents));
             data = data[0].values;
             pagecount = parseInt(data[0][0] / 30)+1;
@@ -74,7 +77,6 @@
         const xpl = new XMLHttpRequest();
         xpl.open('GET', db_url, true);
         xpl.responseType = 'arraybuffer';
-
         xpl.onload = e => {      
             const uInt8Array = new Uint8Array(xpl.response);
             const xpldb = new SQL.Database(uInt8Array);
@@ -137,7 +139,7 @@
     // create movie list 
     function movielists(sqlstring){
 
-        getCount(sqlstring.replace('select * ','select count(*) '),function pagecountCallback(data) {  pagecount = data; });
+        getCount(sqlstring, function pagecountCallback(data) {  pagecount = data; });
         if (typeof pagecount == "undefined" ) { pagecount = 10; }
 
         const xhr = new XMLHttpRequest();
@@ -227,28 +229,6 @@
     function movieById(sqlstring){
 
         var vod_play_url = '';
-        // const xpl = new XMLHttpRequest();
-        // xpl.open('GET', db_url, true);
-        // xpl.responseType = 'arraybuffer';
-
-        // xpl.onload = e => {      
-        //     const uInt8Array = new Uint8Array(xpl.response);
-        //     const xpldb = new SQL.Database(uInt8Array);
-        //     const xplcontents = xpldb.exec(sqlstring.replace('movie','movielink')+' order by seq');
-        //     var data = JSON.parse(JSON.stringify(xplcontents));
-        //     data = data[0].values;
-        //     for (var i = 0; i < data.length; i++) {
-        //         var id = data[i][0];        
-        //         var seq = data[i][1];
-        //         if (seq<10) {seq='0'+seq}
-        //         var url = data[i][2];
-        //         vod_play_url = vod_play_url+seq+'$'+url+'#';
-        //     }
-        //     vod_play_url = vod_play_url.replace(/#$/,'');
-        // }
-        // xpl.send();
-        // alert(vod_play_url);
-
         getPlaylists(sqlstring,function playlistsCallback(data) {  vod_play_url = data; });
         if (typeof vod_play_url == "undefined" ) { vod_play_url = ''; }
 
@@ -293,6 +273,15 @@
                     }
                 }
 
+                const directornames = director.split(',');
+                var directors = '';
+                if( directors.length > 0 ){
+                    for (let directorname of directornames){
+                        directors += '<a href="'+pagename+'?s='+s+'&director='+directorname+'">'+directorname+'</a> , ';
+                    }
+                }
+
+
                 htmlString += '<li class="col-lg-4 col-md-3 col-sm-2 col-xs-1">';
                 htmlString += '<div class="myui-vodlist__box">';
                 htmlString += '<a class="myui-vodlist__thumb lazyload" href="'+ m3u8 + '" ';
@@ -324,7 +313,7 @@
                 htmlString += '<span class="text-muted">年份：</span><a href="'+pagename+'?s='+s+'&year='+year+'">'+year+'</a>';
                 htmlString += '</p>';
                 htmlString += '<p class="data"><span class="text-muted">主演：</span>'+actors+'</p>';
-                htmlString += '<p class="data"><span class="text-muted">導演：</span><a href="'+pagename+'?s='+s+'&director='+director+'">'+director+'</a></p>';
+                htmlString += '<p class="data"><span class="text-muted">導演：</span>'+directors+'</p>';
                 htmlString += '<p class="data"><span class="text-muted">狀態：</span>'+remarks+'</p>';
                 htmlString += '<p class="data"><span class="text-muted">更新：</span>'+vod_time+'</p>';
                 htmlString += '<p class="data"><span class="text-muted">簡介：</span></p>'+content;
@@ -435,11 +424,11 @@
     }
 
     if (urlParams["actor"] != null) {
-        var sqlstring = "select * from movie where actor like '%"+urlParams["actor"]+"%'";
+        var sqlstring = "select * from movie where actor like '%"+urlParams["actor"]+"%' order by time desc";
         movielists(sqlstring);
     }    
 
-    if (urlParams["direcor"] != null) {
-        var sqlstring = "select * from movie where direcor = '"+urlParams["direcor"]+"' order by time desc";
+    if (urlParams["director"] != null) {
+        var sqlstring = "select * from movie where director like '%"+urlParams["director"]+"%' order by time desc";
         movielists(sqlstring);
     }        
