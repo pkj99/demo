@@ -69,6 +69,31 @@
         xhr.send();
     }
 
+    function getPlaylists(sqlstring,callback){
+        var vod_play_url = '';
+        const xpl = new XMLHttpRequest();
+        xpl.open('GET', db_url, true);
+        xpl.responseType = 'arraybuffer';
+
+        xpl.onload = e => {      
+            const uInt8Array = new Uint8Array(xpl.response);
+            const xpldb = new SQL.Database(uInt8Array);
+            const xplcontents = xpldb.exec(sqlstring.replace('movie','movielink')+' order by seq');
+            var data = JSON.parse(JSON.stringify(xplcontents));
+            data = data[0].values;
+            for (var i = 0; i < data.length; i++) {
+                var id = data[i][0];        
+                var seq = data[i][1];
+                if (seq<10) {seq='0'+seq}
+                var url = data[i][2];
+                vod_play_url = vod_play_url+seq+'$'+url+'#';
+            }
+            vod_play_url = vod_play_url.replace(/#$/,'');
+            callback(vod_play_url);
+        }
+        xpl.send();
+    }
+
 
     // create sub menu 
     function submenu(sqlstring){
@@ -112,7 +137,7 @@
     // create movie list 
     function movielists(sqlstring){
 
-        // getCount(sqlstring.replace('select * ','select count(*) '),function mycallback(data) {  pagecount = data; });
+        getCount(sqlstring.replace('select * ','select count(*) '),function pagecountCallback(data) {  pagecount = data; });
         if (typeof pagecount == "undefined" ) { pagecount = 10; }
 
         const xhr = new XMLHttpRequest();
@@ -202,27 +227,30 @@
     function movieById(sqlstring){
 
         var vod_play_url = '';
-        const xpl = new XMLHttpRequest();
-        xpl.open('GET', db_url, true);
-        xpl.responseType = 'arraybuffer';
+        // const xpl = new XMLHttpRequest();
+        // xpl.open('GET', db_url, true);
+        // xpl.responseType = 'arraybuffer';
 
-        xpl.onload = e => {      
-            const uInt8Array = new Uint8Array(xpl.response);
-            const xpldb = new SQL.Database(uInt8Array);
-            const xplcontents = xpldb.exec(sqlstring.replace('movie','movielink')+' order by seq');
-            var data = JSON.parse(JSON.stringify(xplcontents));
-            data = data[0].values;
-            for (var i = 0; i < data.length; i++) {
-                var id = data[i][0];        
-                var seq = data[i][1];
-                if (seq<10) {seq='0'+seq}
-                var url = data[i][2];
-                vod_play_url = vod_play_url+seq+'$'+url+'#';
-            }
-            vod_play_url = vod_play_url.replace(/#$/,'');
-            // console.log(vod_play_url);
-        }
-        xpl.send();
+        // xpl.onload = e => {      
+        //     const uInt8Array = new Uint8Array(xpl.response);
+        //     const xpldb = new SQL.Database(uInt8Array);
+        //     const xplcontents = xpldb.exec(sqlstring.replace('movie','movielink')+' order by seq');
+        //     var data = JSON.parse(JSON.stringify(xplcontents));
+        //     data = data[0].values;
+        //     for (var i = 0; i < data.length; i++) {
+        //         var id = data[i][0];        
+        //         var seq = data[i][1];
+        //         if (seq<10) {seq='0'+seq}
+        //         var url = data[i][2];
+        //         vod_play_url = vod_play_url+seq+'$'+url+'#';
+        //     }
+        //     vod_play_url = vod_play_url.replace(/#$/,'');
+        // }
+        // xpl.send();
+        // alert(vod_play_url);
+
+        getPlaylists(sqlstring,function playlistsCallback(data) {  vod_play_url = data; });
+        if (typeof vod_play_url == "undefined" ) { vod_play_url = ''; }
 
 
         const xhr = new XMLHttpRequest();
@@ -232,11 +260,6 @@
         xhr.onload = e => {      
             const uInt8Array = new Uint8Array(xhr.response);
             const db = new SQL.Database(uInt8Array);
-            
-            // var pagecount = 100;
-            // var page = (parseInt(pg)-1)*30;
-            // sqlstring += " limit 30 offset " + page
-            
             const contents = db.exec(sqlstring);
             var data = JSON.parse(JSON.stringify(contents));
             
@@ -319,11 +342,14 @@
                 htmlString += '<button class="btn btn-secondary" type="button" onclick="setCookieBySourceId(\''+s+'\',\''+id+'\');" id="favorites" '
                 htmlString += 'style="font-size: 24px;margin:2px;">收藏</button><br><br>';
 
+
+                console.log(vod_play_url);
+                // alert(vod_play_url);
                 const playlists = vod_play_url.split('#');
                 playlists.sort();
                 // const playlists = [m3u8];
 
-                if( playlists.length > 0 ){
+                if( playlists.length > 1 ){
                     for (let pl of playlists){
                         const p = pl.split('$');
                         var pl_name = p[0];
@@ -409,11 +435,11 @@
     }
 
     if (urlParams["actor"] != null) {
-        var sqlstring = "select * from movie where actor like '%"+urlParams["actor"]+"%' order by time desc";
+        var sqlstring = "select * from movie where actor like '%"+urlParams["actor"]+"%'";
         movielists(sqlstring);
     }    
 
     if (urlParams["direcor"] != null) {
-        var sqlstring = "select * from movie where actor direcor '%"+urlParams["direcor"]+"%' order by time desc";
+        var sqlstring = "select * from movie where direcor = '"+urlParams["direcor"]+"' order by time desc";
         movielists(sqlstring);
     }        
