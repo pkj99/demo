@@ -62,7 +62,6 @@
         xhr.onload = e => {      
             const uInt8Array = new Uint8Array(xhr.response);
             const db = new SQL.Database(uInt8Array);
-            console.log(sqlstring.replace('select * ','select count(*) '));
             const contents = db.exec(sqlstring.replace('select * ','select count(*) '));
             var data = JSON.parse(JSON.stringify(contents));
             data = data[0].values;
@@ -98,7 +97,8 @@
 
 
     // create sub menu 
-    function submenu(sqlstring){
+    function submenuByTypeId(){
+        var sqlstring = 'select distinct type_id,type_name from movie order by type_id';
         const xhr = new XMLHttpRequest();
         xhr.open('GET', db_url, true);
         xhr.responseType = 'arraybuffer';
@@ -136,6 +136,60 @@
         xhr.send();
     }
 
+
+    function submenuByYear(){
+        var sqlstring = 'select distinct year from movie order by year desc';
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', db_url, true);
+        xhr.responseType = 'arraybuffer';
+        xhr.onload = e => {
+            const uInt8Array = new Uint8Array(xhr.response);
+            const db = new SQL.Database(uInt8Array);
+            const contents = db.exec(sqlstring);
+            var data = JSON.parse(JSON.stringify(contents));
+
+            if (typeof data[0] == "undefined" ) { data = [];} else { data = data[0].values; }
+
+            let htmlString = '';
+            for (let i=0; i<data.length;i++){
+                var menu_name = data[i][0];
+                var menu_active = ' style="border-radius: 5px; padding: 5px 5px;"';
+                if (menu_name == urlParams["year"]) {menu_active = 'style="background-color:#b0c4de;border-radius: 5px; padding: 5px 5px;"';}
+                htmlString += '<li class="menu_header"><a href="'+pagename+'?s='+s+'&year='+menu_name+'" '+menu_active+'>'+menu_name+'</a></li>';
+            }
+            document.getElementById('myui-menu').innerHTML = htmlString;
+        };
+        xhr.send();
+    }
+
+
+    function submenuByArea(){
+        var sqlstring = 'select distinct area from movie';
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', db_url, true);
+        xhr.responseType = 'arraybuffer';
+        xhr.onload = e => {
+            const uInt8Array = new Uint8Array(xhr.response);
+            const db = new SQL.Database(uInt8Array);
+            const contents = db.exec(sqlstring);
+            var data = JSON.parse(JSON.stringify(contents));
+
+            if (typeof data[0] == "undefined" ) { data = [];} else { data = data[0].values; }
+
+            let htmlString = '';
+            for (let i=0; i<data.length;i++){
+                var menu_name = data[i][0];
+                var menu_active = ' style="border-radius: 5px; padding: 5px 5px;"';
+                if (menu_name == urlParams["area"]) {menu_active = 'style="background-color:#b0c4de;border-radius: 5px; padding: 5px 5px;"';}
+                htmlString += '<li class="menu_header"><a href="'+pagename+'?s='+s+'&area='+menu_name+'" '+menu_active+'>'+menu_name+'</a></li>';
+            }
+            document.getElementById('myui-menu').innerHTML = htmlString;
+        };
+        xhr.send();
+    }
+
+
+
     // create movie list 
     function movielists(sqlstring){
 
@@ -157,7 +211,7 @@
                 sqlstring += " limit 30 offset " + page;
             }
 
-
+            // sqlstring = "select * from movie where actor like '%杰西卡查斯坦%'";
             console.log(sqlstring);
             const contents = db.exec(sqlstring);
             var data = JSON.parse(JSON.stringify(contents));
@@ -269,7 +323,7 @@
                 var actors = '';
                 if( actornames.length > 0 ){
                     for (let actorname of actornames){
-                        actors += '<a href="'+pagename+'?s='+s+'&actor='+actorname+'">'+actorname+'</a> , ';
+                        actors += '<a href="'+pagename+'?s='+s+'&actor='+encodeURI(actorname)+'">'+actorname+'</a> , ';
                     }
                 }
 
@@ -332,11 +386,10 @@
                 htmlString += 'style="font-size: 24px;margin:2px;">收藏</button><br><br>';
 
 
-                console.log(vod_play_url);
+                // console.log(vod_play_url);
                 // alert(vod_play_url);
                 const playlists = vod_play_url.split('#');
                 playlists.sort();
-                // const playlists = [m3u8];
 
                 if( playlists.length > 1 ){
                     for (let pl of playlists){
@@ -365,15 +418,15 @@
     var pagecount;
     var urlParams;
     (window.onpopstate = function () {
-    var match,
-        pl     = /\+/g,  // Regex for replacing addition symbol with a space
-        search = /([^&=]+)=?([^&]*)/g,
-        decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
-        query  = window.location.search.substring(1);
+        var match,
+            pl     = /\+/g,  // Regex for replacing addition symbol with a space
+            search = /([^&=]+)=?([^&]*)/g,
+            decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+            query  = window.location.search.substring(1);
 
-    urlParams = {};
-    while (match = search.exec(query))
-        urlParams[decode(match[1])] = decode(match[2]);
+        urlParams = {};
+        while (match = search.exec(query))
+            urlParams[decode(match[1])] = decode(match[2]);
     })();
 
     if (urlParams["t"] == null){ var t = "0"; } else { var t = urlParams["t"];}
@@ -385,7 +438,7 @@
         if (urlParams["id"] == null) {
             if (urlParams["wd"] == null) {
                 if (t != "0") {
-                    submenu('select distinct type_id,type_name from movie order by type_id'); // 動態產生子選單
+                    submenuByTypeId(); // 動態產生子選單
                     var sqlstring = "select * from movie where type_id = "+t+" order by time desc";
                     movielists(sqlstring);
                 }
@@ -395,40 +448,39 @@
             movielists(sqlstring);
             }
         } else {
-            submenu('select distinct type_id,type_name from movie order by type_id'); // 動態產生子選單
+            submenuByTypeId(); // 動態產生子選單
             var id = urlParams["id"];
             var sqlstring = "select * from movie where id = "+id;
             movieById(sqlstring);
         }
         } else {
         if (urlParams["ids"] == 'clear'){
-            // console.log(urlParams["ids"]);
             document.cookie = s + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT';
-            // console.log(document.cookie);
         } else {
             var id = getCookieByName(s);
             var sqlstring = "select * from movie where id in (0" + id +")";
-            // console.log(sqlstring);
             movielists(sqlstring);
         }
     }
 
     if (urlParams["year"] != null) {
+        submenuByYear();
         var sqlstring = "select * from movie where year = '"+urlParams["year"]+"' order by time desc";
         movielists(sqlstring);
     }
 
     if (urlParams["area"] != null) {
+        submenuByArea();
         var sqlstring = "select * from movie where area = '"+urlParams["area"]+"' order by time desc";
         movielists(sqlstring);
     }
 
     if (urlParams["actor"] != null) {
-        var sqlstring = "select * from movie where actor like '%"+urlParams["actor"]+"%' order by time desc";
+        var sqlstring = "select * from movie where actor like '%"+urlParams["actor"]+"%'";
         movielists(sqlstring);
     }    
 
     if (urlParams["director"] != null) {
-        var sqlstring = "select * from movie where director like '%"+urlParams["director"]+"%' order by time desc";
+        var sqlstring = "select * from movie where director like '%"+urlParams["director"]+"%'";
         movielists(sqlstring);
     }        
