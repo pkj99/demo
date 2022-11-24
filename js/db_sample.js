@@ -323,18 +323,19 @@
                 var actors = '';
                 if( actornames.length > 0 ){
                     for (let actorname of actornames){
-                        actors += '<a href="'+pagename+'?s='+s+'&actor='+encodeURI(actorname)+'">'+actorname+'</a> , ';
+                        actors += '<a href="'+pagename+'?s='+s+'&actor='+actorname+'">'+actorname+'</a> , ';
                     }
                 }
+                actors = actors.substring(0, actors.length-3);
 
                 const directornames = director.split(',');
                 var directors = '';
-                if( directors.length > 0 ){
+                if( directornames.length > 0 ){
                     for (let directorname of directornames){
                         directors += '<a href="'+pagename+'?s='+s+'&director='+directorname+'">'+directorname+'</a> , ';
                     }
                 }
-
+                directors = directors.substring(0, directors.length-3);
 
                 htmlString += '<li class="col-lg-4 col-md-3 col-sm-2 col-xs-1">';
                 htmlString += '<div class="myui-vodlist__box">';
@@ -441,6 +442,10 @@
                     submenuByTypeId(); // 動態產生子選單
                     var sqlstring = "select * from movie where type_id = "+t+" order by time desc";
                     movielists(sqlstring);
+                } else {
+                    submenuByTypeId(); // 動態產生子選單
+                    var sqlstring = "select * from movie order by time desc";
+                    movielists(sqlstring);
                 }
             } else {
             var keyword = Simplized(urlParams["wd"])  // 繁轉簡
@@ -476,11 +481,11 @@
     }
 
     if (urlParams["actor"] != null) {
-        var sqlstring = "select * from movie where actor like '%"+urlParams["actor"]+"%'";
+        var sqlstring = "select * from movie where actor like '%"+urlParams["actor"]+"%' order by year desc, time desc";
         movielists(sqlstring);
     }    
 
     if (urlParams["director"] != null) {
-        var sqlstring = "select * from movie where director like '%"+urlParams["director"]+"%'";
+        var sqlstring = "select * from movie where director like '%"+urlParams["director"]+"%' order by year desc, time desc";
         movielists(sqlstring);
     }        
