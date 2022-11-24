@@ -112,7 +112,7 @@
     // create movie list 
     function movielists(sqlstring){
 
-        getCount(sqlstring.replace('select * ','select count(*) '),function mycallback(data) {  pagecount = data; });
+        // getCount(sqlstring.replace('select * ','select count(*) '),function mycallback(data) {  pagecount = data; });
         if (typeof pagecount == "undefined" ) { pagecount = 10; }
 
         const xhr = new XMLHttpRequest();
@@ -124,12 +124,14 @@
             const db = new SQL.Database(uInt8Array);
             
             var page = (parseInt(pg)-1)*30;
-            if (sqlstring.includes("where name like")){
+            if (sqlstring.includes(" like ")){
                 console.log(sqlstring);
             } else {
                 sqlstring += " limit 30 offset " + page;
             }
-            
+
+
+            console.log(sqlstring);
             const contents = db.exec(sqlstring);
             var data = JSON.parse(JSON.stringify(contents));
             
