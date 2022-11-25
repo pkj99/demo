@@ -61,9 +61,13 @@
     // get information
 
     function getCount(sqlstring,callback){
+        var dbFrom = db_url;
+        if (sqlstring.includes('tmdb')){
+            var dbFrom = 'https://pkj99.github.io/demo/vod/db/haiwaikan-tmdb.db';            
+        }
         var pagecount;
         const xhr = new XMLHttpRequest();
-        xhr.open('GET', db_url, true);
+        xhr.open('GET', dbFrom, true);
         xhr.responseType = 'arraybuffer';
         xhr.onload = e => {      
             const uInt8Array = new Uint8Array(xhr.response);
@@ -265,7 +269,8 @@
             
             var p = parseInt(pg);
             var bottom_p = parseInt(pagecount);
-            var referer = pagename+'?s='+s+'&t=' + t
+            var referer = window.location.href.split('&pg=')[0];
+            // var referer = pagename+'?s='+s+'&t=' + t
             if (p > 1) { prev_p = p-1;} else { prev_p = 1;}
             if (p < bottom_p) { next_p = p+1;} else { next_p = bottom_p;}
             var nav = '<li class="hidden-xs"><a class="btn btn-default" href="' + referer+'&pg=1">1</a></li>';
@@ -424,8 +429,8 @@
 
         var tmdb_url = 'https://pkj99.github.io/demo/vod/db/haiwaikan-tmdb.db';
 
-        // getCount(sqlstring, function pagecountCallback(data) {  pagecount = data; });
-        // if (typeof pagecount == "undefined" ) { pagecount = 10; }
+        getCount(sqlstring, function pagecountCallback(data) {  pagecount = data; });
+        if (typeof pagecount == "undefined" ) { pagecount = 10; }
 
         const xhr = new XMLHttpRequest();
         xhr.open('GET', tmdb_url, true);
@@ -435,15 +440,14 @@
             const uInt8Array = new Uint8Array(xhr.response);
             const db = new SQL.Database(uInt8Array);
             
-            // var page = (parseInt(pg)-1)*30;
-            // if (sqlstring.includes(" like ")){
-            //     console.log(sqlstring);
-            // } else {
-            //     sqlstring += " limit 30 offset " + page;
-            // }
+            var page = (parseInt(pg)-1)*30;
+            if (sqlstring.includes(" like ")){
+                console.log(sqlstring);
+            } else {
+                sqlstring += " limit 30 offset " + page;
+            }
 
             // console.log('1',sqlstring);
-            // var sqlstring = stringToUTF8(sqlstring);
             const contents = db.exec(sqlstring);
             var data = JSON.parse(JSON.stringify(contents));
             
@@ -489,22 +493,23 @@
             // console.log('2',htmlString);
             document.getElementById('myui-panel2').innerHTML = htmlString;
             
-            // var p = parseInt(pg);
-            // var bottom_p = parseInt(pagecount);
+            var p = parseInt(pg);
+            var bottom_p = parseInt(pagecount);
+            var referer = window.location.href.split('&pg=')[0];
             // var referer = pagename+'?s='+s+'&t=' + t
-            // if (p > 1) { prev_p = p-1;} else { prev_p = 1;}
-            // if (p < bottom_p) { next_p = p+1;} else { next_p = bottom_p;}
-            // var nav = '<li class="hidden-xs"><a class="btn btn-default" href="' + referer+'&pg=1">1</a></li>';
-            // nav += '<li><a class="btn btn-default" href="' + referer+'&pg=' + prev_p +'">Prev</a></li>';
-            // for (let i = p - 5; i < p + 5; i++) {
-            //     if ( i == p ) {  nav += '<li class="hidden-xs"><a class="btn btn-warm" href="' + referer+'&pg=' + i +'">'+ i +'</a></li>'; }
-            //     else if ( i < bottom_p && i > 0) {  nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer+'&pg=' + i +'">'+ i +'</a></li>'; }
-            // }
+            if (p > 1) { prev_p = p-1;} else { prev_p = 1;}
+            if (p < bottom_p) { next_p = p+1;} else { next_p = bottom_p;}
+            var nav = '<li class="hidden-xs"><a class="btn btn-default" href="' + referer+'&pg=1">1</a></li>';
+            nav += '<li><a class="btn btn-default" href="' + referer+'&pg=' + prev_p +'">Prev</a></li>';
+            for (let i = p - 5; i < p + 5; i++) {
+                if ( i == p ) {  nav += '<li class="hidden-xs"><a class="btn btn-warm" href="' + referer+'&pg=' + i +'">'+ i +'</a></li>'; }
+                else if ( i < bottom_p && i > 0) {  nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer+'&pg=' + i +'">'+ i +'</a></li>'; }
+            }
 
-            // nav += '<li><a class="btn btn-default" href="' + referer + '&pg=' + next_p +'">Next</a></li>';
-            // nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer + '&pg=' + bottom_p +'">'+bottom_p+'</a></li>';
+            nav += '<li><a class="btn btn-default" href="' + referer + '&pg=' + next_p +'">Next</a></li>';
+            nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer + '&pg=' + bottom_p +'">'+bottom_p+'</a></li>';
 
-            // document.getElementById('myui-page').innerHTML = nav;
+            document.getElementById('myui-page').innerHTML = nav;
 
         };
         xhr.send();
@@ -533,19 +538,14 @@
     if (urlParams["s"] == null){ var s = "haiwaikan"; } else { var s = urlParams["s"];}
         
 
-    if (urlParams["ids"] == null) {
-        if (urlParams["id"] == null) {
-            if (urlParams["wd"] == null) {
-                if (t != "0") {
-                    submenuByTypeId(); // 動態產生子選單
-                    var sqlstring = "select * from movie where type_id = "+t+" order by time desc";
-                    movielists(sqlstring);
-                } else {
-                    submenuByTypeId(); // 動態產生子選單
-                    var sqlstring = "select * from movie order by time desc";
-                    movielists(sqlstring);
-                }
-            } else {
+    if (urlParams["id"] == null) {
+        if (urlParams["wd"] == null) {
+            if (t != "0") {
+                submenuByTypeId(); // 動態產生子選單
+                var sqlstring = "select * from movie where type_id = "+t+" order by time desc";
+                movielists(sqlstring);
+            }
+        } else {
             var keyword_cn = Simplized(urlParams["wd"])  // 繁轉簡
             var sqlstring = "select * from movie where name like '%"+keyword_cn+"%' order by time desc";
             movielists(sqlstring);
@@ -553,42 +553,69 @@
             var keyword_tw = Traditionalized(urlParams["wd"])  // 簡轉繁
             var sqlstring = "select * from tmdb where title_tw like '%"+keyword_tw+"%' or title_cn like '%"+keyword_cn+"%' order by release_date desc";
             tmdblists(sqlstring);
-
-            }
-        } else {
-            submenuByTypeId(); // 動態產生子選單
-            var id = urlParams["id"];
-            var sqlstring = "select * from movie where id = "+id;
-            movieById(sqlstring);
         }
-        } else {
-        if (urlParams["ids"] == 'clear'){
-            document.cookie = s + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT';
-        } else {
-            var id = getCookieByName(s);
-            var sqlstring = "select * from movie where id in (0" + id +")";
-            movielists(sqlstring);
-        }
+    } else {
+        submenuByTypeId(); // 動態產生子選單
+        var id = urlParams["id"];
+        var sqlstring = "select * from movie where id = "+id;
+        movieById(sqlstring);
     }
+
+    if (t>0 && t<100){ document.getElementById('menu-movie').classList.add("active"); } 
+    if (t>=100 && t<200){ document.getElementById('menu-tvshow').classList.add("active"); } 
+    if (t>=200 && t<300){ document.getElementById('menu-variety').classList.add("active"); } 
+
 
     if (urlParams["year"] != null) {
         submenuByYear();
         var sqlstring = "select * from movie where year = '"+urlParams["year"]+"' order by time desc";
         movielists(sqlstring);
+        document.getElementById('menu-message').textContent = 'year = '+urlParams["year"];
     }
 
     if (urlParams["area"] != null) {
         submenuByArea();
         var sqlstring = "select * from movie where area = '"+urlParams["area"]+"' order by time desc";
         movielists(sqlstring);
+        document.getElementById('menu-message').textContent = 'area = '+urlParams["area"];
     }
 
     if (urlParams["actor"] != null) {
         var sqlstring = "select * from movie where actor like '%"+urlParams["actor"]+"%' order by year desc, time desc";
         movielists(sqlstring);
+        document.getElementById('menu-message').textContent = 'actor = '+urlParams["actor"];
     }    
 
     if (urlParams["director"] != null) {
         var sqlstring = "select * from movie where director like '%"+urlParams["director"]+"%' order by year desc, time desc";
         movielists(sqlstring);
+        document.getElementById('menu-message').textContent = 'director = '+urlParams["director"];
     }        
+
+    if (urlParams["view"] != null) {
+        // submenuByTypeId(); // 動態產生子選單
+        if (urlParams["view"] == 'favorites'){
+            var id = getCookieByName(s);
+            var sqlstring = "select * from movie where id in (0" + id +")";
+            movielists(sqlstring);
+            document.getElementById('menu-favorites').classList.add("active");    
+        }
+        if (urlParams["view"] == 'clear'){
+            document.cookie = s + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT';
+        }        
+        if (urlParams["view"] == 'recent'){
+            var sqlstring = "select * from movie order by time desc";
+            movielists(sqlstring);
+            document.getElementById('menu-recent').classList.add("active");
+        }
+        if (urlParams["view"] == 'popular'){
+            var sqlstring = "select * from tmdb order by popularity desc";
+            tmdblists(sqlstring);
+            document.getElementById('menu-popular').classList.add("active");
+        }
+        if (urlParams["view"] == 'toprated'){
+            var sqlstring = "select * from tmdb where vote_count > 1000 order by vote_average desc";
+            tmdblists(sqlstring);
+            document.getElementById('menu-toprated').classList.add("active");
+        }
+    }   
