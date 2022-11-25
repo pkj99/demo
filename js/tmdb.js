@@ -277,8 +277,8 @@
         } else {
             var keyword_tw = urlParams["wd"]
             var keyword_cn = Simplized(urlParams["wd"])  // 繁轉簡
-            // var sqlstring = "select * from tmdb where title_tw like '%"+keyword_tw+"%' or title_cn like '%"+keyword_cn+"%'";
-            var sqlstring = "select * from tmdb where title_tw like '%"+keyword_tw+"%' order by title_tw";
+            var sqlstring = "select * from tmdb where title_tw like '%"+keyword_tw+"%' or title_cn like '%"+keyword_cn+"%'";
+            // var sqlstring = "select * from tmdb where title_tw like '%"+keyword_tw+"%' order by title_tw";
             movielists(sqlstring);
         }
     } else {
