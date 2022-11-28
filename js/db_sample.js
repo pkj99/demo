@@ -347,7 +347,7 @@
                 }
                 directors = directors.substring(0, directors.length-3);
 
-                htmlString += '<li class="col-lg-4 col-md-3 col-sm-2 col-xs-1">';
+                htmlString += '<li class="col-lg-4 col-md-4 col-sm-4 col-xs-1">';
                 htmlString += '<div class="myui-vodlist__box">';
                 htmlString += '<a class="myui-vodlist__thumb lazyload" href="'+ m3u8 + '" ';
                 htmlString += 'title="' + title +'" ';
@@ -366,7 +366,7 @@
                 htmlString += '</div>';
                 htmlString += '</li>';
 
-                htmlString += '<li class="col-lg-2 col-md-2 col-sm-1 col-xs-1">';
+                htmlString += '<li class="col-lg-2 col-md-2 col-sm-2 col-xs-1">';
 
                 htmlString += '<div class="myui-content__detail">';
                 htmlString += '<h1 class="title">'+ title +'</h1>';
@@ -389,7 +389,7 @@
 
                 //  create playlists buttons
                 htmlString += '<li class="col-lg-2 col-md-2 col-sm-2 col-xs-1">';
-                htmlString += '<div class="myui-content__detail">';
+                // htmlString += '<div class="myui-content__detail">';
 
                 htmlString += '<button class="btn btn-primary" type="button" style="font-size: 24px;margin:2px;">';
                 htmlString += '<a href="../vod/playvideo.html?url='+m3u8+'">播放</a></button>';
@@ -413,7 +413,7 @@
                     }
                 }
 
-                htmlString += '</div>';
+                // htmlString += '</div>';
                 htmlString += '</li>';
 
             }
@@ -465,6 +465,7 @@
                 var id = data[i][14];        
                 var remarks = data[i][1];
                 var state = data[i][11];
+                year = year.substring(0,4);
 
                 htmlString += '<li class="col-lg-10 col-md-8 col-sm-5 col-xs-3">';
                 htmlString += '<div class="myui-vodlist__box">';
