@@ -115,18 +115,19 @@
 
   function setCookieBySourceId(source,id) {
       var ids = getCookieByName(source);
-      if (ids == null) { ids = '';}
+      var maxAge = "; max-age=5184000; path=/;";
       var idNew = ',' + id ;
+      if (ids == null) { ids = '';}
       if (ids.includes(idNew)){
         document.getElementById('favorites').textContent = '收藏';
         document.getElementById('favorites').className = 'btn btn-secondary';
         ids = ids.replace(idNew,'');
-        document.cookie = source + '=' + ids ;
+        document.cookie = source + '=' + ids + maxAge;
       } else {
         document.getElementById('favorites').textContent = '已收藏';
         document.getElementById('favorites').className = 'btn btn-danger';
         ids += idNew ;
-        document.cookie = source + '=' + ids ;
+        document.cookie = source + '=' + ids + maxAge ;
       }
   }
 
