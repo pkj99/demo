@@ -616,11 +616,13 @@
         if (urlParams["view"] == 'popular'){
             var sqlstring = "select * from tmdb order by popularity desc";
             tmdblists(sqlstring);
+            document.getElementById('myui-panel').innerHTML = "";
             document.getElementById('menu-popular').classList.add("active");
         }
         if (urlParams["view"] == 'toprated'){
             var sqlstring = "select * from tmdb where vote_count > 1000 order by vote_average desc";
             tmdblists(sqlstring);
+            document.getElementById('myui-panel').innerHTML = "";
             document.getElementById('menu-toprated').classList.add("active");
         }
     }   
