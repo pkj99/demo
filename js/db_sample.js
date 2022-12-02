@@ -423,6 +423,9 @@
             }
             htmlString += '</ul>';
             document.getElementById('myui-panel').innerHTML = htmlString;
+
+            checkCookieBySourceId(s,id);
+
         }
         xhr.send();
     }
