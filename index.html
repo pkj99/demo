@@ -219,7 +219,10 @@
           </li>
   
           <li class="nav-item pe-3">
-              <li><a class="nav-link" href="../demo/qrcode/index.html">QRCODE</a></li>
+              <li><a class="nav-link" href="#" onclick="
+                document.getElementById('platform').innerHTML = '<img src=../demo/images/qrcode.png>';
+                document.getElementById('navbarsExampleDefault').classList.remove('open');">QRCODE</a>
+              </li>
           </li>
   
       </ul>
@@ -231,7 +234,7 @@
 <main class="container">
         <div style='clear:both;'></div>
 
-        <div class="container-fluid center" style="padding:30px;">
+        <div class="container-fluid center" style="padding:30px;" id="platform">
 
             <iframe id=xlogo src='../demo/css_samples/cube.html' width=100% height=400px></iframe>
             
