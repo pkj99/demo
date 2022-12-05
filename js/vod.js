@@ -524,6 +524,93 @@
     }
 
 
+    function movieGroup(sqlstring){
+
+        getCount(sqlstring, function pagecountCallback(data) {  pagecount = data; });
+        if (typeof pagecount == "undefined" ) { pagecount = 10; }
+
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', db_url, true);
+        xhr.responseType = 'arraybuffer';
+
+        xhr.onload = e => {
+            const uInt8Array = new Uint8Array(xhr.response);
+            const db = new SQL.Database(uInt8Array);
+            
+            var page = (parseInt(pg)-1)*30;
+            if (sqlstring.includes(" like ")){
+                // console.log(sqlstring);
+            } else {
+                sqlstring += " limit 30 offset " + page;
+            }
+
+            // console.log(sqlstring);
+            const contents = db.exec(sqlstring);
+            var data = JSON.parse(JSON.stringify(contents));
+            
+            let htmlString = '<ul>';
+            
+            if (typeof data[0] == "undefined" ) { data = [];} else { data = data[0].values; }
+
+            for (var i = 0; i < data.length; i++) {
+                var m3u8 = data[i][9];
+                var img = data[i][10];
+                var title = data[i][1];
+                var year = data[i][4];
+                var quality = data[i][2];
+                var type_name = data[i][13];
+                var id = data[i][0];        
+                var remarks = data[i][14];
+                var serial = data[i][5];
+
+                htmlString += '<li class="col-lg-10 col-md-8 col-sm-5 col-xs-3">';
+                htmlString += '<div class="myui-vodlist__box">';
+                htmlString += '<a class="myui-vodlist__thumb lazyload" href="'+pagename+'?serial='+serial + '" ';
+                htmlString += 'title="' + title +'" ';
+                htmlString += 'data-original="' + img + '" ';
+                htmlString += 'style="background-image: url(' + img +')"';
+
+                htmlString += '<span class="play hidden-xs"></span>';
+                if (quality != '1'){
+                    htmlString += '<span class="pic-tag pic-tag-top" style="background-color: #5bb7fe;">' + quality+'</span>';
+                }
+                htmlString += '<span class="pic-tag pic-tag-right">'+remarks+'</span>';
+                htmlString += '<span class="pic-text text-right">'+year+'</span>';
+                htmlString += '<span class="pic-text text-left">'+type_name+'</span>';
+
+                htmlString += '</a>';
+                htmlString += '</div>';
+                htmlString += '<div class="myui-vodlist__detail">';
+                htmlString += '<h4 class="title text-overflow"><a href="'+m3u8+'">'+title+'</a></h4>';
+                htmlString += '</div>';
+                htmlString += '</li>';
+            }
+
+            htmlString += '</ul>';
+
+            document.getElementById('myui-panel').innerHTML = htmlString;
+            
+            var p = parseInt(pg);
+            var bottom_p = parseInt(pagecount);
+            var referer = window.location.href.split('&pg=')[0];
+            // var referer = pagename+'?s='+s+'&t=' + t
+            if (p > 1) { prev_p = p-1;} else { prev_p = 1;}
+            if (p < bottom_p) { next_p = p+1;} else { next_p = bottom_p;}
+            var nav = '<li class="hidden-xs"><a class="btn btn-default" href="' + referer+'&pg=1">1</a></li>';
+            nav += '<li><a class="btn btn-default" href="' + referer+'&pg=' + prev_p +'">Prev</a></li>';
+            for (let i = p - 5; i < p + 5; i++) {
+                if ( i == p ) {  nav += '<li class="hidden-xs"><a class="btn btn-warm" href="' + referer+'&pg=' + i +'">'+ i +'</a></li>'; }
+                else if ( i < bottom_p && i > 0) {  nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer+'&pg=' + i +'">'+ i +'</a></li>'; }
+            }
+
+            nav += '<li><a class="btn btn-default" href="' + referer + '&pg=' + next_p +'">Next</a></li>';
+            nav += '<li class="hidden-xs"><a class="btn btn-default" href="' + referer + '&pg=' + bottom_p +'">'+bottom_p+'</a></li>';
+
+            document.getElementById('myui-page').innerHTML = nav;
+
+        };
+        xhr.send();
+    }
 
 
     // get params
@@ -600,6 +687,12 @@
         document.getElementById('menu-message').textContent = 'director = '+urlParams["director"];
     }        
 
+    if (urlParams["serial"] != null) {
+        var sqlstring = "select * from movie where serial = '"+urlParams["serial"]+"' order by year";
+        movielists(sqlstring);
+        document.getElementById('menu-message').textContent = 'serial = '+urlParams["serial"];
+    }
+
     if (urlParams["view"] != null) {
         // submenuByTypeId(); // 動態產生子選單
         if (urlParams["view"] == 'favorites'){
@@ -628,9 +721,9 @@
             document.getElementById('myui-panel').innerHTML = "";
             document.getElementById('menu-toprated').classList.add("active");
         }
-        if (urlParams["view"] == 'series'){
-            var sqlstring = "select * from movie where serial <> '0' and remarks = '1' order by serial, year";
-            movielists(sqlstring);
-            document.getElementById('menu-series').classList.add("active");
+        if (urlParams["view"] == 'serial'){
+            var sqlstring = "select * from movie where serial <> '0' and remarks = '1' order by year";
+            movieGroup(sqlstring);
+            document.getElementById('menu-serial').classList.add("active");
         }
     }   
