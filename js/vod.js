@@ -555,7 +555,7 @@
             }
         } else {
             var keyword_cn = Simplized(urlParams["wd"])  // 繁轉簡
-            var sqlstring = "select * from movie where name like '%"+keyword_cn+"%' order by time desc";
+            var sqlstring = "select * from movie where name like '%"+keyword_cn+"%' order by year desc";
             movielists(sqlstring);
 
             var keyword_tw = Traditionalized(urlParams["wd"])  // 簡轉繁
