@@ -83,7 +83,7 @@
 
             htmlString += '<tr>';
             htmlString += '<td><a href="'+movieurl+'">'+title_tw+'</a></td> ';
-            htmlString += '<td><a href="db_sample.html?id='+movieid+'">'+title_cn+'</a></td> ';
+            htmlString += '<td><a href="index.html?id='+movieid+'">'+title_cn+'</a></td> ';
             htmlString += '<td>'+original_language+'</td> ';
             htmlString += '<td><a href="https://www.themoviedb.org/movie/'+id+'" target="_blank">'+original_title+'</a></td> ';
             htmlString += '<td>'+release_date+'</td> ';

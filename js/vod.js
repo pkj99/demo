@@ -628,4 +628,9 @@
             document.getElementById('myui-panel').innerHTML = "";
             document.getElementById('menu-toprated').classList.add("active");
         }
+        if (urlParams["view"] == 'series'){
+            var sqlstring = "select * from movie where serial <> '0' and remarks = '1' order by serial, year";
+            movielists(sqlstring);
+            document.getElementById('menu-series').classList.add("active");
+        }
     }   
