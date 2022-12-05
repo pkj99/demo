@@ -2,7 +2,6 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="Cache-control" content="public, max-age=31536000, immutable">
     <title>Movie Collections</title>
     <meta name="keywords" content="movie, tv, radio" />
     <meta name="bookmark-image" content="../images/logo.png" />
@@ -23,8 +22,9 @@
 </head>
 
 <body>
+
     <header class="myui-header__top clearfix" id="header-top">
-    <div class="container" style="margin-bottom: 4px; background-color:#b0c4de;">
+    <div class="container" style="margin-bottom: 4px;">
         <div class="row">
             <div class="myui-header_bd clearfix">
                 <div class="myui-header__logo" style="padding-top: 5px;">
@@ -34,22 +34,19 @@
                     </a>
                 </div>
                 <ul class="myui-header__menu">
-                  <li class="menu_header" id="menu-movie"><a href="index.html?t=1">電影</a></li>
-                  <li class="menu_header" id="menu-tvshow"><a href="index.html?t=107">電視劇</a></li>
-                  <li class="menu_header" id="menu-variety"><a href="index.html?t=206">綜藝</a></li>
-                  <li class="menu_header" id="menu-favorites"><a href="index.html?view=favorites">收藏</a></li>
-                  <li class="menu_header" id="menu-recent"><a href="index.html?view=recent">最近更新</a></li>
-                  <li class="menu_header" id="menu-popular"><a href="index.html?view=popular">熱播</a></li>
-                  <li class="menu_header" id="menu-toprated"><a href="index.html?view=toprated">高分榜</a></li>
-                  <li class="">
-                    <div class="myui-header__search search-box">
-                        <form id="search" name="search" method="get" action="index.html">
-                        <input type="text" id="wd" name="wd" class="search_wd form-control" value="" placeholder="請輸入關鍵字" autocomplete="off" style=" padding-left: 20px; " />
-                        <button class="submit search_submit" id="searchbutton" type="submit"><i class="fa fa-search"></i></button>
-                        </form>
-                    </div">
-                  </li>
-                  <li class="menu_header" id="menu-message" style="line-height: 60px;"></li>
+                    <li class="menu_header"><a href="api.html?t=28" id="menu-movie">電影</a></li>
+                    <li class="menu_header"><a href="api.html?t=119" id="menu-tvshow">電視劇</a></li>
+                    <li class="menu_header"><a href="api.html?t=128" id="menu-variety">綜藝</a></li>
+                    <li class="menu_header"><a href="api.html?t=135" id="menu-animation">動漫</a></li>
+                    <li class="menu_header"><a href="api.html?ids=favorites" id="menu-favorites">收藏</a></li>
+                    <li class="">
+                        <div class="myui-header__search search-box">
+                            <form id="search" name="search" method="get" action="api.html">
+                            <input type="text" id="wd" name="wd" class="search_wd form-control" value="" placeholder="請輸入關鍵字" autocomplete="off" style=" padding-left: 20px;" />
+                            <button class="submit search_submit" id="searchbutton" type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div">
+                    </li>
                 </ul>
             </div>
         </div>
@@ -59,20 +56,18 @@
     <div class="container" style="margin-bottom: 4px;">
       <div class="row">
           <div class="myui-header_bd clearfix">
-            <ul class="myui-header__menu" id="myui-menu">
-                
-            </ul>
+              <ul class="myui-header__menu" id="myui-menu">
+              </ul>
           </div>
       </div>
     </div>
 
     <div class="container">
-      <div class="row">
+        <div class="row">
           <div class="myui-panel myui-panel-bg clearfix">
               <div class="myui-panel-box clearfix" id="myui-panel"> <p style="text-align:center;"><img src="../images/loading_eng.gif"></p> </div>
-              <div class="myui-panel-box clearfix" id="myui-panel2" style="background-color:gainsboro;"> </div>
           </div>
-          <ul class="myui-page text-center clearfix" id="myui-page"> </ul>
+          <ul class="myui-page text-center clearfix" id="myui-page"></ul>
         </div>
     </div>
 
@@ -80,6 +75,10 @@
       <div class="container min">
           <div class="row">
               <div class="col-pd text-center masked">
+                  <p class="">To temporarily unlock access to the demo, click on the following link:
+                      <a href="https://cors-anywhere.herokuapp.com/corsdemo">cors-anywhere</a>
+                      <span class="split-line"></span>
+                  </p>
                   <p class="margin-0">本站為程式開發測試之用，資料蒐集於網際網路，版權歸官方所有 Powered by PKJ Studio 2022</p>
               </div>
           </div>
@@ -89,6 +88,5 @@
 </body>
 </html>
 
-<script type="text/javascript" src='../js/sql.js'></script>
-<script type="text/javascript" src="../js/vod.js"></script>
+<script type="text/javascript" src="../js/api.js"></script>
 
