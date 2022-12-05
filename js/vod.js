@@ -149,8 +149,8 @@
 
 
 // 解決CORS問題
-  // var cors_api_url = 'https://cors-anywhere.herokuapp.com/';
-  var cors_api_url = 'https://pkjcors.herokuapp.com/';
+  var cors_api_url = 'https://cors-anywhere.herokuapp.com/';
+  // var cors_api_url = 'https://pkjcors.herokuapp.com/';
   
 
   function doCORSRequestMenu(options, printResult) {
