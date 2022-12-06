@@ -613,8 +613,62 @@
     }
 
 
-    // get params
+    function movie_slider(){
 
+        var tmdb_url = 'https://pkj99.github.io/demo/vod/db/haiwaikan-tmdb.db';
+
+        var sqlstring = "select movieid,title_tw,movieurl,backdrop_path,original_language from tmdb a where backdrop_path <> '' order by popularity desc LIMIT 10";
+
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', tmdb_url, true);
+        xhr.responseType = 'arraybuffer';
+
+        xhr.onload = e => {
+            const uInt8Array = new Uint8Array(xhr.response);
+            const db = new SQL.Database(uInt8Array);
+            
+            // var page = (parseInt(pg)-1)*30;
+            // if (sqlstring.includes(" like ")){
+            //     console.log(sqlstring);
+            // } else {
+            //     sqlstring += " limit 30 offset " + page;
+            // }
+
+            // console.log('1',sqlstring);
+            const contents = db.exec(sqlstring);
+            var data = JSON.parse(JSON.stringify(contents));
+            
+            if (typeof data[0] == "undefined" ) { data = [];} else { data = data[0].values; }
+
+            var items = '<div id="slider-movies" class="animation-1 slider" style="background-color:black">';
+
+            for (var i = 0; i < data.length; i++) {
+                pid = data[i][0];
+                title = data[i][1];
+                url= data[i][2];
+                poster = data[i][3];
+                genre = data[i][4].toUpperCase();
+
+                items += '<article class="item" id="'+pid+'">';
+                items += '<div class="image">';
+                items += '<a href="vod/playvideo.html?url='+url+'&v='+title+'"><img src="'+poster+'" alt="'+title+'" /></a>';
+                items += '<a href="'+url+'">';
+                items += '<div class="data">';
+                items += '<h3 class="title">'+title+'</h3>';
+                items += '<span>'+genre+'</span></div>';
+                items += '</a>';
+                items += '<span class="item_type">熱播</span>';
+                items += '</div>';
+                items += '</article>';
+            }
+            items += '</div>';
+
+            document.getElementById('myui-panel').innerHTML = items;
+        };
+        xhr.send();
+    }
+
+    // get params
 
     (window.onpopstate = function () {
         var match,
@@ -639,6 +693,8 @@
                 submenuByTypeId(); // 動態產生子選單
                 var sqlstring = "select * from movie where type_id = "+t+" order by time desc";
                 movielists(sqlstring);
+            } else {
+                movie_slider();
             }
         } else {
             var keyword_cn = Simplized(urlParams["wd"])  // 繁轉簡
