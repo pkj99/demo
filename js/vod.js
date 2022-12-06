@@ -726,4 +726,12 @@
             movieGroup(sqlstring);
             document.getElementById('menu-serial').classList.add("active");
         }
+        if (urlParams["view"] == 'year'){
+            var currentTime = new Date();
+            urlParams["year"] = currentTime.getFullYear();
+            submenuByYear();
+            var sqlstring = "select * from movie where year = '"+urlParams["year"]+"' order by time desc";
+            movielists(sqlstring);
+            document.getElementById('menu-year').classList.add("active");
+        }
     }   
