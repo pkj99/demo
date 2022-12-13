@@ -64,3 +64,26 @@ HBO Family,http://50.7.220.74:8278/fyi_twn/playlist.m3u8?tid=18186902&ct=17988&&
 HBO Family,http://50.7.220.74:8278/fyi_twn/playlist.m3u8?tid=MFCF7312728573127285&ct=18393&tsum=bc4d3db9ca83c3765cc75512a1bbbbe3
 HBO Signature,http://50.7.220.74:8278/hbosignature_twn/playlist.m3u8?tid=MD6D5767423357674233&ct=18392&tsum=995709f1100cf1b07964790160bfb4ee
 HBO HITS,http://50.7.220.74:8278/hbohead_twn/playlist.m3u8?tid=MCDC6663932966639329&ct=19193&tsum=6999a99699b097f3af2ef550e5c81f93
+
+CCTV1,http://125.210.152.19:9120/live/hzgq-cctv1gq-h264_2500.m3u8
+CCTV2,http://125.210.152.19:9120/live/hzgq-cctv2gq-h264_2500.m3u8
+CCTV3,http://125.210.152.19:9120/live/hzgq-cctv3gq-h264_2500.m3u8
+CCTV4,http://125.210.152.19:9120/live/hzgq-cctv4gq-h264_2500.m3u8
+CCTV5,http://125.210.152.19:9120/live/hzgq-cctv5gq-h264_2500.m3u8
+CCTV6,http://125.210.152.19:9120/live/hzgq-cctv6gq-h264_2500.m3u8
+CCTV7,http://125.210.152.19:9120/live/hzgq-cctv7gq-h264_2500.m3u8
+CCTV8,http://125.210.152.19:9120/live/hzgq-cctv8gq-h264_2500.m3u8
+CCTV9,http://125.210.152.19:9120/live/hzgq-cctv9gq-h264_2500.m3u8
+CCTV10,http://125.210.152.19:9120/live/hzgq-cctv10gq-h264_2500.m3u8
+CCTV11,http://125.210.152.19:9120/live/hzgq-cctv11gq-h264_2500.m3u8
+CCTV12,http://125.210.152.19:9120/live/hzgq-cctv12gq-h264_2500.m3u8
+CCTV13,http://125.210.152.19:9120/live/hzgq-cctvnewsgq-h264_2500.m3u8
+CCTV14,http://125.210.152.19:9120/live/hzgq-cctvsegq-h264_2500.m3u8
+CCTV15,http://125.210.152.19:9120/live/hzgq-cctvmusicgq-h264_2500.m3u8
+CCTV16,http://125.210.152.19:9120/live/hzgq-cctv16gq-h264_2500.m3u8
+CCTV17,http://125.210.152.19:9120/live/hzgq-cctv17gq-h264_2500.m3u8
+CCTV5+,http://125.210.152.19:9120/live/hzgq-cctvzhgq-h264_2500.m3u8
+
+CHC動作電影,http://111.20.40.170/PLTV/88888893/224/3221226465/index.m3u8
+CHC家庭電影,http://111.20.40.170/PLTV/88888893/224/3221226462/index.m3u8
+CHC高清電影,http://111.20.40.170/PLTV/88888893/224/3221226463/index.m3u8
