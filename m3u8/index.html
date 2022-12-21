@@ -110,14 +110,15 @@
       const response = await fetch(url);
       const data = await response.json();
       let htmlString = '<ul>';
-      
+      let dirString = '';
+
       for (let file of data) {
         var m3u8link = "https://pkj99.github.io/demo/" + file.path;
         var imglink = encodeURI(m3u8link.replace('m3u8/','images/').replace('.m3u8','.png').replace(' (','.').replace(').','.'));
         if (file.name != "index.html") {
           if (file.type == "dir") {
-            var newURL = window.location.protocol +  window.location.host + "/" + window.location.pathname + window.location.search + file.name;
-            htmlString += `<li><a href="${newURL}">${file.name}</a></li>`;
+            var newURL = window.location.protocol +  window.location.host + "/" + window.location.pathname + window.location.search + "/" + file.name;
+            dirString += `<a href="${newURL}">${file.name}</a> | `;
           } else {
             htmlString += '<li class="col-lg-8 col-md-8 col-sm-5 col-xs-3">';
             htmlString += '<div class="myui-vodlist__box">';
@@ -135,7 +136,7 @@
         }
       }
       htmlString += '</ul>';
-      document.getElementById("movielist").innerHTML = htmlString;
+      document.getElementById("movielist").innerHTML = htmlString + dirString;
     })()
 
 </script>
