@@ -25,7 +25,7 @@
 {"key":"南国影源","name":"南国影源(切)","type":1,"api":"http://api.nguonphim.tv/api.php/provide/vod/","searchable":1,"quickSearch":1}
 ],
 
-
+"spider":"http://52bsj.vip:81/api/v3/file/get/68478/1215.jar?sign=khMN9e2W4qURwPvVMCEzqy9yCBIrgkFOhBdyEAoYtWc%3D%3A0;md5;58BACE2715918A6FD783931D03586372",
 "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cDovLzUyYnNqLnZpcDo4MS9hcGkvdjMvZmlsZS9nZXQvMjk5MDIvMEVSY3pJMGJfekIudHh0P3NpZ249RHMyWW43SjY4eUVpN2FaS0pKcHUtN01hck1xZUlCLXlKbEotZGRacDJBVSUzRCUzQTA="]}]}],
 
 # "lives":[{}],
