@@ -7,9 +7,8 @@
 {"key": "1080zyk","name": "❤️1080ZYK","type": 1,"api": "https://api.1080zyku.com/inc/api_mac10.php",	"searchable": 1,"quickSearch": 0}, 	
 
 {"key": "光速影视","name": "光速影视","type": 1,"api": "https://api.guangsuapi.com/api.php/provide/vod/",	"searchable": 1,"quickSearch": 0},
-
 {"key": "新浪影视","name": "新浪影视","type": 1,"api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",	"searchable": 1,"quickSearch": 0},
-
+{"key": "金鹰资源","name": "金鹰资源","type": 1,"api": "https://jyzyapi.com/provide/vod/at/json",	"searchable": 1,"quickSearch": 0},
 
 {"key": "csp_新视觉","name": "🍁新视觉","type": 3,"api": "csp_Xinsj","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"http://52bsj.vip:81/api/v3/file/get/68477/%E6%96%B0%E8%A7%86%E8%A7%89.jar?sign=5hkB9freXo4-WOfuRa3Kc8_eUA4GPuMxVNgKOVUMnhs%3D%3A0"},   
 
@@ -30,6 +29,21 @@
 {"key":"爱奇艺","name":"🐨爱奇艺(SP)","type":3,"api":"csp_IQIYI","quickSearch":1,"searchable":1,"filterable":1,"jar":"http://52bsj.vip:81/api/v3/file/get/13412/top88.jar?sign=7e1d9fzPniW6Aw3EPw--LvPTOZjwKazppbLoRHkcGDk%3D%3A0"},
 
 {"key":"csp_MGTV","name":"🍋芒果TV(SP)","type":3,"api":"csp_MGTV","searchable":1,"quickSearch":1,"filterable":1,"jar":"http://52bsj.vip:81/api/v3/file/get/13412/top88.jar?sign=7e1d9fzPniW6Aw3EPw--LvPTOZjwKazppbLoRHkcGDk%3D%3A0"},
+
+{
+  "key": "haiwaikan",
+  "name": "海外看资源",
+  "type": 0,
+  "api": "https://haiwaikan.com/api.php/provide/vod/at/xml/?ac=list",
+  "searchable": 0,
+  "quickSearch": 0,
+  "filterable": 0,
+  "categories": [
+    "电影","电视剧","动漫","综艺","体育","纪录片","冒险片","剧情片","动作片","动画电影","同性片","喜剧片","奇幻片","恐怖片","悬疑片","惊悚片","歌舞片","灾难片","爱情片",
+    "犯罪片","科幻片","经典片","网络电影","战争片","欧美剧","日剧","韩剧","国产剧","泰剧","港剧","台剧","新马剧","其他剧欧",
+    "美综艺","日本综艺","韩国综艺","国产综艺","新马泰综艺","港台综艺","其他综艺","欧美动漫","日本动漫","韩国动漫","国产动漫","新马泰动漫","港台动漫","其他动漫"
+  ]
+},
 
 {
       "key": "youku",
@@ -68,7 +82,6 @@
 {"key":"csp_xbb_金眼影视","name":"🍀金眼影视","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://52bsj.vip:81/api/v3/file/get/61558/%E9%87%91%E7%9C%BC%E5%BD%B1%E8%A7%86.json?sign=Sq5mRASvVXrTTE_PDYV7x8vBS7LU3avVtrvvuSRX45g%3D%3A0"},
 {"key":"csp_XBPQ喵喵影视","name":"🎞️喵喵影视〔XBPQ〕","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://52bsj.vip:81/api/v3/file/get/63301/%E5%96%B5%E5%96%B5%E7%94%B5%E5%BD%B1%28xBPQ%29.json?sign=p_hgRusPwyUAgqE93wuJYsfG6rOhgSaIMuz0OlgUyoc%3D%3A0","jar":"http://52bsj.vip:81/api/v3/file/get/61833/xBPQ_1106.jar?sign=OVzxP6WlxeCthygathb2n4nXosg5HkE6NM9vkf3IFVk%3D%3A0"},
 {"key":"csp_XBPQ石榴影视","name":"🎞️石榴电影〔XBPQ〕","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://52bsj.vip:81/api/v3/file/get/63302/%E7%9F%B3%E6%A6%B4%E7%94%B5%E5%BD%B1%28xBPQ%29.json?sign=F59beX97EKduK2kehSA7Eb9Gbv78Fh2q8j_jcZJATr0%3D%3A0","jar":"http://52bsj.vip:81/api/v3/file/get/61833/xBPQ_1106.jar?sign=OVzxP6WlxeCthygathb2n4nXosg5HkE6NM9vkf3IFVk%3D%3A0"},
-{"key":"csp_XBPQTVB影视","name":"🎞️TVB云播〔XBPQ〕","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://52bsj.vip:81/api/v3/file/get/63303/TVB%E4%BA%91%E6%92%AD%28xBPQ%29.json?sign=D7u6b1vB57heVQdexskilQyAnu6CAOY0J1gIxm0wDvs%3D%3A0","jar":"http://52bsj.vip:81/api/v3/file/get/61833/xBPQ_1106.jar?sign=OVzxP6WlxeCthygathb2n4nXosg5HkE6NM9vkf3IFVk%3D%3A0"},
 {"key":"csp_XBPQ吼吼影视","name":"🎞️吼吼影视〔XBPQ〕","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://52bsj.vip:81/api/v3/file/get/63304/%E5%90%BC%E5%90%BC%28xBPQ%29.json?sign=V7Jqm42NGjs5jP8Hn7gqamNtCAMLulk5paVu0cSN7mI%3D%3A0","jar":"http://52bsj.vip:81/api/v3/file/get/61833/xBPQ_1106.jar?sign=OVzxP6WlxeCthygathb2n4nXosg5HkE6NM9vkf3IFVk%3D%3A0"},
 {"key":"csp_XBPQ攻洛阁影视","name":"🎞️落阁影视〔XBPQ〕","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://52bsj.vip:81/api/v3/file/get/63305/%E8%90%BD%E6%94%BB%E9%98%81%28xBPQ%29.json?sign=ih0c4ZTkdheIFK8qLpyWhTyjVDdxArIZXEdFXM_G624%3D%3A0","jar":"http://52bsj.vip:81/api/v3/file/get/61833/xBPQ_1106.jar?sign=OVzxP6WlxeCthygathb2n4nXosg5HkE6NM9vkf3IFVk%3D%3A0"},
 {"key":"csp_XBPQ极品影视","name":"🎞️极品影视〔XBPQ〕","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://agit.ai/guot54/ygbh/raw/branch/master/XB/%e6%9e%81%e5%93%81%e5%bd%b1%e8%a7%86.json","jar":"https://agit.ai/guot54/ygbh/raw/branch/master/JAR/xBPQ.jar"},
