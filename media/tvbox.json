@@ -10,9 +10,9 @@
   "name": "海外看资源",
   "type": 0,
   "api": "https://haiwaikan.com/api.php/provide/vod/at/xml/?ac=list",
-  "searchable": 1,
-  "quickSearch": 1,
-  "filterable": 1,
+  "searchable": 0,
+  "quickSearch": 0,
+  "filterable": 0,
   "categories": [
     "冒险片","剧情片","动作片","动画电影","同性片","喜剧片","奇幻片","恐怖片","悬疑片","惊悚片","歌舞片","灾难片","爱情片",
     "犯罪片","科幻片","经典片","网络电影","战争片","欧美剧","日剧","韩剧","国产剧","泰剧","港剧","台剧","新马剧","其他剧欧",
