@@ -114,7 +114,7 @@
 
       for (let file of data) {
         var m3u8link = "https://pkj99.github.io/demo/" + file.path;
-        var imglink = encodeURI(m3u8link.replace('m3u8/','images/').replace('.m3u8','.png').replace(' (','.').replace(').','.'));
+        var imglink = encodeURI(m3u8link.replace('m3u8/','images/').replace('.m3u8','.jpg').replace(' (','.').replace(').','.'));
         if (file.name != "index.html") {
           if (file.type == "dir") {
             var newURL = window.location.protocol +  window.location.host + "/" + window.location.pathname + window.location.search + "/" + file.name;
