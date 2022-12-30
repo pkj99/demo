@@ -53,6 +53,7 @@
             jsonString += ']}'
 
             // console.log(jsonString);
+            // HttpContext.Current.Response.Write(jsonString);
             document.write(jsonString);
 
             callback(jsonString);
