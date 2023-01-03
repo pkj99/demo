@@ -1,24 +1,38 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Logo-700x394.png" tvg-name="CCTV中文国际" group-title="台湾頻道",CCTV中文国际
+https://pkj99.github.io/YTLive/CCTV中文国际.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/DMAX.png" tvg-name="DMAX" group-title="台湾頻道",DMAX
 http://198.16.64.10:8278/discoveryturbo_twn/playlist.m3u8?tid=MD5D5964869459648694&ct=19225&tsum=a21251b62069dff5c52601a3e4bc4a6d
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/JETVariety.png" tvg-name="JET综合台" group-title="台湾頻道",JET综合台
 http://50.7.220.74:8278/jettv_japan/playlist.m3u8?ct=19225&tid=MA7A4202687942026879&tsum=e84bc4851b9d6f6a18282c1efcb6ed1d
+#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Logo-700x394.png" tvg-name="KKBOX21" group-title="台湾頻道",KKBOX21
+https://pkj99.github.io/YTLive/KKBOX21.m3u8
+#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Logo-700x394.png" tvg-name="KPOP" group-title="台湾頻道",KPOP
+https://pkj99.github.io/YTLive/KPOP.m3u8
+#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Logo-700x394.png" tvg-name="KPOPLive" group-title="台湾頻道",KPOPLive
+https://pkj99.github.io/YTLive/KPOPLive.m3u8
+#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Logo-700x394.png" tvg-name="Music24" group-title="台湾頻道",Music24
+https://pkj99.github.io/YTLive/Music24.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/tlc.png" tvg-name="TLC旅游生活频道" group-title="台湾頻道",TLC旅游生活频道
 http://198.16.64.10:8278/Tlc/playlist.m3u8?tid=MDAD1036602010366020&ct=19225&tsum=ac890e48736a7dd973b991044c960239
 #EXTINF:-1 tvg-logo="" tvg-name="V音乐台" group-title="台湾頻道",V音乐台
 http://21929815.rossteleccom.net/iptv/KBDMQMYTHBMXED/18054/index.m3u8
+#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Logo-700x394.png" tvg-name="三立LIVE" group-title="台湾頻道",三立LIVE
+https://pkj99.github.io/YTLive/三立+.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/setxiju.png" tvg-name="三立戏剧" group-title="台湾頻道",三立戏剧
 http://198.16.64.10:8278/sanlixiju_twn/playlist.m3u8?tid=MBDB8405357084053570&ct=19226&tsum=78944c0951d21a699e46fff4318a3799
+#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Logo-700x394.png" tvg-name="三立海外" group-title="台湾頻道",三立海外
+https://pkj99.github.io/YTLive/三立海外直播.m3u8
 #EXTINF:-1 tvg-logo="http://www.tvyan.com/uploads/dianshi/ctiasia.jpg" tvg-name="中天亚洲台" group-title="台湾頻道",中天亚洲台
 http://198.16.64.10:8278/ctiasia_twn/playlist.m3u8?tid=MC3C8838319088383190&ct=19226&tsum=6eaf7a477dd08b06a5dc54b4c05e52e1
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/AnimalPlanet.png" tvg-name="动物星球" group-title="台湾頻道",动物星球
-http://198.16.64.10:8278/animalplanet_twn/playlist.m3u8?tid=ME1E7303496773034967&ct=19225&tsum=07b0edc521a4edcb7a00d7e943b8aa72
+http://208.115.225.174:14192
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sports-golfch.png" tvg-name="博斯高球1台" group-title="台湾頻道",博斯高球1台
 http://198.16.64.10:8278/bosigolf2_twn/playlist.m3u8?tid=MF5F9848925298489252&ct=19225&tsum=2600464749aadbcd55d1c32ec071e36e
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/yuanzhumin.png" tvg-name="原住民频道" group-title="台湾頻道",原住民频道
 http://streamipcf.akamaized.net/live/_definst_/live_720/chunklist_b1500.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/daai.png" tvg-name="大爱一台" group-title="台湾頻道",大爱一台
-http://218.32.47.179:8507/http/192.168.1.9:8081/hls/73/815/ch52.m3u8
+https://raw.githubusercontent.com/etag2000/IPTV/YTlive/daai3.m3u8
 #EXTINF:-1 tvg-logo="http://www.tvyan.com/uploads/dianshi/cmclassic.jpg" tvg-name="天映经典" group-title="台湾頻道",天映经典
 https://pull-l3-cny.douyincdn.com/live/4480903e93e7bf6ddde637e903c423a0.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/starmov.png" tvg-name="星卫HD电影" group-title="台湾頻道",星卫HD电影
@@ -32,7 +46,7 @@ http://23.237.10.66:16344
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/中视.png" tvg-name="中视" group-title="台湾頻道",中视
 http://198.16.64.10:8278/zhongshihd_twn/playlist.m3u8?tid=MB8B7313326473133264&ct=19226&tsum=ae7506028e559f3a6e2a3519b2f6a91e
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CTS.png" tvg-name="华视" group-title="台湾頻道",华视
-http://218.32.47.179:18503/.m3u8
+https://raw.githubusercontent.com/etag2000/IPTV/YTlive/ctsshow.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/PublicTV.png" tvg-name="公视" group-title="台湾頻道",公视
 http://218.32.47.179:18505/http/192.168.1.9:8081/hls/73/815/ch50.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeo.png" tvg-name="国家地理频道" group-title="台湾頻道",国家地理频道
@@ -46,7 +60,9 @@ http://198.16.64.10:8278/discoverysc_twn/playlist.m3u8?tid=MA9A4194864841948648&
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CtiVariety.png" tvg-name="中天综合台" group-title="台湾頻道",中天综合台
 http://23.237.10.66:16372
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCYoYoTV.png" tvg-name="东森幼幼台" group-title="台湾頻道",东森幼幼台
-https://raw.githubusercontent.com/StanleyChen0924/Myself/YTlive/ebcyoyo.m3u8
+https://pkj99.github.io/YTLive/東森幼幼台.m3u8
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/GTVVarietyHD.png" tvg-name="八大综合台" group-title="台湾頻道",八大综合台
+http://198.16.64.10:8278/badazhonghe/playlist.m3u8?tid=MC7C4692263546922635&ct=19225&tsum=ffdc7a6397b511103e0df0b92e678790
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/卫视中文.png" tvg-name="卫视中文台" group-title="台湾頻道",卫视中文台
 https://playtv-live.ifeng.com/live/06OLEGEGM4G_tv1.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCSuper.png" tvg-name="东森超视" group-title="台湾頻道",东森超视
@@ -60,35 +76,37 @@ http://60.251.33.252:18538/.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/GTVDramaHD.png" tvg-name="八大戏剧台" group-title="台湾頻道",八大戏剧台
 http://198.16.64.10:8278/badadrama/playlist.m3u8?tid=ME4E4734124647341246&ct=19225&tsum=c4e596572a79ad99675ee2137d1cc43d
 #EXTINF:-1 tvg-logo="https://img.isuper.tv/live-tv/momo-shop-live.jpg" tvg-name="MOMO购物1" group-title="台湾頻道",MOMO购物1
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV04.m3u8
+https://pkj99.github.io/YTLive/MOMO購物一台.m3u8
 #EXTINF:-1 tvg-logo="https://img.isuper.tv/live-tv/momo-shop-live.jpg" tvg-name="MOMO购物2" group-title="台湾頻道",MOMO购物2
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV05.m3u8
+https://pkj99.github.io/YTLive/MOMO購物二台.m3u8
 #EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-live047_mobile.png" tvg-name="东森购物一台" group-title="台湾頻道",东森购物一台
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV18.m3u8
+https://pkj99.github.io/YTLive/東森購物46台.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/年代ERANewsHD.png" tvg-name="年代新闻台" group-title="台湾頻道",年代新闻台
 http://198.16.64.10:8278/niandainews_twn/playlist.m3u8?tid=MA6A4647720946477209&ct=19226&tsum=48a66838dbcf633b2fb41307b29ef50a
+#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv075_mobile.png" tvg-name="镜电视新闻台" group-title="台湾頻道",镜电视新闻台
+https://pkj99.github.io/YTLive/鏡新聞.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCNews.png" tvg-name="东森新闻台" group-title="台湾頻道",东森新闻台
-http://seb.sason.top/sc/dsxw_fhd.m3u8
+https://pkj99.github.io/YTLive/東森新聞.m3u8
 #EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv052_mobile.png" tvg-name="华视新闻" group-title="台湾頻道",华视新闻
-http://seb.sason.top/sc/hsxw_fhd.m3u8
+https://pkj99.github.io/YTLive/華視新聞.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/SETNews.png" tvg-name="三立新闻台" group-title="台湾頻道",三立新闻台
-http://seb.sason.top/sc/slinews_fhd.m3u8
+https://pkj99.github.io/YTLive/三立iNEWS.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBS新闻.png" tvg-name="TVBS新闻台" group-title="台湾頻道",TVBS新闻台
-http://seb.sason.top/sc/tvbsxw_fhd.m3u8
+https://pkj99.github.io/YTLive/TVBS新聞.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCFinancialNews.png" tvg-name="东森财经新闻台" group-title="台湾頻道",东森财经新闻台
-http://seb.sason.top/sc/dscjxw_fhd.m3u8
+https://pkj99.github.io/YTLive/東森財經新聞.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/中视新闻.png" tvg-name="中视新闻" group-title="台湾頻道",中视新闻
-http://seb.sason.top/sc/zsxw_fhd.m3u8
+https://pkj99.github.io/YTLive/中視新聞.m3u8
 #EXTINF:-1 tvg-logo="http://www.tvyan.com/uploads/dianshi/ctinews.jpg" tvg-name="中天新闻台" group-title="台湾頻道",中天新闻台
-http://seb.sason.top/sc/ztxw_fhd.m3u8
+https://pkj99.github.io/YTLive/中天新聞.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/UniqueNews.png" tvg-name="非凡新闻台" group-title="台湾頻道",非凡新闻台
 http://198.16.64.10:8278/feifannews_twn/playlist.m3u8?tid=ME3E6962233269622332&ct=19225&tsum=eea4d84db71e12ba91bfcf328f4dec9d
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/GlobalNews.png" tvg-name="寰宇新闻" group-title="台湾頻道",寰宇新闻
-http://seb.sason.top/sc/hyxw.m3u8
+https://pkj99.github.io/YTLive/寰宇新聞.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCMovies.png" tvg-name="东森电影台" group-title="台湾頻道",东森电影台
 https://pull-l3-cny.douyincdn.com/live/3d50d525417f450fdbc3fbbf5ac32960.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/HBO.png" tvg-name="HBO" group-title="台湾頻道",HBO
-http://198.16.64.10:8278/hbohd_twn/playlist.m3u8?tid=ME9E5260921952609219&ct=19225&tsum=a904cd480db106670befb11d14149fce
+http://218.202.220.2:5000/nn_live.ts?id=HBO
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/HBOSignature.png" tvg-name="HBOSignature" group-title="台湾頻道",HBOSignature
 http://198.16.64.10:8278/hbosignature_twn/playlist.m3u8?tid=MC5C5754321157543211&ct=19225&tsum=2b86077147813534b4cae6dd85bb3c4a
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCWesternMovies.png" tvg-name="东森洋片台" group-title="台湾頻道",东森洋片台
@@ -96,13 +114,13 @@ https://pull-l3-cny.douyincdn.com/live/ed503be0a61dc988e0a7d9e1f57a1885.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/AXN.png" tvg-name="AXN" group-title="台湾頻道",AXN
 http://he11o.akadatel.com/iptv/LTTLAKKUMH6ENZ/6162/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBS.png" tvg-name="TVBS" group-title="台湾頻道",TVBS
-https://raw.githubusercontent.com/StanleyChen0924/Myself/YTlive/TVBS.m3u8
+https://pkj99.github.io/YTLive/TVBS.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/e/e9/TVBS_Asia_logo_2017.png/200px-TVBS_Asia_logo_2017.png" tvg-name="TVBS-Asia" group-title="台湾頻道",TVBS-Asia
 https://pull-l3-cny.douyincdn.com/live/9f6ea8b662a55d5fa562ebaeb2880bfc.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/HMC.png" tvg-name="好莱坞电影台" group-title="台湾頻道",好莱坞电影台
 https://pull-l3-cny.douyincdn.com/live/06027cd7cadf310982fe67221578515b.m3u8
 #EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-live046_mobile.png" tvg-name="东森购物二台" group-title="台湾頻道",东森购物二台
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV19.m3u8
+https://pkj99.github.io/YTLive/東森購物60台.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CinemaxHD.png" tvg-name="CINEMAX" group-title="台湾頻道",CINEMAX
 http://198.16.64.10:8278/cinemax_twn/playlist.m3u8?tid=MFEF8256939882569398&ct=19225&tsum=b6faed73a920c75f873a0c8f511eeba2
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandSportsHD.png" tvg-name="纬来体育台" group-title="台湾頻道",纬来体育台
@@ -126,7 +144,7 @@ http://198.16.64.10:8278/jingtiancartoon_twn/playlist.m3u8?tid=MEEE6701222267012
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/asiatravel.png" tvg-name="亚洲旅游台" group-title="台湾頻道",亚洲旅游台
 http://198.16.64.10:8278/asiatravel_twn/playlist.m3u8?tid=MF2F4967516549675165&ct=19225&tsum=3b56404a8f861c7fef6ac79a798e4a8c
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/台视新闻.png" tvg-name="台视新闻台" group-title="台湾頻道",台视新闻台
-http://seb.sason.top/sc/tsxw_fhd.m3u8
+https://pkj99.github.io/YTLive/台視新聞.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/eata_sports1.png" tvg-name="爱尔达体育1" group-title="台湾頻道",爱尔达体育1
 http://198.16.64.10:8278/eltasport_twn/playlist.m3u8?tid=MB5B8133126081331260&ct=19225&tsum=5cb9d121709b107014d31cf856f3572e
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/elta_sports2.png" tvg-name="爱尔达体育2" group-title="台湾頻道",爱尔达体育2
@@ -143,27 +161,29 @@ http://198.16.64.10:8278/lunghuawestern_twn/playlist.m3u8?tid=MC1C39444722394447
 http://198.16.64.10:8278/lunghuajingdian_twn/playlist.m3u8?tid=ME8E7785888977858889&ct=19226&tsum=a7c782372313ea616d8fced1cebdfbab
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBS新闻.png" tvg-name="TVBS新闻台" group-title="新聞台",TVBS新闻台
-http://seb.sason.top/sc/tvbsxw_fhd.m3u8
+https://pkj99.github.io/YTLive/TVBS新聞.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/SETNews.png" tvg-name="三立新闻台" group-title="新聞台",三立新闻台
-http://seb.sason.top/sc/slinews_fhd.m3u8
+https://pkj99.github.io/YTLive/三立iNEWS.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCNews.png" tvg-name="东森新闻台" group-title="新聞台",东森新闻台
-http://seb.sason.top/sc/dsxw_fhd.m3u8
+https://pkj99.github.io/YTLive/東森新聞.m3u8
 #EXTINF:-1 tvg-logo="https://www.ebc.net.tw/Images/169-america.jpg" tvg-name="东森美洲新闻台" group-title="新聞台",东森美洲新闻台
 http://38.64.72.148:80/hls/modn/list/2015/chunklist1.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCFinancialNews.png" tvg-name="东森财经新闻台" group-title="新聞台",东森财经新闻台
-http://seb.sason.top/sc/dscjxw_fhd.m3u8
+https://pkj99.github.io/YTLive/東森財經新聞.m3u8
 #EXTINF:-1 tvg-logo="http://www.tvyan.com/uploads/dianshi/ctinews.jpg" tvg-name="中天新闻台" group-title="新聞台",中天新闻台
-http://seb.sason.top/sc/ztxw_fhd.m3u8
+https://pkj99.github.io/YTLive/中天新聞.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/中视新闻.png" tvg-name="中视新闻" group-title="新聞台",中视新闻
-http://seb.sason.top/sc/zsxw_fhd.m3u8
+https://pkj99.github.io/YTLive/中視新聞.m3u8
 #EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv052_mobile.png" tvg-name="华视新闻" group-title="新聞台",华视新闻
-http://seb.sason.top/sc/hsxw_fhd.m3u8
+https://pkj99.github.io/YTLive/華視新聞.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/台视新闻.png" tvg-name="台视新闻台" group-title="新聞台",台视新闻台
-http://seb.sason.top/sc/tsxw_fhd.m3u8
+https://pkj99.github.io/YTLive/台視新聞.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/GlobalNews.png" tvg-name="寰宇新闻" group-title="新聞台",寰宇新闻
-http://seb.sason.top/sc/hyxw.m3u8
+https://pkj99.github.io/YTLive/寰宇新聞.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/年代ERANewsHD.png" tvg-name="年代新闻台" group-title="新聞台",年代新闻台
 http://198.16.64.10:8278/niandainews_twn/playlist.m3u8?tid=MA6A4647720946477209&ct=19226&tsum=48a66838dbcf633b2fb41307b29ef50a
+#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv075_mobile.png" tvg-name="镜电视新闻台" group-title="新聞台",镜电视新闻台
+https://pkj99.github.io/YTLive/鏡新聞.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/UniqueNews.png" tvg-name="非凡新闻台" group-title="新聞台",非凡新闻台
 http://198.16.64.10:8278/feifannews_twn/playlist.m3u8?tid=ME3E6962233269622332&ct=19225&tsum=eea4d84db71e12ba91bfcf328f4dec9d
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
