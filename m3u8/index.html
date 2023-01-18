@@ -125,12 +125,8 @@
         var imglink = encodeURI(piclink);
         if (file.name != "index.html") {
           if (file.type == "dir") {
-            var newURL = window.location.protocol +  window.location.host + "/" + window.location.pathname + window.location.search + "/" + file.name;
-            console.log(window.location.protocol);
-            console.log(window.location.host);
-            console.log(window.location.pathname);
-            console.log(window.location.search);
-            console.log(file.name);
+            // var newURL = window.location.protocol +  window.location.host + "/" + window.location.pathname + window.location.search + "/" + file.name;
+            var newURL = window.location.pathname + window.location.search + "/" + file.name;
             dirString += `<a href="${newURL}">${file.name}</a> | `;
           } else {
             htmlString += '<li class="col-lg-8 col-md-8 col-sm-5 col-xs-3">';
