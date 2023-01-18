@@ -116,7 +116,10 @@
         var m3u8link = "https://pkj99.github.io/demo/" + file.path;
         if (file.path.includes('iptv')) {
           var piclink = m3u8link.replace('m3u8/','images/').replace('.m3u8','.png').replace(' (','.').replace(').','.');
-        } else {
+        } else if (file.path.includes('4gtv')){
+          var piclink = m3u8link.replace('m3u8/','images/').replace('.m3u8','.jpg');
+        }
+        else {
           var piclink = m3u8link.replace('m3u8/','images/').replace('.m3u8','.jpg').replace(' (','.').replace(').','.');
         }
         var imglink = encodeURI(piclink);
