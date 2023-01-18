@@ -116,7 +116,7 @@
         var m3u8link = "https://pkj99.github.io/demo/" + file.path;
         if (file.path.includes('iptv')) {
           var piclink = m3u8link.replace('m3u8/','images/').replace('.m3u8','.png').replace(' (','.').replace(').','.');
-        } else if (file.path.includes('4gtv')){
+        } else if (file.path.includes('4gtv') || file.path.includes('litv')){
           var piclink = m3u8link.replace('m3u8/','images/').replace('.m3u8','.jpg');
         }
         else {
