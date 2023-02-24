@@ -1,105 +1,49 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv003_mobile.png" tvg-name="民视第一台" group-title="四季頻道",民视第一台
-http://www.336699.live:1935/blockfour/4gtv-4gtv003.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv001_mobile.png" tvg-name="民视台湾台" group-title="四季頻道",民视台湾台
-http://www.336699.live:1935/blockfour/4gtv-4gtv001.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv002_mobile.png" tvg-name="民视" group-title="四季頻道",民视
-http://www.336699.live:1935/blockfour/4gtv-4gtv002.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv040_mobile.png" tvg-name="中视" group-title="四季頻道",中视
-http://www.336699.live:1935/blockfour/4gtv-4gtv040.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv080_mobile.png" tvg-name="中视经典台" group-title="四季頻道",中视经典台
-http://www.336699.live:1935/blockfour/4gtv-4gtv080.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv043_mobile.png" tvg-name="客家电视台" group-title="四季頻道",客家电视台
-http://www.336699.live:1935/blockfour/4gtv-4gtv043.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv039_mobile.png" tvg-name="八大综艺台" group-title="四季頻道",八大综艺台
-http://www.336699.live:1935/blockfour/4gtv-4gtv039.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv047_mobile.png" tvg-name="靖天日本台" group-title="四季頻道",靖天日本台
-http://www.336699.live:1935/blockfour/4gtv-4gtv047.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv079_1_mobile.png" tvg-name="ARIRANG阿里郎频道" group-title="四季頻道",ARIRANG阿里郎频道
 http://www.336699.live:1935/blockfour/4gtv-4gtv079.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv044_mobile.png" tvg-name="靖天卡通台" group-title="四季頻道",靖天卡通台
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/靖天卡通.png" tvg-name="靖天卡通台" group-title="四季頻道",靖天卡通台
 http://www.336699.live:1935/blockfour/4gtv-4gtv044.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv057_mobile.png" tvg-name="靖洋卡通Nice Bingo" group-title="四季頻道",靖洋卡通Nice Bingo
-http://www.336699.live:1935/blockfour/4gtv-4gtv057.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_litv-ftv15_mobile.png" tvg-name="i-Fun动漫台" group-title="四季頻道",i-Fun动漫台
 http://www.336699.live:1935/blockfour/litv-ftv15.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv052_mobile.png" tvg-name="华视新闻" group-title="四季頻道",华视新闻
-http://www.336699.live:1935/blockfour/4gtv-4gtv052.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_litv-ftv13_mobile.png" tvg-name="民视新闻台" group-title="四季頻道",民视新闻台
-http://www.336699.live:1935/blockfour/litv-ftv13.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv074_mobile.png" tvg-name="中视新闻" group-title="四季頻道",中视新闻
-http://www.336699.live:1935/blockfour/4gtv-4gtv074.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv009_mobile.png" tvg-name="中天新闻台" group-title="四季頻道",中天新闻台
-http://www.336699.live:1935/blockfour/4gtv-4gtv009.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_litv-longturn14_mobile.png" tvg-name="寰宇新闻台" group-title="四季頻道",寰宇新闻台
-http://www.336699.live:1935/blockfour/litv-longturn14.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv073_mobile.png" tvg-name="TVBS" group-title="四季頻道",TVBS
-http://www.336699.live:1935/blockfour/4gtv-4gtv073.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv004_mobile.png" tvg-name="民视综艺台" group-title="四季頻道",民视综艺台
-http://www.336699.live:1935/blockfour/4gtv-4gtv004.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv006_mobile.png" tvg-name="猪哥亮歌厅秀" group-title="四季頻道",猪哥亮歌厅秀
-http://www.336699.live:1935/blockfour/4gtv-4gtv006.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv062_mobile.png" tvg-name="靖天育乐台" group-title="四季頻道",靖天育乐台
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/靖天育乐.png" tvg-name="靖天育乐台" group-title="四季頻道",靖天育乐台
 http://www.336699.live:1935/blockfour/4gtv-4gtv062.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv063_mobile.png" tvg-name="KLT-靖天国际台" group-title="四季頻道",KLT-靖天国际台
-http://www.336699.live:1935/blockfour/4gtv-4gtv063.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv054_mobile.png" tvg-name="Nice TV 靖天欢乐台" group-title="四季頻道",Nice TV 靖天欢乐台
 http://www.336699.live:1935/blockfour/4gtv-4gtv054.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv068_mobile.png" tvg-name="TVBS欢乐台" group-title="四季頻道",TVBS欢乐台
-http://www.336699.live:1935/blockfour/4gtv-4gtv068.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv082_mobile.png" tvg-name="TRACE Urban" group-title="四季頻道",TRACE Urban
 http://www.336699.live:1935/blockfour/4gtv-4gtv082.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv083_mobile.png" tvg-name="Mezzo Live HD" group-title="四季頻道",Mezzo Live HD
-http://www.336699.live:1935/blockfour/4gtv-4gtv083.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_litv-longturn05_mobile.png" tvg-name="博斯高球台" group-title="四季頻道",博斯高球台
 http://www.336699.live:1935/blockfour/litv-longturn05.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_litv-longturn09_mobile.png" tvg-name="博斯网球台" group-title="四季頻道",博斯网球台
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sport_tennis.png" tvg-name="博斯网球台" group-title="四季頻道",博斯网球台
 http://www.336699.live:1935/blockfour/litv-longturn09.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv077_mobile.png" tvg-name="TRACE Sport Stars" group-title="四季頻道",TRACE Sport Stars
 http://www.336699.live:1935/blockfour/4gtv-4gtv077.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv101_mobile.png" tvg-name="智林体育台" group-title="四季頻道",智林体育台
 http://www.336699.live:1935/blockfour/4gtv-4gtv101.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv014_mobile.png" tvg-name="时尚运动X" group-title="四季頻道",时尚运动X
-http://www.336699.live:1935/blockfour/4gtv-4gtv014.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv053_mobile.png" tvg-name="GINX Esports TV" group-title="四季頻道",GINX Esports TV
 http://www.336699.live:1935/blockfour/4gtv-4gtv053.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv042_mobile.png" tvg-name="公视戏剧" group-title="四季頻道",公视戏剧
-http://www.336699.live:1935/blockfour/4gtv-4gtv042.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_litv-longturn11_mobile.png" tvg-name="龙华日韩台" group-title="四季頻道",龙华日韩台
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/龙华日韩.png" tvg-name="龙华日韩台" group-title="四季頻道",龙华日韩台
 http://www.336699.live:1935/blockfour/litv-longturn11.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv058_mobile.png" tvg-name="靖天戏剧台" group-title="四季頻道",靖天戏剧台
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/靖天戏剧.png" tvg-name="靖天戏剧台" group-title="四季頻道",靖天戏剧台
 http://www.336699.live:1935/blockfour/4gtv-4gtv058.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv045_mobile.png" tvg-name="靖洋戏剧台" group-title="四季頻道",靖洋戏剧台
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/靖洋戏剧.png" tvg-name="靖洋戏剧台" group-title="四季頻道",靖洋戏剧台
 http://www.336699.live:1935/blockfour/4gtv-4gtv045.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv013_mobile.png" tvg-name="视纳华仁纪实频道" group-title="四季頻道",视纳华仁纪实频道
-http://www.336699.live:1935/blockfour/4gtv-4gtv013.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv049_mobile.png" tvg-name="采昌影剧台" group-title="四季頻道",采昌影剧台
 http://www.336699.live:1935/blockfour/4gtv-4gtv049.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv055_mobile.png" tvg-name="靖天映画" group-title="四季頻道",靖天映画
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/靖天映画.png" tvg-name="靖天映画" group-title="四季頻道",靖天映画
 http://www.336699.live:1935/blockfour/4gtv-4gtv055.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv061_mobile.png" tvg-name="靖天电影台" group-title="四季頻道",靖天电影台
-http://www.336699.live:1935/blockfour/4gtv-4gtv061.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_litv-longturn03_mobile.png" tvg-name="龙华电影台" group-title="四季頻道",龙华电影台
-http://www.336699.live:1935/blockfour/litv-longturn03.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv011_mobile.png" tvg-name="影迷数位电影台" group-title="四季頻道",影迷数位电影台
-http://www.336699.live:1935/blockfour/4gtv-4gtv011.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv076_1_mobile.png" tvg-name="CATCHPLAY电影台" group-title="四季頻道",CATCHPLAY电影台
-http://www.336699.live:1935/blockfour/4gtv-4gtv076.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_litv-ftv16_mobile.png" tvg-name="好消息" group-title="四季頻道",好消息
 http://www.336699.live:1935/blockfour/litv-ftv16.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_litv-ftv10_mobile.png" tvg-name="半岛国际新闻台" group-title="四季頻道",半岛国际新闻台
 http://www.336699.live:1935/blockfour/litv-ftv10.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_litv-ftv03_mobile.png" tvg-name="VOA美国之音" group-title="四季頻道",VOA美国之音
 http://www.336699.live:1935/blockfour/litv-ftv03.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv041_mobile.png" tvg-name="华视" group-title="四季頻道",华视
-http://www.336699.live:1935/blockfour/4gtv-4gtv041.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv064_mobile.png" tvg-name="中视菁采台" group-title="四季頻道",中视菁采台
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/中视菁采.png" tvg-name="中视菁采台" group-title="四季頻道",中视菁采台
 http://www.336699.live:1935/blockfour/4gtv-4gtv064.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv070_mobile.png" tvg-name="爱尔达娱乐台" group-title="四季頻道",爱尔达娱乐台
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/ELTA_Ent.png" tvg-name="爱尔达娱乐台" group-title="四季頻道",爱尔达娱乐台
 http://www.336699.live:1935/blockfour/4gtv-4gtv070.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_litv-longturn07_mobile.png" tvg-name="博斯运动一台" group-title="四季頻道",博斯运动一台
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sport-sports_net.png" tvg-name="博斯运动一台" group-title="四季頻道",博斯运动一台
 http://www.336699.live:1935/blockfour/litv-longturn07.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_litv-longturn10_mobile.png" tvg-name="博斯无限台" group-title="四季頻道",博斯无限台
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sport_unlimited.png" tvg-name="博斯无限台" group-title="四季頻道",博斯无限台
 http://www.336699.live:1935/blockfour/litv-longturn10.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv034_mobile_0211.png" tvg-name="八大精彩台" group-title="四季頻道",八大精彩台
-http://www.336699.live:1935/blockfour/4gtv-4gtv034.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/靖天国际.png" tvg-name="靖天国际" group-title="四季頻道",靖天国际
+http://www.336699.live:1935/blockfour/4gtv-4gtv063.stream/playlist.m3u8
