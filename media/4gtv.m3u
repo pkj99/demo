@@ -11,10 +11,6 @@ http://www.336699.live:1935/blockfour/4gtv-4gtv062.stream/playlist.m3u8
 http://www.336699.live:1935/blockfour/4gtv-4gtv054.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv082_mobile.png" tvg-name="TRACE Urban" group-title="四季頻道",TRACE Urban
 http://www.336699.live:1935/blockfour/4gtv-4gtv082.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_litv-longturn05_mobile.png" tvg-name="博斯高球台" group-title="四季頻道",博斯高球台
-http://www.336699.live:1935/blockfour/litv-longturn05.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sport_tennis.png" tvg-name="博斯网球台" group-title="四季頻道",博斯网球台
-http://www.336699.live:1935/blockfour/litv-longturn09.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv077_mobile.png" tvg-name="TRACE Sport Stars" group-title="四季頻道",TRACE Sport Stars
 http://www.336699.live:1935/blockfour/4gtv-4gtv077.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv101_mobile.png" tvg-name="智林体育台" group-title="四季頻道",智林体育台
@@ -41,9 +37,5 @@ http://www.336699.live:1935/blockfour/litv-ftv03.stream/playlist.m3u8
 http://www.336699.live:1935/blockfour/4gtv-4gtv064.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/ELTA_Ent.png" tvg-name="爱尔达娱乐台" group-title="四季頻道",爱尔达娱乐台
 http://www.336699.live:1935/blockfour/4gtv-4gtv070.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sport-sports_net.png" tvg-name="博斯运动一台" group-title="四季頻道",博斯运动一台
-http://www.336699.live:1935/blockfour/litv-longturn07.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/sport_unlimited.png" tvg-name="博斯无限台" group-title="四季頻道",博斯无限台
-http://www.336699.live:1935/blockfour/litv-longturn10.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/靖天国际.png" tvg-name="靖天国际" group-title="四季頻道",靖天国际
-http://www.336699.live:1935/blockfour/4gtv-4gtv063.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv083_mobile.png" tvg-name="Mezzo Live" group-title="四季頻道",Mezzo Live
+http://www.336699.live:1935/blockfour/4gtv-4gtv083.stream/playlist.m3u8

@@ -70,6 +70,6 @@ http://stream.pbs.gov.tw:1935/live/TPS/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://www.comm.fju.edu.tw/sites/default/files/background/comm_logo_0.png" group-title="廣播頻道" radio="true",輔大之聲88.5
 http://140.136.115.115:8000/fjuvoice885.mp3
 #EXTINF:-1 tvg-logo="https://i0.wp.com/radio.mcu.edu.tw/wp-content/uploads/2021/12/foot_pic_3-300x300-1.jpg?w=300" group-title="廣播頻道" radio="true",銘傳之聲88.3
-http://radio.mcu.edu.tw:8080/radio.m3u
+http://radio.mcu.edu.tw:8080/radio
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/41981.v1.png" group-title="廣播頻道" radio="true",飛碟聯播網
 https://stream.rcs.revma.com/em90w4aeewzuv.m4a
