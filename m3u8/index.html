@@ -84,6 +84,14 @@
 
 
 <script>
+    function sortBy(key, data) {
+      return data.sort((a, b) => {
+        var x = parseInt(a[key]); 
+        var y = parseInt(b[key]);
+        return ((x > y) ? -1 : ((x < y) ? 1 : 0));
+      });
+    }
+
     var urlParams;
     (window.onpopstate = function () {
       var match,
@@ -109,15 +117,27 @@
       var url = 'https://api.github.com/repos/pkj99/demo/contents/m3u8/' + urlParams["path"];
       const response = await fetch(url);
       const data = await response.json();
+      for (let file of data) {
+        var fn = file.path;
+        var fnAry = fn.split('.');
+        if (urlParams["path"] == '4gtv' || urlParams["path"] == 'litv') {
+            file['year']=fnAry[fnAry.length-3];  
+        } else {
+            file['year']=0;
+        }
+      }
+      var sortedData = sortBy('year', data);
+      // console.log(sortedData);
+
       let htmlString = '<ul>';
       let dirString = '';
 
-      for (let file of data) {
+      for (let file of sortedData) {
         var m3u8link = "https://pkj99.github.io/demo/" + file.path;
         if (file.path.includes('iptv')) {
           var piclink = m3u8link.replace('m3u8/','images/').replace('.m3u8','.png').replace(' (','.').replace(').','.');
         } else if (file.path.includes('4gtv') || file.path.includes('litv')){
-          var piclink = m3u8link.replace('m3u8/','images/').replace('.m3u8','.jpg');
+          var piclink = m3u8link.replace('m3u8/','images/').replace('.m3u8','.jpg').replace('(','').replace(')','');
         }
         else {
           var piclink = m3u8link.replace('m3u8/','images/').replace('.m3u8','.jpg').replace(' (','.').replace(').','.');
