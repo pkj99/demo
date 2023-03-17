@@ -50,7 +50,11 @@
       }
 
     </script>
-
+    <script>
+      var loginStatus = sessionStorage.getItem('loginStatus');
+      if (loginStatus != 'success') { window.location = 'index.html'}
+  </script>
+  
 </head>    
 
 
