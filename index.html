@@ -1,320 +1,146 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
-    <meta http-equiv="Cache-Control" content="max-age=604800" />
-    <link rel="icon" href="../demo/images/movie.ico">
-    <title>DEMO</title>
-    <link rel="canonical" href="https://bootstrap5.hexschool.com/docs/5.1/examples/offcanvas-navbar/">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Password Protected</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="../demo/css/bootstrap.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow">
 
-    <meta name="theme-color" content="#7952b3">
+        <style>
+            *,
+            *:after,
+            *:before {
+                box-sizing: border-box;
+            }
+            body,
+            html {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+                font-weight: 300;
+                font-size: 16px;
+                background: #f2f2f2;
+                color: #2D3737;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 100%;
+            }
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
+            .protected {
+                background: #fff;
+                -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+                box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+                border-radius: 3px;
+                min-width: 500px;
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-      .center {
-        text-align: center;
-        }
-    </style>
-    
-    <!-- Custom styles for this template -->
-    <link href="../demo/css/offcanvas.css" rel="stylesheet">
+            }
+            .protected__content {
+                padding: 24px 28px;
+            }
+            .protected__content__heading {
+                font-size: 16px;
+                font-weight: 500;
+                margin: 0 0 12px;
+                line-height: 1;
+            }
+            .protected__alert {
+                display: none;
+                border-bottom: 1px solid transparent;
+                border-radius: 3px 3px 0 0;
+                padding: 12px 14px;
+                color: #a94442;
+                background-color: #f2dede;
+                border-color: #ebccd1;
+            }
+            .protected__content__input {
+                display: block;
+                border: solid 1px #ccc;
+                padding: 12px 14px;
+                -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+                box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+                font-size: 16px;
+                width: 100%;
+                border-radius: 3px;
 
-    
-    <script>
-      var i = 0;
-      var k = 0;
-      function slide() {
-        css_url = new Array("cube.html", "morph.html", "dominoes.html", "cradle.html");
-        k = i % 4;
-        document.getElementById('xlogo').src = css_url[k];
-        //alert(css_url[k]);
-        i++;
-        setTimeout("slide()", 32000);
-      }
+                margin-bottom: 12px;
+            }
+            .protected__content__input:focus {
+                outline: none;
+                border-color: #228843;
+            }
+            .protected__content__btn {
+                background-color: #228843;
+                border-radius: 3px;
+                cursor: pointer;
+                border: none;
+                color: #fff;
+                padding: 12px 14px;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+                font-weight: 500;
+                font-size: 16px;
 
-    </script>
+            }
+            .protected__content__btn:hover {
+                background-color: #1C6D36;
+            }
 
-</head>    
+        </style>
 
+    </head>
 
-<!-- <body class="bg-light" onload='slide();'> -->
-<body class="bg-light">
-    
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="../demo/index.html">
-        <!-- <img class="img-responsive hidden-xs" src="../images/logo.png"  style="width:100px;height:50px" /> -->
-        <img src="../demo/images/home.png" style="width:40px;height:40px" />
-    </a>
-    <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <body>
 
-
-    <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="m3u8/index.html" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">我的收集</a>
-          <ul class="dropdown-menu" aria-labelledby="dropdown04">
-                  <li><a class="dropdown-item" href="m3u8/index.html?path=hits">熱播</a></li>
-                  <li><a class="dropdown-item" href="m3u8/index.html?path=imdb">高分榜</a></li>
-                  <li><a class="dropdown-item" href="m3u8/index.html?path=marvel">Marvel</a></li>
-                  <li><a class="dropdown-item" href="m3u8/index.html?path=dc">DC</a></li>
-                  <li><a class="dropdown-item" href="m3u8/index.html?path=netflix">Netflix</a></li>
-                  <li><a class="dropdown-item" href="m3u8/index.html?path=series">系列電影</a></li>
-                  <li><a class="dropdown-item" href="m3u8/index.html?path=litv">LiTV</a></li>
-                  <li><a class="dropdown-item" href="m3u8/index.html?path=4gtv">4gTV</a></li>
-          </ul>
-        </li>
-
-        <li class="nav-item">
-          <li><a class="nav-link" href="../demo/vod/tmdb.html">電影名稱比較</a></li>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="m3u8/index.html" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">TV</a>
-          <ul class="dropdown-menu" aria-labelledby="dropdown05">
-                  <li><a class="dropdown-item" href="m3u8/index.html?path=iptv">IPTV</a></li>
-                  <li><a class="dropdown-item" href="m3u8/index.html?path=iptv/4gtv">四季頻道</a></li>
-                  <li><a class="dropdown-item" href="m3u8/index.html?path=iptv/chinatv">CHINA頻道</a></li>
-                  <!-- <li><a class="dropdown-item" href="m3u8/index.html?path=iptv/youtube">Youtube頻道</a></li>
-                  <li><a class="dropdown-item" href="m3u8/index.html?path=iptv/test">測試頻道</a></li> -->
-          </ul>
-        </li>
-
-        <li class="nav-item">
-          <li><a class="nav-link" href="../demo/vod/index.html?view=recent">MOVIE</a></li>
-        </li>
-
-        <li class="nav-item">
-          <li><a class="nav-link" href="../music/index.html">MUSIC</a></li>
-        </li>
-
-
-        </ul>
-        <!-- <ul class="navbar-nav justify-content-end flex-grow-1 pe-3"> -->
-        <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-md-0">
-            
-
-        <li class="nav-item dropdown pe-3">
-          <a class="nav-link dropdown-toggle" href="vod/api.html" id="dropdown09" data-bs-toggle="dropdown" aria-expanded="false">API</a>
-          <ul class="dropdown-menu" aria-labelledby="dropdown09">
-
-                  <li><a class="dropdown-item" href="vod/api.html?s=haiwaikan">海外看</a></li>
-                  <li><a class="dropdown-item" href="vod/api.html?s=bdzy">百度雲</a></li>
-                  <li><a class="dropdown-item" href="vod/api.html?s=kuaibozy">快播雲</a></li>
-                  <li><a class="dropdown-item" href="vod/api.html?s=xinlang">新浪雲</a></li>
-                  <li><a class="dropdown-item" href="vod/api.html?s=guangsu">光速雲</a></li>
-                  <li><a class="dropdown-item" href="vod/api.html?s=1080zyku">1080zyk</a></li>
-          </ul>
-        </li>
-    
-
-        <li class="nav-item dropdown pe-3">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">KODI</a>
-          <ul class="dropdown-menu" aria-labelledby="dropdown01">
-
-                  <li class="nav-item"><a class="dropdown-item" href="https://kodi.tv/download">official - Download</a> </li>
-                  <li class="nav-item"><a class="dropdown-item" href="../demo/kodi/media/KODIMEDIA.zip">m3u8 - MEDIA</a> </li>
-                  <li class="nav-item"><a class="dropdown-item" href="../demo/kodi/userdata/userdata.zip">db - userdata</a> </li>
-                  <li class="nav-item"><a class="dropdown-item" href="../demo/kodi/videodb/videodb.zip">xml - videodb</a> </li>
-                  <li class="nav-item"><a class="dropdown-item" href="../demo/kodi/build/mybuild.zip">build - mybuild</a> </li>
-                  <li class="nav-item"><a class="dropdown-item" href="../demo/kodi/wizard/repository.diggzmatrix.zip">wizard - chef</a> </li>
-                  <li class="nav-item"><a class="dropdown-item" href="../demo/kodi/game/repository.zachmorris-1.0.0.zip">game - igal</a> </li>
-                  <li class="nav-item"><a class="dropdown-item" href="../demo/kodi/netflix.skin/repository.titan.bingie.mod-1.0.0.zip">netflix - repository</a> </li>
-                  <li class="nav-item"><a class="dropdown-item" href="../demo/kodi/netflix.skin/skin.titan.bingie.mod-matrix.zhtw.zip">netflix - skin.zhtw</a> </li>
-          
-          </ul>
-          </li>
-                  
-  
-          <li class="nav-item dropdown pe-3">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-bs-toggle="dropdown" aria-expanded="false">APK</a>
-          <ul class="dropdown-menu" aria-labelledby="dropdown02">
-                
-                  <li class="nav-item"><a class="dropdown-item" href="../demo/apk/index.html">APK</a> </li>
-                  <li class="nav-item"><a class="dropdown-item" href="https://www.gdaily.org/app">Gdaily</a> </li>
-                  <li class="nav-item"><a class="dropdown-item" href="https://www.dibotv.xyz/">DIBO</a> </li>
-                  <li class="nav-item"><a class="dropdown-item" href="https://ub6789.com/">UB6789</a> </li>
-          </ul>
-          </li>
-  
-          <li class="nav-item dropdown pe-3">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">DEMO</a>
-          <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                  <li><a class="dropdown-item" href="../demo/css_samples/cube.html">cube</a></li>
-                  <li><a class="dropdown-item" href="../demo/css_samples/cradle.html">cradle</a></li>
-                  <li><a class="dropdown-item" href="../demo/css_samples/dominoes.html">dominoes</a></li>
-                  <li><a class="dropdown-item" href="../demo/css_samples/morph.html">morph</a></li>
-                  <li><a class="dropdown-item" href="../demo/css_samples/turningpages.html">turningpages</a></li>
-                  <li><a class="dropdown-item" href="../demo/css_samples/lens.html">lens</a></li>
-                  <li><a class="dropdown-item" href="../demo/css_samples/color.html">color</a></li>
-                  <li><a class="dropdown-item" href="../demo/qrcode/index.html">qrcode</a></li>
-          </ul>
-          </li>
-  
-          <li class="nav-item pe-3">
-              <li><a class="nav-link" href="#" onclick="
-                document.getElementById('platform').innerHTML = '<img src=../demo/images/qrcode.png style=width:300px;height:300px>';
-                document.getElementById('navbarsExampleDefault').classList.remove('open');">QRCODE</a>
-              </li>
-          </li>
-  
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
-<main class="container">
-        <div style='clear:both;'></div>
-
-        <div class="container-fluid center" style="padding:30px;" id="platform">
-
-            <iframe id=xlogo src='../demo/css_samples/cube.html' width=100% height=400px></iframe>
-            
-        </div>
-        <div style='clear:both;'></div><br>
-
-  <div class="d-flex align-items-center p-3 my-3 text-white bg-purple rounded shadow-sm">
-    <img class="me-3" src="images/iptv.png" alt="" width="48" height="38">
-    <div class="lh-1">
-      <h1 class="h6 mb-0 text-white lh-1">IPTV</h1>
-      <small>Tips</small>
-    </div>
-  </div>
-
-  <div class="my-3 p-3 bg-body rounded shadow-sm">
-    <h6 class="border-bottom pb-2 mb-0">Configuration path</h6>
-    <div class="d-flex text-muted pt-3">
-      <svg onclick='navigator.clipboard.writeText("https\:\/\/pkj99.github.io\/demo\/tv\/");' style="cursor: pointer;" 
-      class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" 
-      preserveAspectRatio="xMidYMid slice" focusable="false"><title>Click to Copy</title><rect width="100%" height="100%" fill="#007bff"/>
-      <text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text></svg>
-
-      <p class="pb-3 mb-0 small lh-sm border-bottom">
-        <strong class="d-block text-gray-dark"><a href="https://d1.httpuse.xyz/files/apk/25438/FreeDTV_v1.2.3-GDaily.org.apk">FreeDTV</a></strong>
-        https://pkj99.github.io/demo/tv/
-      </p>
-    </div>
-    <div class="d-flex text-muted pt-3">
-      <svg onclick='navigator.clipboard.writeText("https\:\/\/pkj99.github.io\/demo\/media\/iptv.txt");' style="cursor: pointer;" 
-      class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" 
-      preserveAspectRatio="xMidYMid slice" focusable="false"><title>Click to Copy</title><rect width="100%" height="100%" fill="#e83e8c"/>
-      <text x="50%" y="50%" fill="#e83e8c" dy=".3em">32x32</text></svg>
-
-      <p class="pb-3 mb-0 small lh-sm border-bottom">
-        <strong class="d-block text-gray-dark"><a href="https://pan.flypotato.xyz/04-%E8%BD%AF%E4%BB%B6/TV%E7%9B%92%E5%AD%90%E8%BD%AF%E4%BB%B6/%E7%94%B5%E8%A7%86%E7%9B%B4%E6%92%AD/DIYP%E5%BD%B1%E9%9F%B35.2.0.apk">DIYP</a></strong>
-        https://pkj99.github.io/demo/media/iptv.txt
-      </p>
-    </div>
-    <div class="d-flex text-muted pt-3">
-      <svg onclick='navigator.clipboard.writeText("https\:\/\/pkj99.github.io\/demo\/media\/iptv.m3u");' style="cursor: pointer;"
-      class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" 
-      preserveAspectRatio="xMidYMid slice" focusable="false"><title>Click to Copy</title><rect width="100%" height="100%" fill="#6f42c1"/>
-      <text x="50%" y="50%" fill="#6f42c1" dy=".3em">32x32</text></svg>
-
-      <p class="pb-3 mb-0 small lh-sm border-bottom">
-        <strong class="d-block text-gray-dark"><a href="https://dl1.apkcap.com/2020/5/TiviMate_2.8.0_Premium.apk">Tivimate</a></strong>
-        https://pkj99.github.io/demo/media/iptv.m3u
-      </p>
-    </div>
-    <div class="d-flex text-muted pt-3">
-      <svg onclick='navigator.clipboard.writeText("https\:\/\/pkj99.github.io\/demo\/media\/tvbox.json");' style="cursor: pointer;"
-      class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" 
-      preserveAspectRatio="xMidYMid slice" focusable="false"><title>Click to Copy</title><rect width="100%" height="100%" fill="#6f42c1"/>
-      <text x="50%" y="50%" fill="#6f42c1" dy=".3em">32x32</text></svg>
-
-      <p class="pb-3 mb-0 small lh-sm border-bottom">
-        <strong class="d-block text-gray-dark"><a href="http://meow.miaotvs.cn/MoewTV_GJ_3.0.0.apk">MeowTV</a></strong>
-        https://pkj99.github.io/demo/media/tvbox.json
-      </p>
-    </div>
-    <div class="d-flex text-muted pt-3">
-        <svg onclick='navigator.clipboard.writeText("http\:\/\/epg.51zmt.top:8000\/e.xml");' style="cursor: pointer;"
-        class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" 
-        preserveAspectRatio="xMidYMid slice" focusable="false"><title>Click to Copy</title><rect width="100%" height="100%" fill="#2f43c1"/>
-        <text x="50%" y="50%" fill="#2f43c1" dy=".3em">32x32</text></svg>
-  
-        <p class="pb-3 mb-0 small lh-sm border-bottom">
-          <strong class="d-block text-gray-dark">EPG</strong>
-          http://epg.51zmt.top:8000/e.xml
-        </p>
-      </div>
-  
-
-  </div>
-
-</main>
-
-
-    <footer class="navbar fixed-bottom navbar-expand-md navbar-dark bg-dark">
-        <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
-            <a class="navbar-brand" href="https://www.youtube.com/"><img src="images/YouTube-Dark-Theme-803x420.png"
-                    height=46px></a>
-
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bgNavbar"
-                aria-controls="bgNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="bi" fill="currentColor"
-                    viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-                </svg>
-            </button>
-
-            <div class="collapse navbar-collapse" id="bgNavbar">
-                <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-md-0">
-                    <li class="nav-item"><a class="nav-link pe-3"
-                            href="https://www.youtube.com/embed/videoseries?list=PLyYNOzVuJM_0cCbjBvGHJRBittNhkbRDc&autostart=1&playinline=1">新聞直播</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link pe-3"
-                            href="https://www.youtube.com/embed/ERT_7u5L0dc?list=RDCMUCK6cr8UqdrKZ4213X-FOStQ">電影音樂</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link pe-3"
-                            href="https://www.youtube.com/embed/videoseries?list=PLyYNOzVuJM_09a5uMIEFPs7Ltwprw3hPM">演唱會</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link pe-3"
-                            href="https://www.youtube.com/embed/videoseries?list=PLdE3Y3U0HligtAoAay48Kwl7RE_PD1RfG">中文流行歌曲</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link pe-3"
-                            href="https://www.youtube.com/embed/videoseries?list=PLoj6YVKua1uJmN0GxnD7gRoASjnsS_ATD">4K
-                            MV</a></li>
-                    <li class="nav-item"><a class="nav-link pe-3"
-                            href="https://www.youtube.com/embed/videoseries?list=PLyYNOzVuJM_2SJSQiEHGMty12geoHo-CY">網路電影</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link pe-3" href="https://radios.tw/">Radio</a></li>
-                    <li class="nav-item"><a class="nav-link pe-3"
-                            href="https://www.radiotaiwan.tw/podcasts">Podcasts</a></li>
-                    <li class="nav-item"><a class="nav-link pe-3"
-                            href="https://www.4gtv.tv/channel?channelSet_id=4">4gtv</a></li>
-                </ul>
+        <div class="protected">
+            <div class="protected__alert" data-id="alert">You entered the wrong password</div>
+            <div class="protected__content">
+                <h1 class="protected__content__heading">You need a password to continue</h1>
+                <input class="protected__content__input" data-id="password" type="password" placeholder="password"/>
+                <button data-id="button" type="button" class="protected__content__btn">Continue</button>
             </div>
-        </nav>
-    </footer>
-    <br>
-    <div class="center">本站為程式開發測試之用，資料蒐集於網際網路，版權歸官方所有</div>
+        </div>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/offcanvas.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-sha1/0.6.0/sha1.min.js"></script>
+        <script type="text/javascript">
+            "use strict"
+            var button = document.querySelectorAll('[data-id="button"]')
+            var password = document.querySelectorAll('[data-id="password"]')
 
-</body>
+            function login(secret) {
+                var hash = sha1(secret)
+                var url = hash + "/index.html"
+                var alert = document.querySelectorAll('[data-id="alert"]')
+
+                var request = new XMLHttpRequest()
+                request.open('GET', url, true)
+
+                request.onload = function () {
+                    if (request.status >= 200 && request.status < 400) {
+                        window.location = url
+                    } else {
+                        parent.location.hash = hash
+                        alert[0].style.display = 'block'
+                        password[0].setAttribute('placeholder', 'Incorrect password')
+                        password[0].value = ''
+                    }
+                }
+                request.onerror = function () {
+                    parent.location.hash = hash
+                    alert[0].style.display = 'block'
+                    password[0].setAttribute('placeholder', 'Incorrect password')
+                    password[0].value = ''
+                }
+                request.send()
+            }
+
+            button[0].addEventListener("click", function () {
+                login(password[0].value)
+            })
+
+            document.onkeydown = function (e) {
+                e = e || window.event
+                if (e.keyCode == 13) {
+                    login(password[0].value)
+                }
+            }
+        </script>
+    </body>
 </html>
