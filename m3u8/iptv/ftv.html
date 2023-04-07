@@ -28,7 +28,8 @@ function ajaxUrl(ChannelName, callback)
         var Url = j.VideoURL;
         // console.log(Url);
         // location.href = Url;
-        location.replace(Url);
+        document.write(Url);
+        // location.replace(Url);
         // Response.redirect(Url);
         if(callback) callback(Url);
     });
