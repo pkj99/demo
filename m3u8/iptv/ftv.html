@@ -27,7 +27,9 @@ function ajaxUrl(ChannelName, callback)
         var j = JSON.parse(jsonData);
         var Url = j.VideoURL;
         // console.log(Url);
-        location.href = Url;
+        // location.href = Url;
+        location.replace(Url);
+        // Response.redirect(Url);
         if(callback) callback(Url);
     });
     
