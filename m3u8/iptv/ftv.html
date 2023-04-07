@@ -20,18 +20,16 @@ function ajaxUrl(ChannelName, callback)
         throw new Error('Network response was not ok.')
     })
     .then(data => {
-        // console.log(data.contents);
         var contents = data.contents;
         var jsonData = contents.substring(contents.indexOf("(") + 1, contents.lastIndexOf(")"));
-        // console.log(jsonData);
         var j = JSON.parse(jsonData);
         var Url = j.VideoURL;
-        // console.log(Url);
         // location.href = Url;
-        document.write(Url);
+        // document.write(Url);
         // location.replace(Url);
+        location.assign(Url);
         // Response.redirect(Url);
-        if(callback) callback(Url);
+        // if(callback) callback(Url);
     });
     
 }
