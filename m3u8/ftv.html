@@ -5,19 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv=”Permissions-Policy” content=”interest-cohort=()”>
     <title>FTV</title>
-    <script src="../../js/jquery.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
 </head>
 <body>
 
-
-
 <script>
-
-location.href = 'https://ythls.onrender.com/channel/UC5l1Yto5oOIgRXlI4p4VKbw.m3u8';
-
 function ajaxUrl(ChannelName, callback)
 {
-
     fetch(`https://api.allorigins.win/get?url=${encodeURIComponent('https://app.4gtv.tv/Data/GetChannelURL_Mozai.ashx?ChannelName='+ChannelName)}`)
     .then(response => {
         if (response.ok) return response.json()
@@ -28,14 +22,13 @@ function ajaxUrl(ChannelName, callback)
         var jsonData = contents.substring(contents.indexOf("(") + 1, contents.lastIndexOf(")"));
         var j = JSON.parse(jsonData);
         var Url = j.VideoURL;
-        // location.href = Url;
+        location.href = Url;
         // document.write(Url);
         // location.replace(Url);
-        location.assign(Url);
+        // location.assign(Url);
         // Response.redirect(Url);
         // if(callback) callback(Url);
     });
-    
 }
 
 
@@ -53,13 +46,9 @@ function ajaxUrl(ChannelName, callback)
         urlParams[decode(match[1])] = decode(match[2]);
 })();
 
-
-
 if (urlParams["ChannelName"] != null) { 
     ChannelName = urlParams["ChannelName"];
-
-    // ajaxUrl(ChannelName);
-
+    ajaxUrl(ChannelName);
 }
 
 </script>
