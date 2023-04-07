@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv=”Permissions-Policy” content=”interest-cohort=()”>
     <title>FTV</title>
     <script src="../../js/jquery.min.js"></script>
 </head>
@@ -11,6 +12,9 @@
 
 
 <script>
+
+location.href = 'https://ythls.onrender.com/channel/UC5l1Yto5oOIgRXlI4p4VKbw.m3u8';
+
 function ajaxUrl(ChannelName, callback)
 {
 
@@ -54,7 +58,7 @@ function ajaxUrl(ChannelName, callback)
 if (urlParams["ChannelName"] != null) { 
     ChannelName = urlParams["ChannelName"];
 
-    ajaxUrl(ChannelName);
+    // ajaxUrl(ChannelName);
 
 }
 
