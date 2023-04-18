@@ -19,11 +19,12 @@ Music24,https://pkj99.github.io/YTLive/Music24.m3u8
 中台湾生活网,http://58.99.33.16:1935/liveedge17/live_852_3.stream/chunklist.m3u8
 中天亚洲台,http://2023.stream-link.org/live/1096161090
 亚洲新闻,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+亚洲新闻,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_3.m3u8
 亚洲新闻,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8?zshijd
 以家人之名,https://pkj99.github.io/YTLive/以家人之名.m3u8
 公主小妹,https://pkj99.github.io/YTLive/公主小妹.m3u8
-华视TV324,https://ytm2.yuanhsing.cf/TBSCTSSHOW.m3u8
 天才冲冲冲,https://pkj99.github.io/YTLive/天才衝衝衝.m3u8
+天才冲冲冲,https://ytm2.yuanhsing.cf/TBSCTSSHOW.m3u8
 天映经典,http://210.210.155.35:80/dr9445/h/h14/02.m3u8
 天映经典,http://120.84.96.89:808/hls/85/index.m3u8
 天映经典,http://107.151.203.111:2209/135/hk.php?id=ccmt
@@ -31,7 +32,6 @@ Music24,https://pkj99.github.io/YTLive/Music24.m3u8
 天映经典,http://210.210.155.37/dr9445/h/h14/index.m3u8
 小资女孩向前冲,https://pkj99.github.io/YTLive/小資女孩向前衝.m3u8
 我的自由年代,https://pkj99.github.io/YTLive/我的自由年代.m3u8
-新马亚洲新闻,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_3.m3u8
 星卫HD电影,http://23.237.10.66:16359
 犀利人妻,https://pkj99.github.io/YTLive/犀利人妻.m3u8
 琅琊榜,https://pkj99.github.io/YTLive/琅琊榜.m3u8
@@ -40,7 +40,6 @@ Music24,https://pkj99.github.io/YTLive/Music24.m3u8
 综艺玩很大,https://pkj99.github.io/YTLive/綜藝玩很大.m3u8
 美好购物1台,https://pkj99.github.io/YTLive/美好購物1台.m3u8
 美好购物2台,https://pkj99.github.io/YTLive/美好購物2台.m3u8
-靖天电视台,https://ytm2.yuanhsing.cf/Faintv.m3u8
 饥饿游戏,https://pkj99.github.io/YTLive/飢餓遊戲.m3u8
 华视,http://218.32.47.179:18503/.m3u8
 华视,http://60.251.59.180:8503/http/60.251.39.91:8081/hls/72/814/ch48.m3u8
@@ -145,6 +144,7 @@ ELEVEN体育二台,http://61.221.81.93:8078/hls/26/80/esport2.m3u8
 幸福空间居家台,https://pkj99.github.io/YTLive/幸福空間居家台.m3u8
 公视,https://pkj99.github.io/YTLive/公共電視.m3u8
 龙华戏剧,http://123.51.230.108:8509/.m3u8
+靖天电视台,https://ytm2.yuanhsing.cf/Faintv.m3u8
 龙华电影,http://116.50.42.21:8575/.m3u8
 台视新闻台,https://pkj99.github.io/YTLive/台視新聞.m3u8
 台视新闻台,http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
@@ -209,6 +209,7 @@ TVBS新闻台,http://2023.stream-link.org/live/401131254
 中视新闻,http://2023.stream-link.org/live/926790469
 中视新闻,https://ytm2.yuanhsing.cf/twctvnews.m3u8
 亚洲新闻,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+亚洲新闻,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_3.m3u8
 亚洲新闻,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8?zshijd
 华视新闻,https://pkj99.github.io/YTLive/華視新聞.m3u8
 华视新闻,http://stream.dsichannel.com/hls/cts-news.m3u8
@@ -227,7 +228,6 @@ TVBS新闻台,http://2023.stream-link.org/live/401131254
 寰宇新闻,http://2023.stream-link.org/live/1212532853
 寰宇新闻,http://2023.stream-link.org/live/1932250847
 寰宇新闻,https://ytm2.yuanhsing.cf/GlobalNewsTV.m3u8
-新马亚洲新闻,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_3.m3u8
 民视新闻台,https://pkj99.github.io/YTLive/民視新聞.m3u8
 镜电视新闻台,https://pkj99.github.io/YTLive/鏡新聞.m3u8
 體育頻道,#genre#
@@ -269,7 +269,9 @@ HBO,http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
 星卫HD电影,http://23.237.10.66:16359
 经典电影台,http://epg.112114.xyz/douyu/74374
 龙华电影,http://116.50.42.21:8575/.m3u8
+My Cinema Europe  我的欧洲电影,http://www.336699.live:1935/blocksix/4gtv-live157.stream/chunklist.m3u8
 经典电影台,http://www.336699.live:1935/blocksix/4gtv-live021.stream/playlist.m3u8
+经典电影台,http://www.336699.live:1935/blocksix/4gtv-live021.stream/chunklist.m3u8
 大陸頻道,#genre#
 三沙卫视,https://live.v1.mk/api/ghyx.php?id=SanShaHD2_6000
 东南卫视,https://live.v1.mk/api/bestv.php?id=dnwshd8m/8000000
@@ -472,6 +474,22 @@ HITS,http://www.336699.live:1935/blockfour/4gtv-4gtv082.stream/playlist.m3u8
 滚动力rollor,http://www.336699.live:1935/blocksix/4gtv-live012.stream/chunklist.m3u8
 东森购物一台,http://www.336699.live:1935/blocksix/4gtv-live046.stream/chunklist.m3u8
 东森购物二台,http://www.336699.live:1935/blocksix/4gtv-live047.stream/chunklist.m3u8
+爱尔达娱乐台,http://www.336699.live:1935/blockfour/4gtv-4gtv070.stream/playlist.m3u8
+ARIRANG阿里郎频道,http://www.336699.live:1935/blockfour/4gtv-4gtv079.stream/playlist.m3u8
+靖天育乐台,http://www.336699.live:1935/blockfour/4gtv-4gtv062.stream/playlist.m3u8
+TRACE Urban,http://www.336699.live:1935/blockfour/4gtv-4gtv082.stream/playlist.m3u8
+Mezzo Live,http://www.336699.live:1935/blockfour/4gtv-4gtv083.stream/playlist.m3u8
+TRACE Sport Stars,http://www.336699.live:1935/blockfour/4gtv-4gtv077.stream/playlist.m3u8
+GINX Esports TV,http://www.336699.live:1935/blockfour/4gtv-4gtv053.stream/playlist.m3u8
+采昌影剧台,http://www.336699.live:1935/blockfour/4gtv-4gtv049.stream/playlist.m3u8
+靖天映画,http://www.336699.live:1935/blockfour/4gtv-4gtv055.stream/playlist.m3u8
+LiveABC互动英语频道,http://www.336699.live:1935/blocksix/4gtv-live030.stream/chunklist.m3u8
+SBN全球财经台,http://www.336699.live:1935/blocksix/4gtv-live060.stream/chunklist.m3u8
+Pet Club TV,http://www.336699.live:1935/blocksix/4gtv-live110.stream/chunklist.m3u8
+爱尔达综合,http://www.336699.live:1935/blocksix/4gtv-live120.stream/chunklist.m3u8
+TV5MONDE STYLE  生活时尚,http://www.336699.live:1935/blocksix/4gtv-live122.stream/chunklist.m3u8
+My Cinema Europe  我的欧洲电影,http://www.336699.live:1935/blocksix/4gtv-live157.stream/chunklist.m3u8
+经典电影台,http://www.336699.live:1935/blocksix/4gtv-live021.stream/chunklist.m3u8
 
 💞月光宝盒,#genre#
 金马影院,http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
