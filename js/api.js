@@ -149,17 +149,21 @@
 
 
 // 解決CORS問題
-  var cors_api_url = 'https://cors-anywhere.herokuapp.com/';
   // var cors_api_url = 'https://pkjcors.herokuapp.com/';
+  // var cors_api_url = 'https://cors-anywhere.herokuapp.com/';
+  var cors_api_url = 'https://api.allorigins.win/get?url=';
   
 
   function doCORSRequestMenu(options, printResult) {
     var x = new XMLHttpRequest();
-    x.open(options.method, cors_api_url + options.url);
+    x.open(options.method, cors_api_url + encodeURIComponent(options.url));
     x.onload = x.onerror = function() 
     {
+      var data = JSON.parse(x.responseText).contents;
+
       const parser = new DOMParser();
-      const d = parser.parseFromString(x.responseText, "text/html");
+      // const d = parser.parseFromString(x.responseText, "text/html");
+      const d = parser.parseFromString(data, "text/html");
       var list = d.getElementsByTagName('ty');
       let menu_type = '';
       for (let i=0; i<list.length;i++){
@@ -190,10 +194,12 @@
 
   function doCORSRequest(options, printResult) {
     var x = new XMLHttpRequest();
-    x.open(options.method, cors_api_url + options.url);
+    x.open(options.method, cors_api_url + encodeURIComponent(options.url));
     x.onload = x.onerror = function() 
     {
-      var data = JSON.parse(x.responseText);
+      var contents = JSON.parse(x.responseText).contents;
+      var data = JSON.parse(contents);
+      // var data = JSON.parse(x.responseText);
 
       page = data.page;
       pagecount = data.pagecount;
@@ -263,10 +269,12 @@
 
   function doCORSRequestById(options, printResult) {
     var x = new XMLHttpRequest();
-    x.open(options.method, cors_api_url + options.url);
+    x.open(options.method, cors_api_url + encodeURIComponent(options.url));
     x.onload = x.onerror = function() 
     {
-      var data = JSON.parse(x.responseText);
+      var contents = JSON.parse(x.responseText).contents;
+      var data = JSON.parse(contents);
+      // var data = JSON.parse(x.responseText);
 
       page = data.page;
       pagecount = data.pagecount;
@@ -369,12 +377,20 @@
   var outputField = document.getElementById('output');
   var j = doCORSRequestMenu( { method: 'GET', url: urlField, },  function printResult(result) { outputField.value = result; } )
 
+  // if (t!=""){
+  //   document.getElementById('msg').src = "../images/loading_eng.gif";
+  // }
+  
+
   // create movie lists, keyword search and vod by id
   if (urlParams["ids"] == null) {
     if (urlParams["id"] == null) {
       if (urlParams["wd"] == null) {
-        var urlField = urlAPI + '&t=' + t + '&pg=' + pg;
-        var j = doCORSRequest( { method: 'GET', url: urlField, }, function printResult(result) {outputField.value = result; } )
+        if (t != ""){
+          document.getElementById('msg').src = "../images/loading_eng.gif";
+          var urlField = urlAPI + '&t=' + t + '&pg=' + pg;
+          var j = doCORSRequest( { method: 'GET', url: urlField, }, function printResult(result) {outputField.value = result; } )
+        }
       } else {
         var keyword = Simplized(urlParams["wd"])  // 繁轉簡
         var urlField = urlAPI + '&wd=' + keyword;
