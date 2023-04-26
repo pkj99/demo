@@ -17,10 +17,10 @@
 {
   "key": "haiwaikan",
   "name": "海外看资源",
-  "type": 0,
+  "type": 1,
   "api": "https://haiwaikan.com/api.php/provide/vod/at/xml/?ac=list",
-  "searchable": 0,
-  "quickSearch": 0,
+  "searchable": 1,
+  "quickSearch": 1,
   "filterable": 0,
   "categories": [
     "冒险片","剧情片","动作片","动画电影","同性片","喜剧片","奇幻片","恐怖片","悬疑片","惊悚片","歌舞片","灾难片","爱情片",
