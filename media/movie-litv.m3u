@@ -1,6 +1,8 @@
 #EXTM3U url-tvg="https://epg.112114.xyz/"
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/59711-000000-523410-S.jpg" tvg-name="劌心劍" group-title="2022",劌心劍
 https://pkj99.github.io/demo/m3u8/litv/劌心劍.Piercing.Heart.Sword.2022.LiTV.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/58419-000000-516335-S.jpg" tvg-name="好想去你的世界愛你" group-title="2022",好想去你的世界愛你
+https://pkj99.github.io/demo/m3u8/litv/好想去你的世界愛你.01%.World.2022.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/56442-000000-499869-S.jpg" tvg-name="F1：玩命臥底" group-title="2021",F1：玩命臥底
 https://pkj99.github.io/demo/m3u8/litv/F1：玩命臥底.F1.The.Furious.One.2021.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/48398-000000-445458-S.jpg" tvg-name="一級任務" group-title="2021",一級任務
@@ -9,6 +11,8 @@ https://pkj99.github.io/demo/m3u8/litv/一級任務.Voyagers.2021.LiTV.m3u8
 https://pkj99.github.io/demo/m3u8/litv/人生轉大人.Later.Days.2021.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/53980-000000-484484-S.jpg" tvg-name="期末考" group-title="2021",期末考
 https://pkj99.github.io/demo/m3u8/litv/期末考.Final.Exam.2021.LiTV.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/60466-000000-528268-S.jpg" tvg-name="浪浪回家路" group-title="2021",浪浪回家路
+https://pkj99.github.io/demo/m3u8/litv/浪浪回家路.Gump.2021.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/55445-000000-491113-S.jpg" tvg-name="超慄方殺陣" group-title="2021",超慄方殺陣
 https://pkj99.github.io/demo/m3u8/litv/超慄方殺陣.Cube.2021.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://www.litv.tv/promo/multiscreen/image/logo_icon_tv-d67575419d.png" tvg-name="72小時前哨救援" group-title="2020",72小時前哨救援
@@ -287,6 +291,8 @@ https://pkj99.github.io/demo/m3u8/litv/獨帆之聲.The.Mercy.2017.LiTV.m3u8
 https://pkj99.github.io/demo/m3u8/litv/瞞騙遊戲.The.Eyes.2017.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/36801-000000-249114-S.jpg" tvg-name="第三次殺人" group-title="2017",第三次殺人
 https://pkj99.github.io/demo/m3u8/litv/第三次殺人.The.Third.Murder.2017.LiTV.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/32267-000000-476021-S.jpg" tvg-name="羅根好好運" group-title="2017",羅根好好運
+https://pkj99.github.io/demo/m3u8/litv/羅根好好運.Logan.Lucky.2017.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/33018-000000-199669-S.jpg" tvg-name="美麗之星" group-title="2017",美麗之星
 https://pkj99.github.io/demo/m3u8/litv/美麗之星.A.Beautiful.Star.2017.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/45863-000000-422776-S.jpg" tvg-name="貓忍劇場版" group-title="2017",貓忍劇場版
