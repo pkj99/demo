@@ -85,6 +85,12 @@
 
     </style>
 
+    <script>
+        var loginStatus = sessionStorage.getItem('loginStatus');
+        if (loginStatus == 'success') { window.location = 'home.html'}
+    </script>
+
+
 </head>
 
 <body>
