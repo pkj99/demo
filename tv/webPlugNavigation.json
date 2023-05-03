@@ -187,98 +187,6 @@
       }
     },
     
-	
-	{
-      "name": "ifimv(规则)",
-      "pic": "https://pkj99.github.io/demo/images/ifimv.png",
-      "type": "webPlug",
-      "ads": "",
-      "webUrl": "https://ifimv.com/",
-      "webOpen": false,
-      "click": true,
-      "webPlus": {
-        "search_url": "",
-        "nav_url": "https://www.ifimv.com/vodshow/navCate--------navPage---.html",
-        "web_name": "ifimv",
-    		"search":false,
-        "navHtml": {
-          "name": [
-            "電影",
-            "電視劇",
-            "國產劇",
-            "日韓劇",
-            "美劇"
-          ],
-          "cate": [
-            "1",
-            "2",
-            "13",
-            "15",
-            "14"
-          ],
-          "page": "1"
-        },
-        "html": {
-          "episodes": {
-            "hasUrlPrefix": false,
-            "isListItemAttr": true,
-            "listCss": "div.scroll-content",
-            "isMultiList": true,
-            "listCssMulti": "a",
-            "listItemAttr": "href",
-            "listItemCss": "a",
-            "listItemIndex": 0,
-            "mainCss": "div.module-blocklist.scroll-box.scroll-box-y",
-            "mainIndex": 0
-          },
-          "nav": {
-            "descAttr": "",
-            "descCss": "div.module-item-cover > div.module-item-caption > span",
-            "descIndex": 0,
-            "hasUrlPrefix": false,
-            "imgAttr": "data-src",
-            "imgCss": "div.module-item-cover > div.module-item-pic > img",
-            "imgIndex": 0,
-            "isDescAttr": false,
-            "isImgAttr": true,
-            "isNameAttr": true,
-            "isUrlAttr": true,
-            "mainCss": "div.module-items",
-            "mainListIndex": 0,
-            "nameAttr": "title",
-            "nameCss": "a",
-            "nameIndex": 0,
-            "searchListCss": "div.module-item",
-            "urlAttr": "href",
-            "urlCss": "div.module-item-cover > div.module-item-pic > a",
-            "urlIndex": 0
-          },
-          "search": {
-            "descAttr": "",
-            "descCss": "span.hl-lc-1.remarks",
-            "descIndex": 0,
-            "hasUrlPrefix": false,
-            "imgAttr": "data-original",
-            "imgCss": "a",
-            "imgIndex": 0,
-            "isDescAttr": false,
-            "isImgAttr": true,
-            "isNameAttr": true,
-            "isUrlAttr": true,
-            "mainCss": "ul.hl-one-list",
-            "mainListIndex": 0,
-            "nameAttr": "title",
-            "nameCss": "a",
-            "nameIndex": 0,
-            "searchListCss": "li",
-            "urlAttr": "href",
-            "urlCss": "a",
-            "urlIndex": 0
-          }
-        }
-      }
-    },	
-
 
 
   {
@@ -469,19 +377,6 @@
   },
 
 
-  {
-    "name":"PKJ Demo(Web)",
-    "pic":"https://pkj99.github.io/demo/images/watch_online.png",
-    "keyDownPlay":false,
-    "keyUpPlay":false,
-    "userAgent":"PC",
-    "ads":"",
-    "webUrl":"https://pkj99.github.io/demo/vod/index.html?view=recent",
-    "webOpen":true,
-    "click":true
-},
-
-
 
         {
             "name":"唐人街(Web)",
@@ -519,19 +414,6 @@
           "webOpen":true,
           "click":true
       },
-        
-      {
-          "name":"555(Web)",
-          "pic":"https://pkj99.github.io/demo/images/watch_online.png",
-          "keyDownPlay":false,
-          "keyUpPlay":false,
-          "userAgent":"PC",
-          "ads":"",
-          "webUrl":"https://www.o8tv.com/vodtype/1.html",
-          "webOpen":true,
-          "click":true
-      },
-
         
       {
         "name":"Radios.TW(Web)",
