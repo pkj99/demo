@@ -17,8 +17,6 @@ http://162.19.247.76:22222/live/ztyz/index.m3u8
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/lz7WqYKTpo4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDVkDhQ3TB8FRMGnvWCxpspCDHlfg" tvg-name="公主小妹" group-title="台湾頻道",公主小妹
 https://pkj99.github.io/YTLive/公主小妹.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Logo-700x394.png" tvg-name="大爱三台" group-title="台湾頻道",大爱三台
-https://pkj99.github.io/YTLive/大愛三台.m3u8
 #EXTINF:-1 tvg-logo="https://cdn2.ettoday.net/images/6653/d6653115.jpg" tvg-name="天才冲冲冲" group-title="台湾頻道",天才冲冲冲
 https://pkj99.github.io/YTLive/天才衝衝衝.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/天映经典.png" tvg-name="天映经典" group-title="台湾頻道",天映经典
@@ -54,7 +52,7 @@ http://bj.new1cloud.com/bdcdncmn3-inter-71edge-com.new1cloud.com/tslive/c51_lb_1
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/中天综合台.png" tvg-name="中天综合台" group-title="台湾頻道",中天综合台
 http://107.151.203.111:2209/135/us50.php?id=ztz
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/东森幼幼台.png" tvg-name="东森幼幼台" group-title="台湾頻道",东森幼幼台
-https://pkj99.github.io/YTLive/東森幼幼台.m3u8
+https://raw.githubusercontent.com/etag2000/IPTV/YTlive/ebcyoyo.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/纬来综合台.png" tvg-name="纬来综合台" group-title="台湾頻道",纬来综合台
 http://123.51.229.65:18540/.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/八大第一台.png" tvg-name="八大第一台" group-title="台湾頻道",八大第一台
@@ -100,7 +98,7 @@ https://pkj99.github.io/YTLive/東森財經新聞.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/中视新闻.png" tvg-name="中视新闻" group-title="台湾頻道",中视新闻
 https://pkj99.github.io/YTLive/中視新聞.m3u8
 #EXTINF:-1 tvg-logo="http://www.tvyan.com/uploads/dianshi/ctinews.jpg" tvg-name="中天新闻台" group-title="台湾頻道",中天新闻台
-https://pkj99.github.io/YTLive/中天新聞.m3u8
+https://ythls.onrender.com/channel/UC5l1Yto5oOIgRXlI4p4VKbw.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/寰宇新闻.png" tvg-name="寰宇新闻" group-title="台湾頻道",寰宇新闻
 https://pkj99.github.io/YTLive/寰宇新聞.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/东森电影台.png" tvg-name="东森电影台" group-title="台湾頻道",东森电影台
@@ -163,7 +161,7 @@ http://38.64.72.148:80/hls/modn/list/2015/chunklist1.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/东森财经新闻台.png" tvg-name="东森财经新闻台" group-title="新聞頻道",东森财经新闻台
 https://pkj99.github.io/YTLive/東森財經新聞.m3u8
 #EXTINF:-1 tvg-logo="http://www.tvyan.com/uploads/dianshi/ctinews.jpg" tvg-name="中天新闻台" group-title="新聞頻道",中天新闻台
-https://pkj99.github.io/YTLive/中天新聞.m3u8
+https://ythls.onrender.com/channel/UC5l1Yto5oOIgRXlI4p4VKbw.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/中视新闻.png" tvg-name="中视新闻" group-title="新聞頻道",中视新闻
 https://pkj99.github.io/YTLive/中視新聞.m3u8
 #EXTINF:-1 tvg-logo="http://www.aif.zju.edu.cn/aif/uploads/ueditor/image/20180314/1520994487883485.jpg" tvg-name="亚洲新闻" group-title="新聞頻道",亚洲新闻
