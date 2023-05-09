@@ -18,7 +18,7 @@
   "key": "haiwaikan",
   "name": "海外看资源",
   "type": 1,
-  "api": "https://haiwaikan.com/api.php/provide/vod/at/xml/?ac=list",
+  "api": "https://api.haiwaikan.com/v1/vod?ac=list",
   "searchable": 1,
   "quickSearch": 1,
   "filterable": 0,
