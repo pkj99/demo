@@ -1,27 +1,27 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/中视新闻.png" tvg-name="中視新聞" group-title="YoutubeTV",中視新聞
 http://127.0.0.1:3000/video/TCnaIE_SAtM.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="台視新聞" group-title="YoutubeTV",台視新聞
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/台视新闻台.png" tvg-name="台視新聞" group-title="YoutubeTV",台視新聞
 http://127.0.0.1:3000/video/xL0ch83RAK8.m3u8
 #EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv052_mobile.png" tvg-name="華視新聞" group-title="YoutubeTV",華視新聞
 http://127.0.0.1:3000/video/wM0g8EoUZ_E.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="民視新聞" group-title="YoutubeTV",民視新聞
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/民视新闻台.png" tvg-name="民視新聞" group-title="YoutubeTV",民視新聞
 http://127.0.0.1:3000/video/ylYJSBUgaMA.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="東森財經新聞" group-title="YoutubeTV",東森財經新聞
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/东森财经新闻台.png" tvg-name="東森財經新聞" group-title="YoutubeTV",東森財經新聞
 http://127.0.0.1:3000/video/WHEPzbFA3hw.m3u8
-#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AGIKgqO2m0PE8Rx25O4dZp368K-tm3W1DgmmojlwyD1GQw=s176-c-k-c0x00ffffff-no-rj" tvg-name="東森娛樂台" group-title="YoutubeTV",東森娛樂台
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/东森综合台.png" tvg-name="東森娛樂台" group-title="YoutubeTV",東森娛樂台
 http://127.0.0.1:3000/video/OQdX93g8Wos.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="中天新聞" group-title="YoutubeTV",中天新聞
+#EXTINF:-1 tvg-logo="http://www.tvyan.com/uploads/dianshi/ctinews.jpg" tvg-name="中天新聞" group-title="YoutubeTV",中天新聞
 http://127.0.0.1:3000/video/NpmP3jIgcQI.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/寰宇新闻.png" tvg-name="寰宇新聞" group-title="YoutubeTV",寰宇新聞
 http://127.0.0.1:3000/video/B7Zp3d6xXWw.m3u8
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="三立海外直播" group-title="YoutubeTV",三立海外直播
 http://127.0.0.1:3000/video/jlldIiGA5bU.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="三立iNEWS" group-title="YoutubeTV",三立iNEWS
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/三立新闻台.png" tvg-name="三立iNEWS" group-title="YoutubeTV",三立iNEWS
 http://127.0.0.1:3000/video/CKjSm5ZeehE.m3u8
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="公共電視" group-title="YoutubeTV",公共電視
 http://127.0.0.1:3000/channel/UCXgIO9jJVsX5_2ideiSkfvA.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-live072_mobile.png" tvg-name="TVBS新聞" group-title="YoutubeTV",TVBS新聞
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVBS新闻台.png" tvg-name="TVBS新聞" group-title="YoutubeTV",TVBS新聞
 http://127.0.0.1:3000/channel/UCL0_NxCvkcXwZHpvqgMZY-A.m3u8
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="鏡新聞" group-title="YoutubeTV",鏡新聞
 http://127.0.0.1:3000/channel/UC4LjkybVKXCDlneVXlKAbmw.m3u8
