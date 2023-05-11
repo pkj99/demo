@@ -15,15 +15,13 @@ http://127.0.0.1:3000/video/OQdX93g8Wos.m3u8
 http://127.0.0.1:3000/video/NpmP3jIgcQI.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/寰宇新闻.png" tvg-name="寰宇新聞" group-title="YoutubeTV",寰宇新聞
 http://127.0.0.1:3000/video/B7Zp3d6xXWw.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="三立海外直播" group-title="YoutubeTV",三立海外直播
-http://127.0.0.1:3000/video/jlldIiGA5bU.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/三立新闻台.png" tvg-name="三立iNEWS" group-title="YoutubeTV",三立iNEWS
 http://127.0.0.1:3000/video/CKjSm5ZeehE.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="公共電視" group-title="YoutubeTV",公共電視
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/4Uc00FPs27M/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLAda0PCco5LmdDgIvfvOE5XoHS3Ew" tvg-name="公共電視" group-title="YoutubeTV",公共電視
 http://127.0.0.1:3000/channel/UCXgIO9jJVsX5_2ideiSkfvA.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVBS新闻台.png" tvg-name="TVBS新聞" group-title="YoutubeTV",TVBS新聞
 http://127.0.0.1:3000/channel/UCL0_NxCvkcXwZHpvqgMZY-A.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="鏡新聞" group-title="YoutubeTV",鏡新聞
+#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv075_mobile.png" tvg-name="鏡新聞" group-title="YoutubeTV",鏡新聞
 http://127.0.0.1:3000/channel/UC4LjkybVKXCDlneVXlKAbmw.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/幸福空间居家台.png" tvg-name="幸福空間居家台" group-title="YoutubeTV",幸福空間居家台
 http://127.0.0.1:3000/channel/UCoo-jAsJgM8z09ddlhcBlSA.m3u8
@@ -33,9 +31,9 @@ http://127.0.0.1:3000/channel/UCiWRSesvSYmY7YOyz0tv_zQ.m3u8
 http://127.0.0.1:3000/video/MIqUplvSRWA.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/大爱二台.png" tvg-name="大愛二台" group-title="YoutubeTV",大愛二台
 http://127.0.0.1:3000/video/DTNkEm6jaqQ.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="MOMO購物一台" group-title="YoutubeTV",MOMO購物一台
+#EXTINF:-1 tvg-logo="https://img.isuper.tv/live-tv/momo-shop-live.jpg" tvg-name="MOMO購物一台" group-title="YoutubeTV",MOMO購物一台
 http://127.0.0.1:3000/video/_pZQ1Lk0xMA.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="MOMO購物二台" group-title="YoutubeTV",MOMO購物二台
+#EXTINF:-1 tvg-logo="https://img.isuper.tv/live-tv/momo-shop-live.jpg" tvg-name="MOMO購物二台" group-title="YoutubeTV",MOMO購物二台
 http://127.0.0.1:3000/video/xbNWkUyxQGM.m3u8
 #EXTINF:-1 tvg-logo="https://www.vivatv.com.tw/common/images/header/logo.png" tvg-name="美好購物1台" group-title="YoutubeTV",美好購物1台
 http://127.0.0.1:3000/video/yuhgIlXwPh8.m3u8
@@ -53,31 +51,31 @@ http://127.0.0.1:3000/channel/UCQU5uVTG8h9LToACKrm1LMA.m3u8
 http://127.0.0.1:3000/channel/UCriy3vlLtiBov3nLdPLadUg.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/2/2b/Go_Ahead_2020.jpg/250px-Go_Ahead_2020.jpg" tvg-name="以家人之名" group-title="YoutubeTV",以家人之名
 http://127.0.0.1:3000/video/0dchv4MPOWA.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="沉睡花園" group-title="YoutubeTV",沉睡花園
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/OGhK-uOmYPU/hqdefault_live.…AFwAcABBg==&rs=AOn4CLCtHMgaPrmCfNS9Eoq-hdA-MQLd-w" tvg-name="沉睡花園" group-title="YoutubeTV",沉睡花園
 http://127.0.0.1:3000/video/OGhK-uOmYPU.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="我和我們在一起" group-title="YoutubeTV",我和我們在一起
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/8v-FAXUqHVw/hqdefault_live.…AFwAcABBg==&rs=AOn4CLADZfV14w0GWP_anjW97KZsWSc-Hg" tvg-name="我和我們在一起" group-title="YoutubeTV",我和我們在一起
 http://127.0.0.1:3000/video/8v-FAXUqHVw.m3u8
 #EXTINF:-1 tvg-logo="https://obs.line-scdn.net/0hfehWsywvOUpVLi5C4MNGHW14NTtmSCNDdxwjKiMtYX4vAnYUPUFqKXZ6MGZxFykZdUB_e3MsMH9xFi0cOg/w1200" tvg-name="琅琊榜" group-title="YoutubeTV",琅琊榜
 http://127.0.0.1:3000/video/_MOhQbKegXs.m3u8
-#EXTINF:-1 tvg-logo="https://www.popdaily.com.tw/shaper/u/202106/f9ce34bd-a877-4e8b-89a0-a7aa243b25b0.jpg?resize-w=900&resize-h=468" tvg-name="知否知否應是綠肥紅瘦" group-title="YoutubeTV",知否知否應是綠肥紅瘦
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/iZxJDOqg_E0/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLBwLkabCIsL4QPfXXeqJEy9DIgb3g" tvg-name="知否知否應是綠肥紅瘦" group-title="YoutubeTV",知否知否應是綠肥紅瘦
 http://127.0.0.1:3000/video/iZxJDOqg_E0.m3u8
 #EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/lz7WqYKTpo4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDVkDhQ3TB8FRMGnvWCxpspCDHlfg" tvg-name="公主小妹" group-title="YoutubeTV",公主小妹
 http://127.0.0.1:3000/video/lz7WqYKTpo4.m3u8
 #EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/HRwAMooYM3w/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDBZVu8H1ywsFJ0IdWDsva9hS4XJw" tvg-name="犀利人妻" group-title="YoutubeTV",犀利人妻
 http://127.0.0.1:3000/video/HRwAMooYM3w.m3u8
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/Il3YPiaW24Q/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBig9Q7vfGaZGH3USU6Af34h2OjNQ" tvg-name="小資女孩向前衝" group-title="YoutubeTV",小資女孩向前衝
-http://127.0.0.1:3000/video/Il3YPiaW24Q.m3u8
 #EXTINF:-1 tvg-logo="https://www.mirrormedia.com.tw/assets/images/20191212150359-c1556b0a1984cce8c7cd3c395bd85bef-tablet.jpg" tvg-name="我的自由年代" group-title="YoutubeTV",我的自由年代
 http://127.0.0.1:3000/video/XAZOVusFgLM.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="華語經典音樂" group-title="YoutubeTV",華語經典音樂
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/HbT8JZ3-Vzg/hqdefault_live.…AFwAcABBg==&rs=AOn4CLCJtGQVI_bEz05W76fXZrUWZfJ5jw" tvg-name="我的寶貝四千金" group-title="YoutubeTV",我的寶貝四千金
+http://127.0.0.1:3000/video/HbT8JZ3-Vzg.m3u8
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/ZxluW--lZpk/hqdefault_live.…AFwAcABBg==&rs=AOn4CLCd90wFFAPOlUXYT-Krm3Fky2sXEw" tvg-name="華語經典音樂" group-title="YoutubeTV",華語經典音樂
 http://127.0.0.1:3000/channel/UCJCg4enuciH7IlFIBaJ_NEQ.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="網路流行音樂電台" group-title="YoutubeTV",網路流行音樂電台
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/IfNMuFqKBWs/hqdefault_live.…AFwAcABBg==&rs=AOn4CLD_uhKX3VS0KM5ad9Q6BsMvXGTbPw" tvg-name="網路流行音樂電台" group-title="YoutubeTV",網路流行音樂電台
 http://127.0.0.1:3000/channel/UCcHWhgSsMBemnyLhg6GL1vA.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="K-POP" group-title="YoutubeTV",K-POP
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/KVKJzMIu0g8/hqdefault_live.…AFwAcABBg==&rs=AOn4CLCEbZlELIyddoYD-U96nb3gp5bNVg" tvg-name="K-POP" group-title="YoutubeTV",K-POP
 http://127.0.0.1:3000/channel/UCPde4guD9yFBRzkxk2PatoA.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="radio4relaxorstudy" group-title="YoutubeTV",radio4relaxorstudy
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/jfKfPfyJRdk/hqdefault_live.…AFwAcABBg==&rs=AOn4CLCjmpMkPCPhSrH4tgiru9947C-4tA" tvg-name="radio4relaxorstudy" group-title="YoutubeTV",radio4relaxorstudy
 http://127.0.0.1:3000/video/jfKfPfyJRdk.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="radio4chillorgame" group-title="YoutubeTV",radio4chillorgame
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/MVPTGNGiI-4/hqdefault_live.…AFwAcABBg==&rs=AOn4CLAdCcTOsAcsJW2zzC9HDGlHUts8Mw" tvg-name="radio4chillorgame" group-title="YoutubeTV",radio4chillorgame
 http://127.0.0.1:3000/video/MVPTGNGiI-4.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="radio4sleeporchill" group-title="YoutubeTV",radio4sleeporchill
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/rUxyKA_-grg/hqdefault_live.…AFwAcABBg==&rs=AOn4CLASdU4m-nNLGsX52FrKlSSnzWrZZA" tvg-name="radio4sleeporchill" group-title="YoutubeTV",radio4sleeporchill
 http://127.0.0.1:3000/video/rUxyKA_-grg.m3u8
