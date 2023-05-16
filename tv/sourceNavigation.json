@@ -160,22 +160,7 @@
       "decoder": 0,
       "webPlus": {}
     },
-    {
-      "name": "電視直播(OfiiiTV)",
-      "pic": "https://pkj99.github.io/demo/images/ofiii.jpg",
-      "webUrl": "https://pkj99.github.io/demo/media/ofiiitv.m3u",
-      "type": "m3u",
-      "subTitle": "",
-      "click": true,
-      "autoNext": false,
-      "webOpen": false,
-      "keyDownPlay": true,
-      "keyUpPlay": true,
-      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4535.3 Safari/537.36",
-      "ads": "",
-      "decoder": 0,
-      "webPlus": {}
-    },    
+  
     {
       "name": "廣播電台",
       "pic": "https://twstatic.newmobilelife.com/wp-content/uploads/2015/06/myTuner-Radio00.png",

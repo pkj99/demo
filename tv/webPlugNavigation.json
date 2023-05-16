@@ -416,19 +416,6 @@
       },
 
       {
-        "name":"ofiii(Web)",
-        "pic":"https://pkj99.github.io/demo/images/ofiii.jpg",
-        "keyDownPlay":false,
-        "keyUpPlay":false,
-        "userAgent":"PC",
-        "ads":"",
-        "webUrl":"https://pkj99.github.io/demo/m3u8/index.html?path=iptv",
-        "webOpen":true,
-        "click":true
-      },
-
-
-      {
         "name":"Radios.TW(Web)",
         "pic":"https://pkj99.github.io/demo/images/watch_online.png",
         "keyDownPlay":false,
