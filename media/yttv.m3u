@@ -1,19 +1,19 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/中视新闻.png" tvg-name="中視新聞" group-title="YoutubeTV",中視新聞
+#EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv074_tv.png" tvg-name="中視新聞" group-title="YoutubeTV",中視新聞
 http://127.0.0.1:3000/video/TCnaIE_SAtM.m3u8
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/台视新闻台.png" tvg-name="台視新聞" group-title="YoutubeTV",台視新聞
+#EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv051_tv.png" tvg-name="台視新聞" group-title="YoutubeTV",台視新聞
 http://127.0.0.1:3000/video/xL0ch83RAK8.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-4gtv052_mobile.png" tvg-name="華視新聞" group-title="YoutubeTV",華視新聞
+#EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv052_tv.png" tvg-name="華視新聞" group-title="YoutubeTV",華視新聞
 http://127.0.0.1:3000/video/wM0g8EoUZ_E.m3u8
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/民视新闻台.png" tvg-name="民視新聞" group-title="YoutubeTV",民視新聞
+#EXTINF:-1 tvg-logo="https://www.ftv.com.tw/images/Ch_04.png" tvg-name="民視新聞" group-title="YoutubeTV",民視新聞
 http://127.0.0.1:3000/video/ylYJSBUgaMA.m3u8
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/东森财经新闻台.png" tvg-name="東森財經新聞" group-title="YoutubeTV",東森財經新聞
+#EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv153_tv.png" tvg-name="東森財經新聞" group-title="YoutubeTV",東森財經新聞
 http://127.0.0.1:3000/video/WHEPzbFA3hw.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/东森综合台.png" tvg-name="東森娛樂台" group-title="YoutubeTV",東森娛樂台
 http://127.0.0.1:3000/video/OQdX93g8Wos.m3u8
-#EXTINF:-1 tvg-logo="http://www.tvyan.com/uploads/dianshi/ctinews.jpg" tvg-name="中天新聞" group-title="YoutubeTV",中天新聞
+#EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv009_tv.png" tvg-name="中天新聞" group-title="YoutubeTV",中天新聞
 http://127.0.0.1:3000/video/NpmP3jIgcQI.m3u8
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/寰宇新闻.png" tvg-name="寰宇新聞" group-title="YoutubeTV",寰宇新聞
+#EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn14_tv.png" tvg-name="寰宇新聞" group-title="YoutubeTV",寰宇新聞
 http://127.0.0.1:3000/video/B7Zp3d6xXWw.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/三立新闻台.png" tvg-name="三立iNEWS" group-title="YoutubeTV",三立iNEWS
 http://127.0.0.1:3000/video/CKjSm5ZeehE.m3u8
@@ -39,13 +39,13 @@ http://127.0.0.1:3000/video/xbNWkUyxQGM.m3u8
 http://127.0.0.1:3000/video/yuhgIlXwPh8.m3u8
 #EXTINF:-1 tvg-logo="http://images.1111.com.tw/news/news60594.jpg" tvg-name="美好購物2台" group-title="YoutubeTV",美好購物2台
 http://127.0.0.1:3000/video/LEOat38Iuao.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-live047_mobile.png" tvg-name="東森購物46台" group-title="YoutubeTV",東森購物46台
+#EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv102_tv.png" tvg-name="東森購物46台" group-title="YoutubeTV",東森購物46台
 http://127.0.0.1:3000/video/Z50JFuNgvB0.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-live046_mobile.png" tvg-name="東森購物60台" group-title="YoutubeTV",東森購物60台
+#EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv103_tv.png" tvg-name="東森購物60台" group-title="YoutubeTV",東森購物60台
 http://127.0.0.1:3000/video/u0NYyH3ZesE.m3u8
 #EXTINF:-1 tvg-logo="https://cdn2.ettoday.net/images/6653/d6653115.jpg" tvg-name="天才衝衝衝" group-title="YoutubeTV",天才衝衝衝
 http://127.0.0.1:3000/channel/UCdpxNQgqL3276yjrK03gMXA.m3u8
-#EXTINF:-1 tvg-logo="http://www.if-office.com/aimg/upload/images/SS-MR.PLAYER/%E7%B6%9C%E8%97%9D%E7%8E%A9%E5%BE%88%E5%A4%A7-01.jpg" tvg-name="綜藝玩很大" group-title="YoutubeTV",綜藝玩很大
+#EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/vod_channel/logo_ofiii130_tv_20230329.png" tvg-name="綜藝玩很大" group-title="YoutubeTV",綜藝玩很大
 http://127.0.0.1:3000/channel/UCQU5uVTG8h9LToACKrm1LMA.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AGIKgqOuJ8021gUVWWPl-22fDEIy3jkA7MPHyVTDxDkDiQ=s176-c-k-c0x00ffffff-no-rj" tvg-name="飢餓遊戲" group-title="YoutubeTV",飢餓遊戲
 http://127.0.0.1:3000/channel/UCriy3vlLtiBov3nLdPLadUg.m3u8
@@ -55,7 +55,7 @@ http://127.0.0.1:3000/video/0dchv4MPOWA.m3u8
 http://127.0.0.1:3000/video/OGhK-uOmYPU.m3u8
 #EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/tQy4xmq_EPU/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLAgbe-NBAJYtm28OAulhXAs75R51A" tvg-name="我和我們在一起" group-title="YoutubeTV",我和我們在一起
 http://127.0.0.1:3000/video/8v-FAXUqHVw.m3u8
-#EXTINF:-1 tvg-logo="https://obs.line-scdn.net/0hfehWsywvOUpVLi5C4MNGHW14NTtmSCNDdxwjKiMtYX4vAnYUPUFqKXZ6MGZxFykZdUB_e3MsMH9xFi0cOg/w1200" tvg-name="琅琊榜" group-title="YoutubeTV",琅琊榜
+#EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/vod_channel/logo_ofiii101_tv_20230329.png" tvg-name="琅琊榜" group-title="YoutubeTV",琅琊榜
 http://127.0.0.1:3000/video/_MOhQbKegXs.m3u8
 #EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/iZxJDOqg_E0/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLBwLkabCIsL4QPfXXeqJEy9DIgb3g" tvg-name="知否知否應是綠肥紅瘦" group-title="YoutubeTV",知否知否應是綠肥紅瘦
 http://127.0.0.1:3000/video/iZxJDOqg_E0.m3u8
