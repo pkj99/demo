@@ -67,15 +67,15 @@ http://127.0.0.1:3000/video/HRwAMooYM3w.m3u8
 http://127.0.0.1:3000/video/XAZOVusFgLM.m3u8
 #EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/HbT8JZ3-Vzg/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLC5uwWqI8Oq6BSXCJbindjvl9vnQA" tvg-name="我的寶貝四千金" group-title="YoutubeTV",我的寶貝四千金
 http://127.0.0.1:3000/video/HbT8JZ3-Vzg.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="華語經典音樂" group-title="YoutubeTV",華語經典音樂
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/JVocS7Yftw8/hq720.jpg" tvg-name="華語經典音樂" group-title="YoutubeTV",華語經典音樂
 http://127.0.0.1:3000/channel/UCJCg4enuciH7IlFIBaJ_NEQ.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="網路流行音樂電台" group-title="YoutubeTV",網路流行音樂電台
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/IfNMuFqKBWs/hq720.jpg" tvg-name="網路流行音樂電台" group-title="YoutubeTV",網路流行音樂電台
 http://127.0.0.1:3000/channel/UCcHWhgSsMBemnyLhg6GL1vA.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="K-POP" group-title="YoutubeTV",K-POP
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/JVocS7Yftw8/hq720.jpg" tvg-name="K-POP" group-title="YoutubeTV",K-POP
 http://127.0.0.1:3000/channel/UCPde4guD9yFBRzkxk2PatoA.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="radio4relaxorstudy" group-title="YoutubeTV",radio4relaxorstudy
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/jfKfPfyJRdk/hq720.jpg" tvg-name="radio4relaxorstudy" group-title="YoutubeTV",radio4relaxorstudy
 http://127.0.0.1:3000/video/jfKfPfyJRdk.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="radio4chillorgame" group-title="YoutubeTV",radio4chillorgame
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/MVPTGNGiI-4/hq720.jpg" tvg-name="radio4chillorgame" group-title="YoutubeTV",radio4chillorgame
 http://127.0.0.1:3000/video/MVPTGNGiI-4.m3u8
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="radio4sleeporchill" group-title="YoutubeTV",radio4sleeporchill
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/rUxyKA_-grg/hq720.jpg" tvg-name="radio4sleeporchill" group-title="YoutubeTV",radio4sleeporchill
 http://127.0.0.1:3000/video/rUxyKA_-grg.m3u8

@@ -161,9 +161,9 @@
       "webPlus": {}
     },
     {
-      "name": "電視直播(4gTV)",
-      "pic": "https://m.4gtv.tv/image/4gtv.png",
-      "webUrl": "https://pkj99.github.io/demo/media/4gtv.m3u",
+      "name": "電視直播(OfiiiTV)",
+      "pic": "https://pkj99.github.io/demo/images/ofiiitv.jpg",
+      "webUrl": "https://pkj99.github.io/demo/media/ofiiitv.m3u",
       "type": "m3u",
       "subTitle": "",
       "click": true,
