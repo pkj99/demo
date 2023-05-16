@@ -422,22 +422,10 @@
         "keyUpPlay":false,
         "userAgent":"PC",
         "ads":"",
-        "webUrl":"https://pkj99.github.io/iptv/watch.html?t=6",
+        "webUrl":"https://pkj99.github.io/demo/m3u8/index.html?path=iptv",
         "webOpen":true,
         "click":true
       },
-
-      {
-        "name":"IPTV(Web)",
-        "pic":"https://pkj99.github.io/demo/images/pkj_studio.png",
-        "keyDownPlay":false,
-        "keyUpPlay":false,
-        "userAgent":"PC",
-        "ads":"",
-        "webUrl":"https://pkj99.github.io/iptv/index.html?t=6",
-        "webOpen":true,
-        "click":true
-      },    
 
 
       {
