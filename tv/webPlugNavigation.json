@@ -416,6 +416,20 @@
       },
 
       {
+        "name":"histar(Web)",
+        "pic":"https://histar.tv/images/ico.png",
+        "keyDownPlay":false,
+        "keyUpPlay":false,
+        "userAgent":"PC",
+        "ads":"",
+        "webUrl":"https://histar.tv/live",
+        "webOpen":true,
+        "click":true
+    },
+
+
+
+      {
         "name":"Radios.TW(Web)",
         "pic":"https://pkj99.github.io/demo/images/watch_online.png",
         "keyDownPlay":false,
