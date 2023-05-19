@@ -177,9 +177,9 @@
       "webPlus": {}
     },
     {
-      "name": "歐飛(IPTV)",
-      "pic": "https://pkj99.github.io/demo/images/ofiii.jpg",
-      "webUrl": "https://pkj99.github.io/demo/media/ofiiitv.m3u",
+      "name": "大陸頻道(IPTV)",
+      "pic": "https://pkj99.github.io/demo/images/cctv.png",
+      "webUrl": "https://pkj99.github.io/demo/media/chinatv.m3u",
       "type": "m3u",
       "subTitle": "",
       "click": true,

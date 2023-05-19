@@ -7,10 +7,12 @@ https://stream.rcs.revma.com/xpgtqc74hv8uv
 http://sonnykuo.appspot.com/asiafm/?id=asiafm-star
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/fly.png" group-title="廣播頻道" radio="true",AsiaFM飛揚調頻FM89.5
 https://stream.rcs.revma.com/e0tdah74hv8uv
-#EXTINF:-1 tvg-logo="https://bravo913.com.tw/lazyweb/images/logo-dark.png" group-title="廣播頻道" radio="true",BravoFM91.3
+#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/Bravo91.3.png" group-title="廣播頻道" radio="true",BravoFM91.3
 https://onair.bravo913.com.tw:9130/live.mp3
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/classical-fm-97-7.png" group-title="廣播頻道" radio="true",ClassicalFM97.7
 https://onair.family977.com.tw:8977/live.mp3
+#EXTINF:-1 tvg-logo="" group-title="廣播頻道" radio="true",Hichannel
+https://hichannel.com.tw
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/40952.v1.png" group-title="廣播頻道" radio="true",ICRT
 http://live.leanstream.co/ICRTFM?args=tunein_aac
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/41671.v3.png" group-title="廣播頻道" radio="true",IC之音
