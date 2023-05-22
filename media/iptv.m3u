@@ -441,6 +441,8 @@ https://pkj99.github.io/demo/m3u8/iptv/histartv/靖天国际台.m3u8
 https://pkj99.github.io/demo/m3u8/iptv/histartv/TVBSAsia.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/39c9b2c01ae539a57bd0e674d45844fc.png" tvg-name="东森电影台" group-title="星視界頻道",东森电影台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/东森电影.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/63bc31f0d375ae5aaaffb2260777fecd.png" tvg-name="国家地理野生频道" group-title="星視界頻道",国家地理野生频道
+https://pkj99.github.io/demo/m3u8/iptv/histartv/国家地理野生频道.m3u8
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/asia-fm-92-3.png" group-title="廣播頻道" radio="true",AsiaFM亞太電台FM92.3
 https://stream.rcs.revma.com/kydend74hv8uv
