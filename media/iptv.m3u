@@ -454,8 +454,6 @@ https://stream.rcs.revma.com/e0tdah74hv8uv
 https://onair.bravo913.com.tw:9130/live.mp3
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/classical-fm-97-7.png" group-title="廣播頻道" radio="true",ClassicalFM97.7
 https://onair.family977.com.tw:8977/live.mp3
-#EXTINF:-1 tvg-logo="" group-title="廣播頻道" radio="true",Hichannel
-https://hichannel.com.tw
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/40952.v1.png" group-title="廣播頻道" radio="true",ICRT
 http://live.leanstream.co/ICRTFM?args=tunein_aac
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/41671.v3.png" group-title="廣播頻道" radio="true",IC之音
