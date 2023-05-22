@@ -415,21 +415,7 @@
           "click":true
       },
 
-      {
-        "name":"ofiii(Web)",
-        "pic":"https://pkj99.github.io/demo/images/ofiii.jpg",
-        "keyDownPlay":false,
-        "keyUpPlay":false,
-        "userAgent":"PC",
-        "ads":"",
-        "webUrl":"https://www.ofiii.com/channel/watch/4gtv-4gtv066",
-        "webOpen":true,
-        "click":true
-    },
-
-
-
-      {
+       {
         "name":"Radios.TW(Web)",
         "pic":"https://pkj99.github.io/demo/images/watch_online.png",
         "keyDownPlay":false,
@@ -439,7 +425,7 @@
         "webUrl":"https://radios.tw/",
         "webOpen":true,
         "click":true
-    }
+      }
     
 
 
