@@ -33,10 +33,6 @@ https://pkj99.github.io/demo/m3u8/iptv/histartv/纬来综合台.m3u8
 https://pkj99.github.io/demo/m3u8/iptv/histartv/八大第一台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/d7c3a4c3d53f9f74d75324b973818ce9.png" tvg-name="八大综合台" group-title="台湾頻道",八大综合台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/八大综合台.m3u8
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/三立台湾台.png" tvg-name="三立台湾台" group-title="台湾頻道",三立台湾台
-http://162.19.247.76:22222/live/uch5/index.m3u8
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/三立都会台.png" tvg-name="三立都会台" group-title="台湾頻道",三立都会台
-http://162.19.247.76:22222/live/uch6/index.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/0374fe1183ef54f1dafe344868ee255a.png" tvg-name="卫视中文台" group-title="台湾頻道",卫视中文台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/卫视中文台.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn20_tv.png" tvg-name="ELTV生活英语台" group-title="台湾頻道",ELTV生活英语台
@@ -302,7 +298,7 @@ https://pkj99.github.io/ofiii/大叔的愛.m3u8
 #EXTINF:-1 tvg-logo="https://cdn2.ettoday.net/images/6653/d6653115.jpg" tvg-name="天才冲冲冲" group-title="台湾頻道",天才冲冲冲
 https://pkj99.github.io/YTLive/天才衝衝衝.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/天映经典.png" tvg-name="天映经典" group-title="台湾頻道",天映经典
-http://162.19.247.76:22222/live/tyjd/index.m3u8
+http://120.84.96.89:808/hls/85/index.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/vod_channel/logo_ofiii102_tv_20230329.png" tvg-name="山河月明" group-title="台湾頻道",山河月明
 https://pkj99.github.io/ofiii/山河月明.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/vod_channel/logo_litv-playout50_tv_20211124.png" tvg-name="掏掏新闻" group-title="台湾頻道",掏掏新闻
