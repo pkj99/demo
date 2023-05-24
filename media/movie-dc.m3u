@@ -1,12 +1,18 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a02953411d20b8290ea53a39a296ff8436db6ae6ea94211c781754c495c7548bab26ef850db50610b59d3ec6.jpg" tvg-name="小丑" group-title="DC",小丑
+https://m3u.haiwaikan.com/xm3u8/33ac5748e67e53535dc6d002dd2a3bfaae03659fcd6bbc21b982ff3d8d3a9a689921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://img.1777cdn.com/upload/vod/20210513-1/ec2ee973a9908de40b236447e29c2071.jpg" tvg-name="开心超人" group-title="DC",开心超人
 https://dy3.yle888.vip/20220414/J311JweR/index.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/183af537d926aa5c8126ef7325b4a6437f30ef171774a4c1b78eac6db9a4ed4089c8e72eda35ca27dd08a7882c35f8db.jpg" tvg-name="查克·史奈德之正義聯盟" group-title="DC",查克·史奈德之正義聯盟
+https://m3u.haiwaikan.com/xm3u8/30517370d3cb8e057a3d1c938e070a50a41a5fd6b9704f9f2948c472c396b9d19921f11e97d0da21.m3u8
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2021/04/dcr0d0uhQOOsqg3ZQhXMeOyKWic-185x278.jpg" tvg-name="查克．史奈德之正義聯盟" group-title="DC",查克．史奈德之正義聯盟
 https://m3u.haiwaikan.com/xm3u8/30517370d3cb8e057a3d1c938e070a50a41a5fd6b9704f9f2948c472c396b9d19921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a02953414d096300cad7fd579f49858bea56ffb0931bc3dbad1166a143a69784e2a6590075cfbacc9130efea.jpg" tvg-name="正義聯盟" group-title="DC",正義聯盟
 https://m3u.haiwaikan.com/xm3u8/d60d34db3ff3603ce92014abfa23f7f766ecc82153b826795fcb95389d7cdd5e9921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/36b6a0c38cc21675256fc49ec9ecbae651e47c4009c1eafc9814ca88d85e89b8a6db93285e4aa9fe8fccc83b7f2d7740.jpg" tvg-name="水行俠" group-title="DC",水行俠
 https://m3u.haiwaikan.com/xm3u8/acdbe9666d1e8431cb971e80ab1b20917acfbee721adcf720d1e5e2e49a2db809921f11e97d0da21.m3u8
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/183af537d926aa5c5767bbdce168a9d96f9873d94e09a64f74bb5e4baf78a597c1475e404d27dd0c95c7891514762846.jpg" tvg-name="沙贊！" group-title="DC",沙贊！
+https://m3u.haiwaikan.com/xm3u8/8cb2038a6a7d4d05ef47b240875abfc1d93bdecbcf58a160ecb26ec638a3f8c69921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a0295341a14dbfc3a1672a9206f9394e22ecc21d5b2362a69914cedd0ede3a747a97e36ac618bba2eba60a2f.jpg" tvg-name="猛禽小隊：小丑女大解放" group-title="DC",猛禽小隊：小丑女大解放
 https://m3u.haiwaikan.com/xm3u8/1616f525f67f0799f0cec384dc5404437d119e58df4738efe985e33dd3c3553d9921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/183af537d926aa5cee58492eea465ce1dbc87f98a51b22adfabeee6404e57443359097cce545b47a6f8ebb85851b0af6.jpg" tvg-name="神力女超人" group-title="DC",神力女超人
@@ -23,6 +29,8 @@ https://m3u.haiwaikan.com/xm3u8/fec564b85bb5ee2fe6db76eb74375595e7ecad4569c2bbca
 https://m3u.haiwaikan.com/xm3u8/70349a07d584a7087681e3089283443d58b4167049d24d0e132beefacf065fbd9921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a0295341f049d3fb15134c6e643e08e497111a378d98ac62735869fe182f2a4f2f6cd503517bcef404c6d5be.jpg" tvg-name="蝙蝠俠" group-title="DC",蝙蝠俠
 https://m3u.haiwaikan.com/xm3u8/9a8ef432aa325e3da3eac1eb9830f6b1170ccb298c4d6be724b07735e571af389921f11e97d0da21.m3u8
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2022/06/mzzNBVwTiiY94xAXDMWJpNPW2US-270x400.jpg" tvg-name="蝙蝠俠3" group-title="DC",蝙蝠俠3
+https://ukzy.ukubf3.com/20220520/1CffetII/index.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/183af537d926aa5c0589b121e3f21369382f87a635239aad87ff817d65eb744bced7af428777ea2dd45ca65892e9ea29.jpg" tvg-name="蝙蝠俠3永遠的蝙蝠俠" group-title="DC",蝙蝠俠3永遠的蝙蝠俠
 https://m3u.haiwaikan.com/xm3u8/3a94bed903dcf326735f7c8bee9580a6de8181dbf682478b872f201fcccab9d09921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/183af537d926aa5c0cb288c3580a242b43712acb7ef566e2712f6be5fe9b503db5e7bd603fe62f32ad8f86dd3ce2d152.jpg" tvg-name="蝙蝠俠4：急凍人" group-title="DC",蝙蝠俠4：急凍人
@@ -33,6 +41,10 @@ https://m3u.haiwaikan.com/xm3u8/d8ded73819145b3c95d346978ccf3c7b9a710bd97bb9c6d0
 https://ukzy.ukubf4.com/20220408/Dd5hm4XK/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2005/06/蝙蝠俠：開戰時刻-185x278.jpg" tvg-name="蝙蝠俠：開戰時刻" group-title="DC",蝙蝠俠：開戰時刻
 https://m3u.haiwaikan.com/xm3u8/fe120610fc4efe6f2acb8fa9592863b8a8c82426ca4325505d208817ecd199db9921f11e97d0da21.m3u8
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2006/06/385XwTQZDpRX2d3kxtnpiLrjBXw-270x400-1-270x400.jpg" tvg-name="超人再起" group-title="DC",超人再起
+https://www.4kvm.com/dplayer?mvsource=0&id=8207&type=hls
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2013/06/超人：鋼鐵英雄-185x278.jpg" tvg-name="超人： 鋼鐵英雄" group-title="DC",超人： 鋼鐵英雄
+https://m3u.haiwaikan.com/xm3u8/822ac979ac2b5914e2a7108921a292d4080f0bb33856e21d53d8a20642e55ab39921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2010/10/超危險特工1-185x278.jpg" tvg-name="超危險特工" group-title="DC",超危險特工
 https://www.4kvm.com/dplayer?mvsource=0&id=2191&type=hls
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2013/07/超危險特工2：狠戰-185x278.jpg" tvg-name="超危險特工2：狠戰" group-title="DC",超危險特工2：狠戰

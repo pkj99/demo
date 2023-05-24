@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/183af537d926aa5c2cb5a7649622b40c36e8a96db5ca35781955633c7f424be68c4c338a42d5c67ac8fc57fe10d4ea71.jpg" tvg-name="X戰警" group-title="Marvel",X戰警
+https://m3u.haiwaikan.com/xm3u8/a56e9901bad7b60b6a343e3f487018bd9f1007a9da4ce42f676808c4cf3c7e689921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2019/04/2ucMY4dPE4gGLPgDdYgyggYHBkF-185x278.jpg" tvg-name="X戰警2" group-title="Marvel",X戰警2
 https://m3u.haiwaikan.com/xm3u8/5eec9c3b4eb2c465373604c3e209949291d8f135dd0b89a4b1186ddb900f7d4c9921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2016/05/X-戰警：天啟-185x278.jpg" tvg-name="X戰警：天啟" group-title="Marvel",X戰警：天啟
@@ -7,12 +9,16 @@ https://m3u.haiwaikan.com/xm3u8/aeb4c50fec8779e56e896881ae93684cf2f218497b67c84d
 https://m3u.haiwaikan.com/xm3u8/395addcded9ab29e546dcd416df61e65de19dcfa7beac427cf24f8654d4c88e29921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2014/05/X戰警未來昔日-X-MEN-DAYS-OF-FUTURE-PAST_Movieffm免費電影線上看-185x278.jpg" tvg-name="X戰警：未來昔日" group-title="Marvel",X戰警：未來昔日
 https://www.4kvm.com/dplayer?mvsource=0&id=13808&type=hls
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2015/06/X戰警：第一戰-Movieffm線上看-185x278.jpg" tvg-name="X戰警：第一戰" group-title="Marvel",X戰警：第一戰
+https://m3u.haiwaikan.com/xm3u8/138504b0342a8e354ec5b7ae8feaee0cce6117f3ff59b913d7cdcb25dfdc589c9921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2009/04/X-戰警：金鋼狼-185x278.jpg" tvg-name="X戰警：金鋼狼" group-title="Marvel",X戰警：金鋼狼
 https://m3u.haiwaikan.com/xm3u8/9de33964adef7581bda3723bc6dc488f1dd0028fa42f0926ca87c67665bd9e5e9921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2021/04/bev5HvCuFzb2wM6Y9l1ukNfD7CR-185x278.jpg" tvg-name="X戰警：黑鳳凰" group-title="Marvel",X戰警：黑鳳凰
 https://m3u.haiwaikan.com/xm3u8/b0f1f00f85712a021320b637005d0c4182358ea21b16c4c3c8732790449ed4769921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a0295341d085d875ffad9b3c86c889c14ec4d23a4e121f9c43fe5c0cd2ad706966f0d3b0919e32f4be63d985.jpg" tvg-name="《X战警：第一战》幕后" group-title="Marvel",《X战警：第一战》幕后
 https://m3u.haiwaikan.com/xm3u8/138504b0342a8e354ec5b7ae8feaee0cce6117f3ff59b913d7cdcb25dfdc589c9921f11e97d0da21.m3u8
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2021/04/gTo2r8nNU3ZYAS6DqdeSp1VEqkq-185x278.jpg" tvg-name="乐高蜘蛛侠：缠人的毒液" group-title="Marvel",乐高蜘蛛侠：缠人的毒液
+https://hd.njeere.com/play/31314/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2013/09/4vFKKWPvCVDJTOWiwReBfpAMScP-270x400-1-270x400.jpg" tvg-name="卡特探員 (短片)" group-title="Marvel",卡特探員 (短片)
 https://new.qqaku.com/20220222/uMz8PK7g/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2002/05/蜘蛛人1-185x278.jpg" tvg-name="变形蜘蛛人" group-title="Marvel",变形蜘蛛人
@@ -39,6 +45,8 @@ https://ukzy.ukubf4.com/20220408/AEdxZj9P/index.m3u8
 https://vod2.kczybf.com/20221126/QAJFHXH9/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2017/04/星際異攻隊2-185x278.jpg" tvg-name="星際異攻隊2" group-title="Marvel",星際異攻隊2
 https://m3u.haiwaikan.com/xm3u8/ca278198597e71d4ebce39e8ae0343de8d366c9d118c41117be441423319c6809921f11e97d0da21.m3u8
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/3409a835e0c865977f131f05fd0cd0035df1e6ab6c3c66316b9d8381f5fab46558e0a0bd9fbd2be3134417eebce57838.jpg" tvg-name="星際異攻隊3" group-title="Marvel",星際異攻隊3
+https://m3u.haiwaikan.com/xm3u8/bf55a9da5fc8a38b70934ceb9ada54853e8493e631a4adf73d074bda084b0c9c9921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/d584827d28af79768899ba9914af246e0f9bea973066c86d5e5ffe57f84195cb224ff1390e72bcf285827c2b1c32c143.jpg" tvg-name="暗夜狼人" group-title="Marvel",暗夜狼人
 https://m3u.haiwaikan.com/xm3u8/3849e0c407efdea33bc62595d8728549dcf3f5433187cbe752c0e6198f8c11429921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2018/05/Deadpool-2-死侍2-185x278.jpg" tvg-name="死侍2" group-title="Marvel",死侍2
@@ -77,6 +85,10 @@ https://m3u.haiwaikan.com/xm3u8/dca513ec4c066f8ad3dc4c76a7b4cb9a589ec338056ac911
 https://ukzy.ukubf4.com/20220408/w5lzJc87/index.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a0295341825e19f180a98987f208cf02cc257153a66cdecafb024450036c861d13cfb52b933f4927146e351f.jpg" tvg-name="蟻人與黃蜂女" group-title="Marvel",蟻人與黃蜂女
 https://m3u.haiwaikan.com/xm3u8/03ba5d9c9a32ea92975d1aa077caddf2b6d3f98550bf127e003e7a2037cc9cbc9921f11e97d0da21.m3u8
+#EXTINF:-1 tvg-logo="https://img.1777cdn.com/upload/vod/20230218-1/9b29d0ba3f4348a02a7a479c83a6cee0.jpg" tvg-name="蟻人與黃蜂女：量子狂熱" group-title="Marvel",蟻人與黃蜂女：量子狂熱
+https://m3u.haiwaikan.com/xm3u8/6698e255a7380ac873db8fd59023db335587b49500e9a5b30e48e4ba4aa556669921f11e97d0da21.m3u8
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2020/11/The-New-Mutants-185x278.jpg" tvg-name="變種人" group-title="Marvel",變種人
+https://vod.bunediy.com/20201107/xd1gyPGv/1500kb/hls/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2013/07/金鋼狼：武士之戰-185x278.jpg" tvg-name="金鋼狼：武士之戰" group-title="Marvel",金鋼狼：武士之戰
 https://dy3.yle888.vip/20220422/Vcq4AXoC/index.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/36b6a0c38cc21675347393db1f895185de9c8e4557884b1f02b181acc12224c9b326ee2a74251860b589bd1f35289fdf.jpg" tvg-name="鋼鐵人" group-title="Marvel",鋼鐵人
