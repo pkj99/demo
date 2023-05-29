@@ -38,7 +38,7 @@ https://pkj99.github.io/demo/m3u8/iptv/histartv/卫视中文台.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn20_tv.png" tvg-name="ELTV生活英语台" group-title="台湾頻道",ELTV生活英语台
 https://pkj99.github.io/ofiii/ELTV生活英語台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/70fda4dde38d46532b07675a6de8e95a.png" tvg-name="东森综合台" group-title="台湾頻道",东森综合台
-https://pkj99.github.io/demo/m3u8/iptv/histartv/东森综合.m3u8
+https://pkj99.github.io/demo/m3u8/iptv/histartv/东森综合台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/96b6fb40724f3fefed649f457dbefc33.png" tvg-name="东森超视" group-title="台湾頻道",东森超视
 https://pkj99.github.io/demo/m3u8/iptv/histartv/东森超视.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/389b07b806d71f0333899ab6428c584d.png" tvg-name="尼克儿童频道" group-title="台湾頻道",尼克儿童频道
@@ -666,8 +666,6 @@ https://pkj99.github.io/demo/m3u8/iptv/histartv/八大第一台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/d7c3a4c3d53f9f74d75324b973818ce9.png" tvg-name="八大综合台" group-title="星視界頻道",八大综合台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/八大综合台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/70fda4dde38d46532b07675a6de8e95a.png" tvg-name="东森综合台" group-title="星視界頻道",东森综合台
-https://pkj99.github.io/demo/m3u8/iptv/histartv/东森综合.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/70fda4dde38d46532b07675a6de8e95a.png" tvg-name="东森综合台" group-title="星視界頻道",东森综合台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/东森综合台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/96b6fb40724f3fefed649f457dbefc33.png" tvg-name="东森超视" group-title="星視界頻道",东森超视
 https://pkj99.github.io/demo/m3u8/iptv/histartv/东森超视.m3u8
@@ -832,6 +830,8 @@ https://stream.rcs.revma.com/e0tdah74hv8uv
 https://onair.bravo913.com.tw:9130/live.mp3
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/classical-fm-97-7.png" group-title="廣播頻道" radio="true",ClassicalFM97.7
 https://onair.family977.com.tw:8977/live.mp3
+#EXTINF:-1 tvg-logo="" group-title="廣播頻道" radio="true",Hichannel
+https://hichannel.com.tw
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/40952.v1.png" group-title="廣播頻道" radio="true",ICRT
 http://live.leanstream.co/ICRTFM?args=tunein_aac
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/41671.v3.png" group-title="廣播頻道" radio="true",IC之音
