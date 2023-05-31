@@ -1,0 +1,195 @@
+#EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/3047fff0f5a07dd0c3a4fc9958f24335.png" tvg-name="大爱二台" group-title="星視界頻道",大爱二台
+https://dispatch.ulivetv.net/v/live/cl7c83atb64g.m3u8?stream_id=cl7c83atb64g&timestamp=1685523323&rand=fRXooBR7Uv&uuid=9b647b3816b2a66a&from=web&sign=aa4ca6598f49ff2dca630c5981d95455
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-18/db88abb55834d8b0864ba681c3f4d80a.png" tvg-name="大爱一台" group-title="星視界頻道",大爱一台
+https://dispatch.ulivetv.net/v/live/cl7c7r2jpg3k.m3u8?stream_id=cl7c7r2jpg3k&timestamp=1685523337&rand=9ahrhJ7hPM&uuid=9b647b3816b2a66a&from=web&sign=849f6f4b3d263141ed2249c198d046fd
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/441d57a2232bf1ff9f4e6ecb1060ca07.png" tvg-name="中视" group-title="星視界頻道",中视
+https://dispatch.ulivetv.net/v/live/cfm2qel2kn9c.m3u8?stream_id=cfm2qel2kn9c&timestamp=1685523351&rand=2M8HopcAa6&uuid=9b647b3816b2a66a&from=web&sign=c403e142a0749793858a01fb6120dc06
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/544ec39a29335b6ddd858cdcb314cdd5.png" tvg-name="公视" group-title="星視界頻道",公视
+https://dispatch.ulivetv.net/v/live/cg0hhu6qlpz4.m3u8?stream_id=cg0hhu6qlpz4&timestamp=1685523365&rand=VeB7L8pdaU&uuid=9b647b3816b2a66a&from=web&sign=7d2184f4b687126f67af432f6fd82706
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/5cd054e867c79b3b44148a223bff521b.png" tvg-name="公视3台" group-title="星視界頻道",公视3台
+https://dispatch.ulivetv.net/v/live/cg0hro4vn54w.m3u8?stream_id=cg0hro4vn54w&timestamp=1685523379&rand=JJwwJhdzx1&uuid=9b647b3816b2a66a&from=web&sign=f88d01ef1e21774ca2526fa1f0deb989
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/c05565c60a84f492db45e27425b1f001.png" tvg-name="中天综合台" group-title="星視界頻道",中天综合台
+https://dispatch.ulivetv.net/v/live/cg0ifkvu1hhc.m3u8?stream_id=cg0ifkvu1hhc&timestamp=1685523394&rand=XJPdtOvHtS&uuid=9b647b3816b2a66a&from=web&sign=dfa3399da5ec748caef8f915630041cb
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/9ffc0ecc6a1995900630ea2eda4ab88e.png" tvg-name="中天亚洲台" group-title="星視界頻道",中天亚洲台
+https://dispatch.ulivetv.net/v/live/cg0im4r5dh34.m3u8?stream_id=cg0im4r5dh34&timestamp=1685523408&rand=1A13SdMvNc&uuid=9b647b3816b2a66a&from=web&sign=ed25bdfaf3f3f384d96c6bdc5fcd8c93
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/96b6fb40724f3fefed649f457dbefc33.png" tvg-name="东森超视" group-title="星視界頻道",东森超视
+https://dispatch.ulivetv.net/v/live/cg169idwckw0.m3u8?stream_id=cg169idwckw0&timestamp=1685523422&rand=oshLFltIWm&uuid=9b647b3816b2a66a&from=web&sign=ed2873c1660f52bdd74416539a263946
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/c1554ffd0e9d53c23b876fb106ff27ea.png" tvg-name="靖天国际台" group-title="星視界頻道",靖天国际台
+https://dispatch.ulivetv.net/v/live/cg16n9l4ol34.m3u8?stream_id=cg16n9l4ol34&timestamp=1685523436&rand=znykV8XFj3&uuid=9b647b3816b2a66a&from=web&sign=e17bd716367aa7b73faf17140dfa25fa
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-18/f503185e6adce0a93335be7396c70269.png" tvg-name="TVBSAsia" group-title="星視界頻道",TVBSAsia
+https://dispatch.ulivetv.net/v/live/cg4krcc4nzr4.m3u8?stream_id=cg4krcc4nzr4&timestamp=1685523450&rand=Mt1gugWz9r&uuid=9b647b3816b2a66a&from=web&sign=aa52a39b713a03f5c0da245d08d36a24
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/d7c3a4c3d53f9f74d75324b973818ce9.png" tvg-name="八大综合台" group-title="星視界頻道",八大综合台
+https://dispatch.ulivetv.net/v/live/cl7ckgyfn9vk.m3u8?stream_id=cl7ckgyfn9vk&timestamp=1685523464&rand=yfmA4V72NP&uuid=9b647b3816b2a66a&from=web&sign=e5c98d99c731aec2dd869de4f55dbe63
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/bbf7de5abf4b2ec22dc3677245594a6b.png" tvg-name="客家电视台" group-title="星視界頻道",客家电视台
+https://dispatch.ulivetv.net/v/live/clectmxixadc.m3u8?stream_id=clectmxixadc&timestamp=1685523478&rand=8TeiDZ5sE0&uuid=9b647b3816b2a66a&from=web&sign=58959f2892422762c84cb270f7bd4b32
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/70fda4dde38d46532b07675a6de8e95a.png" tvg-name="东森综合台" group-title="星視界頻道",东森综合台
+https://dispatch.ulivetv.net/v/live/clecuafija9s.m3u8?stream_id=clecuafija9s&timestamp=1685523493&rand=ghviroVRAB&uuid=9b647b3816b2a66a&from=web&sign=6f49fc977434e5f9c23bc5d4f43282ac
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/145339891c6f7a3b10c419e5609eecad.png" tvg-name="中视" group-title="星視界頻道",中视
+https://dispatch.ulivetv.net/v/live/cl7c5tec5wow.m3u8?stream_id=cl7c5tec5wow&timestamp=1685523507&rand=NMQHVDaxSv&uuid=9b647b3816b2a66a&from=web&sign=17b9962762740686c30e265acc311632
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/083c995ab55bae1a27326cd45d35c859.png" tvg-name="华视" group-title="星視界頻道",华视
+https://dispatch.ulivetv.net/v/live/cl7c69hc4m2o.m3u8?stream_id=cl7c69hc4m2o&timestamp=1685523521&rand=IMGtFiOkKY&uuid=9b647b3816b2a66a&from=web&sign=e172fc8f0dcb9cf83844d3a307720aa1
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/9192739a88bbcc951393db9af80b307c.png" tvg-name="台视" group-title="星視界頻道",台视
+https://dispatch.ulivetv.net/v/live/clevc7agnphc.m3u8?stream_id=clevc7agnphc&timestamp=1685523535&rand=EISvZjU6cn&uuid=9b647b3816b2a66a&from=web&sign=021e4aa933d6d710ddd039da63df0f73
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/13128ee3ad19c9b26d3484ba55c05906.png" tvg-name="纬来日本" group-title="星視界頻道",纬来日本
+https://dispatch.ulivetv.net/v/live/cl7c7d6a1j28.m3u8?stream_id=cl7c7d6a1j28&timestamp=1685523549&rand=g8uTPQTRfE&uuid=9b647b3816b2a66a&from=web&sign=18d4bb05b1b90f67f174eebdd7e8904c
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/c13bbedc8023c62e2d2e34d7171727c4.png" tvg-name="纬来综合台" group-title="星視界頻道",纬来综合台
+https://dispatch.ulivetv.net/v/live/cg1mbnhpe0u8.m3u8?stream_id=cg1mbnhpe0u8&timestamp=1685523563&rand=l1boZkKwVy&uuid=9b647b3816b2a66a&from=web&sign=c86a7c987e7e0cb655f8f0c445c2bdb3
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/3daf3fd593161fe583f20e0f37646c0f.png" tvg-name="八大第一台" group-title="星視界頻道",八大第一台
+https://dispatch.ulivetv.net/v/live/clijwtkn9eio.m3u8?stream_id=clijwtkn9eio&timestamp=1685523577&rand=FNPgKvVO0Q&uuid=9b647b3816b2a66a&from=web&sign=f3d38cf7600e166fee701de05730f24d
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/82ceb1a252ff880a28437eb96faf9346.png" tvg-name="ELTA综合" group-title="星視界頻道",ELTA综合
+https://dispatch.ulivetv.net/v/live/cl7cqw6n9sqo.m3u8?stream_id=cl7cqw6n9sqo&timestamp=1685523592&rand=LIk4CfCy30&uuid=9b647b3816b2a66a&from=web&sign=4bb08aa15058882f0cff7d40a59b584e
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/b4555f5a3a2c872195304987e9f4f324.png" tvg-name="TVBS新闻台" group-title="星視界頻道",TVBS新闻台
+https://dispatch.ulivetv.net/v/live/cfxyummruo5c.m3u8?stream_id=cfxyummruo5c&timestamp=1685523606&rand=85MERkIFAW&uuid=9b647b3816b2a66a&from=web&sign=e7dc2c351601d6043ae6fb0c870c26e7
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/9086bc40db3d082feae4a09fffbbf811.png" tvg-name="寰宇新闻台" group-title="星視界頻道",寰宇新闻台
+https://dispatch.ulivetv.net/v/live/cfxws90rpmf4.m3u8?stream_id=cfxws90rpmf4&timestamp=1685523620&rand=BstvO0ZDfE&uuid=9b647b3816b2a66a&from=web&sign=d9f97b7ef3f1bb0a4de60c9f7b364312
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/6fabf96a75d3cada67158ab5b66633d4.png" tvg-name="华视新闻" group-title="星視界頻道",华视新闻
+https://dispatch.ulivetv.net/v/live/cfxxj2c5l6f4.m3u8?stream_id=cfxxj2c5l6f4&timestamp=1685523634&rand=uDPVCefjdm&uuid=9b647b3816b2a66a&from=web&sign=deba9e13ee9543709952d4cacb46d90b
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/bc5aca03df0b8481f2f0d1d90167c9d1.png" tvg-name="中天新闻" group-title="星視界頻道",中天新闻
+https://dispatch.ulivetv.net/v/live/cg1049vjg14w.m3u8?stream_id=cg1049vjg14w&timestamp=1685523648&rand=A8GzbPtvQ6&uuid=9b647b3816b2a66a&from=web&sign=484176db7fc8996053ce377c4a2dc24c
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/8c98c63946afa00f460e15f5f8330122.png" tvg-name="镜新闻" group-title="星視界頻道",镜新闻
+https://dispatch.ulivetv.net/v/live/cfxxf3nxvem8.m3u8?stream_id=cfxxf3nxvem8&timestamp=1685523662&rand=nzTjZYIkZv&uuid=9b647b3816b2a66a&from=web&sign=7dc0ede16fe23e70c8ac19526b9b9bac
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/0874fd4d77ca35ccaa61ea95e9fc0fb5.png" tvg-name="壹新闻" group-title="星視界頻道",壹新闻
+https://dispatch.ulivetv.net/v/live/cfxwzsgnhnls.m3u8?stream_id=cfxwzsgnhnls&timestamp=1685523676&rand=dlwdfLngpl&uuid=9b647b3816b2a66a&from=web&sign=bd10a340bc980b335750344cb9709d38
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/d662794cd0f95069e2376c6e654c64ad.png" tvg-name="靖天资讯台" group-title="星視界頻道",靖天资讯台
+https://dispatch.ulivetv.net/v/live/cg16rqyr0wqo.m3u8?stream_id=cg16rqyr0wqo&timestamp=1685523690&rand=l3f8vASVX1&uuid=9b647b3816b2a66a&from=web&sign=cfb836392d3587f31d22fe6c4e1e2e72
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-17/e85e6017ebe02e7feb82688866d83666.png" tvg-name="中视新闻" group-title="星視界頻道",中视新闻
+https://dispatch.ulivetv.net/v/live/clev54g636bk.m3u8?stream_id=clev54g636bk&timestamp=1685523705&rand=oZpTpPhmKf&uuid=9b647b3816b2a66a&from=web&sign=dacfdd22f0593a4ded3d100d8b57af48
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/0b4d8f48cc1b12293be8f91ffa72034c.png" tvg-name="台视新闻" group-title="星視界頻道",台视新闻
+https://dispatch.ulivetv.net/v/live/clevc7agnphc.m3u8?stream_id=clevc7agnphc&timestamp=1685523719&rand=HwKunqqjPS&uuid=9b647b3816b2a66a&from=web&sign=d4141431332707ff1e72865df7edcfde
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/d47922aa38afaebce601c441ad172cb4.png" tvg-name="TVBS" group-title="星視界頻道",TVBS
+https://dispatch.ulivetv.net/v/live/cl7c4wxioc00.m3u8?stream_id=cl7c4wxioc00&timestamp=1685523733&rand=5MNIuUE3y0&uuid=9b647b3816b2a66a&from=web&sign=830058a37cb9e2514cab7e6e320bd02b
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/20804acec838b898ce1d7c285ba0b620.png" tvg-name="东森财经新闻" group-title="星視界頻道",东森财经新闻
+https://dispatch.ulivetv.net/v/live/cl7c5f64zg74.m3u8?stream_id=cl7c5f64zg74&timestamp=1685523747&rand=sLQegtsnRw&uuid=9b647b3816b2a66a&from=web&sign=1e98b5cef45663690888384b021b58ae
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/2f530a19f9ec55c127ba68a5bd2dfea4.png" tvg-name="年代新闻" group-title="星視界頻道",年代新闻
+https://dispatch.ulivetv.net/v/live/cl7cbgg2j000.m3u8?stream_id=cl7cbgg2j000&timestamp=1685523761&rand=Alhqkh42KU&uuid=9b647b3816b2a66a&from=web&sign=55d7c2a85da9fef20acad30411035e2d
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/40c9525f8f12ebda432350bd49f26bec.png" tvg-name="非凡新闻" group-title="星視界頻道",非凡新闻
+https://dispatch.ulivetv.net/v/live/cl7cc13lsxc0.m3u8?stream_id=cl7cc13lsxc0&timestamp=1685523775&rand=fCLosbKOxL&uuid=9b647b3816b2a66a&from=web&sign=af50213fec510811406649949fabb777
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/90050ed8b153419ad48c29c1f610d5ab.png" tvg-name="东森新闻" group-title="星視界頻道",东森新闻
+https://dispatch.ulivetv.net/v/live/clecuz9d78ow.m3u8?stream_id=clecuz9d78ow&timestamp=1685523790&rand=LSRUsJ3CHd&uuid=9b647b3816b2a66a&from=web&sign=ec5965b1cd9dde1f012f580f907a4a63
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/37e3078e70e65577602ab9b033471c3c.png" tvg-name="TVBS欢乐台" group-title="星視界頻道",TVBS欢乐台
+https://dispatch.ulivetv.net/v/live/cg0hzu3sgc00.m3u8?stream_id=cg0hzu3sgc00&timestamp=1685523804&rand=F3hI4skYjU&uuid=9b647b3816b2a66a&from=web&sign=fbb556735d55d4d1ca0a6fd40bda5a40
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/6bad6989b3ed57e0c86deecef20873ef.png" tvg-name="中天娱乐台" group-title="星視界頻道",中天娱乐台
+https://dispatch.ulivetv.net/v/live/cg0iacfwayf4.m3u8?stream_id=cg0iacfwayf4&timestamp=1685523818&rand=GugkUX6rjW&uuid=9b647b3816b2a66a&from=web&sign=9d460000b09d4e6b7f98f93373d3cd8c
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/180c68238e13b1ec44170a87f848cbd5.png" tvg-name="八大娱乐台" group-title="星視界頻道",八大娱乐台
+https://dispatch.ulivetv.net/v/live/cg0j44tc0kow.m3u8?stream_id=cg0j44tc0kow&timestamp=1685523832&rand=hD6AlGY2jF&uuid=9b647b3816b2a66a&from=web&sign=b66e001e0d18c9f20b95dc08f0affc0e
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/c0d9239ba4048db181fb1a2fac57a932.png" tvg-name="东森电影" group-title="星視界頻道",东森电影
+https://dispatch.ulivetv.net/v/live/cl7ca5o7h4n4.m3u8?stream_id=cl7ca5o7h4n4&timestamp=1685523846&rand=zGjyJQvVyS&uuid=9b647b3816b2a66a&from=web&sign=e49a69426a43f019c1afadf6c914be85
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/aab74c2a7dbcc91184d8cec9e503b8d1.png" tvg-name="东森戏剧" group-title="星視界頻道",东森戏剧
+https://dispatch.ulivetv.net/v/live/cl7caihk7zr4.m3u8?stream_id=cl7caihk7zr4&timestamp=1685523860&rand=aVnjnCV0sS&uuid=9b647b3816b2a66a&from=web&sign=5a456a03a588f3fdfd4bdb2cb4704db7
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/0374fe1183ef54f1dafe344868ee255a.png" tvg-name="卫视中文台" group-title="星視界頻道",卫视中文台
+https://dispatch.ulivetv.net/v/live/cl7ciyx4pznk.m3u8?stream_id=cl7ciyx4pznk&timestamp=1685523889&rand=ofPflxgDMO&uuid=9b647b3816b2a66a&from=web&sign=f29df2cc9be4e4d90b9cd92d86121fab
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/8526f4e3db31a2a64ba90680462d5664.png" tvg-name="卫视电影台" group-title="星視界頻道",卫视电影台
+https://dispatch.ulivetv.net/v/live/cl7cjf5jgs00.m3u8?stream_id=cl7cjf5jgs00&timestamp=1685523903&rand=YxQ4eyfVn8&uuid=9b647b3816b2a66a&from=web&sign=2fc053e6abc20d3b9867de6fd3bd9e8d
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/94e2fe21f47230e1e4424e880845b397.png" tvg-name="龙祥电影台" group-title="星視界頻道",龙祥电影台
+https://dispatch.ulivetv.net/v/live/cl7cjqrlyzeo.m3u8?stream_id=cl7cjqrlyzeo&timestamp=1685523917&rand=3bW9wFx47A&uuid=9b647b3816b2a66a&from=web&sign=fabf2fd521e338c957118df1814ce772
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/429a2c0837d5a0c335aee14d5724911f.png" tvg-name="好莱坞电影台" group-title="星視界頻道",好莱坞电影台
+https://dispatch.ulivetv.net/v/live/cl7ck1qkwzpc.m3u8?stream_id=cl7ck1qkwzpc&timestamp=1685523931&rand=k8xoGhcL7T&uuid=9b647b3816b2a66a&from=web&sign=6ae8c4dc2cdd4eb5167333cc7ac42ba7
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/7ad1820056de0ab1043a4d062e1ffae3.png" tvg-name="八大戏剧台" group-title="星視界頻道",八大戏剧台
+https://dispatch.ulivetv.net/v/live/cl7ckupkipc0.m3u8?stream_id=cl7ckupkipc0&timestamp=1685523946&rand=lGPbf73CJV&uuid=9b647b3816b2a66a&from=web&sign=34711bddbb533f2871d959cb3207cd40
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/620759a7094b315d6841ca3cb6ce9603.png" tvg-name="纬来戏剧台" group-title="星視界頻道",纬来戏剧台
+https://dispatch.ulivetv.net/v/live/cl7cm1w9tl1c.m3u8?stream_id=cl7cm1w9tl1c&timestamp=1685523960&rand=y6ggVFYDen&uuid=9b647b3816b2a66a&from=web&sign=12da79528f76813747ac92e2a8798575
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/94bae399b66709dcb932d90adc95e0d7.png" tvg-name="纬来电影台" group-title="星視界頻道",纬来电影台
+https://dispatch.ulivetv.net/v/live/cl7cmdp021mo.m3u8?stream_id=cl7cmdp021mo&timestamp=1685523974&rand=Wz5W9V9gcp&uuid=9b647b3816b2a66a&from=web&sign=698404917cb12122241e063e543fd932
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/e9d3aaa2365ec961e38f3dfec83b2f2c.png" tvg-name="龙华电影台" group-title="星視界頻道",龙华电影台
+https://dispatch.ulivetv.net/v/live/cl7cn6bknxds.m3u8?stream_id=cl7cn6bknxds&timestamp=1685523988&rand=vVOEJwkC37&uuid=9b647b3816b2a66a&from=web&sign=47b22ee81734a1a6371ddc5639cd6857
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/a32970159c0aecfc2db3a633ec7e73f3.png" tvg-name="龙华洋片台" group-title="星視界頻道",龙华洋片台
+https://dispatch.ulivetv.net/v/live/cl7cn6bknxds.m3u8?stream_id=cl7cn6bknxds&timestamp=1685524002&rand=GpynUO6KGo&uuid=9b647b3816b2a66a&from=web&sign=e0361af2985626b4d5395391708796b7
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/97d335b08f3c19e143b0459e1d25f9b5.png" tvg-name="靖天电影台" group-title="星視界頻道",靖天电影台
+https://dispatch.ulivetv.net/v/live/cl7cnhrqwreo.m3u8?stream_id=cl7cnhrqwreo&timestamp=1685524016&rand=HNaQIyLK6u&uuid=9b647b3816b2a66a&from=web&sign=b7f652ac650451a424394837e4335ca4
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/03eca8ccd8c7c33fb673652eff43fbc9.png" tvg-name="美亚电影台" group-title="星視界頻道",美亚电影台
+https://dispatch.ulivetv.net/v/live/cl7cpvwwclog.m3u8?stream_id=cl7cpvwwclog&timestamp=1685524031&rand=CvlkNHDbfN&uuid=9b647b3816b2a66a&from=web&sign=6afc52724a1f9cd3afbf5859e73f075a
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/d0e77065c43c303730c3cf99f8e54433.png" tvg-name="ELTA影剧" group-title="星視界頻道",ELTA影剧
+https://dispatch.ulivetv.net/v/live/cl7cqioy0kao.m3u8?stream_id=cl7cqioy0kao&timestamp=1685524045&rand=DbhdTuAehG&uuid=9b647b3816b2a66a&from=web&sign=7805651f4d17c2b9ef973a1ff5313d92
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/a9edbbfbaf80ce93846ddb7c75b06b5f.png" tvg-name="EYE戏剧台" group-title="星視界頻道",EYE戏剧台
+https://dispatch.ulivetv.net/v/live/cl7crqv0voao.m3u8?stream_id=cl7crqv0voao&timestamp=1685524059&rand=CwGmyM2eRi&uuid=9b647b3816b2a66a&from=web&sign=d49b06a2ce9f62033c2990fbde0ec2d1
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/8ded074f4befbc34f264c378cc823d9c.png" tvg-name="星卫电影台" group-title="星視界頻道",星卫电影台
+https://dispatch.ulivetv.net/v/live/cl7cs387s6v4.m3u8?stream_id=cl7cs387s6v4&timestamp=1685524073&rand=XnFQM9MpFW&uuid=9b647b3816b2a66a&from=web&sign=c091b377b09763c1473af589b339baed
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/a1b8a20fe446ed3676ff859b6dec53aa.png" tvg-name="星卫娱乐台" group-title="星視界頻道",星卫娱乐台
+https://dispatch.ulivetv.net/v/live/cl7csf4rd2gw.m3u8?stream_id=cl7csf4rd2gw&timestamp=1685524088&rand=NjdlIqQOWX&uuid=9b647b3816b2a66a&from=web&sign=be58581abb6cad0dd5b0418a788644c4
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/c68cef3f17f69b60904bb68137d22020.png" tvg-name="国兴卫视" group-title="星視界頻道",国兴卫视
+https://dispatch.ulivetv.net/v/live/clect8xzw534.m3u8?stream_id=clect8xzw534&timestamp=1685524116&rand=nkGbB1PKnS&uuid=9b647b3816b2a66a&from=web&sign=bba9e0eb98136ada58f620514458057f
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/6f325f8c0f78bf35fa61dc9ea83a21bf.png" tvg-name="纬来体育" group-title="星視界頻道",纬来体育
+https://dispatch.ulivetv.net/v/live/cg1mbnhpe0u8.m3u8?stream_id=cg1mbnhpe0u8&timestamp=1685524130&rand=SbBTyahmFe&uuid=9b647b3816b2a66a&from=web&sign=c832e7a447ff20f941636839b86b42a9
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/d7b773de73832eb6d428db4998f24fb5.png" tvg-name="ELEVEN体育-1" group-title="星視界頻道",ELEVEN体育-1
+https://dispatch.ulivetv.net/v/live/cg1mg0pkbi68.m3u8?stream_id=cg1mg0pkbi68&timestamp=1685524144&rand=wYWW1gN677&uuid=9b647b3816b2a66a&from=web&sign=29dc3448ce8b76d4618d40dee524710f
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/582288ed83812ac2effd56a794070d51.png" tvg-name="ELEVEN体育-2" group-title="星視界頻道",ELEVEN体育-2
+https://dispatch.ulivetv.net/v/live/cg1mlp24a2tc.m3u8?stream_id=cg1mlp24a2tc&timestamp=1685524158&rand=CQHdy8pRCt&uuid=9b647b3816b2a66a&from=web&sign=e8a57bc3c84659070567b155b07d738f
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/f4d263daabd110d00765ef98be3a9f46.png" tvg-name="博斯运动-1" group-title="星視界頻道",博斯运动-1
+https://dispatch.ulivetv.net/v/live/cg1mq9e7sl34.m3u8?stream_id=cg1mq9e7sl34&timestamp=1685524173&rand=B98KZeLfSw&uuid=9b647b3816b2a66a&from=web&sign=fbf9a29387d65048485077c25244b6c1
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/4bc41e3548d08a2fcc82638e3c2d30ba.png" tvg-name="博斯运动-2" group-title="星視界頻道",博斯运动-2
+https://dispatch.ulivetv.net/v/live/cg1mvz20c14w.m3u8?stream_id=cg1mvz20c14w&timestamp=1685524187&rand=QdQqs7GRAR&uuid=9b647b3816b2a66a&from=web&sign=bcdec961ec1caf68d4fad31de9582559
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/3fe87f4773cf37e9ce00114feb6cb3a6.png" tvg-name="博斯高球-1" group-title="星視界頻道",博斯高球-1
+https://dispatch.ulivetv.net/v/live/cg1n0b4bgbeo.m3u8?stream_id=cg1n0b4bgbeo&timestamp=1685524201&rand=cLpOtM8j81&uuid=9b647b3816b2a66a&from=web&sign=7a219faf176a830c4911eccb462c3ae8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/a0aea9921a8a1dd6d00f18e9c68b1f2f.png" tvg-name="博斯高球-2" group-title="星視界頻道",博斯高球-2
+https://dispatch.ulivetv.net/v/live/cg1n6ib9u4sg.m3u8?stream_id=cg1n6ib9u4sg&timestamp=1685524215&rand=ZzTpxFA3RF&uuid=9b647b3816b2a66a&from=web&sign=da8dfa736aa8933ba9492e281a033e4f
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/78bba8fbbf5e751620bf161122be7d31.png" tvg-name="博斯网球" group-title="星視界頻道",博斯网球
+https://dispatch.ulivetv.net/v/live/cg1nb00eplts.m3u8?stream_id=cg1nb00eplts&timestamp=1685524229&rand=M48YfVkIpU&uuid=9b647b3816b2a66a&from=web&sign=d4a8f190e06a433e9c3bba83bb07e9a4
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/c690310a9f94e64246eda5f975ac49df.png" tvg-name="SonySports1" group-title="星視界頻道",SonySports1
+https://dispatch.ulivetv.net/v/live/cg1npm2qvn40.m3u8?stream_id=cg1npm2qvn40&timestamp=1685524244&rand=oOZdn88OY5&uuid=9b647b3816b2a66a&from=web&sign=0d17719a81a2092b999993f28b5e5459
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/afd963af6c272c0659f83ae731e952cc.png" tvg-name="SonySports2" group-title="星視界頻道",SonySports2
+https://dispatch.ulivetv.net/v/live/cg1o236o5ubk.m3u8?stream_id=cg1o236o5ubk&timestamp=1685524258&rand=fAJB8fFvpv&uuid=9b647b3816b2a66a&from=web&sign=8817b74e2922dba398c87ac54de62b14
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/6d0936d0b2820d2a8878f137bfa6c2f3.png" tvg-name="SonySports3" group-title="星視界頻道",SonySports3
+https://dispatch.ulivetv.net/v/live/cg1occ9jk43k.m3u8?stream_id=cg1occ9jk43k&timestamp=1685524272&rand=rAbcDrUOoP&uuid=9b647b3816b2a66a&from=web&sign=8815fbf4c371b14720f05bd513d5dda9
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/1b17e22edad72585b6e730c90099b11b.png" tvg-name="SonySports4" group-title="星視界頻道",SonySports4
+https://dispatch.ulivetv.net/v/live/cg1okgbznhs0.m3u8?stream_id=cg1okgbznhs0&timestamp=1685524286&rand=sdbTYpl5kf&uuid=9b647b3816b2a66a&from=web&sign=c064d11775f5541081553070017d6c8e
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-18/977ab3f92c9eef331c383afdc000d039.png" tvg-name="Eurosports-2" group-title="星視界頻道",Eurosports-2
+https://dispatch.ulivetv.net/v/live/cg1p37xozmio.m3u8?stream_id=cg1p37xozmio&timestamp=1685524300&rand=Ix84vorp3K&uuid=9b647b3816b2a66a&from=web&sign=eebf79d4cf6c3e4381a1136e47bfd267
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/e4a85a7fbffa9d55a6b5fca5d3665c79.png" tvg-name="beINSportsMAX" group-title="星視界頻道",beINSportsMAX
+https://dispatch.ulivetv.net/v/live/cg1pl1djbidc.m3u8?stream_id=cg1pl1djbidc&timestamp=1685524314&rand=q7JRV6Bcss&uuid=9b647b3816b2a66a&from=web&sign=f420c78672ddd27faf79a47833dfac8b
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/58bf83d42a7fd8b5a548ecbfb14437d6.png" tvg-name="SPOTV-2" group-title="星視界頻道",SPOTV-2
+https://dispatch.ulivetv.net/v/live/cg4vpue7oa80.m3u8?stream_id=cg4vpue7oa80&timestamp=1685524329&rand=4dBz0xyenx&uuid=9b647b3816b2a66a&from=web&sign=61baa68aa972a95ded8d4e277a282e14
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/6584ad7a64f2e5b57917c88205a0637e.png" tvg-name="SPOTV" group-title="星視界頻道",SPOTV
+https://dispatch.ulivetv.net/v/live/cg4y76plhgw0.m3u8?stream_id=cg4y76plhgw0&timestamp=1685524343&rand=1aXPpbM0BY&uuid=9b647b3816b2a66a&from=web&sign=f3ef76d9d7c57a389747846d2933f2da
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/3a84d2c48295516ac4b5c782582c418c.png" tvg-name="Eurosport" group-title="星視界頻道",Eurosport
+https://dispatch.ulivetv.net/v/live/cg4yqzuewerk.m3u8?stream_id=cg4yqzuewerk&timestamp=1685524399&rand=QjUpUJ1LEf&uuid=9b647b3816b2a66a&from=web&sign=c3d43b139cfb78e66849658c976831a4
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/4d0757dd23ff87237241950f4bbf36d3.png" tvg-name="Eurosports-1" group-title="星視界頻道",Eurosports-1
+https://dispatch.ulivetv.net/v/live/cl7cnsau00jk.m3u8?stream_id=cl7cnsau00jk&timestamp=1685524414&rand=YUsn6fGZf2&uuid=9b647b3816b2a66a&from=web&sign=bd3305750f4f9c7cd149013f87a05771
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/8648c974c0ad54511344d6c74b285b89.png" tvg-name="博斯无限" group-title="星視界頻道",博斯无限
+https://dispatch.ulivetv.net/v/live/clecumtydz28.m3u8?stream_id=clecumtydz28&timestamp=1685524428&rand=zaVEaPtyfQ&uuid=9b647b3816b2a66a&from=web&sign=240e424e39846ff7d6fae25f50ecf62b
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/6943f27ad78410fd4d21d09ed5ac228b.png" tvg-name="ELTA体育-1" group-title="星視界頻道",ELTA体育-1
+https://dispatch.ulivetv.net/v/live/clecyhjewngg.m3u8?stream_id=clecyhjewngg&timestamp=1685524442&rand=y83Gro4eJI&uuid=9b647b3816b2a66a&from=web&sign=24aab8c5837909141b9d3a1946e13d01
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/18e42a4ad28667140c0a2b6978a31871.png" tvg-name="ELTA体育-2" group-title="星視界頻道",ELTA体育-2
+https://dispatch.ulivetv.net/v/live/clecysls7oow.m3u8?stream_id=clecysls7oow&timestamp=1685524456&rand=Cy2bneWGAZ&uuid=9b647b3816b2a66a&from=web&sign=0ad304ea2e6cfc3d295d806254c08a9c
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/68d67143922d406ef56546d7125381df.png" tvg-name="靖天卡通台" group-title="星視界頻道",靖天卡通台
+https://dispatch.ulivetv.net/v/live/cg16vy7fp9s0.m3u8?stream_id=cg16vy7fp9s0&timestamp=1685524470&rand=2ubSbWqJxE&uuid=9b647b3816b2a66a&from=web&sign=0c88c200c0283b4cf6d87cc085c40a18
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/587708f2d0a8c81da01dc8c226defada.png" tvg-name="Astro小太阳" group-title="星視界頻道",Astro小太阳
+https://dispatch.ulivetv.net/v/live/cgbwueb4f8hs.m3u8?stream_id=cgbwueb4f8hs&timestamp=1685524485&rand=QZOJfPVnQs&uuid=9b647b3816b2a66a&from=web&sign=adc3f684d3f0d5112cb10c96acd1fef6
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-19/575c0203fc9522a1c545cd24452edf1b.png" tvg-name="MOMOTV" group-title="星視界頻道",MOMOTV
+https://dispatch.ulivetv.net/v/live/ciw8e2mbl9z4.m3u8?stream_id=ciw8e2mbl9z4&timestamp=1685524513&rand=4RRhnN9rrF&uuid=9b647b3816b2a66a&from=web&sign=1eb4c4b7f030476c0d65651e3ee7ece2
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/ab8b9ab4efc9c027ddba94a65afb56cb.png" tvg-name="小尼克频道" group-title="星視界頻道",小尼克频道
+https://dispatch.ulivetv.net/v/live/cl7ccsvv560w.m3u8?stream_id=cl7ccsvv560w&timestamp=1685524527&rand=FIK3nMYjPy&uuid=9b647b3816b2a66a&from=web&sign=7ec0bee206d1c25b64d0c42387e81428
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/e1fe6193781771b93a62cc5d33aa990f.png" tvg-name="MOMO亲子台" group-title="星視界頻道",MOMO亲子台
+https://dispatch.ulivetv.net/v/live/cl7cd4sc85a8.m3u8?stream_id=cl7cd4sc85a8&timestamp=1685524541&rand=il2GruVtUm&uuid=9b647b3816b2a66a&from=web&sign=63ebe8f2c98f9399d7f8d34f149985ee
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/cd5d84bc80291b23daa825efde2cdcfd.png" tvg-name="CN卡通" group-title="星視界頻道",CN卡通
+https://dispatch.ulivetv.net/v/live/cl7cebyhju80.m3u8?stream_id=cl7cebyhju80&timestamp=1685524555&rand=ddhttrA6hM&uuid=9b647b3816b2a66a&from=web&sign=41e40ae5441c129fabe8a1ff27fc4865
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/4cf6e946cd888b744c73d359d9639a25.png" tvg-name="Boomerang" group-title="星視界頻道",Boomerang
+https://dispatch.ulivetv.net/v/live/cl7cetj6bz5s.m3u8?stream_id=cl7cetj6bz5s&timestamp=1685524569&rand=VICIXlAhBj&uuid=9b647b3816b2a66a&from=web&sign=d8e27379af3e1a032d06865c400abcec
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/4e3dcc39b4eed0c21a65e76c43030671.png" tvg-name="Animax卡通" group-title="星視界頻道",Animax卡通
+https://dispatch.ulivetv.net/v/live/cl7cf8045n7k.m3u8?stream_id=cl7cf8045n7k&timestamp=1685524584&rand=Ko4EG4DAxs&uuid=9b647b3816b2a66a&from=web&sign=5e914002a39116999660e4f2ec03614f
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/389b07b806d71f0333899ab6428c584d.png" tvg-name="尼克儿童频道" group-title="星視界頻道",尼克儿童频道
+https://dispatch.ulivetv.net/v/live/clecty3pkqm8.m3u8?stream_id=clecty3pkqm8&timestamp=1685524598&rand=mRUjv1dm6I&uuid=9b647b3816b2a66a&from=web&sign=f789b1f8fb3cb546f2698c3259001a9b
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/22e53eaa8bca5157520afa6065ef2351.png" tvg-name="国家地理" group-title="星視界頻道",国家地理
+https://dispatch.ulivetv.net/v/live/cg1khzm3mzls.m3u8?stream_id=cg1khzm3mzls&timestamp=1685524612&rand=dJTjONRZIS&uuid=9b647b3816b2a66a&from=web&sign=fc31016511afe6424854cc033e77dc78
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/63bc31f0d375ae5aaaffb2260777fecd.png" tvg-name="国家地理野生频道" group-title="星視界頻道",国家地理野生频道
+https://dispatch.ulivetv.net/v/live/cg1kmp2fnw00.m3u8?stream_id=cg1kmp2fnw00&timestamp=1685524626&rand=M3hKoQLF18&uuid=9b647b3816b2a66a&from=web&sign=c4901fb616207371d81a7f5f1260cc16
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/25ee137d8d7388e4d893e411ced172e9.png" tvg-name="动物星球频道" group-title="星視界頻道",动物星球频道
+https://dispatch.ulivetv.net/v/live/cg1l4589x9s0.m3u8?stream_id=cg1l4589x9s0&timestamp=1685524640&rand=snOdd0Fhno&uuid=9b647b3816b2a66a&from=web&sign=229891371c61a8b6eece19b564ae4514
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/395d0e39c3d5008ec268237ea662f934.png" tvg-name="DMAX" group-title="星視界頻道",DMAX
+https://dispatch.ulivetv.net/v/live/cg1lcqvmahfk.m3u8?stream_id=cg1lcqvmahfk&timestamp=1685524668&rand=TsnnUkMhqZ&uuid=9b647b3816b2a66a&from=web&sign=cde24fdd92096630e536e8aa27fe89f8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/b0dd1a86b164ca68c50878876c235a03.png" tvg-name="探索科学频道" group-title="星視界頻道",探索科学频道
+https://dispatch.ulivetv.net/v/live/cg1lhf32n268.m3u8?stream_id=cg1lhf32n268&timestamp=1685524683&rand=16PikSWsH3&uuid=9b647b3816b2a66a&from=web&sign=e1e8a3cf533314e7a036542742c6ab5a
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/2dfdc344731675aa824eeb468fd54bbf.png" tvg-name="History频道" group-title="星視界頻道",History频道
+https://dispatch.ulivetv.net/v/live/cl7ch406n6ww.m3u8?stream_id=cl7ch406n6ww&timestamp=1685524711&rand=M03IOcf86M&uuid=9b647b3816b2a66a&from=web&sign=6064708a189639003e1eb076d02206c3
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/5798f3005816b6e69143829f00aa1d15.png" tvg-name="History-2频道" group-title="星視界頻道",History-2频道
+https://dispatch.ulivetv.net/v/live/cl7chgdb1t4w.m3u8?stream_id=cl7chgdb1t4w&timestamp=1685524725&rand=It1UIA0kru&uuid=9b647b3816b2a66a&from=web&sign=d3d92208edf4609b17f6d5635fd13a51
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/b030ed41a9d6445a6dd3c07e4f15f344.png" tvg-name="TLC旅游生活頻道" group-title="星視界頻道",TLC旅游生活頻道
+https://dispatch.ulivetv.net/v/live/cl7chv63w4ao.m3u8?stream_id=cl7chv63w4ao&timestamp=1685524739&rand=WilDWJSD4R&uuid=9b647b3816b2a66a&from=web&sign=07e73a3c3abaf2c2cc109569be1b0458
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/9ada19f286f94fdf32351a2bbd632cb4.png" tvg-name="CI罪案侦查频道" group-title="星視界頻道",CI罪案侦查频道
+https://dispatch.ulivetv.net/v/live/cl7ci6wopq68.m3u8?stream_id=cl7ci6wopq68&timestamp=1685524753&rand=PaeOmBsJB8&uuid=9b647b3816b2a66a&from=web&sign=37e1e38eb83170cadb3efa5d9a4e5b5a
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/0098b42b7359650c114876cc03638b1f.png" tvg-name="亚洲旅游台" group-title="星視界頻道",亚洲旅游台
+https://dispatch.ulivetv.net/v/live/cl7cikas48n4.m3u8?stream_id=cl7cikas48n4&timestamp=1685524768&rand=hji1hmaV7b&uuid=9b647b3816b2a66a&from=web&sign=dce338a6f5f746a1642c74a73d239790
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/8372c427e2dc2a5c6294fcb8e52213cb.png" tvg-name="美食星球频道" group-title="星視界頻道",美食星球频道
+https://dispatch.ulivetv.net/v/live/cl7cq7br5d4w.m3u8?stream_id=cl7cq7br5d4w&timestamp=1685524782&rand=2GHFNTjuYB&uuid=9b647b3816b2a66a&from=web&sign=925a4cc3c20d7999186cc1388a2019fe
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/b2f121f5def431fd2024eb7b0e7a9f50.png" tvg-name="EYE旅游台" group-title="星視界頻道",EYE旅游台
+https://dispatch.ulivetv.net/v/live/cl7crdhyxn0g.m3u8?stream_id=cl7crdhyxn0g&timestamp=1685524796&rand=I0hWJei9VR&uuid=9b647b3816b2a66a&from=web&sign=5fa5aef9c51c4ce389445ca44b055fe8
