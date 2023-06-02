@@ -49,10 +49,12 @@ https://pkj99.github.io/demo/m3u8/iptv/histartv/靖天卡通台.m3u8
 https://pkj99.github.io/ofiii/年代MUCH綜藝台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/6bad6989b3ed57e0c86deecef20873ef.png" tvg-name="中天娱乐台" group-title="台湾頻道",中天娱乐台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/中天娱乐台.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/2a382713ac60201ff6b5ace5e1fadd4f.png" tvg-name="东森戏剧台" group-title="台湾頻道",东森戏剧台
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/aab74c2a7dbcc91184d8cec9e503b8d1.png" tvg-name="东森戏剧台" group-title="台湾頻道",东森戏剧台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/东森戏剧.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/7ad1820056de0ab1043a4d062e1ffae3.png" tvg-name="八大戏剧台" group-title="台湾頻道",八大戏剧台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/八大戏剧台.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/e1fe6193781771b93a62cc5d33aa990f.png" tvg-name="MOMO亲子台" group-title="台湾頻道",MOMO亲子台
+https://pkj99.github.io/demo/m3u8/iptv/histartv/MOMO亲子台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/620759a7094b315d6841ca3cb6ce9603.png" tvg-name="纬来戏剧台" group-title="台湾頻道",纬来戏剧台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/纬来戏剧台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/cd5d84bc80291b23daa825efde2cdcfd.png" tvg-name="CN卡通" group-title="台湾頻道",CN卡通
@@ -69,7 +71,7 @@ https://pkj99.github.io/demo/m3u8/iptv/histartv/壹新闻.m3u8
 https://pkj99.github.io/YTLive/美好購物1台.m3u8
 #EXTINF:-1 tvg-logo="http://images.1111.com.tw/news/news60594.jpg" tvg-name="美好购物2台" group-title="台湾頻道",美好购物2台
 https://pkj99.github.io/YTLive/美好購物2台.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/4b2e63442d4d698e50602cc6f9729605.png" tvg-name="年代新闻台" group-title="台湾頻道",年代新闻台
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/2f530a19f9ec55c127ba68a5bd2dfea4.png" tvg-name="年代新闻台" group-title="台湾頻道",年代新闻台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/年代新闻.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/8c98c63946afa00f460e15f5f8330122.png" tvg-name="镜电视新闻台" group-title="台湾頻道",镜电视新闻台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/镜新闻.m3u8
@@ -85,24 +87,28 @@ https://pkj99.github.io/ofiii/民视新闻台.m3u8
 https://pkj99.github.io/YTLive/三立新闻台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/b4555f5a3a2c872195304987e9f4f324.png" tvg-name="TVBS新闻台" group-title="台湾頻道",TVBS新闻台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/TVBS新闻台.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/bf0f17db237213494054958097284cfc.png" tvg-name="东森财经新闻台" group-title="台湾頻道",东森财经新闻台
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/20804acec838b898ce1d7c285ba0b620.png" tvg-name="东森财经新闻台" group-title="台湾頻道",东森财经新闻台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/东森财经新闻.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv074_tv.png" tvg-name="中视新闻" group-title="台湾頻道",中视新闻
 https://pkj99.github.io/ofiii/中視新聞.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv009_tv.png" tvg-name="中天新闻台" group-title="台湾頻道",中天新闻台
 https://pkj99.github.io/ofiii/中天新聞台.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/9a0027d68ff09cccb5b2013bec4f069c.png" tvg-name="非凡新闻台" group-title="台湾頻道",非凡新闻台
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/40c9525f8f12ebda432350bd49f26bec.png" tvg-name="非凡新闻台" group-title="台湾頻道",非凡新闻台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/非凡新闻.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn14_tv.png" tvg-name="寰宇新闻" group-title="台湾頻道",寰宇新闻
 https://pkj99.github.io/ofiii/寰宇新聞台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/8526f4e3db31a2a64ba90680462d5664.png" tvg-name="卫视电影台" group-title="台湾頻道",卫视电影台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/卫视电影台.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/39c9b2c01ae539a57bd0e674d45844fc.png" tvg-name="东森电影台" group-title="台湾頻道",东森电影台
+#EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn15_tv.png" tvg-name="寰宇新闻台湾台" group-title="台湾頻道",寰宇新闻台湾台
+https://pkj99.github.io/ofiii/寰宇新聞台灣台.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/c0d9239ba4048db181fb1a2fac57a932.png" tvg-name="东森电影台" group-title="台湾頻道",东森电影台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/东森电影.m3u8
+#EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn23_tv.png" tvg-name="寰宇财经台" group-title="台湾頻道",寰宇财经台
+https://pkj99.github.io/ofiii/寰宇財經台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/94bae399b66709dcb932d90adc95e0d7.png" tvg-name="纬来电影台" group-title="台湾頻道",纬来电影台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/纬来电影台.m3u8
-#EXTINF:-1 tvg-logo="http://www.lstime.com.tw/ls_pages/pages/img/img_logo.png" tvg-name="龙祥时代" group-title="台湾頻道",龙祥时代
-http://120.84.96.89:808/hls/35/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/94e2fe21f47230e1e4424e880845b397.png" tvg-name="龙祥时代" group-title="台湾頻道",龙祥时代
+https://pkj99.github.io/demo/m3u8/iptv/histartv/龙祥电影台.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HBO.png" tvg-name="HBO" group-title="台湾頻道",HBO
 http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/660c86b6dd57ef1892cbbe6bddcc3aea.png" tvg-name="东森洋片台" group-title="台湾頻道",东森洋片台
@@ -111,8 +117,8 @@ https://pkj99.github.io/demo/m3u8/iptv/histartv/东森洋片.m3u8
 https://pkj99.github.io/demo/m3u8/iptv/histartv/TVBS.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/e/e9/TVBS_Asia_logo_2017.png/200px-TVBS_Asia_logo_2017.png" tvg-name="TVBS-Asia" group-title="台湾頻道",TVBS-Asia
 http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/好莱坞电影台.png" tvg-name="好莱坞电影台" group-title="台湾頻道",好莱坞电影台
-http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/429a2c0837d5a0c335aee14d5724911f.png" tvg-name="好莱坞电影台" group-title="台湾頻道",好莱坞电影台
+https://pkj99.github.io/demo/m3u8/iptv/histartv/好莱坞电影台.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv103_tv.png" tvg-name="东森购物二台" group-title="台湾頻道",东森购物二台
 https://pkj99.github.io/ofiii/東森購物2台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/9ffc0ecc6a1995900630ea2eda4ab88e.png" tvg-name="中天亚洲台" group-title="台湾頻道",中天亚洲台
@@ -131,14 +137,14 @@ https://pkj99.github.io/demo/m3u8/iptv/histartv/ELEVEN体育-2.m3u8
 https://pkj99.github.io/demo/m3u8/iptv/histartv/靖天资讯台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/37e3078e70e65577602ab9b033471c3c.png" tvg-name="TVBS欢乐台" group-title="台湾頻道",TVBS欢乐台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/TVBS欢乐台.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/13128ee3ad19c9b26d3484ba55c05906.png" tvg-name="纬来日本台" group-title="台湾頻道",纬来日本台
+https://pkj99.github.io/demo/m3u8/iptv/histartv/纬来日本.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/c68cef3f17f69b60904bb68137d22020.png" tvg-name="国兴卫视" group-title="台湾頻道",国兴卫视
 https://pkj99.github.io/demo/m3u8/iptv/histartv/国兴卫视.m3u8
-#EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn15_tv.png" tvg-name="寰宇新闻台湾台" group-title="台湾頻道",寰宇新闻台湾台
-https://pkj99.github.io/ofiii/寰宇新聞台灣台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/180c68238e13b1ec44170a87f848cbd5.png" tvg-name="八大娱乐台" group-title="台湾頻道",八大娱乐台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/八大娱乐台.m3u8
 #EXTINF:-1 tvg-logo="https://www.ebc.net.tw/Images/169-america.jpg" tvg-name="东森美洲新闻台" group-title="台湾頻道",东森美洲新闻台
-http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
+http://38.64.72.148:80/hls/modn/list/2015/chunklist1.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/f4d263daabd110d00765ef98be3a9f46.png" tvg-name="博斯运动一台" group-title="台湾頻道",博斯运动一台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/博斯运动-1.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/4bc41e3548d08a2fcc82638e3c2d30ba.png" tvg-name="博斯运动二台" group-title="台湾頻道",博斯运动二台
@@ -215,8 +221,6 @@ https://pkj99.github.io/ofiii/龍華偶像台.m3u8
 https://pkj99.github.io/demo/m3u8/iptv/histartv/ELTA影剧.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/a9edbbfbaf80ce93846ddb7c75b06b5f.png" tvg-name="EYE戏剧台" group-title="台湾頻道",EYE戏剧台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/EYE戏剧台.m3u8
-#EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn23_tv.png" tvg-name="寰宇财经台" group-title="台湾頻道",寰宇财经台
-https://pkj99.github.io/ofiii/寰宇財經台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/a32970159c0aecfc2db3a633ec7e73f3.png" tvg-name="龙华洋片" group-title="台湾頻道",龙华洋片
 https://pkj99.github.io/demo/m3u8/iptv/histartv/龙华洋片台.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn21_tv.png" tvg-name="龙华经典台" group-title="台湾頻道",龙华经典台
@@ -297,12 +301,14 @@ https://pkj99.github.io/ofiii/大發不動產.m3u8
 https://pkj99.github.io/ofiii/大叔的愛.m3u8
 #EXTINF:-1 tvg-logo="https://cdn2.ettoday.net/images/6653/d6653115.jpg" tvg-name="天才冲冲冲" group-title="台湾頻道",天才冲冲冲
 https://pkj99.github.io/YTLive/天才衝衝衝.m3u8
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/天映经典.png" tvg-name="天映经典" group-title="台湾頻道",天映经典
-http://120.84.96.89:808/hls/85/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/ab8b9ab4efc9c027ddba94a65afb56cb.png" tvg-name="小尼克频道" group-title="台湾頻道",小尼克频道
+https://pkj99.github.io/demo/m3u8/iptv/histartv/小尼克频道.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/vod_channel/logo_ofiii102_tv_20230329.png" tvg-name="山河月明" group-title="台湾頻道",山河月明
 https://pkj99.github.io/ofiii/山河月明.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/vod_channel/logo_litv-playout50_tv_20211124.png" tvg-name="掏掏新闻" group-title="台湾頻道",掏掏新闻
 https://pkj99.github.io/ofiii/掏掏新聞.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/8ded074f4befbc34f264c378cc823d9c.png" tvg-name="星卫HD电影" group-title="台湾頻道",星卫HD电影
+https://pkj99.github.io/demo/m3u8/iptv/histartv/星卫电影台.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/vod_channel/logo_ofiii151_tv_20221115.png" tvg-name="检法男女2" group-title="台湾頻道",检法男女2
 https://pkj99.github.io/ofiii/檢法男女2.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/vod_channel/logo_ofiii146_tv_20221111.png" tvg-name="欢迎来到第2人生" group-title="台湾頻道",欢迎来到第2人生
@@ -327,6 +333,8 @@ https://pkj99.github.io/YTLive/經典元宇宙直播.m3u8
 https://pkj99.github.io/ofiii/統哥 嗜駕Pit63.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/vod_channel/logo_ofiii130_tv_20230329.png" tvg-name="综艺玩很大" group-title="台湾頻道",综艺玩很大
 https://pkj99.github.io/ofiii/綜藝玩很大.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/03eca8ccd8c7c33fb673652eff43fbc9.png" tvg-name="美亚电影台" group-title="台湾頻道",美亚电影台
+https://pkj99.github.io/demo/m3u8/iptv/histartv/美亚电影台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/8372c427e2dc2a5c6294fcb8e52213cb.png" tvg-name="美食星球频道" group-title="台湾頻道",美食星球频道
 https://pkj99.github.io/demo/m3u8/iptv/histartv/美食星球频道.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/vod_channel/logo_ofiii185_tv_20221110.png" tvg-name="蒙福人生" group-title="台湾頻道",蒙福人生
@@ -436,6 +444,8 @@ https://pkj99.github.io/demo/m3u8/iptv/histartv/青海卫视.m3u8
 https://pkj99.github.io/demo/m3u8/iptv/histartv/南方卫视.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/ee5ca106d68ac8f503af86c701ad9427.png" tvg-name="厦门卫视" group-title="大陸頻道",厦门卫视
 https://pkj99.github.io/demo/m3u8/iptv/histartv/厦门卫视.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/0e674400a99bc3dd9bba3a90e6f86957.png" tvg-name="西藏卫视" group-title="大陸頻道",西藏卫视
+https://pkj99.github.io/demo/m3u8/iptv/histartv/西藏卫视.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/95f170d56a00f1eb078055322cf85aaf.png" tvg-name="海南卫视" group-title="大陸頻道",海南卫视
 https://pkj99.github.io/demo/m3u8/iptv/histartv/海南卫视.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/cb492997db7349599890321d13790ec7.png" tvg-name="福建海峡卫视" group-title="大陸頻道",福建海峡卫视
@@ -445,7 +455,7 @@ https://pkj99.github.io/demo/m3u8/iptv/histartv/福建海峡卫视.m3u8
 https://ythls.onrender.com/channel/UC5nwNW4KdC0SzrhF9BXEYOQ.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/三立新闻台.png" tvg-name="三立新闻台" group-title="新聞頻道",三立新闻台
 https://ythls.onrender.com/channel/UCoNYj9OFHZn3ACmmeRCPwbA.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/bf0f17db237213494054958097284cfc.png" tvg-name="东森财经新闻台" group-title="新聞頻道",东森财经新闻台
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/20804acec838b898ce1d7c285ba0b620.png" tvg-name="东森财经新闻台" group-title="新聞頻道",东森财经新闻台
 https://ythls.onrender.com/channel/UCuzqko_GKcj9922M1gUo__w.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv009_tv.png" tvg-name="中天新闻台" group-title="新聞頻道",中天新闻台
 https://ythls.onrender.com/channel/UCpu3bemTQwAU8PqM4kJdoEQ.m3u8
@@ -464,8 +474,8 @@ https://pkj99.github.io/YTLive/TVBS新聞.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/三立新闻台.png" tvg-name="三立新闻台" group-title="新聞頻道",三立新闻台
 https://pkj99.github.io/YTLive/三立新闻台.m3u8
 #EXTINF:-1 tvg-logo="https://www.ebc.net.tw/Images/169-america.jpg" tvg-name="东森美洲新闻台" group-title="新聞頻道",东森美洲新闻台
-http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/bf0f17db237213494054958097284cfc.png" tvg-name="东森财经新闻台" group-title="新聞頻道",东森财经新闻台
+http://38.64.72.148:80/hls/modn/list/2015/chunklist1.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/20804acec838b898ce1d7c285ba0b620.png" tvg-name="东森财经新闻台" group-title="新聞頻道",东森财经新闻台
 https://pkj99.github.io/YTLive/東森財經新聞.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv009_tv.png" tvg-name="中天新闻台" group-title="新聞頻道",中天新闻台
 https://pkj99.github.io/YTLive/中天新聞.m3u8
@@ -487,7 +497,7 @@ https://pkj99.github.io/demo/m3u8/ftv.html?ChannelName=FTVNews
 https://pkj99.github.io/demo/m3u8/iptv/histartv/TVBS新闻台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/90050ed8b153419ad48c29c1f610d5ab.png" tvg-name="东森新闻台" group-title="新聞頻道",东森新闻台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/东森新闻.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/bf0f17db237213494054958097284cfc.png" tvg-name="东森财经新闻台" group-title="新聞頻道",东森财经新闻台
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/20804acec838b898ce1d7c285ba0b620.png" tvg-name="东森财经新闻台" group-title="新聞頻道",东森财经新闻台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/东森财经新闻.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv009_tv.png" tvg-name="中天新闻台" group-title="新聞頻道",中天新闻台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/中天新闻.m3u8
@@ -501,11 +511,11 @@ https://pkj99.github.io/demo/m3u8/iptv/histartv/台视新闻.m3u8
 https://pkj99.github.io/demo/m3u8/iptv/histartv/壹新闻.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn14_tv.png" tvg-name="寰宇新闻" group-title="新聞頻道",寰宇新闻
 https://pkj99.github.io/demo/m3u8/iptv/histartv/寰宇新闻台.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/4b2e63442d4d698e50602cc6f9729605.png" tvg-name="年代新闻台" group-title="新聞頻道",年代新闻台
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/2f530a19f9ec55c127ba68a5bd2dfea4.png" tvg-name="年代新闻台" group-title="新聞頻道",年代新闻台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/年代新闻.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/8c98c63946afa00f460e15f5f8330122.png" tvg-name="镜电视新闻台" group-title="新聞頻道",镜电视新闻台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/镜新闻.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/9a0027d68ff09cccb5b2013bec4f069c.png" tvg-name="非凡新闻台" group-title="新聞頻道",非凡新闻台
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/40c9525f8f12ebda432350bd49f26bec.png" tvg-name="非凡新闻台" group-title="新聞頻道",非凡新闻台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/非凡新闻.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv009_tv.png" tvg-name="中天新闻台" group-title="新聞頻道",中天新闻台
 https://pkj99.github.io/ofiii/中天新聞台.m3u8
@@ -561,20 +571,26 @@ https://pkj99.github.io/demo/m3u8/iptv/histartv/纬来体育.m3u8
 http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/660c86b6dd57ef1892cbbe6bddcc3aea.png" tvg-name="东森洋片台" group-title="電影頻道",东森洋片台
 http://162.19.247.76:22222/live/dsypt/index.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/39c9b2c01ae539a57bd0e674d45844fc.png" tvg-name="东森电影台" group-title="電影頻道",东森电影台
-http://120.84.96.89:808/hls/32/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/c0d9239ba4048db181fb1a2fac57a932.png" tvg-name="东森电影台" group-title="電影頻道",东森电影台
+http://162.19.247.76:22222/live/dsdyt/index.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/8526f4e3db31a2a64ba90680462d5664.png" tvg-name="卫视电影台" group-title="電影頻道",卫视电影台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/卫视电影台.m3u8
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/好莱坞电影台.png" tvg-name="好莱坞电影台" group-title="電影頻道",好莱坞电影台
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/429a2c0837d5a0c335aee14d5724911f.png" tvg-name="好莱坞电影台" group-title="電影頻道",好莱坞电影台
 http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-live021_mobile.png" tvg-name="经典电影台" group-title="電影頻道",经典电影台
 http://epg.112114.xyz/douyu/74374
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/660c86b6dd57ef1892cbbe6bddcc3aea.png" tvg-name="东森洋片台" group-title="電影頻道",东森洋片台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/东森洋片.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/39c9b2c01ae539a57bd0e674d45844fc.png" tvg-name="东森电影台" group-title="電影頻道",东森电影台
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/c0d9239ba4048db181fb1a2fac57a932.png" tvg-name="东森电影台" group-title="電影頻道",东森电影台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/东森电影.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/429a2c0837d5a0c335aee14d5724911f.png" tvg-name="好莱坞电影台" group-title="電影頻道",好莱坞电影台
+https://pkj99.github.io/demo/m3u8/iptv/histartv/好莱坞电影台.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/8ded074f4befbc34f264c378cc823d9c.png" tvg-name="星卫HD电影" group-title="電影頻道",星卫HD电影
+https://pkj99.github.io/demo/m3u8/iptv/histartv/星卫电影台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/94bae399b66709dcb932d90adc95e0d7.png" tvg-name="纬来电影台" group-title="電影頻道",纬来电影台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/纬来电影台.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/03eca8ccd8c7c33fb673652eff43fbc9.png" tvg-name="美亚电影台" group-title="電影頻道",美亚电影台
+https://pkj99.github.io/demo/m3u8/iptv/histartv/美亚电影台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/97d335b08f3c19e143b0459e1d25f9b5.png" tvg-name="靖天电影台" group-title="電影頻道",靖天电影台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/靖天电影台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/a32970159c0aecfc2db3a633ec7e73f3.png" tvg-name="龙华洋片" group-title="電影頻道",龙华洋片
@@ -592,7 +608,7 @@ https://ythls.onrender.com/channel/UCmH4q-YjeazayYCVHHkGAMA.m3u8
 https://ythls.onrender.com/channel/UC8ROUUjHzEQm-ndb69CX8Ww.m3u8
 #EXTINF:-1 tvg-logo="https://www.ftv.com.tw/images/Ch_04.png" tvg-name="民视新闻台" group-title="Youtube頻道",民视新闻台
 https://ythls.onrender.com/channel/UC2VmWn8dAqkzlQqvy02E1PA.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/bf0f17db237213494054958097284cfc.png" tvg-name="东森财经新闻台" group-title="Youtube頻道",东森财经新闻台
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/20804acec838b898ce1d7c285ba0b620.png" tvg-name="东森财经新闻台" group-title="Youtube頻道",东森财经新闻台
 https://ythls.onrender.com/channel/UCuzqko_GKcj9922M1gUo__w.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv009_tv.png" tvg-name="中天新闻台" group-title="Youtube頻道",中天新闻台
 https://ythls.onrender.com/channel/UCpu3bemTQwAU8PqM4kJdoEQ.m3u8
@@ -675,7 +691,7 @@ https://pkj99.github.io/demo/m3u8/iptv/histartv/尼克儿童频道.m3u8
 https://pkj99.github.io/demo/m3u8/iptv/histartv/靖天卡通台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/6bad6989b3ed57e0c86deecef20873ef.png" tvg-name="中天娱乐台" group-title="星視界頻道",中天娱乐台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/中天娱乐台.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/2a382713ac60201ff6b5ace5e1fadd4f.png" tvg-name="东森戏剧台" group-title="星視界頻道",东森戏剧台
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/aab74c2a7dbcc91184d8cec9e503b8d1.png" tvg-name="东森戏剧台" group-title="星視界頻道",东森戏剧台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/东森戏剧.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/7ad1820056de0ab1043a4d062e1ffae3.png" tvg-name="八大戏剧台" group-title="星視界頻道",八大戏剧台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/八大戏剧台.m3u8
@@ -687,7 +703,7 @@ https://pkj99.github.io/demo/m3u8/iptv/histartv/纬来戏剧台.m3u8
 https://pkj99.github.io/demo/m3u8/iptv/histartv/CN卡通.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/0874fd4d77ca35ccaa61ea95e9fc0fb5.png" tvg-name="壹电视新闻台" group-title="星視界頻道",壹电视新闻台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/壹新闻.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/4b2e63442d4d698e50602cc6f9729605.png" tvg-name="年代新闻台" group-title="星視界頻道",年代新闻台
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/2f530a19f9ec55c127ba68a5bd2dfea4.png" tvg-name="年代新闻台" group-title="星視界頻道",年代新闻台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/年代新闻.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/8c98c63946afa00f460e15f5f8330122.png" tvg-name="镜电视新闻台" group-title="星視界頻道",镜电视新闻台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/镜新闻.m3u8
@@ -699,17 +715,17 @@ https://pkj99.github.io/demo/m3u8/iptv/histartv/华视新闻.m3u8
 https://pkj99.github.io/demo/m3u8/iptv/histartv/台视新闻.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/b4555f5a3a2c872195304987e9f4f324.png" tvg-name="TVBS新闻台" group-title="星視界頻道",TVBS新闻台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/TVBS新闻台.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/bf0f17db237213494054958097284cfc.png" tvg-name="东森财经新闻台" group-title="星視界頻道",东森财经新闻台
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/20804acec838b898ce1d7c285ba0b620.png" tvg-name="东森财经新闻台" group-title="星視界頻道",东森财经新闻台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/东森财经新闻.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv074_tv.png" tvg-name="中视新闻" group-title="星視界頻道",中视新闻
 https://pkj99.github.io/demo/m3u8/iptv/histartv/中视新闻.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv009_tv.png" tvg-name="中天新闻台" group-title="星視界頻道",中天新闻台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/中天新闻.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/9a0027d68ff09cccb5b2013bec4f069c.png" tvg-name="非凡新闻台" group-title="星視界頻道",非凡新闻台
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/40c9525f8f12ebda432350bd49f26bec.png" tvg-name="非凡新闻台" group-title="星視界頻道",非凡新闻台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/非凡新闻.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn14_tv.png" tvg-name="寰宇新闻" group-title="星視界頻道",寰宇新闻
 https://pkj99.github.io/demo/m3u8/iptv/histartv/寰宇新闻台.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/39c9b2c01ae539a57bd0e674d45844fc.png" tvg-name="东森电影台" group-title="星視界頻道",东森电影台
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/c0d9239ba4048db181fb1a2fac57a932.png" tvg-name="东森电影台" group-title="星視界頻道",东森电影台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/东森电影.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/94bae399b66709dcb932d90adc95e0d7.png" tvg-name="纬来电影台" group-title="星視界頻道",纬来电影台
 https://pkj99.github.io/demo/m3u8/iptv/histartv/纬来电影台.m3u8
