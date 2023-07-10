@@ -13,6 +13,10 @@ https://pkj99.github.io/ofiii/中視.m3u8
 https://pkj99.github.io/ofiii/華視.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-14/69bbb859523176a445b587d2e6f0e281.png" tvg-name="东森幼幼台" group-title="台湾頻道",东森幼幼台
 https://pkj99.github.io/YTLive/東森幼幼台.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/三立台湾台.png" tvg-name="三立台湾台" group-title="台湾頻道",三立台湾台
+https://sanlihalive1-a.akamaihd.net/5ffd3a166f7241d9b489b7d7241db96f/ap-northeast-1/4338955585001/profile_0/chunklist.m3u8?hdnea=st=1664678506~exp=9007200919419497~acl=/5ffd3a166f7241d9b489b7d7241db96f/*/profile_0/chunklist.m3u8*~hmac=cfd432e7da8eece68fe4a4da3a3bc08ab1bbc50b147a84c95ae3d4a569e932b1
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/三立都会台.png" tvg-name="三立都会台" group-title="台湾頻道",三立都会台
+https://sanlihalive1-a.akamaihd.net/4c3bb0ccad574d0e9b507c2dcd2dfabc/ap-northeast-1/4338955585001/profile_0/chunklist.m3u8?hdnea=st=1664678487~exp=9007200919419478~acl=/4c3bb0ccad574d0e9b507c2dcd2dfabc/*/profile_0/chunklist.m3u8*~hmac=1a3986bd8fb660eacbcc9954c67fb674fa810779ddc2fab5fa77188868ca3686
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn20_tv.png" tvg-name="ELTV生活英语台" group-title="台湾頻道",ELTV生活英语台
 https://pkj99.github.io/ofiii/ELTV生活英語台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/70fda4dde38d46532b07675a6de8e95a.png" tvg-name="东森综合台" group-title="台湾頻道",东森综合台
@@ -32,7 +36,7 @@ https://pkj99.github.io/YTLive/MOMO購物二台.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv102_tv.png" tvg-name="东森购物一台" group-title="台湾頻道",东森购物一台
 https://pkj99.github.io/ofiii/東森購物1台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/0874fd4d77ca35ccaa61ea95e9fc0fb5.png" tvg-name="壹电视新闻台" group-title="台湾頻道",壹电视新闻台
-http://60.251.59.180:8501/.m3u8
+http://60.251.59.180:8501/http/60.251.39.91:8081/hls/66/808/ch24.m3u8
 #EXTINF:-1 tvg-logo="https://www.vivatv.com.tw/common/images/header/logo.png" tvg-name="美好购物1台" group-title="台湾頻道",美好购物1台
 https://pkj99.github.io/YTLive/美好購物1台.m3u8
 #EXTINF:-1 tvg-logo="http://images.1111.com.tw/news/news60594.jpg" tvg-name="美好购物2台" group-title="台湾頻道",美好购物2台
@@ -65,12 +69,10 @@ https://pkj99.github.io/ofiii/寰宇新聞台灣台.m3u8
 http://162.19.247.76:22222/live/dsdyt/index.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn23_tv.png" tvg-name="寰宇财经台" group-title="台湾頻道",寰宇财经台
 https://pkj99.github.io/ofiii/寰宇財經台.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/94e2fe21f47230e1e4424e880845b397.png" tvg-name="龙祥时代" group-title="台湾頻道",龙祥时代
-http://107.151.203.111:2209/135/hk.php?id=lxsdt
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/548efcbaee6549ca5f653ecbaa44be2a.png" tvg-name="东森洋片台" group-title="台湾頻道",东森洋片台
-http://107.151.203.111:2209/135/hk.php?id=dsypt
+http://162.19.247.76:22222/live/dsypt/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/e/e9/TVBS_Asia_logo_2017.png/200px-TVBS_Asia_logo_2017.png" tvg-name="TVBS-Asia" group-title="台湾頻道",TVBS-Asia
-http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
+http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv103_tv.png" tvg-name="东森购物二台" group-title="台湾頻道",东森购物二台
 https://pkj99.github.io/ofiii/東森購物2台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/9ffc0ecc6a1995900630ea2eda4ab88e.png" tvg-name="中天亚洲台" group-title="台湾頻道",中天亚洲台
@@ -82,7 +84,7 @@ http://61.221.81.93:8078/hls/25/80/esport.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/582288ed83812ac2effd56a794070d51.png" tvg-name="ELEVEN体育二台" group-title="台湾頻道",ELEVEN体育二台
 http://61.221.81.93:8078/hls/26/80/esport2.m3u8
 #EXTINF:-1 tvg-logo="https://www.ebc.net.tw/Images/169-america.jpg" tvg-name="东森美洲新闻台" group-title="台湾頻道",东森美洲新闻台
-http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
+http://38.64.72.148:80/hls/modn/list/2015/chunklist1.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_4gtv_litv-longturn01_tv.png" tvg-name="龙华动画" group-title="台湾頻道",龙华动画
 https://pkj99.github.io/ofiii/龍華卡通台.m3u8
 #EXTINF:-1 tvg-logo="https://www.ftv.com.tw/images/Ch_07.png" tvg-name="民视旅游台" group-title="台湾頻道",民视旅游台
@@ -105,8 +107,6 @@ https://pkj99.github.io/ofiii/龍華戲劇台.m3u8
 https://pkj99.github.io/ofiii/龍華日韓台.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/v7XjLfGhuoWIR9m3Dy7zpxZGdc8FpX_zg-4JCAwJuPyPs1SYqTyH21ywKvI_rIykS3auzbeIzw=s176-c-k-c0x00ffffff-no-rj" tvg-name="靖天电视台" group-title="台湾頻道",靖天电视台
 https://ytm2.yuanhsing.cf/Faintv.m3u8
-#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/v7XjLfGhuoWIR9m3Dy7zpxZGdc8FpX_zg-4JCAwJuPyPs1SYqTyH21ywKvI_rIykS3auzbeIzw=s176-c-k-c0x00ffffff-no-rj" tvg-name="靖天电视台" group-title="台湾頻道",靖天电视台
-https://ytm2.yuanhsing.cf/Faintv.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn03_tv.png" tvg-name="龙华电影" group-title="台湾頻道",龙华电影
 https://pkj99.github.io/ofiii/龍華電影台.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_litv-ftv17_tv.png" tvg-name="好消息2台" group-title="台湾頻道",好消息2台
@@ -119,8 +119,6 @@ https://pkj99.github.io/YTLive/大愛一台.m3u8
 https://pkj99.github.io/YTLive/大愛二台.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/人间卫视.png" tvg-name="人间卫视" group-title="台湾頻道",人间卫视
 http://218.32.47.179:8506/http/192.168.1.9:8081/hls/69/811/ch36.m3u8http://120.84.96.195:808/hls/32/index.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-live021_mobile.png" tvg-name="经典电影台" group-title="台湾頻道",经典电影台
-http://epg.112114.xyz/douyu/74374
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn19_tv.png" tvg-name="Smart知识台" group-title="台湾頻道",Smart知识台
 https://pkj99.github.io/ofiii/Smart知識台.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn12_tv.png" tvg-name="龙华偶像" group-title="台湾頻道",龙华偶像
@@ -204,6 +202,93 @@ https://pkj99.github.io/ofiii/銀髮聚樂部.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AGIKgqOuJ8021gUVWWPl-22fDEIy3jkA7MPHyVTDxDkDiQ=s176-c-k-c0x00ffffff-no-rj" tvg-name="饥饿游戏" group-title="台湾頻道",饥饿游戏
 https://pkj99.github.io/YTLive/飢餓遊戲.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/76f6ac22de1631dce56550d51c9469bb.png" tvg-name="CCTV1" group-title="大陸頻道",CCTV1
+https://live.goodiptv.club/api/bestv.php?id=cctv1hd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/e657b56596d96fffff3074eba0a738f0.png" tvg-name="CCTV2" group-title="大陸頻道",CCTV2
+https://live.goodiptv.club/api/bestv.php?id=cctv2hd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/7342c95efd04ed9793cbfc5a0a8c879e.png" tvg-name="CCTV3" group-title="大陸頻道",CCTV3
+https://live.goodiptv.club/api/bestv.php?id=cctv38m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/e0163c90dfbd0e5f61b4211a690fc9f6.png" tvg-name="CCTV4" group-title="大陸頻道",CCTV4
+https://live.goodiptv.club/api/bestv.php?id=cctv4hd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/066bacb565742da8fbd5a0c7028084db.png" tvg-name="CCTV5" group-title="大陸頻道",CCTV5
+https://live.goodiptv.club/api/bestv.php?id=cctv58m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/dc090d2903d93841e3a322cb8e1ff6e9.png" tvg-name="CCTV5+" group-title="大陸頻道",CCTV5+
+https://live.goodiptv.club/api/bestv.php?id=cctv5phd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/c33edddbe29ec9143d428f27d4a646ac.png" tvg-name="CCTV6" group-title="大陸頻道",CCTV6
+https://live.goodiptv.club/api/bestv.php?id=cctv6hd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/c80decf1aaac9eb5b55d262293d22567.png" tvg-name="CCTV7" group-title="大陸頻道",CCTV7
+https://live.goodiptv.club/api/bestv.php?id=cctv7hd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/da83cb27fd0848fb6ba28c79974b6867.png" tvg-name="CCTV8" group-title="大陸頻道",CCTV8
+https://live.goodiptv.club/api/bestv.php?id=cctv8hd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/f5a5867f230cbb1ed3dcd3bd690e9be4.png" tvg-name="CCTV9" group-title="大陸頻道",CCTV9
+https://live.goodiptv.club/api/bestv.php?id=cctv9hd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/224d871be82883fc071ce82b2fbc8978.png" tvg-name="CCTV10" group-title="大陸頻道",CCTV10
+https://live.goodiptv.club/api/bestv.php?id=cctv10hd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/5b37d3f796bacd161fc8ad525fdfbfd9.png" tvg-name="CCTV11" group-title="大陸頻道",CCTV11
+https://live.goodiptv.club/api/bestv.php?id=cctv11hd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/a0fd933f26f3573d5049c50e109c41b4.png" tvg-name="CCTV12" group-title="大陸頻道",CCTV12
+https://live.goodiptv.club/api/bestv.php?id=cctv12hd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/053124d7e916a14c60e7cb77cd95bd0f.png" tvg-name="CCTV13" group-title="大陸頻道",CCTV13
+https://live.goodiptv.club/api/bestv.php?id=cctv13xwhd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/a79b5b3bb88b512ce968a369ac193176.png" tvg-name="CCTV14" group-title="大陸頻道",CCTV14
+https://live.goodiptv.club/api/bestv.php?id=cctvsehd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/3639c6aaa5151cb9d7b75d5994046e3f.png" tvg-name="CCTV15" group-title="大陸頻道",CCTV15
+https://live.goodiptv.club/api/bestv.php?id=cctv15hd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/504d70fb569134a353f5ffc39ceb0229.png" tvg-name="CCTV16" group-title="大陸頻道",CCTV16
+https://live.goodiptv.club/api/bestv.php?id=cctv16hd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/3dc3e477aba3405133386eee71238a40.png" tvg-name="CCTV17" group-title="大陸頻道",CCTV17
+https://live.goodiptv.club/api/bestv.php?id=cctv17hd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/290ebbfaed1914c1de1b752359f49421.png" tvg-name="湖南卫视" group-title="大陸頻道",湖南卫视
+https://live.goodiptv.club/api/bestv.php?id=hunanwshd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/47ceafd9cf44cccd24a129ae2a62c0ea.png" tvg-name="浙江卫视" group-title="大陸頻道",浙江卫视
+https://live.goodiptv.club/api/bestv.php?id=zjwshd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/cbeb656f088d3cab170d886c74c31f86.png" tvg-name="江苏卫视" group-title="大陸頻道",江苏卫视
+https://live.goodiptv.club/api/bestv.php?id=jswshd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/2394d416aabb7865ed790faefd263ec5.png" tvg-name="北京卫视" group-title="大陸頻道",北京卫视
+https://live.goodiptv.club/api/bestv.php?id=bjwshd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/bc40658602043d05d7d41f5b5690ecc2.png" tvg-name="东方卫视" group-title="大陸頻道",东方卫视
+https://live.goodiptv.club/api/bestv.php?id=dfwshd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/d7b25866d437441782e7a316614d8484.png" tvg-name="安徽卫视" group-title="大陸頻道",安徽卫视
+https://live.goodiptv.club/api/bestv.php?id=ahwshd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/65a07c81762d75b5dfb15e87aba4b5b6.png" tvg-name="广东卫视" group-title="大陸頻道",广东卫视
+https://live.goodiptv.club/api/bestv.php?id=gdwshd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/181eb4f3053e6c94e4206704c4074492.png" tvg-name="深圳卫视" group-title="大陸頻道",深圳卫视
+https://live.goodiptv.club/api/bestv.php?id=szwshd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/74fc5d74452ea644913a950977fca5d2.png" tvg-name="辽宁卫视" group-title="大陸頻道",辽宁卫视
+https://live.goodiptv.club/api/bestv.php?id=lnwshd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/cddf68286ede702507f089e5aa8ae7e5.png" tvg-name="山东卫视" group-title="大陸頻道",山东卫视
+https://live.goodiptv.club/api/bestv.php?id=sdws8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/ae4cc844873c10620a98d5610afdceb9.png" tvg-name="天津卫视" group-title="大陸頻道",天津卫视
+https://live.goodiptv.club/api/bestv.php?id=tjwshd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/1e4b95da850b6b9c0bead92047ef2660.png" tvg-name="重庆卫视" group-title="大陸頻道",重庆卫视
+https://live.goodiptv.club/api/bestv.php?id=cqws8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/58293d3dfee292fe584261f617ca31f2.png" tvg-name="东南卫视" group-title="大陸頻道",东南卫视
+https://live.goodiptv.club/api/bestv.php?id=dnwshd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/12bcd007d60ac36a7236475a27960705.png" tvg-name="甘肃卫视" group-title="大陸頻道",甘肃卫视
+https://live.goodiptv.club/api/bestv.php?id=gswshd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/511cdb6f94db861ace7f246f55cacb36.png" tvg-name="广西卫视" group-title="大陸頻道",广西卫视
+https://live.goodiptv.club/api/bestv.php?id=gxwshd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/b53bb38bf456ebc9d20be7922ea10a70.png" tvg-name="贵州卫视" group-title="大陸頻道",贵州卫视
+https://live.goodiptv.club/api/bestv.php?id=gzwshd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/83df61a38e9619fcf473dd9fc25f2710.png" tvg-name="河北卫视" group-title="大陸頻道",河北卫视
+https://live.goodiptv.club/api/bestv.php?id=hbwshd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/f17a70863e213abac648cf2c0975fa87.png" tvg-name="黑龙江卫视" group-title="大陸頻道",黑龙江卫视
+https://live.goodiptv.club/api/bestv.php?id=hljwshd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/c773f7c6705b79b31dd5402eb688e0f4.png" tvg-name="河南卫视" group-title="大陸頻道",河南卫视
+https://live.goodiptv.club/api/bestv.php?id=hnwshd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/95d03fedb9867e96ea69aa59d198ae5b.png" tvg-name="湖北卫视" group-title="大陸頻道",湖北卫视
+https://live.goodiptv.club/api/bestv.php?id=hubeiws8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/cced15e2301aefcc56374669b8841cf6.png" tvg-name="江西卫视" group-title="大陸頻道",江西卫视
+https://live.goodiptv.club/api/bestv.php?id=jxws8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/c97c03243af4d641d4e25f4ef87cb3cc.png" tvg-name="吉林卫视" group-title="大陸頻道",吉林卫视
+https://live.goodiptv.club/api/bestv.php?id=jlwshd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/f414ec22f12993e13996639d34c14c62.png" tvg-name="四川卫视" group-title="大陸頻道",四川卫视
+https://live.goodiptv.club/api/bestv.php?id=scwshd/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/4c6794058ccefe2d561823a849d84430.png" tvg-name="云南卫视" group-title="大陸頻道",云南卫视
+https://live.goodiptv.club/api/bestv.php?id=ynwshd8m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/95f170d56a00f1eb078055322cf85aaf.png" tvg-name="海南卫视" group-title="大陸頻道",海南卫视
+https://live.goodiptv.club/api/bestv.php?id=hainanwshd8m/8000000
+#EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/b4555f5a3a2c872195304987e9f4f324.png" tvg-name="TVBS新闻台" group-title="新聞頻道",TVBS新闻台
 https://ythls.onrender.com/channel/UC5nwNW4KdC0SzrhF9BXEYOQ.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/三立新闻台.png" tvg-name="三立新闻台" group-title="新聞頻道",三立新闻台
@@ -229,7 +314,7 @@ https://pkj99.github.io/YTLive/三立新闻台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/90050ed8b153419ad48c29c1f610d5ab.png" tvg-name="东森新闻台" group-title="新聞頻道",东森新闻台
 http://60.251.59.180:8503/http/60.251.39.91:8081/hls/63/805/4_2213132.m3u8
 #EXTINF:-1 tvg-logo="https://www.ebc.net.tw/Images/169-america.jpg" tvg-name="东森美洲新闻台" group-title="新聞頻道",东森美洲新闻台
-http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
+http://38.64.72.148:80/hls/modn/list/2015/chunklist1.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/20804acec838b898ce1d7c285ba0b620.png" tvg-name="东森财经新闻台" group-title="新聞頻道",东森财经新闻台
 https://pkj99.github.io/YTLive/東森財經新聞.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv009_tv.png" tvg-name="中天新闻台" group-title="新聞頻道",中天新闻台
@@ -239,7 +324,7 @@ https://pkj99.github.io/YTLive/中視新聞.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv051_tv.png" tvg-name="台视新闻台" group-title="新聞頻道",台视新闻台
 https://pkj99.github.io/YTLive/台視新聞.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/0874fd4d77ca35ccaa61ea95e9fc0fb5.png" tvg-name="壹电视新闻台" group-title="新聞頻道",壹电视新闻台
-http://60.251.59.180:8501/.m3u8
+http://60.251.59.180:8501/http/60.251.39.91:8081/hls/66/808/ch24.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn14_tv.png" tvg-name="寰宇新闻" group-title="新聞頻道",寰宇新闻
 https://pkj99.github.io/YTLive/寰宇新聞.m3u8
 #EXTINF:-1 tvg-logo="https://www.ftv.com.tw/images/Ch_04.png" tvg-name="民视新闻台" group-title="新聞頻道",民视新闻台
@@ -266,18 +351,28 @@ https://pkj99.github.io/ofiii/掏掏新聞.m3u8
 https://pkj99.github.io/ofiii/民视新闻台.m3u8
 #EXTINF:-1 tvg-logo="https://www.ftv.com.tw/images/Ch_04.png" tvg-name="民视新闻台" group-title="新聞頻道",民视新闻台
 https://pkj99.github.io/YTLive/民視新聞台.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="上视新闻" group-title="新聞頻道",上视新闻
+https://live.goodiptv.club/api/bestv.php?id=xwzhhd8m/8000000
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/d7b773de73832eb6d428db4998f24fb5.png" tvg-name="ELEVEN体育一台" group-title="體育頻道",ELEVEN体育一台
 http://61.221.81.93:8078/hls/25/80/esport.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/582288ed83812ac2effd56a794070d51.png" tvg-name="ELEVEN体育二台" group-title="體育頻道",ELEVEN体育二台
 http://61.221.81.93:8078/hls/26/80/esport2.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/066bacb565742da8fbd5a0c7028084db.png" tvg-name="CCTV5" group-title="體育頻道",CCTV5
+https://live.goodiptv.club/api/bestv.php?id=cctv58m/8000000
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/dc090d2903d93841e3a322cb8e1ff6e9.png" tvg-name="CCTV5+" group-title="體育頻道",CCTV5+
+https://live.goodiptv.club/api/bestv.php?id=cctv5phd8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="五星体育" group-title="體育頻道",五星体育
+https://live.goodiptv.club/api/bestv.php?id=wxtyhd8m/8000000
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/劲爆体育.png" tvg-name="劲爆体育" group-title="體育頻道",劲爆体育
+https://live.goodiptv.club/api/bestv.php?id=jbtyhd8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="超级体育" group-title="體育頻道",超级体育
+https://live.goodiptv.club/api/bestv.php?id=qcsj8m/8000000
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/548efcbaee6549ca5f653ecbaa44be2a.png" tvg-name="东森洋片台" group-title="電影頻道",东森洋片台
-http://107.151.203.111:2209/135/hk.php?id=dsypt
+http://162.19.247.76:22222/live/dsypt/index.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/c0d9239ba4048db181fb1a2fac57a932.png" tvg-name="东森电影台" group-title="電影頻道",东森电影台
 http://162.19.247.76:22222/live/dsdyt/index.m3u8
-#EXTINF:-1 tvg-logo="https://pic.4gtv.tv/ChannelLogo/mobile/logo_4gtv_4gtv-live021_mobile.png" tvg-name="经典电影台" group-title="電影頻道",经典电影台
-http://epg.112114.xyz/douyu/74374
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/vod_channel/logo_ofiii74_tv_20230116.png" tvg-name="欧飞电影台" group-title="電影頻道",欧飞电影台
 https://pkj99.github.io/ofiii/歐飛電影台.m3u8
 #EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn03_tv.png" tvg-name="龙华电影" group-title="電影頻道",龙华电影
@@ -335,6 +430,99 @@ https://ythls.onrender.com/video/HRwAMooYM3w.m3u8
 https://ythls.onrender.com/channel/UCriy3vlLtiBov3nLdPLadUg.m3u8
 #EXTINF:-1 tvg-logo="https://cdn2.ettoday.net/images/6653/d6653115.jpg" tvg-name="天才冲冲冲" group-title="Youtube頻道",天才冲冲冲
 https://ythls.onrender.com/channel/UCdpxNQgqL3276yjrK03gMXA.m3u8
+#EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="" tvg-name="上海教育" group-title="百視通頻道",上海教育
+https://live.goodiptv.club/api/bestv.php?id=setvhd/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="上海第一财经" group-title="百視通頻道",上海第一财经
+https://live.goodiptv.club/api/bestv.php?id=dycjhd8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="上海都市" group-title="百視通頻道",上海都市
+https://live.goodiptv.club/api/bestv.php?id=dshd8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="上视外语" group-title="百視通頻道",上视外语
+https://live.goodiptv.club/api/bestv.php?id=icshd8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="上视新闻" group-title="百視通頻道",上视新闻
+https://live.goodiptv.club/api/bestv.php?id=xwzhhd8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="东方财经" group-title="百視通頻道",东方财经
+https://live.goodiptv.club/api/bestv.php?id=dfcjhd8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="中国教育-1" group-title="百視通頻道",中国教育-1
+https://live.goodiptv.club/api/bestv.php?id=zgjy1t8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="中国教育-4" group-title="百視通頻道",中国教育-4
+https://live.goodiptv.club/api/bestv.php?id=zgjy4hd8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="五星体育" group-title="百視通頻道",五星体育
+https://live.goodiptv.club/api/bestv.php?id=wxtyhd8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="健康养生" group-title="百視通頻道",健康养生
+https://live.goodiptv.club/api/bestv.php?id=jkys8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="全球大片" group-title="百視通頻道",全球大片
+https://live.goodiptv.club/api/bestv.php?id=qqdp8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="动漫秀场" group-title="百視通頻道",动漫秀场
+https://live.goodiptv.club/api/bestv.php?id=dmxc8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="华语影院" group-title="百視通頻道",华语影院
+https://live.goodiptv.club/api/bestv.php?id=hyyy8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="卡酷少儿" group-title="百視通頻道",卡酷少儿
+https://live.goodiptv.club/api/bestv.php?id=kkse8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="宝宝动画" group-title="百視通頻道",宝宝动画
+https://live.goodiptv.club/api/bestv.php?id=bbdh8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="戏曲精选" group-title="百視通頻道",戏曲精选
+https://live.goodiptv.club/api/bestv.php?id=xqjx8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="星光影院" group-title="百視通頻道",星光影院
+https://live.goodiptv.club/api/bestv.php?id=xgyy8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="欢笑剧场4k" group-title="百視通頻道",欢笑剧场4k
+https://live.goodiptv.club/api/bestv.php?id=hxjc4k/15000000
+#EXTINF:-1 tvg-logo="" tvg-name="法治天地" group-title="百視通頻道",法治天地
+https://live.goodiptv.club/api/bestv.php?id=fztd8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="炫动卡通" group-title="百視通頻道",炫动卡通
+https://live.goodiptv.club/api/bestv.php?id=hhxd8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="热门剧场" group-title="百視通頻道",热门剧场
+https://live.goodiptv.club/api/bestv.php?id=rmjc8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="热门综艺" group-title="百視通頻道",热门综艺
+https://live.goodiptv.club/api/bestv.php?id=rmzy8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="百变课堂" group-title="百視通頻道",百变课堂
+https://live.goodiptv.club/api/bestv.php?id=bbkt8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="看天下精选" group-title="百視通頻道",看天下精选
+https://live.goodiptv.club/api/bestv.php?id=ktxjx8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="纪实科教" group-title="百視通頻道",纪实科教
+https://live.goodiptv.club/api/bestv.php?id=dajs8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="谍战剧场" group-title="百視通頻道",谍战剧场
+https://live.goodiptv.club/api/bestv.php?id=dzjc8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="超级体育" group-title="百視通頻道",超级体育
+https://live.goodiptv.club/api/bestv.php?id=qcsj8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="足球" group-title="百視通頻道",足球
+https://live.goodiptv.club/api/bestv.php?id=zqpd8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="都市剧场" group-title="百視通頻道",都市剧场
+https://live.goodiptv.club/api/bestv.php?id=dsjc8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="金色学堂" group-title="百視通頻道",金色学堂
+https://live.goodiptv.club/api/bestv.php?id=jingsepd8m/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="陶瓷" group-title="百視通頻道",陶瓷
+https://live.goodiptv.club/api/bestv.php?id=taocihd/8000000
+#EXTINF:-1 tvg-logo="" tvg-name="青春动漫" group-title="百視通頻道",青春动漫
+https://live.goodiptv.club/api/bestv.php?id=qcdm8m/8000000
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/七彩戏剧.png" tvg-name="七彩戏剧" group-title="百視通頻道",七彩戏剧
+https://live.goodiptv.club/api/bestv.php?id=qcxjhd8m/8000000
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/上海纪实.png" tvg-name="上海纪实" group-title="百視通頻道",上海纪实
+https://live.goodiptv.club/api/bestv.php?id=jspdhd/4000000
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/东方影视.png" tvg-name="东方影视" group-title="百視通頻道",东方影视
+https://live.goodiptv.club/api/bestv.php?id=dfyshd8m/8000000
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/全纪实.png" tvg-name="全纪实" group-title="百視通頻道",全纪实
+https://live.goodiptv.club/api/bestv.php?id=qjshd8m/8000000
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/劲爆体育.png" tvg-name="劲爆体育" group-title="百視通頻道",劲爆体育
+https://live.goodiptv.club/api/bestv.php?id=jbtyhd8m/8000000
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/快乐垂钓.png" tvg-name="快乐垂钓" group-title="百視通頻道",快乐垂钓
+https://live.goodiptv.club/api/bestv.php?id=klcd8m/8000000
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/新视觉.png" tvg-name="新视觉" group-title="百視通頻道",新视觉
+https://live.goodiptv.club/api/bestv.php?id=xsjhd8m/8000000
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/欢笑剧场.png" tvg-name="欢笑剧场" group-title="百視通頻道",欢笑剧场
+https://live.goodiptv.club/api/bestv.php?id=hxjc8m/8000000
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/游戏风云.png" tvg-name="游戏风云" group-title="百視通頻道",游戏风云
+https://live.goodiptv.club/api/bestv.php?id=yxfy8m/8000000
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/生活时尚.png" tvg-name="生活时尚" group-title="百視通頻道",生活时尚
+https://live.goodiptv.club/api/bestv.php?id=shss8m/8000000
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/电竞天堂.png" tvg-name="电竞天堂" group-title="百視通頻道",电竞天堂
+https://live.goodiptv.club/api/bestv.php?id=djtt8m/8000000
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/茶频道.png" tvg-name="茶频道" group-title="百視通頻道",茶频道
+https://live.goodiptv.club/api/bestv.php?id=cpdhdavs8m/8000000
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/金鹰纪实.png" tvg-name="金鹰纪实" group-title="百視通頻道",金鹰纪实
+https://live.goodiptv.club/api/bestv.php?id=jyjs8m/8000000
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/魅力足球.png" tvg-name="魅力足球" group-title="百視通頻道",魅力足球
+https://live.goodiptv.club/api/bestv.php?id=mlyyhd8m/8000000
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/asia-fm-92-3.png" group-title="廣播頻道" radio="true",AsiaFM亞太電台FM92.3
 https://stream.rcs.revma.com/kydend74hv8uv
