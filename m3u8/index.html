@@ -8,6 +8,7 @@
     <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="../images/movie.ico">
 
     <link rel="stylesheet" href="../css/mytheme-font.css" type="text/css" />
     <link rel="stylesheet" href="../css/mytheme-ui.css" type="text/css" />
@@ -105,12 +106,16 @@
         urlParams[decode(match[1])] = decode(match[2]);
     })();
 
-	const collection = document.getElementsByClassName("menu_header");
-	for (let i = 0; i < collection.length; i++) {
-		if ( collection[i].innerHTML.includes(urlParams["path"]) ){
-			collection[i].classList.add("active");
-		}
-	}
+    if (urlParams["path"] == undefined){
+        urlParams["path"] = 'hits';
+      }
+
+    const collection = document.getElementsByClassName("menu_header");
+    for (let i = 0; i < collection.length; i++) {
+      if ( collection[i].innerHTML.includes(urlParams["path"]) ){
+        collection[i].classList.add("active");
+      }
+    }
     
 
     (async () => {

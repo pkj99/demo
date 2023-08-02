@@ -161,9 +161,9 @@
       "webPlus": {}
     },
     {
-      "name": "星視界(IPTV)",
-      "pic": "https://pkj99.github.io/demo/images/histartv.jpg",
-      "webUrl": "https://pkj99.github.io/demo/media/histartv.m3u",
+      "name": "百視通(IPTV)",
+      "pic": "https://pkj99.github.io/demo/images/bestv.png",
+      "webUrl": "https://pkj99.github.io/demo/media/bestv.m3u",
       "type": "m3u",
       "subTitle": "",
       "click": true,
