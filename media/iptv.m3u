@@ -59,10 +59,6 @@ https://pkj99.github.io/ofiii/寰宇新聞台.m3u8
 https://pkj99.github.io/ofiii/寰宇新聞台灣台.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn23_tv.png" tvg-name="寰宇财经台" group-title="台湾頻道",寰宇财经台
 https://pkj99.github.io/ofiii/寰宇財經台.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/94e2fe21f47230e1e4424e880845b397.png" tvg-name="龙祥时代" group-title="台湾頻道",龙祥时代
-http://107.151.203.111:2209/135/hk.php?id=lxsdt
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/548efcbaee6549ca5f653ecbaa44be2a.png" tvg-name="东森洋片台" group-title="台湾頻道",东森洋片台
-http://107.151.203.111:2209/135/hk.php?id=dsypt
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/e/e9/TVBS_Asia_logo_2017.png/200px-TVBS_Asia_logo_2017.png" tvg-name="TVBS-Asia" group-title="台湾頻道",TVBS-Asia
 http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv103_tv.png" tvg-name="东森购物二台" group-title="台湾頻道",东森购物二台
@@ -102,7 +98,7 @@ https://pkj99.github.io/YTLive/大愛一台.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/3047fff0f5a07dd0c3a4fc9958f24335.png" tvg-name="大爱二台" group-title="台湾頻道",大爱二台
 https://pkj99.github.io/YTLive/大愛二台.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/人间卫视.png" tvg-name="人间卫视" group-title="台湾頻道",人间卫视
-http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
+http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn19_tv.png" tvg-name="Smart知识台" group-title="台湾頻道",Smart知识台
 https://pkj99.github.io/ofiii/Smart知識台.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn12_tv.png" tvg-name="龙华偶像" group-title="台湾頻道",龙华偶像
@@ -163,8 +159,6 @@ https://pkj99.github.io/ofiii/大叔的愛.m3u8
 https://pkj99.github.io/ofiii/大新聞大爆卦.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_ofiii135_tv_20230707.png" tvg-name="天才冲冲冲" group-title="台湾頻道",天才冲冲冲
 https://pkj99.github.io/ofiii/天才衝衝衝.m3u8
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/天映经典.png" tvg-name="天映经典" group-title="台湾頻道",天映经典
-http://107.151.203.111:2209/135/hk.php?id=ccmt
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_ofiii202_tv_20230707.png" tvg-name="头条开讲" group-title="台湾頻道",头条开讲
 https://pkj99.github.io/ofiii/頭條開講.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_ofiii148_tv_20230515.png" tvg-name="头脑共助" group-title="台湾頻道",头脑共助
@@ -379,8 +373,6 @@ https://live.goodiptv.club/api/bestv.php?id=jbtyhd8m/8000000
 #EXTINF:-1 tvg-logo="" tvg-name="超级体育" group-title="體育頻道",超级体育
 https://live.goodiptv.club/api/bestv.php?id=qcsj8m/8000000
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/548efcbaee6549ca5f653ecbaa44be2a.png" tvg-name="东森洋片台" group-title="電影頻道",东森洋片台
-http://107.151.203.111:2209/135/hk.php?id=dsypt
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_ofiii74_tv_20230116.png" tvg-name="欧飞电影台" group-title="電影頻道",欧飞电影台
 https://pkj99.github.io/ofiii/歐飛電影台.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn03_tv.png" tvg-name="龙华电影" group-title="電影頻道",龙华电影
