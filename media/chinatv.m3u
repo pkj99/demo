@@ -1,91 +1,121 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/cbeb656f088d3cab170d886c74c31f86.png" tvg-name="江苏卫视" group-title="卫视",江苏卫视
-https://live.goodiptv.club/api/bestv.php?id=jswshd8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/511cdb6f94db861ace7f246f55cacb36.png" tvg-name="广西卫视" group-title="卫视",广西卫视
-https://live.goodiptv.club/api/bestv.php?id=gxwshd8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/f414ec22f12993e13996639d34c14c62.png" tvg-name="四川卫视" group-title="卫视",四川卫视
-https://live.goodiptv.club/api/bestv.php?id=scwshd/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/290ebbfaed1914c1de1b752359f49421.png" tvg-name="湖南卫视" group-title="卫视",湖南卫视
-https://live.goodiptv.club/api/bestv.php?id=hunanwshd8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/47ceafd9cf44cccd24a129ae2a62c0ea.png" tvg-name="浙江卫视" group-title="卫视",浙江卫视
-https://live.goodiptv.club/api/bestv.php?id=zjwshd8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/bc40658602043d05d7d41f5b5690ecc2.png" tvg-name="东方卫视" group-title="卫视",东方卫视
-https://live.goodiptv.club/api/bestv.php?id=dfwshd8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/2394d416aabb7865ed790faefd263ec5.png" tvg-name="北京卫视" group-title="卫视",北京卫视
-https://live.goodiptv.club/api/bestv.php?id=bjwshd8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/ae4cc844873c10620a98d5610afdceb9.png" tvg-name="天津卫视" group-title="卫视",天津卫视
-https://live.goodiptv.club/api/bestv.php?id=tjwshd8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/74fc5d74452ea644913a950977fca5d2.png" tvg-name="辽宁卫视" group-title="卫视",辽宁卫视
-https://live.goodiptv.club/api/bestv.php?id=lnwshd8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/d7b25866d437441782e7a316614d8484.png" tvg-name="安徽卫视" group-title="卫视",安徽卫视
-https://live.goodiptv.club/api/bestv.php?id=ahwshd8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/f17a70863e213abac648cf2c0975fa87.png" tvg-name="黑龙江卫视" group-title="卫视",黑龙江卫视
-https://live.goodiptv.club/api/bestv.php?id=hljwshd8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/65a07c81762d75b5dfb15e87aba4b5b6.png" tvg-name="广东卫视" group-title="卫视",广东卫视
-https://live.goodiptv.club/api/bestv.php?id=gdwshd8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/181eb4f3053e6c94e4206704c4074492.png" tvg-name="深圳卫视" group-title="卫视",深圳卫视
-https://live.goodiptv.club/api/bestv.php?id=szwshd8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/95d03fedb9867e96ea69aa59d198ae5b.png" tvg-name="湖北卫视" group-title="卫视",湖北卫视
-https://live.goodiptv.club/api/bestv.php?id=hubeiws8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/c97c03243af4d641d4e25f4ef87cb3cc.png" tvg-name="吉林卫视" group-title="卫视",吉林卫视
-https://live.goodiptv.club/api/bestv.php?id=jlwshd8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/cddf68286ede702507f089e5aa8ae7e5.png" tvg-name="山东卫视" group-title="卫视",山东卫视
-https://live.goodiptv.club/api/bestv.php?id=sdws8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/cced15e2301aefcc56374669b8841cf6.png" tvg-name="江西卫视" group-title="卫视",江西卫视
-https://live.goodiptv.club/api/bestv.php?id=jxws8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/c773f7c6705b79b31dd5402eb688e0f4.png" tvg-name="河南卫视" group-title="卫视",河南卫视
-https://live.goodiptv.club/api/bestv.php?id=hnwshd8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/83df61a38e9619fcf473dd9fc25f2710.png" tvg-name="河北卫视" group-title="卫视",河北卫视
-https://live.goodiptv.club/api/bestv.php?id=hbwshd8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/12bcd007d60ac36a7236475a27960705.png" tvg-name="甘肃卫视" group-title="卫视",甘肃卫视
-https://live.goodiptv.club/api/bestv.php?id=gswshd8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/1e4b95da850b6b9c0bead92047ef2660.png" tvg-name="重庆卫视" group-title="卫视",重庆卫视
-https://live.goodiptv.club/api/bestv.php?id=cqws8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/58293d3dfee292fe584261f617ca31f2.png" tvg-name="东南卫视" group-title="卫视",东南卫视
-https://live.goodiptv.club/api/bestv.php?id=dnwshd8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/4c6794058ccefe2d561823a849d84430.png" tvg-name="云南卫视" group-title="卫视",云南卫视
-https://live.goodiptv.club/api/bestv.php?id=ynwshd8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/b53bb38bf456ebc9d20be7922ea10a70.png" tvg-name="贵州卫视" group-title="卫视",贵州卫视
-https://live.goodiptv.club/api/bestv.php?id=gzwshd8m/8000000
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/95f170d56a00f1eb078055322cf85aaf.png" tvg-name="海南卫视" group-title="卫视",海南卫视
-https://live.goodiptv.club/api/bestv.php?id=hainanwshd8m/8000000
-#EXTINF:-1 tvg-logo="" tvg-name="CCTV16-4K" group-title="央视",CCTV16-4K
-https://live.goodiptv.club/api/bestv.php?id=cctv16hd4k/15000000
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV4K.png" tvg-name="CCTV4K" group-title="央视",CCTV4K
-https://live.goodiptv.club/api/bestv.php?id=cctv4k/15000000
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/76f6ac22de1631dce56550d51c9469bb.png" tvg-name="CCTV1" group-title="央视",CCTV1
-https://live.goodiptv.club/api/bestv.php?id=cctv1hd8m/8000000
+http://hls.live.cqccn.com/__cl/cg:live/__c/cctv1HD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/e657b56596d96fffff3074eba0a738f0.png" tvg-name="CCTV2" group-title="央视",CCTV2
-https://live.goodiptv.club/api/bestv.php?id=cctv2hd8m/8000000
+http://hls.live.cqccn.com/__cl/cg:live/__c/cctv2HD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/7342c95efd04ed9793cbfc5a0a8c879e.png" tvg-name="CCTV3" group-title="央视",CCTV3
-https://live.goodiptv.club/api/bestv.php?id=cctv38m/8000000
+http://hls.live.cqccn.com/__cl/cg:live/__c/cctv3HD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/e0163c90dfbd0e5f61b4211a690fc9f6.png" tvg-name="CCTV4" group-title="央视",CCTV4
-https://live.goodiptv.club/api/bestv.php?id=cctv4hd8m/8000000
+http://hls.live.cqccn.com/__cl/cg:live/__c/cctv4HD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/066bacb565742da8fbd5a0c7028084db.png" tvg-name="CCTV5" group-title="央视",CCTV5
-https://live.goodiptv.club/api/bestv.php?id=cctv58m/8000000
+http://hls.live.cqccn.com/__cl/cg:live/__c/cctv5HD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/dc090d2903d93841e3a322cb8e1ff6e9.png" tvg-name="CCTV5+" group-title="央视",CCTV5+
-https://live.goodiptv.club/api/bestv.php?id=cctv5phd8m/8000000
+http://hls.live.cqccn.com/__cl/cg:live/__c/cctv5SportHD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/c33edddbe29ec9143d428f27d4a646ac.png" tvg-name="CCTV6" group-title="央视",CCTV6
-https://live.goodiptv.club/api/bestv.php?id=cctv6hd8m/8000000
+http://hls.live.cqccn.com/__cl/cg:live/__c/cctv6HD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/c80decf1aaac9eb5b55d262293d22567.png" tvg-name="CCTV7" group-title="央视",CCTV7
-https://live.goodiptv.club/api/bestv.php?id=cctv7hd8m/8000000
+http://hls.live.cqccn.com/__cl/cg:live/__c/cctv7HD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/da83cb27fd0848fb6ba28c79974b6867.png" tvg-name="CCTV8" group-title="央视",CCTV8
-https://live.goodiptv.club/api/bestv.php?id=cctv8hd8m/8000000
+http://hls.live.cqccn.com/__cl/cg:live/__c/cctv8HD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/f5a5867f230cbb1ed3dcd3bd690e9be4.png" tvg-name="CCTV9" group-title="央视",CCTV9
-https://live.goodiptv.club/api/bestv.php?id=cctv9hd8m/8000000
+http://hls.live.cqccn.com/__cl/cg:live/__c/cctv9HD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/224d871be82883fc071ce82b2fbc8978.png" tvg-name="CCTV10" group-title="央视",CCTV10
-https://live.goodiptv.club/api/bestv.php?id=cctv10hd8m/8000000
+http://hls.live.cqccn.com/__cl/cg:live/__c/cctv10HD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/5b37d3f796bacd161fc8ad525fdfbfd9.png" tvg-name="CCTV11" group-title="央视",CCTV11
-https://live.goodiptv.club/api/bestv.php?id=cctv11hd8m/8000000
+http://hls.live.cqccn.com/__cl/cg:live/__c/cctv11HD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/a0fd933f26f3573d5049c50e109c41b4.png" tvg-name="CCTV12" group-title="央视",CCTV12
-https://live.goodiptv.club/api/bestv.php?id=cctv12hd8m/8000000
+http://hls.live.cqccn.com/__cl/cg:live/__c/cctv12HD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/053124d7e916a14c60e7cb77cd95bd0f.png" tvg-name="CCTV13" group-title="央视",CCTV13
-https://live.goodiptv.club/api/bestv.php?id=cctv13xwhd8m/8000000
+http://hls.live.cqccn.com/__cl/cg:live/__c/CCTVNewsHD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/a79b5b3bb88b512ce968a369ac193176.png" tvg-name="CCTV14" group-title="央视",CCTV14
-https://live.goodiptv.club/api/bestv.php?id=cctvsehd8m/8000000
+http://hls.live.cqccn.com/__cl/cg:live/__c/cctvseHD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/3639c6aaa5151cb9d7b75d5994046e3f.png" tvg-name="CCTV15" group-title="央视",CCTV15
-https://live.goodiptv.club/api/bestv.php?id=cctv15hd8m/8000000
+http://hls.live.cqccn.com/__cl/cg:live/__c/cctv15HD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/504d70fb569134a353f5ffc39ceb0229.png" tvg-name="CCTV16" group-title="央视",CCTV16
-https://live.goodiptv.club/api/bestv.php?id=cctv16hd8m/8000000
+http://hls.live.cqccn.com/__cl/cg:live/__c/cctv16HD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/3dc3e477aba3405133386eee71238a40.png" tvg-name="CCTV17" group-title="央视",CCTV17
-https://live.goodiptv.club/api/bestv.php?id=cctv17hd8m/8000000
+http://hls.live.cqccn.com/__cl/cg:live/__c/cctv17HD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.haoqu99.com/d/file/2015/1121/20151121055049793.jpg" tvg-name="CCTV风云剧场" group-title="央视",CCTV风云剧场
+http://hls.live.cqccn.com/__cl/cg:live/__c/shandongHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.haoqu99.com/d/file/2015/1121/20151121055049793.jpg" tvg-name="CCTV风云剧场" group-title="央视",CCTV风云剧场
+http://hls.live.cqccn.com/__cl/cg:live/__c/fyjcHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.haoqu99.com/d/file/2015/1121/20151121053553871.jpg" tvg-name="CCTV风云音乐" group-title="央视",CCTV风云音乐
+http://hls.live.cqccn.com/__cl/cg:live/__c/fyyyHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="CCTV风云台球" group-title="央视",CCTV风云台球
+http://hls.live.cqccn.com/__cl/cg:live/__c/ystqHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.haoqu99.com/d/file/2015/1121/20151121054949338.jpg" tvg-name="CCTV怀旧剧场" group-title="央视",CCTV怀旧剧场
+http://hls.live.cqccn.com/__cl/cg:live/__c/hjjcHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.haoqu99.com/d/file/2015/1121/20151121054839774.jpg" tvg-name="CCTV第一剧场" group-title="央视",CCTV第一剧场
+http://hls.live.cqccn.com/__cl/cg:live/__c/diyijuchangHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.haoqu99.com/d/file/2019/0801/small3946de076291b3a561947481fcdd7dfc.jpg" tvg-name="CCTV兵器科技" group-title="央视",CCTV兵器科技
+http://hls.live.cqccn.com/__cl/cg:live/__c/bqkjHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/58293d3dfee292fe584261f617ca31f2.png" tvg-name="东南卫视" group-title="卫视",东南卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/dongnanHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/bc40658602043d05d7d41f5b5690ecc2.png" tvg-name="东方卫视" group-title="卫视",东方卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/shanghaiHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/4c6794058ccefe2d561823a849d84430.png" tvg-name="云南卫视" group-title="卫视",云南卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/yunnanSD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/2394d416aabb7865ed790faefd263ec5.png" tvg-name="北京卫视" group-title="卫视",北京卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/beijingHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/c97c03243af4d641d4e25f4ef87cb3cc.png" tvg-name="吉林卫视" group-title="卫视",吉林卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/jilinHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/f414ec22f12993e13996639d34c14c62.png" tvg-name="四川卫视" group-title="卫视",四川卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/sichuanHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/ae4cc844873c10620a98d5610afdceb9.png" tvg-name="天津卫视" group-title="卫视",天津卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/tianjinHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/3011fd583d4a12fddceb9bff10f5729d.png" tvg-name="宁夏卫视" group-title="卫视",宁夏卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/ningxia/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/d7b25866d437441782e7a316614d8484.png" tvg-name="安徽卫视" group-title="卫视",安徽卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/anhuiSD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/8debab5a161889613e07cf8555433463.png" tvg-name="山西卫视" group-title="卫视",山西卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/shanxiSD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/65a07c81762d75b5dfb15e87aba4b5b6.png" tvg-name="广东卫视" group-title="卫视",广东卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/guangdongHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/511cdb6f94db861ace7f246f55cacb36.png" tvg-name="广西卫视" group-title="卫视",广西卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/guangxiHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/7b7e7e72f91a764a35c74abbf5eeceb6.png" tvg-name="新疆卫视" group-title="卫视",新疆卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/xinjiangSD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/cbeb656f088d3cab170d886c74c31f86.png" tvg-name="江苏卫视" group-title="卫视",江苏卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/jiangsuHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/cced15e2301aefcc56374669b8841cf6.png" tvg-name="江西卫视" group-title="卫视",江西卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/jiangxiHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/83df61a38e9619fcf473dd9fc25f2710.png" tvg-name="河北卫视" group-title="卫视",河北卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/hebeiSD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/c773f7c6705b79b31dd5402eb688e0f4.png" tvg-name="河南卫视" group-title="卫视",河南卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/henanHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/47ceafd9cf44cccd24a129ae2a62c0ea.png" tvg-name="浙江卫视" group-title="卫视",浙江卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/zhejiangHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/95f170d56a00f1eb078055322cf85aaf.png" tvg-name="海南卫视" group-title="卫视",海南卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/hainanSD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/181eb4f3053e6c94e4206704c4074492.png" tvg-name="深圳卫视" group-title="卫视",深圳卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/shenzhenHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/95d03fedb9867e96ea69aa59d198ae5b.png" tvg-name="湖北卫视" group-title="卫视",湖北卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/hubeiSD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/290ebbfaed1914c1de1b752359f49421.png" tvg-name="湖南卫视" group-title="卫视",湖南卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/hunanHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/0e674400a99bc3dd9bba3a90e6f86957.png" tvg-name="西藏卫视" group-title="卫视",西藏卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/xizangSD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/b53bb38bf456ebc9d20be7922ea10a70.png" tvg-name="贵州卫视" group-title="卫视",贵州卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/guizhouHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/74fc5d74452ea644913a950977fca5d2.png" tvg-name="辽宁卫视" group-title="卫视",辽宁卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/liaoningHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/1e4b95da850b6b9c0bead92047ef2660.png" tvg-name="重庆卫视" group-title="卫视",重庆卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/chongqingHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/54689a36ae39c43655c984143adfb058.png" tvg-name="青海卫视" group-title="卫视",青海卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/qinghaiSD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/f17a70863e213abac648cf2c0975fa87.png" tvg-name="黑龙江卫视" group-title="卫视",黑龙江卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/heilongjiangHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/三沙卫视.png" tvg-name="三沙卫视" group-title="卫视",三沙卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/sanshaSD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="教育卫视" group-title="卫视",教育卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/sdjiaoyuSD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/兵团卫视.png" tvg-name="兵团卫视" group-title="卫视",兵团卫视
+http://hls.live.cqccn.com/__cl/cg:live/__c/bingtuanSD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="凤凰卫视标清" group-title="卫视",凤凰卫视标清
+http://hls.live.cqccn.com/__cl/cg:live/__c/xfjcHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV4K.png" tvg-name="CCTV4K" group-title="央视",CCTV4K
+http://hls.live.cqccn.com/__cl/cg:live/__c/CCTV4K/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="CCTV16-4K" group-title="央视",CCTV16-4K
+http://hls.live.cqccn.com/__cl/cg:live/__c/CCTV16_4K/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="CCTV1综合" group-title="央视",CCTV1综合
+http://hls.live.cqccn.com/__cl/cg:live/__c/cctv1HD/__op/default/__f/index.m3u8
