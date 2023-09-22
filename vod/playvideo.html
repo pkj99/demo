@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Video Player</title>
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,viewport-fit=cover">
+<meta name="renderer" content="webkit">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta name="applicable-device" content="mobile">
+<meta name="screen-orientation" content="portrait">
+<meta name="x5-orientation" content="portrait">
+<meta name="description" content="Video Player">
+<meta name="keywords" content="Video Player">
+<meta name="referrer" content="same-origin">
+<script src="js/hls.min.js"></script>
+<script src="js/DPlayer.min.js"></script>
+
+<style type="text/css">
+	body,html,div{padding:0;margin: 0;font-style: normal;font-weight: normal;}
+	#dplayer{position: absolute; left: 0;top: 0;width: 100%; height: 100%;}
+	a{text-decoration: none;}
+	.dplayer.dplayer-fulled{position: fixed !important;}
+	.dplayer-controller .dplayer-icons .dplayer-full .dplayer-full-in-icon{display: none !important;}
+	.payzhifubox{background-color: #0f1313;display: flex;align-items: center;justify-content: space-around;    position: absolute;left: 0;
+    top: 0;width: 100%;height: 100%;}
+	.paytips{background-color: #1b1e1f;padding: 12px;text-align: center;border-radius: 5px;line-height: 32px;font-size: 18px;color: #ccc;}
+	.paybtn{background-color: #e91e63;color: #fff;text-align: center;border-radius: 5px; padding: 4px 15px;display: inline-block;}
+	.paytips span{color: #e91e63;}
+</style>
+</head>
+
+
+<body>
+
+    <div id="dplayer"></div>
+
+    <script type="text/javascript">
+		var urlParams;
+		(window.onpopstate = function () {
+			var match,
+			pl     = /\+/g,  // Regex for replacing addition symbol with a space
+			search = /([^&=]+)=?([^&]*)/g,
+			decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+			query  = window.location.search.substring(1);
+
+			urlParams = {};
+			while (match = search.exec(query))
+			urlParams[decode(match[1])] = decode(match[2]);
+		})();
+		if (urlParams["url"] == null){ var url = ""; } else { var url = urlParams["url"];}
+
+	   	const dp = new DPlayer({
+		    container: document.getElementById('dplayer'),
+		    autoplay:true,
+		    theme:"#e91e63",
+		    lang:'zh-tw',
+		    preload:'auto',
+		    airplay:true,
+            chromecast:true,
+            // logo:"/static/images/logo.png",
+            video: {
+		        url: url,
+		        // pic: '{{img|safe}}',
+		        type:'hls',
+                customType: {
+                    hls: function (video, player) {
+                        const hls = new Hls();
+                        hls.loadSource(video.src);
+                        hls.attachMedia(video);
+                    }
+                }
+		    },
+            pluginOptions: {
+		        hls: {
+		            // hls config
+                maxBufferLength:110,
+                maxBufferSize: 80*1000*1000,
+		        },
+		    },
+        });
+
+        dp.play();
+
+   </script>
+
+</body>
+</html>
