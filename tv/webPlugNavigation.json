@@ -5,12 +5,12 @@
       "pic": "https://pkj99.github.io/demo/images/gimy.png",
       "type": "webPlug",
       "ads": "",
-      "webUrl": "https://gimy.ai/",
+      "webUrl": "https://gimy.video/",
       "webOpen": false,
       "click": true,
       "webPlus": {
-        "search_url": "https://gimy.ai/search/-------------.html?wd={kw}",
-        "nav_url": "https:///gimy.ai/genre/navCate---navPage.html",
+        "search_url": "https://gimy.video/search/-------------.html?wd={kw}",
+        "nav_url": "https:///gimy.video/genre/navCate---navPage.html",
         "web_name": "Gimy",
         "search": true,
         "navHtml": {
