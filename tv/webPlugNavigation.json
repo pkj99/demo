@@ -27,16 +27,16 @@
             "紀錄片"
           ],
           "cate": [
-            "movies",
-            "tvseries",
-            "tv_show",
-            "anime",
-            "tw",
-            "kr",
-            "cn",
-            "us",
-            "jp",
-            "documentary"
+            "1",
+            "2",
+            "29",
+            "24",
+            "14",
+            "20",
+            "13",
+            "16",
+            "15",
+            "22"
           ],
           "page": "1"
         },
@@ -213,12 +213,12 @@
       "pic": "https://pkj99.github.io/demo/images/aidi.png",
       "type": "webPlug",
       "ads": "",
-      "webUrl": "https://aidi.tv",
+      "webUrl": "https://adys.tv/",
       "webOpen": false,
       "click": true,
       "webPlus": {
-        "search_url": "https://aidi.tv/vsearch/-------------.html?wd={kw}",
-        "nav_url": "https://aidi.tv/show/navCate--------navPage---.html",
+        "search_url": "https://adys.tv/vsearch/-------------.html?wd={kw}",
+        "nav_url": "https://adys.tv/show/navCate--------navPage---.html",
         "web_name": "爱迪",
         "search": true,
         "navHtml": {
