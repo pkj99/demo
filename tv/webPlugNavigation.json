@@ -45,7 +45,7 @@
             "hasUrlPrefix": false,
             "isListItemAttr": true,
             "listCss": "div.myui-panel_bd.clearfix",
-            "isMultiList": true,
+            "isMultiList": false,
             "listCssMulti": "ul > li",
             "listItemAttr": "href",
             "listItemCss": "a",
