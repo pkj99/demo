@@ -44,7 +44,7 @@
           "episodes": {
             "hasUrlPrefix": false,
             "isListItemAttr": true,
-            "listCss": "div.myui-panel-box.clearfix",
+            "listCss": "div.myui-panel_bd.clearfix",
             "isMultiList": true,
             "listCssMulti": "ul > li",
             "listItemAttr": "href",
@@ -309,7 +309,7 @@
             "isImgAttr": true,
             "isNameAttr": false,
             "isUrlAttr": true,
-            "mainCss": "ul.vodlist.vodlist_wi.author*qq3626/95/000.clearfix",
+            "mainCss": "ul.vodlist.vodlist_wi",
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
