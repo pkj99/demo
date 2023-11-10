@@ -44,13 +44,13 @@
           "episodes": {
             "hasUrlPrefix": false,
             "isListItemAttr": true,
-            "listCss": "div.tab-content.mb10",
+            "listCss": "div.myui-panel_bd.clearfix",
             "isMultiList": true,
             "listCssMulti": "ul > li",
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "div.tab-content.mb10",
+            "mainCss": "div.col-md-wide-7.col-xs-1.padding-0",
             "mainIndex": 0
           },
           "nav": {
@@ -349,12 +349,12 @@
       "pic": "https://pkj99.github.io/demo/images/duona.png",
       "type": "webPlug",
       "ads": "",
-      "webUrl": "https://www.duonaovod.com",
+      "webUrl": "https://www.dnvods.com",
       "webOpen": false,
       "click": true,
       "webPlus": {
-        "search_url": "https://www.duonaovod.com/index.php/vod/search.html?wd={kw}",
-        "nav_url": "https://www.duonaovod.com/index.php/vod/show/id/navCate/page/navPage.html",
+        "search_url": "https://www.dnvods.com/index.php/vod/search.html?wd={kw}",
+        "nav_url": "https://www.dnvods.com/index.php/vod/show/id/navCate/page/navPage.html",
         "web_name": "多腦",
         "search": true,
         "navHtml": {
