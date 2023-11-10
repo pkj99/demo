@@ -44,9 +44,9 @@
           "episodes": {
             "hasUrlPrefix": false,
             "isListItemAttr": true,
-            "listCss": "div.myui-panel_bd.clearfix",
-            "isMultiList": false,
-            "listCssMulti": "ul > li",
+            "listCss": "div.myui-panel.myui-panel-bg.clearfix",
+            "isMultiList": true,
+            "listCssMulti": "div > div > ul > li",
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
