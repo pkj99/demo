@@ -65,7 +65,7 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "ul.myui-vodlist.clearfix",
+            "mainCss": "div.myui-content__thumb",
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
