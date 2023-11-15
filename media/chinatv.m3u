@@ -39,7 +39,7 @@ http://hls.live.cqccn.com/__cl/cg:live/__c/shandongHD/__op/default/__f/index.m3u
 http://hls.live.cqccn.com/__cl/cg:live/__c/fyjcHD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="http://tv.haoqu99.com/d/file/2015/1121/20151121053553871.jpg" tvg-name="CCTV风云音乐" group-title="央视",CCTV风云音乐
 http://hls.live.cqccn.com/__cl/cg:live/__c/fyyyHD/__op/default/__f/index.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="CCTV风云台球" group-title="央视",CCTV风云台球
+#EXTINF:-1 tvg-logo="http://tv.haoqu99.com/d/file/2014/0407/20140407113005456.jpg" tvg-name="CCTV风云台球" group-title="央视",CCTV风云台球
 http://hls.live.cqccn.com/__cl/cg:live/__c/ystqHD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="http://tv.haoqu99.com/d/file/2015/1121/20151121054949338.jpg" tvg-name="CCTV怀旧剧场" group-title="央视",CCTV怀旧剧场
 http://hls.live.cqccn.com/__cl/cg:live/__c/hjjcHD/__op/default/__f/index.m3u8
@@ -105,11 +105,13 @@ http://hls.live.cqccn.com/__cl/cg:live/__c/qinghaiSD/__op/default/__f/index.m3u8
 http://hls.live.cqccn.com/__cl/cg:live/__c/heilongjiangHD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/三沙卫视.png" tvg-name="三沙卫视" group-title="卫视",三沙卫视
 http://hls.live.cqccn.com/__cl/cg:live/__c/sanshaSD/__op/default/__f/index.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="教育卫视" group-title="卫视",教育卫视
-http://hls.live.cqccn.com/__cl/cg:live/__c/sdjiaoyuSD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/兵团卫视.png" tvg-name="兵团卫视" group-title="卫视",兵团卫视
 http://hls.live.cqccn.com/__cl/cg:live/__c/bingtuanSD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV4K.png" tvg-name="CCTV4K" group-title="央视",CCTV4K
 http://hls.live.cqccn.com/__cl/cg:live/__c/CCTV4K/__op/default/__f/index.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="CCTV16-4K" group-title="央视",CCTV16-4K
+#EXTINF:-1 tvg-logo="http://tv.haoqu99.com/d/file/2019/0614/small561dce02f74278bf3e576d7b12e3e4021560521064.jpg" tvg-name="CCTV16-4K" group-title="央视",CCTV16-4K
 http://hls.live.cqccn.com/__cl/cg:live/__c/CCTV16_4K/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/76f6ac22de1631dce56550d51c9469bb.png" tvg-name="CCTV1" group-title="央视",CCTV1
+http://hls.live.cqccn.com/__cl/cg:live/__c/cctv1HD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.haoqu99.com/d/file/2015/1121/20151121055021292.jpg" tvg-name="CCTV风云足球" group-title="央视",CCTV风云足球
+http://hls.live.cqccn.com/__cl/cg:live/__c/fyzqHD/__op/default/__f/index.m3u8
