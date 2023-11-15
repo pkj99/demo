@@ -117,7 +117,16 @@
       "quickSearch": "1",
       "filterable": "0"
     },
-    {"key":"csp_biubiu_LIBVIO","name":"🥒LIBVIO(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://freed.yuanhsing.cf/TVBox/MaooXB2/LIBVIO.json"},
+    {
+      "key": "csp_biubiu_LIBVIO",
+      "name": "🥒LIBVIO(XB)",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/LIBVIO.json"
+    },
     {
       "key": "csp_biubiu_555电影",
       "name": "🥒555电影(XB)",
@@ -147,8 +156,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "https://freed.yuanhsing.cf/TVBox/MaooXP/kuqimv.json"
-    },
-    {}
+    }
   ],
   "parses": [
     {

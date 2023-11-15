@@ -78,6 +78,18 @@
       document.getElementById('menu-favorites').href = 'home.html?s='+s+'&ids=favorites';
       document.getElementById('bdzy').style="background-color: #0d9156;"
       break;
+    case 'jyzy':
+      var menuAPI = 'https://jyzyapi.com/provide/vod/at/xml';
+      var urlAPI = 'https://jyzyapi.com/provide/vod/?ac=detail';
+      var player = '';
+      document.getElementById('menu-movie').href = 'home.html?s='+s+'&t=2';
+      document.getElementById('menu-tvshow').href = 'home.html?s='+s+'&t=1';
+      document.getElementById('menu-variety').href = 'home.html?s='+s+'&t=27';
+      document.getElementById('menu-animation').href = 'home.html?s='+s+'&t=17';
+      document.getElementById('search').style.visibility = 'hidden';
+      document.getElementById('menu-favorites').href = 'home.html?s='+s+'&ids=favorites';
+      document.getElementById('jyzy').style="background-color: #0d9156;"
+      break;
     case '1080zyku':
       var menuAPI = 'https://api.1080zyku.com/inc/ldg_api.php';
       var urlAPI = 'https://api.1080zyku.com/inc/apijson.php?ac=detail';
