@@ -1,5 +1,5 @@
 {
-  "spider": "https://freed.yuanhsing.cf/TVBox/MaooXB2/XBiubiuLA4.jar",
+  "spider": "https://pkj99.github.io/demo/tvbox/XBiubiuLA4.jar",
   "lives": [
     {
       "name": "live",
@@ -117,7 +117,16 @@
       "quickSearch": "1",
       "filterable": "0"
     },
-    {"key":"csp_biubiu_LIBVIO","name":"🥒LIBVIO(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://freed.yuanhsing.cf/TVBox/MaooXB2/LIBVIO.json"},
+    {
+      "key": "csp_biubiu_LIBVIO",
+      "name": "🥒LIBVIO(XB)",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://pkj99.github.io/demo/tvbox/LIBVIO.json"
+    },
     {
       "key": "csp_biubiu_555电影",
       "name": "🥒555电影(XB)",
@@ -126,7 +135,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/555电影.json"
+      "ext": "https://pkj99.github.io/demo/tvbox/555.json"
     },
     {
       "key": "csp_biubiu_欧乐影院",
@@ -136,7 +145,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/欧乐影院.json"
+      "ext": "https://pkj99.github.io/demo/tvbox/oulevod.json"
     },
     {
       "key": "csp_xpath_kuqimv",
@@ -146,7 +155,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://freed.yuanhsing.cf/TVBox/MaooXP/kuqimv.json"
+      "ext": "https://pkj99.github.io/demo/tvbox/kuqimv.json"
     },
     {}
   ],
