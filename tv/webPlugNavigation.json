@@ -509,6 +509,17 @@
       "click": true
     },
     {
+      "name": "4kvm(Web)",
+      "pic": "https://www.4kvm.net/wp-content/uploads/2023/07/515d8f589ab07.png",
+      "keyDownPlay": false,
+      "keyUpPlay": false,
+      "userAgent": "PC",
+      "ads": "",
+      "webUrl": "https://www.4kvm.net/movies/",
+      "webOpen": true,
+      "click": true
+    },	
+    {
       "name": "Radios.TW(Web)",
       "pic": "https://pkj99.github.io/demo/images/watch_online.png",
       "keyDownPlay": false,
