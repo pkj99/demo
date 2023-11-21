@@ -10,9 +10,9 @@
       "click": true,
       "webPlus": {
         "search_url": "https://gimy.video/search/-------------.html?wd={kw}",
-        "nav_url": "https:///gimy.video/genre/navCate---navPage.html",
+        "nav_url": "https://gimy.video/genre/navCate---navPage.html",
         "web_name": "Gimy",
-        "search": true,
+        "search": false,
         "navHtml": {
           "name": [
             "電影",
@@ -112,7 +112,7 @@
         "search_url": "https://www.tangrenjie.tv/vod/search.html?wd={kw}",
         "nav_url": "https://www.tangrenjie.tv/vod/show/id/navCate/page/navPage.html",
         "web_name": "唐人街",
-        "search": true,
+        "search": false,
         "navHtml": {
           "name": [
             "動作片",
@@ -220,7 +220,7 @@
         "search_url": "https://adys.tv/vsearch/-------------.html?wd={kw}",
         "nav_url": "https://adys.tv/show/navCate--------navPage---.html",
         "web_name": "爱迪",
-        "search": true,
+        "search": false,
         "navHtml": {
           "name": [
             "電影",
@@ -356,7 +356,7 @@
         "search_url": "https://www.dnvods.com/index.php/vod/search.html?wd={kw}",
         "nav_url": "https://www.dnvods.com/index.php/vod/show/id/navCate/page/navPage.html",
         "web_name": "多腦",
-        "search": true,
+        "search": false,
         "navHtml": {
           "name": [
             "電影",
