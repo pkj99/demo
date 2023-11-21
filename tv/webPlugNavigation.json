@@ -44,13 +44,13 @@
           "episodes": {
             "hasUrlPrefix": false,
             "isListItemAttr": true,
-            "listCss": "div.tab-content.mb10",
+            "listCss": "div.myui-panel_bd.clearfix",
             "isMultiList": true,
-            "listCssMulti": "div > ul > li",
+            "listCssMulti": "ul > li",
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "div.myui-panel-box.clearfix",
+            "mainCss": "div.col-md-wide-7.col-xs-1.padding-0",
             "mainIndex": 0
           },
           "nav": {
