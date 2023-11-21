@@ -465,90 +465,8 @@
       }
     },
     {
-      "name": "4kvm(规则)",
-      "pic": "https://pkj99.github.io/demo/images/4kvm.png",
-      "type": "webPlug",
-      "ads": "",
-      "webUrl": "https://www.4kvm.net/",
-      "webOpen": false,
-      "click": true,
-      "webPlus": {
-        "search_url": "https://www.4kvm.net/xssearch?s={kw}",
-        "nav_url": "https://www.4kvm.net/navCate/page/navPage",
-        "web_name": "4kvm",
-        "search": false,
-        "navHtml": {
-          "name": [
-            "電影"
-          ],
-          "cate": [
-            "movies"
-          ],
-          "page": "1"
-        },
-        "html": {
-          "episodes": {
-            "hasUrlPrefix": false,
-            "isListItemAttr": true,
-            "listCss": "div.mCSB_container.mCS_y_hidden.mCS_no_scrollbar_y",
-            "isMultiList": true,
-            "listCssMulti": "ul > li",
-            "listItemAttr": "href",
-            "listItemCss": "a",
-            "listItemIndex": 0,
-            "mainCss": "div.mCustomScrollBox.mCS-minimal-dark.mCSB_vertical.mCSB_outside",
-            "mainIndex": 0
-          },
-          "nav": {
-            "descAttr": "",
-            "descCss": "span",
-            "descIndex": 1,
-            "hasUrlPrefix": false,
-            "imgAttr": "src",
-            "imgCss": "img",
-            "imgIndex": 0,
-            "isDescAttr": false,
-            "isImgAttr": true,
-            "isNameAttr": true,
-            "isUrlAttr": true,
-            "mainCss": "div.animation-2.items",
-            "mainListIndex": 0,
-            "nameAttr": "alt",
-            "nameCss": "img",
-            "nameIndex": 0,
-            "searchListCss": "article.item.movies",
-            "urlAttr": "href",
-            "urlCss": "div.data > h3 > a",
-            "urlIndex": 0
-          },
-          "search": {
-            "descAttr": "",
-            "descCss": "span.pic-text.text-right",
-            "descIndex": 0,
-            "hasUrlPrefix": false,
-            "imgAttr": "data-original",
-            "imgCss": "a",
-            "imgIndex": 0,
-            "isDescAttr": false,
-            "isImgAttr": true,
-            "isNameAttr": true,
-            "isUrlAttr": true,
-            "mainCss": "div.myui-panel_bd.col-pd.clearfix",
-            "mainListIndex": 0,
-            "nameAttr": "title",
-            "nameCss": "a",
-            "nameIndex": 0,
-            "searchListCss": "ul > li",
-            "urlAttr": "href",
-            "urlCss": "a",
-            "urlIndex": 0
-          }
-        }
-      }
-    },
-    {
       "name": "唐人街(Web)",
-      "pic": "https://pkj99.github.io/demo/images/watch_online.png",
+      "pic": "https://pkj99.github.io/demo/images/trj.png",
       "keyDownPlay": false,
       "keyUpPlay": false,
       "userAgent": "PC",
@@ -558,8 +476,8 @@
       "click": true
     },
     {
-      "name": "gimy(Web)",
-      "pic": "https://pkj99.github.io/demo/images/watch_online.png",
+      "name": "gimy.ai(Web)",
+      "pic": "https://img.1777cdn.com/upload/site/20200527-1/1c54542d1d8409dea9b1e500678a2dbb.png",
       "keyDownPlay": false,
       "keyUpPlay": false,
       "userAgent": "PC",
@@ -569,8 +487,19 @@
       "click": true
     },
     {
+      "name": "gimy.video(Web)",
+      "pic": "https://gimy.video/template/gstyle/statics/image/20210412/d2250b7fb.png",
+      "keyDownPlay": false,
+      "keyUpPlay": false,
+      "userAgent": "PC",
+      "ads": "",
+      "webUrl": "https://gimy.video/",
+      "webOpen": true,
+      "click": true
+    },
+    {
       "name": "nivod(Web)",
-      "pic": "https://pkj99.github.io/demo/images/watch_online.png",
+      "pic": "https://www.nivod4.tv/common/128-128-logo.png?v=1",
       "keyDownPlay": false,
       "keyUpPlay": false,
       "userAgent": "PC",
@@ -591,8 +520,19 @@
       "click": true
     },
     {
+      "name": "4kvm(Web)",
+      "pic": "https://www.4kvm.net/wp-content/uploads/2023/07/515d8f589ab07.png",
+      "keyDownPlay": false,
+      "keyUpPlay": false,
+      "userAgent": "PC",
+      "ads": "",
+      "webUrl": "https://www.4kvm.net/movies",
+      "webOpen": true,
+      "click": true
+    },
+    {
       "name": "Radios.TW(Web)",
-      "pic": "https://pkj99.github.io/demo/images/watch_online.png",
+      "pic": "https://pkj99.github.io/demo/images/radio.jpg",
       "keyDownPlay": false,
       "keyUpPlay": false,
       "userAgent": "PC",
