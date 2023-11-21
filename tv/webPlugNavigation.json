@@ -518,7 +518,7 @@
             "nameIndex": 0,
             "searchListCss": "article.item.movies",
             "urlAttr": "href",
-            "urlCss": "a",
+            "urlCss": "div.data > h3 > a",
             "urlIndex": 0
           },
           "search": {
