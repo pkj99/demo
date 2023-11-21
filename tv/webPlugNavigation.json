@@ -46,11 +46,11 @@
             "isListItemAttr": true,
             "listCss": "div.tab-content.mb10",
             "isMultiList": true,
-            "listCssMulti": "ul > li",
+            "listCssMulti": "div > ul > li",
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "div.myui-player__item.clearfix",
+            "mainCss": "div.myui-panel-box.clearfix",
             "mainIndex": 0
           },
           "nav": {
