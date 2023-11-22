@@ -4,14 +4,11 @@
 民视,https://pkj99.github.io/YTLive/民視.m3u8
 中视,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV71.m3u8
 华视,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV26.m3u8
-Discovery,http://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/25137bd7c4494128bf0cba271974928f/1200.m3u8
 东森幼幼台,https://pkj99.github.io/YTLive/東森幼幼台.m3u8
 原住民频道,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV35.m3u8
 三立台湾台,http://sanlihalive1-a.akamaihd.net/5ffd3a166f7241d9b489b7d7241db96f/ap-northeast-1/4338955585001/profile_0/chunklist.m3u8?hdnea=st=1664042391~exp=9007200918783382~acl=/5ffd3a166f7241d9b489b7d7241db96f/*/profile_0/chunklist.m3u8*~hmac=29538a1877a3c3728afe61bcd55b5a7b98f517bb3e2c75f8433b9338fda5b3e3
 三立都会台,http://sanlihalive1-a.akamaihd.net/4c3bb0ccad574d0e9b507c2dcd2dfabc/ap-northeast-1/4338955585001/profile_0/chunklist.m3u8?hdnea=st=1664042191~exp=9007200918783182~acl=/4c3bb0ccad574d0e9b507c2dcd2dfabc/*/profile_0/chunklist.m3u8*~hmac=957e95920f87270a35afde9e5bd3d25c96af4c19596f0f2cc44ff968b89165c1
 东森超视,http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
-靖天卡通台,http://198.16.100.90:8278/jingtiancartoon_twn/playlist.m3u8?tid=m1465dab025b5&ct=18335&tsum=ba935e583d90bfbe1d1d9662e9ac600c
-中天娱乐台,http://50.7.238.114:8278/ctient/playlist.m3u8?tid=MDED1780059017800590&ct=19226&tsum=4d05ea700aa8fd436b51ce703680e674
 八大戏剧台,https://ytm2.yuanhsing.cf/GTVDRAMA.m3u8
 MOMO购物1,https://pkj99.github.io/YTLive/MOMO購物一台.m3u8
 MOMO购物2,https://pkj99.github.io/YTLive/MOMO購物二台.m3u8
@@ -30,11 +27,11 @@ TVBS新闻台,https://pkj99.github.io/YTLive/TVBS新聞.m3u8
 中天新闻台,https://pkj99.github.io/YTLive/中天新聞.m3u8
 寰宇新闻,https://pkj99.github.io/YTLive/寰宇新聞.m3u8
 HBO,http://220.134.196.147:9520/http/60.251.39.91:8081/hls/71/813/ch41.m3u8
-TVBS-Asia,http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
+TVBS-Asia,http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
 东森购物二台,https://pkj99.github.io/YTLive/東森購物60台.m3u8
 民视综艺台,https://pkj99.github.io/YTLive/民視綜藝台.m3u8
 纬来体育台,https://cloud.yumixiu768.com/tmp/123.m3u8
-东森美洲新闻台,http://38.64.72.148:80/hls/modn/list/2015/chunklist1.m3u8
+东森美洲新闻台,http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
 民视旅游台,https://pkj99.github.io/YTLive/民視旅遊台.m3u8
 幸福空间居家台,https://pkj99.github.io/YTLive/幸福空間居家台.m3u8
 公视,https://pkj99.github.io/YTLive/公共電視.m3u8
@@ -45,7 +42,7 @@ TVBS-Asia,http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
 经典电影台,http://mmitv.top/pltv/yy.php?id=34229877
 KPOP,https://pkj99.github.io/YTLive/KPOP.m3u8
 Music24,https://pkj99.github.io/YTLive/Music24.m3u8
-中台湾生活网,http://58.99.33.16:1935/liveedge17/live_020_3.stream/chunklist.m3u8
+中台湾生活网,http://58.99.33.16:1935/liveedge17/live_852_3.stream/chunklist.m3u8
 天才冲冲冲,https://pkj99.github.io/YTLive/天才衝衝衝.m3u8
 经典元宇宙直播,https://pkj99.github.io/YTLive/經典元宇宙直播.m3u8
 饥饿游戏,https://pkj99.github.io/YTLive/飢餓遊戲.m3u8
@@ -116,7 +113,7 @@ TVBS新闻台,https://ythls.onrender.com/channel/UC5nwNW4KdC0SzrhF9BXEYOQ.m3u8
 三立新闻台,https://ythls.onrender.com/channel/UCoNYj9OFHZn3ACmmeRCPwbA.m3u8
 东森新闻台,https://pkj99.github.io/YTLive/東森新聞.m3u8
 东森新闻台,https://ythls.onrender.com/video/S5WOGu2HSes.m3u8
-东森美洲新闻台,http://38.64.72.148:80/hls/modn/list/2015/chunklist1.m3u8
+东森美洲新闻台,http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
 东森财经新闻台,https://pkj99.github.io/YTLive/東森財經新聞.m3u8
 东森财经新闻台,https://ythls.onrender.com/channel/UCuzqko_GKcj9922M1gUo__w.m3u8
 中天新闻台,https://pkj99.github.io/YTLive/中天新聞.m3u8
