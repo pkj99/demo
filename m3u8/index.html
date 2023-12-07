@@ -129,7 +129,7 @@
         if (urlParams["path"] == '4gtv' || urlParams["path"] == 'litv') {
             file['year']=fnAry[fnAry.length-3];  
         } else {
-          if (urlParams["path"] == 'imdb' || urlParams["path"] == 'netflix') {
+          if (urlParams["path"] == 'imdb' || urlParams["path"] == 'netflix' || urlParams["path"] == 'ofiii') {
             file['year']=fn.split('(')[1].split(')')[0];
           } else {          
             file['year']=0;
@@ -148,8 +148,7 @@
           var piclink = m3u8link.replace('m3u8/','images/').replace('.m3u8','.png').replace(' (','.').replace(').','.');
         } else if (file.path.includes('4gtv') || file.path.includes('litv')){
           var piclink = m3u8link.replace('m3u8/','images/').replace('.m3u8','.jpg').replace('(','').replace(')','');
-        }
-        else {
+        } else {
           var piclink = m3u8link.replace('m3u8/','images/').replace('.m3u8','.jpg').replace(' (','.').replace(').','.');
         }
         var imglink = encodeURI(piclink);
