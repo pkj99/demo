@@ -48,6 +48,7 @@
                     <li class="menu_header"><a href="?path=series">系列</a></li>
                     <li class="menu_header"><a href="?path=litv">LiTV</a></li>
                     <li class="menu_header"><a href="?path=4gtv">4gTV</a></li>
+                    <li class="menu_header"><a href="?path=ofiii">Ofiii</a></li>
                     <li class="menu_header"><a href="?path=iptv">TVChannel</a></li>
                 </ul>
             </div>
@@ -128,7 +129,11 @@
         if (urlParams["path"] == '4gtv' || urlParams["path"] == 'litv') {
             file['year']=fnAry[fnAry.length-3];  
         } else {
+          if (urlParams["path"] == 'imdb' || urlParams["path"] == 'netflix') {
+            file['year']=fn.split('(')[1].split(')')[0];
+          } else {          
             file['year']=0;
+          }
         }
       }
       var sortedData = sortBy('year', data);
