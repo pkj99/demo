@@ -51,6 +51,7 @@
 			urlParams[decode(match[1])] = decode(match[2]);
 		})();
 		if (urlParams["url"] == null){ var url = ""; } else { var url = urlParams["url"];}
+		if (urlParams["img"] == null){ var img = ""; } else { var img = urlParams["img"];}
 
 	   	const dp = new DPlayer({
 		    container: document.getElementById('dplayer'),
@@ -63,7 +64,7 @@
             // logo:"/static/images/logo.png",
             video: {
 		        url: url,
-		        // pic: '{{img|safe}}',
+		        pic: img,
 		        type:'hls',
                 customType: {
                     hls: function (video, player) {

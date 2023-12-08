@@ -59,7 +59,7 @@ switch (s) {
   case 'xinlang':
     var menuAPI = 'https://api.xinlangapi.com/xinlangapi.php/provide/vod/at/xml';
     var urlAPI = 'https://api.xinlangapi.com/xinlangapi.php/provide/vod/at/json?ac=detail';
-    var player = '';
+    var player = 'playvideo.html?url=';
     document.getElementById('menu-movie').href = 'home.html?s=' + s + '&t=6';
     document.getElementById('menu-tvshow').href = 'home.html?s=' + s + '&t=15';
     document.getElementById('menu-variety').href = 'home.html?s=' + s + '&t=4';
@@ -417,22 +417,21 @@ function doCORSRequestById(options, printResult) {
 
       //  create playlists buttons
       htmlString += '<li class="col-lg-2 col-md-2 col-sm-2 col-xs-1">';
-      // htmlString += '<div class="myui-content__detail">';
-
       htmlString += '<button class="btn btn-primary" type="button" style="font-size: 24px;margin:2px;">';
-      // htmlString += '<a href="playvideo.html?url='+m3u8+'">播放</a></button>';
-      htmlString += '<a href="' + player + m3u8 + '">播放</a></button>';
+      if (player==''){ var imgstring = ''; } else {var imgstring = '&img='+img;}
+      htmlString += '<a href="' + player + m3u8 + imgstring +'">播放</a></button>';
       htmlString += '<button class="btn btn-secondary" type="button" onclick="setCookieBySourceId(\'' + s + '\',\'' + id + '\');" id="favorites" '
       htmlString += 'style="font-size: 24px;margin:2px;">收藏</button><br><br>';
 
       const playlists = file.vod_play_url.split('$$$')[0].split('#');
       // console.log(file.vod_play_url);
+      if (playlists.length > 100) { var ep = -30; } else { var ep = 0; }
       if (playlists.length > 1) {
-        for (let pl of playlists.slice(-30)) {
+        for (let pl of playlists.slice(ep)) {
           const p = pl.split('$');
           var pl_name = p[0];
           var pl_m3u8 = p[1];
-          htmlString += '<a href="playvideo.html?url=' + pl_m3u8 + '">';
+          htmlString += '<a href="'+ player + pl_m3u8 + imgstring + '">';
           htmlString += '<button class="btn btn-outline-primary" type="button" style="width:110px;margin:2px;font-size: 14px;">';
           htmlString += pl_name + '</button></a>';
         }

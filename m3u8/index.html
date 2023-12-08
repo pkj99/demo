@@ -70,8 +70,6 @@
     </div>
   </div>
 
-
-
   <div class="myui-foot clearfix">
     <div class="container min">
         <div class="row">
@@ -160,8 +158,11 @@
           } else {
             htmlString += '<li class="col-lg-8 col-md-8 col-sm-5 col-xs-3">';
             htmlString += '<div class="myui-vodlist__box">';
-            // htmlString += '<a class="myui-vodlist__thumb lazyload" href="../vod/playvideo.html?url='+ m3u8link + '" ';
-            htmlString += '<a class="myui-vodlist__thumb lazyload" href="../vod/playvideo.html?url='+ m3u8link + '" ';
+            if (file.path.includes('iptv')) {
+              htmlString += '<a class="myui-vodlist__thumb lazyload" href="'+ m3u8link + '" ';
+            } else {
+              htmlString += '<a class="myui-vodlist__thumb lazyload" href="../vod/playvideo.html?url='+ m3u8link + '&img='+imglink+'" ';
+            }
             htmlString += 'title="' + file.name +'" ';
             htmlString += 'data-original="' + file.path + '" ';
             htmlString += 'style="background-image: url(' + imglink +')"';
