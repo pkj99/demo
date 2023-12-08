@@ -301,7 +301,9 @@ function doCORSRequest(options, printResult) {
       htmlString += '<a class="myui-vodlist__thumb lazyload" href="' + pagename + '?s=' + s + '&t=' + t + '&id=' + id + '" ';
       htmlString += 'title="' + title + '" ';
       htmlString += 'data-original="' + img + '" ';
-      htmlString += 'style="background-image: url(' + img + ')"';
+      htmlString += 'style="background-image: url(' + img + ')">';
+
+      htmlString += '<img width=0 src="' + img + '">';
 
       htmlString += '<span class="play hidden-xs"></span>';
       if (quality != '1') {
