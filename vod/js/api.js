@@ -303,8 +303,6 @@ function doCORSRequest(options, printResult) {
       htmlString += 'data-original="' + img + '" ';
       htmlString += 'style="background-image: url(' + img + ')">';
 
-      htmlString += '<img width=0 src="' + img + '">';
-
       htmlString += '<span class="play hidden-xs"></span>';
       if (quality != '1') {
         htmlString += '<span class="pic-tag pic-tag-top" style="background-color: #5bb7fe;">' + quality + '</span>';
@@ -382,7 +380,7 @@ function doCORSRequestById(options, printResult) {
       htmlString += '<a class="myui-vodlist__thumb lazyload" href="' + m3u8 + '" ';
       htmlString += 'title="' + title + '" ';
       htmlString += 'data-original="' + img + '" ';
-      htmlString += 'style="background-image: url(' + img + ')"';
+      htmlString += 'style="background-image: url(' + img + ')">';
 
       htmlString += '<span class="play hidden-xs"></span>';
       htmlString += '<span class="pic-tag pic-tag-top" style="background-color: #5bb7fe;">' + quality + '</span>';
