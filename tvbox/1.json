@@ -314,14 +314,6 @@
       "quickSearch": 1
     },
     {
-      "key": "快車资源",
-      "name": "快車资源",
-      "type": 1,
-      "api": "https://caiji.kczyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
       "key": "金鷹资源",
       "name": "金鷹资源",
       "type": 1,
