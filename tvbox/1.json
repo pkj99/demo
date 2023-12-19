@@ -182,14 +182,14 @@
         "其他动漫"
       ]
     },
-    // {
-    //   "key": "光速资源",
-    //   "name": "光速资源",
-    //   "type": 1,
-    //   "api": "https://api.guangsuapi.com/api.php/provide/vod/",
-    //   "searchable": 1,
-    //   "quickSearch": 1
-    // },
+    {
+      "key": "光速资源",
+      "name": "光速资源",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
     {
       "key": "新浪资源",
       "name": "新浪资源",
@@ -298,22 +298,45 @@
       "quickSearch": 1
     },
     {
-      "key": "金鹰资源",
-      "name": "金鹰资源",
+      "key": "閃電资源",
+      "name": "閃電资源",
+      "type": 1,
+      "api": "https://sdzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "天翼资源",
+      "name": "天翼资源",
+      "type": 1,
+      "api": "https://www.911ysw.top/tianyi.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "快車资源",
+      "name": "快車资源",
+      "type": 1,
+      "api": "https://caiji.kczyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "金鷹资源",
+      "name": "金鷹资源",
       "type": 1,
       "api": "https://jyzyapi.com/provide/vod/",
       "searchable": 1,
       "quickSearch": 1
     },
-    // {
-    //   "key": "人人影视",
-    //   "name": "人人影视",
-    //   "type": 1,
-    //   "api": "https://www.rrvipw.com/api.php/provide/vod/",
-    //   "searchable": "1",
-    //   "quickSearch": "1",
-    //   "filterable": "0"
-    // },
+    {
+      "key": "速播资源",
+      "name": "速播资源",
+      "type": 1,
+      "api": "https://subocaiji.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
     {
       "key": "csp_biubiu_LIBVIO",
       "name": "🥒LIBVIO(XB)",
