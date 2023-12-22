@@ -24,11 +24,13 @@ TVBS新闻台,https://pkj99.github.io/YTLive/TVBS新聞.m3u8
 中视新闻,https://pkj99.github.io/YTLive/中視新聞.m3u8
 中天新闻台,https://pkj99.github.io/YTLive/中天新聞.m3u8
 寰宇新闻,https://pkj99.github.io/YTLive/寰宇新聞.m3u8
+东森电影台,https://ctrl.laotv.la/live/DongsenMovie/index.m3u8
 HBO,http://220.134.196.147:9520/http/60.251.39.91:8081/hls/71/813/ch41.m3u8
-TVBS-Asia,http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
+东森洋片台,https://ctrl.laotv.la/live/DongsenForeignMovie/index.m3u8
+TVBS-Asia,http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
 东森购物二台,https://pkj99.github.io/YTLive/東森購物60台.m3u8
 民视综艺台,https://pkj99.github.io/YTLive/民視綜藝台.m3u8
-纬来体育台,https://cloud.yumixiu768.com/tmp/123.m3u8
+纬来体育台,http://hls.szsummer.cn/live/446035/playlist.m3u8?k=32f9ec7c13e4b390289143a8e1b2a898&t=1840341130
 东森美洲新闻台,http://38.64.72.148:80/hls/modn/list/2015/chunklist1.m3u8
 民视旅游台,https://pkj99.github.io/YTLive/民視旅遊台.m3u8
 幸福空间居家台,https://pkj99.github.io/YTLive/幸福空間居家台.m3u8
@@ -114,6 +116,8 @@ CCTV5,http://cfss.cc/api/ysp/cctv5.m3u8
 電影頻道,#genre#
 HBO,http://125.227.210.55:35210/VideoInput/play.ts
 HBO,http://220.134.196.147:9520/http/60.251.39.91:8081/hls/71/813/ch41.m3u8
+东森洋片台,https://ctrl.laotv.la/live/DongsenForeignMovie/index.m3u8
+东森电影台,https://ctrl.laotv.la/live/DongsenMovie/index.m3u8
 经典电影台,http://epg.112114.xyz/douyu/74374
 经典电影台,http://mmitv.top/pltv/yy.php?id=34229877
 经典电影台,http://mmitv.top/pltv/yy.php?id=1382754187
