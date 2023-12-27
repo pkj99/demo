@@ -13,8 +13,6 @@ https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV26.m3u8
 https://pkj99.github.io/YTLive/東森幼幼台.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/原住民频道.png" tvg-name="原住民频道" group-title="台湾頻道",原住民频道
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV35.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/0374fe1183ef54f1dafe344868ee255a.png" tvg-name="卫视中文台" group-title="台湾頻道",卫视中文台
-http://60.250.216.209:8570/http/61.67.128.130:8078/hls/21/80/phoenixch.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/96b6fb40724f3fefed649f457dbefc33.png" tvg-name="东森超视" group-title="台湾頻道",东森超视
 http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
 #EXTINF:-1 tvg-logo="https://img.isuper.tv/live-tv/momo-shop-live.jpg" tvg-name="MOMO购物1" group-title="台湾頻道",MOMO购物1
@@ -56,7 +54,7 @@ http://220.134.196.147:9520/http/60.251.39.91:8081/hls/71/813/ch41.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/548efcbaee6549ca5f653ecbaa44be2a.png" tvg-name="东森洋片台" group-title="台湾頻道",东森洋片台
 https://ctrl.laotv.la/live/DongsenForeignMovie/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/e/e9/TVBS_Asia_logo_2017.png/200px-TVBS_Asia_logo_2017.png" tvg-name="TVBS-Asia" group-title="台湾頻道",TVBS-Asia
-http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
+http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv103_tv.png" tvg-name="东森购物二台" group-title="台湾頻道",东森购物二台
 https://pkj99.github.io/YTLive/東森購物60台.m3u8
 #EXTINF:-1 tvg-logo="https://www.ftv.com.tw/images/Ch_06.png" tvg-name="民视综艺台" group-title="台湾頻道",民视综艺台

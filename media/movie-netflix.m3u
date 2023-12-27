@@ -1,10 +1,16 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2023/01/Disconnect-The-Wedding-Planner-2023-270x400.jpg" tvg-name="戀愛叢林：昏禮統籌" group-title="Netflix",戀愛叢林：昏禮統籌
 https://sod.bunediy.com/20230116/FJdC86V7/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2023/11/Familia-2023-270x400.jpg" tvg-name="橄欖之家" group-title="Netflix",橄欖之家
+https://ikcdn01.ikzybf.com/20231215/PxZgxc12/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2023/12/A-Vampire-in-the-Family-2023-270x400.jpg" tvg-name="家有吸血鬼" group-title="Netflix",家有吸血鬼
+https://v10.dious.cc/20231224/jo40CBuY/index.m3u8
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/009ef02064ca44c4a2ffdff10b947873aff45cf86bb3f6b3c83f8e6865b076e2491809621284e4c3dda1c14ca2fe617e.jpg" tvg-name="反叛之月-第1部：火之女" group-title="Netflix",反叛之月-第1部：火之女
+https://m3u.haiwaikan.com/xm3u8/2ee9347b5dc8aeea8360ceb2186faef34ad95c83d20346e0e15b0a9b212319339921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2023/11/89_pk1-3T9CK8T23S8JzO35i0xAbA-270x400.jpg" tvg-name="大師風華：真愛樂章" group-title="Netflix",大師風華：真愛樂章
-https://v10.dious.cc/20231220/LEY0LOak/index.m3u8
+https://m3u.haiwaikan.com/xm3u8/96b1c446811d55be13c28c57abbf31f1cbf02bc8b47d1cf159c94d3f74f27fdf9921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2023/12/q2Gxod_ScSCZy-2A3EA1kvlLQhNow-270x400.jpg" tvg-name="驯悍记2" group-title="Netflix",驯悍记2
-https://v10.dious.cc/20231220/E40Odx5n/index.m3u8
+https://m3u.haiwaikan.com/xm3u8/c7d184167601d33857c84bf6b4c047ec98c82838ee36a983b51283ee07238cf09921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2023/11/Familia-2023-270x400.jpg" tvg-name="橄榄之家" group-title="Netflix",橄榄之家
 https://ikcdn01.ikzybf.com/20231215/PxZgxc12/index.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/009ef02064ca44c4335ee85e6457b5a3bc060b21206d9c75ebb3dfba08c6039af5f18f8f36c96ba375c33ee279b9f43d.jpg" tvg-name="粽邪3：鬼門開" group-title="Netflix",粽邪3：鬼門開
@@ -1002,8 +1008,6 @@ https://m3u.haiwaikan.com/xm3u8/a88c5ceec45d76e3f5183ed380cce798e028b13407c4b3bd
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2021/10/sZA8xGfhEEQDOcQRTFfycpQMPjj-270x400-1.jpg" tvg-name="真相影印店" group-title="Netflix",真相影印店
 https://sod.bunediy.com/20220113/CfzOGQ11/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2020/12/74MuudAjlX4gpQLnIhH35lAbx4q-185x278.jpg" tvg-name="粽邪2：馗降" group-title="Netflix",粽邪2：馗降
-https://m3u.haiwaikan.com/xm3u8/55835b0a476ce5640a3df4f9ff21434078d0ebd5056c952c45f44b4533b603249921f11e97d0da21.m3u8
-#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2020/12/74MuudAjlX4gpQLnIhH35lAbx4q-185x278.jpg" tvg-name="馗降：粽邪2" group-title="Netflix",馗降：粽邪2
 https://m3u.haiwaikan.com/xm3u8/55835b0a476ce5640a3df4f9ff21434078d0ebd5056c952c45f44b4533b603249921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2021/03/5nTa84ZOxViiWcTW5wU7e3DWI4I-185x278.jpg" tvg-name="曼克2020" group-title="Netflix",曼克2020
 https://m3u.haiwaikan.com/xm3u8/4bdde226d44c8a1ebd0c064451a64ba5de213f0cd7b0d1e3537d59f66db916829921f11e97d0da21.m3u8
