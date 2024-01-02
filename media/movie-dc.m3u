@@ -1,53 +1,59 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
-#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a02953411d20b8290ea53a39a296ff8436db6ae6ea94211c781754c495c7548bab26ef850db50610b59d3ec6.jpg" tvg-name="小丑" group-title="DC",小丑
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a02953411d20b8290ea53a39a296ff8436db6ae6ea94211c781754c495c7548bab26ef850db50610b59d3ec6.jpg" tvg-name="小丑" group-title="2019",小丑
 https://m3u.haiwaikan.com/xm3u8/33ac5748e67e53535dc6d002dd2a3bfaae03659fcd6bbc21b982ff3d8d3a9a689921f11e97d0da21.m3u8
-#EXTINF:-1 tvg-logo="https://img.1777cdn.com/upload/vod/20210513-1/ec2ee973a9908de40b236447e29c2071.jpg" tvg-name="开心超人" group-title="DC",开心超人
+#EXTINF:-1 tvg-logo="https://img.1777cdn.com/upload/vod/20210513-1/ec2ee973a9908de40b236447e29c2071.jpg" tvg-name="开心超人" group-title="2013",开心超人
 https://dy3.yle888.vip/20220414/J311JweR/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2021/04/dcr0d0uhQOOsqg3ZQhXMeOyKWic-185x278.jpg" tvg-name="查克．史奈德之正義聯盟" group-title="DC",查克．史奈德之正義聯盟
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2021/04/dcr0d0uhQOOsqg3ZQhXMeOyKWic-185x278.jpg" tvg-name="查克．史奈德之正義聯盟" group-title="2021",查克．史奈德之正義聯盟
 https://m3u.haiwaikan.com/xm3u8/30517370d3cb8e057a3d1c938e070a50a41a5fd6b9704f9f2948c472c396b9d19921f11e97d0da21.m3u8
-#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a02953414d096300cad7fd579f49858bea56ffb0931bc3dbad1166a143a69784e2a6590075cfbacc9130efea.jpg" tvg-name="正義聯盟" group-title="DC",正義聯盟
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a02953414d096300cad7fd579f49858bea56ffb0931bc3dbad1166a143a69784e2a6590075cfbacc9130efea.jpg" tvg-name="正義聯盟" group-title="2017",正義聯盟
 https://m3u.haiwaikan.com/xm3u8/d60d34db3ff3603ce92014abfa23f7f766ecc82153b826795fcb95389d7cdd5e9921f11e97d0da21.m3u8
-#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/36b6a0c38cc21675256fc49ec9ecbae651e47c4009c1eafc9814ca88d85e89b8a6db93285e4aa9fe8fccc83b7f2d7740.jpg" tvg-name="水行俠" group-title="DC",水行俠
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/36b6a0c38cc21675256fc49ec9ecbae651e47c4009c1eafc9814ca88d85e89b8a6db93285e4aa9fe8fccc83b7f2d7740.jpg" tvg-name="水行俠" group-title="2018",水行俠
 https://m3u.haiwaikan.com/xm3u8/acdbe9666d1e8431cb971e80ab1b20917acfbee721adcf720d1e5e2e49a2db809921f11e97d0da21.m3u8
-#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/183af537d926aa5c5767bbdce168a9d96f9873d94e09a64f74bb5e4baf78a597c1475e404d27dd0c95c7891514762846.jpg" tvg-name="沙贊！" group-title="DC",沙贊！
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2023/12/k5XkPlci4EG0Gu75wMez6i04om-270x400.jpg" tvg-name="水行俠 失落王國" group-title="2023",水行俠 失落王國
+https://vip.ffzy-online2.com/20231225/47294_8ae6a2f7/index.m3u8
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/183af537d926aa5c5767bbdce168a9d96f9873d94e09a64f74bb5e4baf78a597c1475e404d27dd0c95c7891514762846.jpg" tvg-name="沙贊！" group-title="2019",沙贊！
 https://m3u.haiwaikan.com/xm3u8/8cb2038a6a7d4d05ef47b240875abfc1d93bdecbcf58a160ecb26ec638a3f8c69921f11e97d0da21.m3u8
-#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a0295341a14dbfc3a1672a9206f9394e22ecc21d5b2362a69914cedd0ede3a747a97e36ac618bba2eba60a2f.jpg" tvg-name="猛禽小隊：小丑女大解放" group-title="DC",猛禽小隊：小丑女大解放
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a0295341a14dbfc3a1672a9206f9394e22ecc21d5b2362a69914cedd0ede3a747a97e36ac618bba2eba60a2f.jpg" tvg-name="猛禽小隊：小丑女大解放" group-title="2020",猛禽小隊：小丑女大解放
 https://m3u.haiwaikan.com/xm3u8/1616f525f67f0799f0cec384dc5404437d119e58df4738efe985e33dd3c3553d9921f11e97d0da21.m3u8
-#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/183af537d926aa5cee58492eea465ce1dbc87f98a51b22adfabeee6404e57443359097cce545b47a6f8ebb85851b0af6.jpg" tvg-name="神力女超人" group-title="DC",神力女超人
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/183af537d926aa5cee58492eea465ce1dbc87f98a51b22adfabeee6404e57443359097cce545b47a6f8ebb85851b0af6.jpg" tvg-name="神力女超人" group-title="2017",神力女超人
 https://pkj99.github.io/demo/m3u8/4gtv/奇蹟男孩.2017.4gtv.m3u8
-#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/183af537d926aa5c57c48bbf8c7f52cd997c3854cc3f1d9b05474fa81dbcc7b2dd36f3e40d1d95388440df3afe03c60c.jpg" tvg-name="神力女超人1984" group-title="DC",神力女超人1984
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/183af537d926aa5c57c48bbf8c7f52cd997c3854cc3f1d9b05474fa81dbcc7b2dd36f3e40d1d95388440df3afe03c60c.jpg" tvg-name="神力女超人1984" group-title="2020",神力女超人1984
 https://m3u.haiwaikan.com/xm3u8/d0639313b3f6a39c3c0106b1f6684ce31b216a942461ecf3bb4effb6da7babd69921f11e97d0da21.m3u8
-#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a0295341255ec158f5d8f8d3d8466c579fea0f0970dcbfb6b8288a10b211767ed980a0be333288a1cdebcc4b.jpg" tvg-name="綠光戰警" group-title="DC",綠光戰警
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a0295341255ec158f5d8f8d3d8466c579fea0f0970dcbfb6b8288a10b211767ed980a0be333288a1cdebcc4b.jpg" tvg-name="綠光戰警" group-title="2011",綠光戰警
 https://m3u.haiwaikan.com/xm3u8/5aa2c6e0ee05863df5fbfe5236fda1001cdfb2f3bafab7545fcf181d9e3b21309921f11e97d0da21.m3u8
-#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a0295341883cb1fa1d5e7bc6ac88af01164c648f0a4420410b6e5a3d2260452f6a94e5f409fbda9c94a1a72c.jpg" tvg-name="羅根" group-title="DC",羅根
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a0295341883cb1fa1d5e7bc6ac88af01164c648f0a4420410b6e5a3d2260452f6a94e5f409fbda9c94a1a72c.jpg" tvg-name="羅根" group-title="2017",羅根
 https://wolongzywcdn3.com:65/xFGNnyjc/index.m3u8
-#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a02953414121e76f0ae2bab81352d7f7ffe727fd9725bb318f596bf8cd84c1aea1b151bbfacc5b3610fc00d8.jpg" tvg-name="自殺突擊隊" group-title="DC",自殺突擊隊
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a02953414121e76f0ae2bab81352d7f7ffe727fd9725bb318f596bf8cd84c1aea1b151bbfacc5b3610fc00d8.jpg" tvg-name="自殺突擊隊" group-title="2016",自殺突擊隊
 https://m3u.haiwaikan.com/xm3u8/fec564b85bb5ee2fe6db76eb74375595e7ecad4569c2bbca0be02cb9cee999ec9921f11e97d0da21.m3u8
-#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/183af537d926aa5c25e149cf40bcbe9b5220d6f128b16fce7415aaa776ec9c4f4b32efc9b5d12cb3d1ba1b7f1193693c.jpg" tvg-name="自殺突擊隊：集結" group-title="DC",自殺突擊隊：集結
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/183af537d926aa5c25e149cf40bcbe9b5220d6f128b16fce7415aaa776ec9c4f4b32efc9b5d12cb3d1ba1b7f1193693c.jpg" tvg-name="自殺突擊隊：集結" group-title="2021",自殺突擊隊：集結
 https://m3u.haiwaikan.com/xm3u8/70349a07d584a7087681e3089283443d58b4167049d24d0e132beefacf065fbd9921f11e97d0da21.m3u8
-#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a0295341f049d3fb15134c6e643e08e497111a378d98ac62735869fe182f2a4f2f6cd503517bcef404c6d5be.jpg" tvg-name="蝙蝠俠" group-title="DC",蝙蝠俠
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2023/08/Blue-Beetle-2023-270x400.jpg" tvg-name="藍甲蟲" group-title="2023",藍甲蟲
+https://m3u.haiwaikan.com/xm3u8/f8b6965b0cdd1c1ebdfc1e3d3e8f088f550c32ffac9d47708a4606757406b3689921f11e97d0da21.m3u8
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a0295341f049d3fb15134c6e643e08e497111a378d98ac62735869fe182f2a4f2f6cd503517bcef404c6d5be.jpg" tvg-name="蝙蝠俠" group-title="1989",蝙蝠俠
 https://m3u.haiwaikan.com/xm3u8/9a8ef432aa325e3da3eac1eb9830f6b1170ccb298c4d6be724b07735e571af389921f11e97d0da21.m3u8
-#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2022/06/mzzNBVwTiiY94xAXDMWJpNPW2US-270x400.jpg" tvg-name="蝙蝠俠3" group-title="DC",蝙蝠俠3
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2022/06/mzzNBVwTiiY94xAXDMWJpNPW2US-270x400.jpg" tvg-name="蝙蝠俠3" group-title="1995",蝙蝠俠3
 https://ukzy.ukubf3.com/20220520/1CffetII/index.m3u8
-#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/183af537d926aa5c0cb288c3580a242b43712acb7ef566e2712f6be5fe9b503db5e7bd603fe62f32ad8f86dd3ce2d152.jpg" tvg-name="蝙蝠俠4：急凍人" group-title="DC",蝙蝠俠4：急凍人
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/183af537d926aa5c0cb288c3580a242b43712acb7ef566e2712f6be5fe9b503db5e7bd603fe62f32ad8f86dd3ce2d152.jpg" tvg-name="蝙蝠俠4：急凍人" group-title="1997",蝙蝠俠4：急凍人
 https://m3u.haiwaikan.com/xm3u8/b7e36e557815c01cf3251a31a66c82c62bbfc51d564a08e7d89ffd8e13d33bf19921f11e97d0da21.m3u8
-#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a02953419a533d7ce27b63c81b2c4284c4dac8dadb9b2e9c80d9e11fbb76d2906efe6da976b2544ce4fa8cee.jpg" tvg-name="蝙蝠俠對超人：正義曙光" group-title="DC",蝙蝠俠對超人：正義曙光
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a02953419a533d7ce27b63c81b2c4284c4dac8dadb9b2e9c80d9e11fbb76d2906efe6da976b2544ce4fa8cee.jpg" tvg-name="蝙蝠俠對超人：正義曙光" group-title="2016",蝙蝠俠對超人：正義曙光
 https://m3u.haiwaikan.com/xm3u8/d8ded73819145b3c95d346978ccf3c7b9a710bd97bb9c6d021502e660e7ae28a9921f11e97d0da21.m3u8
-#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2016/10/tHVnZuvVPeg6cVufF4hcNtCJsJK--270x400.jpg" tvg-name="蝙蝠俠：勢不兩立" group-title="DC",蝙蝠俠：勢不兩立
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2016/10/tHVnZuvVPeg6cVufF4hcNtCJsJK--270x400.jpg" tvg-name="蝙蝠俠：勢不兩立" group-title="2016",蝙蝠俠：勢不兩立
 https://ukzy.ukubf4.com/20220408/Dd5hm4XK/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2005/06/蝙蝠俠：開戰時刻-185x278.jpg" tvg-name="蝙蝠俠：開戰時刻" group-title="DC",蝙蝠俠：開戰時刻
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2005/06/蝙蝠俠：開戰時刻-185x278.jpg" tvg-name="蝙蝠俠：開戰時刻" group-title="2005",蝙蝠俠：開戰時刻
 https://m3u.haiwaikan.com/xm3u8/fe120610fc4efe6f2acb8fa9592863b8a8c82426ca4325505d208817ecd199db9921f11e97d0da21.m3u8
-#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2006/06/385XwTQZDpRX2d3kxtnpiLrjBXw-270x400-1-270x400.jpg" tvg-name="超人再起" group-title="DC",超人再起
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2006/06/385XwTQZDpRX2d3kxtnpiLrjBXw-270x400-1-270x400.jpg" tvg-name="超人再起" group-title="2006",超人再起
 https://www.4kvm.net/dplayer?mvsource=0&id=8207&type=hls
-#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2013/06/超人：鋼鐵英雄-185x278.jpg" tvg-name="超人： 鋼鐵英雄" group-title="DC",超人： 鋼鐵英雄
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2013/06/超人：鋼鐵英雄-185x278.jpg" tvg-name="超人： 鋼鐵英雄" group-title="2013",超人： 鋼鐵英雄
 https://m3u.haiwaikan.com/xm3u8/822ac979ac2b5914e2a7108921a292d4080f0bb33856e21d53d8a20642e55ab39921f11e97d0da21.m3u8
-#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2010/10/超危險特工1-185x278.jpg" tvg-name="超危險特工" group-title="DC",超危險特工
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2010/10/超危險特工1-185x278.jpg" tvg-name="超危險特工" group-title="2010",超危險特工
 https://www.4kvm.net/dplayer?mvsource=0&id=2191&type=hls
-#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2013/07/超危險特工2：狠戰-185x278.jpg" tvg-name="超危險特工2：狠戰" group-title="DC",超危險特工2：狠戰
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2013/07/超危險特工2：狠戰-185x278.jpg" tvg-name="超危險特工2：狠戰" group-title="2013",超危險特工2：狠戰
 https://vod2.bdzybf7.com/20220330/81er5e2K/index.m3u8
-#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/d584827d28af7976b4564687e6b8454c9b9056a78bebcafa8ee84eeeda471f225a10b30e07745f480a1376fb67130e32.jpg" tvg-name="黑亞當" group-title="DC",黑亞當
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2023/06/The-Flash-2023-270x400.jpg" tvg-name="閃電俠" group-title="2023",閃電俠
+https://m3u.haiwaikan.com/xm3u8/815b24c37803b357a3075764b38629e226bdbcac0cfa53be906c959a10fb6f7f9921f11e97d0da21.m3u8
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/d584827d28af7976b4564687e6b8454c9b9056a78bebcafa8ee84eeeda471f225a10b30e07745f480a1376fb67130e32.jpg" tvg-name="黑亞當" group-title="2022",黑亞當
 https://m3u.haiwaikan.com/xm3u8/1e362e85aef3b3f141abe2a65a72bb5e50ef2b55cf8d56edce4de38dd2ee464e9921f11e97d0da21.m3u8
-#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/183af537d926aa5c1811ab293645993f4b8914a0ff16fbfa8efda0d23a2f202bf6076d1e37b57cee6eb5d2a03a1e5ee2.jpg" tvg-name="黑暗騎士" group-title="DC",黑暗騎士
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/183af537d926aa5c1811ab293645993f4b8914a0ff16fbfa8efda0d23a2f202bf6076d1e37b57cee6eb5d2a03a1e5ee2.jpg" tvg-name="黑暗騎士" group-title="2008",黑暗騎士
 https://m3u.haiwaikan.com/xm3u8/44b30196f74bc82032f1c1d206e6916fcfa8e48ca89f4b878e46d4b0f660dc129921f11e97d0da21.m3u8
-#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2019/05/dEYnvnUfXrqvqeRSqvIEtmzhoA8-185x278.jpg" tvg-name="黑暗騎士：黎明昇起" group-title="DC",黑暗騎士：黎明昇起
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2019/05/dEYnvnUfXrqvqeRSqvIEtmzhoA8-185x278.jpg" tvg-name="黑暗騎士：黎明昇起" group-title="2012",黑暗騎士：黎明昇起
 https://m3u.haiwaikan.com/xm3u8/e50b901cf6179475172aadecbe15363b8221bbb7b158725d4d58b9e285a21b399921f11e97d0da21.m3u8
