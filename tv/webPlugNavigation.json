@@ -188,7 +188,7 @@
 
     {
       "name": "LIBVIO(规则)",
-      "pic": "https://xiaoxiaojia.oss-cn-shanghai.aliyuncs.com/statics/img/logo2.png",
+      "pic": "https://pkj99.github.io/demo/images/libvio.png",
       "type": "webPlug",
       "ads": "",
       "webUrl": "https://www.libvio.me/",
@@ -196,7 +196,7 @@
       "click": true,
       "webPlus": {
         "search_url": "https://www.libvio.me/search/-------------.html?wd={kw}&submit=",
-        "nav_url": "https://www.libvio.me/type/navCate-navPage",
+        "nav_url": "https://www.libvio.me/type/navCate-navPage.html",
         "web_name": "MovieFFM",
         "search": false,
         "navHtml": {
