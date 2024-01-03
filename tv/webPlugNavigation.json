@@ -101,17 +101,102 @@
       }
     },
 
+    // {
+    //   "name": "MovieFFM(规则)",
+    //   "pic": "https://pkj99.github.io/demo/images/movieffm.png",
+    //   "type": "webPlug",
+    //   "ads": "",
+    //   "webUrl": "https://www.movieffm.net/",
+    //   "webOpen": false,
+    //   "click": true,
+    //   "webPlus": {
+    //     "search_url": "https://www.movieffm.net/xssearch?q={kw}",
+    //     "nav_url": "https://www.movieffm.net/navCate/page/navPage",
+    //     "web_name": "MovieFFM",
+    //     "search": false,
+    //     "navHtml": {
+    //       "name": [
+    //         "電影",
+    //         "電視劇"
+    //       ],
+    //       "cate": [
+    //         "movies",
+    //         "tvshows"
+    //       ],
+    //       "page": "1"
+    //     },
+    //     "html": {
+    //       "episodes": {
+    //         "hasUrlPrefix": false,
+    //         "isListItemAttr": true,
+    //         "listCss": "",
+    //         "isMultiList": true,
+    //         "listCssMulti": "ul > li",
+    //         "listItemAttr": "href",
+    //         "listItemCss": "a",
+    //         "listItemIndex": 0,
+    //         "mainCss": "div.options",
+    //         "mainIndex": 0
+    //       },
+    //       "nav": {
+    //         "descAttr": "",
+    //         "descCss": "span.quality",
+    //         "descIndex": 0,
+    //         "hasUrlPrefix": false,
+    //         "imgAttr": "src",
+    //         "imgCss": "div.poster > img",
+    //         "imgIndex": 0,
+    //         "isDescAttr": false,
+    //         "isImgAttr": true,
+    //         "isNameAttr": true,
+    //         "isUrlAttr": true,
+    //         "mainCss": "div.animation-2.items",
+    //         "mainListIndex": 0,
+    //         "nameAttr": "alt",
+    //         "nameCss": "div.poster > img",
+    //         "nameIndex": 0,
+    //         "searchListCss": "article.item.movies",
+    //         "urlAttr": "href",
+    //         "urlCss": "a",
+    //         "urlIndex": 0
+    //       },
+    //       "search": {
+    //         "descAttr": "",
+    //         "descCss": "span.pic-text.text-right",
+    //         "descIndex": 0,
+    //         "hasUrlPrefix": false,
+    //         "imgAttr": "data-original",
+    //         "imgCss": "a",
+    //         "imgIndex": 0,
+    //         "isDescAttr": false,
+    //         "isImgAttr": true,
+    //         "isNameAttr": true,
+    //         "isUrlAttr": true,
+    //         "mainCss": "div.myui-panel_bd.col-pd.clearfix",
+    //         "mainListIndex": 0,
+    //         "nameAttr": "title",
+    //         "nameCss": "a",
+    //         "nameIndex": 0,
+    //         "searchListCss": "ul > li",
+    //         "urlAttr": "href",
+    //         "urlCss": "a",
+    //         "urlIndex": 0
+    //       }
+    //     }
+    //   }
+    // },
+
     {
-      "name": "MovieFFM(规则)",
-      "pic": "https://pkj99.github.io/demo/images/movieffm.png",
+      "name": "LIBVIO(规则)",
+      "pic": "https://xiaoxiaojia.oss-cn-shanghai.aliyuncs.com/statics/img/logo2.png",
       "type": "webPlug",
       "ads": "",
-      "webUrl": "https://www.movieffm.net/",
+      "webUrl": "https://www.libvio.me/",
       "webOpen": false,
       "click": true,
       "webPlus": {
-        "search_url": "https://www.movieffm.net/xssearch?q={kw}",
-        "nav_url": "https://www.movieffm.net/navCate/page/navPage",
+        "search_url": "https://www.libvio.me/search/-------------.html?wd={kw}&submit=",
+        "nav_url": "https://www.libvio.me/type/navCate-navPage",
         "web_name": "MovieFFM",
         "search": false,
         "navHtml": {
@@ -120,8 +205,8 @@
             "電視劇"
           ],
           "cate": [
-            "movies",
-            "tvshows"
+            "1",
+            "2"
           ],
           "page": "1"
         },
@@ -135,27 +220,27 @@
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "div.options",
+            "mainCss": "a.stui-pannel__bd",
             "mainIndex": 0
           },
           "nav": {
             "descAttr": "",
-            "descCss": "span.quality",
+            "descCss": "span.pic-text.text-right",
             "descIndex": 0,
             "hasUrlPrefix": false,
-            "imgAttr": "src",
-            "imgCss": "img",
+            "imgAttr": "data-original",
+            "imgCss": "a",
             "imgIndex": 0,
             "isDescAttr": false,
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.animation-2.items",
+            "mainCss": "ul.stui-vodlist.clearfix",
             "mainListIndex": 0,
-            "nameAttr": "alt",
-            "nameCss": "img",
+            "nameAttr": "title",
+            "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "div.poster",
+            "searchListCss": "li > div.stui-vodlist__box",
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
