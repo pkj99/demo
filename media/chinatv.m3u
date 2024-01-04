@@ -1,71 +1,89 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="" tvg-name="CCTV8K" group-title="央视",CCTV8K
+http://hrare.gnway.cc/tv/ysp.php?id=cctv8k
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/76f6ac22de1631dce56550d51c9469bb.png" tvg-name="CCTV1" group-title="央视",CCTV1
-http://cfss.cc/api/ysp/cctv1.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=cctv1
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/e657b56596d96fffff3074eba0a738f0.png" tvg-name="CCTV2" group-title="央视",CCTV2
-http://cfss.cc/api/ysp/cctv2.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=cctv2
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/7342c95efd04ed9793cbfc5a0a8c879e.png" tvg-name="CCTV3" group-title="央视",CCTV3
-http://cfss.cc/api/ysp/cctv3.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=cctv3
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/e0163c90dfbd0e5f61b4211a690fc9f6.png" tvg-name="CCTV4" group-title="央视",CCTV4
-http://cfss.cc/api/ysp/cctv4.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=cctv4
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/066bacb565742da8fbd5a0c7028084db.png" tvg-name="CCTV5" group-title="央视",CCTV5
-http://cfss.cc/api/ysp/cctv5.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=cctv5
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/dc090d2903d93841e3a322cb8e1ff6e9.png" tvg-name="CCTV5+" group-title="央视",CCTV5+
+http://hrare.gnway.cc/tv/ysp.php?id=cctv5p
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/c33edddbe29ec9143d428f27d4a646ac.png" tvg-name="CCTV6" group-title="央视",CCTV6
-http://cfss.cc/api/ysp/cctv6.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=cctv6
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/c80decf1aaac9eb5b55d262293d22567.png" tvg-name="CCTV7" group-title="央视",CCTV7
-http://cfss.cc/api/ysp/cctv7.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=cctv7
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/da83cb27fd0848fb6ba28c79974b6867.png" tvg-name="CCTV8" group-title="央视",CCTV8
-http://cfss.cc/api/ysp/cctv8.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=cctv8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/f5a5867f230cbb1ed3dcd3bd690e9be4.png" tvg-name="CCTV9" group-title="央视",CCTV9
-http://cfss.cc/api/ysp/cctv9.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=cctv9
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/224d871be82883fc071ce82b2fbc8978.png" tvg-name="CCTV10" group-title="央视",CCTV10
-http://cfss.cc/api/ysp/cctv10.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=cctv10
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/5b37d3f796bacd161fc8ad525fdfbfd9.png" tvg-name="CCTV11" group-title="央视",CCTV11
-http://cfss.cc/api/ysp/cctv11.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=cctv11
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/a0fd933f26f3573d5049c50e109c41b4.png" tvg-name="CCTV12" group-title="央视",CCTV12
-http://cfss.cc/api/ysp/cctv12.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=cctv12
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/053124d7e916a14c60e7cb77cd95bd0f.png" tvg-name="CCTV13" group-title="央视",CCTV13
-http://cfss.cc/api/ysp/cctv13.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=cctv13
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/a79b5b3bb88b512ce968a369ac193176.png" tvg-name="CCTV14" group-title="央视",CCTV14
-http://cfss.cc/api/ysp/cctv14.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=cctv14
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/3639c6aaa5151cb9d7b75d5994046e3f.png" tvg-name="CCTV15" group-title="央视",CCTV15
-http://cfss.cc/api/ysp/cctv15.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=cctv15
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/504d70fb569134a353f5ffc39ceb0229.png" tvg-name="CCTV16" group-title="央视",CCTV16
-http://cfss.cc/api/ysp/cctv16.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=cctv16
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/3dc3e477aba3405133386eee71238a40.png" tvg-name="CCTV17" group-title="央视",CCTV17
-http://cfss.cc/api/ysp/cctv17.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=cctv17
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV4K.png" tvg-name="CCTV4K" group-title="央视",CCTV4K
+http://hrare.gnway.cc/tv/ysp.php?id=cctv4k
+#EXTINF:-1 tvg-logo="http://tv.haoqu99.com/d/file/2019/0614/small561dce02f74278bf3e576d7b12e3e4021560521064.jpg" tvg-name="CCTV16-4K" group-title="央视",CCTV16-4K
+http://hrare.gnway.cc/tv/ysp.php?id=cctv16-4k
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/290ebbfaed1914c1de1b752359f49421.png" tvg-name="湖南卫视" group-title="卫视",湖南卫视
+http://hrare.gnway.cc/tv/ysp.php?id=hunws
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/47ceafd9cf44cccd24a129ae2a62c0ea.png" tvg-name="浙江卫视" group-title="卫视",浙江卫视
-http://cfss.cc/api/ysp/zjws.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=zjws
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/cbeb656f088d3cab170d886c74c31f86.png" tvg-name="江苏卫视" group-title="卫视",江苏卫视
-http://cfss.cc/api/ysp/jsws.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=jsws
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/2394d416aabb7865ed790faefd263ec5.png" tvg-name="北京卫视" group-title="卫视",北京卫视
-http://cfss.cc/api/ysp/bjws.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=bjws
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/bc40658602043d05d7d41f5b5690ecc2.png" tvg-name="东方卫视" group-title="卫视",东方卫视
-http://cfss.cc/api/ysp/dfws.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=dfws
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/d7b25866d437441782e7a316614d8484.png" tvg-name="安徽卫视" group-title="卫视",安徽卫视
-http://cfss.cc/api/ysp/ahws.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=ahws
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/65a07c81762d75b5dfb15e87aba4b5b6.png" tvg-name="广东卫视" group-title="卫视",广东卫视
-http://cfss.cc/api/ysp/gdws.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=gdws
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/181eb4f3053e6c94e4206704c4074492.png" tvg-name="深圳卫视" group-title="卫视",深圳卫视
+http://hrare.gnway.cc/tv/ysp.php?id=szws
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/74fc5d74452ea644913a950977fca5d2.png" tvg-name="辽宁卫视" group-title="卫视",辽宁卫视
-http://cfss.cc/api/ysp/lnws.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=lnws
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/cddf68286ede702507f089e5aa8ae7e5.png" tvg-name="山东卫视" group-title="卫视",山东卫视
-http://cfss.cc/api/ysp/sdws.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=sdws
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/ae4cc844873c10620a98d5610afdceb9.png" tvg-name="天津卫视" group-title="卫视",天津卫视
-http://cfss.cc/api/ysp/tjws.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=tjws
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/1e4b95da850b6b9c0bead92047ef2660.png" tvg-name="重庆卫视" group-title="卫视",重庆卫视
+http://hrare.gnway.cc/tv/ysp.php?id=cqws
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/58293d3dfee292fe584261f617ca31f2.png" tvg-name="东南卫视" group-title="卫视",东南卫视
-http://cfss.cc/api/ysp/dnws.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=dnws
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/511cdb6f94db861ace7f246f55cacb36.png" tvg-name="广西卫视" group-title="卫视",广西卫视
-http://cfss.cc/api/ysp/gxws.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=gxws
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/b53bb38bf456ebc9d20be7922ea10a70.png" tvg-name="贵州卫视" group-title="卫视",贵州卫视
-http://cfss.cc/api/ysp/gzws.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=gzws
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/83df61a38e9619fcf473dd9fc25f2710.png" tvg-name="河北卫视" group-title="卫视",河北卫视
-http://cfss.cc/api/ysp/hbws.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=hbws
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/f17a70863e213abac648cf2c0975fa87.png" tvg-name="黑龙江卫视" group-title="卫视",黑龙江卫视
-http://cfss.cc/api/ysp/hljws.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=hljws
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/c773f7c6705b79b31dd5402eb688e0f4.png" tvg-name="河南卫视" group-title="卫视",河南卫视
-http://cfss.cc/api/ysp/hnws.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=hnws
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/95d03fedb9867e96ea69aa59d198ae5b.png" tvg-name="湖北卫视" group-title="卫视",湖北卫视
+http://hrare.gnway.cc/tv/ysp.php?id=hubws
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/cced15e2301aefcc56374669b8841cf6.png" tvg-name="江西卫视" group-title="卫视",江西卫视
-http://cfss.cc/api/ysp/jxws.m3u8
-#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/8debab5a161889613e07cf8555433463.png" tvg-name="山西卫视" group-title="卫视",山西卫视
-http://cfss.cc/api/ysp/sxws.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=jxws
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/f414ec22f12993e13996639d34c14c62.png" tvg-name="四川卫视" group-title="卫视",四川卫视
+http://hrare.gnway.cc/tv/ysp.php?id=scws
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/7b7e7e72f91a764a35c74abbf5eeceb6.png" tvg-name="新疆卫视" group-title="卫视",新疆卫视
-http://cfss.cc/api/ysp/xjws.m3u8
+http://hrare.gnway.cc/tv/ysp.php?id=xjws
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/95f170d56a00f1eb078055322cf85aaf.png" tvg-name="海南卫视" group-title="卫视",海南卫视
+http://hrare.gnway.cc/tv/ysp.php?id=hinws

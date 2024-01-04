@@ -100,7 +100,6 @@
         }
       }
     },
-
     {
       "name": "BOWANG(规则)",
       "pic": "https://pkj99.github.io/demo/images/bowang.png",
@@ -111,19 +110,19 @@
       "click": true,
       "webPlus": {
         "search_url": "https://bowang.su/search/wd/{kw}.html",
-        "nav_url": "https://bowang.su/show/navCate/by/hits/page/navPage.html",
+        "nav_url": "https://bowang.su/show/1/by/navCate/page/navPage.html",
         "web_name": "BOWANG",
         "search": false,
         "navHtml": {
           "name": [
-            "電影",
-            "電視劇",
-            "綜藝"
+            "時間排序",
+            "人氣排序",
+            "評分排序"
           ],
           "cate": [
-            "1",
-            "2",
-            "4"
+            "time",
+            "hits",
+            "score"
           ],
           "page": "1"
         },
@@ -187,7 +186,6 @@
         }
       }
     },
-
     {
       "name": "爱迪(规则)",
       "pic": "https://pkj99.github.io/demo/images/aidi.png",
