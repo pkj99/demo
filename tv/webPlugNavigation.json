@@ -112,16 +112,18 @@
       "webPlus": {
         "search_url": "https://bowang.su/search/wd/{kw}.html",
         "nav_url": "https://bowang.su/show/navCate/by/hits/page/navPage.html",
-        "web_name": "MovieFFM",
+        "web_name": "BOWANG",
         "search": false,
         "navHtml": {
           "name": [
             "電影",
-            "電視劇"
+            "電視劇",
+            "綜藝"
           ],
           "cate": [
             "1",
-            "2"
+            "2",
+            "4"
           ],
           "page": "1"
         },
@@ -129,9 +131,9 @@
           "episodes": {
             "hasUrlPrefix": false,
             "isListItemAttr": true,
-            "listCss": "div.module-play-list-content.module-play-list-larger",
+            "listCss": "div.module-list.sort-list.tab-list.his-tab-list",
             "isMultiList": true,
-            "listCssMulti": "div > div",
+            "listCssMulti": "div.module-play-list > div.module-play-list-content.module-play-list-larger",
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
@@ -450,28 +452,6 @@
       "userAgent": "PC",
       "ads": "",
       "webUrl": "https://www.ofiii.com/",
-      "webOpen": true,
-      "click": true
-    },
-    {
-      "name": "星視界(Web)",
-      "pic": "https://pkj99.github.io/demo/images/histartv.jpg",
-      "keyDownPlay": false,
-      "keyUpPlay": false,
-      "userAgent": "PC",
-      "ads": "",
-      "webUrl": "https://www.histar.tv/",
-      "webOpen": true,
-      "click": true
-    },
-    {
-      "name": "gimy.ai(Web)",
-      "pic": "https://pkj99.github.io/demo/images/gimy.png",
-      "keyDownPlay": false,
-      "keyUpPlay": false,
-      "userAgent": "PC",
-      "ads": "",
-      "webUrl": "https://gimy.ai/",
       "webOpen": true,
       "click": true
     },
