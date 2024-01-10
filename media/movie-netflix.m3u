@@ -1,4 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/4d0b6847a5920b1c3f78241c96410734275506c023a17d4c4ccd035f8b60f0570365acf69fa5785e30a5bdcb6e6a4351.jpg" tvg-name="絕地盟約" group-title="2023",絕地盟約
+https://m3u.haiwaikan.com/xm3u8/8f63c02f6c114b73abb3e37c41921007adb635005b2a042bc235b269f0c794429921f11e97d0da21.m3u8
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/4d0b6847a5920b1ce9cf483c493a6dff2d3cdb8d1c0b2ab59e2676ad3f449c430b1459af83f212f6ce5de6cab1aacfcb.jpg" tvg-name="夫後之旅" group-title="2023",夫後之旅
+https://m3u.haiwaikan.com/xm3u8/c77b6c0ed77571a681209de32372ff4f229ba9987490780c92a00be2e5e1053d9921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/009ef02064ca44c4bdc5093df2d98b10768639168be1b232648cb3c68042075b54063c189a894983b8021da7ee87775e.jpg" tvg-name="我的有姊人生" group-title="2023",我的有姊人生
 https://m3u.haiwaikan.com/xm3u8/02c9e19f86cdf645864b11c4efe0ddca2907880b005e64f9591d37c1593f5cc49921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2023/11/Familia-2023-270x400.jpg" tvg-name="橄欖之家" group-title="2023",橄欖之家
@@ -142,7 +146,7 @@ https://m3u.haiwaikan.com/xm3u8/45aa6e90e17ad2d3672d497d3a6efba502f054cc420f522e
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/86cdd72ee8a3b85da4fe55389a58ace1d4214b1e3e712138c6de6cb135624366170d62d41daf6c2dce0a204de705a5c5.jpg" tvg-name="親愛的大衛" group-title="2023",親愛的大衛
 https://m3u.haiwaikan.com/xm3u8/92ccf411b8c58cae1b62a5c1067dcda1a57906120e47e7964f0d159ecb5586829921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2023/10/The-Devil-on-Trial-2023-270x400.jpg" tvg-name="惡魔的審判" group-title="2023",惡魔的審判
-https://v9.dious.cc/20231018/gxLEwYpt/index.m3u8
+https://m3u.haiwaikan.com/xm3u8/da6727731035b1e20951c7eb9f851ba40a856edf681d88513be74462c7c819f19921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/86cdd72ee8a3b85dce703c658de14e45f54362ebcd3b50a2effa15b1f5ee6a92e5a9434a37573ccad61099c780cea7b0.jpg" tvg-name="要命會議" group-title="2023",要命會議
 https://m3u.haiwaikan.com/xm3u8/0ae34e95da602f351c65b2ef41e433094f5987560a6b087eb2e0c9e414bde6609921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2023/10/Race-to-the-Summit-2023-270x400.jpg" tvg-name="巔峰之戰" group-title="2023",巔峰之戰
