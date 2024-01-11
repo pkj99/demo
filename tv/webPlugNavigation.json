@@ -752,7 +752,7 @@
           },
           "nav": {
             "descAttr": "",
-            "descCss": "div.pic-text.text-right",
+            "descCss": "span.pic-text.text-right",
             "descIndex": 0,
             "hasUrlPrefix": false,
             "imgAttr": "data-original",
@@ -762,12 +762,12 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.stui-pannel__bd.clearfix",
+            "mainCss": "ul.stui-vodlist.clearfix",
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "li",
+            "searchListCss": "li > div.stui-vodlist__box",
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
