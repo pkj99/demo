@@ -640,11 +640,11 @@
           "episodes": {
             "hasUrlPrefix": false,
             "isListItemAttr": true,
-            "listCss": "div.module-list.sort-list.tab-list.his-tab-list",
+            "listCss": "div.module-play-list > div.module-play-list-content",
             "isMultiList": true,
-            "listCssMulti": "div.module-play-list > div.module-play-list-content",
+            "listCssMulti": "a.module-play-list-link",
             "listItemAttr": "href",
-            "listItemCss": "a.module-play-list-link",
+            "listItemCss": "a > span",
             "listItemIndex": 0,
             "mainCss": "div.module",
             "mainIndex": 1
