@@ -567,10 +567,10 @@
       "webOpen": false,
       "click": true,
       "webPlus": {
-        "search_url": "https://555flim.top/vodsearch/-------------.html?wd={kw}",
+        "search_url": "https://555flim.top/vodsearch/{kw}-------------.html",
         "nav_url": "https://555flim.top/vodshow/navCate-----navPage---.html",
         "web_name": "szmuwu",
-        "search": false,
+        "search": true,
         "navHtml": {
           "name": [
             "综艺音乐",
@@ -644,7 +644,7 @@
             "isMultiList": true,
             "listCssMulti": "a.module-play-list-link",
             "listItemAttr": "href",
-            "listItemCss": "a > span",
+            "listItemCss": "a",
             "listItemIndex": 0,
             "mainCss": "div.module",
             "mainIndex": 1
