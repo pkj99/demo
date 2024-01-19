@@ -54,7 +54,7 @@ http://fm901.cityfm.tw:8080/901.mp3
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/40558.v3.png" group-title="廣播頻道" radio="true",大愛網路電台
 http://38.96.148.28:8156/stream
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/Logo_256.png" group-title="廣播頻道" radio="true",幸福電台FM102.5
-https://live.tr-radio.com/live/live/playlist.m3u8
+http://61.218.61.251:8080
 #EXTINF:-1 tvg-logo="https://vnccu.nccu.edu.tw/uploads/bulletin/image/548fc9687470004840550000/thumb_logo%E9%9B%BB%E8%85%A6JPEG.jpg" group-title="廣播頻道" radio="true",政大之聲88.7
 http://vnccuonair.nccu.edu.tw:8000/ade.taiwan.mp3
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/40966.v2.png" group-title="廣播頻道" radio="true",正聲104.1
