@@ -1,6 +1,10 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/4d0b6847a5920b1c3b510de385a03f527556837d0a36dae58669b9f08be79e92df9f3b5cb06e1f628add2995323b2bc6.jpg" tvg-name="鬥陣 60 分" group-title="2024",鬥陣 60 分
+https://m3u.haiwaikan.com/xm3u8/5762a7c89004e55ea55a6f16d6f849be99f0f95b1a5f23a6a5f46f672244af6f9921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/4d0b6847a5920b1c46a7b86ff7c6811a0624409e3fe6309872862906b95eebb1be545ac1ed97c388d60471841efaaee7.jpg" tvg-name="偷破天際線" group-title="2024",偷破天際線
 https://m3u.haiwaikan.com/xm3u8/446eda3b3e10a8930264964e78372611ddf58d3d67c412cf8bb9c5e198ec4f929921f11e97d0da21.m3u8
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/4d0b6847a5920b1c88a327c49a01d6efecac041badfdc83b588e51ff6548738f5ba240eb5b463313ad9468bf9438ef6d.jpg" tvg-name="覆巢之戰" group-title="2023",覆巢之戰
+https://m3u.haiwaikan.com/xm3u8/2bd30b1ce69a8958139e4e664b4d5ddb768f1fd76fa0a589fb99777154f1ff2c9921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/4d0b6847a5920b1c3f78241c96410734275506c023a17d4c4ccd035f8b60f0570365acf69fa5785e30a5bdcb6e6a4351.jpg" tvg-name="絕地盟約" group-title="2023",絕地盟約
 https://m3u.haiwaikan.com/xm3u8/8f63c02f6c114b73abb3e37c41921007adb635005b2a042bc235b269f0c794429921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/4d0b6847a5920b1ce9cf483c493a6dff2d3cdb8d1c0b2ab59e2676ad3f449c430b1459af83f212f6ce5de6cab1aacfcb.jpg" tvg-name="夫後之旅" group-title="2023",夫後之旅
