@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/66837-000000-583352-S.jpg" tvg-name="河神.詭水怪談" group-title="2023",河神.詭水怪談
+https://pkj99.github.io/demo/m3u8/ofiii/河神．詭水怪談 (2023).m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/86cdd72ee8a3b85d3c47c184ae70108468c01f6605b79fb8d2f82facba510c1ae16101eddc7ebe2524956f9ed732fa9f.jpg" tvg-name="謎樣的你" group-title="2023",謎樣的你
 https://pkj99.github.io/demo/m3u8/ofiii/謎樣的你 (2023).m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/05482358f8ab8e5681c45504b7a9cec95e59058ac68c35c0ff3b6536210d1f56d94683aff8bbfca098ba5e0b7ad4cb9a.jpg" tvg-name="遮天：禁区" group-title="2023",遮天：禁区
@@ -321,6 +323,8 @@ https://pkj99.github.io/demo/m3u8/ofiii/為了與你相聚 (2019).m3u8
 https://pkj99.github.io/demo/m3u8/ofiii/王的文字 (2019).m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/a28cd049a02953413e851006833cc105055d0fd93f1fc6b3663cf96e04a2fe79d320d12cddff25c61dfdd521d3b4f1b1.jpg" tvg-name="甘味家族" group-title="2019",甘味家族
 https://pkj99.github.io/demo/m3u8/ofiii/甘味家族 (2019).m3u8
+#EXTINF:-1 tvg-logo="https://cdnstatic.svc.litv.tv/pics/45157-000000-410353-S.jpg" tvg-name="甲乙戰爭" group-title="2019",甲乙戰爭
+https://pkj99.github.io/demo/m3u8/ofiii/甲乙戰爭 (2019).m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/53975-000000-484437-S.jpg" tvg-name="瘋狂好萊塢" group-title="2019",瘋狂好萊塢
 https://pkj99.github.io/demo/m3u8/ofiii/瘋狂好萊塢 (2019).m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/50600-000000-568111-S.jpg" tvg-name="白色暗箱" group-title="2019",白色暗箱
