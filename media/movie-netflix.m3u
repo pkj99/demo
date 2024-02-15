@@ -1,6 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/5d4d27c01860a996e32c7e628245717f143417aedacd8d6454bf381b70cc184e321e0983b1f8f3be60a00315b36a62c9.jpg" tvg-name="烏有之地" group-title="2024",烏有之地
 https://m3u.haiwaikan.com/xm3u8/f482cb472a05835be0199b6ee172e02b00e7bb28ca2dad27909f88ea058ee0c59921f11e97d0da21.m3u8
+#EXTINF:-1 tvg-logo="https://img.1777cdn.com/upload/vod/20240126-1/aaa433d76e0e82224ec0b6616b41185c.jpg" tvg-name="後車廂" group-title="2024",後車廂
+https://v.gsuus.com/play/xboBLqLa/index.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/4d0b6847a5920b1c3b510de385a03f527556837d0a36dae58669b9f08be79e92df9f3b5cb06e1f628add2995323b2bc6.jpg" tvg-name="鬥陣 60 分" group-title="2024",鬥陣 60 分
 https://m3u.haiwaikan.com/xm3u8/5762a7c89004e55ea55a6f16d6f849be99f0f95b1a5f23a6a5f46f672244af6f9921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/4d0b6847a5920b1c46a7b86ff7c6811a0624409e3fe6309872862906b95eebb1be545ac1ed97c388d60471841efaaee7.jpg" tvg-name="偷破天際線" group-title="2024",偷破天際線
