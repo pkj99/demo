@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/65287-000000-572501-S.jpg" tvg-name="一直一直都很喜歡你" group-title="2022",一直一直都很喜歡你
+https://pkj99.github.io/demo/m3u8/litv/一直一直都很喜歡你.Love.Cant.Be.Said.2022.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/59711-000000-523410-S.jpg" tvg-name="劌心劍" group-title="2022",劌心劍
 https://pkj99.github.io/demo/m3u8/litv/劌心劍.Piercing.Heart.Sword.2022.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/61917-000000-541794-S.jpg" tvg-name="夏爐冬扇" group-title="2022",夏爐冬扇
@@ -49,6 +51,8 @@ https://pkj99.github.io/demo/m3u8/litv/變種鯊.Great.White.2021.LiTV.m3u8
 https://pkj99.github.io/demo/m3u8/litv/超慄方殺陣.Cube.2021.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/58409-000000-515749-S.jpg" tvg-name="高山上的熱氣球" group-title="2021",高山上的熱氣球
 https://pkj99.github.io/demo/m3u8/litv/高山上的熱氣球.Echo.2021.LiTV.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/51742-000000-465670-S.jpg" tvg-name="鬼城之惡" group-title="2021",鬼城之惡
+https://pkj99.github.io/demo/m3u8/litv/鬼城之惡.Claw.2021.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/49589-000000-448130-S.jpg" tvg-name="鬼護士" group-title="2021",鬼護士
 https://pkj99.github.io/demo/m3u8/litv/鬼護士.The.Power.2021.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://www.litv.tv/promo/multiscreen/image/logo_icon_tv-d67575419d.png" tvg-name="72小時前哨救援" group-title="2020",72小時前哨救援
@@ -133,6 +137,8 @@ https://pkj99.github.io/demo/m3u8/litv/四分之一的愛.Hanggang.kailan.2019.L
 https://pkj99.github.io/demo/m3u8/litv/國民英雄.Long.Live.the.King.2019.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/48401-000000-445799-S.jpg" tvg-name="夕霧花園" group-title="2019",夕霧花園
 https://pkj99.github.io/demo/m3u8/litv/夕霧花園.The.Garden.of.Evening.Mists.2019.LiTV.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/40453-000000-310239-S.jpg" tvg-name="大冒險家(國)" group-title="2019",大冒險家(國)
+https://pkj99.github.io/demo/m3u8/litv/大冒險家(國).Missing.Link.(Chinese).2019.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/44775-000000-398052-S.jpg" tvg-name="失憶的總理大臣" group-title="2019",失憶的總理大臣
 https://pkj99.github.io/demo/m3u8/litv/失憶的總理大臣.Hit.Me.Anyone.One.More.Time.2019.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/43555-000000-372322-S.jpg" tvg-name="嫁個好腦公" group-title="2019",嫁個好腦公
@@ -747,6 +753,8 @@ https://pkj99.github.io/demo/m3u8/litv/年年有今日.I.Will.Wait.for.You.1994.
 https://pkj99.github.io/demo/m3u8/litv/新少林五祖.The.New.Legend.Of.Shaolin.1994.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://www.litv.tv/promo/multiscreen/image/logo_icon_tv-d67575419d.png" tvg-name="破壞之王(國)" group-title="1994",破壞之王(國)
 https://pkj99.github.io/demo/m3u8/litv/破壞之王(國).Love.on.Delivery.1994.LiTV.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/33540-000000-204146-S.jpg" tvg-name="第六感奇緣之人魚傳說" group-title="1994",第六感奇緣之人魚傳說
+https://pkj99.github.io/demo/m3u8/litv/第六感奇緣之人魚傳說.Mermaid.Got.Married.1994.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://www.litv.tv/promo/multiscreen/image/logo_icon_tv-d67575419d.png" tvg-name="第六感奇緣人魚傳說" group-title="1994",第六感奇緣人魚傳說
 https://pkj99.github.io/demo/m3u8/litv/第六感奇緣人魚傳說.Mermaid.Got.Married.1994.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/32377-000000-189279-S.jpg" tvg-name="金枝玉葉" group-title="1994",金枝玉葉
