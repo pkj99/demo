@@ -1,4 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/5d4d27c01860a9966c56d9e84df51b57f17810dc3cd8246c6d34358e2eeb75c18645930a9eb62e97da1245e833563d17.jpg" tvg-name="愛情常勝軍" group-title="2024",愛情常勝軍
+https://m3u.haiwaikan.com/xm3u8/0ec755d153f7cb0834ec5889cee6b78e7f13da519e9520452b2bbe34c941b9bf9921f11e97d0da21.m3u8
+#EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/4d0b6847a5920b1cb4f779a80d8034a897dee88cee8ccb1b91c61d08cedc225b156ddfbc302cced9584fc730830fed05.jpg" tvg-name="後車廂–受困記" group-title="2024",後車廂–受困記
+https://m3u.haiwaikan.com/xm3u8/0cd1fa058f21568661ee752daacbe21d82654e2196a8d3fcac4f92f70e73c9789921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://img.1777cdn.com/upload/vod/20240214-1/98ad0f4c1dc3b2bf8deb1ce3fe5f102b.jpg" tvg-name="爱情大玩家" group-title="2024",爱情大玩家
 https://m3u.haiwaikan.com/xm3u8/0ec755d153f7cb0834ec5889cee6b78e7f13da519e9520452b2bbe34c941b9bf9921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/5d4d27c01860a996e32c7e628245717f143417aedacd8d6454bf381b70cc184e321e0983b1f8f3be60a00315b36a62c9.jpg" tvg-name="烏有之地" group-title="2024",烏有之地
