@@ -1,4 +1,10 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="http://publish.bfzy.tv/upload/vod/20240228-1/49222446eac2b5eb7078c88fd3b0e0c4.jpg" tvg-name="8 級警戒 2" group-title="2024",8 級警戒 2
+https://v.gsuus.com/play/vbmmo5pb/index.m3u8
+#EXTINF:-1 tvg-logo="https://img.1777cdn.com/upload/vod/20240222-1/8348312ae362c939d251778e714c3d62.jpg" tvg-name="失恋治疗所" group-title="2024",失恋治疗所
+https://v.gsuus.com/play/QdJMMyyb/index.m3u8
+#EXTINF:-1 tvg-logo="https://img.1777cdn.com/upload/vod/20240222-1/4f710687dedbebf41dd0a459437fa10c.jpg" tvg-name="樂透度假瘋" group-title="2024",樂透度假瘋
+https://v.gsuus.com/play/NbWrr8xa/index.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/5d4d27c01860a9966c56d9e84df51b57f17810dc3cd8246c6d34358e2eeb75c18645930a9eb62e97da1245e833563d17.jpg" tvg-name="愛情常勝軍" group-title="2024",愛情常勝軍
 https://m3u.haiwaikan.com/xm3u8/0ec755d153f7cb0834ec5889cee6b78e7f13da519e9520452b2bbe34c941b9bf9921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://img.haiwaikan.com/ximgs/4d0b6847a5920b1cb4f779a80d8034a897dee88cee8ccb1b91c61d08cedc225b156ddfbc302cced9584fc730830fed05.jpg" tvg-name="後車廂–受困記" group-title="2024",後車廂–受困記
