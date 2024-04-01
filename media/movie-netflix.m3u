@@ -1,4 +1,10 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2024/03/Heart-of-the-Hunter-2024-270x400.jpg" tvg-name="獵者之心" group-title="2024",獵者之心
+https://v10.dious.cc/20240329/hoKFsIEj/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2024/03/The-Beautiful-Game-2024-270x400.jpg" tvg-name="美丽足球魂" group-title="2024",美丽足球魂
+https://v10.dious.cc/20240329/ph2ckMk3/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2024/03/The-Wages-of-Fear-2024-270x400.jpg" tvg-name="恐懼的代價" group-title="2024",恐懼的代價
+https://v10.dious.cc/20240329/wp7Dga0d/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2024/03/Rest-in-Peace-2024-270x400.jpg" tvg-name="追尋寧日" group-title="2024",追尋寧日
 https://v10.dious.cc/20240327/K6Vm1VIJ/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2024/03/Shirley-2024-270x400.jpg" tvg-name="獨排眾議" group-title="2024",獨排眾議
