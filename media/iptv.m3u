@@ -1,6 +1,4 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
-#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/YouTube-Dark-Theme-803x420.png" tvg-name="综艺大热门" group-title="台湾頻道",综艺大热门
-https://pkj99.github.io/YTLive/綜藝大熱門.m3u8
 #EXTINF:-1 tvg-logo="https://www.ftv.com.tw/images/Ch_02.png" tvg-name="民视第一台" group-title="台湾頻道",民视第一台
 https://pkj99.github.io/YTLive/民視第一台.m3u8
 #EXTINF:-1 tvg-logo="https://www.ftv.com.tw/images/Ch_03.png" tvg-name="民视台湾台" group-title="台湾頻道",民视台湾台
