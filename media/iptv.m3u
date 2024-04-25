@@ -101,6 +101,8 @@ http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
 https://pkj99.github.io/YTLive/KPOP.m3u8
 #EXTINF:-1 tvg-logo="https://cnews.com.tw/wp-content/uploads/2021/01/TAIWAN-NEW.jpg" tvg-name="中台湾生活网" group-title="台湾頻道",中台湾生活网
 http://58.99.33.16:1935/liveedge17/live_020_3.stream/chunklist.m3u8
+#EXTINF:-1 tvg-logo="http://www.aif.zju.edu.cn/aif/uploads/ueditor/image/20180314/1520994487883485.jpg" tvg-name="亚洲新闻" group-title="台湾頻道",亚洲新闻
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/动物星球.png" tvg-name="动物星球" group-title="台湾頻道",动物星球
 https://epg.pw/stream/ecfc97933454caa82c404b94ae442522528c8d4925850ed0f3c4bb9efa0bd3a4.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/vod_channel/logo_ofiii135_tv_20230707.png" tvg-name="天才冲冲冲" group-title="台湾頻道",天才冲冲冲
@@ -109,6 +111,39 @@ https://pkj99.github.io/YTLive/天才衝衝衝.m3u8
 https://pkj99.github.io/YTLive/經典元宇宙直播.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AGIKgqOuJ8021gUVWWPl-22fDEIy3jkA7MPHyVTDxDkDiQ=s176-c-k-c0x00ffffff-no-rj" tvg-name="饥饿游戏" group-title="台湾頻道",饥饿游戏
 https://pkj99.github.io/YTLive/飢餓遊戲.m3u8
+#EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/e657b56596d96fffff3074eba0a738f0.png" tvg-name="CCTV2" group-title="大陸頻道",CCTV2
+http://1.195.111.251:11190/tsfile/live/0002_1.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/7342c95efd04ed9793cbfc5a0a8c879e.png" tvg-name="CCTV3" group-title="大陸頻道",CCTV3
+http://1.195.111.251:11190/tsfile/live/0003_1.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/e0163c90dfbd0e5f61b4211a690fc9f6.png" tvg-name="CCTV4" group-title="大陸頻道",CCTV4
+http://1.195.111.251:11190/tsfile/live/0004_1.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/066bacb565742da8fbd5a0c7028084db.png" tvg-name="CCTV5" group-title="大陸頻道",CCTV5
+http://1.195.111.251:11190/tsfile/live/0005_1.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/c33edddbe29ec9143d428f27d4a646ac.png" tvg-name="CCTV6" group-title="大陸頻道",CCTV6
+http://1.195.111.251:11190/tsfile/live/0006_1.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/c80decf1aaac9eb5b55d262293d22567.png" tvg-name="CCTV7" group-title="大陸頻道",CCTV7
+http://1.195.111.251:11190/tsfile/live/0007_1.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/da83cb27fd0848fb6ba28c79974b6867.png" tvg-name="CCTV8" group-title="大陸頻道",CCTV8
+http://1.195.111.251:11190/tsfile/live/0008_1.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/f5a5867f230cbb1ed3dcd3bd690e9be4.png" tvg-name="CCTV9" group-title="大陸頻道",CCTV9
+http://1.195.111.251:11190/tsfile/live/0009_1.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/224d871be82883fc071ce82b2fbc8978.png" tvg-name="CCTV10" group-title="大陸頻道",CCTV10
+http://1.195.111.251:11190/tsfile/live/0010_1.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/224d871be82883fc071ce82b2fbc8978.png" tvg-name="CCTV10" group-title="大陸頻道",CCTV10
+http://1.195.111.251:11190/tsfile/live/0010_1.m3u8?%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E3%80%90%E6%99%B4%E5%9B%AD%E3%80%91%E6%95%B4%E7%90%86%E5%88%86%E4%BA%AB
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/5b37d3f796bacd161fc8ad525fdfbfd9.png" tvg-name="CCTV11" group-title="大陸頻道",CCTV11
+http://1.195.111.251:11190/tsfile/live/0011_1.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/a0fd933f26f3573d5049c50e109c41b4.png" tvg-name="CCTV12" group-title="大陸頻道",CCTV12
+http://1.195.111.251:11190/tsfile/live/0012_1.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/a0fd933f26f3573d5049c50e109c41b4.png" tvg-name="CCTV12" group-title="大陸頻道",CCTV12
+http://1.195.111.251:11190/tsfile/live/0012_1.m3u8?%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E3%80%90%E6%99%B4%E5%9B%AD%E3%80%91%E6%95%B4%E7%90%86%E5%88%86%E4%BA%AB
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/053124d7e916a14c60e7cb77cd95bd0f.png" tvg-name="CCTV13" group-title="大陸頻道",CCTV13
+http://1.195.111.251:11190/tsfile/live/0013_1.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/a79b5b3bb88b512ce968a369ac193176.png" tvg-name="CCTV14" group-title="大陸頻道",CCTV14
+http://1.195.111.251:11190/tsfile/live/0014_1.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/3639c6aaa5151cb9d7b75d5994046e3f.png" tvg-name="CCTV15" group-title="大陸頻道",CCTV15
+http://1.195.111.251:11190/tsfile/live/0015_1.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/b4555f5a3a2c872195304987e9f4f324.png" tvg-name="TVBS新闻台" group-title="新聞頻道",TVBS新闻台
 https://pkj99.github.io/YTLive/TVBS新聞.m3u8
@@ -124,6 +159,8 @@ https://pkj99.github.io/YTLive/東森財經新聞.m3u8
 https://pkj99.github.io/YTLive/中天新聞.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv074_tv.png" tvg-name="中视新闻" group-title="新聞頻道",中视新闻
 https://pkj99.github.io/YTLive/中視新聞.m3u8
+#EXTINF:-1 tvg-logo="http://www.aif.zju.edu.cn/aif/uploads/ueditor/image/20180314/1520994487883485.jpg" tvg-name="亚洲新闻" group-title="新聞頻道",亚洲新闻
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv052_tv.png" tvg-name="华视新闻" group-title="新聞頻道",华视新闻
 https://pkj99.github.io/YTLive/華視新聞.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv051_tv.png" tvg-name="台视新闻台" group-title="新聞頻道",台视新闻台
@@ -145,6 +182,8 @@ https://pkj99.github.io/YTLive/民視新聞台.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/6f325f8c0f78bf35fa61dc9ea83a21bf.png" tvg-name="纬来体育台" group-title="體育頻道",纬来体育台
 https://cloud.yumixiu768.com/tmp/123.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-04-12/066bacb565742da8fbd5a0c7028084db.png" tvg-name="CCTV5" group-title="體育頻道",CCTV5
+http://1.195.111.251:11190/tsfile/live/0005_1.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HBO.png" tvg-name="HBO" group-title="電影頻道",HBO
 http://220.134.196.147:9520/http/60.251.39.91:8081/hls/71/813/ch41.m3u8
