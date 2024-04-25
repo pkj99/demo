@@ -1,6 +1,4 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
-#EXTINF:-1 tvg-logo="" tvg-name="遊戲開始" group-title="2024",遊戲開始
-https://pkj99.github.io/demo/m3u8/4gtv/遊戲開始.2024.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202306090006/VOD-poster_2023-07_星夢戀歌.jpg" tvg-name="Annette：星夢戀歌" group-title="2023",Annette：星夢戀歌
 https://pkj99.github.io/demo/m3u8/4gtv/Annette：星夢戀歌.2023.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202403060007/VOD-poster.jpg" tvg-name="一直一直都很喜歡你" group-title="2023",一直一直都很喜歡你
