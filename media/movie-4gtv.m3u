@@ -1,5 +1,7 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
-#EXTINF:-1 tvg-logo="" tvg-name="遊戲開始" group-title="2024",遊戲開始
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202403190003/VOD-poster_原創05_肥伊不容易.jpg" tvg-name="肥伊不容易" group-title="2024",肥伊不容易
+https://pkj99.github.io/demo/m3u8/4gtv/肥伊不容易.2024.4gtv.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202404190001/VOD-poster_TVBS0_開始遊戲.jpg" tvg-name="遊戲開始" group-title="2024",遊戲開始
 https://pkj99.github.io/demo/m3u8/4gtv/遊戲開始.2024.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202306090006/VOD-poster_2023-07_星夢戀歌.jpg" tvg-name="Annette：星夢戀歌" group-title="2023",Annette：星夢戀歌
 https://pkj99.github.io/demo/m3u8/4gtv/Annette：星夢戀歌.2023.4gtv.m3u8
@@ -33,6 +35,8 @@ https://pkj99.github.io/demo/m3u8/4gtv/地球重生.2022.4gtv.m3u8
 https://pkj99.github.io/demo/m3u8/4gtv/夏日天空的那匹紅馬.2022.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202403060006/VOD-poster.jpg" tvg-name="少女媽媽" group-title="2022",少女媽媽
 https://pkj99.github.io/demo/m3u8/4gtv/少女媽媽.2022.4gtv.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202403190005/VOD-poster_原創05_少年陳真之亂世英雄.jpg" tvg-name="少年陳真之亂世英雄" group-title="2022",少年陳真之亂世英雄
+https://pkj99.github.io/demo/m3u8/4gtv/少年陳真之亂世英雄.2022.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202311010003/VOD-poster_2023-12_屁屁偵探-舒芙蕾島_國語.jpg" tvg-name="屁屁偵探：舒芙蕾島的秘密(國語)" group-title="2022",屁屁偵探：舒芙蕾島的秘密(國語)
 https://pkj99.github.io/demo/m3u8/4gtv/屁屁偵探：舒芙蕾島的秘密(國語).2022.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202311010005/VOD-poster_2023-12_屁屁偵探-舒芙蕾島_日語.jpg" tvg-name="屁屁偵探：舒芙蕾島的秘密(日語)" group-title="2022",屁屁偵探：舒芙蕾島的秘密(日語)
@@ -45,6 +49,8 @@ https://pkj99.github.io/demo/m3u8/4gtv/愛情失格.2022.4gtv.m3u8
 https://pkj99.github.io/demo/m3u8/4gtv/戀戀太平間.2022.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202309060015/VOD-poster.jpg" tvg-name="梵天神器：滅世開端" group-title="2022",梵天神器：滅世開端
 https://pkj99.github.io/demo/m3u8/4gtv/梵天神器：滅世開端.2022.4gtv.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202403190001/VOD-poster_原創05_每天上班總是累得要死.jpg" tvg-name="每天上班總是累得要死" group-title="2022",每天上班總是累得要死
+https://pkj99.github.io/demo/m3u8/4gtv/每天上班總是累得要死.2022.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202403040005/VOD-poster_原創0_清潔屍.jpg" tvg-name="清潔屍" group-title="2022",清潔屍
 https://pkj99.github.io/demo/m3u8/4gtv/清潔屍.2022.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202402270016/VOD-poster.jpg" tvg-name="瘋狗畢製" group-title="2022",瘋狗畢製
@@ -311,6 +317,8 @@ https://pkj99.github.io/demo/m3u8/4gtv/致命窺弒.2020.4gtv.m3u8
 https://pkj99.github.io/demo/m3u8/4gtv/致命誘拐.2020.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202212270006/VOD-poster_2023-03舊愛靈靈妻.jpg" tvg-name="舊愛靈靈妻" group-title="2020",舊愛靈靈妻
 https://pkj99.github.io/demo/m3u8/4gtv/舊愛靈靈妻.2020.4gtv.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202403190014/VOD-poster.jpg" tvg-name="舞出寂靜" group-title="2020",舞出寂靜
+https://pkj99.github.io/demo/m3u8/4gtv/舞出寂靜.2020.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202210180005/VOD-poster_2022-12_舞力重擊2.jpg" tvg-name="舞力重擊2" group-title="2020",舞力重擊2
 https://pkj99.github.io/demo/m3u8/4gtv/舞力重擊2.2020.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202212270005/VOD-poster_2023-03花街羅曼死.jpg" tvg-name="花街羅曼死" group-title="2020",花街羅曼死
@@ -327,6 +335,8 @@ https://pkj99.github.io/demo/m3u8/4gtv/詐製片家.2020.4gtv.m3u8
 https://pkj99.github.io/demo/m3u8/4gtv/說不出的告別.2020.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202310130012/VOD-poster.jpg" tvg-name="說唱藝人：希望之聲" group-title="2020",說唱藝人：希望之聲
 https://pkj99.github.io/demo/m3u8/4gtv/說唱藝人：希望之聲.2020.4gtv.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202403190011/賺錢怎麼那麼難440x620.jpg" tvg-name="賺錢怎麼那麼難" group-title="2020",賺錢怎麼那麼難
+https://pkj99.github.io/demo/m3u8/4gtv/賺錢怎麼那麼難.2020.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202212190022/超狂感恩趴.jpg" tvg-name="超狂感恩趴" group-title="2020",超狂感恩趴
 https://pkj99.github.io/demo/m3u8/4gtv/超狂感恩趴.2020.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202310030013/VOD-poster.jpg" tvg-name="超能西蒙的奇幻旅程" group-title="2020",超能西蒙的奇幻旅程
@@ -457,6 +467,8 @@ https://pkj99.github.io/demo/m3u8/4gtv/森林傳說：水之魔法石(英語).20
 https://pkj99.github.io/demo/m3u8/4gtv/欲望深淵.2019.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202310030015/VOD-poster.jpg" tvg-name="歐巴變錯身" group-title="2019",歐巴變錯身
 https://pkj99.github.io/demo/m3u8/4gtv/歐巴變錯身.2019.4gtv.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202403190002/VOD-poster_原創05_武神蘇乞兒之黃金海盜.jpg" tvg-name="武神蘇乞兒之黃金海盜" group-title="2019",武神蘇乞兒之黃金海盜
+https://pkj99.github.io/demo/m3u8/4gtv/武神蘇乞兒之黃金海盜.2019.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202206220004/VOD-poster_2022-8_殺妻嫌疑.jpg" tvg-name="殺妻嫌疑" group-title="2019",殺妻嫌疑
 https://pkj99.github.io/demo/m3u8/4gtv/殺妻嫌疑.2019.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202112160001/殺手寓言.jpg" tvg-name="殺手寓言" group-title="2019",殺手寓言
@@ -503,6 +515,8 @@ https://pkj99.github.io/demo/m3u8/4gtv/菜鳥陪審團.2019.4gtv.m3u8
 https://pkj99.github.io/demo/m3u8/4gtv/華特.2019.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202311140001/VOD-poster_原創01_蜜月失蹤記.jpg" tvg-name="蜜月失蹤記" group-title="2019",蜜月失蹤記
 https://pkj99.github.io/demo/m3u8/4gtv/蜜月失蹤記.2019.4gtv.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202403190007/VOD-poster_原創05_血腥小說.jpg" tvg-name="血腥小說：殺人計畫" group-title="2019",血腥小說：殺人計畫
+https://pkj99.github.io/demo/m3u8/4gtv/血腥小說：殺人計畫.2019.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202310040008/VOD-poster_2023-11_血腥萬聖節.jpg" tvg-name="血腥萬聖節" group-title="2019",血腥萬聖節
 https://pkj99.github.io/demo/m3u8/4gtv/血腥萬聖節.2019.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202402270005/VOD-poster.jpg" tvg-name="血色情人" group-title="2019",血色情人
@@ -625,6 +639,8 @@ https://pkj99.github.io/demo/m3u8/4gtv/我的冠軍老爸.2018.4gtv.m3u8
 https://pkj99.github.io/demo/m3u8/4gtv/我，為愛而活.2018.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202309060010/VOD-poster.jpg" tvg-name="戰廠" group-title="2018",戰廠
 https://pkj99.github.io/demo/m3u8/4gtv/戰廠.2018.4gtv.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202403190010/戲人生440x620.jpg" tvg-name="戲人生" group-title="2018",戲人生
+https://pkj99.github.io/demo/m3u8/4gtv/戲人生.2018.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202311140009/VOD-poster.jpg" tvg-name="把妹好好運" group-title="2018",把妹好好運
 https://pkj99.github.io/demo/m3u8/4gtv/把妹好好運.2018.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202310030004/VOD-poster_原創10_抓癢神探.jpg" tvg-name="抓癢神探" group-title="2018",抓癢神探
@@ -637,6 +653,8 @@ https://pkj99.github.io/demo/m3u8/4gtv/搶錢對決.2018.4gtv.m3u8
 https://pkj99.github.io/demo/m3u8/4gtv/救贖.2018.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202303200006/料理冤家.jpg" tvg-name="料理冤家" group-title="2018",料理冤家
 https://pkj99.github.io/demo/m3u8/4gtv/料理冤家.2018.4gtv.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202403190008/新婚躲貓貓1105.jpg" tvg-name="新婚躲貓貓" group-title="2018",新婚躲貓貓
+https://pkj99.github.io/demo/m3u8/4gtv/新婚躲貓貓.2018.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202310040001/VOD-poster_2023-11-日暮.jpg" tvg-name="日暮" group-title="2018",日暮
 https://pkj99.github.io/demo/m3u8/4gtv/日暮.2018.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202310030007/VOD-poster_原創10_校園有古怪之願池詛咒.jpg" tvg-name="校園有古怪之願池詛咒" group-title="2018",校園有古怪之願池詛咒
@@ -649,6 +667,8 @@ https://pkj99.github.io/demo/m3u8/4gtv/殺戮重生犬屋敷.2018.4gtv.m3u8
 https://pkj99.github.io/demo/m3u8/4gtv/毒梟沒有假期.2018.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202311020005/VOD-poster_原創12_永生村.jpg" tvg-name="永生村" group-title="2018",永生村
 https://pkj99.github.io/demo/m3u8/4gtv/永生村.2018.4gtv.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202403190006/VOD-poster_原創05_永遠的冬天.jpg" tvg-name="永遠的冬天" group-title="2018",永遠的冬天
+https://pkj99.github.io/demo/m3u8/4gtv/永遠的冬天.2018.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202310130007/VOD-poster_原創11_浪花嬌娃之怒海神拳.jpg" tvg-name="浪花嬌娃之怒海神拳" group-title="2018",浪花嬌娃之怒海神拳
 https://pkj99.github.io/demo/m3u8/4gtv/浪花嬌娃之怒海神拳.2018.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202303160018/為你寫詩.jpg" tvg-name="為你寫詩" group-title="2018",為你寫詩
@@ -829,6 +849,8 @@ https://pkj99.github.io/demo/m3u8/4gtv/跟爺爺說再見.2017.4gtv.m3u8
 https://pkj99.github.io/demo/m3u8/4gtv/鄰家大明星.2017.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202306160021/VOD-poster.jpg" tvg-name="開放性關係" group-title="2017",開放性關係
 https://pkj99.github.io/demo/m3u8/4gtv/開放性關係.2017.4gtv.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202403190009/陌聲姐妹1105.jpg" tvg-name="陌聲姊妹" group-title="2017",陌聲姊妹
+https://pkj99.github.io/demo/m3u8/4gtv/陌聲姊妹.2017.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202303150002/VOD-poster_2023-04雙生薄荷.jpg" tvg-name="雙生薄荷" group-title="2017",雙生薄荷
 https://pkj99.github.io/demo/m3u8/4gtv/雙生薄荷.2017.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202206210020/300x424_vod.jpg" tvg-name="電影版聲之形" group-title="2017",電影版聲之形
@@ -919,6 +941,8 @@ https://pkj99.github.io/demo/m3u8/4gtv/梭哈人生.2016.4gtv.m3u8
 https://pkj99.github.io/demo/m3u8/4gtv/模犯慾妻.2016.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202306160013/VOD-poster.jpg" tvg-name="波登湖殺人魔" group-title="2016",波登湖殺人魔
 https://pkj99.github.io/demo/m3u8/4gtv/波登湖殺人魔.2016.4gtv.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202404010002/洛克哈特的遺物440x620.jpg" tvg-name="洛克哈特的遺物" group-title="2016",洛克哈特的遺物
+https://pkj99.github.io/demo/m3u8/4gtv/洛克哈特的遺物.2016.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202303200010/海報師：阮大勇的插畫藝術.jpg" tvg-name="海報師：阮大勇的插畫藝術" group-title="2016",海報師：阮大勇的插畫藝術
 https://pkj99.github.io/demo/m3u8/4gtv/海報師：阮大勇的插畫藝術.2016.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202110060002/海的彼端(導演版).jpg" tvg-name="海的彼端(導演版)" group-title="2016",海的彼端(導演版)
@@ -935,6 +959,8 @@ https://pkj99.github.io/demo/m3u8/4gtv/漫漫回家路.2016.4gtv.m3u8
 https://pkj99.github.io/demo/m3u8/4gtv/灰色警戒.2016.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202212270017/烈火邊境.jpg" tvg-name="烈火邊境" group-title="2016",烈火邊境
 https://pkj99.github.io/demo/m3u8/4gtv/烈火邊境.2016.4gtv.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202403190012/狗吃掉了影子440x620.jpg" tvg-name="狗吃掉了影子" group-title="2016",狗吃掉了影子
+https://pkj99.github.io/demo/m3u8/4gtv/狗吃掉了影子.2016.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202310040010/VOD-poster.jpg" tvg-name="獵殺邊境" group-title="2016",獵殺邊境
 https://pkj99.github.io/demo/m3u8/4gtv/獵殺邊境.2016.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202210110003/VOD-poster_2022-11_睡在我上舖的兄弟.jpg" tvg-name="睡在我上舖的兄弟" group-title="2016",睡在我上舖的兄弟
@@ -1259,6 +1285,8 @@ https://pkj99.github.io/demo/m3u8/4gtv/愛，不愛.2011.4gtv.m3u8
 https://pkj99.github.io/demo/m3u8/4gtv/煉獄島.2011.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202303160020/生命之詩.jpg" tvg-name="生命之詩" group-title="2011",生命之詩
 https://pkj99.github.io/demo/m3u8/4gtv/生命之詩.2011.4gtv.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202403190013/粉色人間440x620.jpg" tvg-name="粉色人間" group-title="2011",粉色人間
+https://pkj99.github.io/demo/m3u8/4gtv/粉色人間.2011.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202203170038/300x424_vod.jpg" tvg-name="趙氏孤兒" group-title="2011",趙氏孤兒
 https://pkj99.github.io/demo/m3u8/4gtv/趙氏孤兒.2011.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202309050017/VOD-poster.jpg" tvg-name="逮捕王" group-title="2011",逮捕王
@@ -1701,3 +1729,5 @@ https://pkj99.github.io/demo/m3u8/4gtv/福爾摩斯二世.1924.4gtv.m3u8
 https://pkj99.github.io/demo/m3u8/4gtv/孤兒流浪記.1921.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202310040016/VOD-poster.jpg" tvg-name="犯罪教條" group-title="1900",犯罪教條
 https://pkj99.github.io/demo/m3u8/4gtv/犯罪教條.1900.4gtv.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202403190004/VOD-poster_原創05_飢渴的獅子.jpg" tvg-name="飢渴的獅子" group-title="1900",飢渴的獅子
+https://pkj99.github.io/demo/m3u8/4gtv/飢渴的獅子.1900.4gtv.m3u8
