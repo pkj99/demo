@@ -21,18 +21,14 @@ function ajaxUrl(ChannelName, callback)
     .then(data => {
         // var contents = data.contents;
         var contents = data;
-        console.log(data);
+        //console.log(data);
 
         var jsonData = contents.substring(contents.indexOf("(") + 1, contents.lastIndexOf(")"));
-        console.log(jsonData);
+        //console.log(jsonData);
         var j = JSON.parse(jsonData);
         var Url = j.VideoURL;
-        location.href = Url.replace("master.m3u8", "stream2.m3u8");
-        // document.write(Url);
-        // location.replace(Url);
-        // location.assign(Url);
-        // Response.redirect(Url);
-        // if(callback) callback(Url);
+        location.href = Url;
+        // location.href = Url.replace("master.m3u8", "stream2.m3u8");
     });
 }
 
