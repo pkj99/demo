@@ -125,6 +125,8 @@ https://m3u.haiwaikan.com/xm3u8/d2cd3599ffd207a6f07a35acc61fd71d06b34b7f431db3e8
 https://m3u.haiwaikan.com/xm3u8/89270cb9fcf9da128dc8e0bb4a4810b9988e6dc5c1a76c40b23fbf75aa4806139921f11e97d0da21.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/vSKpbZVvzqQcw6htiyEinbCY9vq.jpg" tvg-name="木乃伊" group-title="木乃伊",木乃伊
 https://pkj99.github.io/demo/m3u8/4gtv/木乃伊.1932.4gtv.m3u8
+#EXTINF:-1 tvg-logo="https://img.1777cdn.com/upload/vod/20240520-1/7f531606c573e7131b1f9d91b61d4886.jpg" tvg-name="木乃伊1932" group-title="木乃伊",木乃伊1932
+https://v1.mzxay.com/202405/19/mWnhksCVnH1/video/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/yKw6A25e6sjAOgi9WHBooPfAW7O.jpg" tvg-name="木乃伊歷險記" group-title="木乃伊",木乃伊歷險記
 https://m3u.haiwaikan.com/xm3u8/f11f81154ba52bebed83d339959b04de0e32d8e92a04cc40f533517f27f1d5e09921f11e97d0da21.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
