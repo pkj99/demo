@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="" tvg-name="东森美国卫视" group-title="台湾頻道",东森美国卫视
+http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
 #EXTINF:-1 tvg-logo="https://www.ftv.com.tw/images/Ch_02.png" tvg-name="民视第一台" group-title="台湾頻道",民视第一台
 https://pkj99.github.io/YTLive/民視第一台.m3u8
 #EXTINF:-1 tvg-logo="https://www.ftv.com.tw/images/Ch_03.png" tvg-name="民视台湾台" group-title="台湾頻道",民视台湾台
@@ -31,6 +33,8 @@ http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
 https://epg.pw/stream/d022283dd82f8a32737a6a8400d8e0e2f4d38e672492bb7966c25ac4950b25a3.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/7ad1820056de0ab1043a4d062e1ffae3.png" tvg-name="八大戏剧台" group-title="台湾頻道",八大戏剧台
 http://61.221.215.25:8800/hls/39/index.m3u8
+#EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/e1fe6193781771b93a62cc5d33aa990f.png" tvg-name="MOMO亲子台" group-title="台湾頻道",MOMO亲子台
+https://z88.ubtvfans.com/live/rx1/2767/721a2c596d029fba059085f169da4f2c/index.m3u8
 #EXTINF:-1 tvg-logo="https://img.isuper.tv/live-tv/momo-shop-live.jpg" tvg-name="MOMO购物1" group-title="台湾頻道",MOMO购物1
 https://pkj99.github.io/YTLive/MOMO購物一台.m3u8
 #EXTINF:-1 tvg-logo="https://img.isuper.tv/live-tv/momo-shop-live.jpg" tvg-name="MOMO购物2" group-title="台湾頻道",MOMO购物2
@@ -46,7 +50,7 @@ https://pkj99.github.io/YTLive/鏡新聞.m3u8
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/90050ed8b153419ad48c29c1f610d5ab.png" tvg-name="东森新闻台" group-title="台湾頻道",东森新闻台
 https://pkj99.github.io/YTLive/東森新聞.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv052_tv.png" tvg-name="华视新闻" group-title="台湾頻道",华视新闻
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV49.m3u8
+http://194.87.101.118/live.m3u8?c=13
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv051_tv.png" tvg-name="台视新闻台" group-title="台湾頻道",台视新闻台
 https://pkj99.github.io/YTLive/台視新聞.m3u8
 #EXTINF:-1 tvg-logo="https://www.ftv.com.tw/images/Ch_04.png" tvg-name="民视新闻台" group-title="台湾頻道",民视新闻台
@@ -131,7 +135,7 @@ https://pkj99.github.io/YTLive/中視新聞.m3u8
 #EXTINF:-1 tvg-logo="http://www.aif.zju.edu.cn/aif/uploads/ueditor/image/20180314/1520994487883485.jpg" tvg-name="亚洲新闻" group-title="新聞頻道",亚洲新闻
 http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv052_tv.png" tvg-name="华视新闻" group-title="新聞頻道",华视新闻
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV49.m3u8
+http://194.87.101.118/live.m3u8?c=13
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv051_tv.png" tvg-name="台视新闻台" group-title="新聞頻道",台视新闻台
 https://pkj99.github.io/YTLive/台視新聞.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn14_tv.png" tvg-name="寰宇新闻" group-title="新聞頻道",寰宇新闻

@@ -1,4 +1,5 @@
 台湾頻道,#genre#
+东森美国卫视,http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
 民视第一台,https://pkj99.github.io/YTLive/民視第一台.m3u8
 民视台湾台,https://pkj99.github.io/YTLive/民視台灣台.m3u8
 民视,https://pkj99.github.io/YTLive/民視.m3u8
@@ -15,6 +16,7 @@ DiscoveryAsia,http://61.221.215.25:8800/hls/50/index.m3u8
 东森超视,http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
 东森戏剧台,https://epg.pw/stream/d022283dd82f8a32737a6a8400d8e0e2f4d38e672492bb7966c25ac4950b25a3.m3u8
 八大戏剧台,http://61.221.215.25:8800/hls/39/index.m3u8
+MOMO亲子台,https://z88.ubtvfans.com/live/rx1/2767/721a2c596d029fba059085f169da4f2c/index.m3u8
 MOMO购物1,https://pkj99.github.io/YTLive/MOMO購物一台.m3u8
 MOMO购物2,https://pkj99.github.io/YTLive/MOMO購物二台.m3u8
 东森购物一台,https://pkj99.github.io/YTLive/東森購物46台.m3u8
@@ -22,7 +24,7 @@ MOMO购物2,https://pkj99.github.io/YTLive/MOMO購物二台.m3u8
 美好购物2台,https://pkj99.github.io/YTLive/美好購物2台.m3u8
 镜电视新闻台,https://pkj99.github.io/YTLive/鏡新聞.m3u8
 东森新闻台,https://pkj99.github.io/YTLive/東森新聞.m3u8
-华视新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV49.m3u8
+华视新闻,http://194.87.101.118/live.m3u8?c=13
 台视新闻台,https://pkj99.github.io/YTLive/台視新聞.m3u8
 民视新闻台,https://pkj99.github.io/YTLive/民視新聞.m3u8
 三立新闻台,https://pkj99.github.io/YTLive/三立新闻台.m3u8
@@ -65,7 +67,7 @@ TVBS新闻台,https://pkj99.github.io/YTLive/TVBS新聞.m3u8
 中天新闻台,https://pkj99.github.io/YTLive/中天新聞.m3u8
 中视新闻,https://pkj99.github.io/YTLive/中視新聞.m3u8
 亚洲新闻,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
-华视新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV49.m3u8
+华视新闻,http://194.87.101.118/live.m3u8?c=13
 台视新闻台,https://pkj99.github.io/YTLive/台視新聞.m3u8
 寰宇新闻,https://pkj99.github.io/YTLive/寰宇新聞.m3u8
 民视新闻台,https://pkj99.github.io/YTLive/民視新聞.m3u8
@@ -78,7 +80,6 @@ TVBS新闻台,https://pkj99.github.io/YTLive/TVBS新聞.m3u8
 纬来体育台,http://hls.szsummer.cn/live/446035/playlist.m3u8?k=32f9ec7c13e4b390289143a8e1b2a898&t=1840341130
 纬来体育台,https://cloud.yumixiu768.com/tmp/123.m3u8
 纬来体育台,http://cloud.yumixiu768.com/tmp/123.m3u8
-纬来体育台,rtmp://220.130.201.73/sat/tv721
 電影頻道,#genre#
 东森洋片台,https://ctrl.laotv.la/live/DongsenForeignMovie/index.m3u8
 东森电影台,https://epg.pw/stream/382dca1621c0aecc0f0ef19a4ef53b453d932600fc491d9f56657e576996d995.m3u8
