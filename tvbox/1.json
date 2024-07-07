@@ -22,7 +22,6 @@
     }
   ],
   "sites": [
-<<<<<<< HEAD
       {
       "key": "愛看资源",
       "name": "愛看资源",
@@ -66,8 +65,6 @@
 	  
     },
     
-=======
->>>>>>> f063ea91414ad96f191abb8786df9145aa14ddb8
     {
       "key": "haiwaikan",
       "name": "海外看资源",
@@ -343,18 +340,7 @@
         "综艺片"
       ]
     },
-<<<<<<< HEAD
 
-=======
-    {
-      "key": "愛看资源",
-      "name": "愛看资源",
-      "type": 1,
-      "api": "https://ikunzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1
-    },
->>>>>>> f063ea91414ad96f191abb8786df9145aa14ddb8
     {
       "key": "閃電资源",
       "name": "閃電资源",
