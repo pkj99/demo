@@ -1,29 +1,47 @@
 {
   "data": [
     {
+      "id": 1,
+      "name": "zui",
+      "ad": "no",
+      "url": "https://jx.zui.cm/?url="
+    },
+    {
+      "id": 2,
+      "name": "aidouer",
+      "ad": "no",
+      "url": "https://jx.aidouer.net/?url="
+    },
+    {
+      "id": 3,
+      "name": "jiexi",
+      "ad": "no",
+      "url": "https://jx.m3u8.tv/jiexi/?url="
+    },
+    {
       "id": 19,
       "name": "okjx",
       "ad": "no",
       "url": "https://okjx.cc/?url="
-    },    
+    },
     {
       "id": 19,
       "name": "nxflv",
       "ad": "no",
       "url": "https://www.nxflv.com/?url="
-    },    
+    },
     {
       "id": 19,
       "name": "yemu",
       "ad": "no",
       "url": "https://www.yemu.xyz/?url="
-    },    
+    },
     {
       "id": 19,
       "name": "xmflv",
       "ad": "no",
       "url": "https://jx.xmflv.com/?url="
-    },    
+    },
     {
       "id": 19,
       "name": "自定义1",

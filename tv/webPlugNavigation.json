@@ -1,20 +1,18 @@
 {
-    "data":[
-
-    
-	{
+  "data": [
+    {
       "name": "Gimy(规则)",
       "pic": "https://pkj99.github.io/demo/images/gimy.png",
       "type": "webPlug",
       "ads": "",
-      "webUrl": "https://gimytv.co/",
+      "webUrl": "https://gimy.video/",
       "webOpen": false,
       "click": true,
       "webPlus": {
-        "search_url": "https://gimytv.tv/search/-------------.html?wd={kw}",
-        "nav_url": "https://gimytv.co/genre/navCate---navPage.html",
+        "search_url": "https://gimy.video/search/-------------.html?wd={kw}",
+        "nav_url": "https://gimy.video/genre/navCate---navPage.html",
         "web_name": "Gimy",
-		    "search":true,
+        "search": false,
         "navHtml": {
           "name": [
             "電影",
@@ -27,19 +25,19 @@
             "美劇",
             "日劇",
             "紀錄片"
-                ],
+          ],
           "cate": [
-            "movies",
-            "tvseries",
-            "tv_show",
-            "anime",
-            "tw",
-            "kr",
-            "cn",
-            "us",
-            "jp",
-            "documentary"
-                ],
+            "1",
+            "2",
+            "29",
+            "24",
+            "14",
+            "20",
+            "13",
+            "16",
+            "15",
+            "22"
+          ],
           "page": "1"
         },
         "html": {
@@ -101,28 +99,298 @@
           }
         }
       }
-    },	
-
-
+    },
     {
-      "name": "唐人街(规则)",
-      "pic": "https://pkj99.github.io/demo/images/trj.png",
+      "name": "BOWANG(规则)",
+      "pic": "https://pkj99.github.io/demo/images/bowang.png",
       "type": "webPlug",
       "ads": "",
-      "webUrl": "https://www.tangrenjie.tv/",
+      "webUrl": "https://bowang.su/",
       "webOpen": false,
       "click": true,
       "webPlus": {
-        "search_url": "https://www.tangrenjie.tv/vod/search.html?wd={kw}",
-        "nav_url": "https://www.tangrenjie.tv/vod/show/id/navCate/page/navPage.html",
-        "web_name": "唐人街",
-        "search":true,
+        "search_url": "https://bowang.su/search/wd/{kw}.html",
+        "nav_url": "https://bowang.su/show/navCate/page/navPage.html",
+        "web_name": "BOWANG",
+        "search": false,
         "navHtml": {
           "name": [
-            "動作片","喜劇片","愛情片","科幻片","恐怖片","劇情片","戰爭片","国产剧","港台剧","日韩剧","欧美剧","海外剧","综艺","纪录片"
+            "電影時間",
+            "電影人氣",
+            "電影評分",
+            "劇集時間",
+            "劇集人氣",
+            "劇集評分",
+            "綜藝時間",
+            "綜藝人氣",
+            "綜藝評分"
           ],
           "cate": [
-            "6","7","8","9","10","11","12","13","14","15","16","27","3","28"
+            "1/by/time",
+            "1/by/hits",
+            "1/by/score",
+            "2/by/time",
+            "2/by/hits",
+            "2/by/score",
+            "4/by/time",
+            "4/by/hits",
+            "4/by/score"
+          ],
+          "page": "1"
+        },
+        "html": {
+          "episodes": {
+            "hasUrlPrefix": false,
+            "isListItemAttr": true,
+            "listCss": "div.module-list.sort-list.tab-list.his-tab-list",
+            "isMultiList": true,
+            "listCssMulti": "div.module-play-list > div.module-play-list-content",
+            "listItemAttr": "href",
+            "listItemCss": "a",
+            "listItemIndex": 0,
+            "mainCss": "div.module",
+            "mainIndex": 1
+          },
+          "nav": {
+            "descAttr": "",
+            "descCss": "div.module-item-note",
+            "descIndex": 0,
+            "hasUrlPrefix": false,
+            "imgAttr": "data-original",
+            "imgCss": "img",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "div.module-items.module-poster-items-base",
+            "mainListIndex": 0,
+            "nameAttr": "title",
+            "nameCss": "a",
+            "nameIndex": 0,
+            "searchListCss": "a.module-poster-item.module-item",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
+          },
+          "search": {
+            "descAttr": "",
+            "descCss": "div.module-item-note",
+            "descIndex": 0,
+            "hasUrlPrefix": false,
+            "imgAttr": "data-original",
+            "imgCss": "img",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "div.module-main.module-page",
+            "mainListIndex": 0,
+            "nameAttr": "",
+            "nameCss": "div.module-card-item-info > div.module-card-item-title > a > strong",
+            "nameIndex": 0,
+            "searchListCss": "div.module-items module-card-items > div.module-card-item.module-item",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "爱迪(规则)",
+      "pic": "https://pkj99.github.io/demo/images/aidi.png",
+      "type": "webPlug",
+      "ads": "",
+      "webUrl": "https://adys.tv/",
+      "webOpen": false,
+      "click": true,
+      "webPlus": {
+        "search_url": "https://adys.tv/vsearch/-------------.html?wd={kw}",
+        "nav_url": "https://adys.tv/show/navCate--------navPage---.html",
+        "web_name": "爱迪",
+        "search": false,
+        "navHtml": {
+          "name": [
+            "電影",
+            "動作片",
+            "喜劇片",
+            "愛情片",
+            "科幻片",
+            "恐怖片",
+            "劇情片",
+            "戰爭片",
+            "傳記",
+            "連續劇",
+            "大陸劇",
+            "港台劇",
+            "韓劇",
+            "美劇",
+            "日劇",
+            "英劇",
+            "泰劇",
+            "其他劇",
+            "綜藝",
+            "內地綜藝",
+            "港台綜藝",
+            "韓國綜藝",
+            "歐美綜藝",
+            "動漫"
+          ],
+          "cate": [
+            "dianying",
+            "dongzuopian",
+            "xijupian",
+            "aiqingpian",
+            "kehuanpian",
+            "kongbupian",
+            "juqingpian",
+            "zhanzhengpian",
+            "zhuanji",
+            "lianxuju",
+            "guochanju",
+            "gangtaiju",
+            "hanju",
+            "meiju",
+            "riju",
+            "yingju",
+            "taiju",
+            "qita",
+            "zongyi",
+            "ndzy",
+            "gtzy",
+            "variety",
+            "oumeizongyi",
+            "dongman"
+          ],
+          "page": "1"
+        },
+        "cateHtml": {
+          "isCate": false,
+          "isYear": false,
+          "isArea": false,
+          "cate": "",
+          "year": "",
+          "area": ""
+        },
+        "html": {
+          "episodes": {
+            "hasUrlPrefix": true,
+            "isListItemAttr": true,
+            "listCss": "div.playlist_full",
+            "isMultiList": true,
+            "listCssMulti": "ul > li",
+            "listItemAttr": "href",
+            "listItemCss": "a",
+            "listItemIndex": 0,
+            "mainCss": "div.tabs.playlist",
+            "mainIndex": 0
+          },
+          "nav": {
+            "descAttr": "",
+            "descCss": "span.pack_tagtext",
+            "descIndex": 0,
+            "hasUrlPrefix": false,
+            "imgAttr": "data-background-image",
+            "imgCss": "a",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": false,
+            "isUrlAttr": true,
+            "mainCss": "ul.vodlist.vodlist_wi",
+            "mainListIndex": 0,
+            "nameAttr": "title",
+            "nameCss": "a",
+            "nameIndex": 1,
+            "searchListCss": "li",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
+          },
+          "search": {
+            "descAttr": "",
+            "descCss": "span.pic_text.text_right",
+            "descIndex": 0,
+            "hasUrlPrefix": false,
+            "imgAttr": "data-original",
+            "imgCss": "a",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "ul.vodlist.clearfix",
+            "mainListIndex": 0,
+            "nameAttr": "title",
+            "nameCss": "a",
+            "nameIndex": 0,
+            "searchListCss": "li",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "多腦(规则)",
+      "pic": "https://pkj99.github.io/demo/images/duona.png",
+      "type": "webPlug",
+      "ads": "",
+      "webUrl": "https://www.dnvods.com",
+      "webOpen": false,
+      "click": true,
+      "webPlus": {
+        "search_url": "https://www.dnvods.com/index.php/vod/search.html?wd={kw}",
+        "nav_url": "https://www.dnvods.com/index.php/vod/show/id/navCate/page/navPage.html",
+        "web_name": "多腦",
+        "search": false,
+        "navHtml": {
+          "name": [
+            "電影",
+            "動作片",
+            "喜劇片",
+            "愛情片",
+            "科幻片",
+            "恐怖片",
+            "劇情片",
+            "戰爭片",
+            "連續劇",
+            "大陸劇",
+            "港台劇",
+            "日韓劇",
+            "歐美劇",
+            "海外劇",
+            "紀錄片",
+            "綜藝",
+            "內地港台綜藝",
+            "日韓綜藝",
+            "歐美綜藝",
+            "動漫"
+          ],
+          "cate": [
+            "1",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "2",
+            "13",
+            "14",
+            "15",
+            "16",
+            "31",
+            "20",
+            "3",
+            "27",
+            "28",
+            "29",
+            "4"
           ],
           "page": "1"
         },
@@ -141,7 +409,7 @@
           },
           "nav": {
             "descAttr": "",
-            "descCss": "em.voddate.voddate_year",
+            "descCss": "span.pic_text.text_right.text_dy",
             "descIndex": 0,
             "hasUrlPrefix": false,
             "imgAttr": "data-original",
@@ -151,7 +419,123 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.pannel.clearfix > ul",
+            "mainCss": "ul.vodlist.vodlist_wi",
+            "mainListIndex": 0,
+            "nameAttr": "title",
+            "nameCss": "a",
+            "nameIndex": 1,
+            "searchListCss": "li",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
+          },
+          "search": {
+            "descAttr": "",
+            "descCss": "span.info_right",
+            "descIndex": 0,
+            "hasUrlPrefix": false,
+            "imgAttr": "data-original",
+            "imgCss": "a",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "ul.vodlist.clearfix",
+            "mainListIndex": 0,
+            "nameAttr": "title",
+            "nameCss": "a",
+            "nameIndex": 0,
+            "searchListCss": "li",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "番茄影視(规则)",
+      "pic": "https://pkj99.github.io/demo/images/szmuwu.png",
+      "type": "webPlug",
+      "ads": "",
+      "webUrl": "https://www.szmuwu.com/",
+      "webOpen": false,
+      "click": true,
+      "webPlus": {
+        "search_url": "https://www.szmuwu.com/vodsearch/{kw}-------------.html",
+        "nav_url": "https://www.szmuwu.com/vodshow/navCate--------navPage---.html",
+        "web_name": "szmuwu",
+        "search": false,
+        "navHtml": {
+          "name": [
+            "动作片",
+            "喜剧片",
+            "爱情片",
+            "科幻片",
+            "恐怖片",
+            "剧情片",
+            "战争片",
+            "犯罪片",
+            "奇幻片",
+            "悬疑片",
+            "陸剧",
+            "港剧",
+            "台剧",
+            "日剧",
+            "韩剧",
+            "泰剧",
+            "美剧",
+            "海外剧"
+          ],
+          "cate": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "21",
+            "20",
+            "22",
+            "13",
+            "14",
+            "15",
+            "16",
+            "23",
+            "24",
+            "25",
+            "26"
+          ],
+          "page": "1"
+        },
+        "html": {
+          "episodes": {
+            "hasUrlPrefix": false,
+            "isListItemAttr": true,
+            "listCss": "div.tab-content.myui-panel_bd",
+            "isMultiList": true,
+            "listCssMulti": "ul > li",
+            "listItemAttr": "href",
+            "listItemCss": "a",
+            "listItemIndex": 0,
+            "mainCss": "div.col-md-wide-7.col-xs-1.padding-0",
+            "mainIndex": 0
+          },
+          "nav": {
+            "descAttr": "",
+            "descCss": "span.pic-text.text-right",
+            "descIndex": 0,
+            "hasUrlPrefix": false,
+            "imgAttr": "data-original",
+            "imgCss": "a",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "ul.myui-vodlist.clearfix",
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
@@ -163,7 +547,7 @@
           },
           "search": {
             "descAttr": "",
-            "descCss": "span.pic_text.text_right",
+            "descCss": "span.pic-text.text-right",
             "descIndex": 0,
             "hasUrlPrefix": false,
             "imgAttr": "data-original",
@@ -173,7 +557,7 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.pannel.search_box.clearfix",
+            "mainCss": "div.myui-panel_bd.col-pd.clearfix",
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
@@ -186,249 +570,266 @@
         }
       }
     },
-    
-
-
-  {
-      "name":"爱迪(规则)",
-      "pic":"https://pkj99.github.io/demo/images/aidi.png",
-      "type":"webPlug",
-      "ads":"",
-      "webUrl":"https://aidi.tv",
-      "webOpen":false,
-      "click":true,
-      "webPlus":{
-          "search_url":"https://aidi.tv/vsearch/-------------.html?wd={kw}",
-          "nav_url":"https://aidi.tv/show/navCate--------navPage---.html",
-          "web_name":"爱迪",
-          "search":true,
-          "navHtml":{
-              "name":[
-                  "電影","動作片","喜劇片","愛情片","科幻片","恐怖片","劇情片","戰爭片","傳記",
-                  "連續劇","大陸劇","港台劇","韓劇","美劇","日劇","英劇","泰劇","其他劇",
-                  "綜藝","內地綜藝","港台綜藝","韓國綜藝","歐美綜藝",
-                  "動漫"
-              ],
-              "cate":[
-                  "dianying","dongzuopian","xijupian","aiqingpian","kehuanpian","kongbupian","juqingpian","zhanzhengpian","zhuanji",
-                  "lianxuju","guochanju","gangtaiju","hanju","meiju","riju","yingju","taiju","qita",
-                  "zongyi","ndzy","gtzy","variety","oumeizongyi",
-                  "dongman"
-              ],
-              "page":"1"
+    {
+      "name": "555(规则)",
+      "pic": "https://pkj99.github.io/demo/images/555dy.png",
+      "type": "webPlug",
+      "ads": "",
+      "webUrl": "https://555flim.top/",
+      "webOpen": false,
+      "click": true,
+      "webPlus": {
+        "search_url": "https://555flim.top/vodsearch/{kw}-------------.html",
+        "nav_url": "https://555flim.top/vodshow/navCate-----navPage---.html",
+        "web_name": "szmuwu",
+        "search": false,
+        "navHtml": {
+          "name": [
+            "综艺音乐",
+            "港台剧",
+            "日韩剧",
+            "欧美剧",
+            "Netflix",
+            "剧情",
+            "科幻",
+            "动作",
+            "喜剧",
+            "爱情",
+            "冒险",
+            "歌舞",
+            "音乐",
+            "奇幻",
+            "动画",
+            "恐怖",
+            "惊悚",
+            "丧尸",
+            "战争",
+            "传记",
+            "纪录",
+            "犯罪",
+            "悬疑",
+            "西部",
+            "灾难",
+            "古装",
+            "武侠",
+            "家庭",
+            "福利"
+          ],
+          "cate": [
+            "3---音乐",
+            "15---",
+            "44---",
+            "45---",
+            "1---Netflix",
+            "1---剧情",
+            "1---科幻",
+            "1---动作",
+            "1---喜剧",
+            "1---爱情",
+            "1---冒险",
+            "1---歌舞",
+            "1---音乐",
+            "1---奇幻",
+            "1---动画",
+            "1---恐怖",
+            "1---惊悚",
+            "1---丧尸",
+            "1---战争",
+            "1---传记",
+            "1---纪录",
+            "1---犯罪",
+            "1---悬疑",
+            "1---西部",
+            "1---灾难",
+            "1---古装",
+            "1---武侠",
+            "1---家庭",
+            "124---"
+          ],
+          "page": "1"
+        },
+        "html": {
+          "episodes": {
+            "hasUrlPrefix": false,
+            "isListItemAttr": true,
+            "listCss": "div.module-play-list > div.module-play-list-content",
+            "isMultiList": true,
+            "listCssMulti": "a.module-play-list-link",
+            "listItemAttr": "href",
+            "listItemCss": "a",
+            "listItemIndex": 0,
+            "mainCss": "div.module",
+            "mainIndex": 1
           },
-          "cateHtml":{
-              "isCate":false,
-              "isYear":false,
-              "isArea":false,
-              "cate":"",
-              "year":"",
-              "area":""
+          "nav": {
+            "descAttr": "",
+            "descCss": "div.module-item-note",
+            "descIndex": 0,
+            "hasUrlPrefix": false,
+            "imgAttr": "data-original",
+            "imgCss": "img",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "div.module-items.module-poster-items-base",
+            "mainListIndex": 0,
+            "nameAttr": "title",
+            "nameCss": "a",
+            "nameIndex": 0,
+            "searchListCss": "a.module-poster-item.module-item",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
           },
-          "html":{
-              "episodes":{
-                  "hasUrlPrefix":true,
-                  "isListItemAttr":true,
-                  "listCss":"div.playlist_full",
-                  "isMultiList":true,
-                  "listCssMulti":"ul > li",
-                  "listItemAttr":"href",
-                  "listItemCss":"a",
-                  "listItemIndex":0,
-                  "mainCss":"div.play_source",
-                  "mainIndex":0
-              },
-              "nav":{
-                  "descAttr":"",
-                  "descCss":"span.pic_text.text_right",
-                  "descIndex":0,
-                  "hasUrlPrefix":false,
-                  "imgAttr":"data-original",
-                  "imgCss":"a",
-                  "imgIndex":0,
-                  "isDescAttr":false,
-                  "isImgAttr":true,
-                  "isNameAttr":false,
-                  "isUrlAttr":true,
-                  "mainCss":"ul.vodlist.vodlist_wi",
-                  "mainListIndex":0,
-                  "nameAttr":"title",
-                  "nameCss":"a",
-                  "nameIndex":1,
-                  "searchListCss":"li",
-                  "urlAttr":"href",
-                  "urlCss":"a",
-                  "urlIndex":0
-              },
-              "search":{
-                  "descAttr":"",
-                  "descCss":"span.pic_text.text_right",
-                  "descIndex":0,
-                  "hasUrlPrefix":false,
-                  "imgAttr":"data-original",
-                  "imgCss":"a",
-                  "imgIndex":0,
-                  "isDescAttr":false,
-                  "isImgAttr":true,
-                  "isNameAttr":true,
-                  "isUrlAttr":true,
-                  "mainCss":"ul.vodlist.clearfix",
-                  "mainListIndex":0,
-                  "nameAttr":"title",
-                  "nameCss":"a",
-                  "nameIndex":0,
-                  "searchListCss":"li",
-                  "urlAttr":"href",
-                  "urlCss":"a",
-                  "urlIndex":0
-              }
+          "search": {
+            "descAttr": "",
+            "descCss": "div.module-item-note",
+            "descIndex": 0,
+            "hasUrlPrefix": false,
+            "imgAttr": "data-original",
+            "imgCss": "img",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "div.module-main.module-page",
+            "mainListIndex": 0,
+            "nameAttr": "",
+            "nameCss": "div.module-card-item-info > div.module-card-item-title > a > strong",
+            "nameIndex": 0,
+            "searchListCss": "div.module-items module-card-items > div.module-card-item.module-item",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
           }
-      }
-  },
-
-
-  {
-    "name":"多腦(规则)",
-    "pic":"https://pkj99.github.io/demo/images/duona.png",
-    "type":"webPlug",
-    "ads":"",
-    "webUrl":"https://www.duonaovod.com",
-    "webOpen":false,
-    "click":true,
-    "webPlus":{
-        "search_url":"https://www.duonaovod.com/index.php/vod/search.html?wd={kw}",
-        "nav_url":"https://www.duonaovod.com/index.php/vod/show/id/navCate/page/navPage.html",
-        "web_name":"多腦",
-        "search":true,
-        "navHtml":{
-            "name":[
-                "電影","動作片","喜劇片","愛情片","科幻片","恐怖片","劇情片","戰爭片",
-                "連續劇","大陸劇","港台劇","日韓劇","歐美劇","海外劇","紀錄片",
-                "綜藝","內地港台綜藝","日韓綜藝","歐美綜藝",
-                "動漫"
-            ],
-            "cate":[
-                "1","6","7","8","9","10","11","12",
-                "2","13","14","15","16","31","20",
-                "3","27","28","29",
-                "4"
-            ],
-            "page":"1"
-        },
-        "html":{
-            "episodes":{
-                "hasUrlPrefix":false,
-                "isListItemAttr":true,
-                "listCss":"div.playlist_full",
-                "isMultiList":true,
-                "listCssMulti":"ul > li",
-                "listItemAttr":"href",
-                "listItemCss":"a",
-                "listItemIndex":0,
-                "mainCss":"div.play_source",
-                "mainIndex":0
-            },
-            "nav":{
-                "descAttr":"",
-                "descCss":"span.pic_text.text_right.text_dy",
-                "descIndex":0,
-                "hasUrlPrefix":false,
-                "imgAttr":"data-original",
-                "imgCss":"a",
-                "imgIndex":0,
-                "isDescAttr":false,
-                "isImgAttr":true,
-                "isNameAttr":true,
-                "isUrlAttr":true,
-                "mainCss":"ul.vodlist.vodlist_wi",
-                "mainListIndex":0,
-                "nameAttr":"title",
-                "nameCss":"a",
-                "nameIndex":1,
-                "searchListCss":"li",
-                "urlAttr":"href",
-                "urlCss":"a",
-                "urlIndex":0
-            },
-            "search":{
-                "descAttr":"",
-                "descCss":"span.info_right",
-                "descIndex":0,
-                "hasUrlPrefix":false,
-                "imgAttr":"data-original",
-                "imgCss":"a",
-                "imgIndex":0,
-                "isDescAttr":false,
-                "isImgAttr":true,
-                "isNameAttr":true,
-                "isUrlAttr":true,
-                "mainCss":"ul.vodlist.clearfix",
-                "mainListIndex":0,
-                "nameAttr":"title",
-                "nameCss":"a",
-                "nameIndex":0,
-                "searchListCss":"li",
-                "urlAttr":"href",
-                "urlCss":"a",
-                "urlIndex":0
-            }
         }
-    }
-  },
+      }
+    },
 
-
-
-        {
-            "name":"唐人街(Web)",
-            "pic":"https://pkj99.github.io/demo/images/watch_online.png",
-            "keyDownPlay":false,
-            "keyUpPlay":false,
-            "userAgent":"PC",
-            "ads":"",
-            "webUrl":"https://www.tangrenjie.tv/",
-            "webOpen":true,
-            "click":true
+    {
+      "name": "LIBVIO(规则)",
+      "pic": "https://pkj99.github.io/demo/images/libvio.png",
+      "type": "webPlug",
+      "ads": "",
+      "webUrl": "https://www.libvio.me/",
+      "webOpen": false,
+      "click": true,
+      "webPlus": {
+        "search_url": "https://www.libvio.me/search/-------------.html?wd={kw}",
+        "nav_url": "https://www.libvio.me/type/navCate-navPage.html",
+        "web_name": "libvio",
+        "search": false,
+        "navHtml": {
+          "name": [
+            "電影",
+            "電視劇",
+            "日韩剧",
+            "欧美剧"
+          ],
+          "cate": [
+            "1",
+            "2",
+            "15",
+            "16"
+          ],
+          "page": "1"
         },
+        "html": {
+          "episodes": {
+            "hasUrlPrefix": false,
+            "isListItemAttr": true,
+            "listCss": "ul.stui-content__playlist.clearfix > li",
+            "isMultiList": true,
+            "listCssMulti": "a",
+            "listItemAttr": "href",
+            "listItemCss": "a",
+            "listItemIndex": 0,
+            "mainCss": "div.stui-vodlist__head",
+            "mainIndex": 1
+          },
+          "nav": {
+            "descAttr": "",
+            "descCss": "span.pic-text.text-right",
+            "descIndex": 0,
+            "hasUrlPrefix": false,
+            "imgAttr": "data-original",
+            "imgCss": "a",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "ul.stui-vodlist.clearfix",
+            "mainListIndex": 0,
+            "nameAttr": "title",
+            "nameCss": "a",
+            "nameIndex": 0,
+            "searchListCss": "li > div.stui-vodlist__box",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
+          },
+          "search": {
+            "descAttr": "",
+            "descCss": "div.module-item-note",
+            "descIndex": 0,
+            "hasUrlPrefix": false,
+            "imgAttr": "data-original",
+            "imgCss": "img",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "div.module-main.module-page",
+            "mainListIndex": 0,
+            "nameAttr": "",
+            "nameCss": "div.module-card-item-info > div.module-card-item-title > a > strong",
+            "nameIndex": 0,
+            "searchListCss": "div.module-items module-card-items > div.module-card-item.module-item",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
+          }
+        }
+      }
+    },
 
-        {
-            "name":"gimy(Web)",
-            "pic":"https://pkj99.github.io/demo/images/watch_online.png",
-            "keyDownPlay":false,
-            "keyUpPlay":false,
-            "userAgent":"PC",
-            "ads":"",
-            "webUrl":"https://gimytv.co/",
-            "webOpen":true,
-            "click":true
-        },
-
-        
-        {
-          "name":"nivod(Web)",
-          "pic":"https://pkj99.github.io/demo/images/watch_online.png",
-          "keyDownPlay":false,
-          "keyUpPlay":false,
-          "userAgent":"PC",
-          "ads":"",
-          "webUrl":"https://www.nivod.tv/class.html?channelId=1",
-          "webOpen":true,
-          "click":true
-      },
-        
-      {
-        "name":"Radios.TW(Web)",
-        "pic":"https://pkj99.github.io/demo/images/watch_online.png",
-        "keyDownPlay":false,
-        "keyUpPlay":false,
-        "userAgent":"PC",
-        "ads":"",
-        "webUrl":"https://radios.tw/",
-        "webOpen":true,
-        "click":true
+    {
+      "name": "Ofiii(Web)",
+      "pic": "https://pkj99.github.io/demo/images/ofiii.jpg",
+      "keyDownPlay": false,
+      "keyUpPlay": false,
+      "userAgent": "PC",
+      "ads": "",
+      "webUrl": "https://www.ofiii.com/",
+      "webOpen": true,
+      "click": true
+    },
+    {
+      "name": "gimy.video(Web)",
+      "pic": "https://pkj99.github.io/demo/images/gimy.png",
+      "keyDownPlay": false,
+      "keyUpPlay": false,
+      "userAgent": "PC",
+      "ads": "",
+      "webUrl": "https://gimy.video/",
+      "webOpen": true,
+      "click": true
+    },
+    {
+      "name": "Radios.TW(Web)",
+      "pic": "https://pkj99.github.io/demo/images/radio.jpg",
+      "keyDownPlay": false,
+      "keyUpPlay": false,
+      "userAgent": "PC",
+      "ads": "",
+      "webUrl": "https://radios.tw/",
+      "webOpen": true,
+      "click": true
     }
-    
-
-
-
-    ]
+  ]
 }

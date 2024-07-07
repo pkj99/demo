@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv=”Permissions-Policy” content=”interest-cohort=()”>
+    <title>FTV</title>
+    <script src="static/js/jquery.min.js"></script>
+</head>
+<body>
+
+<script>
+function ajaxUrl(ChannelName, callback)
+{
+    fetch(`https://api.allorigins.win/raw?url=${encodeURIComponent('https://app.4gtv.tv/Data/GetChannelURL_Mozai.ashx?ChannelName='+ChannelName)}`)
+    // fetch('https://app.4gtv.tv/Data/GetChannelURL_Mozai.ashx?ChannelName='+ChannelName)
+    .then(response => {
+        if (response.ok) return response.text()
+        throw new Error('Network response was not ok.')
+    })
+    .then(data => {
+        // var contents = data.contents;
+        var contents = data;
+        //console.log(data);
+
+        var jsonData = contents.substring(contents.indexOf("(") + 1, contents.lastIndexOf(")"));
+        //console.log(jsonData);
+        var j = JSON.parse(jsonData);
+        var Url = j.VideoURL;
+        location.href = Url;
+        // location.href = Url.replace("master.m3u8", "stream2.m3u8");
+    });
+}
+
+
+
+// get params
+(window.onpopstate = function () {
+    var match,
+        pl     = /\+/g,  // Regex for replacing addition symbol with a space
+        search = /([^&=]+)=?([^&]*)/g,
+        decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+        query  = window.location.search.substring(1);
+
+    urlParams = {};
+    while (match = search.exec(query))
+        urlParams[decode(match[1])] = decode(match[2]);
+})();
+
+if (urlParams["ChannelName"] != null) { 
+    ChannelName = urlParams["ChannelName"];
+    ajaxUrl(ChannelName);
+}
+
+</script>
+
+</body>
+</html>
