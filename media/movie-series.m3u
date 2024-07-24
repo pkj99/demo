@@ -695,6 +695,8 @@ https://api.heimuer.app/play/8439de399b784cac8caab70261f287be.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/yxVGB2He0vQPIFjHx6uZLHyguIh.jpg" tvg-name="东北警察故事" group-title="警察故事",东北警察故事
 https://v1.tlkqc.com/wjv1/202308/19/3Ms40kdJie2/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/k0toKZFxU7E7Jd7oUSqhwQhIXBQ.jpg" tvg-name="新警察故事" group-title="警察故事",新警察故事
+https://m3u8.hmrvideo.com/play/4d63c9ccc688420db9fb93a870c8e005.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/vJWOiQqvNJFhluCzeNJTyIQmrnT.jpg" tvg-name="警察故事" group-title="警察故事",警察故事
 https://ukzy.ukubf3.com/20220402/N3nfxJ6i/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/kNy5zuG6lG4rsqYJ1cBZk3F61X1.jpg" tvg-name="警察故事2013" group-title="警察故事",警察故事2013
