@@ -24,6 +24,8 @@ https://vip.ffzy-play2.com/20240429/60088_18494dd0/index.m3u8
 https://api.heimuer.app/play/7183a464a8f046d990d718078dad52ef.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/xgGy5XFDsTKat2DhDIRsvVhCHnz.jpg" tvg-name="疤面教父" group-title="教父",疤面教父
 https://api.heimuer.app/play/c8ef94ccc4204405a2c95dce7543a294.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202210250015/300x424_vod.jpg" tvg-name="紐約教父" group-title="教父",紐約教父
+https://pkj99.github.io/demo/m3u8/4gtv/紐約教父.2018.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/h74bol6GYG6eyXIAZVGmQBraI8c.jpg" tvg-name="黑幫教父" group-title="教父",黑幫教父
 https://api.heimuer.app/play/42adf6a537da41618964bb8b255d0af6.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
@@ -72,6 +74,8 @@ https://v.gsuus.com/play/NbWAooey/index.m3u8
 https://s4.fsvod1.com/20220317/KPxT57gR/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/i9nNM60wLFuC5jOdxn9umkHXA6Z.jpg" tvg-name="葉問3" group-title="葉問",葉問3
 https://ikcdn01.ikzybf.com/20221109/hc5OJqNT/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/uVQy49HH8L8WUHDquwweEq3u1BZ.jpg" tvg-name="葉問4：完結篇" group-title="葉問",葉問4：完結篇
+https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=722
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/nFf1ZRf3FnjjN8IjHHDMabWUkw0.jpg" tvg-name="葉問前傳" group-title="葉問",葉問前傳
 https://api.heimuer.app/play/b2d8f4c90a11478fa35c516d1284e7c2.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/puPdv7xyTM8Zidli3TPjWbAPcWJ.jpg" tvg-name="葉問外傳：張天志" group-title="葉問",葉問外傳：張天志
@@ -132,6 +136,8 @@ https://api.heimuer.app/play/616a538fc29a45b8963b9a6438607992.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/EQHzMdTWqX2EN81ASfuXLprYaf.jpg" tvg-name="新木乃伊歷險記2" group-title="木乃伊",新木乃伊歷險記2
 https://api.heimuer.app/play/7aec3191017740ab8bbccf5c1f790480.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/vSKpbZVvzqQcw6htiyEinbCY9vq.jpg" tvg-name="木乃伊" group-title="木乃伊",木乃伊
+https://pkj99.github.io/demo/m3u8/4gtv/木乃伊.1932.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2EnHRyHdboUWz120LDiAk2M2Lgc.jpg" tvg-name="木乃伊歷險記" group-title="木乃伊",木乃伊歷險記
 https://v1.tlkqc.com/wjv1/202308/19/fWHvF1dxEh2/video/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/j2szysGPr5F3pYZNcT83sMBLkP.jpg" tvg-name="瓜納華托木乃伊傳說" group-title="木乃伊",瓜納華托木乃伊傳說
@@ -206,16 +212,28 @@ https://api.heimuer.app/play/7c646df43f7144a2bd61e89804c7cdcd.m3u8
 https://api.heimuer.app/play/2ff7c6aa73af402f9495a859676ff5e8.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/53T0H0ODcXlx7U8vptnITyXTBxV.jpg" tvg-name="哥吉拉vs摩斯拉" group-title="哥吉拉",哥吉拉vs摩斯拉
 https://api.heimuer.app/play/c84d96085c684d0cae2d134ef449306c.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202103120017/哥吉拉之南海大決鬥.jpg" tvg-name="哥吉拉之南海大決鬥" group-title="哥吉拉",哥吉拉之南海大決鬥
+https://pkj99.github.io/demo/m3u8/4gtv/哥吉拉之南海大決鬥.1966.4gtv.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202103120020/哥吉拉之怪獸大戰爭.jpg" tvg-name="哥吉拉之怪獸大戰爭" group-title="哥吉拉",哥吉拉之怪獸大戰爭
+https://pkj99.github.io/demo/m3u8/4gtv/哥吉拉之怪獸大戰爭.1965.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/batpSNJ12az7ucqfJ6AS9UDk7nA.jpg" tvg-name="哥吉拉大戰金剛" group-title="哥吉拉",哥吉拉大戰金剛
 https://vod2.bdzybf11.com/20220330/cxj3Y6pc/index.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/201906210004/600x848_動漫.jpg" tvg-name="哥吉拉的誕生" group-title="哥吉拉",哥吉拉的誕生
+https://pkj99.github.io/demo/m3u8/4gtv/哥吉拉的誕生.1954.4gtv.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202103120023/哥吉拉的逆襲.jpg" tvg-name="哥吉拉的逆襲" group-title="哥吉拉",哥吉拉的逆襲
+https://pkj99.github.io/demo/m3u8/4gtv/哥吉拉的逆襲.1955.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/k26yu1YUYPNZVRFL65GLWfGwaMx.jpg" tvg-name="哥吉拉與金剛：新帝國" group-title="哥吉拉",哥吉拉與金剛：新帝國
 https://api.heimuer.app/play/6f3edeb2885149e4b30f676e8a94ef3b.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/b9NbMBSi4ilQE8PMupta1l8BBcj.jpg" tvg-name="哥吉拉：噬星者" group-title="哥吉拉",哥吉拉：噬星者
 https://ikcdn01.ikzybf.com/20221031/rIMZDqEe/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/Ak2XXreUI4HG0PrmO6QwaGrnqbT.jpg" tvg-name="哥吉拉：怪獸惑星" group-title="哥吉拉",哥吉拉：怪獸惑星
 https://vod2.bdzybf11.com/20220330/G0mzBlDK/index.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202103120021/摩斯拉大戰哥吉拉.jpg" tvg-name="摩斯拉大戰哥吉拉" group-title="哥吉拉",摩斯拉大戰哥吉拉
+https://pkj99.github.io/demo/m3u8/4gtv/摩斯拉大戰哥吉拉.1964.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6FxJloa0kFOvsu2z8HndPQ100yV.jpg" tvg-name="正宗哥吉拉" group-title="哥吉拉",正宗哥吉拉
 https://api.heimuer.app/play/449fb83c59aa437c94b7db7b44ff8254.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mkCGTVI8TceOTrCOlI2AzoWEHid.jpg" tvg-name="金剛對哥吉拉" group-title="哥吉拉",金剛對哥吉拉
+https://pkj99.github.io/demo/m3u8/4gtv/金剛大戰哥吉拉.1962.4gtv.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ybmGHs0ZAOy9kRAxfWfdeC6gtoN.jpg" tvg-name="無間道" group-title="無間道",無間道
 https://vip.ffzy-play6.com/20221017/13_ddfc1740/index.m3u8
@@ -259,6 +277,8 @@ https://api.heimuer.app/play/6c21b5fda9594771a6f17a473b57181d.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/liGD5tywMAHXr6T30apv2rGiF2Z.jpg" tvg-name="星艦戰將：火星叛將" group-title="星艦戰將",星艦戰將：火星叛將
 https://v11.tlkqc.com/wjv11/202403/21/WqfDuEWXD24/video/index.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zpciuyCBq2LHAMdjxB62ccpQRbJ.jpg" tvg-name="捍衛戰士" group-title="捍衛戰士",捍衛戰士
+https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=46870
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/p6s3jNR0HHaRdsK6138b7zrc3hJ.jpg" tvg-name="捍衛戰士：獨行俠" group-title="捍衛戰士",捍衛戰士：獨行俠
 https://v7.dious.cc/20220823/d494Auc3/index.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
@@ -347,6 +367,8 @@ https://api.heimuer.app/play/d0749270f77b491bad5d32126d5dafb3.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/kR0H9GlxxfCxActRpWXe4AIczZX.jpg" tvg-name="冰雪奇緣" group-title="冰雪奇緣",冰雪奇緣
 https://vod3.bdzybf11.com/20220415/jZQRJ37R/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ebRkOLVkL1arxKRbXEFVekWtu2x.jpg" tvg-name="冰雪奇緣2" group-title="冰雪奇緣",冰雪奇緣2
+https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=167
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/r6wDfRoBV8UFrLBzEuVCQ6XTz0F.jpg" tvg-name="冰雪奇緣：驚喜連連" group-title="冰雪奇緣",冰雪奇緣：驚喜連連
 https://v.gsuus.com/play/9av224ga/index.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
@@ -470,6 +492,8 @@ https://api.heimuer.app/play/ef2252008a4f47bbb58fab8647a86ff2.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hc8eQ5TDBJchMOQuN3UiZGwBxru.jpg" tvg-name="玩命關頭" group-title="玩命關頭",玩命關頭
 https://api.heimuer.app/play/c9c2ad55f9b1499fb2e2a58e66c3fb87.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/24H4l09YEggP92GuhQxRV9GLlnl.jpg" tvg-name="玩命關頭2：飆風再起" group-title="玩命關頭",玩命關頭2：飆風再起
+https://pkj99.github.io/demo/m3u8/4gtv/玩命狂飆.2015.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/iOqYCSkltvcImHn1ryCHCIqTyrj.jpg" tvg-name="玩命關頭3：東京甩尾" group-title="玩命關頭",玩命關頭3：東京甩尾
 https://api.heimuer.app/play/f05cc9a6c4cc4faa85ce29a64247f2e6.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/rCEO3w9J5Rn5qei14PdlZrhxWpB.jpg" tvg-name="玩命關頭4" group-title="玩命關頭",玩命關頭4
