@@ -60,6 +60,10 @@ https://api.heimuer.app/play/c1e4ca5ec5fe45cc842967654602be12.m3u8
 https://v7.dious.cc/20220708/XfR48eyf/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hEryOGHwHBF0Q2wTTwKRgdQsZiM.jpg" tvg-name="異形魔種" group-title="異形",異形魔種
 https://api.heimuer.app/play/df932286dbfa4a118aceb09eef9f20bd.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8UqdqHoXIr8ETRhTq50qBDCAfuE.jpg" tvg-name="異形：收割" group-title="異形",異形：收割
+https://svip.high25-playback.com/20240822/3256_be07cce1/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/25FneImzAj1schaacbjvnyNao1T.jpg" tvg-name="異形：羅穆路斯" group-title="異形",異形：羅穆路斯
+https://m3u8.hmrvideo.com/play/463230bf6472408a97944049974e0f57.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5xf6crBXUwD4GnuLcAgLCFnhPCW.jpg" tvg-name="異形：聖約" group-title="異形",異形：聖約
 https://api.heimuer.app/play/d257b70278bd4f84a4350fa4802ba6ec.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
@@ -168,6 +172,8 @@ https://s4.fsvod1.com/20220228/QwY7ulRh/index.m3u8
 https://api.heimuer.app/play/d12f5459cc3c453daa781c29399ea349.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/jBmJZDiJ2h6DimGROpxWlPh1xIo.jpg" tvg-name="蜘蛛人：穿越新宇宙" group-title="蜘蛛人",蜘蛛人：穿越新宇宙
 https://yzzy.play-cdn18.com/20230807/3890_c802be56/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1Mdeo2Id5Q0uGna46wrnCBWkhMY.jpg" tvg-name="蜘蛛人：返校日" group-title="蜘蛛人",蜘蛛人：返校日
+https://v8.fentvoss.com/sdv8/202408/16/5ds0YRnc2m14/video/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/iBkhkeCow6viMRn12FSPjpMHwYs.jpg" tvg-name="蜘蛛人：離家日" group-title="蜘蛛人",蜘蛛人：離家日
 https://api.heimuer.app/play/48ef16f2d22c4f6bb4ba544a99a616ee.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6DyaLGqrgzoTDCxoOJCaqkWnwKH.jpg" tvg-name="蜘蛛人：驚奇再起" group-title="蜘蛛人",蜘蛛人：驚奇再起
@@ -212,12 +218,16 @@ https://api.heimuer.app/play/7c646df43f7144a2bd61e89804c7cdcd.m3u8
 https://api.heimuer.app/play/2ff7c6aa73af402f9495a859676ff5e8.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/53T0H0ODcXlx7U8vptnITyXTBxV.jpg" tvg-name="哥吉拉vs摩斯拉" group-title="哥吉拉",哥吉拉vs摩斯拉
 https://api.heimuer.app/play/c84d96085c684d0cae2d134ef449306c.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/g1faRjNarrIUfhjiv19N7HB1NvW.jpg" tvg-name="哥吉拉·伊比拉·摩斯拉 南海大決鬥" group-title="哥吉拉",哥吉拉·伊比拉·摩斯拉 南海大決鬥
+https://v5.tlkqc.com/wjv5/202408/25/AbXAGwWv5B77/video/index.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202103120017/哥吉拉之南海大決鬥.jpg" tvg-name="哥吉拉之南海大決鬥" group-title="哥吉拉",哥吉拉之南海大決鬥
 https://pkj99.github.io/demo/m3u8/4gtv/哥吉拉之南海大決鬥.1966.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202103120020/哥吉拉之怪獸大戰爭.jpg" tvg-name="哥吉拉之怪獸大戰爭" group-title="哥吉拉",哥吉拉之怪獸大戰爭
 https://pkj99.github.io/demo/m3u8/4gtv/哥吉拉之怪獸大戰爭.1965.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/batpSNJ12az7ucqfJ6AS9UDk7nA.jpg" tvg-name="哥吉拉大戰金剛" group-title="哥吉拉",哥吉拉大戰金剛
 https://vod2.bdzybf11.com/20220330/cxj3Y6pc/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bQ9VvHVkwRHyLV4yZwTqUxQ2rQR.jpg" tvg-name="哥吉拉對梅加洛" group-title="哥吉拉",哥吉拉對梅加洛
+https://v12.tlkqc.com/wjv12/202408/21/J6pGzK0Kai84/video/index.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/201906210004/600x848_動漫.jpg" tvg-name="哥吉拉的誕生" group-title="哥吉拉",哥吉拉的誕生
 https://pkj99.github.io/demo/m3u8/4gtv/哥吉拉的誕生.1954.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202103120023/哥吉拉的逆襲.jpg" tvg-name="哥吉拉的逆襲" group-title="哥吉拉",哥吉拉的逆襲
@@ -625,6 +635,10 @@ https://api.heimuer.app/play/4dcadd73f07447dea71d3d3b181c5084.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/uGq61lWRowCtAs8SeeUZA0uaXTT.jpg" tvg-name="哈利波特：死神的聖物Ⅰ" group-title="哈利波特",哈利波特：死神的聖物Ⅰ
 https://ikcdn01.ikzybf.com/20221105/DABRajDL/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bzKQHuKvkuD4Mm0k3TPup5hv9DL.jpg" tvg-name="哈利波特：消失的密室" group-title="哈利波特",哈利波特：消失的密室
+https://v1.fentvoss.com/sdv1/202308/19/7pizD2d5YN2/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/db0PiSMBIlinKaPpJtZHLVhXbdZ.jpg" tvg-name="哈利波特：混血王子的背叛" group-title="哈利波特",哈利波特：混血王子的背叛
+https://v1.fentvoss.com/sdv1/202308/19/jZ4qXuUYMH2/video/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hJjJ6kvcJkWkFc2gfgvwsLTDoGs.jpg" tvg-name="哈利波特：火盃的考驗" group-title="哈利波特",哈利波特：火盃的考驗
 https://ikcdn01.ikzybf.com/20221210/qYaADoTA/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/iGLY7oD6yMcGmBGD4aOsKvknce2.jpg" tvg-name="哈利波特：神秘的魔法石" group-title="哈利波特",哈利波特：神秘的魔法石
