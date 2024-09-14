@@ -1,6 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bug0ewWF8rIFlVepRNIJG9BRn2T.jpg" tvg-name="洛基" group-title="洛基",洛基
 https://api.heimuer.app/play/def3985737c343dd9167f9f080392660.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9IxZHj3pTaD4Run2EcfEPtfhsi2.jpg" tvg-name="洛基4：天下無敵" group-title="洛基",洛基4：天下無敵
+https://pkj99.github.io/demo/m3u8/ofiii/洛基4：天下無敵 (0000).m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8LTfbdnQ3wMrm4unjYB8h5pXEwr.jpg" tvg-name="洛基第三集" group-title="洛基",洛基第三集
 https://v1.fentvoss.com/sdv1/202308/19/nc7YvjiLKZ2/video/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/amlcyPBYH9mcjGVNGPwR4tqnZRX.jpg" tvg-name="洛基續集" group-title="洛基",洛基續集
