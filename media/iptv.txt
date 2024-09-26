@@ -47,6 +47,7 @@ MOMO亲子台,http://37.27.111.214:8080/live/3/hls.m3u8
 东森新闻台,http://37.27.111.214:8080/live/20/hls.m3u8
 华视新闻,http://37.27.111.214:8080/live/8/hls.m3u8
 台视新闻台,http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8
+TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
 中视新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV42.m3u8
 Bloomberg TV,http://37.27.111.214:8080/live/34/hls.m3u8
 寰宇新闻台湾台,http://37.27.111.214:8080/live/63/hls.m3u8
@@ -104,8 +105,7 @@ Nickelodeon,http://37.27.111.214:8080/live/12/hls.m3u8
 凤凰资讯,http://61.221.215.25:8800/hls/47/index.m3u8
 动物星球,http://61.221.215.25:8800/hls/57/index.m3u8
 大陸央视,#genre#
-CCTV1(1080p),http://gslbservzqhsw.itv.cmvideo.cn/index.m3u8?Contentid=reallive-hdcctv1&channel-id=ystenlive&livemode=1&stbId=3&checkedby:iptvcat.com
-CCTV164K,http://gslbservzqhsw.itv.cmvideo.cn/5000000008000023254/1.m3u8?channel-id=bestzb&Contentid=5000000008000023254&livemode=1&stbId=3
+CCTV1,http://gslbservzqhsw.itv.cmvideo.cn/index.m3u8?Contentid=reallive-hdcctv1&channel-id=ystenlive&livemode=1&stbId=3&checkedby:iptvcat.com
 CCTV1,http://gslbservzqhsw.itv.cmvideo.cn/1000000005000265001/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265001&livemode=1&stbId=3
 CCTV2,http://gslbservzqhsw.itv.cmvideo.cn/1000000001000023315/1.m3u8?channel-id=ystenlive&Contentid=1000000001000023315&livemode=1&stbId=3
 CCTV3,http://gslbservzqhsw.itv.cmvideo.cn/1000000005000265003/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265003&livemode=1&stbId=3
@@ -122,6 +122,7 @@ CCTV12,http://gslbservzqhsw.itv.cmvideo.cn/1000000005000265012/1.m3u8?channel-id
 CCTV13,http://gslbservzqhsw.itv.cmvideo.cn/5000000011000031108/1.m3u8?channel-id=bestzb&Contentid=5000000011000031108&livemode=1&stbId=3
 CCTV14,http://gslbservzqhsw.itv.cmvideo.cn/1000000005000265013/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265013&livemode=1&stbId=3
 CCTV15,http://gslbservzqhsw.itv.cmvideo.cn/1000000005000265014/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265014&livemode=1&stbId=3
+CCTV16,http://gslbservzqhsw.itv.cmvideo.cn/5000000008000023254/1.m3u8?channel-id=bestzb&Contentid=5000000008000023254&livemode=1&stbId=3
 CCTV17,http://gslbservzqhsw.itv.cmvideo.cn/1000000005000265015/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265015&livemode=1&stbId=3
 大陸卫视,#genre#
 湖南卫视,http://gslbservzqhsw.itv.cmvideo.cn/5000000004000006692/1.m3u8?channel-id=bestzb&Contentid=5000000004000006692&livemode=1&stbId=3
@@ -204,6 +205,7 @@ CETV-1,http://gslbservzqhsw.itv.cmvideo.cn/5000000002000002652/1.m3u8?channel-id
 CETV-4,http://gslbservzqhsw.itv.cmvideo.cn/5000000011000031126/1.m3u8?channel-id=bestzb&Contentid=5000000011000031126&livemode=1&stbId=3
 新聞頻道,#genre#
 SiTV新闻综合,http://gslbservzqhsw.itv.cmvideo.cn/5000000011000031110/1.m3u8?channel-id=bestzb&Contentid=5000000011000031110&livemode=1&stbId=3
+TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
 东森新闻台,http://37.27.111.214:8080/live/20/hls.m3u8
 东森美洲新闻台,http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
 中视新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV42.m3u8
