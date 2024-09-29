@@ -471,6 +471,8 @@ https://api.heimuer.app/play/50a79d91a6e745c784e8be71521dfec0.m3u8
 https://api.heimuer.app/play/dddf086b5b484573aaf81927cd314926.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/XJ1HuXDWcYpMr9ePWmarjwYGgK.jpg" tvg-name="暮光之城：破曉Ⅱ" group-title="暮光之城",暮光之城：破曉Ⅱ
 https://api.heimuer.app/play/2b022d0563874faebe5da27a4fe7518e.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/naIB8hoBn2sXQfv90YABoUTTTSB.jpg" tvg-name="暮光之城：蝕" group-title="暮光之城",暮光之城：蝕
+https://m3u8.hmrvideo.com/play/917ced01f48d42de841e860dc3ea58ea.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/uYOr9N5BEE7gJ2dAMlYjp2Okk1C.jpg" tvg-name="惡靈古堡" group-title="惡靈古堡",惡靈古堡
 https://api.heimuer.app/play/ba45b450a86c4288a0250553ba424366.m3u8
