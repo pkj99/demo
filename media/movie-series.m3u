@@ -627,6 +627,8 @@ https://api.heimuer.app/play/05f2b5c61ccd46429341f10f23a5c684.m3u8
 https://api.heimuer.app/play/4d1772c58a3243c1ad5b73f25f2e01b6.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3jsHbebbsdGijklpM3ae3WBNMNh.jpg" tvg-name="變形金剛：復仇之戰" group-title="變形金剛",變形金剛：復仇之戰
 https://api.heimuer.app/play/c222e194ce5a42ecab87965efc650821.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bqflnJui6q8y0cZCdVcnNEc1THd.jpg" tvg-name="變形金剛：源起" group-title="變形金剛",變形金剛：源起
+https://m3u8.hmrvideo.com/play/46dd8c312f294011937b12d3f47c3825.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gMeHtRhmnABBv0FVCQYDbXmRtxy.jpg" tvg-name="變形金剛：萬獸崛起" group-title="變形金剛",變形金剛：萬獸崛起
 https://v1.tlkqc.com/wjv1/202308/19/CNh25yjmv42/video/index.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
