@@ -6,11 +6,19 @@ FESTIVAL,http://37.27.111.214:8080/live/83/hls.m3u8
 LISTENONSPOTIFY,http://61.221.215.25:8800/hls/58/index.m3u8
 nhkworld,http://61.221.215.25:8800/hls/51/index.m3u8
 中华小当家,http://61.221.215.25:8800/hls/40/index.m3u8
+中视闽南AKtv,http://aktv.top/AKTV/live/aktv/null-10/AKTV.m3u8
+中视闽南频道,http://37.27.111.214:8080/live/7/hls.m3u8
 利加隆,http://61.221.215.25:8800/hls/57/index.m3u8
 动漫,http://37.27.111.214:8080/live/105/hls.m3u8
 动漫2,http://37.27.111.214:8080/live/106/hls.m3u8
 动画台,http://37.27.111.214:8080/live/57/hls.m3u8
+华视闽南AKtv,http://aktv.top/AKTV/live/aktv/null-11/AKTV.m3u8
+华视闽南频道,http://37.27.111.214:8080/live/8/hls.m3u8
+博斯无限频道,http://37.27.111.214:8080/live/15/hls.m3u8
+博斯运动频壹,http://37.27.111.214:8080/live/14/hls.m3u8
+博斯高球频壹,http://37.27.111.214:8080/live/13/hls.m3u8
 哆啦A梦,http://37.27.111.214:8080/live/107/hls.m3u8
+寰宇新闻AKtv,http://aktv.top/AKTV/live/aktv/null-9/AKTV.m3u8
 影迷,http://37.27.111.214:8080/live/92/hls.m3u8
 探案台,http://37.27.111.214:8080/live/11/hls.m3u8
 猪哥亮,http://37.27.111.214:8080/live/35/hls.m3u8
@@ -19,16 +27,18 @@ nhkworld,http://61.221.215.25:8800/hls/51/index.m3u8
 电视剧2,http://37.27.111.214:8080/live/109/hls.m3u8
 电视剧3,http://37.27.111.214:8080/live/111/hls.m3u8
 超人,http://37.27.111.214:8080/live/110/hls.m3u8
+靖天电影AKtv,http://aktv.top/AKTV/live/aktv/null-6/AKTV.m3u8
 民视第一台,http://37.27.111.214:8080/live/4/hls.m3u8
 民视台湾台,http://37.27.111.214:8080/live/5/hls.m3u8
 民视,http://37.27.111.214:8080/live/6/hls.m3u8
-大爱一台,https://pulltv2.wanfudaluye.com/live/tv1.m3u8
+大爱一台,https://pulltv1.wanfudaluye.com/live/tv1.m3u8? 
 中视,http://37.27.111.214:8080/live/7/hls.m3u8
 中视经典,http://37.27.111.214:8080/live/47/hls.m3u8
 华视,http://37.27.111.214:8080/live/8/hls.m3u8
 三立综合台,http://37.27.111.214:8080/live/31/hls.m3u8
 客家电视台,http://37.27.111.214:8080/live/1/hls.m3u8
 中视菁采台,http://37.27.111.214:8080/live/48/hls.m3u8
+国家地理频道,http://aktv.top/AKTV/live/aktv3/lovenaturehd/AKTV.m3u8
 DiscoveryAsia,http://61.221.215.25:8800/hls/50/index.m3u8
 新唐人亚太台,http://37.27.111.214:8080/live/51/hls.m3u8
 ARIRANG阿里郎频道,http://37.27.111.214:8080/live/52/hls.m3u8
@@ -47,8 +57,10 @@ MOMO亲子台,http://37.27.111.214:8080/live/3/hls.m3u8
 东森新闻台,http://37.27.111.214:8080/live/20/hls.m3u8
 华视新闻,http://37.27.111.214:8080/live/8/hls.m3u8
 台视新闻台,http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8
+三立新闻台,http://aktv.top/AKTV/live/aktv/null-14/AKTV.m3u8
 TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
 中视新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV42.m3u8
+中天新闻台,http://aktv.top/AKTV/live/aktv/null-8/AKTV.m3u8
 Bloomberg TV,http://37.27.111.214:8080/live/34/hls.m3u8
 寰宇新闻台湾台,http://37.27.111.214:8080/live/63/hls.m3u8
 SBN全球财经台,http://37.27.111.214:8080/live/64/hls.m3u8
@@ -56,6 +68,7 @@ SBN全球财经台,http://37.27.111.214:8080/live/64/hls.m3u8
 TVBS,http://37.27.111.214:8080/live/23/hls.m3u8
 TVBS-Asia,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
 东森购物二台,http://37.27.111.214:8080/live/66/hls.m3u8
+中天亚洲台,http://aktv.top/AKTV/live/aktv/null-12/AKTV.m3u8
 民视综艺台,http://37.27.111.214:8080/live/67/hls.m3u8
 TVBS欢乐台,http://37.27.111.214:8080/live/24/hls.m3u8
 ROCK Entertainment,http://37.27.111.214:8080/live/94/hls.m3u8
@@ -89,7 +102,7 @@ amc电影台,http://61.221.215.25:8800/hls/43/index.m3u8
 CinemaWorld,http://37.27.111.214:8080/live/30/hls.m3u8
 My Cinema Europe  我的欧洲电影,http://37.27.111.214:8080/live/98/hls.m3u8
 好消息2台,http://37.27.111.214:8080/live/99/hls.m3u8
-大爱二台,https://pulltv1.wanfudaluye.com/live/tv2.m3u8
+大爱二台,https://pulltv1.wanfudaluye.com/live/tv2.m3u8? 
 人间卫视,http://37.27.111.214:8080/live/101/hls.m3u8
 VOA美国之音,http://37.27.111.214:8080/live/45/hls.m3u8
 CNBC Asia 财经台,http://37.27.111.214:8080/live/102/hls.m3u8
@@ -206,20 +219,26 @@ CETV-4,http://gslbservzqhsw.itv.cmvideo.cn/5000000011000031126/1.m3u8?channel-id
 新聞頻道,#genre#
 SiTV新闻综合,http://gslbservzqhsw.itv.cmvideo.cn/5000000011000031110/1.m3u8?channel-id=bestzb&Contentid=5000000011000031110&livemode=1&stbId=3
 TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
+三立新闻台,http://aktv.top/AKTV/live/aktv/null-14/AKTV.m3u8
 东森新闻台,http://37.27.111.214:8080/live/20/hls.m3u8
 东森美洲新闻台,http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
+中天新闻台,http://aktv.top/AKTV/live/aktv/null-8/AKTV.m3u8
 中视新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV42.m3u8
 亚洲新闻,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8?zshijd
 华视新闻,http://37.27.111.214:8080/live/8/hls.m3u8
 台视新闻台,http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8
+寰宇新闻AKtv,http://aktv.top/AKTV/live/aktv/null-9/AKTV.m3u8
 寰宇新闻台湾台,http://37.27.111.214:8080/live/63/hls.m3u8
 民视新闻台,https://pkj99.github.io/demo/ftv.html?ChannelName=FTVNews
 镜电视新闻台,http://37.27.111.214:8080/live/62/hls.m3u8
 體育頻道,#genre#
 博斯无限台,http://37.27.111.214:8080/live/15/hls.m3u8
+博斯无限频道,http://37.27.111.214:8080/live/15/hls.m3u8
 博斯网球台,http://37.27.111.214:8080/live/16/hls.m3u8
 博斯运动一台,http://37.27.111.214:8080/live/14/hls.m3u8
+博斯运动频壹,http://37.27.111.214:8080/live/14/hls.m3u8
 博斯高球1台,http://37.27.111.214:8080/live/13/hls.m3u8
+博斯高球频壹,http://37.27.111.214:8080/live/13/hls.m3u8
 智林体育台,http://37.27.111.214:8080/live/77/hls.m3u8
 NewTV精品体育,http://gslbservzqhsw.itv.cmvideo.cn/1000000004000014634/1.m3u8?channel-id=ystenlive&Contentid=1000000004000014634&livemode=1&stbId=3
 NewTV超级体育,http://gslbservzqhsw.itv.cmvideo.cn/1000000001000009601/1.m3u8?channel-id=ystenlive&Contentid=1000000001000009601&livemode=1&stbId=3
@@ -232,8 +251,10 @@ My Cinema Europe  我的欧洲电影,http://37.27.111.214:8080/live/98/hls.m3u8
 amc电影台,http://61.221.215.25:8800/hls/43/index.m3u8
 电影,http://37.27.111.214:8080/live/11/hls.m3u8
 电影原声台CMusic,http://37.27.111.214:8080/live/72/hls.m3u8
+靖天电影AKtv,http://aktv.top/AKTV/live/aktv/null-6/AKTV.m3u8
 靖天电影台,http://37.27.111.214:8080/live/18/hls.m3u8
 龙华电影,http://37.27.111.214:8080/live/19/hls.m3u8
+龙华电影,http://aktv.top/AKTV/live/aktv/null-23/AKTV.m3u8
 NewTV动作电影,http://gslbservzqhsw.itv.cmvideo.cn/1000000004000018653/1.m3u8?channel-id=ystenlive&Contentid=1000000004000018653&livemode=1&stbId=3
 NewTV超级电影,http://gslbservzqhsw.itv.cmvideo.cn/1000000003000012426/1.m3u8?channel-id=ystenlive&Contentid=1000000003000012426&livemode=1&stbId=3
 NewTV黑莓电影,http://gslbservzqhsw.itv.cmvideo.cn/1000000004000019624/1.m3u8?channel-id=ystenlive&Contentid=1000000004000019624&livemode=1&stbId=3
