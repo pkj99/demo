@@ -1,96 +1,4 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
-#EXTINF:-1 tvg-logo="" tvg-name="28 AI 智慧赛马" group-title="台湾頻道",28 AI 智慧赛马
-http://aktv.top/AKTV/live/aktv/28ai/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="Animax(HK)" group-title="台湾頻道",Animax(HK)
-http://aktv.top/AKTV/live/aktv3/animaxhk/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="Animax-HK" group-title="台湾頻道",Animax-HK
-http://aktv.top/AKTV/live/aktv3/animaxhk/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="Astro AEC" group-title="台湾頻道",Astro AEC
-http://aktv.top/AKTV/live/aktv3/astroaec/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="Astro AOD" group-title="台湾頻道",Astro AOD
-http://aktv.top/AKTV/live/aktv3/astroaod/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="Astro QJ" group-title="台湾頻道",Astro QJ
-http://aktv.top/AKTV/live/aktv3/astroqj/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="Astro Xing He" group-title="台湾頻道",Astro Xing He
-http://aktv.top/AKTV/live/aktv3/astroxinghe/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="Astro iQIYI" group-title="台湾頻道",Astro iQIYI
-http://aktv.top/AKTV/live/aktv3/astroiqiyi/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="C+台" group-title="台湾頻道",C+台
-http://aktv.top/AKTV/live/aktv3/c/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="Channel 5" group-title="台湾頻道",Channel 5
-http://aktv.top/AKTV/live/aktv/channel5hd/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="Channel 8" group-title="台湾頻道",Channel 8
-http://aktv.top/AKTV/live/aktv/channel8hd/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="Channel U" group-title="台湾頻道",Channel U
-http://aktv.top/AKTV/live/aktv/channeluhd/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="France 24" group-title="台湾頻道",France 24
-http://aktv.top/AKTV/live/aktv3/france24/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="Hoy 78" group-title="台湾頻道",Hoy 78
-http://aktv.top/AKTV/live/aktv/hoy78/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="KIX" group-title="台湾頻道",KIX
-http://aktv.top/AKTV/live/aktv3/kix/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="MYTV SUPER" group-title="台湾頻道",MYTV SUPER
-https://aktv.top/AKTV/live/aktv/null-7/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="NHK World-Japan" group-title="台湾頻道",NHK World-Japan
-http://aktv.top/AKTV/live/aktv3/nhkworldjapan/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="NHK东京総合" group-title="台湾頻道",NHK东京総合
-http://aktv.top/AKTV/live/aktv3/nhk/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="Nick Jr" group-title="台湾頻道",Nick Jr
-http://aktv.top/AKTV/live/aktv3/nickjr/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="Now星影台" group-title="台湾頻道",Now星影台
-http://aktv.top/AKTV/live/aktv2/now/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="Now爆谷台" group-title="台湾頻道",Now爆谷台
-http://aktv.top/AKTV/live/aktv2/now-1/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="PopC" group-title="台湾頻道",PopC
-http://aktv.top/AKTV/live/aktv/popc/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="TVB Plus" group-title="台湾頻道",TVB Plus
-http://aktv.top/AKTV/live/aktv/tvbplus/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="TVB 星河台" group-title="台湾頻道",TVB 星河台
-http://aktv.top/AKTV/live/aktv2/tvb/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="Thrill" group-title="台湾頻道",Thrill
-http://aktv.top/AKTV/live/aktv3/thrill/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="ZooMoo" group-title="台湾頻道",ZooMoo
-http://aktv.top/AKTV/live/aktv3/zoomoo/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="i-Fun 动漫台" group-title="台湾頻道",i-Fun 动漫台
-http://aktv.top/AKTV/live/aktv2/ifun/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="myTV SUPER 18台" group-title="台湾頻道",myTV SUPER 18台
-http://aktv.top/AKTV/live/aktv/mytvsuper18/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="viutv 99" group-title="台湾頻道",viutv 99
-http://aktv.top/AKTV/live/aktv2/viutv99/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="viutv6 96" group-title="台湾頻道",viutv6 96
-http://aktv.top/AKTV/live/aktv2/viutv696/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="千禧经典台" group-title="台湾頻道",千禧经典台
-http://aktv.top/AKTV/live/aktv/null-15/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="千禧经典台(HK)" group-title="台湾頻道",千禧经典台(HK)
-http://aktv.top/AKTV/live/aktv/null-15/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="娱乐新闻台(HK)" group-title="台湾頻道",娱乐新闻台(HK)
-http://aktv.top/AKTV/live/aktv/hk/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="无线卫星新闻台" group-title="台湾頻道",无线卫星新闻台
-http://aktv.top/AKTV/live/aktv3/null-2/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="无线新闻台" group-title="台湾頻道",无线新闻台
-http://aktv.top/AKTV/live/aktv/null-1/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="无线新闻台(北美)" group-title="台湾頻道",无线新闻台(北美)
-http://aktv.top/AKTV/live/aktv2/null-1/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="日本全天新闻" group-title="台湾頻道",日本全天新闻
-http://aktv.top/AKTV/live/aktv/null-13/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="明珠剧集台(北美)" group-title="台湾頻道",明珠剧集台(北美)
-http://aktv.top/AKTV/live/aktv/null-19/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="爆谷台" group-title="台湾頻道",爆谷台
-http://aktv.top/AKTV/live/aktv2/null/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="神州新闻台" group-title="台湾頻道",神州新闻台
-http://aktv.top/AKTV/live/aktv3/null-1/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="美亚电影台(HK)" group-title="台湾頻道",美亚电影台(HK)
-http://aktv.top/AKTV/live/aktv/hk-1/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="翡翠剧集台(北美)" group-title="台湾頻道",翡翠剧集台(北美)
-http://aktv.top/AKTV/live/aktv/null-18/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="翡翠台(泰国)" group-title="台湾頻道",翡翠台(泰国)
-http://aktv.top/AKTV/live/aktv/null-16/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="翡翠台4K" group-title="台湾頻道",翡翠台4K
-http://aktv.top/AKTV/live/aktv3/4k/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="翡翠综合台(北美)" group-title="台湾頻道",翡翠综合台(北美)
-http://aktv.top/AKTV/live/aktv/null-17/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="黄金翡翠台" group-title="台湾頻道",黄金翡翠台
-http://aktv.top/AKTV/live/aktv/null-21/AKTV.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv007_mobile.png" tvg-name="大爱一台" group-title="台湾頻道",大爱一台
 https://pulltv1.wanfudaluye.com/live/tv1.m3u8? 
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv040_mobile.png" tvg-name="中视" group-title="台湾頻道",中视
@@ -213,8 +121,6 @@ http://cc-ynbit-wszhibo.ifengli.com:2000/live/cctv-yysd/1500.m3u8?innersid=2025
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" tvg-name="CCTV17" group-title="央视",CCTV17
 http://cc-ynbit-wszhibo.ifengli.com:2000/live/cctv-17hd/2500.m3u8?innersid=2038717225283627700
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
-#EXTINF:-1 tvg-logo="" tvg-name="东方卫视国际频道" group-title="卫视",东方卫视国际频道
-http://aktv.top/AKTV/live/aktv3/null/AKTV.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" tvg-name="湖南卫视" group-title="卫视",湖南卫视
 http://cc-ynbit-wszhibo.ifengli.com:2000/live/hnws-hd/2500.m3u8?innersid=11355377224826061225
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/浙江卫视.png" tvg-name="浙江卫视" group-title="卫视",浙江卫视
@@ -280,6 +186,83 @@ http://cc-ynbit-wszhibo.ifengli.com:2000/live/xzws-sd/1500.m3u8?innersid=2025
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/海南卫视.png" tvg-name="海南卫视" group-title="卫视",海南卫视
 http://cc-ynbit-wszhibo.ifengli.com:2000/live/lyws-sd/1500.m3u8?innersid=2025
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="" tvg-name="TVB Plus" group-title="香港頻道",TVB Plus
+http://aktv.top/AKTV/live/aktv/tvbplus/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="viutv 99" group-title="香港頻道",viutv 99
+http://aktv.top/AKTV/live/aktv2/viutv99/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="viutv6 96" group-title="香港頻道",viutv6 96
+http://aktv.top/AKTV/live/aktv2/viutv696/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="Channel 8" group-title="香港頻道",Channel 8
+http://aktv.top/AKTV/live/aktv/channel8hd/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="Channel U" group-title="香港頻道",Channel U
+http://aktv.top/AKTV/live/aktv/channeluhd/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="千禧经典台" group-title="香港頻道",千禧经典台
+http://aktv.top/AKTV/live/aktv/null-15/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="黄金翡翠台" group-title="香港頻道",黄金翡翠台
+http://aktv.top/AKTV/live/aktv/null-21/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="i-Fun 动漫台" group-title="香港頻道",i-Fun 动漫台
+http://aktv.top/AKTV/live/aktv2/ifun/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="NHK东京総合" group-title="香港頻道",NHK东京総合
+http://aktv.top/AKTV/live/aktv3/nhk/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="无线新闻台" group-title="香港頻道",无线新闻台
+http://aktv.top/AKTV/live/aktv/null-1/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="美亚电影台(HK)" group-title="香港頻道",美亚电影台(HK)
+http://aktv.top/AKTV/live/aktv/hk-1/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="无线卫星新闻台" group-title="香港頻道",无线卫星新闻台
+http://aktv.top/AKTV/live/aktv3/null-2/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="翡翠综合台(北美)" group-title="香港頻道",翡翠综合台(北美)
+http://aktv.top/AKTV/live/aktv/null-17/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="明珠剧集台(北美)" group-title="香港頻道",明珠剧集台(北美)
+http://aktv.top/AKTV/live/aktv/null-19/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="翡翠剧集台(北美)" group-title="香港頻道",翡翠剧集台(北美)
+http://aktv.top/AKTV/live/aktv/null-18/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="无线新闻台(北美)" group-title="香港頻道",无线新闻台(北美)
+http://aktv.top/AKTV/live/aktv2/null-1/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="爆谷台" group-title="香港頻道",爆谷台
+http://aktv.top/AKTV/live/aktv2/null/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="France 24" group-title="香港頻道",France 24
+http://aktv.top/AKTV/live/aktv3/france24/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="Nick Jr" group-title="香港頻道",Nick Jr
+http://aktv.top/AKTV/live/aktv3/nickjr/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="MYTV SUPER" group-title="香港頻道",MYTV SUPER
+https://aktv.top/AKTV/live/aktv/null-7/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="Thrill" group-title="香港頻道",Thrill
+http://aktv.top/AKTV/live/aktv3/thrill/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="ZooMoo" group-title="香港頻道",ZooMoo
+http://aktv.top/AKTV/live/aktv3/zoomoo/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="ZooMoo" group-title="香港頻道",ZooMoo
+http://aktv.top/AKTV/live/aktv2/zoomoo/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="翡翠台4K" group-title="香港頻道",翡翠台4K
+http://aktv.top/AKTV/live/aktv3/4k/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="C+台" group-title="香港頻道",C+台
+http://aktv.top/AKTV/live/aktv3/c/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="PopC" group-title="香港頻道",PopC
+http://aktv.top/AKTV/live/aktv/popc/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="Channel 5" group-title="香港頻道",Channel 5
+http://aktv.top/AKTV/live/aktv/channel5hd/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="KIX" group-title="香港頻道",KIX
+http://aktv.top/AKTV/live/aktv3/kix/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="NHK World-Japan" group-title="香港頻道",NHK World-Japan
+http://aktv.top/AKTV/live/aktv3/nhkworldjapan/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="神州新闻台" group-title="香港頻道",神州新闻台
+http://aktv.top/AKTV/live/aktv3/null-1/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="myTV SUPER 18台" group-title="香港頻道",myTV SUPER 18台
+http://aktv.top/AKTV/live/aktv/mytvsuper18/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="翡翠台(泰国)" group-title="香港頻道",翡翠台(泰国)
+http://aktv.top/AKTV/live/aktv/null-16/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="日本全天新闻" group-title="香港頻道",日本全天新闻
+http://aktv.top/AKTV/live/aktv/null-13/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="28 AI 智慧赛马" group-title="香港頻道",28 AI 智慧赛马
+http://aktv.top/AKTV/live/aktv/28ai/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="娱乐新闻台(HK)" group-title="香港頻道",娱乐新闻台(HK)
+http://aktv.top/AKTV/live/aktv/hk/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="千禧经典台(HK)" group-title="香港頻道",千禧经典台(HK)
+http://aktv.top/AKTV/live/aktv/null-15/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="无线新闻台(北美)" group-title="香港頻道",无线新闻台(北美)
+http://aktv.top/AKTV/live/aktv/null-20/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="东方卫视国际频道" group-title="香港頻道",东方卫视国际频道
+http://aktv.top/AKTV/live/aktv3/null/AKTV.m3u8
+#EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv072_mobile.png" tvg-name="TVBS新闻台" group-title="新聞頻道",TVBS新闻台
 http://aktv.top/AKTV/live/aktv/tvbs-1/AKTV.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live089_mobile.png" tvg-name="三立新闻台" group-title="新聞頻道",三立新闻台
@@ -290,14 +273,14 @@ http://aktv.top/AKTV/live/aktv2/null/AKTV.m3u8
 https://aktv.top/AKTV/live/aktv/null-8/AKTV.m3u8
 #EXTINF:-1 tvg-logo="http://www.aif.zju.edu.cn/aif/uploads/ueditor/image/20180314/1520994487883485.jpg" tvg-name="亚洲新闻" group-title="新聞頻道",亚洲新闻
 http://aktv.top/AKTV/live/aktv3/null-3/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="娱乐新闻台(HK)" group-title="新聞頻道",娱乐新闻台(HK)
-http://aktv.top/AKTV/live/aktv/hk/AKTV.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-longturn15_mobile.png" tvg-name="寰宇新闻" group-title="新聞頻道",寰宇新闻
 https://aktv.top/AKTV/live/aktv/null-9/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="无线卫星新闻台" group-title="新聞頻道",无线卫星新闻台
-http://aktv.top/AKTV/live/aktv3/null-2/AKTV.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/无线新闻.png" tvg-name="无线新闻" group-title="新聞頻道",无线新闻
 https://aktv.top/AKTV/live/aktv/null-1/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="娱乐新闻台(HK)" group-title="新聞頻道",娱乐新闻台(HK)
+http://aktv.top/AKTV/live/aktv/hk/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="无线卫星新闻台" group-title="新聞頻道",无线卫星新闻台
+http://aktv.top/AKTV/live/aktv3/null-2/AKTV.m3u8
 #EXTINF:-1 tvg-logo="" tvg-name="无线新闻台" group-title="新聞頻道",无线新闻台
 http://aktv.top/AKTV/live/aktv/null-1/AKTV.m3u8
 #EXTINF:-1 tvg-logo="" tvg-name="无线新闻台(北美)" group-title="新聞頻道",无线新闻台(北美)
@@ -312,12 +295,12 @@ http://cc-ynbit-wszhibo.ifengli.com:2000/live/cctv-5hd/2500.m3u8?innersid=2025
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/AXN.png" tvg-name="AXN" group-title="電影頻道",AXN
 http://aktv.top/AKTV/live/aktv2/axn/AKTV.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="美亚电影台(HK)" group-title="電影頻道",美亚电影台(HK)
-http://aktv.top/AKTV/live/aktv/hk-1/AKTV.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv061_mobile.png" tvg-name="靖天电影台" group-title="電影頻道",靖天电影台
 https://aktv.top/AKTV/live/aktv/null-6/AKTV.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-longturn03_mobile.png" tvg-name="龙华电影" group-title="電影頻道",龙华电影
 http://aktv.top/AKTV/live/aktv/null-23/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="美亚电影台(HK)" group-title="電影頻道",美亚电影台(HK)
+http://aktv.top/AKTV/live/aktv/hk-1/AKTV.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/asia-fm-92-3.png" tvg-name="AsiaFM亞太電台FM92.3" group-title="廣播頻道",AsiaFM亞太電台FM92.3
 https://stream.rcs.revma.com/kydend74hv8uv
