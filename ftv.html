@@ -5,9 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv=”Permissions-Policy” content=”interest-cohort=()”>
     <title>FTV</title>
-    <script src="static/js/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
 </head>
 <body>
+
+    <a target="_blank" href="ftv.html?ChannelName=FTV"><img src="images/iptv/民視.png"></a>
+    <a target="_blank" href="ftv.html?ChannelName=FMTV"><img src="images/iptv/民視第一台.png"></a>
+    <a target="_blank" href="ftv.html?ChannelName=FTVNews"><img src="images/iptv/民視新聞台.png"></a>
+    <a target="_blank" href="ftv.html?ChannelName=FTVDrama"><img src="images/iptv/民視影劇台.png"></a>
+    <a target="_blank" href="ftv.html?ChannelName=FTVVariety"><img src="images/iptv/民視綜藝台.png"></a>
+    <a target="_blank" href="ftv.html?ChannelName=FTVTravel"><img src="images/iptv/民視旅遊台.png"></a>
 
 <script>
 function ajaxUrl(ChannelName, callback)
@@ -19,19 +26,14 @@ function ajaxUrl(ChannelName, callback)
         throw new Error('Network response was not ok.')
     })
     .then(data => {
-        // var contents = data.contents;
         var contents = data;
-        //console.log(data);
-
         var jsonData = contents.substring(contents.indexOf("(") + 1, contents.lastIndexOf(")"));
-        //console.log(jsonData);
         var j = JSON.parse(jsonData);
         var Url = j.VideoURL;
         location.href = Url;
         // location.href = Url.replace("master.m3u8", "stream2.m3u8");
     });
 }
-
 
 
 // get params

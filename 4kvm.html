@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv=”Permissions-Policy” content=”interest-cohort=()”>
     <title>4kvm</title>
-    <script src="static/js/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
 </head>
 <body>
 
@@ -13,17 +13,14 @@
 function ajaxUrl(id, callback)
 {
     fetch(`https://api.allorigins.win/raw?url=${encodeURIComponent('https://www.4kvm.net/artplayer?mvsource=0&type=hls&id='+id)}`)
-    // fetch('https://www.4kvm.net/artlayer?mvsource=0&type=hls&id='+id))
+    // fetch('https://www.4kvm.net/artplayer?mvsource=0&type=hls&id='+id)
     .then(response => {
         if (response.ok) return response.text()
         throw new Error('Network response was not ok.')
     })
     .then(data => {
-        // var contents = data.contents;
         var contents = data;
-        //console.log(data);
 		var Url = data.split("container: '#artplayer-app',")[1].split(',')[0].trim().split("url:'")[1].split("'")[0];
-		console.log(Url);
         location.href = Url;
     });
 }
