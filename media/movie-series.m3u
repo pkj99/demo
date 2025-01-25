@@ -1,6 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bug0ewWF8rIFlVepRNIJG9BRn2T.jpg" tvg-name="洛基" group-title="洛基",洛基
 https://api.heimuer.app/play/def3985737c343dd9167f9f080392660.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8LTfbdnQ3wMrm4unjYB8h5pXEwr.jpg" tvg-name="洛基3" group-title="洛基",洛基3
+https://vod1.bdzybf11.com/20220605/Djpt0GZn/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9IxZHj3pTaD4Run2EcfEPtfhsi2.jpg" tvg-name="洛基4：天下無敵" group-title="洛基",洛基4：天下無敵
 https://pkj99.github.io/demo/m3u8/ofiii/洛基4：天下無敵 (0000).m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8LTfbdnQ3wMrm4unjYB8h5pXEwr.jpg" tvg-name="洛基第三集" group-title="洛基",洛基第三集
@@ -625,12 +627,16 @@ https://api.heimuer.app/play/4ba222178c9546c79f7b0ce1f8a44113.m3u8
 https://api.heimuer.app/play/87aac996a52d471baa956a3c88649474.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bqflnJui6q8y0cZCdVcnNEc1THd.jpg" tvg-name="變形金剛 : 源起" group-title="變形金剛",變形金剛 : 源起
 https://hd.ijycnd.com/play/Rb4Xr37b/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ia6SDGv51Is6kdcjHtcpFEoxN2G.jpg" tvg-name="變形金剛3" group-title="變形金剛",變形金剛3
+https://m3u8.hmrvideo.com/play/fa55e4a458f949dc864b4534be3ee25d.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ia6SDGv51Is6kdcjHtcpFEoxN2G.jpg" tvg-name="變形金剛3：黑月降臨" group-title="變形金剛",變形金剛3：黑月降臨
 https://api.heimuer.app/play/fa55e4a458f949dc864b4534be3ee25d.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/pNbYJZEIkgaKk9LYSLGRTKZGU7P.jpg" tvg-name="變形金剛4：絕跡重生" group-title="變形金剛",變形金剛4：絕跡重生
 https://api.heimuer.app/play/05f2b5c61ccd46429341f10f23a5c684.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4aWYoX5kRIWAp2y3yuTjPIO8y10.jpg" tvg-name="變形金剛5：最終騎士" group-title="變形金剛",變形金剛5：最終騎士
 https://api.heimuer.app/play/4d1772c58a3243c1ad5b73f25f2e01b6.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/q61s5H2DRHSJYx75adOtTL3aFuY.jpg" tvg-name="變形金剛：前傳" group-title="變形金剛",變形金剛：前傳
+https://m3u8.hmrvideo.com/play/87aac996a52d471baa956a3c88649474.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3jsHbebbsdGijklpM3ae3WBNMNh.jpg" tvg-name="變形金剛：復仇之戰" group-title="變形金剛",變形金剛：復仇之戰
 https://api.heimuer.app/play/c222e194ce5a42ecab87965efc650821.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bqflnJui6q8y0cZCdVcnNEc1THd.jpg" tvg-name="變形金剛：源起" group-title="變形金剛",變形金剛：源起
@@ -768,6 +774,8 @@ https://api.heimuer.app/play/3d015a1fa146452d9b2c4080310b3ce7.m3u8
 https://api.heimuer.app/play/5c72fa33532848a6b71a636374fb0c87.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/f2ohIBEbc3eERyU5pgSknm8DqUj.jpg" tvg-name="王牌大賤諜2" group-title="王牌大賤諜",王牌大賤諜2
 https://api.heimuer.app/play/5dd503195de5435f84f14f4eddf44fcd.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/jOXEZmfry0GsWHn03ImH70aOisb.jpg" tvg-name="王牌大賤諜二部曲：時空賤諜007" group-title="王牌大賤諜",王牌大賤諜二部曲：時空賤諜007
+https://m3u8.hmrvideo.com/play/5dd503195de5435f84f14f4eddf44fcd.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/yq2wbDaDtbpVD2Ju5j86g7Bsv1R.jpg" tvg-name="限制級戰警" group-title="限制級戰警",限制級戰警
 https://api.heimuer.app/play/731f5741eabb4e89b4d95ffeb998162a.m3u8
@@ -863,6 +871,8 @@ https://s2.fsvod1.com/20220406/j9am1xoT/index.m3u8
 https://api.heimuer.app/play/dcd635cd4bee4640b75f26220e4b081e.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/500xfvkTlh38KPR2WlqCQKgEcwM.jpg" tvg-name="門當父不對3：我才是老大" group-title="門當父不對",門當父不對3：我才是老大
 https://api.heimuer.app/play/d78a47cda62742ba8fd05bf71b4da9b2.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/500xfvkTlh38KPR2WlqCQKgEcwM.jpg" tvg-name="門當父不對之我才是老大" group-title="門當父不對",門當父不對之我才是老大
+https://m3u8.hmrvideo.com/play/d78a47cda62742ba8fd05bf71b4da9b2.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tfCIC56gP113ljsxDdZIKjaKPx0.jpg" tvg-name="MIB星際戰警" group-title="MIB星際戰警",MIB星際戰警
 https://api.heimuer.app/play/b5bf3aea8c8a4d53b5ed315a6b8cde2c.m3u8
