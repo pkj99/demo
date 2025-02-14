@@ -622,8 +622,6 @@ https://iptv.vip-tptv.xyz/litv.php?id=4gtv-4gtv040
 https://iptv.vip-tptv.xyz/litv.php?id=4gtv-4gtv041
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv080_mobile.png" tvg-name="中视经典" group-title="TP頻道",中视经典
 https://iptv.vip-tptv.xyz/litv.php?id=4gtv-4gtv080
-#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-longturn10_mobile.png" tvg-name="博斯无限台" group-title="TP頻道",博斯无限台
-https://iptv.vip-tptv.xyz/litv.php?id=litv-longturn13
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv072_mobile.png" tvg-name="TVBS新闻台" group-title="新聞頻道",TVBS新闻台
 https://iptv.vip-tptv.xyz/litv.php?id=4gtv-4gtv072
@@ -708,8 +706,6 @@ https://aktv.top/AKTV/live/aktv/null-13/AKTV.m3u8
 #EXTINF:-1 tvg-logo="" tvg-name="神州新闻台" group-title="新聞頻道",神州新闻台
 https://aktv.top/AKTV/live/aktv3/null-1/AKTV.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
-#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-longturn10_mobile.png" tvg-name="博斯无限台" group-title="體育頻道",博斯无限台
-https://iptv.vip-tptv.xyz/litv.php?id=litv-longturn13
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-longturn09_mobile.png" tvg-name="博斯网球台" group-title="體育頻道",博斯网球台
 https://iptv.vip-tptv.xyz/litv.php?id=litv-longturn09
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-longturn08_mobile.png" tvg-name="博斯运动二台" group-title="體育頻道",博斯运动二台
