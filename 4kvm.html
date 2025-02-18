@@ -19,7 +19,6 @@ function ajaxUrl(id, callback)
         throw new Error('Network response was not ok.')
     })
     .then(data => {
-        var contents = data;
 		var Url = data.split("container: '#artplayer-app',")[1].split(',')[0].trim().split("url:'")[1].split("'")[0];
         location.href = Url;
     });
