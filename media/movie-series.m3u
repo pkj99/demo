@@ -3,8 +3,6 @@
 https://api.heimuer.app/play/def3985737c343dd9167f9f080392660.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8LTfbdnQ3wMrm4unjYB8h5pXEwr.jpg" tvg-name="洛基3" group-title="洛基",洛基3
 https://vod1.bdzybf11.com/20220605/Djpt0GZn/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9IxZHj3pTaD4Run2EcfEPtfhsi2.jpg" tvg-name="洛基4：天下無敵" group-title="洛基",洛基4：天下無敵
-https://pkj99.github.io/demo/m3u8/ofiii/洛基4：天下無敵 (0000).m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8LTfbdnQ3wMrm4unjYB8h5pXEwr.jpg" tvg-name="洛基第三集" group-title="洛基",洛基第三集
 https://v1.fentvoss.com/sdv1/202308/19/nc7YvjiLKZ2/video/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/amlcyPBYH9mcjGVNGPwR4tqnZRX.jpg" tvg-name="洛基續集" group-title="洛基",洛基續集
@@ -28,8 +26,6 @@ https://vip.ffzy-play2.com/20240429/60088_18494dd0/index.m3u8
 https://api.heimuer.app/play/7183a464a8f046d990d718078dad52ef.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/xgGy5XFDsTKat2DhDIRsvVhCHnz.jpg" tvg-name="疤面教父" group-title="教父",疤面教父
 https://api.heimuer.app/play/c8ef94ccc4204405a2c95dce7543a294.m3u8
-#EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202210250015/300x424_vod.jpg" tvg-name="紐約教父" group-title="教父",紐約教父
-https://pkj99.github.io/demo/m3u8/4gtv/紐約教父.2018.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/h74bol6GYG6eyXIAZVGmQBraI8c.jpg" tvg-name="黑幫教父" group-title="教父",黑幫教父
 https://api.heimuer.app/play/42adf6a537da41618964bb8b255d0af6.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
