@@ -1,5 +1,4 @@
 台灣頻道,#genre#
-ELTA奥运7,http://217.173.176.107:1935/live/tvk.stream/playlist.m3u8
 大爱一台,https://pulltv1.wanfudaluye.com/live/tv1.m3u8
 Discovery,http://61.221.215.25:8800/hls/1/index.m3u8
 DiscoveryAsia,http://61.221.215.25:8800/hls/50/index.m3u8
@@ -33,7 +32,7 @@ CINEMAX,http://122.117.71.103:8558/http/61.222.53.250:8081/hls/71/813/ch42.m3u8
 龙华戏剧,http://122.117.71.103:8533/http/61.222.53.250:8068/hls/13/80/cstv13.m3u8
 大爱二台,http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
-经典电影台,http://120.238.94.10:9901/tsfile/live/1040_1.m3u8
+经典电影台,http://43.138.0.72:35455/yy/1382754187
 纬来精采,http://61.221.215.25:8800/hls/48/index.m3u8
 三立戏剧,http://61.221.215.25:8800/hls/41/index.m3u8
 亚洲新闻,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
@@ -392,6 +391,14 @@ CCTV5,http://36.105.100.208:35455/gaoma/cctv5.m3u8
 CCTV5,http://58.17.48.228:808/hls/5/index.m3u8
 CCTV5,http://xiaoya.crccxw.top:35455/gaoma/cctv5.m3u8
 CCTV5,http://iptv.0564.org:35455/itv/1000000005000265005.m3u8?cdn=ystenlive
+CCTV5,http://39.170.52.236:808/hls/5/index.m3u8
+CCTV5,http://113.140.86.162:8009/hls/503/index.m3u8
+CCTV5,http://219.159.91.10:9901/tsfile/live/0005_1.m3u8
+CCTV5,http://120.238.94.10:9901/tsfile/live/1022_1.m3u8
+CCTV5,http://60.223.224.176:8888/newlive/live/hls/6/live.m3u8
+CCTV5,http://lt.hxtre.com:35455/itv/1000000005000025222.m3u8?cdn=ystenlive
+CCTV5,http://45.145.229.71:8866/TVOD/1000000001000020505/ystenlive/index.m3u8
+CCTV5,http://120.192.226.35:8009/hls/503/index.m3u8
 CCTV5+,http://117.144.58.42:35455/gaoma/cctv5p.m3u8
 CCTV5+,http://111.29.9.33:6610/000000001000/1000000001000020505/index.m3u8?channel-id=bestzb&Contentid=1000000001000020505&livemode=1&stbId=3
 CCTV5+,http://175.18.189.238:9998/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -414,6 +421,11 @@ CCTV5+,http://220.170.241.204:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1
 CCTV5+,http://36.105.100.208:35455/gaoma/cctv5p.m3u8
 CCTV5+,http://xiaoya.crccxw.top:35455/gaoma/cctv5p.m3u8
 CCTV5+,http://iptv.0564.org:35455/itv/1000000005000265016.m3u8?cdn=ystenlive
+CCTV5+,http://39.170.52.236:808/hls/18/index.m3u8
+CCTV5+,http://183.215.134.239:19901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV5+,http://60.223.224.176:8888/newlive/live/hls/7/live.m3u8
+CCTV5+,http://120.238.94.10:9901/tsfile/live/1023_1.m3u8
+CCTV5+,http://45.145.229.71:8866/TVOD/1000000001000020505/ystenlive/index.m3u8
 電影頻道,#genre#
 东森电影台,https://iptv.vip-tptv.xyz/tv.php?id=4
 靖天电影台,https://iptv.vip-tptv.xyz/litv.php?id=4gtv-4gtv061
@@ -435,6 +447,7 @@ HBOFamily,http://50.7.234.10:8278/fyi_twn/playlist.m3u8?tid=18186902&ct=17988&&t
 好莱坞电影台,http://50.7.234.10:8278/hollywoodmovies_twn/playlist.m3u8?tid=MA8A4005638840056388&ct=18392&tsum=a1f1517d4ea64fd01267905f21d83859
 纬来电影台,http://122.117.71.103:8554/http/61.222.53.250:8081/hls/69/811/ch35.m3u8
 经典电影台,http://120.238.94.10:9901/tsfile/live/1040_1.m3u8
+经典电影台,http://43.138.0.72:35455/yy/1382754187
 My Cinema Europe  我的欧洲电影,http://4gtv.mumi.rip:9877/176/4gtv-live157/index.m3u8
 amc电影台,http://4gtv.mumi.rip:9877/39/4gtv-4gtv017/index.m3u8
 影迷数位电影台,http://4gtv.mumi.rip:9877/40/4gtv-4gtv011/index.m3u8
