@@ -1,4 +1,10 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3zDGqWcdItmypUO0Cbvpo91GEgs.jpg" tvg-name="小西伯利亞" group-title="2025",小西伯利亞
+https://m3u8.hmrvideo.com/play/72625628765e450ca2e9b73674b384ad.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hkK8giuqnnHsOcJYKoScA5sNBSg.jpg" tvg-name="來自誰的啟示" group-title="2025",來自誰的啟示
+https://m3u8.hmrvideo.com/play/af04e675e1d240cdbc7283706e86ebd4.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ggXb37lX9gW4SR7kpMaraXDFeFR.jpg" tvg-name="龍捲風：喬普林成為廢墟" group-title="2025",龍捲風：喬普林成為廢墟
+https://hd.ijycnd.com/play/PdyqDgWd/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/k2lWElNXcbKSifxeueHCYJ49WPC.jpg" tvg-name="電幻國度" group-title="2025",電幻國度
 https://m3u8.hmrvideo.com/play/6c40800561f64d61a2d1b859c61877f2.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/vQsGkLx68lmAdGwNapaaq3qqwKn.jpg" tvg-name="真愛小誤會" group-title="2025",真愛小誤會
