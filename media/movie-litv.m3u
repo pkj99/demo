@@ -1,6 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/8551-000000-393495.jpg" tvg-name="八月" group-title="2024",八月
 https://pkj99.github.io/demo/m3u8/litv/八月.August.2024.LiTV.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/74693-000000-642735.jpg" tvg-name="異星入侵趣" group-title="2024",異星入侵趣
+https://pkj99.github.io/demo/m3u8/litv/異星入侵趣.Alien.Country.2024.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/74061-000000-638462.jpg" tvg-name="貓妖奇譚" group-title="2024",貓妖奇譚
 https://pkj99.github.io/demo/m3u8/litv/貓妖奇譚.Love,.Death.and.Cat.2024.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/73487-000000-633153.jpg" tvg-name="戰馬一號" group-title="2023",戰馬一號
@@ -203,6 +205,8 @@ https://pkj99.github.io/demo/m3u8/litv/國民英雄.Long.Live.the.King.2019.LiTV
 https://pkj99.github.io/demo/m3u8/litv/夕霧花園.The.Garden.of.Evening.Mists.2019.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/40453-000000-310239-S.jpg" tvg-name="大冒險家(國)" group-title="2019",大冒險家(國)
 https://pkj99.github.io/demo/m3u8/litv/大冒險家(國).Missing.Link.(Chinese).2019.LiTV.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/42631-000000-351775.jpg" tvg-name="大餓" group-title="2019",大餓
+https://pkj99.github.io/demo/m3u8/litv/大餓.Heavy.Craving.2019.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/44775-000000-398052-S.jpg" tvg-name="失憶的總理大臣" group-title="2019",失憶的總理大臣
 https://pkj99.github.io/demo/m3u8/litv/失憶的總理大臣.Hit.Me.Anyone.One.More.Time.2019.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/43555-000000-372322-S.jpg" tvg-name="嫁個好腦公" group-title="2019",嫁個好腦公
@@ -881,6 +885,8 @@ https://pkj99.github.io/demo/m3u8/litv/烈愛灼身.Vatel.2000.LiTV.m3u8
 https://pkj99.github.io/demo/m3u8/litv/記憶拼圖：20週年數位修復.Memento.2000.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/27204-000000-193445-S.jpg" tvg-name="聖女貞德" group-title="1999",聖女貞德
 https://pkj99.github.io/demo/m3u8/litv/聖女貞德.The.Messenger.The.Story.of.Joan.of.Arc.1999.LiTV.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/26575-000000-520680.jpg" tvg-name="鐵道員" group-title="1999",鐵道員
+https://pkj99.github.io/demo/m3u8/litv/鐵道員.Poppoya-A.Railroad.Man.1999.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/37470-000000-259055-S.jpg" tvg-name="九星報喜" group-title="1998",九星報喜
 https://pkj99.github.io/demo/m3u8/litv/九星報喜.Ninth.Happiness.1998.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/58157-000000-512563-S.jpg" tvg-name="俠盜正傳" group-title="1998",俠盜正傳

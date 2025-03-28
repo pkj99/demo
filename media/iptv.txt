@@ -37,10 +37,14 @@ CINEMAX,http://122.117.71.103:8558/http/61.222.53.250:8081/hls/71/813/ch42.m3u8
 三立戏剧,http://61.221.215.25:8800/hls/41/index.m3u8
 亚洲新闻,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
 大陸央视,#genre#
+CCTV1,http://39.164.180.36:19901/tsfile/live/0001_2.m3u8?key=txiptv&playlive=0&authid=0
 CCTV2,http://39.164.180.36:19901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV3,http://39.164.180.36:19901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV4,http://39.164.180.36:19901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV5,http://39.164.180.36:19901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0
+CCTV5+,http://39.164.180.36:19901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=0&authid=0
+CCTV6,http://39.164.180.36:19901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid=0
+CCTV7,http://39.164.180.36:19901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV8,http://39.164.180.36:19901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV9,http://39.164.180.36:19901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV9,http://39.164.180.36:19901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&au
@@ -205,57 +209,6 @@ LiveABC互动英语频道,http://4gtv.mumi.rip:9877/188/4gtv-live030/index.m3u8
 DreamWorks 梦工厂动画,http://4gtv.mumi.rip:9877/282/4gtv-live017/index.m3u8
 TV5MONDE STYLE  生活时尚,http://4gtv.mumi.rip:9877/178/4gtv-live122/index.m3u8
 My Cinema Europe  我的欧洲电影,http://4gtv.mumi.rip:9877/176/4gtv-live157/index.m3u8
-香港頻道,#genre#
-viutv 99,https://aktv.top/AKTV/live/aktv2/viutv99/AKTV.m3u8
-翡翠台,https://aktv.top/AKTV/live/aktv/null/AKTV.m3u8
-明珠台,https://aktv.top/AKTV/live/aktv/null-2/AKTV.m3u8
-爆谷台,https://aktv.top/AKTV/live/aktv2/null/AKTV.m3u8
-Animax-HK,https://aktv.top/AKTV/live/aktv3/animaxhk/AKTV.m3u8
-Channel 8,https://aktv.top/AKTV/live/aktv/channel8hd/AKTV.m3u8
-凤凰中文,https://aktv.top/AKTV/live/aktv/null-3/AKTV.m3u8
-凤凰香港,https://aktv.top/AKTV/live/aktv/null-5/AKTV.m3u8
-千禧经典台,https://aktv.top/AKTV/live/aktv/null-15/AKTV.m3u8
-黄金翡翠台,https://aktv.top/AKTV/live/aktv/null-21/AKTV.m3u8
-无线新闻台,https://aktv.top/AKTV/live/aktv/null-1/AKTV.m3u8
-无线卫星新闻台,https://aktv.top/AKTV/live/aktv3/null-2/AKTV.m3u8
-明珠剧集台(北美),https://aktv.top/AKTV/live/aktv/null-19/AKTV.m3u8
-无线新闻台(北美),https://aktv.top/AKTV/live/aktv2/null-1/AKTV.m3u8
-翡翠剧集台(北美),https://aktv.top/AKTV/live/aktv/null-18/AKTV.m3u8
-TVB Plus,https://aktv.top/AKTV/live/aktv/tvbplus/AKTV.m3u8
-Astro QJ,https://aktv.top/AKTV/live/aktv3/astroqj/AKTV.m3u8
-Astro AEC,https://aktv.top/AKTV/live/aktv3/astroaec/AKTV.m3u8
-viutv6 96,https://aktv.top/AKTV/live/aktv2/viutv696/AKTV.m3u8
-Astro AOD,https://aktv.top/AKTV/live/aktv3/astroaod/AKTV.m3u8
-France 24,https://aktv.top/AKTV/live/aktv3/france24/AKTV.m3u8
-Nick Jr,https://aktv.top/AKTV/live/aktv3/nickjr/AKTV.m3u8
-MYTV SUPER,https://aktv.top/AKTV/live/aktv/null-7/AKTV.m3u8
-Thrill,https://aktv.top/AKTV/live/aktv3/thrill/AKTV.m3u8
-ZooMoo,https://aktv.top/AKTV/live/aktv3/zoomoo/AKTV.m3u8
-Animax(HK),https://aktv.top/AKTV/live/aktv3/animaxhk/AKTV.m3u8
-Hoy 78,https://aktv.top/AKTV/live/aktv/hoy78/AKTV.m3u8
-Astro iQIYI,https://aktv.top/AKTV/live/aktv3/astroiqiyi/AKTV.m3u8
-翡翠台4K,https://aktv.top/AKTV/live/aktv3/4k/AKTV.m3u8
-C+台,https://aktv.top/AKTV/live/aktv3/c/AKTV.m3u8
-凤凰资讯,https://aktv.top/AKTV/live/aktv/null-4/AKTV.m3u8
-无线新闻,https://aktv.top/AKTV/live/aktv/null-1/AKTV.m3u8
-PopC,https://aktv.top/AKTV/live/aktv/popc/AKTV.m3u8
-Now爆谷台,https://aktv.top/AKTV/live/aktv2/now-1/AKTV.m3u8
-Channel 5,https://aktv.top/AKTV/live/aktv/channel5hd/AKTV.m3u8
-Channel U,https://aktv.top/AKTV/live/aktv/channeluhd/AKTV.m3u8
-Now星影台,https://aktv.top/AKTV/live/aktv2/now/AKTV.m3u8
-TVB 星河台,https://aktv.top/AKTV/live/aktv2/tvb/AKTV.m3u8
-KIX,https://aktv.top/AKTV/live/aktv3/kix/AKTV.m3u8
-Astro Xing He,https://aktv.top/AKTV/live/aktv3/astroxinghe/AKTV.m3u8
-NHK东京総合,https://aktv.top/AKTV/live/aktv3/nhk/AKTV.m3u8
-i-Fun 动漫台,https://aktv.top/AKTV/live/aktv2/ifun/AKTV.m3u8
-NHK World-Japan,https://aktv.top/AKTV/live/aktv3/nhkworldjapan/AKTV.m3u8
-神州新闻台,https://aktv.top/AKTV/live/aktv3/null-1/AKTV.m3u8
-myTV SUPER 18台,https://aktv.top/AKTV/live/aktv/mytvsuper18/AKTV.m3u8
-翡翠台(泰国),https://aktv.top/AKTV/live/aktv/null-16/AKTV.m3u8
-日本全天新闻,https://aktv.top/AKTV/live/aktv/null-13/AKTV.m3u8
-28 AI 智慧赛马,https://aktv.top/AKTV/live/aktv/28ai/AKTV.m3u8
-娱乐新闻台(HK),https://aktv.top/AKTV/live/aktv/hk/AKTV.m3u8
-千禧经典台(HK),https://aktv.top/AKTV/live/aktv/null-15/AKTV.m3u8
 TP頻道,#genre#
 东森新闻台,https://iptv.vip-tptv.xyz/litv.php?id=4gtv-4gtv152
 TVBS新闻台,https://iptv.vip-tptv.xyz/litv.php?id=4gtv-4gtv072
@@ -394,6 +347,10 @@ CCTV5,http://42.48.105.224:9002/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&au
 CCTV5,http://42.225.117.174:11199/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV5,http://139.209.191.40:9003//hls/6/index.m3u8
 CCTV5,http://nas.suntao.online:35455/gaoma/cctv5.m3u8
+CCTV5,http://120.198.101.106:9901/tsfile/live/1030_1.m3u8
+CCTV5,http://58.19.38.162:9901/tsfile/live/1005_1.m3u8
+CCTV5,http://zjzcf.synology.me:35455/gaoma/cctv5.m3u8
+CCTV5,http://183.184.228.183:9003//hls/5/index.m3u8
 CCTV5+,http://3501776.xyz:35455/itv/1000000005000265016.m3u8?cdn=ystenlive
 CCTV5+,http://php.jdshipin.com/TVOD/hljyd.php?id=3221225603
 CCTV5+,http://php.jdshipin.com:8880/cqyx.php?id=CCTV5SPORTHD
@@ -416,6 +373,10 @@ CCTV5+,http://fm1077.serv00.net/Smart.php?id=cctv5plus
 CCTV5+,http://nas.suntao.online:35455/gaoma/cctv5p.m3u8
 CCTV5+,http://139.209.191.40:9003//hls/7/index.m3u8
 CCTV5+,http://60.214.104.110:352/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV5+,http://39.164.180.36:19901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=0&authid=0
+CCTV5+,http://115.159.35.169:35455/gaoma/cctv5p.m3u8
+CCTV5+,http://183.184.228.183:9003//hls/6/index.m3u8
+CCTV5+,http://117.14.55.26:35455/gaoma/cctv5p.m3u8
 電影頻道,#genre#
 东森电影台,https://iptv.vip-tptv.xyz/tv.php?id=4
 靖天电影台,https://iptv.vip-tptv.xyz/litv.php?id=4gtv-4gtv061

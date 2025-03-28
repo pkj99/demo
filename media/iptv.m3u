@@ -74,6 +74,8 @@ http://61.221.215.25:8800/hls/41/index.m3u8
 #EXTINF:-1 tvg-logo="http://www.aif.zju.edu.cn/aif/uploads/ueditor/image/20180314/1520994487883485.jpg" tvg-name="亚洲新闻" group-title="台灣頻道",亚洲新闻
 http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" tvg-name="CCTV1" group-title="央视",CCTV1
+http://39.164.180.36:19901/tsfile/live/0001_2.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" tvg-name="CCTV2" group-title="央视",CCTV2
 http://39.164.180.36:19901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV3.png" tvg-name="CCTV3" group-title="央视",CCTV3
@@ -82,6 +84,12 @@ http://39.164.180.36:19901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=
 http://39.164.180.36:19901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV5.png" tvg-name="CCTV5" group-title="央视",CCTV5
 http://39.164.180.36:19901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV5+.png" tvg-name="CCTV5+" group-title="央视",CCTV5+
+http://39.164.180.36:19901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV6.png" tvg-name="CCTV6" group-title="央视",CCTV6
+http://39.164.180.36:19901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7.png" tvg-name="CCTV7" group-title="央视",CCTV7
+http://39.164.180.36:19901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV8.png" tvg-name="CCTV8" group-title="央视",CCTV8
 http://39.164.180.36:19901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV9.png" tvg-name="CCTV9" group-title="央视",CCTV9
@@ -720,6 +728,8 @@ http://4gtv.mumi.rip:9877/69/4gtv-4gtv014/index.m3u8
 http://4gtv.mumi.rip:9877/58/4gtv-4gtv101/index.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV5.png" tvg-name="CCTV5" group-title="體育頻道",CCTV5
 http://39.164.180.36:19901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV5+.png" tvg-name="CCTV5+" group-title="體育頻道",CCTV5+
+http://39.164.180.36:19901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://etmovie.ebc.net.tw/upload/etmovie/img/logoes/pc_logo.png" tvg-name="东森电影台" group-title="電影頻道",东森电影台
 https://iptv.vip-tptv.xyz/tv.php?id=4
