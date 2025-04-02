@@ -1,4 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tGeImSVSe9y792s64LBT8qdzBrv.jpg" tvg-name="情投意不合" group-title="2025",情投意不合
+https://v10.tlkqc.com/wjv10/202504/01/d7P8ipnJ8g82/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mjq76lO0CA6ojE0AFzA256kWqYS.jpg" tvg-name="生命清單" group-title="2025",生命清單
+https://m3u8.hmrvideo.com/play/52690f6b2b6241618a83574d76f7ddbf.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3zDGqWcdItmypUO0Cbvpo91GEgs.jpg" tvg-name="小西伯利亞" group-title="2025",小西伯利亞
 https://m3u8.hmrvideo.com/play/72625628765e450ca2e9b73674b384ad.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hkK8giuqnnHsOcJYKoScA5sNBSg.jpg" tvg-name="來自誰的啟示" group-title="2025",來自誰的啟示
