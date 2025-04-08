@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5boTARNEddfrihsKRBhyvHwoC7Z.jpg" tvg-name="金曲特務" group-title="2025",金曲特務
+https://m3u8.hmrvideo.com/play/20ebdacfde544272b56f56ba3a47add1.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tGeImSVSe9y792s64LBT8qdzBrv.jpg" tvg-name="情投意不合" group-title="2025",情投意不合
 https://v10.tlkqc.com/wjv10/202504/01/d7P8ipnJ8g82/video/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mjq76lO0CA6ojE0AFzA256kWqYS.jpg" tvg-name="生命清單" group-title="2025",生命清單
