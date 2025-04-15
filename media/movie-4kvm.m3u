@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/04/3sqcLBXvO6RidRuRtvZPATgIYQm-185x278.jpg" tvg-name="千秋令" group-title="2025",千秋令
+https://www.4kvm.net/artplayer?source=0&id=165215&ep=0
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/01/vuQaIsLJKZKDhXgVSM4ZuHnzOsj-185x278.jpg" tvg-name="真心英雄" group-title="2025",真心英雄
 https://www.4kvm.net/artplayer?source=0&id=164563&ep=0
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/01/bnVCal92AvGok0T6Hebn9pWD4oo-185x278.jpg" tvg-name="驻站" group-title="2025",驻站
