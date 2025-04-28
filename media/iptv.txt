@@ -18,7 +18,7 @@ DiscoveryAsia,http://61.221.215.25:8800/hls/50/index.m3u8
 TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
 中视新闻,http://www.terrykang.xyz:35455/youtube/TCnaIE_SAtM
 中天新闻台,http://cdn.iptv8k.top/dl/jspd.php?id=1
-东森电影台,http://1b6467f415.iok.la:9931/tsfile/live/1043_1.m3u8
+东森电影台,http://50.7.234.10:8278/ettvmovie/playlist.m3u8?tid=MBDB9268852192688521&ct=19254&tsum=7514b50ebc2e4b06f2e402578d0ac996
 纬来电影台,http://122.117.71.103:8554/http/61.222.53.250:8081/hls/69/811/ch35.m3u8
 HBO,http://122.117.71.103:8556/http/61.222.53.250:8081/hls/71/813/ch41.m3u8
 HBOFamily,http://50.7.234.10:8278/fyi_twn/playlist.m3u8?tid=18186902&ct=17988&&tsum=7a21abab0a5912afb0ebc01db111e59f
@@ -28,14 +28,17 @@ TVBS-Asia,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/
 好莱坞电影台,http://50.7.234.10:8278/hollywoodmovies_twn/playlist.m3u8?tid=MA8A4005638840056388&ct=18392&tsum=a1f1517d4ea64fd01267905f21d83859
 CINEMAX,http://122.117.71.103:8558/http/61.222.53.250:8081/hls/71/813/ch42.m3u8
 纬来体育台,http://122.117.71.103:8562/http/61.222.53.250:8081/hls/75/817/ch59.m3u8
+国兴卫视,http://108.181.20.197/livehttpplay?channel_id=20164
 东森美洲新闻台,http://38.64.72.148/hls/modn/list/2016/chunklist0.m3u8
 龙华戏剧,http://122.117.71.103:8533/http/61.222.53.250:8068/hls/13/80/cstv13.m3u8
-龙华电影,http://122.117.71.103:8555/http/61.222.53.250:8081/hls/75/817/ch59.m3u8
+龙华电影,http://122.117.71.103:8555/http/61.222.53.250:8068/hls/10/80/cstv10.m3u8
 大爱二台,http://www.dalitv.com.tw:4568/live/dali/index.m3u8
-人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
+人间卫视,https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w614428743.m3u8
 经典电影台,http://43.138.0.72:35455/yy/1382754187
 纬来精采,http://61.221.215.25:8800/hls/48/index.m3u8
 CCTV14,rtsp://103.251.96.71/PLTV/88888888/224/3221225783/10000100000000060000000000726027_0.smil?icpid=SSPID&amp;accounttype=1&amp;limitflux=-1&amp;limitdur=-1&amp;accountinfo=:20240213104135
+江苏卫视,rtsp://124.152.124.50/PLTV/88888910/224/3221225569/10000100000000060000000000107349_0.smil
+宁夏卫视,rtsp://60.13.23.179/PLTV/88888910/224/3221225563/10000100000000060000000000107343_0.smil
 三立戏剧,http://61.221.215.25:8800/hls/41/index.m3u8
 亚洲新闻,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
 大陸央视,#genre#
@@ -311,6 +314,21 @@ US MTV LIVE,http://aktv-stream.m16tv.cfd/stream/useradd1/usmtvlive/AKTV.m3u8
 Celestial Classic Movies,http://aktv-stream.m16tv.cfd/stream/astro_a1/celestialclassicmovies/AKTV.m3u8
 纬来体育台,http://aktv-stream.m16tv.cfd/stream/test/null/AKTV.m3u8
 Asian Action,http://aktv-stream.m16tv.cfd/stream/tuntun/asianaction/AKTV.m3u8
+Animax(HK),http://aktv_stream.m16tv.cfd/stream/aktv2/animaxhk/AKTV.m3u8
+AXN,http://aktv_stream.m16tv.cfd/stream/aktv2/axn/AKTV.m3u8
+PopC,http://aktv_stream.m16tv.cfd/stream/aktv2/popc/AKTV.m3u8
+ROCK Entertainment,http://aktv_stream.m16tv.cfd/stream/aktv2/rockaction/AKTV.m3u8
+tvN,http://aktv_stream.m16tv.cfd/stream/aktv2/tvn/AKTV.m3u8
+明珠台,http://aktv_stream.m16tv.cfd/stream/aktv2/null-3/AKTV.m3u8
+无线新闻台,http://aktv_stream.m16tv.cfd/stream/aktv2/null-4/AKTV.m3u8
+美亚电影台,http://aktv_stream.m16tv.cfd/stream/aktv2/hk/AKTV.m3u8
+翡翠台,http://aktv_stream.m16tv.cfd/stream/aktv2/null/AKTV.m3u8
+凤凰中文,http://aktv_stream.m16tv.cfd/stream/aktv2/null-1/AKTV.m3u8
+凤凰资讯,http://aktv_stream.m16tv.cfd/stream/aktv2/null-2/AKTV.m3u8
+凤凰香港,http://aktv_stream.m16tv.cfd/stream/aktv2/null-5/AKTV.m3u8
+TVBS新闻台,http://aktv_stream.m16tv.cfd/stream/aktv3/tvbs/AKTV.m3u8
+纬来体育台,http://aktv_stream.m16tv.cfd/stream/aktv5/null/AKTV.m3u8
+中天新闻台,http://aktv_stream.m16tv.cfd/stream/yt/null/AKTV.m3u8
 新聞頻道,#genre#
 TVBS新闻台,https://iptv.vip-tptv.xyz/litv.php?id=4gtv-4gtv072
 TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
@@ -359,6 +377,7 @@ TVBS新闻台,http://50.7.234.10:8278/tvbs_n/playlist.m3u8?tid=MC3C9358473393584
 體育頻道,#genre#
 NBA TV,http://aktv-stream.m16tv.cfd/stream/astro_a1/ch84/AKTV.m3u8
 纬来体育台,http://aktv-stream.m16tv.cfd/stream/test/null/AKTV.m3u8
+纬来体育台,http://aktv_stream.m16tv.cfd/stream/aktv5/null/AKTV.m3u8
 博斯网球台,https://iptv.vip-tptv.xyz/litv.php?id=litv-longturn09
 博斯运动二台,https://iptv.vip-tptv.xyz/litv.php?id=litv-longturn08
 博斯高球2台,https://iptv.vip-tptv.xyz/litv.php?id=litv-longturn06
@@ -420,6 +439,7 @@ CCTV5,http://125.42.150.114:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&a
 CCTV5,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=068b29&tk=822270345d4c
 CCTV5,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=a5bd2b&tk=822270345d4c
 CCTV5,http://115.159.35.169:35455/gaoma/cctv5.m3u8
+CCTV5,http://ycsj.aguihome.com:4022/udp/233.50.200.108:5140
 CCTV5+,http://3501776.xyz:35455/itv/1000000005000265016.m3u8?cdn=ystenlive
 CCTV5+,http://php.jdshipin.com/TVOD/hljyd.php?id=3221225603
 CCTV5+,http://php.jdshipin.com:8880/cqyx.php?id=CCTV5SPORTHD
@@ -456,8 +476,11 @@ CCTV5+,http://112.123.243.37:50085/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0
 CCTV5+,http://221.226.4.10:9901/tsfile/live/0005_1.m3u8
 CCTV5+,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6d93b6&tk=822270345d4c
 CCTV5+,http://syno.llzhyq34.top:35455/gaoma/cctv5p.m3u8
+CCTV5+,http://itv.iptv1688.top:2016/itv.php?id=CCTV5p
 電影頻道,#genre#
 AXN,http://aktv-stream.m16tv.cfd/stream/aktv2/axn/AKTV.m3u8
+AXN,http://aktv_stream.m16tv.cfd/stream/aktv2/axn/AKTV.m3u8
+美亚电影台,http://aktv_stream.m16tv.cfd/stream/aktv2/hk/AKTV.m3u8
 东森电影台,https://iptv.vip-tptv.xyz/tv.php?id=4
 靖天电影台,https://iptv.vip-tptv.xyz/litv.php?id=4gtv-4gtv061
 龙华电影,https://iptv.vip-tptv.xyz/litv.php?id=litv-longturn03
@@ -475,12 +498,14 @@ HBO,http://122.117.71.103:8556/http/61.222.53.250:8081/hls/71/813/ch41.m3u8
 HBOFamily,http://50.7.234.10:8278/fyi_twn/playlist.m3u8?tid=18186902&ct=17988&&tsum=7a21abab0a5912afb0ebc01db111e59f
 东森电影台,http://1b6467f415.iok.la:9931/tsfile/live/1043_1.m3u8
 东森电影台,http://go1.bkpcp.top/tl/null-11
+东森电影台,http://50.7.234.10:8278/ettvmovie/playlist.m3u8?tid=MBDB9268852192688521&ct=19254&tsum=7514b50ebc2e4b06f2e402578d0ac996
 好莱坞电影台,http://50.7.234.10:8278/hollywoodmovies_twn/playlist.m3u8?tid=MA8A4005638840056388&ct=18392&tsum=a1f1517d4ea64fd01267905f21d83859
 纬来电影台,http://122.117.71.103:8554/http/61.222.53.250:8081/hls/69/811/ch35.m3u8
 经典电影台,http://120.238.94.10:9901/tsfile/live/1040_1.m3u8
 经典电影台,http://43.138.0.72:35455/yy/1382754187
 经典电影台,http://61.163.181.78:9901/tsfile/live/1059_1.m3u8
 龙华电影,http://122.117.71.103:8555/http/61.222.53.250:8081/hls/75/817/ch59.m3u8
+龙华电影,http://122.117.71.103:8555/http/61.222.53.250:8068/hls/10/80/cstv10.m3u8
 My Cinema Europe  我的欧洲电影,http://4gtv.mumi.rip:9877/176/4gtv-live157/index.m3u8
 amc电影台,http://4gtv.mumi.rip:9877/39/4gtv-4gtv017/index.m3u8
 影迷数位电影台,http://4gtv.mumi.rip:9877/40/4gtv-4gtv011/index.m3u8

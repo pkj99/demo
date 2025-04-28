@@ -50,6 +50,8 @@ https://hd.ijycnd.com/play/ZdPkr6yb/index.m3u8
 https://api.heimuer.app/play/6a1cdb0dc1fb43e39bda9ae6f673c565.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/XfIWdTyj19l7xQLe1E3PGefoNE.jpg" tvg-name="異形2" group-title="異形",異形2
 https://api.heimuer.app/play/511124d387384772a093962bdc961347.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hB8W6rqbnfeaNvdBzLgjyd4anZo.jpg" tvg-name="異形2：拓展紀錄" group-title="異形",異形2：拓展紀錄
+https://hd.ijycnd.com/play/lejE5j5d/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tTTn5GwPrQHTc7khgc93QggYB6L.jpg" tvg-name="異形3" group-title="異形",異形3
 https://api.heimuer.app/play/73cd947f0433428c8a0f9272c751943e.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/jc3d3PjVLNHIzK7rgjzfYJgJBFN.jpg" tvg-name="異形4：浴火重生" group-title="異形",異形4：浴火重生
@@ -648,6 +650,8 @@ https://v1.fentvoss.com/sdv1/202308/19/7pizD2d5YN2/video/index.m3u8
 https://v12.fentvoss.com/sdv12/202408/23/ggHT1Qdte18/video/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hJjJ6kvcJkWkFc2gfgvwsLTDoGs.jpg" tvg-name="哈利波特：火盃的考驗" group-title="哈利波特",哈利波特：火盃的考驗
 https://ikcdn01.ikzybf.com/20221210/qYaADoTA/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/iGLY7oD6yMcGmBGD4aOsKvknce2.jpg" tvg-name="哈利波特：神秘的魔法石" group-title="哈利波特",哈利波特：神秘的魔法石
+https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=165231
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3ej0gfVCeSBMitlK5F7DIeCqJ8O.jpg" tvg-name="哈利波特：鳳凰會的密令" group-title="哈利波特",哈利波特：鳳凰會的密令
 https://v1.fentvoss.com/sdv1/202308/19/kL6HzXQ7Xi2/video/index.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"

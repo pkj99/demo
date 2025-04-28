@@ -38,7 +38,7 @@ http://www.terrykang.xyz:35455/youtube/TCnaIE_SAtM
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv009_mobile.png" tvg-name="中天新闻台" group-title="台灣頻道",中天新闻台
 http://cdn.iptv8k.top/dl/jspd.php?id=1
 #EXTINF:-1 tvg-logo="https://etmovie.ebc.net.tw/upload/etmovie/img/logoes/pc_logo.png" tvg-name="东森电影台" group-title="台灣頻道",东森电影台
-http://1b6467f415.iok.la:9931/tsfile/live/1043_1.m3u8
+http://50.7.234.10:8278/ettvmovie/playlist.m3u8?tid=MBDB9268852192688521&ct=19254&tsum=7514b50ebc2e4b06f2e402578d0ac996
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/纬来电影台.png" tvg-name="纬来电影台" group-title="台灣頻道",纬来电影台
 http://122.117.71.103:8554/http/61.222.53.250:8081/hls/69/811/ch35.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HBO.png" tvg-name="HBO" group-title="台灣頻道",HBO
@@ -57,22 +57,28 @@ http://50.7.234.10:8278/hollywoodmovies_twn/playlist.m3u8?tid=MA8A40056388400563
 http://122.117.71.103:8558/http/61.222.53.250:8081/hls/71/813/ch42.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/纬来体育台.png" tvg-name="纬来体育台" group-title="台灣頻道",纬来体育台
 http://122.117.71.103:8562/http/61.222.53.250:8081/hls/75/817/ch59.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/国兴卫视.png" tvg-name="国兴卫视" group-title="台灣頻道",国兴卫视
+http://108.181.20.197/livehttpplay?channel_id=20164
 #EXTINF:-1 tvg-logo="https://www.ebc.net.tw/Images/169-america.jpg" tvg-name="东森美洲新闻台" group-title="台灣頻道",东森美洲新闻台
 http://38.64.72.148/hls/modn/list/2016/chunklist0.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-longturn18_mobile.png" tvg-name="龙华戏剧" group-title="台灣頻道",龙华戏剧
 http://122.117.71.103:8533/http/61.222.53.250:8068/hls/13/80/cstv13.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-longturn03_mobile.png" tvg-name="龙华电影" group-title="台灣頻道",龙华电影
-http://122.117.71.103:8555/http/61.222.53.250:8081/hls/75/817/ch59.m3u8
+http://122.117.71.103:8555/http/61.222.53.250:8068/hls/10/80/cstv10.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live106_mobile.png" tvg-name="大爱二台" group-title="台灣頻道",大爱二台
 http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/人间卫视.png" tvg-name="人间卫视" group-title="台灣頻道",人间卫视
-http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
+https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w614428743.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live021_mobile.png" tvg-name="经典电影台" group-title="台灣頻道",经典电影台
 http://43.138.0.72:35455/yy/1382754187
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/纬来精采.png" tvg-name="纬来精采" group-title="台灣頻道",纬来精采
 http://61.221.215.25:8800/hls/48/index.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV14.png" tvg-name="CCTV14" group-title="台灣頻道",CCTV14
 rtsp://103.251.96.71/PLTV/88888888/224/3221225783/10000100000000060000000000726027_0.smil?icpid=SSPID&amp;accounttype=1&amp;limitflux=-1&amp;limitdur=-1&amp;accountinfo=:20240213104135
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/江苏卫视.png" tvg-name="江苏卫视" group-title="台灣頻道",江苏卫视
+rtsp://124.152.124.50/PLTV/88888910/224/3221225569/10000100000000060000000000107349_0.smil
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/宁夏卫视.png" tvg-name="宁夏卫视" group-title="台灣頻道",宁夏卫视
+rtsp://60.13.23.179/PLTV/88888910/224/3221225563/10000100000000060000000000107343_0.smil
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/三立戏剧.png" tvg-name="三立戏剧" group-title="台灣頻道",三立戏剧
 http://61.221.215.25:8800/hls/41/index.m3u8
 #EXTINF:-1 tvg-logo="http://www.aif.zju.edu.cn/aif/uploads/ueditor/image/20180314/1520994487883485.jpg" tvg-name="亚洲新闻" group-title="台灣頻道",亚洲新闻
@@ -618,6 +624,36 @@ http://aktv-stream.m16tv.cfd/stream/astro_a1/celestialclassicmovies/AKTV.m3u8
 http://aktv-stream.m16tv.cfd/stream/test/null/AKTV.m3u8
 #EXTINF:-1 tvg-logo="" tvg-name="Asian Action" group-title="AK頻道",Asian Action
 http://aktv-stream.m16tv.cfd/stream/tuntun/asianaction/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="Animax(HK)" group-title="AK頻道",Animax(HK)
+http://aktv_stream.m16tv.cfd/stream/aktv2/animaxhk/AKTV.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/AXN.png" tvg-name="AXN" group-title="AK頻道",AXN
+http://aktv_stream.m16tv.cfd/stream/aktv2/axn/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="PopC" group-title="AK頻道",PopC
+http://aktv_stream.m16tv.cfd/stream/aktv2/popc/AKTV.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live080_mobile.png" tvg-name="ROCK Entertainment" group-title="AK頻道",ROCK Entertainment
+http://aktv_stream.m16tv.cfd/stream/aktv2/rockaction/AKTV.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/tvN.png" tvg-name="tvN" group-title="AK頻道",tvN
+http://aktv_stream.m16tv.cfd/stream/aktv2/tvn/AKTV.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/明珠台.png" tvg-name="明珠台" group-title="AK頻道",明珠台
+http://aktv_stream.m16tv.cfd/stream/aktv2/null-3/AKTV.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="无线新闻台" group-title="AK頻道",无线新闻台
+http://aktv_stream.m16tv.cfd/stream/aktv2/null-4/AKTV.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/美亚电影台.png" tvg-name="美亚电影台" group-title="AK頻道",美亚电影台
+http://aktv_stream.m16tv.cfd/stream/aktv2/hk/AKTV.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/翡翠台.png" tvg-name="翡翠台" group-title="AK頻道",翡翠台
+http://aktv_stream.m16tv.cfd/stream/aktv2/null/AKTV.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/凤凰中文.png" tvg-name="凤凰中文" group-title="AK頻道",凤凰中文
+http://aktv_stream.m16tv.cfd/stream/aktv2/null-1/AKTV.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/凤凰资讯.png" tvg-name="凤凰资讯" group-title="AK頻道",凤凰资讯
+http://aktv_stream.m16tv.cfd/stream/aktv2/null-2/AKTV.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/凤凰香港.png" tvg-name="凤凰香港" group-title="AK頻道",凤凰香港
+http://aktv_stream.m16tv.cfd/stream/aktv2/null-5/AKTV.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv072_mobile.png" tvg-name="TVBS新闻台" group-title="AK頻道",TVBS新闻台
+http://aktv_stream.m16tv.cfd/stream/aktv3/tvbs/AKTV.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/纬来体育台.png" tvg-name="纬来体育台" group-title="AK頻道",纬来体育台
+http://aktv_stream.m16tv.cfd/stream/aktv5/null/AKTV.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv009_mobile.png" tvg-name="中天新闻台" group-title="AK頻道",中天新闻台
+http://aktv_stream.m16tv.cfd/stream/yt/null/AKTV.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="" tvg-name="倪珍英语新闻" group-title="新聞頻道",倪珍英语新闻
 http://aktv-stream.m16tv.cfd/stream/taiwan/null-1/AKTV.m3u8
@@ -782,7 +818,7 @@ http://122.117.71.103:8556/http/61.222.53.250:8081/hls/71/813/ch41.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HBOFamily.png" tvg-name="HBOFamily" group-title="電影頻道",HBOFamily
 http://50.7.234.10:8278/fyi_twn/playlist.m3u8?tid=18186902&ct=17988&&tsum=7a21abab0a5912afb0ebc01db111e59f
 #EXTINF:-1 tvg-logo="https://etmovie.ebc.net.tw/upload/etmovie/img/logoes/pc_logo.png" tvg-name="东森电影台" group-title="電影頻道",东森电影台
-http://1b6467f415.iok.la:9931/tsfile/live/1043_1.m3u8
+http://50.7.234.10:8278/ettvmovie/playlist.m3u8?tid=MBDB9268852192688521&ct=19254&tsum=7514b50ebc2e4b06f2e402578d0ac996
 #EXTINF:-1 tvg-logo="https://d3ifppxyz9sa2s.cloudfront.net/media/img/2023-05-15/429a2c0837d5a0c335aee14d5724911f.png" tvg-name="好莱坞电影台" group-title="電影頻道",好莱坞电影台
 http://50.7.234.10:8278/hollywoodmovies_twn/playlist.m3u8?tid=MA8A4005638840056388&ct=18392&tsum=a1f1517d4ea64fd01267905f21d83859
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/纬来电影台.png" tvg-name="纬来电影台" group-title="電影頻道",纬来电影台
@@ -790,7 +826,7 @@ http://122.117.71.103:8554/http/61.222.53.250:8081/hls/69/811/ch35.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live021_mobile.png" tvg-name="经典电影台" group-title="電影頻道",经典电影台
 http://43.138.0.72:35455/yy/1382754187
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-longturn03_mobile.png" tvg-name="龙华电影" group-title="電影頻道",龙华电影
-http://122.117.71.103:8555/http/61.222.53.250:8081/hls/75/817/ch59.m3u8
+http://122.117.71.103:8555/http/61.222.53.250:8068/hls/10/80/cstv10.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live157_mobile.png" tvg-name="My Cinema Europe  我的欧洲电影" group-title="電影頻道",My Cinema Europe  我的欧洲电影
 http://4gtv.mumi.rip:9877/176/4gtv-live157/index.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv017new_mobile.png" tvg-name="amc电影台" group-title="電影頻道",amc电影台
