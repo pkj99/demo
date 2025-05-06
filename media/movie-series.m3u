@@ -122,6 +122,8 @@ https://api.heimuer.app/play/a8325e94296b4e67a7f1090db06b55aa.m3u8
 https://api.heimuer.app/play/36f61c8e4a2a4376974f4cee8135d6b3.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/h3fMhdMCf28dWEVn9C0HdeAVGLV.jpg" tvg-name="角頭–浪流連" group-title="角頭",角頭–浪流連
 https://api.heimuer.app/play/b9c88495ad8246ba8a034136a7d21a67.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/rJnpwN59avSW5vOu9BPiReHkQl4.jpg" tvg-name="角頭－大橋頭" group-title="角頭",角頭－大橋頭
+https://m3u8.hmrvideo.com/play/9cbc6300ed38431faf9fc38bf49a47e0.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9rQceSyOxJpOVsJRhkgoxNqbkvA.jpg" tvg-name="銀幕大角頭" group-title="角頭",銀幕大角頭
 https://v1.fentvoss.com/sdv1/202308/19/FHTWSg28Nm2/video/index.m3u8
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
