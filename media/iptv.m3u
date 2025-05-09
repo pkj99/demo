@@ -131,7 +131,6 @@ http://50.7.234.10:8278/xingwei_movie/playlist.m3u8?tid=MBDB4578128345781283&ct=
 http://50.7.234.10:8278/meiyamovie_twn/playlist.m3u8?tid=MFEF1001328410013284&ct=19226&tsum=9839709ca0f37641c5d1ba962c3bc739
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/翡翠台.png" tvg-name="翡翠台" group-title="台灣頻道",翡翠台
 https://live.tvfix.org/live/jade/3/v700000/index.m3u8
-#EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" tvg-name="CCTV1" group-title="央视",CCTV1
 http://ycsj.aguihome.com:4022/udp/233.50.200.99:5140
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" tvg-name="CCTV2" group-title="央视",CCTV2
@@ -160,7 +159,6 @@ http://ycsj.aguihome.com:4022/udp/233.50.200.21:5140
 http://ycsj.aguihome.com:4022/udp/233.50.200.111:5140
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV14.png" tvg-name="CCTV14" group-title="央视",CCTV14
 http://ycsj.aguihome.com:4022/udp/233.50.200.103:5140
-#EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" tvg-name="湖南卫视" group-title="卫视",湖南卫视
 http://ycsj.aguihome.com:4022/udp/233.50.200.190:5140
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/浙江卫视.png" tvg-name="浙江卫视" group-title="卫视",浙江卫视
@@ -223,7 +221,6 @@ http://ycsj.aguihome.com:4022/udp/233.50.201.72:5140
 http://ycsj.aguihome.com:4022/udp/233.50.201.70:5140
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/海南卫视.png" tvg-name="海南卫视" group-title="卫视",海南卫视
 http://ycsj.aguihome.com:4022/udp/233.50.201.55:5140
-#EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="" tvg-name="无线新闻台" group-title="新聞頻道",无线新闻台
 https://live.tvfix.org/live/inews/index.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv072_mobile.png" tvg-name="TVBS新闻台" group-title="新聞頻道",TVBS新闻台
@@ -248,7 +245,6 @@ https://live.tvfix.org/live/inews/3/v4000000/index.m3u8
 http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/非凡新闻台.png" tvg-name="非凡新闻台" group-title="新聞頻道",非凡新闻台
 http://198.16.100.186:8278/feifannews_twn/playlist.m3u8?tid=MFDF6578546865785468&ct=19249&tsum=bbb5f2ee12e8ae89846875a83db08997
-#EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-longturn07_mobile.png" tvg-name="博斯运动一台" group-title="體育頻道",博斯运动一台
 http://198.16.100.186:8278/bosisport1_twn/playlist.m3u8?tid=MDAD4087844840878448&ct=19249&tsum=0a23fd28e83ff8205a515273a4c1b421
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-longturn08_mobile.png" tvg-name="博斯运动二台" group-title="體育頻道",博斯运动二台
@@ -261,7 +257,6 @@ http://50.7.234.10:8278/eltasport_twn/playlist.m3u8?tid=MF1F8884668388846683&ct=
 http://50.7.234.10:8278/eltasport2_twn/playlist.m3u8?tid=ME3E4844502848445028&ct=19317&tsum=035fc643389fcb4a6bf124bca1248aab
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV5.png" tvg-name="CCTV5" group-title="體育頻道",CCTV5
 http://ycsj.aguihome.com:4022/udp/233.50.200.108:5140
-#EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/AXN.png" tvg-name="AXN" group-title="電影頻道",AXN
 http://198.16.100.186:8278/axn_twn/playlist.m3u8?tid=MC6C9875939098759390&ct=19254&tsum=5a6772e6e852b06c1b5741eeb4002a1a
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HBOHits.png" tvg-name="HBOHits" group-title="電影頻道",HBOHits
@@ -282,7 +277,6 @@ http://50.7.234.10:8278/meiyamovie_twn/playlist.m3u8?tid=MFEF1001328410013284&ct
 http://50.7.234.10:8278/lunghuawestern_twn/playlist.m3u8?tid=MC1C3944472239444722&ct=19226&tsum=99c0c7c82e2fc48b16605865c3eaeb82
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-longturn03_mobile.png" tvg-name="龙华电影" group-title="電影頻道",龙华电影
 http://198.16.100.186:8278/xingwei_movie/playlist.m3u8?tid=MBAB2096754620967546&ct=18392&tsum=2c800c1f0b6cc98d2404608c294dcbc2
-#EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/asia-fm-92-3.png" tvg-name="AsiaFM亞太電台FM92.3" group-title="廣播頻道" radio="true",AsiaFM亞太電台FM92.3
 https://stream.rcs.revma.com/kydend74hv8uv
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/asia-fm-92-7.png" tvg-name="AsiaFM亞洲電台FM92.7" group-title="廣播頻道" radio="true",AsiaFM亞洲電台FM92.7
