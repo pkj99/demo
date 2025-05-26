@@ -1,4 +1,10 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/sApZC1wVK4Vemo1pywziGmBiAAQ.jpg" tvg-name="恐懼大街：舞會王后" group-title="2025",恐懼大街：舞會王后
+https://m3u8.hmrvideo.com/play/ab98373f3095475386d431380e45788a.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hsJtBhMxNDGzW5KcQ9qz3EQGnEt.jpg" tvg-name="美國空軍精英：雷鳥飛行表演隊" group-title="2025",美國空軍精英：雷鳥飛行表演隊
+https://hd.ijycnd.com/play/vbmAw69b/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/s1zEsvB5XoS0Gqr7tmnNZExVdRI.jpg" tvg-name="小維尼修斯：足壇新星成名傳" group-title="2025",小維尼修斯：足壇新星成名傳
+https://hd.ijycnd.com/play/QeZkA9Ja/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2DiydymXoLD9KUGZKorBNapshl1.jpg" tvg-name="致命婚姻：美國逆倫案之謎" group-title="2025",致命婚姻：美國逆倫案之謎
 https://hd.ijycnd.com/play/YerP1QBb/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/wSEVULUH37dMvdLJhhLJGua2OOl.jpg" tvg-name="飆速攔截3" group-title="2025",飆速攔截3
@@ -373,6 +379,8 @@ https://m3u8.hmrvideo.com/play/4c6e73d9eafe430b921b2c99f4a05c31.m3u8
 https://v12.tlkqc.com/wjv12/202408/02/3QDVkJm0BQ84/video/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2024/06/H8bI2UllM4MWWhdIbahjbU3Yjx2UdQ-270x400.jpg" tvg-name="拉菲爾·馬奎斯：墨西哥傳奇隊長" group-title="2024",拉菲爾·馬奎斯：墨西哥傳奇隊長
 https://hd.ijycnd.com/play/QeZ1Y65d/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2024/06/The-Quilters-2024-270x400.jpg" tvg-name="絎縫人" group-title="2024",絎縫人
+https://ukzy.ukubf3.com/20250520/cxEUWdUj/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/nc9ZqrJFbcUdlMg9lxXXtJb24jU.jpg" tvg-name="要命愛上你" group-title="2023",要命愛上你
 https://v11.tlkqc.com/wjv11/202410/18/DquSH2AcHj83/video/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/su2APJLMwx4IzAcPHhvoak2k2U1.jpg" tvg-name="留下來的人" group-title="2023",留下來的人

@@ -140,8 +140,10 @@ CCTV5,http://ycsj.aguihome.com:4022/udp/233.50.200.108:5140
 CCTV5,http://itv.iptv1688.top:2016/itv.php?id=CCTV5
 CCTV5,http://222.134.245.16:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV5,http://58.19.38.162:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV5,http://36.136.38.87:85/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV5+,http://139.209.168.185:9003//hls/7/index.m3u8
 CCTV5+,http://112.123.243.37:50085/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid=0
+CCTV5+,http://xmiin.com:35455/bptv/10000100000000050000000003870759.m3u8
 CCTV5+体育,http://222.134.245.16:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0
 電影頻道,#genre#
 AXN,http://198.16.100.186:8278/axn_twn/playlist.m3u8?tid=MC6C9875939098759390&ct=19254&tsum=5a6772e6e852b06c1b5741eeb4002a1a

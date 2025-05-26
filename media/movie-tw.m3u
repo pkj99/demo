@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ctMqFfhkCvYLFX0kHdazQo8Wojy.jpg" tvg-name="刺心切骨" group-title="2025",刺心切骨
+https://hd.ijycnd.com/play/PdRRoRYd/index.m3u8
 #EXTINF:-1 tvg-logo="/upload/vod/20250418-1/a86cbeba97057f4e744df3e8b925fe2c.jpg" tvg-name="啥人顧性命" group-title="2025",啥人顧性命
 https://v.gsuus.com/play/yb8pX83b/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5p8KtopEdDt3fd8mTv1gtep8DiY.jpg" tvg-name="優雅的相遇" group-title="2024",優雅的相遇
@@ -55,7 +57,9 @@ https://v11.tlkqc.com/wjv11/202408/02/SsDTupwiW283/video/index.m3u8
 https://hd.ijycnd.com/play/QeZAZLgd/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/rEWvF5SDeekw7F4tzjub7aliThu.jpg" tvg-name="鳳姐" group-title="2024",鳳姐
 https://v9.tlkqc.com/wjv9/202503/03/fq3f4Yvx5B81/video/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2023/11/zOyNS1Cgt1O5vKqWUxabVozMdX7-.jpg" tvg-name="BIG–讓孩子拯救世界" group-title="2023",BIG–讓孩子拯救世界
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zOyNS1Cgt1O5vKqWUxabVozMdX7.jpg" tvg-name="816" group-title="2023",816
+https://v9.tlkqc.com/wjv9/202505/11/1Pjq8CCBCY81/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zOyNS1Cgt1O5vKqWUxabVozMdX7.jpg" tvg-name="BIG" group-title="2023",BIG
 https://svip.high21-playback.com/20250510/42916_8490dafa/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mLHWqIyx6UaWAqYgmT567L0Ucg.jpg" tvg-name="不能流淚的悲傷" group-title="2023",不能流淚的悲傷
 https://api.heimuer.app/play/c202eb8c55d745acbbb414425cc53b69.m3u8
@@ -67,6 +71,8 @@ https://api.heimuer.app/play/3aca3b1472114c58b24a3663a893ab6e.m3u8
 https://vip15.play-cdn15.com/20230620/15997_29ddf63d/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/eNvuf4PHepy0nlXfludjGCJGG59.jpg" tvg-name="周處除三害" group-title="2023",周處除三害
 https://api.heimuer.app/play/c5c67b2dffa24738b5920aa4a3516bfc.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/qBX08wjvFKYe92ZxFeA0IPHwWwe.jpg" tvg-name="四牲六道" group-title="2023",四牲六道
+https://hd.ijycnd.com/play/9aABypjb/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/aEom49uH1J8PfZAkwyvEFV98X3m.jpg" tvg-name="夜盲" group-title="2023",夜盲
 https://v8.tlkqc.com/wjv8/202312/17/5zYMgWpAXv1/video/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6QfOebr6W3KF2KFgc5kMti7mf7M.jpg" tvg-name="夢遊樂園" group-title="2023",夢遊樂園

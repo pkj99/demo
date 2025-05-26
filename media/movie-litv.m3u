@@ -1,12 +1,18 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/74679-000000-642722.jpg" tvg-name="沉默筆錄" group-title="2023",沉默筆錄
 https://pkj99.github.io/demo/m3u8/litv/沉默筆錄.Records.without.Words.2023.LiTV.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/70240-000000-608183.jpg" tvg-name="真田家的外星哥哥" group-title="2023",真田家的外星哥哥
+https://pkj99.github.io/demo/m3u8/litv/真田家的外星哥哥.My.brother.the.Alien.2023.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/59533-000000-521884.jpg" tvg-name="海狼行動" group-title="2022",海狼行動
 https://pkj99.github.io/demo/m3u8/litv/海狼行動.Operation.Seawolf.2022.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/61901-000000-541786.jpg" tvg-name="超級蜥蜴王" group-title="2022",超級蜥蜴王
 https://pkj99.github.io/demo/m3u8/litv/超級蜥蜴王.Leio.2022.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/72051-000000-623694.jpg" tvg-name="鬼吹燈之南海歸墟" group-title="2022",鬼吹燈之南海歸墟
 https://pkj99.github.io/demo/m3u8/litv/鬼吹燈之南海歸墟.Mojin.Return.to.the.South.China.Sea.2022.LiTV.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/60231-000000-526396.jpg" tvg-name="宮心計" group-title="2021",宮心計
+https://pkj99.github.io/demo/m3u8/litv/宮心計.The.Palace.2021.LiTV.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/76322-000000-656820.jpg" tvg-name="烈焰警花" group-title="2021",烈焰警花
+https://pkj99.github.io/demo/m3u8/litv/烈焰警花.Cops.2021.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/75810-000000-652913.jpg" tvg-name="被偷走的五十年" group-title="2020",被偷走的五十年
 https://pkj99.github.io/demo/m3u8/litv/被偷走的五十年.Mr..Johnson.2020.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/37646-000000-266943.jpg" tvg-name="小偷家族" group-title="2018",小偷家族
@@ -23,6 +29,8 @@ https://pkj99.github.io/demo/m3u8/litv/與妳的第100次愛戀.The.100th.Love.w
 https://pkj99.github.io/demo/m3u8/litv/靈異研究院.The.Institute.2017.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/11097-000000-061544.jpg" tvg-name="惡女訂製服" group-title="2015",惡女訂製服
 https://pkj99.github.io/demo/m3u8/litv/惡女訂製服.The.Dressmaker.2015.LiTV.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/10482-000000-043236.jpg" tvg-name="青田街一號" group-title="2015",青田街一號
+https://pkj99.github.io/demo/m3u8/litv/青田街一號.The.Laundryman.2015.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/48292-000000-443574.jpg" tvg-name="寶米恰恰" group-title="2012",寶米恰恰
 https://pkj99.github.io/demo/m3u8/litv/寶米恰恰.Cha.Cha.for.Twins.2012.LiTV.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/55780-000000-494268-S.jpg" tvg-name="王牌大主廚" group-title="2012",王牌大主廚
