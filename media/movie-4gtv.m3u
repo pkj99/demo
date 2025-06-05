@@ -1,8 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202404160014/以我們的名字呼喚她440x620.jpg" tvg-name="以我們的名字呼喚她" group-title="2024",以我們的名字呼喚她
 https://pkj99.github.io/demo/m3u8/4gtv/以我們的名字呼喚她.2024.4gtv.m3u8
-#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202505160010/VOD_poster.jpg" tvg-name="名模殺機" group-title="2024",名模殺機
-https://pkj99.github.io/demo/m3u8/4gtv/名模殺機.2024.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202504300015/VOD_poster.jpg" tvg-name="唐人街恰恰" group-title="2024",唐人街恰恰
 https://pkj99.github.io/demo/m3u8/4gtv/唐人街恰恰.2024.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202505160007/VOD-poster_原創_女孩鯊很大.jpg" tvg-name="女孩鯊很大" group-title="2024",女孩鯊很大
@@ -106,7 +104,7 @@ https://pkj99.github.io/demo/m3u8/4gtv/羅布泊幽陵.2023.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202310130006/VOD-poster_原創11_美人清除計劃.jpg" tvg-name="美人清除計劃" group-title="2023",美人清除計劃
 https://pkj99.github.io/demo/m3u8/4gtv/美人清除計劃.2023.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202504300016/VOD_poster.jpg" tvg-name="色慾尼羅河 " group-title="2023",色慾尼羅河 
-https://pkj99.github.io/demo/m3u8/4gtv/色慾尼羅河 .2023.4gtv.m3u8
+https://pkj99.github.io/demo/m3u8/4gtv/色慾尼羅河.2023.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202311020002/VOD-poster_原創12_萬惡世代.jpg" tvg-name="萬惡世代" group-title="2023",萬惡世代
 https://pkj99.github.io/demo/m3u8/4gtv/萬惡世代.2023.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202412240006/VOD-poster_原創_故事開始的早晨.jpg" tvg-name="託生君系列：很長很長的故事開始的早晨" group-title="2023",託生君系列：很長很長的故事開始的早晨
@@ -753,8 +751,6 @@ https://pkj99.github.io/demo/m3u8/4gtv/十一羅漢.1960.4gtv.m3u8
 https://pkj99.github.io/demo/m3u8/4gtv/孽海癡魂.1960.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202112130006/A0563_宮本武藏三部曲_決鬥巖流島.jpg" tvg-name="宮本武藏三部曲決鬥巖流島" group-title="1960",宮本武藏三部曲決鬥巖流島
 https://pkj99.github.io/demo/m3u8/4gtv/宮本武藏三部曲決鬥巖流島.1960.4gtv.m3u8
-#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202112130006/A0563_宮本武藏三部曲_決鬥巖流島.jpg" tvg-name="宮本武藏三部曲：決鬥巖流島" group-title="1960",宮本武藏三部曲：決鬥巖流島
-https://pkj99.github.io/demo/m3u8/4gtv/宮本武藏三部曲：決鬥巖流島.1960.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202112130005/A0562_宮本武藏二部曲_一乘寺決鬥.jpg" tvg-name="宮本武藏二部曲一乘寺決鬥" group-title="1960",宮本武藏二部曲一乘寺決鬥
 https://pkj99.github.io/demo/m3u8/4gtv/宮本武藏二部曲一乘寺決鬥.1960.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/VOD_M/202112130007/A0561_宮本武藏首部曲_劍聖覺醒.jpg" tvg-name="宮本武藏首部曲劍聖覺醒" group-title="1960",宮本武藏首部曲劍聖覺醒

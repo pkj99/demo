@@ -157,6 +157,8 @@ https://api.heimuer.app/play/1e093c6ffdef4ad194b289646bf87994.m3u8
 https://api.heimuer.app/play/ef2f69e2322643d3bb3017fa452a7edc.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/kjNbXFfYLDUdFpfaMkzHbJ5Zq30.jpg" tvg-name="小丑" group-title="2019",小丑
 https://api.heimuer.app/play/d2ebd8e5d793494d9d419ca1600ee460.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bEP3ZCEmxXpYyWFqcCxFcTzCEjQ.jpg" tvg-name="姊妹" group-title="2011",姊妹
+https://m3u8.hmrvideo.com/play/5ade63b22bc94073b99ba4cca4ff7060.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/iQ5ztdjvteGeboxtmRdXEChJOHh.jpg" tvg-name="疤面煞星" group-title="1983",疤面煞星
 https://api.heimuer.app/play/01beb6376dde4705ad03649c460c5aa5.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7EDfu9QbGBBlPz1U0w4q0u8CeWT.jpg" tvg-name="以你的名字呼喚我" group-title="2017",以你的名字呼喚我
@@ -197,5 +199,3 @@ https://api.heimuer.app/play/cc782df2bb6847f39a7a18e022904564.m3u8
 https://api.heimuer.app/play/f1ff5da7f71e48f1a475d06b46838e9a.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mu2NLRxP9u27wEMNcub61Alr8uY.jpg" tvg-name="燃燒女子的畫像" group-title="2019",燃燒女子的畫像
 https://api.heimuer.app/play/409a88f6de964251be257ff91d9436be.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dUIpWPQ3m8slLJHmASG5VZOwj5F.jpg" tvg-name="萬花嬉春" group-title="1952",萬花嬉春
-https://api.heimuer.app/play/decb990139a44efdaea4f7795cd858a7.m3u8

@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/06/mZ9AEdlSrRd7apiUMMmzPSvEJTj-185x278.jpg" tvg-name="聖夜：惡魔都市" group-title="2025",聖夜：惡魔都市
+https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=165669
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/05/53ad90f6445f38-185x278.jpg" tvg-name="MINECRAFT麥塊電影" group-title="2025",MINECRAFT麥塊電影
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=165459
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/05/c80Mgf0zYSeWAG5YN8OaXXBe2h0-185x278.jpg" tvg-name="星際爭霸戰：31區" group-title="2025",星際爭霸戰：31區
@@ -4035,6 +4037,8 @@ https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=63606
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=97181
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2023/11/4bWVILPrb7gaqwA2j6xIcg4Ak3D-185x278.jpg" tvg-name="追擊者" group-title="2008",追擊者
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=146444
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/05/ffuX89wjxUW6KKnRiemTK0BNyon-185x278.jpg" tvg-name="史蒂芬金之迷霧驚魂" group-title="2007",史蒂芬金之迷霧驚魂
+https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=165648
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/04/3ej0gfVCeSBMitlK5F7DIeCqJ8O-185x278.jpg" tvg-name="哈利波特：鳳凰會的密令" group-title="2007",哈利波特：鳳凰會的密令
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=165296
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/04/m1yMJRWeecVsulOIUfxB5IwXrD1-185x278.jpg" tvg-name="宝葫芦的秘密" group-title="2007",宝葫芦的秘密

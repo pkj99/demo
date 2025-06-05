@@ -56,7 +56,7 @@ http://198.16.100.186:8278/feifannews_twn/playlist.m3u8?tid=MFDF6578546865785468
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live0_mobile.png" tvg-name="Bloomberg TV" group-title="台灣頻道",Bloomberg TV
 http://198.16.100.186:8278/bloomberg_twn/playlist.m3u8?tid=MBDB5111864051118640&ct=19254&tsum=20e267ffc313070f5fff457700929457
 #EXTINF:-1 tvg-logo="https://etmovie.ebc.net.tw/upload/etmovie/img/logoes/pc_logo.png" tvg-name="东森电影台" group-title="台灣頻道",东森电影台
-http://50.7.234.10:8278/ettvmovie/playlist.m3u8?tid=MDED1943740419437404&ct=19225&tsum=120834a4218c4b5c3bb19efb8116f859
+http://1b6467f415.iok.la:9931/tsfile/live/1043_1.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HBOHits.png" tvg-name="HBOHits" group-title="台灣頻道",HBOHits
 http://50.7.234.10:8278/hbohead_twn/playlist.m3u8?tid=MCDC6663932966639329&ct=19193&tsum=6999a99699b097f3af2ef550e5c81f93
 #EXTINF:-1 tvg-logo="https://emovie.ebc.net.tw/upload/emovie/img/logoes/pc_logo.png" tvg-name="东森洋片台" group-title="台灣頻道",东森洋片台
@@ -266,7 +266,7 @@ http://50.7.234.10:8278/hbohead_twn/playlist.m3u8?tid=MCDC6663932966639329&ct=19
 #EXTINF:-1 tvg-logo="https://emovie.ebc.net.tw/upload/emovie/img/logoes/pc_logo.png" tvg-name="东森洋片台" group-title="電影頻道",东森洋片台
 http://50.7.234.10:8278/ettvwestern/playlist.m3u8?tid=mfdfc048e6c2416337202&ct=17874&tsum=cad39b26202d525ea820bee1d69e545f
 #EXTINF:-1 tvg-logo="https://etmovie.ebc.net.tw/upload/etmovie/img/logoes/pc_logo.png" tvg-name="东森电影台" group-title="電影頻道",东森电影台
-http://50.7.234.10:8278/ettvmovie/playlist.m3u8?tid=MDED1943740419437404&ct=19225&tsum=120834a4218c4b5c3bb19efb8116f859
+http://1b6467f415.iok.la:9931/tsfile/live/1043_1.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_lUrMBtaZzIGTHMJOy8qw-HguA4anLFqStJBm7zJe3ftn4=s160-c-k-c0x00ffffff-no-rj" tvg-name="好莱坞电影台" group-title="電影頻道",好莱坞电影台
 http://50.7.234.10:8278/hollywoodmovies_twn/playlist.m3u8?tid=MA8A4005638840056388&ct=18392&tsum=a1f1517d4ea64fd01267905f21d83859
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/f/f0/Star_chinese_movies_2012.png/300px-Star_chinese_movies_2012.png" tvg-name="星卫HD电影" group-title="電影頻道",星卫HD电影

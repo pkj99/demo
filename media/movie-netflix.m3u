@@ -1,6 +1,12 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zeFewMxw9vTRvLWI6e6BfMon0gL.jpg" tvg-name="心之所愛" group-title="2025",心之所愛
+https://m3u8.hmrvideo.com/play/18c8b06bca0e49eb831d678f822477cc.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/eny9LsVWoKa4kqgx9kd7VC3JdUk.jpg" tvg-name="寡婦遊戲" group-title="2025",寡婦遊戲
+https://m3u8.hmrvideo.com/play/5f1c007492d24d32aa03366b4ccd4aa6.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/sApZC1wVK4Vemo1pywziGmBiAAQ.jpg" tvg-name="恐懼大街：舞會王后" group-title="2025",恐懼大街：舞會王后
 https://m3u8.hmrvideo.com/play/ab98373f3095475386d431380e45788a.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/krqg1n92cs0NNvkjMtiyFwHeZrx.jpg" tvg-name="人生滑起來2" group-title="2025",人生滑起來2
+https://hd.ijycnd.com/play/wdLL8Ygd/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hsJtBhMxNDGzW5KcQ9qz3EQGnEt.jpg" tvg-name="美國空軍精英：雷鳥飛行表演隊" group-title="2025",美國空軍精英：雷鳥飛行表演隊
 https://hd.ijycnd.com/play/vbmAw69b/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/s1zEsvB5XoS0Gqr7tmnNZExVdRI.jpg" tvg-name="小維尼修斯：足壇新星成名傳" group-title="2025",小維尼修斯：足壇新星成名傳
