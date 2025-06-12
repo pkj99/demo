@@ -1,4 +1,12 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/uX68nakCMjIXPxUi1zPRkvMIDVC.jpg" tvg-name="全面失控:德州音樂節悲劇" group-title="2025",全面失控:德州音樂節悲劇
+https://hd.ijycnd.com/play/5eVY2pXd/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/caWtPek2i7gEVsPp2dIsaZyV68O.jpg" tvg-name="我倆的時代" group-title="2025",我倆的時代
+https://v2.tlkqc.com/wjv2/202506/11/dbBtHek4Wq74/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/iQW5ORI6j4RDerHHaykpJggzmcK.jpg" tvg-name="絕境末路" group-title="2025",絕境末路
+https://m3u8.hmrvideo.com/play/b3c072e723fa49fb98c8e7d2cbe33f58.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7vT2Nz0aW8ODiL7jozJBAn7LS2j.jpg" tvg-name="關鍵救贖" group-title="2025",關鍵救贖
+https://m3u8.hmrvideo.com/play/031f4369296e4a109f2a735f59f46265.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zeFewMxw9vTRvLWI6e6BfMon0gL.jpg" tvg-name="心之所愛" group-title="2025",心之所愛
 https://m3u8.hmrvideo.com/play/18c8b06bca0e49eb831d678f822477cc.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/eny9LsVWoKa4kqgx9kd7VC3JdUk.jpg" tvg-name="寡婦遊戲" group-title="2025",寡婦遊戲
@@ -99,6 +107,8 @@ https://m3u8.hmrvideo.com/play/65ee85fdb4694367b44087dbb2b063d5.m3u8
 https://hd.ijycnd.com/play/QeZA898d/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2025/04/hkmmVupbtmDwVxpMyoeCNi8g-270x400.jpg" tvg-name="雷鬼歌姬卡蘿爾 G：明天真美好" group-title="2025",雷鬼歌姬卡蘿爾 G：明天真美好
 https://hd.ijycnd.com/play/DdwX1KMe/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2025/06/Titan-The-OceanGate-Disaster.jpg" tvg-name="泰坦：海門災難" group-title="2025",泰坦：海門災難
+https://hd.ijycnd.com/play/Xe01o75a/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4s9kLh29QnUcDhZly3FgoNu6jRv.jpg" tvg-name="愁城波哥大" group-title="2024",愁城波哥大
 https://v9.tlkqc.com/wjv9/202502/04/hmim9Gashx81/video/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/oIeHeuhxUpU7wWDqqo769s8D91s.jpg" tvg-name="迷幻臥底：費瑞崛起 2" group-title="2024",迷幻臥底：費瑞崛起 2
@@ -344,7 +354,7 @@ https://api.heimuer.app/play/46dcb3e261ad45c3b4a5204c8bafa3e0.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/wu4RCU2VMoS7YYh3LLb51ufFRea.jpg" tvg-name="開箱靈魂" group-title="2024",開箱靈魂
 https://m3u8.hmrvideo.com/play/2a2adf54045d4ada97e8aca3053ea9bd.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5ofRmnUVB48DoN8pfYf6q0Vnauc.jpg" tvg-name="黃金神威" group-title="2024",黃金神威
-https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=162100
+https://play.gotomymv.life/m3/61fcfb31749156117/61Njg0MTU4NTUwMjVhYiQxODU3JDEkMTc0OTExMjkxNw68415855025a8.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/jpa9FO979rt16205hnup44sMK38.jpg" tvg-name="校園火劫" group-title="2024",校園火劫
 https://api.heimuer.app/play/85d0487231d349028665734c1bbc5926.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/A83EbQCMbFEUBo5bq42IaBM9dFR.jpg" tvg-name="偷破天際線" group-title="2024",偷破天際線
@@ -670,7 +680,7 @@ https://api.heimuer.app/play/2a50ceea9dea48d99d6ecb08b49d9ee9.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ArRAyYCX4dUIIEmSvp81QlQtYIx.jpg" tvg-name="我是千尋" group-title="2023",我是千尋
 https://api.heimuer.app/play/81187a4611224b76b805fae18863ab1e.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zTRFbL1x07jGEQZt6N2Ddasc6Wj.jpg" tvg-name="格殺福順" group-title="2023",格殺福順
-https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=95805
+https://play.gotomymv.life/m3/7bc61031749155267/77Njg0MTU1MDM1ZDU1YSQ0NzkkMSQxNzQ5MTEyMDY3684155035d558.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7YMQP3MlWWB39T6391L4JzoMKjf.jpg" tvg-name="異客" group-title="2023",異客
 https://api.heimuer.app/play/1eb0bf222a824ed88758471e8e3e6257.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gBiZdPAWLSPLE4sX6BzWMzaJylP.jpg" tvg-name="擇日不如撞日" group-title="2023",擇日不如撞日
@@ -1278,7 +1288,7 @@ https://api.heimuer.app/play/d1cab03facce4cbc9db556f4e78460f8.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6ZkhIiJRYLzghOkHrA9X6dbcK3K.jpg" tvg-name="貝爾對戰荒野：停電危機" group-title="2021",貝爾對戰荒野：停電危機
 https://vod4.wgslsw.com/20240413/OwKXvOYL/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/iepqdM52f4w75fNcvgRF5QoIAjm.jpg" tvg-name="愛的過去進行式：真愛永遠" group-title="2021",愛的過去進行式：真愛永遠
-https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=5694
+https://ppy.4kvm.tv/m3/e3ef2e11749155846/32Q2hyb21lJGh0dHBzOi8vd3d3LjRrdm0ubmV0L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIxLzAyL2Q5Mjg5MDUxZjYyYjY1Lm0zdTgkMTc0OTExMjY0Ng6841574621b03.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/xZ2KER2gOHbuHP2GJoODuXDSZCb.jpg" tvg-name="紅點殺機" group-title="2021",紅點殺機
 https://api.heimuer.app/play/983354bf09874de7b5a2fcfb0d3bf761.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lKcVQet0SGL7zhsce6bdl3NwxRD.jpg" tvg-name="愛的針鋒相對" group-title="2021",愛的針鋒相對
@@ -1300,7 +1310,7 @@ https://vip.lz-cdn3.com/20220720/9729_6cec7249/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dFDNb9Gk1kyLRcconpj7Mc7C7IL.jpg" tvg-name="古寶" group-title="2021",古寶
 https://api.heimuer.app/play/cc5aff58912442ebaaf5aac55c24023d.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5JnmseS3DZ6ad2VMbrnbGCs8Rst.jpg" tvg-name="白老虎" group-title="2021",白老虎
-https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=5658
+https://ppy.4kvm.tv/m3/ec413fb1749155848/31Q2hyb21lJGh0dHBzOi8vd3d3LjRrdm0ubmV0L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIxLzAyLzQyYWMzYWM0MzYwZDg5Lm0zdTgkMTc0OTExMjY0OA6841574826dcd.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5UDe6oVAIv6PC7eJ046o6oCyQc3.jpg" tvg-name="超能世界" group-title="2021",超能世界
 https://api.heimuer.app/play/27dbbf81bc464e45bc7a2fc60defd272.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/krupbFlSTnnKIjpRryrg2CTdeIL.jpg" tvg-name="尋找奇蹟水人" group-title="2021",尋找奇蹟水人
@@ -1352,7 +1362,7 @@ https://api.heimuer.app/play/aada128cbfb746e0a3cd9e900faa239b.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/imy1OoT1xddt2kqw6hhc4v01e8i.jpg" tvg-name="辣手保姆：女王蜂" group-title="2020",辣手保姆：女王蜂
 https://api.heimuer.app/play/ee4a4a3db857463a94cb01e74f8e6eba.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mWZ2aujwBdFEONvRQv05zPBGy7J.jpg" tvg-name="暗夜天堂" group-title="2020",暗夜天堂
-https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=8465
+https://play.gotomymv.life/m3/b198bfc1749155795/10Njg0MTU3MTM1MTQwYSQxODg0JDEkMTc0OTExMjU5NQ6841571351407.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/slP4VYu9Bs0niFMzwchaQ7R9G69.jpg" tvg-name="我們都是怪咖英雄" group-title="2020",我們都是怪咖英雄
 https://api.heimuer.app/play/6b8e66262d244524b8cefb18885f1937.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/p1ms0vDzh2XPdGVCKrCQ6sHnubR.jpg" tvg-name="粽邪2：馗降" group-title="2020",粽邪2：馗降
@@ -1410,7 +1420,7 @@ https://api.heimuer.app/play/624c29bfd00c4ed788c87874e5cc98d8.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/m0clsFEXidLVJ0TueqWOvvImOMh.jpg" tvg-name="女孩我最高" group-title="2019",女孩我最高
 https://api.heimuer.app/play/76ff1b330def448e82ff390e23ac95f2.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/60iKsbS1mePOO4YetBgsEwuOwPb.jpg" tvg-name="血戰摩蘇爾" group-title="2019",血戰摩蘇爾
-https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=4309
+https://play.gotomymv.life/m3/9093e651749155895/18Njg0MTU3NzdjMGI3MSQyOTY3JDEkMTc0OTExMjY5NQ68415777c0b6d.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bTgd1QQFTKdxESevtffAvIvCnz2.jpg" tvg-name="紅海深潛密援" group-title="2019",紅海深潛密援
 https://api.heimuer.app/play/f17903b0547148a7ae6d184c5118c504.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/kfZqwGuvEBAysAbCsa0QLKoSYR.jpg" tvg-name="新殺戮戰警" group-title="2019",新殺戮戰警
