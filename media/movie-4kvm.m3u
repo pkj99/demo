@@ -1,4 +1,12 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/06/a92909abf18c66-185x278.jpg" tvg-name="獵金·遊戲" group-title="2025",獵金·遊戲
+https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=165805
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/06/3Kq0lXKXDlqjIcRjkisqNDrkf2z-185x278.jpg" tvg-name="極寒潛襲" group-title="2025",極寒潛襲
+https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=165816
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/06/cSKmIEgbBC0Svt1OhpwDEzb4gz8-185x278.jpg" tvg-name="腓尼基計劃" group-title="2025",腓尼基計劃
+https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=165825
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/06/h6tfoWFoyrw18XRS5uKtlOUCIP4-185x278.jpg" tvg-name="大風殺" group-title="2025",大風殺
+https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=165827
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/06/du65x58CJrMMThuiT85kBFMYi0Z-185x278.jpg" tvg-name="聖母殺手" group-title="2025",聖母殺手
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=165750
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/06/2LV7qOYoqtSXDlTrPT62a8KjKLG-185x278.jpg" tvg-name="復仇反擊戰" group-title="2025",復仇反擊戰
@@ -3669,6 +3677,8 @@ https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=45133
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=46873
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2022/11/4uhtFAxagQeeppV9HlFzCQbh2p3-185x278.jpg" tvg-name="一九四二" group-title="2012",一九四二
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=58286
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/06/53760f3d979647-185x278.jpg" tvg-name="螢火之森" group-title="2011",螢火之森
+https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=165783
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/06/qXaFTaBqzvVlML9Mn1wQLNHQvr4-185x278.jpg" tvg-name="Cars 2：世界大賽" group-title="2011",Cars 2：世界大賽
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=165772
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/05/tLsJ1mqkGTreTuT64N5wXcNwTqm-185x278.jpg" tvg-name="哈利波特：死神的聖物Ⅱ" group-title="2011",哈利波特：死神的聖物Ⅱ
@@ -4227,6 +4237,8 @@ https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=43441
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=58618
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2022/11/6xVyrs0dHuCZLFN5c8Bavwz3H4P-185x278.jpg" tvg-name="藝伎回憶錄" group-title="2005",藝伎回憶錄
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=62780
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/06/7JeFk09LCR46nE334aGZeq0qmWo-185x278.jpg" tvg-name="鄰家女優" group-title="2004",鄰家女優
+https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=165798
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/05/1fkeuOQ2VwzmR8FjXDrGCIKLcTz-185x278.jpg" tvg-name="哈利波特：阿茲卡班的逃犯" group-title="2004",哈利波特：阿茲卡班的逃犯
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=165420
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2024/10/j4PqyrYfGFkCxuXmQ2FPD36kB0Q-185x278.jpg" tvg-name="茶泡飯之味" group-title="2004",茶泡飯之味
