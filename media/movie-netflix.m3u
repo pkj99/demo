@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/anQxMF3uXz3R4c83zJYQqVqA3AV.jpg" tvg-name="不死軍團 2" group-title="2025",不死軍團 2
+https://m3u8.hmrvideo.com/play/7db8ebf21e61449f847e8b5f16626270.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/or7Y0eL9OBxFoACnW9FdTLpaDFp.jpg" tvg-name="鯊語者" group-title="2025",鯊語者
 https://hd.ijycnd.com/play/QeZ3MGJa/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5uvNZL3qinmtXKC5dFNH1pkYFSp.jpg" tvg-name="全面失控：特大號遊輪危機" group-title="2025",全面失控：特大號遊輪危機
@@ -31,6 +33,8 @@ https://hd.ijycnd.com/play/YerP1QBb/index.m3u8
 https://m3u8.hmrvideo.com/play/1de00e995a5c4dd494788b63d0cfb073.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hhEfZ8eKHwNqjdCvmOXiIJv9Cjz.jpg" tvg-name="體壇秘史：槍狂後衛" group-title="2025",體壇秘史：槍狂後衛
 https://hd.ijycnd.com/play/penL4klb/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dvhMN5xl8ZdkTnvCJMQVUlwD5iv.jpg" tvg-name="一席之位：安東內利的F1突圍戰" group-title="2025",一席之位：安東內利的F1突圍戰
+https://svipsvip.ffzy-online5.com/20250506/40981_ca91afd0/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6yuYlmpB2S5Ydug7qnuoJ7Ji2SI.jpg" tvg-name="母愛食堂" group-title="2025",母愛食堂
 https://m3u8.hmrvideo.com/play/dcc615b1f5584bf58508b490697c0ada.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/cqXc8PAlhx3xSjSYwfxqASrcg9l.jpg" tvg-name="域外營救" group-title="2025",域外營救

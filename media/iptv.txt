@@ -1,9 +1,7 @@
 台灣頻道,#genre#
 动物星球,http://61.221.215.25:8800/hls/57/index.m3u8
-中天综合台,http://198.16.100.186:8278/ctizhonghe/playlist.m3u8?tid=MB6B3888954738889547&ct=19254&tsum=d0cb922e44e8a16bea598530697c581e
 八大综合台,http://198.16.100.186:8278/badazhonghe/playlist.m3u8?tid=MCFC9951205299512052&ct=19249&tsum=dc4ca0de5e57c9f4caee0bb4e80c098a
 东森超视,http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
-中天娱乐台,http://198.16.100.186:8278/ctient/playlist.m3u8?tid=MC9C7081133170811331&ct=19249&tsum=8b08b54208f3ee30e12f419d587f46ac
 台视新闻台,http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
 民视新闻台,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 Bloomberg TV,http://198.16.100.186:8278/bloomberg_twn/playlist.m3u8?tid=MBDB5111864051118640&ct=19254&tsum=20e267ffc313070f5fff457700929457
@@ -11,13 +9,11 @@ TVBS,http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
 TVBS-Asia,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
 靖天国际,http://198.16.100.186:8278/jingtianintl_twn/playlist.m3u8?tid=MC7C4153806141538061&ct=19254&tsum=79854f3ccdc23693ea39da52af54d35b
 东森美洲新闻台,http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
-博斯运动二台,http://198.16.100.186:8278/bosisport2_twn/playlist.m3u8?tid=ME9E7698135376981353&ct=19249&tsum=9eadcc8585f74357f09f1465844024c9
 龙华戏剧,http://198.16.100.186:8278/lunghuaxiju_twn/playlist.m3u8?tid=MBAB4709384347093843&ct=19226&tsum=a2a7258f8565588e10b8da2f26ba8039
 龙华电影,https://cdn8.163189.xyz/live/lhdy/stream.m3u8
 人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
 经典电影台,http://120.238.94.10:9901/tsfile/live/1040_1.m3u8
 ABCNews,http://198.16.100.186:8278/abcnews_glo/playlist.m3u8?tid=MAEA6759929367599293&ct=19225&tsum=edd59704e2182262583ea5b0e1093b9d
-BBCWorldNews,http://198.16.100.186:8278/bbcnews_twn/playlist.m3u8?tid=MF3F9344101593441015&ct=19254&tsum=ee2dfdc43081584c1c81ddf78256bf30
 MOMOTV,http://198.16.100.186:8278/momo1_twn/playlist.m3u8?tid=MFFF9797479997974799&ct=19249&tsum=0bd9dac79cd373cc918357d3199c8b22
 大陸央视,#genre#
 CCTV1,http://ycsj.aguihome.com:4022/udp/233.50.200.99:5140
@@ -74,7 +70,6 @@ CCTV14,http://ycsj.aguihome.com:4022/udp/233.50.200.103:5140
 體育頻道,#genre#
 体育2,http://198.16.100.186:8278/Assp2/playlist.m3u8?tid=ME1E4056565440565654&ct=19249&tsum=1bf59bebb8a43a859eae9f1b3759f844
 体育3,http://198.16.100.186:8278/Assp3/playlist.m3u8?tid=MB4B2552451125524511&ct=19249&tsum=f6cb45a995e37dfc7c40d515f29924e4
-博斯运动二台,http://198.16.100.186:8278/bosisport2_twn/playlist.m3u8?tid=ME9E7698135376981353&ct=19249&tsum=9eadcc8585f74357f09f1465844024c9
 CCTV5,http://139.209.168.185:9003//hls/6/index.m3u8
 CCTV5,http://124.93.18.237:9002//hls/5/index.m3u8
 CCTV5,http://ycsj.aguihome.com:4022/udp/233.50.200.108:5140
