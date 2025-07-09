@@ -1,10 +1,14 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/动物星球.png" tvg-name="动物星球" group-title="台灣頻道",动物星球
 http://61.221.215.25:8800/hls/57/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/img.isuper.tv/live-tv/gtv-live.jpg" tvg-name="八大综合台" group-title="台灣頻道",八大综合台
-http://198.16.100.186:8278/badazhonghe/playlist.m3u8?tid=MCFC9951205299512052&ct=19249&tsum=dc4ca0de5e57c9f4caee0bb4e80c098a
+#EXTINF:-1 tvg-logo="https://i0.wp.com/img.isuper.tv/live-tv/gtv-no1-live.jpg" tvg-name="八大第一台" group-title="台灣頻道",八大第一台
+http://198.16.100.186:8278/badafirst/playlist.m3u8?tid=MBDB5904995459049954&ct=19193&tsum=ab627e00a84b423b5747a65289eec076
 #EXTINF:-1 tvg-logo="https://supertv.ebc.net.tw/upload/supertv/img/logoes/pc_logo.png" tvg-name="东森超视" group-title="台灣頻道",东森超视
 http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv044_mobile.png" tvg-name="靖天卡通台" group-title="台灣頻道",靖天卡通台
+http://198.16.100.186:8278/jingtiancartoon_twn/playlist.m3u8?tid=MD1D2636832926368329&ct=19226&tsum=22c17cfa6920f0b4a9d45746ac25c547
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-longturn01_mobile.png" tvg-name="龙华动画" group-title="台灣頻道",龙华动画
+http://198.16.100.186:8278/jingtiancartoon_twn/playlist.m3u8?tid=MEEE6701222267012222&ct=19226&tsum=c1da0f03bc493ce969726d15fc9c0286
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv051_tv.png" tvg-name="台视新闻台" group-title="台灣頻道",台视新闻台
 http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-ftv13_mobile.png" tvg-name="民视新闻台" group-title="台灣頻道",民视新闻台
@@ -15,12 +19,12 @@ http://198.16.100.186:8278/bloomberg_twn/playlist.m3u8?tid=MBDB5111864051118640&
 http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/e/e9/TVBS_Asia_logo_2017.png/200px-TVBS_Asia_logo_2017.png" tvg-name="TVBS-Asia" group-title="台灣頻道",TVBS-Asia
 http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
-#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv063_mobile.png" tvg-name="靖天国际" group-title="台灣頻道",靖天国际
-http://198.16.100.186:8278/jingtianintl_twn/playlist.m3u8?tid=MC7C4153806141538061&ct=19254&tsum=79854f3ccdc23693ea39da52af54d35b
 #EXTINF:-1 tvg-logo="https://www.ebc.net.tw/Images/169-america.jpg" tvg-name="东森美洲新闻台" group-title="台灣頻道",东森美洲新闻台
 http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
+#EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-longturn12_mobile.png" tvg-name="龙华偶像" group-title="台灣頻道",龙华偶像
+http://198.16.100.186:8278/lunghuaidol_twn/playlist.m3u8?tid=MD6D6087277960872779&ct=19249&tsum=83e30fd8200429793355d21bf37719ff
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-longturn18_mobile.png" tvg-name="龙华戏剧" group-title="台灣頻道",龙华戏剧
-http://198.16.100.186:8278/lunghuaxiju_twn/playlist.m3u8?tid=MBAB4709384347093843&ct=19226&tsum=a2a7258f8565588e10b8da2f26ba8039
+http://198.16.100.186:8278/lunghuaxiju_twn/playlist.m3u8?tid=MF2F2793524427935244&ct=19249&tsum=db1ef83fbbbae9a364979295fd690f7d
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-longturn03_mobile.png" tvg-name="龙华电影" group-title="台灣頻道",龙华电影
 https://cdn8.163189.xyz/live/lhdy/stream.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/人间卫视.png" tvg-name="人间卫视" group-title="台灣頻道",人间卫视
@@ -29,8 +33,14 @@ http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
 http://120.238.94.10:9901/tsfile/live/1040_1.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/GJ8V0NX6NddGh9bf4zED4tsjPjjBK2hdp5FWHMy09pV7sdSkkE3yEhCRSch4waEb9ZavyUrWfw=s160-c-k-c0x00ffffff-no-rj" tvg-name="ABCNews" group-title="台灣頻道",ABCNews
 http://198.16.100.186:8278/abcnews_glo/playlist.m3u8?tid=MAEA6759929367599293&ct=19225&tsum=edd59704e2182262583ea5b0e1093b9d
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BBC.png" tvg-name="BBCWorldNews" group-title="台灣頻道",BBCWorldNews
+http://198.16.100.186:8278/bbc1_antik/playlist.m3u8?tid=ME3E1183863811838638&ct=19254&tsum=0840dd585f58cedffd284559c0694b76
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live107_mobile.png" tvg-name="MOMOTV" group-title="台灣頻道",MOMOTV
 http://198.16.100.186:8278/momo1_twn/playlist.m3u8?tid=MFFF9797479997974799&ct=19249&tsum=0bd9dac79cd373cc918357d3199c8b22
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/三立戏剧.png" tvg-name="三立戏剧" group-title="台灣頻道",三立戏剧
+http://198.16.100.186:8278/sanlixiju_twn/playlist.m3u8?ct=19226&tid=MBDB8405357084053570&tsum=78944c0951d21a699e46fff4318a3799
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/美亚电影台.png" tvg-name="美亚电影台" group-title="台灣頻道",美亚电影台
+http://198.16.100.186:8278/meiyamovie_twn/playlist.m3u8?tid=mcfe3e109029013892155&ct=17874&tsum=164baeda6ab6c4160f2775128cfc6f4e
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" tvg-name="CCTV1" group-title="央视",CCTV1
 http://ycsj.aguihome.com:4022/udp/233.50.200.99:5140
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" tvg-name="CCTV2" group-title="央视",CCTV2
@@ -133,6 +143,8 @@ http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 http://ycsj.aguihome.com:4022/udp/233.50.200.108:5140
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live021_mobile.png" tvg-name="经典电影台" group-title="電影頻道",经典电影台
 http://120.238.94.10:9901/tsfile/live/1040_1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/美亚电影台.png" tvg-name="美亚电影台" group-title="電影頻道",美亚电影台
+http://198.16.100.186:8278/meiyamovie_twn/playlist.m3u8?tid=mcfe3e109029013892155&ct=17874&tsum=164baeda6ab6c4160f2775128cfc6f4e
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-longturn03_mobile.png" tvg-name="龙华电影" group-title="電影頻道",龙华电影
 https://cdn8.163189.xyz/live/lhdy/stream.m3u8
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/asia-fm-92-3.png" tvg-name="AsiaFM亞太電台FM92.3" group-title="廣播頻道" radio="true",AsiaFM亞太電台FM92.3
