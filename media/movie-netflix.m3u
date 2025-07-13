@@ -1,4 +1,14 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/fV9dswGQCvbpVsj1JOTrYCeos8w.jpg" tvg-name="像你這樣的人" group-title="2025",像你這樣的人
+https://hd.ijycnd.com/play/Rb45l80d/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/upzsNh9Ue3DmFlGnUlxwXtnEpQc.jpg" tvg-name="夢幻拍檔" group-title="2025",夢幻拍檔
+https://m3u8.hmrvideo.com/play/dcccc91f326e4adea874f0839397b4f2.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/jwMwRucnAROgWo9WLLmIqzHmmzi.jpg" tvg-name="梅迪亞度假婚禮團" group-title="2025",梅迪亞度假婚禮團
+https://m3u8.hmrvideo.com/play/8f76b7e64fdc44a1b6c98c791dfb8e2e.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/cTnjeLRnlSy4QgqZKIyGzAiwvsi.jpg" tvg-name="磚牆謎攻" group-title="2025",磚牆謎攻
+https://hd.ijycnd.com/play/rb23yWzd/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/rE5Bf1ejCUuHxmQGIJTZ7W7M13p.jpg" tvg-name="屍殺泰拳" group-title="2025",屍殺泰拳
+https://m3u8.hmrvideo.com/play/ed09918733004d35b3ff944b1c930513.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/anQxMF3uXz3R4c83zJYQqVqA3AV.jpg" tvg-name="不死軍團 2" group-title="2025",不死軍團 2
 https://m3u8.hmrvideo.com/play/7db8ebf21e61449f847e8b5f16626270.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/or7Y0eL9OBxFoACnW9FdTLpaDFp.jpg" tvg-name="鯊語者" group-title="2025",鯊語者
