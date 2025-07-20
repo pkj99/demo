@@ -1,4 +1,10 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/auqQ7LywYy8C56H6K3JkPHeJEtu.jpg" tvg-name="家人未滿" group-title="2025",家人未滿
+https://hd.ijycnd.com/play/qaQVWl0b/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ouoGnWi8POgBrg1845kQNsEUhxn.jpg" tvg-name="牆外之音" group-title="2025",牆外之音
+https://m3u8.hmrvideo.com/play/0be9fc9d7e434f6cb7635d3798913449.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4QpWZlGZMYrAnlQizjVIMnAXnv0.jpg" tvg-name="全面失控：氣球男孩" group-title="2025",全面失控：氣球男孩
+https://hd.ijycnd.com/play/1aK0WpMb/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/fV9dswGQCvbpVsj1JOTrYCeos8w.jpg" tvg-name="像你這樣的人" group-title="2025",像你這樣的人
 https://hd.ijycnd.com/play/Rb45l80d/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/upzsNh9Ue3DmFlGnUlxwXtnEpQc.jpg" tvg-name="夢幻拍檔" group-title="2025",夢幻拍檔
@@ -9,6 +15,8 @@ https://m3u8.hmrvideo.com/play/8f76b7e64fdc44a1b6c98c791dfb8e2e.m3u8
 https://hd.ijycnd.com/play/rb23yWzd/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/rE5Bf1ejCUuHxmQGIJTZ7W7M13p.jpg" tvg-name="屍殺泰拳" group-title="2025",屍殺泰拳
 https://m3u8.hmrvideo.com/play/ed09918733004d35b3ff944b1c930513.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/azeGbAUMGQesSCRMYkUZ6C9y70E.jpg" tvg-name="熱帶啟示錄" group-title="2025",熱帶啟示錄
+https://hd.ijycnd.com/play/1aMMY55a/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/anQxMF3uXz3R4c83zJYQqVqA3AV.jpg" tvg-name="不死軍團 2" group-title="2025",不死軍團 2
 https://m3u8.hmrvideo.com/play/7db8ebf21e61449f847e8b5f16626270.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/or7Y0eL9OBxFoACnW9FdTLpaDFp.jpg" tvg-name="鯊語者" group-title="2025",鯊語者
