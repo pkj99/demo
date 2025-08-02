@@ -1,4 +1,12 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/d8nv6T4mZYRb4vXzE7t9TAgyO3u.jpg" tvg-name="法外歧路" group-title="2025",法外歧路
+https://hd.ijycnd.com/play/yb8mB7od/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6dYAxnwRQNdXILx621xdX61fJJB.jpg" tvg-name="高爾夫球也瘋狂 2" group-title="2025",高爾夫球也瘋狂 2
+https://hd.ijycnd.com/play/lejy0E5d/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3XNtKiE4jzYi5A9Q3DRTiQsoXID.jpg" tvg-name="尋常女子的失常狂想" group-title="2025",尋常女子的失常狂想
+https://hd.ijycnd.com/play/BeX3Qnld/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gACBkTDNDP2GGspeFkn7AhCpiL3.jpg" tvg-name="全面失控：私家偵探媽媽" group-title="2025",全面失控：私家偵探媽媽
+https://hd.ijycnd.com/play/5eV1PLXd/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/auqQ7LywYy8C56H6K3JkPHeJEtu.jpg" tvg-name="家人未滿" group-title="2025",家人未滿
 https://hd.ijycnd.com/play/qaQVWl0b/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ouoGnWi8POgBrg1845kQNsEUhxn.jpg" tvg-name="牆外之音" group-title="2025",牆外之音
