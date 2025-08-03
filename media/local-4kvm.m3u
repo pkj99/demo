@@ -1,4 +1,22 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/05/c80Mgf0zYSeWAG5YN8OaXXBe2h0-185x278.jpg" tvg-name="燒酒戰爭" group-title="2025",燒酒戰爭
+http://192.168.1.249:5051/4kvm/165463.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/07/lQXDRQUxfkoABXh03eadAr1C8H7-185x278.jpg" tvg-name="窒友梅根2.0" group-title="2025",窒友梅根2.0
+http://192.168.1.249:5051/4kvm/165977.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/07/gsp6imDEkBtJV0BZ1HMdEcG9UH7-185x278.jpg" tvg-name="國家元首" group-title="2025",國家元首
+http://192.168.1.249:5051/4kvm/165979.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/07/4k0CHrBwyuhKeQfDZDH31863lTx-185x278.jpg" tvg-name="馴龍高手" group-title="2025",馴龍高手
+http://192.168.1.249:5051/4kvm/165981.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/07/1OH5h7JhDN0L40IaCvb6eZu7Kup-185x278.jpg" tvg-name="私家偵探" group-title="2025",私家偵探
+http://192.168.1.249:5051/4kvm/165983.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/08/ngCMM9huOFd1MhLUv3YJGhKMUSf-185x278.jpg" tvg-name="28年毀滅倒數" group-title="2025",28年毀滅倒數
+http://192.168.1.249:5051/4kvm/165994.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/08/bTMf8M7rZ21fChGdtsZtJj4Dfqh-185x278.jpg" tvg-name="哪吒之魔童鬧海" group-title="2025",哪吒之魔童鬧海
+http://192.168.1.249:5051/4kvm/166024.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/07/vLSMpla6S8pMtgOU201tya6tDtH-185x278.jpg" tvg-name="小子難纏：空手道傳奇" group-title="2025",小子難纏：空手道傳奇
+http://192.168.1.249:5051/4kvm/165943.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/07/3XRp7u1GTrCWBnj2pGKRZz4NA5x-185x278.jpg" tvg-name="滿血復活" group-title="2025",滿血復活
+http://192.168.1.249:5051/4kvm/165945.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/07/5RuBsGKMmMwxsLkhdQ5CJdeBgar-185x278.jpg" tvg-name="捍衛任務：復仇芭蕾" group-title="2025",捍衛任務：復仇芭蕾
 http://192.168.1.249:5051/4kvm/165877.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/07/anQxMF3uXz3R4c83zJYQqVqA3AV-185x278.jpg" tvg-name="不死軍團 2" group-title="2025",不死軍團 2
@@ -2607,6 +2625,8 @@ http://192.168.1.249:5051/4kvm/58736.m3u8
 http://192.168.1.249:5051/4kvm/83380.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2023/04/A3sO4AeLS3IH6Yn5n6PExqpApc5-185x278.jpg" tvg-name="我的巴黎舅舅" group-title="2018",我的巴黎舅舅
 http://192.168.1.249:5051/4kvm/97186.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/06/k9bX2SRAeN9kkq6hnjNgGhzngFT-185x278.jpg" tvg-name="賽車總動員3：極速挑戰" group-title="2017",賽車總動員3：極速挑戰
+http://192.168.1.249:5051/4kvm/165774.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/06/k9bX2SRAeN9kkq6hnjNgGhzngFT-185x278.jpg" tvg-name="Cars 3：閃電再起" group-title="2017",Cars 3：閃電再起
 http://192.168.1.249:5051/4kvm/165774.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.org/wp-content/uploads/2025/02/hcE3W9QWPX84PU1fUEeVSZWj85b-185x278.jpg" tvg-name="雷神索爾 3：諸神黃昏" group-title="2017",雷神索爾 3：諸神黃昏
