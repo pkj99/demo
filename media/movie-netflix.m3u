@@ -1,4 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8ZEggzGFBllYdra4NwsfvCxXxbH.jpg" tvg-name="不翼而飛：世紀大劫案" group-title="2025",不翼而飛：世紀大劫案
+https://hd.ijycnd.com/play/yb8mgl3d/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gzvmYHGD7Rn6IhyY6w89k9MF0bT.jpg" tvg-name="愛在牛津的一年" group-title="2025",愛在牛津的一年
+https://m3u8.hmrvideo.com/play/53bfc8a271434d9d9ff00d77b8132d63.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/d8nv6T4mZYRb4vXzE7t9TAgyO3u.jpg" tvg-name="法外歧路" group-title="2025",法外歧路
 https://hd.ijycnd.com/play/yb8mB7od/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6dYAxnwRQNdXILx621xdX61fJJB.jpg" tvg-name="高爾夫球也瘋狂 2" group-title="2025",高爾夫球也瘋狂 2
@@ -167,6 +171,8 @@ https://hd.ijycnd.com/play/YerAy9Bd/index.m3u8
 https://hd.ijycnd.com/play/mepy05Qa/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6xHKEYfrO1FpVZJJnKy5BhfWVCK.jpg" tvg-name="瑪麗亞" group-title="2024",瑪麗亞
 https://v.gsuus.com/play/5eVLmg1b/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8qUExRx1XrbE7n3kHF7KfaHrtza.jpg" tvg-name="美聲歌后：瑪麗亞" group-title="2024",美聲歌后：瑪麗亞
+https://m3u8.hmrvideo.com/play/d7365e26b62948fca9e780e4725d999b.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/waW6R5WJQSxq65gwBkvnKlseU6n.jpg" tvg-name="這個雪男不太冷" group-title="2024",這個雪男不太冷
 https://m3u8.hmrvideo.com/play/fb9f4053c69245c7943daff2268bc66b.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/jrjEiE4LLFXDUtOgZE2BiAB6XDq.jpg" tvg-name="十日尋人" group-title="2024",十日尋人

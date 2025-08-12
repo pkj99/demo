@@ -1,4 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/05/c80Mgf0zYSeWAG5YN8OaXXBe2h0-185x278.jpg" tvg-name="佛牌爭奪戰" group-title="2025",佛牌爭奪戰
+https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=165463
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/08/5bBgvH3hTxlANUsLP1ov0lEKmJp-185x278.jpg" tvg-name="封神第二部：戰火西岐" group-title="2025",封神第二部：戰火西岐
+https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=166029
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/05/c80Mgf0zYSeWAG5YN8OaXXBe2h0-185x278.jpg" tvg-name="燒酒戰爭" group-title="2025",燒酒戰爭
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=165463
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/07/lQXDRQUxfkoABXh03eadAr1C8H7-185x278.jpg" tvg-name="窒友梅根2.0" group-title="2025",窒友梅根2.0
@@ -97,6 +101,8 @@ https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=164888
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=164794
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/02/7Xzf7IHltlUHosVKKW7cKWtTv1n-185x278.jpg" tvg-name="笑傲江湖" group-title="2025",笑傲江湖
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=164695
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/05/hlpnTeeoPr1PzQIoDK9qQqsRa9B-185x278.jpg" tvg-name="我本酷兒" group-title="2024",我本酷兒
+https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=165578
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/06/ziv1feLHah9qzrMno0btZyxJJfO-185x278.jpg" tvg-name="雄獅少年2" group-title="2024",雄獅少年2
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=165748
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/05/rJnpwN59avSW5vOu9BPiReHkQl4-185x278.jpg" tvg-name="角頭－大橋頭" group-title="2024",角頭－大橋頭
@@ -3703,6 +3709,8 @@ https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=45133
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=46873
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2022/11/4uhtFAxagQeeppV9HlFzCQbh2p3-185x278.jpg" tvg-name="一九四二" group-title="2012",一九四二
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=58286
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/06/qXaFTaBqzvVlML9Mn1wQLNHQvr4-185x278.jpg" tvg-name="汽車總動員2: 世界大賽" group-title="2011",汽車總動員2: 世界大賽
+https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=165772
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/06/53760f3d979647-185x278.jpg" tvg-name="螢火之森" group-title="2011",螢火之森
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=165783
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/06/qXaFTaBqzvVlML9Mn1wQLNHQvr4-185x278.jpg" tvg-name="Cars 2：世界大賽" group-title="2011",Cars 2：世界大賽
