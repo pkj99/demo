@@ -1,101 +1,113 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4vnfOgB9m4RHUOvLt67AmDzc42K.jpg" tvg-name="捕风追影" group-title="2025",捕风追影
+https://v10.gggread.com/wjv10/202508/30/L8WHeznfhS82/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/sGSZwzqgvILqZJTH2AXoG6jNX7n.jpg" tvg-name="F1電影" group-title="2025",F1電影
+https://v12.gggread.com/wjv12/202507/18/AzQmwgQLLy84/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/yST2muE4NfZTE0y3uMne1iQJYi1.jpg" tvg-name="不可能的任務：最終清算" group-title="2025",不可能的任務：最終清算
+https://v10.tlkqc.com/wjv10/202505/23/DEkdjmYnXT82/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/eYSeFpJEnQ8fKYfI48VlS1ufRmJ.jpg" tvg-name="8號出口" group-title="2025",8號出口
+https://v12.gggread.com/wjv12/202508/21/UAy8483zpw84/video/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1TamJnLwes02dJTTvIwJcQRtRuQ.jpg" tvg-name="侏羅紀世界：重生" group-title="2025",侏羅紀世界：重生
-https://cdn.yzzy29-play.com/20250805/498_05f971b5/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5bBgvH3hTxlANUsLP1ov0lEKmJp.jpg" tvg-name="封神第二部：戰火西岐" group-title="2025",封神第二部：戰火西岐
-https://cdn.yzzy29-play.com/20250806/509_e2230b85/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/oQJG9wtXGzW6hUuyZRi7JpCJpAH.jpg" tvg-name="全知讀者視角" group-title="2025",全知讀者視角
-https://cdn.yzzy29-play.com/20250808/529_37f0e884/index.m3u8
+https://v12.tlkqc.com/wjv12/202507/05/213aZVPzQY84/video/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lwrANgpPEBmYZ59oExpCiuv34Ou.jpg" tvg-name="南京照相館" group-title="2025",南京照相館
-https://cdn.yzzy29-play.com/20250728/431_66368270/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ag5uukVbq2aWiLwcW0Kh8AwPEiM.jpg" tvg-name="扫毒风暴" group-title="2025",扫毒风暴
-https://vip.ffzy-video.com/20250610/20064_b689e747/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/t9mlOaf4ismhvKVMSXNJBTL3Wvh.jpg" tvg-name="驚奇4超人：第一步" group-title="2025",驚奇4超人：第一步
-https://vip.ffzy-play6.com/20250730/37373_3ba98bd1/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bTMf8M7rZ21fChGdtsZtJj4Dfqh.jpg" tvg-name="哪吒之魔童鬧海" group-title="2025",哪吒之魔童鬧海
-https://vip.ffzy-plays.com/20250731/43740_ba2cec26/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6gPW0QD0JncCqVJLLKJn3s8cDNC.jpg" tvg-name="凶器" group-title="2025",凶器
-https://vip.ffzy-play2.com/20240219/59663_b5487146/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/pxZR1trAGLY3k8pFpA7bYiUaDT5.jpg" tvg-name="佣金" group-title="2025",佣金
-https://cdn.yzzy29-play.com/20250812/574_f0e52b27/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mCBv1wCq5ZtLa1CTsFmOOtM1Oml.jpg" tvg-name="F1電影" group-title="2025",F1電影
-https://cdn.yzzy29-play.com/20250629/184_6cdd60ea/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/jxmvuYbh2LYhSOAvYquq7L2Ptn0.jpg" tvg-name="神墓" group-title="2021",神墓
-https://vip.ffzy-play.com/20221018/2037_5a8660df/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lQXDRQUxfkoABXh03eadAr1C8H7.jpg" tvg-name="窒友梅根2.0" group-title="2025",窒友梅根2.0
-https://cdn.yzzy29-play.com/20250715/340_40008b9a/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2q27TnpLrxW7lsT3V5AKF9Dt7aG.jpg" tvg-name="名偵探柯南：獨眼的殘像" group-title="2025",名偵探柯南：獨眼的殘像
-https://cdn.yzzy29-play.com/20250701/209_b1d10e7b/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/xSQi0BIomoftpAyEX9IWK51TJPf.jpg" tvg-name="禁止停車" group-title="2025",禁止停車
-https://vip.ffzy-video.com/20250811/24158_8e0c4a20/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ngCMM9huOFd1MhLUv3YJGhKMUSf.jpg" tvg-name="28年毀滅倒數" group-title="2025",28年毀滅倒數
-https://cdn.yzzy29-play.com/20250731/452_9431c87f/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ui5Ujx256vAI5JbXzeTGVwMkVhs.jpg" tvg-name="緝盜" group-title="2025",緝盜
-https://vip.ffzy-video.com/20250725/22990_293a5ccf/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7N1A0ZhfJLO9hIS92neHr6wRVyl.jpg" tvg-name="神明2025" group-title="2025",神明2025
-https://cdn.yzzy29-play.com/20250727/422_f85454e8/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/jWnXwxQ8ddiwfTXtORID1HhAyWL.jpg" tvg-name="暗杀1932" group-title="2025",暗杀1932
-https://vip.ffzy-video.com/20250812/24252_2f93b699/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gaNsN1ojr3mhFBUexBpA4gJ7ejs.jpg" tvg-name="角頭－大橋頭" group-title="2024",角頭－大橋頭
-https://svip.high21-playback.com/20250502/42782_a85e8c31/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/kjb9FFNItBc4awWPCrbp7hDLtni.jpg" tvg-name="Kpop 獵魔女團" group-title="2025",Kpop 獵魔女團
-https://cdn.yzzy29-play.com/20250621/132_65ded535/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/oJpCOgb5SrO9VEgLloXaGUVZNdU.jpg" tvg-name="我殺了你" group-title="2025",我殺了你
-https://cdn.yzzy29-play.com/20250811/549_ccb1d45f/index.m3u8
+https://v10.gggread.com/wjv10/202507/29/9w4i64k6HK82/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://img.1777cdn.com/upload/vod/20250719-1/3bdbb14ebc9d993223068546db63a0b0.jpg" tvg-name="鬼滅之刃劇場版無限城篇第一章猗窩座再來" group-title="2025",鬼滅之刃劇場版無限城篇第一章猗窩座再來
+https://v12.gggread.com/wjv12/202507/19/RJX1PdKYJf84/video/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ln6itpK8OifoGV0IAFDtD7NmPSs.jpg" tvg-name="超人" group-title="2025",超人
-https://cdn.yzzy29-play.com/20250713/327_b83aac23/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1FILqyN6vhfFPA1pAUz5j68ARMG.jpg" tvg-name="無名弒" group-title="2021",無名弒
-https://yzzy.play-cdn14.com/20230408/17308_dfb998e9/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/l10eghFN1nQmWwMSt91MlLvZZFA.jpg" tvg-name="女王神劍2025" group-title="2025",女王神劍2025
-https://cdn.yzzy29-play.com/20250809/536_65658fde/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3KdbzddwGLIKR6yrOillJEr62Jh.jpg" tvg-name="獵狐行動" group-title="2025",獵狐行動
-https://cdn.yzzy29-play.com/20250712/312_950a4152/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bucp9ruBL1T6MjJ6d2fibc3pEmn.jpg" tvg-name="異能5：死了一個超人以後" group-title="2025",異能5：死了一個超人以後
-https://cdn.yzzy29-play.com/20250718/358_aa942ab2/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/yvirUYrva23IudARHn3mMGVxWqM.jpg" tvg-name="世界大戰" group-title="2025",世界大戰
-https://vip.ffzy-video.com/20250730/23374_ddcd0c0f/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zFZJMTwuhfaV4qPqp4lnC6oRp4c.jpg" tvg-name="红嫁衣" group-title="2025",红嫁衣
-https://cdn.yzzy29-play.com/20250806/510_08740852/index.m3u8
+https://hd.ijycnd.com/play/qaQQQ5Za/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/rJnpwN59avSW5vOu9BPiReHkQl4.jpg" tvg-name="角頭－大橋頭" group-title="2024",角頭－大橋頭
+https://v11.tlkqc.com/wjv11/202505/01/JyTLAC9Uyj83/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/10MpgjKuwK3C8nLlRmvljl4L8Iw.jpg" tvg-name="電影哆啦A夢：大雄的繪畫世界物語" group-title="2025",電影哆啦A夢：大雄的繪畫世界物語
+https://v10.gggread.com/wjv10/202508/27/2PCp1dNFwe82/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/q6tvsbOPiCBI7lMwbhtFd2fbL1s.jpg" tvg-name="狄仁杰之降魔咒" group-title="2025",狄仁杰之降魔咒
+https://v8.gggread.com/wjv8/202508/27/e5mrBtZuzE80/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://img.1777cdn.com/upload/vod/20250822-1/406f0c9f3fbcccb147ce2197a43376d4.jpg" tvg-name="驅魔修女：蠱毒" group-title="2025",驅魔修女：蠱毒
+https://v11.gggread.com/wjv11/202508/22/cjiUBUbnbh83/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://img.1777cdn.com/upload/vod/20250831-1/0e37c553fc5995b4c8caf0bcd03d3f33.jpg" tvg-name="破·地獄感恩特別版" group-title="2025",破·地獄感恩特別版
+https://v12.gggread.com/wjv12/202508/31/svFD0rKzcb84/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/twh1r1nhlTgoN0kcy9fFy6UuSCc.jpg" tvg-name="捲捲初戀" group-title="2025",捲捲初戀
+https://v11.gggread.com/wjv11/202508/29/Ea6kZ2u3y283/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5bBgvH3hTxlANUsLP1ov0lEKmJp.jpg" tvg-name="封神第二部：战火西岐" group-title="2025",封神第二部：战火西岐
+https://v12.tlkqc.com/wjv12/202501/30/k1iAX0HnV284/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/t9mlOaf4ismhvKVMSXNJBTL3Wvh.jpg" tvg-name="驚奇4超人：第一步" group-title="2025",驚奇4超人：第一步
+https://v10.gggread.com/wjv10/202507/26/PN3AC5BepU82/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/75TgnRMsWMwPWfp3Uu8pnHtU1Lt.jpg" tvg-name="生死危机" group-title="2025",生死危机
+https://v11.gggread.com/wjv11/202508/21/uizHHEwW3c83/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zu1jVI7YeHwvF1qXiDDdOINJJ0l.jpg" tvg-name="超能神探" group-title="2025",超能神探
+https://v11.gggread.com/wjv11/202509/02/9S7deKqw7Y83/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2q27TnpLrxW7lsT3V5AKF9Dt7aG.jpg" tvg-name="名偵探柯南：獨眼的殘像" group-title="2025",名偵探柯南：獨眼的殘像
+https://v2.tlkqc.com/wjv2/202507/01/hXRX4j4D5B74/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/q87G2n1jE6THotwwjMv9sdrN6J8.jpg" tvg-name="無名弒2" group-title="2025",無名弒2
+https://v8.gggread.com/wjv8/202509/02/5hhJDm8Bjf80/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/oQJG9wtXGzW6hUuyZRi7JpCJpAH.jpg" tvg-name="全知讀者視角" group-title="2025",全知讀者視角
+https://v8.gggread.com/wjv8/202508/08/UHvzSq5Ehc80/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/egDAs0vh2SzTR07eUzdcC1XYkTS.jpg" tvg-name="原始戰爭" group-title="2025",原始戰爭
+https://v11.gggread.com/wjv11/202508/29/7XkTDpfyke83/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/srU7cbvUSp0gV2g9Wdca5B8QyT1.jpg" tvg-name="哪吒之魔童鬧海" group-title="2025",哪吒之魔童鬧海
+https://v12.tlkqc.com/wjv12/202501/30/BRFJsEWg9r84/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3fqsPpCHABrEXIMH16FmEeCkJZi.jpg" tvg-name="新逃学威龙：卧底高校" group-title="2025",新逃学威龙：卧底高校
+https://v12.gggread.com/wjv12/202508/28/bN7kTNdpT684/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6gPW0QD0JncCqVJLLKJn3s8cDNC.jpg" tvg-name="凶器" group-title="2025",凶器
+https://v12.gggread.com/wjv12/202508/09/vHV4mMdJf384/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/18W2sgKbvuh0g6sodyQBcAxOkEH.jpg" tvg-name="辣媽辣妹2" group-title="2025",辣媽辣妹2
+https://v8.gggread.com/wjv8/202508/25/LWBK2kzai880/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/sYZx2y785Wg4I6hRxwdDHTlDWiA.jpg" tvg-name="殺鹿斑比" group-title="2025",殺鹿斑比
+https://v2.gggread.com/wjv2/202509/01/2jDpnyCs5S74/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/pbliRGYU789feREYhXknSJAqbp2.jpg" tvg-name="窒友梅根2.0" group-title="2025",窒友梅根2.0
+https://hd.ijycnd.com/play/Pdy0gNEb/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mZ9AEdlSrRd7apiUMMmzPSvEJTj.jpg" tvg-name="聖夜：惡魔都市" group-title="2025",聖夜：惡魔都市
-https://yzzy21.playback-speed.com/20250530/43110_598ab90b/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9hR5NPTT1gpTwcRO3wdgxhjEMyf.jpg" tvg-name="封神第一部：朝歌風雲" group-title="2023",封神第一部：朝歌風雲
-https://svip.high1-playback.com/20230921/140_a3fbd0f1/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zDlUIGVsRtDQKyIAPNIXZhpobnP.jpg" tvg-name="捍衛任務：復仇芭蕾" group-title="2025",捍衛任務：復仇芭蕾
-https://cdn.yzzy29-play.com/20250702/220_ec8ce6ab/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/S8XM9nknYxBHCp1AO1TNpqwRzo.jpg" tvg-name="长安的荔枝" group-title="2025",长安的荔枝
-https://vip.ffzy-online3.com/20250807/38521_039cc47f/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/88T9ko21AOMw7Et3RFZYn5Kubzw.jpg" tvg-name="昆仑传" group-title="2025",昆仑传
-https://cdn.yzzy29-play.com/20250805/497_7380ad8a/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tkmibNA1BOyUD6g5EM9fASJfpxx.jpg" tvg-name="馴龍高手" group-title="2025",馴龍高手
-https://cdn.yzzy29-play.com/20250715/341_3dd48ab3/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/iY1L1QuJS4PFiw3Kc5fiVBD0gJ0.jpg" tvg-name="女人行不行" group-title="2009",女人行不行
-https://yzzy.play-cdn8.com/20220703/211_56f348df/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7T9pRr7BOwcxaVeVACuGp2ZMyp5.jpg" tvg-name="古曼童：母愛降靈" group-title="2024",古曼童：母愛降靈
-https://svip.high21-playback.com/20241103/39759_48becf0f/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/wz43lNee1VWcaP3GA6bCTzzoFzp.jpg" tvg-name="玩命情劫" group-title="2025",玩命情劫
-https://cdn.yzzy29-play.com/20250806/516_f3f27a32/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bYPrXWl7AuuQN2ZqMcdWYxdomsN.jpg" tvg-name="獵金·遊戲" group-title="2025",獵金·遊戲
-https://cdn.yzzy29-play.com/20250620/119_07e1cd7d/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lmiHB63P5YDqRIzOdiQWpU3qLBq.jpg" tvg-name="雷霆特攻隊＊" group-title="2025",雷霆特攻隊＊
-https://cdn.yzzy29-play.com/20250701/205_eae27d77/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/77w4a9cij5YqU3L0NPi8E2smRUl.jpg" tvg-name="重裝制裁" group-title="2025",重裝制裁
-https://svip.high21-playback.com/20250404/42408_4208c962/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9Gi2Ol8sulabnVx6UHGUMGom2wC.jpg" tvg-name="賭城大亨之新哥傳奇" group-title="1992",賭城大亨之新哥傳奇
-https://vip.ffzy-play7.com/20230213/14475_28a0abfc/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/t3FZTSn5R64Q20PMEZP6n0GE5io.jpg" tvg-name="怪谈五命河" group-title="2025",怪谈五命河
-https://cdn.yzzy29-play.com/20250807/517_38913e1d/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lkdY5ueCgJIkWAplJycowYcDVE1.jpg" tvg-name="赴汤蹈火" group-title="2025",赴汤蹈火
-https://cdn.yzzy29-play.com/20250711/301_34ed066d/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/pZGa5x1NG2ANOx6Yfs8ldigxXEt.jpg" tvg-name="隱秘的誘惑" group-title="2015",隱秘的誘惑
-https://yzzy.play-cdn13.com/20221219/1654_e1196473/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/r3irdRpuYocscbRH2ORt34LUPR1.jpg" tvg-name="疾凍救援：復仇" group-title="2025",疾凍救援：復仇
-https://cdn.yzzy29-play.com/20250702/214_ca46c1b9/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/oVopDeUzfjlRvYHEBOEqBESkzZM.jpg" tvg-name="莎莉" group-title="2024",莎莉
-https://vip.ffzy-plays.com/20250808/44009_5b2aad03/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/qY8gDFoRncaKh0B7e9wjT5wdrAv.jpg" tvg-name="會計師2" group-title="2025",會計師2
-https://yzzy21.playback-speed.com/20250605/43164_62be10fc/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/agE2zot927pS55LyP5SkqIFtBDs.jpg" tvg-name="窒友摩根" group-title="2025",窒友摩根
-https://vip.ffzy-video.com/20250622/20823_30aaa035/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/cokPs0Qy2QdJxRL9StDVXMSGCaf.jpg" tvg-name="絕命終結站：血脈" group-title="2025",絕命終結站：血脈
-https://yzzy21.playback-speed.com/20250518/43015_9d37d082/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7eNHCTDRWmectIHLYIt14kqQHbc.jpg" tvg-name="型男主廚三星夢：巴黎篇" group-title="2024",型男主廚三星夢：巴黎篇
-https://cdn.yzzy29-play.com/20250712/316_3fe94a00/index.m3u8
+https://v1.tlkqc.com/wjv1/202505/29/hj4RzGtsxe85/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/c74TdFM1eiT3UEBwivbG1YocZvU.jpg" tvg-name="28年毀滅倒數" group-title="2025",28年毀滅倒數
+https://v13.fentvoss.com/yyv13/202506/24/ELijaLJWi622/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/z8QwXims2jUO08GuDd5aCPGwxBR.jpg" tvg-name="地嚇鐵" group-title="2024",地嚇鐵
+https://v12.gggread.com/wjv12/202508/13/NFuFM8KVfE84/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1FILqyN6vhfFPA1pAUz5j68ARMG.jpg" tvg-name="無名弒" group-title="2021",無名弒
+https://play.hhuus.com/play/9b6V3Enb/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/yDIPCH9ziy32g5NpECBwEIMaMHE.jpg" tvg-name="战斗吧木兰" group-title="2025",战斗吧木兰
+https://v2.gggread.com/wjv2/202508/30/4wNk0W5NfM74/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/70qsFQG2LpMq95ZMISV3QORkgeI.jpg" tvg-name="有病才會喜歡你" group-title="2025",有病才會喜歡你
+https://v2.tlkqc.com/wjv2/202506/10/2HAt2exrdi74/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/l48vxsG9FLs8SEFoWuds7K6uxVv.jpg" tvg-name="Kpop 獵魔女團" group-title="2025",Kpop 獵魔女團
+https://v1.tlkqc.com/wjv1/202506/21/YS7g3dUtzr85/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/pNCK13PXVUFLbuTGtbNC611Bjzj.jpg" tvg-name="是誰搞的鬼" group-title="2025",是誰搞的鬼
+https://v11.gggread.com/wjv11/202507/21/hbmUWmwU7G83/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/edOjhDSXL9eVqVWZznn8s8EVsgi.jpg" tvg-name="疾馳電掣" group-title="2025",疾馳電掣
+https://v2.gggread.com/wjv2/202508/30/M70C68ARZA74/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9HnrAAdEPWhhzNIgoCQYtnyQI38.jpg" tvg-name="猎金·游戏" group-title="2025",猎金·游戏
+https://v12.tlkqc.com/wjv12/202505/04/CV63SRZbAH84/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/qClwHNRUgF46zI4xriZdVagCnt7.jpg" tvg-name="7天" group-title="2025",7天
+https://v2.gggread.com/wjv2/202508/31/nzpAaX898C74/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/AjcTXiLLuNso2WbZXEaik6i57yP.jpg" tvg-name="週四謀殺俱樂部" group-title="2025",週四謀殺俱樂部
+https://v10.gggread.com/wjv10/202508/28/pBFRD92S0D82/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/xYvZJf3sJIOeA3MVBjbTw2xPWV4.jpg" tvg-name="會計師2" group-title="2025",會計師2
+https://v1.tlkqc.com/wjv1/202506/06/859SpLvHUx85/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ufA7d5LT2rGj58KaZErPhcMkJ4U.jpg" tvg-name="鋼鐵悍將" group-title="1997",鋼鐵悍將
+https://v12.fentvoss.com/sdv12/202406/01/eEU9t50zAW8/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3KdbzddwGLIKR6yrOillJEr62Jh.jpg" tvg-name="獵狐行動" group-title="2025",獵狐行動
+https://v13.fentvoss.com/yyv13/202507/11/JfcD2L8TrQ19/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/aGDykxPnnaXXOfDAtcYYnVropjq.jpg" tvg-name="破．地獄" group-title="2024",破．地獄
+https://v3.tlkqc.com/wjv3/202504/05/PGyVp0GMtQ75/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bHqkaTLL1aPcpMzbvu8kFckEpi.jpg" tvg-name="日安憂傷" group-title="2024",日安憂傷
+https://v10.gggread.com/wjv10/202508/28/cTJvHfUpfu82/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/eBHX1wFYH2CiBAvEoE96FU159pV.jpg" tvg-name="幸運, 公寓" group-title="2024",幸運, 公寓
+https://cdn.wlcdn88.com:777/2be02ae9/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/r6IB49ap3onG2LsRDkHkqLO8DYE.jpg" tvg-name="好好说再见" group-title="2025",好好说再见
+https://v.gsuus.com/play/9avOAGMb/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6OlWLe4ohPQYrLFIFBPwD8BtO.jpg" tvg-name="永遠在一起" group-title="2025",永遠在一起
+https://v12.gggread.com/wjv12/202508/27/xVqVx8tuL884/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/kaBmSRSNbQZ69rW9KyFcQGKbxxT.jpg" tvg-name="ほんとにあった怖い話 夏の特別編2025" group-title="2025",ほんとにあった怖い話 夏の特別編2025
+https://v2.gggread.com/wjv2/202508/19/L3dnEhNzuB74/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.movieffm.net/wp-content/uploads/2025/04/9alGBnrTSKEEzwoBJMsPv2Q0SSu-.jpg" tvg-name="四墓驚魂" group-title="2025",四墓驚魂
+https://v11.gggread.com/wjv11/202508/31/2aXb5n4AB283/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/cebPdLZbvgIGyh484H5Ocai0CxW.jpg" tvg-name="終極戰士：時空獵襲者" group-title="2025",終極戰士：時空獵襲者
+https://v11.tlkqc.com/wjv11/202506/06/8vkr1Kg7gW83/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3FLPQrIbJPSVzmNloLX8Z9u8ohe.jpg" tvg-name="民间摆渡人" group-title="2025",民间摆渡人
+https://v10.gggread.com/wjv10/202508/21/P2XCwEYwmZ82/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/57vdfoMvmoZFeZSW3PQznXaHhPJ.jpg" tvg-name="捍衛任務：復仇芭蕾" group-title="2025",捍衛任務：復仇芭蕾
+https://v11.tlkqc.com/wjv11/202506/10/hUYuuHbKm483/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/qyGY1k5GqAORsVhfZA3gFKirZWD.jpg" tvg-name="甜蜜養老院" group-title="2025",甜蜜養老院
+https://v12.gggread.com/wjv12/202508/28/HSbKtMRT7084/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1sZSRb0t4zXLv0NZdkghcpShYgf.jpg" tvg-name="巨鯊浪潮" group-title="2025",巨鯊浪潮
+https://v2.gggread.com/wjv2/202508/15/NnMYWsu7cv74/video/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/v9CIainF80NlFJT2WvQMssgHEY0.jpg" tvg-name="白頭神探：智鬥滅世狂人" group-title="2025",白頭神探：智鬥滅世狂人
+https://v13.fentvoss.com/yyv13/202508/08/zWeKvGu4BG19/video/index.m3u8
