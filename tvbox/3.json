@@ -1,9 +1,9 @@
 {
-  "spider": "https://pkj99.github.io/demo/tvbox/jinenge.jar",
+  "spider": "https://pkj99.github.io/demo/tvbox/thunder.jar",
   "lives": [
     {
       "name": "live",
-      "url": "https://tv-1.iill.top/m3u/Gather",
+      "url": "https://pkj99.github.io/demo/media/iptv.txt",
       "type": 0,
       "epg": "https://diyp.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
@@ -63,7 +63,50 @@
         "港台动漫",
         "其他动漫"
       ]
+    },    
+      {
+      "key": "愛看资源",
+      "name": "愛看资源",
+      "type": 1,
+      "api": "https://ikunzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "港台综艺",
+        "大陆综艺",
+        "台湾剧",
+        "韩国剧",
+        "国产剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "惊悚片",
+		"家庭片",
+        "古装片",
+        "历史片",
+        "悬疑片",
+        "犯罪片",
+        "灾难片",
+        "同性片",
+        "欧美剧",
+        "日本剧",
+        "泰国剧",
+        "欧美综艺",
+        "日韩综艺",
+        "体育",
+        "欧美动漫",
+        "日本动漫",
+        "韩国动漫",
+        "国产动漫"
+      ]
+	  
     },
+
     {
       "key": "量子资源",
       "name": "量子资源",
@@ -116,6 +159,22 @@
         "港台动漫",
         "其他动漫"
       ]
+    },
+    {
+      "key": "快看资源",
+      "name": "快看资源",
+      "type": 1,
+      "api": "https://kuaikan-api.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },    
+    {
+      "key": "光速资源",
+      "name": "光速资源",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
     },
     {
       "key": "新浪资源",
@@ -216,22 +275,47 @@
         "综艺片"
       ]
     },
+
     {
-      "key": "愛看资源",
-      "name": "愛看资源",
+      "key": "閃電资源",
+      "name": "閃電资源",
       "type": 1,
-      "api": "https://ikunzyapi.com/api.php/provide/vod/",
+      "api": "https://sdzyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1
     },
     {
-      "key": "金鹰资源",
-      "name": "金鹰资源",
+      "key": "天翼资源",
+      "name": "天翼资源",
+      "type": 1,
+      "api": "https://www.911ysw.top/tianyi.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "金鷹资源",
+      "name": "金鷹资源",
       "type": 1,
       "api": "https://jyzyapi.com/provide/vod/",
       "searchable": 1,
       "quickSearch": 1
     },
+    {
+      "key": "速播资源",
+      "name": "速播资源",
+      "type": 1,
+      "api": "https://subocaiji.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "索尼资源",
+      "name": "索尼资源",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },    
     {
       "key": "csp_biubiu_LIBVIO",
       "name": "🥒LIBVIO(XB)",
