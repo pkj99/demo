@@ -1,8 +1,10 @@
 var apklist = [
     {title:'TVbox_2.3.7.apk',source:'../apk/static/apk/TVbox_2.3.7.apk',icon:'../apk/static/images/icon/TVbox.png'},
-    {title:'FreeDTV_1.2.3.apk',source:'../apk/static/apk/FreeDTV_1.2.1.apk',icon:'../apk/static/images/icon/FreeDTV_1.2.1.png'},
+    {title:'FreeDTV_1.2.3.apk',source:'../apk/static/apk/FreeDTV_1.2.3.apk',icon:'../apk/static/images/icon/FreeDTV_1.2.1.png'},
     {title:'orionTV.1.3.6.apk',source:'../apk/static/apk/orionTV.1.3.6.apk',icon:'../apk/static/images/icon/OrionTV.png'},
     {title:'KTV_80.3.0.apk',source:'../apk/static/apk/KTV_80.3.0.apk',icon:'../apk/static/images/icon/KTV.png'},
+    {title:'DIYP_V5.2.0.apk',source:'../apk/static/apk/DIYP.apk',icon:'../apk/static/images/icon/DIYP_V5.2.0.png'},
+    {title:'TiviMate_IPTV_v2.8.0_Premium.apk',source:'../apk/static/apk/TiviMate_IPTV_v2.8.0_Premium.apk',icon:'../apk/static/images/icon/TiviMate_IPTV_v2.8.0_Premium.png'},
     {title:'WebViewTV_1.13.3.apk',source:'../apk/static/apk/WebViewTV_1.13.3.apk',icon:'../apk/static/images/icon/WebViewTV.png'},
     {title:'MXPlayer_Pro_v1.42.apk',source:'https://www.gdaily.org/4/mx-player-pro-apk-ac3',icon:'../apk/static/images/icon/MXPlayer_Pro_v1.42.png'},
     {title:'沙發管家國際版.apk',source:'http://www.shafa.com/',icon:'../apk/static/images/icon/沙發管家國際版.png'},
@@ -17,7 +19,7 @@ var apklist = [
     {title:'CrazyKTV.remote.control.apk',source:'https://apkpure.com/tw/crazyktv-remote-control/com.crazyktv.wcf.android/download',icon:'../apk/static/images/icon/CrazyKTV.remote.control_v2.1.2.png'},
     {title:'LiTV',source:'https://release.svc.litv.tv/sarma/LiTV.App/LTWEB00LTV/pkgs/p-Home-pub-release_31202LTV20250825153445.apk',icon:'../apk/static/images/icon/LiTV.3.10.15.png'},
     {title:'4gTV',source:'https://apkpure.com/tw/%E9%9B%BB%E8%A6%96%E7%89%88%E5%9B%9B%E5%AD%A3%E7%B7%9A%E4%B8%8A-4gtv/tv.fourgtv.video/download',icon:'../apk/static/images/icon/4gTV.1.3.1.png'},
-    {title:'',source:'',icon:''},
+    {title:'Ofiii',source:'https://apkpure.com/tw/%E9%9B%BB%E8%A6%96%E7%89%88-ofiii-%E6%96%B0%E8%81%9E%E7%9B%B4%E6%92%AD%E3%80%81%E9%9B%BB%E5%BD%B1%E3%80%81%E6%88%B2%E5%8A%87%E3%80%81%E5%8B%95%E7%95%AB%E3%80%81%E5%A8%9B%E6%A8%82%E5%85%8D%E7%99%BB%E5%85%A5/com.litv.tyt/download',icon:'../apk/static/images/icon/ofiii.png'},
 ];
 
 
@@ -34,14 +36,6 @@ for (let apk of apklist) {
     htmlString += 'title="' + title + '" ';
     htmlString += 'data-original="' + icon + '" ';
     htmlString += 'style="background-image: url(' + icon + ')">';
-
-    // htmlString += '<span class="play hidden-xs"></span>';
-    // if (quality != '1') {
-    // htmlString += '<span class="pic-tag pic-tag-top" style="background-color: #5bb7fe;">' + quality + '</span>';
-    // }
-    // htmlString += '<span class="pic-tag pic-tag-right">' + remarks + '</span>';
-    // htmlString += '<span class="pic-text text-right">' + year + '</span>';
-    // htmlString += '<span class="pic-text text-left">' + type_name + '</span>';
 
     htmlString += '</a>';
     htmlString += '</div>';
