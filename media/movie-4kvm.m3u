@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/08/nJ3ZvkedqkYHWZQbOnuheiEhytE-185x278.jpg" tvg-name="伊甸" group-title="2025",伊甸
+https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=166083
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/08/22wq8xenneGDZ9K9MLIO8VchQC5-185x278.jpg" tvg-name="黑白線人" group-title="2025",黑白線人
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=166079
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/08/dpEWJUvwpYAX1YFvoyzOfsikIGq-185x278.jpg" tvg-name="星際寶貝：史迪奇" group-title="2025",星際寶貝：史迪奇
@@ -149,6 +151,10 @@ https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=164888
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=164794
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/02/7Xzf7IHltlUHosVKKW7cKWtTv1n-185x278.jpg" tvg-name="笑傲江湖" group-title="2025",笑傲江湖
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=164695
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/09/vXPsSotlkA0RwNVPhLcKgJFC5SP-185x278.jpg" tvg-name="性夢愛三部曲：夢" group-title="2024",性夢愛三部曲：夢
+https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=166278
+#EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/09/naYIC84DJR0cCLyX4LAH9CrAzsC-185x278.jpg" tvg-name="性夢愛三部曲：性" group-title="2024",性夢愛三部曲：性
+https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=166280
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/08/yIVdV0ZyU4NYFrNym4jx8Nr6taS-185x278.jpg" tvg-name="怪化貓：火鼠" group-title="2024",怪化貓：火鼠
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=166134
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/09/9ITLmWZtf3BdXR3vQHIhOZfrL52-185x278.jpg" tvg-name="秋光變奏曲" group-title="2024",秋光變奏曲

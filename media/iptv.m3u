@@ -139,6 +139,10 @@ https://pkj99.github.io/iptv/ofiii.html?asset_id=iNEWS
 https://pkj99.github.io/iptv/ofiii.html?asset_id=4gtv-4gtv009
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv074_mobile.png" tvg-name="中视新闻" group-title="新聞頻道",中视新闻
 https://pkj99.github.io/iptv/ofiii.html?asset_id=4gtv-4gtv074
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_nnews_tv.png" tvg-name="倪珍播新闻" group-title="新聞頻道",倪珍播新闻
+https://pkj99.github.io/iptv/ofiii.html?asset_id=nnews-zh
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_nnews_tv.png" tvg-name="倪珍越南语新闻" group-title="新聞頻道",倪珍越南语新闻
+https://pkj99.github.io/iptv/ofiii.html?asset_id=nnews-vn
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv052_mobile.png" tvg-name="华视新闻" group-title="新聞頻道",华视新闻
 https://pkj99.github.io/iptv/ofiii.html?asset_id=4gtv-4gtv052
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv051_tv.png" tvg-name="台视新闻台" group-title="新聞頻道",台视新闻台
@@ -147,6 +151,8 @@ https://pkj99.github.io/iptv/ofiii.html?asset_id=4gtv-4gtv051
 https://pkj99.github.io/iptv/ofiii.html?asset_id=litv-longturn14
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-longturn15_mobile.png" tvg-name="寰宇新闻台湾台" group-title="新聞頻道",寰宇新闻台湾台
 https://pkj99.github.io/iptv/ofiii.html?asset_id=litv-longturn15
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn15_tv.png" tvg-name="寰宇新闻台湾台" group-title="新聞頻道",寰宇新闻台湾台
+https://pkj99.github.io/iptv/ofiii.html?asset_id=4gtv-4gtv156
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-ftv13_mobile.png" tvg-name="民视新闻台" group-title="新聞頻道",民视新闻台
 https://pkj99.github.io/iptv/ftv.html?ChannelName=FTVNews
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/sportcast7.png" tvg-name="博斯无限台" group-title="體育頻道",博斯无限台
@@ -201,6 +207,8 @@ https://mursor.ottiptv.cc/yy/34229877
 https://cdn8.163189.xyz/live/lhyp/stream.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV1.png" tvg-name="龙华电影" group-title="電影頻道",龙华电影
 https://cdn8.163189.xyz/live/lhdy/stream.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_litv-longturn02_tv.png" tvg-name="龙华洋片" group-title="電影頻道",龙华洋片
+https://pkj99.github.io/iptv/ofiii.html?asset_id=litv-longturn02
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV1.png" tvg-name="龙华电影" group-title="電影頻道",龙华电影
 https://pkj99.github.io/iptv/ofiii.html?asset_id=litv-longturn03
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/asia-fm-92-3.png" tvg-name="AsiaFM亞太電台FM92.3" group-title="廣播頻道" radio="true",AsiaFM亞太電台FM92.3
