@@ -1,4 +1,14 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/10/efdef2e64fe556-185x278.jpg" tvg-name="厲陰宅：最終聖事" group-title="2025",厲陰宅：最終聖事
+http://192.168.1.249:5051/4kvm/166366.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/10/42W0xcmRGCyao1LCZu48qMtMkLH-185x278.jpg" tvg-name="火燒天堂鎮" group-title="2025",火燒天堂鎮
+http://192.168.1.249:5051/4kvm/166373.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/10/cpQ4VxBJO7vGV3IUdKzSNf4tH9V-185x278.jpg" tvg-name="倫敦呼叫" group-title="2025",倫敦呼叫
+http://192.168.1.249:5051/4kvm/166389.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/10/gYAw8yGNk2a4Cap2TIKXNiJn7bL-185x278.jpg" tvg-name="Mayumi" group-title="2025",Mayumi
+http://192.168.1.249:5051/4kvm/166391.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/10/4ucHX1WYnRQQmx3wRvb5lDNPXKb-185x278.jpg" tvg-name="維修情緣" group-title="2025",維修情緣
+http://192.168.1.249:5051/4kvm/166393.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/09/aXwPa8NKNUhXNfUMLLNBkwmEBOH-185x278.jpg" tvg-name="劇場版「鬼滅之刃」無限城篇 第一章 猗窩座再襲" group-title="2025",劇場版「鬼滅之刃」無限城篇 第一章 猗窩座再襲
 http://192.168.1.249:5051/4kvm/166285.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/09/7mmEEgmuT5NSJEDsDbfa1J0NdBl-185x278.jpg" tvg-name="凶器" group-title="2025",凶器
@@ -461,6 +471,8 @@ http://192.168.1.249:5051/4kvm/150755.m3u8
 http://192.168.1.249:5051/4kvm/150768.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2024/05/fJrY8YcBgjS4CUCgN6RCMj2IB2F-185x278.jpg" tvg-name="魔鬼剋星：冰天凍地" group-title="2024",魔鬼剋星：冰天凍地
 http://192.168.1.249:5051/4kvm/150771.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/10/fNI6SNtJJdMgL3gUkKKiE925fxR-185x278.jpg" tvg-name="春畫先生" group-title="2023",春畫先生
+http://192.168.1.249:5051/4kvm/166385.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/10/6fmuFlNJMYQYgPmAT5bF3gDd9DV-185x278.jpg" tvg-name="鬼厄犬" group-title="2023",鬼厄犬
 http://192.168.1.249:5051/4kvm/166353.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/04/nhsi6kfqwlfAdzaeZOocnUqMlH2-185x278.jpg" tvg-name="年會不能停！" group-title="2023",年會不能停！
