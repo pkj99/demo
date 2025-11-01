@@ -1,7 +1,7 @@
 var myapklist = [
-    {title:'mytv.pkj.v2.0.apk',source:'../apk/static/apk/mytv.pkj.v2.0.apk',icon:'../apk/static/images/icon/mytv.png'},
-    {title:'webtv.pkj.v1.0.apk',source:'../apk/static/apk/webtv.pkj.v1.0.apk',icon:'../apk/static/images/icon/webtv.png'},
-    {title:'tvbox.pkj.v1.0.apk',source:'../apk/static/apk/tvbox.pkj.v1.0.apk',icon:'../apk/static/images/icon/mytvbox.png'},
+    {title:'mytv.pkj.v2.0.apk',source:'../apk/static/apk/mytv.pkj.v2.0.apk',icon:'../apk/static/images/icon/mytv.pkj.png'},
+    {title:'webtv.pkj.v1.0.apk',source:'../apk/static/apk/webtv.pkj.v1.0.apk',icon:'../apk/static/images/icon/webtv.pkj.png'},
+    {title:'tvbox.pkj.v1.0.apk',source:'../apk/static/apk/tvbox.pkj.v1.0.apk',icon:'../apk/static/images/icon/tvbox.pkj.png'},
     {title:'FreeDTV_1.2.3.apk',source:'../apk/static/apk/FreeDTV_1.2.3.apk',icon:'../apk/static/images/icon/FreeDTV_1.2.1.png'},
     {title:'DIYP_V5.2.0.apk',source:'../apk/static/apk/DIYP.apk',icon:'../apk/static/images/icon/DIYP_V5.2.0.png'},
     {title:'orionTV.1.3.6.apk',source:'../apk/static/apk/orionTV.1.3.6.apk',icon:'../apk/static/images/icon/OrionTV.png'},
