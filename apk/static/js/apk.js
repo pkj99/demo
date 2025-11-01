@@ -1,10 +1,16 @@
-var apklist = [
-    {title:'TVbox_2.3.7.apk',source:'../apk/static/apk/TVbox_2.3.7.apk',icon:'../apk/static/images/icon/TVbox.png'},
+var myapklist = [
+    {title:'myTV.pkj.v2.0.apk',source:'../apk/static/apk/myTV.pkj.v2.0.apk',icon:'../apk/static/images/icon/myTV.png'},
+    {title:'webtv.pkj.v1.0.apk',source:'../apk/static/apk/webtv.pkj.v1.0.apk',icon:'../apk/static/images/icon/webTV.png'},
+    {title:'tvbox.pkj.v1.0.apk',source:'../apk/static/apk/tvbox.pkj.v1.0.apk',icon:'../apk/static/images/icon/mytvbox.png'},
     {title:'FreeDTV_1.2.3.apk',source:'../apk/static/apk/FreeDTV_1.2.3.apk',icon:'../apk/static/images/icon/FreeDTV_1.2.1.png'},
+];
+
+var apklist = [
     {title:'orionTV.1.3.6.apk',source:'../apk/static/apk/orionTV.1.3.6.apk',icon:'../apk/static/images/icon/OrionTV.png'},
     {title:'KTV_80.3.0.apk',source:'../apk/static/apk/KTV_80.3.0.apk',icon:'../apk/static/images/icon/KTV.png'},
     {title:'DIYP_V5.2.0.apk',source:'../apk/static/apk/DIYP.apk',icon:'../apk/static/images/icon/DIYP_V5.2.0.png'},
     {title:'TiviMate_IPTV_v2.8.0_Premium.apk',source:'../apk/static/apk/TiviMate_IPTV_v2.8.0_Premium.apk',icon:'../apk/static/images/icon/TiviMate_IPTV_v2.8.0_Premium.png'},
+    {title:'TVbox_2.3.7.apk',source:'../apk/static/apk/TVbox_2.3.7.apk',icon:'../apk/static/images/icon/TVbox.png'},
     {title:'WebViewTV_1.13.3.apk',source:'../apk/static/apk/WebViewTV_1.13.3.apk',icon:'../apk/static/images/icon/WebViewTV.png'},
     {title:'MXPlayer_Pro_v1.42.apk',source:'https://www.gdaily.org/4/mx-player-pro-apk-ac3',icon:'../apk/static/images/icon/MXPlayer_Pro_v1.42.png'},
     {title:'沙發管家國際版.apk',source:'http://www.shafa.com/',icon:'../apk/static/images/icon/沙發管家國際版.png'},
@@ -24,6 +30,32 @@ var apklist = [
 
 
 let htmlString = '<ul>';
+
+for (let apk of myapklist) {
+    var title = apk.title;
+    var source = apk.source;
+    var icon = apk.icon;
+
+    htmlString += '<li class="col-lg-10 col-md-8 col-sm-5 col-xs-3">';
+    htmlString += '<div class="myui-vodlist__box">';
+    htmlString += '<a class="myui-vodlist__thumb lazyload" href="' + source + '" ';
+    htmlString += 'title="' + title + '" ';
+    htmlString += 'data-original="' + icon + '" ';
+    htmlString += 'style="background-image: url(' + icon + ')">';
+
+    htmlString += '</a>';
+    htmlString += '</div>';
+    htmlString += '<div class="myui-vodlist__detail">';
+    htmlString += '<h4 class="title text-overflow"><a href="' + source + '">' + title + '</a></h4>';
+    htmlString += '</div>';
+    htmlString += '</li>';
+}
+
+htmlString += '</ul>';
+
+htmlString += '<br><br><br><br><br><br><br><br><br><br><br><br>';
+
+htmlString += '<ul>';
 
 for (let apk of apklist) {
     var title = apk.title;
@@ -46,5 +78,6 @@ for (let apk of apklist) {
 }
 
 htmlString += '</ul>';
+
 
 document.getElementById('apklist').innerHTML = htmlString;
