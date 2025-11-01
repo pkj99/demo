@@ -3,12 +3,12 @@ var myapklist = [
     {title:'webtv.pkj.v1.0.apk',source:'../apk/static/apk/webtv.pkj.v1.0.apk',icon:'../apk/static/images/icon/webtv.png'},
     {title:'tvbox.pkj.v1.0.apk',source:'../apk/static/apk/tvbox.pkj.v1.0.apk',icon:'../apk/static/images/icon/mytvbox.png'},
     {title:'FreeDTV_1.2.3.apk',source:'../apk/static/apk/FreeDTV_1.2.3.apk',icon:'../apk/static/images/icon/FreeDTV_1.2.1.png'},
+    {title:'DIYP_V5.2.0.apk',source:'../apk/static/apk/DIYP.apk',icon:'../apk/static/images/icon/DIYP_V5.2.0.png'},
+    {title:'orionTV.1.3.6.apk',source:'../apk/static/apk/orionTV.1.3.6.apk',icon:'../apk/static/images/icon/OrionTV.png'},
 ];
 
 var apklist = [
-    {title:'orionTV.1.3.6.apk',source:'../apk/static/apk/orionTV.1.3.6.apk',icon:'../apk/static/images/icon/OrionTV.png'},
     {title:'KTV_80.3.0.apk',source:'../apk/static/apk/KTV_80.3.0.apk',icon:'../apk/static/images/icon/KTV.png'},
-    {title:'DIYP_V5.2.0.apk',source:'../apk/static/apk/DIYP.apk',icon:'../apk/static/images/icon/DIYP_V5.2.0.png'},
     {title:'TiviMate_IPTV_v2.8.0_Premium.apk',source:'../apk/static/apk/TiviMate_IPTV_v2.8.0_Premium.apk',icon:'../apk/static/images/icon/TiviMate_IPTV_v2.8.0_Premium.png'},
     {title:'TVbox_2.3.7.apk',source:'../apk/static/apk/TVbox_2.3.7.apk',icon:'../apk/static/images/icon/TVbox.png'},
     {title:'WebViewTV_1.13.3.apk',source:'../apk/static/apk/WebViewTV_1.13.3.apk',icon:'../apk/static/images/icon/WebViewTV.png'},
@@ -53,9 +53,9 @@ for (let apk of myapklist) {
 
 htmlString += '</ul>';
 
-htmlString += '<br><br><br><br><br><br><br><br><br><br><br><br>';
+document.getElementById('myapklist').innerHTML = htmlString;
 
-htmlString += '<ul>';
+htmlString = '<ul>';
 
 for (let apk of apklist) {
     var title = apk.title;
