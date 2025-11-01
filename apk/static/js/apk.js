@@ -1,6 +1,6 @@
 var myapklist = [
-    {title:'myTV.pkj.v2.0.apk',source:'../apk/static/apk/myTV.pkj.v2.0.apk',icon:'../apk/static/images/icon/myTV.png'},
-    {title:'webtv.pkj.v1.0.apk',source:'../apk/static/apk/webtv.pkj.v1.0.apk',icon:'../apk/static/images/icon/webTV.png'},
+    {title:'mytv.pkj.v2.0.apk',source:'../apk/static/apk/mytv.pkj.v2.0.apk',icon:'../apk/static/images/icon/mytv.png'},
+    {title:'webtv.pkj.v1.0.apk',source:'../apk/static/apk/webtv.pkj.v1.0.apk',icon:'../apk/static/images/icon/webtv.png'},
     {title:'tvbox.pkj.v1.0.apk',source:'../apk/static/apk/tvbox.pkj.v1.0.apk',icon:'../apk/static/images/icon/mytvbox.png'},
     {title:'FreeDTV_1.2.3.apk',source:'../apk/static/apk/FreeDTV_1.2.3.apk',icon:'../apk/static/images/icon/FreeDTV_1.2.1.png'},
 ];
