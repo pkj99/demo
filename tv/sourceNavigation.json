@@ -223,6 +223,39 @@
       "ads": "",
       "decoder": 0,
       "webPlus": {}
-    }
+    },
+    {
+      "name": "SMART(IPTV)",
+      "pic": "https://pkj99.github.io/demo/images/iptv2.png",
+      "webUrl": "https://pkj99.github.io/iptv/m3u/smarttv.m3u",
+      "type": "m3u",
+      "subTitle": "",
+      "click": true,
+      "autoNext": false,
+      "webOpen": false,
+      "keyDownPlay": true,
+      "keyUpPlay": true,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4535.3 Safari/537.36",
+      "ads": "",
+      "decoder": 0,
+      "webPlus": {}
+    },
+    {
+      "name": "OFIII(IPTV)",
+      "pic": "https://pkj99.github.io/demo/images/iptv2.png",
+      "webUrl": "https://pkj99.github.io/iptv/m3u/ofiiitv.m3u",
+      "type": "m3u",
+      "subTitle": "",
+      "click": true,
+      "autoNext": false,
+      "webOpen": false,
+      "keyDownPlay": true,
+      "keyUpPlay": true,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4535.3 Safari/537.36",
+      "ads": "",
+      "decoder": 0,
+      "webPlus": {}
+    }    
+
   ]
 }
