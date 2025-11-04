@@ -1077,6 +1077,10 @@ http://192.168.1.249:5053//vod69231-000000M001.m3u8
 http://192.168.1.249:5053/movie/vod70872-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/77977-000000-670921.jpg" tvg-name="黑幫大血戰" group-title="2023",黑幫大血戰
 http://192.168.1.249:5053/movie/vod77977-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/67927-000000-587975.jpg" tvg-name="限時引爆" group-title="2023",限時引爆
+http://192.168.1.249:5053/movie/vod67927-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/72694-000000-628330.jpg" tvg-name="獵豔清單缺了你" group-title="2023",獵豔清單缺了你
+http://192.168.1.249:5053/movie/vod72694-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/66961-000000-581652.jpg" tvg-name="槍神趙子龍" group-title="2022",槍神趙子龍
 http://192.168.1.249:5053/movie/vod66961-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/66959-000000-581914.jpg" tvg-name="七剑降魔传" group-title="2022",七剑降魔传
@@ -4399,6 +4403,8 @@ http://192.168.1.249:5053/movie/vod35778-000000M001.m3u8
 http://192.168.1.249:5053/movie/vod11090-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/10075-000000-633759.jpg" tvg-name="青少年哪吒(數位修復版)" group-title="1992",青少年哪吒(數位修復版)
 http://192.168.1.249:5053/movie/vod10075-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/64420-000000-560154.jpg" tvg-name="鐵男 II：血肉橫飛(數位修復版)" group-title="1992",鐵男 II：血肉橫飛(數位修復版)
+http://192.168.1.249:5053/movie/vod64420-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/63398-000000-552245.jpg" tvg-name="怪談比留子(數位修復版)" group-title="1991",怪談比留子(數位修復版)
 http://192.168.1.249:5053/movie/vod63398-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/33520-000000-628150.jpg" tvg-name="新精武門1991" group-title="1991",新精武門1991
@@ -4439,6 +4445,8 @@ http://192.168.1.249:5053/movie/vod32824-000000M001.m3u8
 http://192.168.1.249:5053/drama/vod73484-000001M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/11089-000000-629533.jpg" tvg-name="香蕉天堂(數位修復版)" group-title="1989",香蕉天堂(數位修復版)
 http://192.168.1.249:5053/movie/vod11089-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/64419-000000-560155.jpg" tvg-name="鐵男：金屬獸(數位修復版)" group-title="1989",鐵男：金屬獸(數位修復版)
+http://192.168.1.249:5053/movie/vod64419-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/34192-000000-628614.jpg" tvg-name="最佳損友" group-title="1988",最佳損友
 http://192.168.1.249:5053/movie/vod34192-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/33523-000000-628617.jpg" tvg-name="最佳損友闖情關" group-title="1988",最佳損友闖情關
