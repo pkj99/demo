@@ -113,22 +113,6 @@
       "webPlus": {}
     },
     {
-      "name": "LiTV電影",
-      "pic": "https://play-lh.googleusercontent.com/euvAe_tUIJWEXiIdkD_zoOcxroQ_saRD9e20m2TP_Mt2Vv7THxUAKXp1khA__yqTl1k=w240-h480-rw",
-      "webUrl": "https://pkj99.github.io/demo/media/movie-litv.m3u",
-      "type": "m3u",
-      "subTitle": "",
-      "click": true,
-      "autoNext": false,
-      "webOpen": false,
-      "keyDownPlay": true,
-      "keyUpPlay": true,
-      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4535.3 Safari/537.36",
-      "ads": "",
-      "decoder": 0,
-      "webPlus": {}
-    },
-    {
       "name": "4gTV電影",
       "pic": "https://m.4gtv.tv/image/4gtv.png",
       "webUrl": "https://pkj99.github.io/demo/media/movie-4gtv.m3u",
@@ -164,6 +148,22 @@
       "name": "4kvm電影",
       "pic": "https://www.4kvm.net/wp-content/uploads/2020/07/c4b7f67bdfbd37.png",
       "webUrl": "https://pkj99.github.io/demo/media/movie-4kvm.m3u",
+      "type": "m3u",
+      "subTitle": "",
+      "click": true,
+      "autoNext": false,
+      "webOpen": false,
+      "keyDownPlay": true,
+      "keyUpPlay": true,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4535.3 Safari/537.36",
+      "ads": "",
+      "decoder": 0,
+      "webPlus": {}
+    },
+    {
+      "name": "4kvm(Local)",
+      "pic": "https://www.4kvm.net/wp-content/uploads/2020/07/c4b7f67bdfbd37.png",
+      "webUrl": "https://pkj99.github.io/demo/media/local-4kvm.m3u",
       "type": "m3u",
       "subTitle": "",
       "click": true,
@@ -223,7 +223,38 @@
       "ads": "",
       "decoder": 0,
       "webPlus": {}
-    }
-
+    },
+    {
+      "name": "SmartTV(IPTV)",
+      "pic": "https://pkj99.github.io/demo/images/iptv2.png",
+      "webUrl": "https://pkj99.github.io/iptv/m3u/smarttv.m3u",
+      "type": "m3u",
+      "subTitle": "",
+      "click": true,
+      "autoNext": false,
+      "webOpen": false,
+      "keyDownPlay": true,
+      "keyUpPlay": true,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4535.3 Safari/537.36",
+      "ads": "",
+      "decoder": 0,
+      "webPlus": {}
+    },
+    {
+      "name": "4gTV(Local)",
+      "pic": "https://pkj99.github.io/demo/images/iptv2.png",
+      "webUrl": "https://pkj99.github.io/iptv/m3u/local-4gtv.m3u",
+      "type": "m3u",
+      "subTitle": "",
+      "click": true,
+      "autoNext": false,
+      "webOpen": false,
+      "keyDownPlay": true,
+      "keyUpPlay": true,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4535.3 Safari/537.36",
+      "ads": "",
+      "decoder": 0,
+      "webPlus": {}
+    }    
   ]
 }
