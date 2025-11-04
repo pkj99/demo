@@ -2,15 +2,24 @@
   "data": [
     {
       "id": 1,
-      "name": "高清雲",
-      "url": "https://api.1080zyku.com/inc/api.php/provide/vod/from/dbm3u8/at/xml",
-      "cate": "港台綜藝,63&&大陸綜藝,62&&台劇,13&&陸劇,12&&韓劇,14&&日劇,18&&美劇,15&&劇情片,10&&動作片,5&&喜劇片,6&&恐怖片,9&&奇幻片,8&&劇情片,10&&戰爭片,11&&紀錄片,20&&歐美綜藝,65&&日韓綜藝,64",
+      "name": "電影天空",
+      "url": "https://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/xml/",
+      "cate": "港台綜藝,26&&大陸綜藝,25&&台劇,21&&陸劇,13&&韓劇,15&&日劇,22&&美劇,16&&劇情片,11&&動作片,6&&喜劇片,7&&恐怖片,10&&奇幻片,9&&爱情片,8&&戰爭片,12&&紀錄片,20&&歐美綜藝,28&&日韓綜藝,27",
       "click": true,
       "type": "xml",
       "detailUrl": ""
     },
     {
       "id": 2,
+      "name": "高清雲",
+      "url": "https://api.1080zyku.com/inc/api.php/provide/vod/from/dbm3u8/at/xml",
+      "cate": "港台綜藝,63&&大陸綜藝,62&&台劇,13&&陸劇,12&&韓劇,14&&日劇,18&&美劇,15&&劇情片,10&&動作片,5&&喜劇片,6&&恐怖片,9&&奇幻片,8&&劇情片,10&&戰爭片,11&&紀錄片,20&&歐美綜藝,65&&日韓綜藝,64",
+      "click": true,
+      "type": "xml",
+      "detailUrl": ""
+    },    
+    {
+      "id": 3,
       "name": "百度雲",
       "url": "https://api.apibdzy.com/api.php/provide/vod/from/dbm3u8/at/xml",
       "cate": "動作片,6&&喜劇片,7&&愛情片,8&&科幻片,9&&恐怖片,10&&劇情片,11&&台劇,18&&陸劇,13&&韓劇,15&&美劇,14&&日劇,16&&大陸綜藝,25&&港台綜藝,27&&國產動漫,29&&日韓動漫,30&&歐美動漫,31",
@@ -19,19 +28,10 @@
       "detailUrl": ""
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "非凡雲",
       "url": "https://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml",
       "cate": "動作片,6&&喜劇片,7&&愛情片,8&&科幻片,9&&恐怖片,10&&劇情片,11&&戰爭片,12&&台劇,21&&陸劇,13&&韓劇,15&&美劇,16&&日劇,22&&大陸綜藝,25&&港台綜藝,26&&國產動漫,29&&日韓動漫,30&&歐美動漫,31",
-      "click": true,
-      "type": "xml",
-      "detailUrl": ""
-    },
-    {
-      "id": 4,
-      "name": "電影天空",
-      "url": "https://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/xml",
-      "cate": "動畫,4&&動作片,6&&喜劇片,7&&愛情片,8&&科幻片,9&&恐怖片,10&&劇情片,11&&戰爭片,12&&國產劇,13&&港台劇,14&&日韓劇,15&&歐美劇,16",
       "click": true,
       "type": "xml",
       "detailUrl": ""
