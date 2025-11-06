@@ -44,13 +44,13 @@
           "episodes": {
             "hasUrlPrefix": false,
             "isListItemAttr": true,
-            "listCss": "div.item",
+            "listCss": "div.playlist-mobile.playlist.layout-box.clearfix",
             "isMultiList": true,
             "listCssMulti": "ul > li",
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "div.box-video-list",
+            "mainCss": "div.col-md-8-fix.col-sm-12.box-main-content",
             "mainIndex": 0
           },
           "nav": {
@@ -77,7 +77,7 @@
           },
           "search": {
             "descAttr": "",
-            "descCss": "span.pic-text.text-right",
+            "descCss": "span.note.text-bg-r",
             "descIndex": 0,
             "hasUrlPrefix": false,
             "imgAttr": "data-original",
@@ -87,7 +87,7 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.myui-panel_bd.col-pd.clearfix",
+            "mainCss": "div.box-video-list > div.item > ul.clearfix",
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
