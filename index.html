@@ -96,9 +96,9 @@
 <body>
 
     <div class="protected">
-        <div class="protected__alert" data-id="alert">You entered the wrong password</div>
+        <div class="protected__alert" data-id="alert">You entered the wrong code</div>
         <div class="protected__content">
-            <h1 class="protected__content__heading">You need a password to continue</h1>
+            <h1 class="protected__content__heading">You need an invitation code to continue</h1>
             <input class="protected__content__input" data-id="password" type="password" placeholder="password"/>
             <button data-id="button" type="button" class="protected__content__btn">Continue</button>
         </div>
@@ -124,14 +124,14 @@
                 } else {
                     parent.location.hash = hash;
                     alert[0].style.display = 'block';
-                    password[0].setAttribute('placeholder', 'Incorrect password');
+                    password[0].setAttribute('placeholder', 'Incorrect code');
                     password[0].value = '';
                 }
             }
             request.onerror = function () {
                 parent.location.hash = hash;
                 alert[0].style.display = 'block';
-                password[0].setAttribute('placeholder', 'Incorrect password');
+                password[0].setAttribute('placeholder', 'Incorrect code');
                 password[0].value = '';
             }
             request.send();
