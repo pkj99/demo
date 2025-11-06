@@ -11,7 +11,7 @@
       "webPlus": {
         "search_url": "https://gimytv.ai/search/-------------.html?wd={kw}",
         "nav_url": "https://gimytv.ai/cat/navCate--hits_week------navPage---.html",
-        "web_name": "Gimy",
+        "web_name": "Gimy高清",
         "search": false,
         "navHtml": {
           "name": [
@@ -44,7 +44,7 @@
           "episodes": {
             "hasUrlPrefix": false,
             "isListItemAttr": true,
-            "listCss": "div.box-video-list > div.item",
+            "listCss": "div.item",
             "isMultiList": true,
             "listCssMulti": "ul > li",
             "listItemAttr": "href",
