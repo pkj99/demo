@@ -50,12 +50,12 @@
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "div.col-md-wide-7.col-xs-1.padding-0",
+            "mainCss": "div.box-video-list",
             "mainIndex": 0
           },
           "nav": {
             "descAttr": "",
-            "descCss": "span.pic-text.text-right",
+            "descCss": "span.note.text-bg-r",
             "descIndex": 0,
             "hasUrlPrefix": false,
             "imgAttr": "data-original",
