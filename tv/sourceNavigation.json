@@ -145,7 +145,7 @@
       "webPlus": {}
     },
     {
-      "name": "4kvm電影",
+      "name": "4kvm電影(Web觀看)",
       "pic": "https://www.4kvm.net/wp-content/uploads/2020/07/c4b7f67bdfbd37.png",
       "webUrl": "https://pkj99.github.io/demo/media/movie-4kvm.m3u",
       "type": "m3u",
@@ -226,7 +226,7 @@
     },
     {
       "name": "ilTV(Gather)",
-      "pic": "https://pkj99.github.io/demo/images/iptv2.png",
+      "pic": "https://pkj99.github.io/demo/images/iptv4.png",
       "webUrl": "https://pkj99.github.io/iptv/m3u/iltv.m3u",
       "type": "m3u",
       "subTitle": "",
@@ -241,8 +241,8 @@
       "webPlus": {}
     },
     {
-      "name": "gather",
-      "pic": "https://pkj99.github.io/demo/images/iptv2.png",
+      "name": "Gather(Update)",
+      "pic": "https://pkj99.github.io/demo/images/update.png",
       "webUrl": "https://tv.iill.top/m3u/Gather",
       "type": "m3u",
       "subTitle": "",
