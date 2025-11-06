@@ -44,13 +44,13 @@
           "episodes": {
             "hasUrlPrefix": false,
             "isListItemAttr": true,
-            "listCss": "div.item.clearfix",
+            "listCss": "div.box-video-list > div.item",
             "isMultiList": true,
             "listCssMulti": "ul > li",
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "div.myui-panel_bd",
+            "mainCss": "div.box-video-list",
             "mainIndex": 0
           },
           "nav": {
@@ -65,7 +65,7 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.box-video-list",
+            "mainCss": "div.box-video-list > div.item > ul.clearfix",
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
