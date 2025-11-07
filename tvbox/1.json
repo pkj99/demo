@@ -3,14 +3,45 @@
   "lives": [
     {
       "name": "live",
-      "url": "https://pkj99.github.io/demo/media/iptv.txt",
+      "url": "https://pkj99.github.io/iptv/m3u/iltv.txt",
       "type": 0,
+      "playerType": 1,
       "epg": "https://diyp.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "ua": "okhttp/3.15"
     }   
   ],
   "sites": [
+    {
+      "key": "dytt",
+      "name": "電影天空",
+      "type": 1,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "台湾剧",
+        "国产剧",
+        "韩国剧",
+        "欧美剧",
+        "日本剧",
+        "海外剧",
+        "泰国剧",
+        "香港剧",
+        "记录片",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺"
+      ]
+    },    
     {
       "key": "1080zyk",
       "name": "高清资源",
@@ -64,7 +95,8 @@
         "其他动漫"
       ]
     },    
-      {
+
+    {
       "key": "愛看资源",
       "name": "愛看资源",
       "type": 1,
@@ -86,7 +118,7 @@
         "剧情片",
         "战争片",
         "惊悚片",
-		"家庭片",
+		    "家庭片",
         "古装片",
         "历史片",
         "悬疑片",
