@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "name": "Gimy高清(规则)",
+      "name": "Gimy高清(規則)",
       "pic": "https://pkj99.github.io/demo/images/gimy4k.png",
       "type": "webPlug",
       "ads": "",
@@ -102,7 +102,7 @@
     },
 
     {
-      "name": "BOWANG(规则)",
+      "name": "BOWANG(規則)",
       "pic": "https://pkj99.github.io/demo/images/bowang.png",
       "type": "webPlug",
       "ads": "",
@@ -227,7 +227,7 @@
     },
 
     {
-      "name": "爱迪(规则)",
+      "name": "爱迪(規則)",
       "pic": "https://pkj99.github.io/demo/images/aidi.png",
       "type": "webPlug",
       "ads": "",
@@ -364,7 +364,7 @@
     },
 
     {
-      "name": "多腦(规则)",
+      "name": "多腦(規則)",
       "pic": "https://pkj99.github.io/demo/images/duona.png",
       "type": "webPlug",
       "ads": "",
@@ -486,7 +486,7 @@
 
 
     {
-      "name": "LIBVIO(规则)",
+      "name": "LIBVIO(規則)",
       "pic": "https://pkj99.github.io/demo/images/libvio.png",
       "type": "webPlug",
       "ads": "",
@@ -574,6 +574,94 @@
       }
     },
 
+
+    {
+      "name": "4KVM(規則)",
+      "pic": "https://pkj99.github.io/demo/images/4kvm.png",
+      "type": "webPlug",
+      "ads": "",
+      "webUrl": "https://www.4kvm.me/movies",
+      "webOpen": false,
+      "click": true,
+      "webPlus": {
+        "search_url": "https://www.4kvm.me/xssearch?s={kw}",
+        "nav_url": "https://www.4kvm.me/navCate/page/navPage",
+        "web_name": "4KVM",
+        "search": false,
+        "navHtml": {
+          "name": [
+            "電影",
+            "電視劇"
+          ],
+          "cate": [
+            "movies",
+            "tvshows"
+          ],
+          "page": "1"
+        },
+        "html": {
+          "episodes": {
+            "hasUrlPrefix": false,
+            "isListItemAttr": true,
+            "listCss": "iframe.metaframe.rptss",
+            "isMultiList": false,
+            "listCssMulti": "",
+            "listItemAttr": "src",
+            "listItemCss": "iframe",
+            "listItemIndex": 0,
+            "mainCss": "div.pframe",
+            "mainIndex": 0
+          },
+          "nav": {
+            "descAttr": "",
+            "descCss": "div.rating > span.icon-star2",
+            "descIndex": 0,
+            "hasUrlPrefix": false,
+            "imgAttr": "src",
+            "imgCss": "img",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "div.animation-2.items",
+            "mainListIndex": 0,
+            "nameAttr": "alt",
+            "nameCss": "img",
+            "nameIndex": 0,
+            "searchListCss": "li",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
+          },
+          "search": {
+            "descAttr": "",
+            "descCss": "span.note.text-bg-r",
+            "descIndex": 0,
+            "hasUrlPrefix": false,
+            "imgAttr": "data-original",
+            "imgCss": "a",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "div.box-video-list > div.item > ul.clearfix",
+            "mainListIndex": 0,
+            "nameAttr": "title",
+            "nameCss": "a",
+            "nameIndex": 0,
+            "searchListCss": "ul > li",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
+          }
+        }
+      }
+    },
+
+
+
     {
       "name": "Ofiii(Web)",
       "pic": "https://pkj99.github.io/demo/images/ofiii.jpg",
@@ -606,7 +694,8 @@
       "webUrl": "https://www.4kvm.pro/",
       "webOpen": true,
       "click": true
-    },    {
+    },
+    {
       "name": "Radios.TW(Web)",
       "pic": "https://pkj99.github.io/demo/images/radio.jpg",
       "keyDownPlay": false,
