@@ -614,11 +614,11 @@
           },
           "nav": {
             "descAttr": "",
-            "descCss": "div.rating",
-            "descIndex": 0,
+            "descCss": "article.item.movies > div.metadata > span",
+            "descIndex": 1,
             "hasUrlPrefix": false,
             "imgAttr": "src",
-            "imgCss": "img",
+            "imgCss": "article.item.movies > div.poster > img",
             "imgIndex": 0,
             "isDescAttr": false,
             "isImgAttr": true,
@@ -627,10 +627,10 @@
             "mainCss": "div.animation-2.items",
             "mainListIndex": 0,
             "nameAttr": "",
-            "nameCss": "div.title > h4",
+            "nameCss": "article.item.movies > div.title > h4",
             "nameIndex": 0,
             "urlAttr": "href",
-            "urlCss": "a",
+            "urlCss": "article.item.movies > a",
             "urlIndex": 0
           }
         }
