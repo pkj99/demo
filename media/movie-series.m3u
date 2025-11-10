@@ -1,6 +1,16 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bug0ewWF8rIFlVepRNIJG9BRn2T.jpg" tvg-name="洛基" group-title="洛基",洛基
+https://cdn.yzzy29-play.com/20251108/8081_4afe0449/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/amlcyPBYH9mcjGVNGPwR4tqnZRX.jpg" tvg-name="洛基續集" group-title="洛基",洛基續集
+https://vip.ffzy-play7.com/20230307/17431_430f6c5b/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8LTfbdnQ3wMrm4unjYB8h5pXEwr.jpg" tvg-name="洛基3" group-title="洛基",洛基3
+https://vip.ffzy-play7.com/20221223/9433_42e320d5/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9IxZHj3pTaD4Run2EcfEPtfhsi2.jpg" tvg-name="洛基4：天下無敵" group-title="洛基",洛基4：天下無敵
 https://vip.dytt-live.com/20250403/3242_032dd17b/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tMIg9lJnCCmupVFxRs2ETeeYBie.jpg" tvg-name="洛基5：龍吟虎嘯" group-title="洛基",洛基5：龍吟虎嘯
+https://vip.ffzy-play7.com/20221223/9435_de65512d/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/LADHlYVffBhCb5oEm3LZIjlsjt.jpg" tvg-name="洛基：勇者無懼" group-title="洛基",洛基：勇者無懼
+https://vip.ffzy-play7.com/20221223/9436_e6185e46/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/y03tzUKvkRCYwJ5NWys4W4bnS9m.jpg" tvg-name="教父" group-title="教父",教父
 https://vip.dytt-watch.com/20251005/78977_f15a80d4/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4J8jUmjgKPggRPJqqdkjWCj2k0D.jpg" tvg-name="教父II" group-title="教父",教父II
@@ -25,8 +35,10 @@ https://vip.dytt-kan.com/20250805/3251_504c296f/index.m3u8
 https://vip.dytt-live.com/20250326/2236_3dd94242/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/x9sY431kuFBRUOwUsBF9B77KYKJ.jpg" tvg-name="異形戰場2" group-title="異形",異形戰場2
 https://vip.dytt-live.com/20250326/2234_653ac11c/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5xf6crBXUwD4GnuLcAgLCFnhPCW.jpg" tvg-name="異形：聖約" group-title="異形",異形：聖約
+https://vip.ffzy-play7.com/20230217/14999_d887bf7b/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/92dA2WHqfTv5Be7mzr39DN4VeQ5.jpg" tvg-name="異形：羅穆路斯" group-title="異形",異形：羅穆路斯
-https://svip.high21-playback.com/20241015/39429_f34f2a5b/index.m3u8
+https://vip.ffzy-video.com/20241015/4108_b2b7c555/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/nqby5EtbHWlG2yzzpm5rRhWbAgm.jpg" tvg-name="寒戰" group-title="寒戰",寒戰
 https://vip.dytt-film.com/20250127/3039_f0204e1d/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9559qINSm9ef3e2YHwOSfgwOaRD.jpg" tvg-name="美國隊長2：酷寒戰士" group-title="寒戰",美國隊長2：酷寒戰士
@@ -45,6 +57,16 @@ https://vip.dytt-film.com/20250124/2108_931af583/index.m3u8
 https://vip.dytt-film.com/20250122/1451_80a8155e/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/usmTsXE83nyhLmft6YvuJ2XLJaa.jpg" tvg-name="宗師葉問" group-title="葉問",宗師葉問
 https://vip.dytt-film.com/20250122/1722_404dcc91/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5sTeD18eIKjYx6W4xNG1JuTSbmQ.jpg" tvg-name="提防老千" group-title="老千",提防老千
+https://vip.ffzy-play7.com/20230406/21299_51d76411/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6o6zBn4pUiUM9eb5Tn5BE8sWFDF.jpg" tvg-name="千王新世紀" group-title="老千",千王新世紀
+https://vip.ffzy-online4.com/20230410/19196_cf8d89f4/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bQFCBEWAIgXoCM3pDaweEclw1G4.jpg" tvg-name="老千：獨眼傑克" group-title="老千",老千：獨眼傑克
+https://vip.ffzy-play7.com/20221225/9800_00423aba/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/rSz4W70caojyBAIUaWQnifB8JXv.jpg" tvg-name="赤壁" group-title="赤壁",赤壁
+https://vip.ffzy-play7.com/20221231/10512_a999146a/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/yymD0UDuAQbQXXUZdbCGDJpMgLj.jpg" tvg-name="赤壁：決戰天下" group-title="赤壁",赤壁：決戰天下
+https://vip.ffzy-play7.com/20221231/10513_d4f9f843/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3EsFGbd9ZjWwZeNiUl0ghm71h21.jpg" tvg-name="角頭" group-title="角頭",角頭
 https://vip.dytt-kan.com/20250918/5636_203cb085/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tyAr9mLsohMW8V2yEkVIRThuH5e.jpg" tvg-name="角頭2：王者再起" group-title="角頭",角頭2：王者再起
@@ -65,6 +87,8 @@ https://vip.dytt-film.com/20250123/1905_73e0f748/index.m3u8
 https://vip.dytt-live.com/20250503/5655_2d13dd91/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/jroqJoYVw2sHfSPmw66uYO8UsBT.jpg" tvg-name="大白鯊" group-title="大白鲨",大白鯊
 https://vip.dytt-live.com/20250331/2837_353de269/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/wIEo1j92rPpW9x3fZwJgULqMmwh.jpg" tvg-name="大白鯊2：神出鬼沒" group-title="大白鲨",大白鯊2：神出鬼沒
+https://vip.ffzy-play6.com/20221206/10269_92460a7d/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/kqDXj53F9paqVGJLGfHtz7giJ3s.jpg" tvg-name="大白鯊3：一柱擎天" group-title="大白鲨",大白鯊3：一柱擎天
 https://vip.dytt-film.com/20250117/289_839ab468/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6rO815hvmfbqNdCJByDVffjclbK.jpg" tvg-name="大白鯊4：驚海尋仇" group-title="大白鲨",大白鯊4：驚海尋仇
@@ -91,6 +115,8 @@ https://vip.dytt-cine.com/20250530/27444_a4947781/index.m3u8
 https://vip.dytt-hot.com/20250211/59468_ecc7a6c1/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/iBkhkeCow6viMRn12FSPjpMHwYs.jpg" tvg-name="蜘蛛人：離家日" group-title="蜘蛛人",蜘蛛人：離家日
 https://vip.dytt-cine.com/20250530/27441_400c8d3d/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/kYicmBQVlXExQoWwQ6NBSo10XU6.jpg" tvg-name="侏羅紀公園" group-title="侏羅紀",侏羅紀公園
+https://vip.ffzy-play7.com/20221129/7750_cb13ad5a/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/fvgdnEPl5RxZgTOdRd9McO01QW.jpg" tvg-name="侏羅紀公園：失落的世界" group-title="侏羅紀",侏羅紀公園：失落的世界
 https://vip.dytt-live.com/20250402/3214_89d4402d/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/fTRPueNdYiQOEunFIsC0cvV50gB.jpg" tvg-name="侏羅紀公園3" group-title="侏羅紀",侏羅紀公園3
@@ -114,7 +140,7 @@ https://vip.dytt-film.com/20250220/8079_3aaa3db6/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9q0ch2Rj3smwnMbjfb0u6eBC6pQ.jpg" tvg-name="哈比人：五軍之戰" group-title="哈比人",哈比人：五軍之戰
 https://vip.dytt-film.com/20250220/8081_4afe0449/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/y6INaAmwDKl94bTsSmP5WjZKhEx.jpg" tvg-name="哥吉拉" group-title="哥吉拉",哥吉拉
-https://svip.high21-playback.com/20241123/40178_220943b5/index.m3u8
+https://svipsvip.ffzyread1.com/20241122/33654_5282e962/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6FxJloa0kFOvsu2z8HndPQ100yV.jpg" tvg-name="正宗哥吉拉" group-title="哥吉拉",正宗哥吉拉
 https://vip.dytt-kan.com/20250619/980_d79aac07/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/Ak2XXreUI4HG0PrmO6QwaGrnqbT.jpg" tvg-name="哥吉拉：怪獸惑星" group-title="哥吉拉",哥吉拉：怪獸惑星
@@ -169,6 +195,8 @@ https://vip.dytt-film.com/20250216/7159_42e9fb75/index.m3u8
 https://vip.dytt-film.com/20250126/2591_978fce5b/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/rmrfF7iOC6SLscGcGFLOb3shOwh.jpg" tvg-name="星艦戰將" group-title="星艦戰將",星艦戰將
 https://vip.dytt-live.com/20250408/3828_46d3f602/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tSNJtM2ez5YRmRPjuiQpMMgdO6q.jpg" tvg-name="星艦戰將：異形入侵" group-title="星艦戰將",星艦戰將：異形入侵
+https://vip.ffzy-online1.com/20230630/41951_fcca8cf2/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/aCLOGQg9DcGKemx2WTQ0LxtzO4Y.jpg" tvg-name="星艦戰將3：掠奪者" group-title="星艦戰將",星艦戰將3：掠奪者
 https://vip.dytt-film.com/20250303/10094_018a1b6c/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zpciuyCBq2LHAMdjxB62ccpQRbJ.jpg" tvg-name="捍衛戰士" group-title="捍衛戰士",捍衛戰士
@@ -220,19 +248,29 @@ https://vip.dytt-film.com/20250212/6364_84c578f2/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/eLjWZafv9uTTC2X3DfxNot3gQlt.jpg" tvg-name="殺手保鑣" group-title="殺手保鑣",殺手保鑣
 https://vip.dytt-cine.com/20250527/26009_90a01a8d/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/awTT5YrzPyUo1UMoQXVPvpolwbe.jpg" tvg-name="殺手保鑣2" group-title="殺手保鑣",殺手保鑣2
-https://yzzy.play-cdn4.com/20220619/22358_c73a1b5f/index.m3u8
+https://vip.ffzy-play7.com/20221229/10349_02a1ae9a/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/qYh4dZQeZt8WT1H4cl0qLOyTwhm.jpg" tvg-name="拆彈專家" group-title="拆彈專家",拆彈專家
 https://vip.dytt-film.com/20250210/5704_ce11641e/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ehUy4cqRy0xLRMq56maGVM8KeGq.jpg" tvg-name="拆彈專家2" group-title="拆彈專家",拆彈專家2
 https://vip.dytt-film.com/20250205/4782_a376802c/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/nwYnlNBb8qmcyujxDQrM3fDapzX.jpg" tvg-name="鬼擋路" group-title="致命彎道",鬼擋路
 https://vip.dytt-kan.com/20251002/7173_162d1815/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ldErvWgNwJSUQvHg2PNA1iqkTJm.jpg" tvg-name="鬼擋路2" group-title="致命彎道",鬼擋路2
+https://vip.ffzy-play7.com/20230224/16030_79480ea2/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/scIDpNUeIN0cnrOjBUQhGa1KZOx.jpg" tvg-name="鬼擋路3" group-title="致命彎道",鬼擋路3
 https://vip.dytt-film.com/20250130/3646_b5a1d925/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/qVldWEZ7FulnUGzgtAedqwbozly.jpg" tvg-name="鬼擋路4" group-title="致命彎道",鬼擋路4
+https://vip.ffzy-play7.com/20230224/16031_4bb8a8e5/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7raoz46h2cbMJIAE7GnwxrmEIIE.jpg" tvg-name="鬼擋路6" group-title="致命彎道",鬼擋路6
+https://vip.ffzy-online4.com/20230226/11075_6e387776/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4U1SBHmwHkNA0eHZ2n1CuiC1K1g.jpg" tvg-name="鬼擋路7" group-title="致命彎道",鬼擋路7
 https://vip.dytt-kan.com/20251002/7173_162d1815/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ubI1LllWsA92f4M9GKX2wUlzkPR.jpg" tvg-name="蝴蝶效應" group-title="蝴蝶效應",蝴蝶效應
 https://vip.dytt-film.com/20250207/5459_9d05c2d9/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/uOnBP65aUanTCKraSZPl3SCrsji.jpg" tvg-name="蝴蝶效應2" group-title="蝴蝶效應",蝴蝶效應2
+https://vip.ffzy-play7.com/20230214/14661_f0ae01ea/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/sChHGRBJo6eElPLGJ8AX9lMIJFS.jpg" tvg-name="蝴蝶效應3：啟示" group-title="蝴蝶效應",蝴蝶效應3：啟示
+https://vip.ffzy-play6.com/20221030/2851_18dc47f2/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/qIYSy2Z594mRoi9IKwJEfQenzvm.jpg" tvg-name="第一滴血" group-title="第一滴血",第一滴血
 https://vip.dytt-film.com/20250117/297_9fd81843/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/pHdIpy2rx07U9IfdN0nTfyJKBRo.jpg" tvg-name="第一滴血2" group-title="第一滴血",第一滴血2
@@ -257,6 +295,8 @@ https://vip.dytt-kan.com/20250808/3312_334467d4/index.m3u8
 https://vip.dytt-kan.com/20250808/3276_b58ac840/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/fbTQ0Q9TEFlb25jnXyVetJSDVaZ.jpg" tvg-name="星際大戰二部曲：複製人全面進攻" group-title="星際大戰",星際大戰二部曲：複製人全面進攻
 https://vip.dytt-kan.com/20250808/3277_fd8c07a3/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/m2pkyawUZKgvxiaZjsn1izR6Pda.jpg" tvg-name="星際大戰三部曲：西斯大帝的復仇" group-title="星際大戰",星際大戰三部曲：西斯大帝的復仇
+https://vip.ffzy-play7.com/20230328/20120_32e7abcd/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/wNdrXBAFbfgpKgprtTFnoePn86x.jpg" tvg-name="星際大戰七部曲：原力覺醒" group-title="星際大戰",星際大戰七部曲：原力覺醒
 https://vip.dytt-cine.com/20250531/27455_5de40236/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/fgmMzKdq3Ab4n2HvzbLlHosNPgz.jpg" tvg-name="星際大戰外傳：俠盜一號" group-title="星際大戰",星際大戰外傳：俠盜一號
@@ -303,6 +343,10 @@ https://vip.dytt-watch.com/20250905/1029_84d2004b/index.m3u8
 https://vip.dytt-watch.com/20250905/1030_e515df0d/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zDlUIGVsRtDQKyIAPNIXZhpobnP.jpg" tvg-name="捍衛任務：復仇芭蕾" group-title="捍衛任務",捍衛任務：復仇芭蕾
 https://vip.dytt-kan.com/20250723/2720_fa2e8c43/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/udiXYwya8piLGV5Ac1w5yJSHKQb.jpg" tvg-name="安娜貝爾" group-title="安娜貝爾",安娜貝爾
+https://vip.ffzy-play6.com/20221105/4455_2d800a81/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8PgAeOu2rZrjgWymDSIldTe7Cdp.jpg" tvg-name="安娜貝爾：造孽" group-title="安娜貝爾",安娜貝爾：造孽
+https://vip.ffzy-online1.com/20230804/42688_b811056f/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5HcflLOjIObYKiAdKqUqs7FlsiI.jpg" tvg-name="安娜貝爾回家囉" group-title="安娜貝爾",安娜貝爾回家囉
 https://vip.dytt-cine.com/20250522/25627_8845ac2b/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/r7gjKO6epOfkexDAiXFkUvujIDs.jpg" tvg-name="金牌特務" group-title="金牌特務",金牌特務
@@ -313,6 +357,10 @@ https://vip.dytt-kan.com/20251024/8902_c5603055/index.m3u8
 https://vip.dytt-kan.com/20250607/469_dc6a6489/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ka2yS07QwlUZvpoVD40MXJf4OAw.jpg" tvg-name="移動迷宮" group-title="移動迷宮",移動迷宮
 https://vip.dytt-cine.com/20250531/27524_c101eebb/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2nh54g8qxottzCdVA7x6sINoKvi.jpg" tvg-name="移動迷宮：焦土試煉" group-title="移動迷宮",移動迷宮：焦土試煉
+https://vip.ffzy-play7.com/20221228/10152_9e011c8f/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/nfa6Y4cnN69SqwkifiiabKYBX8E.jpg" tvg-name="移動迷宮：死亡解藥" group-title="移動迷宮",移動迷宮：死亡解藥
+https://vip.ffzy-play7.com/20230216/14965_181a3865/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ymAcG47ZmEp92zj1wtUXVgSmm72.jpg" tvg-name="環太平洋" group-title="環太平洋",環太平洋
 https://vip.dytt-film.com/20250210/5815_2835acf1/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/rrqap5OWPvSCWtiHv3RgBYuugUc.jpg" tvg-name="環太平洋2：起義時刻" group-title="環太平洋",環太平洋2：起義時刻
@@ -333,6 +381,8 @@ https://vip.dytt-kan.com/20250619/927_1f4477ba/index.m3u8
 https://vip.dytt-kan.com/20250618/923_c4015b7f/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/kWQQNIBELI6VTnzqQOY4eQrpisH.jpg" tvg-name="惡靈古堡3：大滅絕" group-title="惡靈古堡",惡靈古堡3：大滅絕
 https://vip.dytt-kan.com/20250618/924_bea5955b/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/wWBr3PTKcFkfHP2luW6zGgQPB3U.jpg" tvg-name="惡靈古堡：惡化" group-title="惡靈古堡",惡靈古堡：惡化
+https://vip.ffzy-play7.com/20230220/15480_b4e32320/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/g0WnpP8lbxHZ9YxDtQUyxlgOShs.jpg" tvg-name="惡靈古堡4：陰陽界" group-title="惡靈古堡",惡靈古堡4：陰陽界
 https://vip.dytt-kan.com/20250618/925_7fa732b5/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zUbWCiUsoJXk87WDahzNDXlfBNt.jpg" tvg-name="惡靈古堡5：天譴日" group-title="惡靈古堡",惡靈古堡5：天譴日
@@ -344,7 +394,7 @@ https://vip.dytt-kan.com/20250710/2140_23c97e9c/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hBLQb1aiIGo5UG2y6GY6V9zEpCn.jpg" tvg-name="惡靈古堡首部曲：拉昆市" group-title="惡靈古堡",惡靈古堡首部曲：拉昆市
 https://vip.dytt-cine.com/20250531/27490_f25a418b/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/rwddi4XC6ghlruZ6rxIDhdnOTGc.jpg" tvg-name="惡靈古堡：死亡島" group-title="惡靈古堡",惡靈古堡：死亡島
-https://yzzy.play-cdn18.com/20230721/1221_68db5373/index.m3u8
+https://vip.ffzy-online2.com/20230722/41996_1c8bc45c/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/at6suvp3YVGjV7Az0EF3TXVd5Ns.jpg" tvg-name="全面攻佔：倒數救援" group-title="全面攻佔",全面攻佔：倒數救援
 https://vip.dytt-kan.com/20250614/701_b4a52895/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ikIZPV6saTkPCSPDZ1BXvi2impx.jpg" tvg-name="全面攻佔2：倫敦救援" group-title="全面攻佔",全面攻佔2：倫敦救援
@@ -405,10 +455,18 @@ https://vip.dytt-live.com/20250417/4239_887a185b/index.m3u8
 https://vip.dytt-live.com/20250326/1873_d4b2aeb2/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gGoEErUEaOeoSmKtow2PkLQpmot.jpg" tvg-name="即刻救援3" group-title="即刻救援",即刻救援3
 https://vip.dytt-film.com/20250126/2669_0bed45bd/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dxUmo3ybp4NHVcVLjbmenUpMOz0.jpg" tvg-name="忌日快樂" group-title="忌日快樂",忌日快樂
+https://vip.ffzy-play6.com/20221203/9512_b56ca9f2/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dpIDy9DZo2M94itAt7tErrc8ABA.jpg" tvg-name="祝你忌日快樂" group-title="忌日快樂",祝你忌日快樂
 https://vip.dytt-film.com/20250121/1275_bb04af0f/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/54pptnrBIDuh9klyUSsn4DImvO9.jpg" tvg-name="猩球崛起" group-title="猩球崛起",猩球崛起
+https://vip.ffzy-play7.com/20230214/14764_84e37bdf/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bFCHdkiXTppqtqHXjpiSjpK5hxi.jpg" tvg-name="猩球崛起：黎明的進擊" group-title="猩球崛起",猩球崛起：黎明的進擊
+https://vip.ffzy-play7.com/20230219/15328_66269bd7/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8plpyZaNWKxFy2OlUsyvY7syPyZ.jpg" tvg-name="猩球崛起：終極決戰" group-title="猩球崛起",猩球崛起：終極決戰
+https://vip.ffzy-play7.com/20230219/15329_36fd14a4/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tE10WMV3SK2kq79aLHztJhz0EM5.jpg" tvg-name="猩球崛起：王國誕生" group-title="猩球崛起",猩球崛起：王國誕生
-https://svip.high22-playback.com/20240520/2309_3ad4bbad/index.m3u8
+https://vip.ffzy-video.com/20250813/24343_e3f13237/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zTPKzffEc0xivjetoSLu33VW5Vp.jpg" tvg-name="驚聲尖笑" group-title="驚聲尖笑",驚聲尖笑
 https://vip.dytt-film.com/20250206/5228_5a0b8489/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mHHI6ep5QSEKVfSG4WQc5XH1p8V.jpg" tvg-name="驚聲尖笑2" group-title="驚聲尖笑",驚聲尖笑2
@@ -450,7 +508,7 @@ https://vip.dytt-film.com/20250124/2182_d51b4167/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/qEhYittC4aby4qswYVC5Qn9XQOG.jpg" tvg-name="大黃蜂" group-title="變形金剛",大黃蜂
 https://vip.dytt-film.com/20250123/1780_f63f65b5/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gMeHtRhmnABBv0FVCQYDbXmRtxy.jpg" tvg-name="變形金剛：萬獸崛起" group-title="變形金剛",變形金剛：萬獸崛起
-https://yzzy.play-cdn18.com/20230721/1135_22dc95fe/index.m3u8
+https://svipsvip.ffzyread1.com/20230711/15118_655c0059/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/qHuj8TDG9OB4rJLDFkXvnOBnG2C.jpg" tvg-name="飢餓遊戲" group-title="飢餓遊戲",飢餓遊戲
 https://vip.dytt-film.com/20250210/5824_b7f520a5/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6HTJQW37kvV0J9lCxsiyLgPaLCE.jpg" tvg-name="飢餓遊戲：星火燎原" group-title="飢餓遊戲",飢餓遊戲：星火燎原
@@ -481,12 +539,16 @@ https://vip.dytt-luck.com/20250814/16360_053b47ac/index.m3u8
 https://vip.dytt-luck.com/20250814/16361_dc2f35f7/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dGUoJTyE1hO0OB3SwKbTivDzvUe.jpg" tvg-name="駭客任務：復活" group-title="駭客任務",駭客任務：復活
 https://vip.dytt-luck.com/20250814/16362_6f900a87/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/fHI66emtBRqdVN92u3CPOrJPlqN.jpg" tvg-name="魔境夢遊：時光怪客" group-title="魔境夢遊",魔境夢遊：時光怪客
+https://vip.ffzy-play7.com/20230312/17902_393ffbbb/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/x3AIUStyrejBvT4GF9KhB8Ql0Io.jpg" tvg-name="沉默之丘" group-title="沉默之丘",沉默之丘
 https://vip.dytt-cine.com/20250523/25707_3d585791/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6oawuRGQfyjRNImfPPgK750oiSy.jpg" tvg-name="沉默之丘2：啟示錄" group-title="沉默之丘",沉默之丘2：啟示錄
 https://vip.dytt-cine.com/20250523/25683_d95c6aef/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tyqt4dg69mRgue77aYyXJYXcNEp.jpg" tvg-name="歌舞青春2" group-title="歌舞青春",歌舞青春2
 https://vip.dytt-cine.com/20250308/6069_55312eec/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8WH3bzbpJ974qb3GDMCN6TIDmiY.jpg" tvg-name="歌舞青春3：畢業季" group-title="歌舞青春",歌舞青春3：畢業季
+https://vip.ffzy-play7.com/20230124/12224_a4bb8234/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2m4s4jQnaSn4rQ4SwZaVGx8hW1s.jpg" tvg-name="歌舞青春" group-title="歌舞青春",歌舞青春
 https://vip.dytt-cine.com/20250522/25573_15d4408a/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/wZOsxwQjTdtSki0MiPIy8Zu9lv1.jpg" tvg-name="回到未來" group-title="回到未來",回到未來
@@ -513,6 +575,10 @@ https://vip.dytt-kan.com/20250924/6176_fc1f073f/index.m3u8
 https://vip.dytt-kan.com/20250622/1202_147702db/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7lrBpTVvDvB0bGE7WkHVtX818UK.jpg" tvg-name="功夫熊貓" group-title="功夫熊貓",功夫熊貓
 https://vip.dytt-film.com/20250302/9965_bb997292/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/nlHxaqtPc0SJgjbCxYbP5t3GQBa.jpg" tvg-name="功夫熊貓2" group-title="功夫熊貓",功夫熊貓2
+https://vip.ffzy-play6.com/20221019/153_e26dc292/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/trOu1ng3kDE3vKsjP8XLw3oL8lQ.jpg" tvg-name="功夫熊貓4" group-title="功夫熊貓",功夫熊貓4
+https://svipsvip.ffzy-online5.com/20240410/25839_da8e46f9/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2taB1JipSAqHTzySTYRIErva5yF.jpg" tvg-name="惡靈戰警" group-title="惡靈騎士",惡靈戰警
 https://vip.dytt-film.com/20250208/5664_b24d2101/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/suK8GWUsIw0NYzWLkBXL9Q6B4TL.jpg" tvg-name="惡靈戰警：復仇時刻" group-title="惡靈騎士",惡靈戰警：復仇時刻
@@ -523,10 +589,20 @@ https://vip.dytt-film.com/20250207/5272_e8855b35/index.m3u8
 https://vip.dytt-film.com/20250210/6033_317d17f1/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tHiV8eBgEo7oBgpOGlYrRkXjxUI.jpg" tvg-name="舞出真我" group-title="舞力全開",舞出真我
 https://vip.dytt-live.com/20250321/730_d5cfead9/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2gH1gFxqh70cjISQuURmLYD9zmt.jpg" tvg-name="舞力全開" group-title="舞力全開",舞力全開
+https://vip.ffzy-play2.com/20221127/1573_e89cb8c9/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/wXFFtxK55KzubYt9LtwQ1nopEMG.jpg" tvg-name="舞力全開3D" group-title="舞力全開",舞力全開3D
+https://vip.ffzy-play7.com/20230505/24013_5ca169e2/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2oY7b9w0dNTv0m0XBSvFzg13mgt.jpg" tvg-name="舞力全開4 3D" group-title="舞力全開",舞力全開4 3D
+https://vip.ffzy-play6.com/20221126/8375_019d6637/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9uh7bJBxtA92bTKSnBOWQvOsLMN.jpg" tvg-name="舞力全開5 3D" group-title="舞力全開",舞力全開5 3D
 https://vip.dytt-live.com/20250402/3167_20c86a62/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/jxI56ClqpfkFi3RTAfkJhX64kKG.jpg" tvg-name="機器戰警2" group-title="機器戰警",機器戰警2
 https://vip.dytt-live.com/20250430/5244_0da474fc/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/v3BaUC4FPnqWJvn2VLqNz3RW6Cc.jpg" tvg-name="機器戰警3" group-title="機器戰警",機器戰警3
+https://vip.ffzy-online1.com/20230624/41666_1289da2e/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/phpPQhnhT70qAiLeIgtcKy79MOx.jpg" tvg-name="機器戰警" group-title="機器戰警",機器戰警
+https://vip.ffzy-online1.com/20230624/41667_21264050/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/xHaw4YBijCEpJ7OeH7v1oNSuIKN.jpg" tvg-name="法櫃奇兵" group-title="法櫃奇兵",法櫃奇兵
 https://vip.dytt-film.com/20250201/3940_3fa14621/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/sPpZFG3WjGpHZ4JKH6QAeI2ikso.jpg" tvg-name="魔宮傳奇" group-title="法櫃奇兵",魔宮傳奇
@@ -539,6 +615,8 @@ https://vip.dytt-film.com/20250128/3309_2b7b82a7/index.m3u8
 https://vip.dytt-film.com/20250118/356_6c524f9d/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mJz7RYvXD5FaHzufq5twkj5R2xH.jpg" tvg-name="警察故事續集" group-title="警察故事",警察故事續集
 https://vip.dytt-film.com/20250118/358_aa942ab2/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/uHE1KWAayvY5Q90iqOj0a3SDDQ6.jpg" tvg-name="警察故事3：超級警察" group-title="警察故事",警察故事3：超級警察
+https://vip.ffzy-play7.com/20221206/8266_97359a93/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/diMVUKeRM7jzXLEmgEBIGZFxZ96.jpg" tvg-name="警察故事4 簡單任務" group-title="警察故事",警察故事4 簡單任務
 https://vip.dytt-live.com/20250329/2574_8f125da0/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/97xLI9oJY1CS1SIzcUsBPiSxTP9.jpg" tvg-name="賭城風雲 / 賭神4之誰與爭鋒" group-title="澳門風雲",賭城風雲 / 賭神4之誰與爭鋒
@@ -549,6 +627,8 @@ https://vip.dytt-film.com/20250205/4733_901797ae/index.m3u8
 https://vip.dytt-film.com/20250125/2455_b427426b/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/cF22VhaOVpNxP48wj5XEFM3Ys9x.jpg" tvg-name="王牌大賤諜" group-title="王牌大賤諜",王牌大賤諜
 https://vip.dytt-film.com/20250309/11980_004eef55/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/jiF7UShERJFn5RtgfBK2lIJrOTc.jpg" tvg-name="王牌大賤諜二部曲：時空賤諜007" group-title="王牌大賤諜",王牌大賤諜二部曲：時空賤諜007
+https://vip.ffzy-play7.com/20221224/9597_216306ec/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/n8V61f1v7idya4WJzGEJNoIp9iL.jpg" tvg-name="王牌大賤諜 3：夠 Man 吧" group-title="王牌大賤諜",王牌大賤諜 3：夠 Man 吧
 https://vip.dytt-film.com/20250309/11979_76872bcd/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4BApOzZUP24DHznRvnJnRsXQVJ4.jpg" tvg-name="限制級戰警" group-title="限制級戰警",限制級戰警
@@ -615,10 +695,18 @@ https://vip.dytt-kan.com/20250615/739_df263d99/index.m3u8
 https://vip.dytt-kan.com/20250615/740_edfbe1af/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/iPDX75B3d2pfeq96f8syFGLJFAj.jpg" tvg-name="國定殺戮日" group-title="國定殺戮日",國定殺戮日
 https://vip.dytt-film.com/20250210/5863_47221768/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/jv67wHBnFLojOnbTcTEBfB26fbl.jpg" tvg-name="國定殺戮日：無法無天" group-title="國定殺戮日",國定殺戮日：無法無天
+https://vip.ffzy-play6.com/20221205/9909_7e8abb19/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/Mk6UG1Jw9C0Nq4AqlEjMRw4MJF.jpg" tvg-name="國定殺戮日：大選之年" group-title="國定殺戮日",國定殺戮日：大選之年
+https://vip.ffzy-play6.com/20221203/9542_f3200ddd/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/sKGgAYihqHK4ThQW78FyMJ3GCKH.jpg" tvg-name="殺戮元年" group-title="國定殺戮日",殺戮元年
+https://vip.ffzy-play6.com/20221203/9543_52999ff7/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bh3SFJI0WCW6MJh2fzbUV3ZZ1aa.jpg" tvg-name="無限殺戮日" group-title="國定殺戮日",無限殺戮日
-https://yzzy.play-cdn8.com/20220712/4577_fc066d66/index.m3u8
+https://vip.ffzy-play7.com/20230214/14772_2e29d834/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tywUkCQBhJ5mtC3N8wS19xATAiT.jpg" tvg-name="凸搥特派員" group-title="凸搥特派員",凸搥特派員
 https://vip.dytt-film.com/20250128/3325_936824c0/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ddZoA1WNuvFDXLuun3e3VXV99tW.jpg" tvg-name="凸搥特派員：二度出包" group-title="凸搥特派員",凸搥特派員：二度出包
+https://vip.ffzy-play6.com/20221203/9506_6d40d8aa/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/u0QQaJ2TeS0eRQQtfP05ufxP62V.jpg" tvg-name="凸搥特派員：三度出擊" group-title="凸搥特派員",凸搥特派員：三度出擊
 https://vip.dytt-live.com/20250422/4669_ccc36675/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bth35q7Xg4rQJ6tpgIadseDIJTO.jpg" tvg-name="決戰異世界" group-title="決戰異世界",決戰異世界
@@ -655,10 +743,14 @@ https://vip.dytt-film.com/20250129/3555_22b1cd16/index.m3u8
 https://vip.dytt-film.com/20250222/8374_87019fb4/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/l6RrvFLpTD9cELDdrtlFKsDacHA.jpg" tvg-name="MIB星際戰警2" group-title="MIB星際戰警",MIB星際戰警2
 https://vip.dytt-live.com/20250430/5252_5553cfaf/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/pfj56UoxQXcLRFotUnCCif6CyDx.jpg" tvg-name="MIB星際戰警3" group-title="MIB星際戰警",MIB星際戰警3
+https://vip.ffzy-online4.com/20230410/19092_cf3f5b5e/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/41BTYug5HbMPaAXrCXzW4fWQsg4.jpg" tvg-name="MIB星際戰警：跨國行動" group-title="MIB星際戰警",MIB星際戰警：跨國行動
-https://yzzy.play-cdn13.com/20221228/2754_f8a7adfe/index.m3u8
+https://vip.ffzy-play7.com/20221229/10239_28cbc06b/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hpczpIpAdI0q64dhOEfb3mYYm0z.jpg" tvg-name="超世紀戰警：闇黑對決" group-title="超世紀戰警",超世紀戰警：闇黑對決
 https://vip.dytt-film.com/20250128/3224_0d352b4d/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3hfnM7mcUhzLloHCAdnr48gvNAB.jpg" tvg-name="納尼亞傳奇：獅子、女巫、魔衣櫥" group-title="納尼亞傳奇",納尼亞傳奇：獅子、女巫、魔衣櫥
+https://vip.ffzy-play7.com/20230328/20043_764b5c59/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tlK89hZx4Ls2FOC9PcgKtA6aCbT.jpg" tvg-name="納尼亞傳奇：賈思潘王子" group-title="納尼亞傳奇",納尼亞傳奇：賈思潘王子
 https://vip.dytt-cine.com/20250523/25672_0555bb36/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zshdMOOQ5QUCL7fnyEs3Y6QHw1V.jpg" tvg-name="納尼亞傳奇：黎明行者號" group-title="納尼亞傳奇",納尼亞傳奇：黎明行者號
@@ -670,11 +762,11 @@ https://vip.dytt-film.com/20250118/312_950a4152/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3Hj4gkqlLAo4BrdX21pTzKDHkxm.jpg" tvg-name="瘋狂麥斯：憤怒道" group-title="瘋狂的麥克斯",瘋狂麥斯：憤怒道
 https://vip.dytt-live.com/20250504/5743_31f81674/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5wjXP8HivlQ10BZ3A4d5OMWl4RS.jpg" tvg-name="芙莉歐莎：瘋狂麥斯傳奇篇章" group-title="瘋狂的麥克斯",芙莉歐莎：瘋狂麥斯傳奇篇章
-https://svip.high23-playback.com/20240625/14970_e42ad519/index.m3u8
+https://svipsvip.ffzy-online5.com/20240625/29113_c4e86305/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4acTqJWkphYg9D7wkDbqZuHT6r0.jpg" tvg-name="暫時停止呼吸" group-title="暫時停止呼吸",暫時停止呼吸
 https://vip.dytt-film.com/20250123/1864_d072677d/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/oiu3Zfr0GqLvL7k8HxWf7sS11m1.jpg" tvg-name="暫時停止呼吸2" group-title="暫時停止呼吸",暫時停止呼吸2
-https://yzzy.play-cdn7.com/20220813/11340_15a2ab39/index.m3u8
+https://vip.ffzy-play7.com/20230304/16995_1a862e55/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9cMgNhyvB1FL1mdUAQ4VXCTfVEP.jpg" tvg-name="不可能的任務" group-title="不可能的任務",不可能的任務
 https://vip.dytt-kan.com/20251014/8139_e025b627/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6B5Fx5OhruTJAVhRNHEJv1vdiPD.jpg" tvg-name="不可能的任務2" group-title="不可能的任務",不可能的任務2
@@ -695,9 +787,15 @@ https://vip.dytt-live.com/20250325/1217_6a61d423/index.m3u8
 https://vip.dytt-live.com/20250325/1215_a4d2f0d2/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/x0zmaHETC6xaeHoFDGrTvJnkim0.jpg" tvg-name="博物館驚魂夜3" group-title="博物館驚魂夜",博物館驚魂夜3
 https://vip.dytt-live.com/20250325/1216_3948ead6/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bTIxFB8KwraM3k0hcnbu1rY22Uj.jpg" tvg-name="第六感追緝令2" group-title="第六感追緝令",第六感追緝令2
+https://vip.ffzy-play7.com/20230312/17907_5b947ab3/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lXRSRP5QMfrr9cSiupvcGDJW1Sa.jpg" tvg-name="蝙蝠俠：開戰時刻" group-title="黑暗騎士三部曲",蝙蝠俠：開戰時刻
 https://vip.dytt-film.com/20250210/5767_b8b12f94/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6pQMQQrnRWm2zweL5vWyyMHvAa6.jpg" tvg-name="黑暗騎士" group-title="黑暗騎士三部曲",黑暗騎士
 https://vip.dytt-live.com/20250408/3694_4b26dc46/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/rcqIPCMhvYpreMHzMuHiezQqBK3.jpg" tvg-name="黑暗騎士：黎明昇起" group-title="黑暗騎士三部曲",黑暗騎士：黎明昇起
 https://vip.dytt-film.com/20250213/6566_514f94b7/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/n65JXzA0th9XTugmPJwf1tTh0Vt.jpg" tvg-name="格雷的五十道陰影：束縛" group-title="格雷的五十道陰影",格雷的五十道陰影：束縛
+https://vip.ffzy-online4.com/20230503/22832_076ac460/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3Eo5CxoeXG7rnbiyO14H7vA1wAJ.jpg" tvg-name="格雷的五十道陰影：自由" group-title="格雷的五十道陰影",格雷的五十道陰影：自由
+https://vip.ffzy-online2.com/20230416/32869_9ccdc164/index.m3u8

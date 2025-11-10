@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/41wNry7gPpScvZDUdwRximL0GjO-185x278.jpg" tvg-name="有聲之年" group-title="2025",有聲之年
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=166587
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/10/hnhRmdPWuy2imyg9w3VuSx6Ba5E-185x278.jpg" tvg-name="凜冬將至" group-title="2025",凜冬將至
 https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=166477
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/10/p1b6LLz0rofG6mHhsRuf66oVgZH-185x278.jpg" tvg-name="贖夢" group-title="2025",贖夢
@@ -3047,6 +3049,8 @@ https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=59804
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=142773
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2024/01/nLIDouFvreSrs8xK62zuvpEPDw0-185x278.jpg" tvg-name="愛有來世" group-title="2017",愛有來世
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=147338
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/1EZcxDZNBy6zbmzLTozqdd0oOr2-185x278.jpg" tvg-name="拳拳到肉" group-title="2016",拳拳到肉
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=166585
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/03/zyldaLGUo7oZpI9Z1bYPg59uPQw-185x278.jpg" tvg-name="海洋奇緣" group-title="2016",海洋奇緣
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=164966
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/03/mC80aKsZCjsg5Oy9VLGtjxJNXJu-185x278.jpg" tvg-name="比海還深" group-title="2016",比海還深
@@ -3579,6 +3583,8 @@ https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=147436
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=147547
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2024/03/TAmMyVfw6P25KU5XMMiNSUnn7i-185x278.jpg" tvg-name="300壯士：帝國崛起" group-title="2014",300壯士：帝國崛起
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=147586
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/edoxSu8c1xE9YsG81cE71d7Ln98-185x278.jpg" tvg-name="蝙蝠俠：黑暗騎士歸來（下）" group-title="2013",蝙蝠俠：黑暗騎士歸來（下）
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=166580
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/08/x1ZkDLydCpQ0zZZMpQdZ4QuiivQ-185x278.jpg" tvg-name="青春派" group-title="2013",青春派
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=166152
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/05/blmFqHHlwLoyRlfSMknI9YnDAh2-185x278.jpg" tvg-name="藥命俱樂部" group-title="2013",藥命俱樂部
@@ -3713,6 +3719,10 @@ https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=66873
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=147358
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2024/03/eBUv2GmGdXmCk1AaSOmyiu70hN8-185x278.jpg" tvg-name="遲來的守護者" group-title="2013",遲來的守護者
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=147552
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/7xSR1G1cBx67WlAooTlwqfXRFaN-185x278.jpg" tvg-name="黑暗騎士：黎明昇起" group-title="2012",黑暗騎士：黎明昇起
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=166570
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/eksuvWNmUjPiz0AWDacqamhm2Iv-185x278.jpg" tvg-name="蝙蝠俠：黑暗騎士歸來（上）" group-title="2012",蝙蝠俠：黑暗騎士歸來（上）
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=166578
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/08/7VKJQ3TMG8K9Cqa6tnfIrPkyvjY-185x278.jpg" tvg-name="狼的孩子雨和雪" group-title="2012",狼的孩子雨和雪
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=166156
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/06/rwvxQ76l1eMRSHTUZ8C5zwSuIsB-185x278.jpg" tvg-name="桃姐" group-title="2012",桃姐
@@ -3963,6 +3973,8 @@ https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=72784
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=92875
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2023/05/hBPUbk9VwuJNfe1NeR02CTtNSEm-185x278.jpg" tvg-name="孤岛惊魂" group-title="2011",孤岛惊魂
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=103862
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/7lmHqHg1rG9b4U8MjuyQjmJ7Qm0-185x278.jpg" tvg-name="蝙蝠俠：決戰紅帽火魔" group-title="2010",蝙蝠俠：決戰紅帽火魔
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=166576
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/xBz4qtEV7B7fWCZc0Dq1Hi2UYwS-185x278.jpg" tvg-name="喋血孤城" group-title="2010",喋血孤城
 https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=166568
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/09/o2nLnzJ0GjepztDIfYsxUGLZZkS-185x278.jpg" tvg-name="創：光速戰記" group-title="2010",創：光速戰記
