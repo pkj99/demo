@@ -1,4 +1,10 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/aOlAhqJXfxF2IqVlbK6vpqNIpWI-185x278.jpg" tvg-name="蛟龍行動" group-title="2025",蛟龍行動
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=166628
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/rcmJRflS4aFJg8Ockk7YePQWlzc-185x278.jpg" tvg-name="殺人者報告" group-title="2025",殺人者報告
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=166632
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/aab46337d88a85-185x278.jpg" tvg-name="怪奇麗莎" group-title="2025",怪奇麗莎
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=166634
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/41wNry7gPpScvZDUdwRximL0GjO-185x278.jpg" tvg-name="有聲之年" group-title="2025",有聲之年
 https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=166587
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/10/hnhRmdPWuy2imyg9w3VuSx6Ba5E-185x278.jpg" tvg-name="凜冬將至" group-title="2025",凜冬將至
