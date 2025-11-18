@@ -1,4 +1,10 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/dTzOCixsBNVBlWFHW85lWMayOfU-185x278.jpg" tvg-name="睡覺的笨蛋" group-title="2025",睡覺的笨蛋
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=166671
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/neo8e4XO9C3GsEups0Xmr9pfEHO-185x278.jpg" tvg-name="活死人變裝夜" group-title="2025",活死人變裝夜
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=166675
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/oQJG9wtXGzW6hUuyZRi7JpCJpAH-185x278.jpg" tvg-name="全知讀者視角" group-title="2025",全知讀者視角
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=166684
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/aOlAhqJXfxF2IqVlbK6vpqNIpWI-185x278.jpg" tvg-name="蛟龍行動" group-title="2025",蛟龍行動
 https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=166628
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/rcmJRflS4aFJg8Ockk7YePQWlzc-185x278.jpg" tvg-name="殺人者報告" group-title="2025",殺人者報告
@@ -205,6 +211,8 @@ https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=164888
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=164794
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/02/7Xzf7IHltlUHosVKKW7cKWtTv1n-185x278.jpg" tvg-name="笑傲江湖" group-title="2025",笑傲江湖
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=164695
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/w0kvHuCoJs8oUhaLCnjfyPaugkX-185x278.jpg" tvg-name="復活劫" group-title="2024",復活劫
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=166658
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/ba9b2ca9ce1674-185x278.jpg" tvg-name="最後的歌舞女郎" group-title="2024",最後的歌舞女郎
 https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=166533
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/10/dFvm9QUTu3l4kR3aRzBzxRA8SI1-185x278.jpg" tvg-name="四月，她將到來。" group-title="2024",四月，她將到來。
@@ -3725,6 +3733,8 @@ https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=66873
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=147358
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2024/03/eBUv2GmGdXmCk1AaSOmyiu70hN8-185x278.jpg" tvg-name="遲來的守護者" group-title="2013",遲來的守護者
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=147552
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/79b2a8ea895c18-185x278.jpg" tvg-name="貞子3D" group-title="2012",貞子3D
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=166655
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/7xSR1G1cBx67WlAooTlwqfXRFaN-185x278.jpg" tvg-name="黑暗騎士：黎明昇起" group-title="2012",黑暗騎士：黎明昇起
 https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=166570
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/eksuvWNmUjPiz0AWDacqamhm2Iv-185x278.jpg" tvg-name="蝙蝠俠：黑暗騎士歸來（上）" group-title="2012",蝙蝠俠：黑暗騎士歸來（上）
