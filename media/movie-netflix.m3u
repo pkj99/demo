@@ -1,4 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tCnYPjdIERnXrIttJBEytzBu4Y2.jpg" tvg-name="山怪巨魔 2" group-title="2025",山怪巨魔 2
+https://vip.dytt-cinema.com/20251201/42065_c7f803c3/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/83hlIpNTVGnD47IJQzsnUe76siX.jpg" tvg-name="偷心響叮噹" group-title="2025",偷心響叮噹
+https://vip.dytt-cine.com/20251126/62881_8b04eba7/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/vqYZMLUwaN1z1iJ4TKvExyxo1TX.jpg" tvg-name="俠盜之星" group-title="2025",俠盜之星
 https://vip.dytt-cine.com/20251113/61840_127f8750/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4bS3Xt3lKL3m7zrM8Cv5pyUEdU9.jpg" tvg-name="聖誕前緣" group-title="2025",聖誕前緣
@@ -41,6 +45,8 @@ https://vip.dytt-cine.com/20251017/59524_97daa09f/index.m3u8
 https://vip.dytt-cine.com/20250920/56528_447df103/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/iKHvtnjaXVs50GBNI7WKrU54uLS.jpg" tvg-name="與你共度同一天" group-title="2025",與你共度同一天
 https://vip.dytt-cine.com/20250919/56389_e6ce24b0/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9RwFA1tHOpblukY0sBsW1AuNDnE.jpg" tvg-name="左撇子女孩" group-title="2025",左撇子女孩
+https://vip.dytt-cinema.com/20251128/41847_9f0360dd/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/jFKVG3o0f8gt2pmVEUA6er6NYBI.jpg" tvg-name="烏龍巴黎夢" group-title="2025",烏龍巴黎夢
 https://vip.dytt-cinema.com/20250912/34221_b02ec300/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3EE2OaqxgU5zCrEJt97aXrJvBc5.jpg" tvg-name="反派學院" group-title="2025",反派學院
@@ -143,6 +149,8 @@ https://vip.dytt-kan.com/20250619/1032_995e1fda/index.m3u8
 https://vip.dytt-kan.com/20250620/1069_fc2c7c47/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hkK8giuqnnHsOcJYKoScA5sNBSg.jpg" tvg-name="來自誰的啟示" group-title="2025",來自誰的啟示
 https://vip.dytt-kan.com/20250619/1005_2387337b/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mZSpbl5y2PSheqdi5sbigysK2vM.jpg" tvg-name="皮老闆大電影" group-title="2025",皮老闆大電影
+https://vip.ffzy-video.com/20251202/32478_3f882a4b/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/k2lWElNXcbKSifxeueHCYJ49WPC.jpg" tvg-name="電幻國度" group-title="2025",電幻國度
 https://vip.dytt-kan.com/20250704/1678_2cb6b103/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/kxnFdLJhi37ZVFDCL1ka0yeQVU5.jpg" tvg-name="邊境奇襲" group-title="2025",邊境奇襲
@@ -746,7 +754,7 @@ https://vip.ffzy-online5.com/20221201/3920_a5a2e6d3/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/u9MiJ6zLpDw4s3qZz93WDVwTUIo.jpg" tvg-name="泳出新生" group-title="2022",泳出新生
 https://svipsvip.ffzyread1.com/20221123/3619_63e8ffe2/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/f6mMqxJfAD2Ao4sto7kOq6a7tWg.jpg" tvg-name="諾兒的祕密日記" group-title="2022",諾兒的祕密日記
-https://vip.ffzy-play5.com/20221124/2974_63231e6e/index.m3u8
+https://vip.dytt-kan.com/20251120/10634_a22c0238/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6gINoJKzfjqJtxyVXtzneXT1zrR.jpg" tvg-name="求愛乖乖牌" group-title="2022",求愛乖乖牌
 https://svipsvip.ffzyread1.com/20221124/3654_5565aa00/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/fPsghYJelPWgbXF99B22AivBxNh.jpg" tvg-name="維京惡狼" group-title="2022",維京惡狼
@@ -754,13 +762,13 @@ https://vip.ffzy-online5.com/20230203/7124_544498ef/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/oyGb5JpEYMEqDDjfJKLEvPTVSjK.jpg" tvg-name="小氣財神史顧己：聖誕頌歌" group-title="2022",小氣財神史顧己：聖誕頌歌
 https://vip.ffzy-play5.com/20230102/5011_66590249/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ciZgjyjKXuIwqbRZK60Q18GeUrx.jpg" tvg-name="祕語夢境" group-title="2022",祕語夢境
-https://vip.ffzy-play5.com/20221118/2689_3adf6098/index.m3u8
+https://vip.dytt-kan.com/20251120/10623_28538c39/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/26RZloFHUyc0GTsybmnUPpSCPHb.jpg" tvg-name="與你共度聖誕" group-title="2022",與你共度聖誕
 https://vip.ffzy-online5.com/20221117/3356_b9d986ab/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/h9Hy8PN25fik7oRTtnE7XnJOvK0.jpg" tvg-name="捨她其誰：阿富汗的明天" group-title="2022",捨她其誰：阿富汗的明天
 https://yzzy.play-cdn10.com/20221116/11917_068740e7/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/K4I5zUfVszl6vGpTfMo7ue8TgU.jpg" tvg-name="給我樂透" group-title="2022",給我樂透
-https://vip.ffzy-play5.com/20221117/2540_24f4ed16/index.m3u8
+https://vip.dytt-kan.com/20251122/10666_10ce75ac/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3iX8wpLgkx83jCLNR03nW4lpaP2.jpg" tvg-name="我的達令莫妮卡" group-title="2022",我的達令莫妮卡
 https://vip.dytt-kan.com/20251111/10230_a952dded/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1SPsrQDvTNGY0HmXdHM0cMuqTgZ.jpg" tvg-name="愛，別離" group-title="2022",愛，別離
@@ -768,7 +776,7 @@ https://vip.ffzy-play5.com/20221112/2226_7567f299/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/uYQ5yhL5z21n5Nox0G6ITN4YqUX.jpg" tvg-name="飆速攔截 2" group-title="2022",飆速攔截 2
 https://vip.dytt-kan.com/20250619/983_6aab1270/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gp9XsIZAOJ8xr12BhwKHGgAK28e.jpg" tvg-name="聖誕傾情" group-title="2022",聖誕傾情
-https://vip.ffzy-online5.com/20221110/3011_1f3292d8/index.m3u8
+https://vip.dytt-kan.com/20251129/10743_c9f06258/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/xaH81xFP1EfoL0RBURuJQHFQhB5.jpg" tvg-name="艾摩與小飛龍的奇遇記" group-title="2022",艾摩與小飛龍的奇遇記
 https://vip.ffzy-online5.com/20221111/3091_fb3f0f9e/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/k3gGPN3TCXQCbnWY6SwxSE0LCxo.jpg" tvg-name="駭客接管" group-title="2022",駭客接管
@@ -1250,7 +1258,7 @@ https://vip.dytt-kan.com/20251021/8718_e7a561a2/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6Zvov912Mm0mrjR5nEGbSujjnGE.jpg" tvg-name="火車上的女孩" group-title="2021",火車上的女孩
 https://vip.ffzy-play7.com/20230317/18496_d5de7243/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/cNnoKrf7JQT1bfZGxOgWO9B60zi.jpg" tvg-name="詐欺女王" group-title="2021",詐欺女王
-https://vip.ffzy-play6.com/20221115/7087_76de6746/index.m3u8
+https://vip.dytt-kan.com/20251120/10638_39d3ea44/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6ZkhIiJRYLzghOkHrA9X6dbcK3K.jpg" tvg-name="貝爾對戰荒野：停電危機" group-title="2021",貝爾對戰荒野：停電危機
 https://vip.dytt-kan.com/20250804/3171_976abf49/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dopEsildD64GziAZUqzZfWyKK1l.jpg" tvg-name="愛的過去進行式：真愛永遠" group-title="2021",愛的過去進行式：真愛永遠
