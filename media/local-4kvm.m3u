@@ -1,4 +1,12 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/rcmJRflS4aFJg8Ockk7YePQWlzc-185x278.jpg" tvg-name="謀殺報告" group-title="2025",謀殺報告
+http://192.168.1.249:5051/4kvm/166632.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/12/3e4ae33b7b6d84-185x278.jpg" tvg-name="闇黑電話2" group-title="2025",闇黑電話2
+http://192.168.1.249:5051/4kvm/166800.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/12/09ed8ad0f45c36-185x278.jpg" tvg-name="白日夢奇遇記" group-title="2025",白日夢奇遇記
+http://192.168.1.249:5051/4kvm/166803.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/12/wSEVULUH37dMvdLJhhLJGua2OOl-185x278.jpg" tvg-name="飆速攔截 3" group-title="2025",飆速攔截 3
+http://192.168.1.249:5051/4kvm/166834.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/3wb1VmmTjq47HS7oD0exgYjAHnv-185x278.jpg" tvg-name="どうしようもない恋の唄" group-title="2025",どうしようもない恋の唄
 http://192.168.1.249:5051/4kvm/166712.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/5CGHITPotDeLfJkZqT3bgFsp8Nw-185x278.jpg" tvg-name="歡迎來到人偶之家" group-title="2025",歡迎來到人偶之家
@@ -2463,6 +2471,8 @@ http://192.168.1.249:5051/4kvm/52789.m3u8
 http://192.168.1.249:5051/4kvm/55672.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2023/08/ugavmhC34PJGBFLR8Srkx8mkGew-185x278.jpg" tvg-name="被遺忘的人生" group-title="2019",被遺忘的人生
 http://192.168.1.249:5051/4kvm/127293.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/12/9kAjGEOLWF1FXZy5DgghdoCD4OO-185x278.jpg" tvg-name="人狼ゲーム インフェルノ" group-title="2018",人狼ゲーム インフェルノ
+http://192.168.1.249:5051/4kvm/166827.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/09/15lynat4SPCmMnfXdFiEpS1syl2-185x278.jpg" tvg-name="黃飛鴻之南北英雄" group-title="2018",黃飛鴻之南北英雄
 http://192.168.1.249:5051/4kvm/166224.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2020/07/bWwPm3R54Ww2xrUVjlB4JjcdQKz-185x278.jpg" tvg-name="大黃蜂" group-title="2018",大黃蜂
