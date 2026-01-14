@@ -2,9 +2,9 @@
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lnu10JjbS3dhv38UCg832hmvQj3.jpg" tvg-name="刺激1995" group-title="高分榜",刺激1995
 https://vip.dytt-film.com/20250304/10861_a4267159/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/y03tzUKvkRCYwJ5NWys4W4bnS9m.jpg" tvg-name="教父" group-title="高分榜",教父
-https://vip.dytt-broadcast.com/20251102/197086_d8dca8c4/index.m3u8
+https://vip.dytt-broadcast.com/20251030/182489_28f7cfb5/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4J8jUmjgKPggRPJqqdkjWCj2k0D.jpg" tvg-name="教父II" group-title="高分榜",教父II
-https://vip.dytt-cine.com/20250603/27832_e48f4f26/index.m3u8
+https://vip.dytt-film.com/20250201/4027_ac4e7a4f/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7VR9AXYa3VYF20jDWfI7w9sSJ2D.jpg" tvg-name="辛德勒的名單" group-title="高分榜",辛德勒的名單
 https://vip.dytt-live.com/20250328/2487_6a4cbdae/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4YM6ASpfQFazXmlXzwpOGn1emwA.jpg" tvg-name="漂洋過海愛上你" group-title="高分榜",漂洋過海愛上你
@@ -421,10 +421,14 @@ https://vip.dytt-live.com/20250519/6906_2172fde4/index.m3u8
 https://vip.dytt-live.com/20250408/3694_4b26dc46/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/rcqIPCMhvYpreMHzMuHiezQqBK3.jpg" tvg-name="黑暗騎士：黎明昇起" group-title="DC",黑暗騎士：黎明昇起
 https://vip.dytt-film.com/20250213/6566_514f94b7/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ip1GREVTFUE2eMNnZmRzdnh119i.jpg" tvg-name="盛夏假期遇見愛" group-title="Netflix",盛夏假期遇見愛
+https://vip.dytt-cine.com/20260110/66850_86df9493/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bPOEtWhI7lGpW0OxZZGjt545OXy.jpg" tvg-name="約翰艾維 ：四分衛逆襲傳奇" group-title="Netflix",約翰艾維 ：四分衛逆襲傳奇
 https://cdn.yzzy28-play.com/20251223/27598_db68424c/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/g4sR32zqIzvuHjaGtFRFZJfE5ni.jpg" tvg-name="十項舞蹈" group-title="Netflix",十項舞蹈
 https://vip.ffzy-plays.com/20251218/48669_cc0e12fa/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ygsMOnttVCekvJZgvmnvaemxPHA.jpg" tvg-name="再見六月" group-title="Netflix",再見六月
+https://vip.ffzy-video.com/20251224/34173_acd8d58c/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/yUURUJzeSTc47T2VeNw7nZwZ8VJ.jpg" tvg-name="史提芬的自白" group-title="Netflix",史提芬的自白
 https://cdn.yzzy33-play.com/20251206/1580_dc5c768b/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/qKuos4fGcntgeXXgR3NAmTU0kOU.jpg" tvg-name="真情未語" group-title="Netflix",真情未語
@@ -988,7 +992,7 @@ https://svipsvip.ffzy-online5.com/20230927/17182_07310eca/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/yhn6MDejZRCWpxDRnk5VHphiybs.jpg" tvg-name="粽邪3：鬼門開" group-title="Netflix",粽邪3：鬼門開
 https://svipsvip.ffzyread1.com/20231218/22410_b54f4ba0/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/idew42l7ILdyR97XC9yG4hFUy1Z.jpg" tvg-name="殺人讀書會" group-title="Netflix",殺人讀書會
-https://svipsvip.ffzyread1.com/20230826/17379_a534af67/index.m3u8
+https://vip.dytt-kan.com/20260101/11935_1a59ef90/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ukpifWBW2xEmMtJX4bCpoNpWEr2.jpg" tvg-name="我的成年禮誠摯不邀你" group-title="Netflix",我的成年禮誠摯不邀你
 https://vip.dytt-kan.com/20250625/1349_bcc0d400/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dLnNFHz6sMsfQtuqDsdIAEpFyVL.jpg" tvg-name="十日壞人" group-title="Netflix",十日壞人
@@ -1602,7 +1606,7 @@ https://vip.ffzy-play7.com/20221226/9867_9420cae2/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/pXwRtzeYMi7cw6ed13FfCVAWZKI.jpg" tvg-name="風信子行動" group-title="Netflix",風信子行動
 https://vip.ffzy-play7.com/20230411/22126_0bd3b6f7/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/r2NnRp4mi4G3e0x9zINQIcnGNd8.jpg" tvg-name="馬賽執法者" group-title="Netflix",馬賽執法者
-https://vip.ffzy-online1.com/20230828/43055_b0d85cd3/index.m3u8
+https://vip.dytt-kan.com/20260101/11923_08058bf5/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lthWL35rQlNbb9UAv44KEhKNEOX.jpg" tvg-name="闇黑之島" group-title="Netflix",闇黑之島
 https://vip.ffzy-play7.com/20230320/19088_b13d6776/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hGIxOfxsgcNS8aco8xgFlv3rYnt.jpg" tvg-name="厄運假期" group-title="Netflix",厄運假期
@@ -3049,103 +3053,103 @@ https://pkj99.github.io/demo/m3u8/4gtv/福爾摩斯二世.1924.4gtv.m3u8
 https://pkj99.github.io/demo/m3u8/4gtv/孤兒流浪記.1921.4gtv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Production/VOD_M/202403190004/VOD-poster_原創05_飢渴的獅子.jpg" tvg-name="飢渴的獅子(1900)" group-title="4gtv",飢渴的獅子(1900)
 https://pkj99.github.io/demo/m3u8/4gtv/飢渴的獅子.1900.4gtv.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mWFUFJ90EdTfQSINZtvBL2eDtsR.jpg" tvg-name="红月亮森林" group-title="隨意看",红月亮森林
-https://vip.dytt-live.com/20250318/36_19ca14e7/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/pw0GWhRgJdwKahkKpzorMPvStMa.jpg" tvg-name="宛城之战" group-title="隨意看",宛城之战
-https://vip.dytt-live.com/20250318/127_ec5decca/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/w05NahmPdAkxyY8xAaG58wVaW0H.jpg" tvg-name="新．假面騎士" group-title="隨意看",新．假面騎士
-https://svipsvip.ffzyread1.com/20230721/15588_b474b918/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/eezu1YQ68ICsCpGdC2YVm1mHcpE.jpg" tvg-name="積奇瑪莉" group-title="隨意看",積奇瑪莉
-https://vip.dytt-film.com/20250308/11867_51a60f84/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/kaX8a1RIxxJ7kav6mlHF394DKFi.jpg" tvg-name="天蠶變" group-title="隨意看",天蠶變
-https://vip.dytt-film.com/20250202/4164_861578d7/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/h4UPNE4f7hEMYebTlj04Gd6KNyE.jpg" tvg-name="东北传说之猎狐" group-title="隨意看",东北传说之猎狐
-https://vip.dytt-live.com/20250318/29_6ea9ab1b/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ZlDOpu2XNp7tGAnYXNN8LkfRHR.jpg" tvg-name="我的超大号女友" group-title="隨意看",我的超大号女友
-https://vip.dytt-kan.com/20251203/10929_a978366b/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/z0RNI1NMtsvLsuTo1rWZfNHVs1z.jpg" tvg-name="小曼哈頓" group-title="隨意看",小曼哈頓
-https://vip.dytt-kan.com/20250917/5591_217b4c71/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tO7jR9XnlJuUsqeT2dSFFavEP2W.jpg" tvg-name="米酒女孩" group-title="隨意看",米酒女孩
-https://vip.dytt-film.com/20250226/9274_b0cf188d/index.m3u8
-#EXTINF:-1 tvg-logo="https://vip.dytt-img.com/upload/vod/20250711-1/72912c2e165e17adadd48b139a26f88b.jpg" tvg-name="在家千日難" group-title="隨意看",在家千日難
-https://vip.dytt-kan.com/20250710/2155_a381c2c3/index.m3u8
-#EXTINF:-1 tvg-logo="https://vip.dytt-img.com/upload/vod/20250308-1/2be6f50dde2501fd5cb618f0277498d1.jpg" tvg-name="愛在囧途" group-title="隨意看",愛在囧途
-https://vip.dytt-film.com/20250227/9460_1a669e81/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/huG60XYVErmJFRJlVKHRv0oOhwr.jpg" tvg-name="神探笔记" group-title="隨意看",神探笔记
-https://vip.ffzy-online4.com/20230514/24853_5458d332/index.m3u8
-#EXTINF:-1 tvg-logo="https://pic3.yzzyimg.online/upload/vod/2025-07-06/202507061751799841.jpg" tvg-name="我，我自己和虛空" group-title="隨意看",我，我自己和虛空
-https://cdn.yzzy29-play.com/20250706/262_36660e59/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2K7fO2JCb0n87PG1E5L09qlgjAA.jpg" tvg-name="戀人絮語" group-title="隨意看",戀人絮語
-https://vip.ffzy-play7.com/20230516/24807_9828c9ee/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6ikGuDxKG5kddD60N7wZGovdoMf.jpg" tvg-name="穿黃睡衣的女孩" group-title="隨意看",穿黃睡衣的女孩
-https://vip.ffzy-play7.com/20230327/19947_9786abc2/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/45WvrH2bYxK2a2m1MurPSDzTDrI.jpg" tvg-name="温暖的抱抱" group-title="隨意看",温暖的抱抱
-https://vip.dytt-kan.com/20251017/8407_5112277e/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9KvaY7sREAYAtXHsMijwBZub7F5.jpg" tvg-name="鍾馗伏魔：雪妖魔靈" group-title="隨意看",鍾馗伏魔：雪妖魔靈
-https://vip.dytt-film.com/20250302/9954_356dc406/index.m3u8
-#EXTINF:-1 tvg-logo="https://img.ffzy888.com/upload/vod/20221027-1/573c8f556ab9458eb7f8b254c993f99a.jpg" tvg-name="德勒斯登大轟炸" group-title="隨意看",德勒斯登大轟炸
-https://vip.ffzy-play6.com/20221027/2130_266fb31d/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/flYNRR5daCdXePgUZtbJ5WKt8gH.jpg" tvg-name="危愛" group-title="隨意看",危愛
-https://yzzy.play-cdn4.com/20220530/14302_9259c66e/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/uK1ZVOzoaOpAALIphqtQRTkUItT.jpg" tvg-name="小戏骨降妖记" group-title="隨意看",小戏骨降妖记
-https://vip.ffzy-play7.com/20230401/20560_e33a99fd/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/eg1nyqLDkXjmFHrbx2g8sd7o0E1.jpg" tvg-name="阿琳娜" group-title="隨意看",阿琳娜
-https://vip.ffzy-play7.com/20230219/15393_d918b726/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6au7WBVYoKhV1jORyFSIRszb46S.jpg" tvg-name="諾瑪·蕾" group-title="隨意看",諾瑪·蕾
-https://vip.ffzy-play7.com/20230407/21455_5760ab03/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/m2DvcGnf4eQs5bfttuNQLm35UtQ.jpg" tvg-name="戰爭安魂曲" group-title="隨意看",戰爭安魂曲
-https://vip.ffzy-play7.com/20230423/22962_3a2fe349/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/v3q5Z1SUc2dMd63pI23ply2k5Yr.jpg" tvg-name="無間殺手" group-title="隨意看",無間殺手
-https://vip.ffzy-play7.com/20221224/9590_dbf347b1/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/nGZCeCfNseq1ee3cJLBp0rH0djT.jpg" tvg-name="大亨遊戲" group-title="隨意看",大亨遊戲
-https://vip.ffzy-play7.com/20230514/24695_bfdf8f2a/index.m3u8
-#EXTINF:-1 tvg-logo="https://vip.dytt-img.com/upload/vod/20250517-1/a197aaaf3785da5da43d2b47842c3957.jpg" tvg-name="記在心裡的名字 感謝" group-title="隨意看",記在心裡的名字 感謝
-https://vip.dytt-live.com/20250517/6741_c9e37c28/index.m3u8
-#EXTINF:-1 tvg-logo="https://img.ffzy888.com/upload/vod/20230528-1/b0eac821e4220dc3ac035321e5ce1bae.jpg" tvg-name="與麥子" group-title="隨意看",與麥子
-https://vip.ffzy-play7.com/20230528/25399_a70bb2d1/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/SzepumhdmlrCzEWbxMG1iU8UNK.jpg" tvg-name="蝙狐俠：英雄覺醒" group-title="隨意看",蝙狐俠：英雄覺醒
-https://vip.dytt-live.com/20250419/4413_aa36c88c/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4lrX7h9siiPVqCeKyKIJPQlHoDX.jpg" tvg-name="愛情買賣2023" group-title="隨意看",愛情買賣2023
-https://svip.high21-playback.com/20250314/41984_d0c0c3e7/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/g3xn7tRnGxVwwKc2tge7nPssywQ.jpg" tvg-name="懶蟲陷情記" group-title="隨意看",懶蟲陷情記
-https://vip.ffzy-play7.com/20221108/2715_d74637ee/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ym7CD6Tv1TPJgmCIaDI1EXe9IwB.jpg" tvg-name="牛仔褲的夏天２" group-title="隨意看",牛仔褲的夏天２
-https://vip.dytt-film.com/20250213/6759_4cf0ed86/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2IOCys56t4iOMj9ZoVZ7zmi2RHL.jpg" tvg-name="假結婚真幸福" group-title="隨意看",假結婚真幸福
-https://vip.dytt-kan.com/20250712/2403_bd7db739/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/41ehjayjVOXsiHNaMPPiS4FpjaS.jpg" tvg-name="王牌" group-title="隨意看",王牌
-https://vip.dytt-film.com/20250128/3194_563ca5e0/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/xuEz2gGCOHB2jpsYAxD6nYWnzXd.jpg" tvg-name="恶棍少爷别碰我" group-title="隨意看",恶棍少爷别碰我
-https://vip.dytt-live.com/20250320/418_d1f255a3/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3dfS9QamORCjQX1vPVHw9uyWUMo.jpg" tvg-name="乘騎文化" group-title="隨意看",乘騎文化
-https://vip.ffzy-play7.com/20230505/23972_923b4dab/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/yhWqZZNfYxRyz4uZA5S0wZv2m9c.jpg" tvg-name="夢之城堡" group-title="隨意看",夢之城堡
-https://vip.ffzy-play7.com/20230314/18132_f1ff40eb/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6g2VGKQRrUe8IFJ4sCc6DnSJhUn.jpg" tvg-name="宿醉驚喜" group-title="隨意看",宿醉驚喜
-https://vip.dytt-film.com/20250221/8319_3941c435/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/jFWi1kCWkdJRDqseihhVoV9w7D7.jpg" tvg-name="狼群行动" group-title="隨意看",狼群行动
-https://vip.dytt-film.com/20250225/9103_496bd335/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ueUyj6AenOT47v9J75JCmzbr8rv.jpg" tvg-name="高、低與脆弱之間" group-title="隨意看",高、低與脆弱之間
-https://vip.dytt-kan.com/20250919/5695_dfea0768/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lrQU72BcSfzJx71X1ko2K4LTtlE.jpg" tvg-name="追風戰警" group-title="隨意看",追風戰警
-https://vip.dytt-kan.com/20250616/845_b86e8d03/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/23eiUumoZKYgqIgF9bju4dwu2XQ.jpg" tvg-name="金手指" group-title="隨意看",金手指
-https://vip.dytt-live.com/20250419/4399_bdbca288/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/i7TM3zraRtuHPCesHdBDT5pyDHt.jpg" tvg-name="破裏拳ポリマー" group-title="隨意看",破裏拳ポリマー
-https://vip.dytt-film.com/20250304/10968_53f5ca02/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/wPLPeL5qb20xzXeopDiiQUnw8k8.jpg" tvg-name="重案黐孖GUN" group-title="隨意看",重案黐孖GUN
-https://vip.dytt-film.com/20250129/3547_e6ba70fc/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hTZvlQhP1wQrlPWLjsa6LDZFWWN.jpg" tvg-name="瘦虎肥龍" group-title="隨意看",瘦虎肥龍
-https://vip.dytt-film.com/20250202/4155_18a9042b/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/fm4FDtojqTWBmBAv7UATfAfhlNI.jpg" tvg-name="暗夜危機" group-title="隨意看",暗夜危機
-https://svip.high21-playback.com/20241205/40388_a17e110d/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/l7CBRLAXUnHi0kp2krhLtlJvtWI.jpg" tvg-name="海盜電波" group-title="隨意看",海盜電波
-https://vip.dytt-film.com/20250218/7540_a9fb9e6e/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4myNatWRl93OEBUKP4DX5npVTgU.jpg" tvg-name="漫漫回家路" group-title="隨意看",漫漫回家路
-https://vip.dytt-film.com/20250126/2851_d3d80b65/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/cSLWebfUQe6P5a1S26UZe0eZuoi.jpg" tvg-name="七月之痒" group-title="隨意看",七月之痒
-https://svip.high21-playback.com/20240822/38359_dbab69b5/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/pexCJDhRq1rk6OaZObQ8ySXN7uo.jpg" tvg-name="快拳怪招" group-title="隨意看",快拳怪招
-https://vip.ffzy-play7.com/20230506/24070_a1703862/index.m3u8
-#EXTINF:-1 tvg-logo="https://vip.dytt-img.com/upload/vod/20251102-1/d86fa65b77dac73b838594027c96cb99.jpg" tvg-name="每個人都喜歡著某個人" group-title="隨意看",每個人都喜歡著某個人
-https://vip.dytt-kan.com/20251028/9397_c4ede56b/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/fUxmtjdnDHRk2fikN0xmdeMBlHy.jpg" tvg-name="我的失憶女孩" group-title="隨意看",我的失憶女孩
+https://vip.dytt-live.com/20250505/5773_7e448ed9/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/krv1UDDIwmpgZd1Ri5VMjFEpts4.jpg" tvg-name="死屍少女驚魂舞" group-title="隨意看",死屍少女驚魂舞
+https://vip.dytt-kan.com/20250625/1331_e077e1a5/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/xjZ6kkOdib2G2EV3LmslorUd1vX.jpg" tvg-name="美國情緣" group-title="隨意看",美國情緣
+https://vip.dytt-film.com/20250212/6538_741a0099/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/sLqD7oUGZKvu5ODru8SdOcvEA1Z.jpg" tvg-name="紅色一號" group-title="隨意看",紅色一號
+https://vip.dytt-live.com/20250501/5365_b105e5a1/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/skyZpGolECdQD3KrtqjYHLHC4to.jpg" tvg-name="疾速求生" group-title="隨意看",疾速求生
+https://vip.dytt-cine.com/20250523/25711_ef0e1d56/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/vcsr4oajxfEMYpjxfgrVfJCbczk.jpg" tvg-name="激盪的青春與愛情" group-title="隨意看",激盪的青春與愛情
+https://yzzy.play-cdn6.com/20220710/3881_e5dac61b/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/vM63IdiCBA7eOQVz54qVBtSVRD8.jpg" tvg-name="桃花灿烂" group-title="隨意看",桃花灿烂
+https://vip.dytt-live.com/20250512/6456_198dd5fb/index.m3u8
+#EXTINF:-1 tvg-logo="https://vip.dytt-img.com/upload/vod/20250217-1/2f0d5f7de1d4ad915ff4570f2b0c8a18.jpg" tvg-name="超模教練" group-title="隨意看",超模教練
+https://vip.dytt-film.com/20250123/1763_df9028fc/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/yiEzDgBBFC25Zd6z0r7sMngn5vr.jpg" tvg-name="好戲上場" group-title="隨意看",好戲上場
+https://vip.ffzy-play7.com/20221225/9756_4500cbf2/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/pZGa5x1NG2ANOx6Yfs8ldigxXEt.jpg" tvg-name="隱秘的誘惑" group-title="隨意看",隱秘的誘惑
+https://vip.ffzy-play7.com/20230422/22800_daf28cbb/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hyysLsQg291RcCJQ7D5TjK8AZeI.jpg" tvg-name="荒岛重生" group-title="隨意看",荒岛重生
+https://vip.dytt-live.com/20250320/430_f74909ac/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5p8KtopEdDt3fd8mTv1gtep8DiY.jpg" tvg-name="優雅的相遇" group-title="隨意看",優雅的相遇
+https://vip.ffzy-video.com/20250917/26634_5fcc04ec/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/nYz8Cqd5NcBWp5Nl1vTkx0LXMOC.jpg" tvg-name="南京！南京！" group-title="隨意看",南京！南京！
+https://vip.dytt-film.com/20250216/7133_adf7e293/index.m3u8
+#EXTINF:-1 tvg-logo="https://vip.dytt-img.com/upload/vod/20250208-1/8e630d0f32c46b138d49c76162e583e9.jpg" tvg-name="美女總裁與特種兵" group-title="隨意看",美女總裁與特種兵
+https://vip.dytt-film.com/20250126/2709_5a99158e/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/sy1RwhXlEfp1d0I2fECKoCkIvMB.jpg" tvg-name="校花驾到.极品校花" group-title="隨意看",校花驾到.极品校花
+https://vip.ffzy-play7.com/20230527/25325_93647d2f/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/p4OVC9RRvi1JLErZE6IPhSYVYln.jpg" tvg-name="大佛普拉斯" group-title="隨意看",大佛普拉斯
+https://vip.ffzy-play7.com/20230203/13138_3ee48955/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/rp72h9d7C9ULWmdtUWtIJ4v8h5B.jpg" tvg-name="西遊：降魔篇" group-title="隨意看",西遊：降魔篇
+https://vip.dytt-film.com/20250207/5296_fd9dd764/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5NHKEabv4CeC3ZgP7OPekOUTBgL.jpg" tvg-name="蜜恋合租" group-title="隨意看",蜜恋合租
+https://vip.ffzy-video.com/20260108/35109_a2896cb1/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bfZRg6S5g202TfmiQ0jhc4qP92B.jpg" tvg-name="璀璨女人夢" group-title="隨意看",璀璨女人夢
+https://vip.dytt-kan.com/20250622/1183_0e095e05/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bA66jSLXsKXsMu1K0LylDWKxkNf.jpg" tvg-name="肌膚" group-title="隨意看",肌膚
+https://vip.ffzy-online1.com/20231014/43860_d0d0e4e9/index.m3u8
+#EXTINF:-1 tvg-logo="https://pic3.yzzyimages.com/upload/vod/2024-10-14/202410141728871766.jpg" tvg-name="聖派屈克的驅魔" group-title="隨意看",聖派屈克的驅魔
+https://svip.high21-playback.com/20241014/39403_ede7c1e6/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bg0VKsXnLjIZ0cHmZHZLs9gzrvm.jpg" tvg-name="蒙娜麗莎的微笑" group-title="隨意看",蒙娜麗莎的微笑
+https://vip.ffzy-play7.com/20230212/14436_8933ea10/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/oPVCuwLrTBj68yYT6nXsiEjLa2X.jpg" tvg-name="聂隐娘之绝命刺杀" group-title="隨意看",聂隐娘之绝命刺杀
+https://vip.dytt-live.com/20250323/1035_a34bacf8/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/egpv58u11MxepnNwXtzdMOagRdg.jpg" tvg-name="審判遊戲" group-title="隨意看",審判遊戲
+https://vip.dytt-kan.com/20260101/11906_d871c387/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/uPVfIYeNFHf4y0AcVTsBo21Tzn6.jpg" tvg-name="涩之恋" group-title="隨意看",涩之恋
+https://vip.dytt-film.com/20250122/1367_a223c6b3/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/Aa0ZpMF0O653YQHifebdT2MRZvw.jpg" tvg-name="星際大戰首部曲：威脅潛伏" group-title="隨意看",星際大戰首部曲：威脅潛伏
+https://vip.dytt-kan.com/20250808/3276_b58ac840/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8Ymfout0WGHSZcHSc2iHhjMFDqx.jpg" tvg-name="太子傳說" group-title="隨意看",太子傳說
+https://vip.ffzy-play7.com/20230430/23605_15718ca4/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lqcQTGJIONLnbqhfOTehiR0Oeo1.jpg" tvg-name="鬼入鏡：靈之鬼跡" group-title="隨意看",鬼入鏡：靈之鬼跡
+https://vip.ffzy-play7.com/20230220/15511_15fb006a/index.m3u8
+#EXTINF:-1 tvg-logo="https://img.ffzy888.com/upload/vod/20221130-1/5628b2ce63ea65e6a1d640a79f9a0e63.jpg" tvg-name="精武陳真電影版" group-title="隨意看",精武陳真電影版
+https://vip.ffzy-play6.com/20221127/8836_9b749c92/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/aLFZjYXukntc3ue9oQyu79RAocV.jpg" tvg-name="灌籃青春" group-title="隨意看",灌籃青春
+https://vip.ffzy-play5.com/20230312/8475_4baa69de/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dpksv4YUoHGwzLiVccfO1poEJCr.jpg" tvg-name="霹靂寶座" group-title="隨意看",霹靂寶座
+https://vip.dytt-live.com/20250509/6068_b5ecbbf5/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1LwiGbCNfpfULWEmsXqOXd4QNX9.jpg" tvg-name="暴風雨之星" group-title="隨意看",暴風雨之星
+https://vip.dytt-kan.com/20251215/11261_481d66d7/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3pHqYlv47ly6NSQVAUUIuVWrBU6.jpg" tvg-name="夏夜迷城" group-title="隨意看",夏夜迷城
+https://vip.dytt-kan.com/20250710/2285_ae1eaa32/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5ubFMRVunZFlblcEU8dYtperisp.jpg" tvg-name="犯罪心理2014" group-title="隨意看",犯罪心理2014
+https://vip.ffzy-play7.com/20221206/8228_aadff5e0/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/j8t7gbWj0u2EOVuXNaHYJEBMfn6.jpg" tvg-name="無名之輩" group-title="隨意看",無名之輩
+https://vip.dytt-film.com/20250123/2075_cbef4632/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7InSG7Ts4VVZmqs3hYZZe13JsKS.jpg" tvg-name="七月返歸" group-title="隨意看",七月返歸
+https://svipsvip.ffzy-online5.com/20240301/24302_dad75f7b/index.m3u8
+#EXTINF:-1 tvg-logo="https://pic1.imgyzzy.com/upload/vod/2022-10-09/16653210421.jpg" tvg-name="軀殼(2020)" group-title="隨意看",軀殼(2020)
+https://yzzy.play-cdn6.com/20221010/19196_fc252199/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7FWi4eqAPWTEKZqxhF5u98H9oSC.jpg" tvg-name="大明神捕之银钗盗" group-title="隨意看",大明神捕之银钗盗
+https://yzzy.play-cdn10.com/20221123/14251_26f8185c/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hy53ZqtqftRml2gCzchNQBitchz.jpg" tvg-name="动物出击" group-title="隨意看",动物出击
+https://vip.dytt-live.com/20250325/1718_fc6709bf/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/qvudwq4bBoMi5D3cEgkfTIKOR3o.jpg" tvg-name="我11" group-title="隨意看",我11
+https://vip.dytt-film.com/20250127/2979_2d71b2ae/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mVRU52MPWEq2ir2hwxA52F7FahI.jpg" tvg-name="爱情维修站" group-title="隨意看",爱情维修站
+https://vip.dytt-film.com/20250211/6084_0d770c49/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ah603BItHXHRRPX4AwSBlauWVtk.jpg" tvg-name="玻璃﹐少女" group-title="隨意看",玻璃﹐少女
+https://vip.dytt-film.com/20250129/3563_d04d42cd/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/68f50N47Fk8dfwTGNJSYKHKutO8.jpg" tvg-name="Gucci：豪門謀殺案" group-title="隨意看",Gucci：豪門謀殺案
+https://vip.ffzy-play7.com/20230321/19198_0a729f5c/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/qrXdAPOqDQTcqNqYkbbcFKLpono.jpg" tvg-name="黄金福将" group-title="隨意看",黄金福将
+https://vip.dytt-film.com/20250220/8046_68a64c1e/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/qBh4UkrS2kO04vVlAvff7CSVkhw.jpg" tvg-name="蒙上你的眼" group-title="隨意看",蒙上你的眼
+https://vip.ffzy-play7.com/20230214/14720_8ef00543/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/aXfS91c5l8p1wnnWWi5mHdhu0tw.jpg" tvg-name="小巷名流" group-title="隨意看",小巷名流
+https://vip.ffzy-play7.com/20230403/20714_51fe80e4/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/exr5xYRHbj200Y3SxMDGfcT6zla.jpg" tvg-name="Darkness" group-title="隨意看",Darkness
+https://vip.dytt-cinema.com/20251017/37581_be1c8444/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/cIi7BtF3HBpJ3nbus14Pzx9V7yt.jpg" tvg-name="鄰家特務" group-title="隨意看",鄰家特務
+https://vip.dytt-live.com/20250326/1921_9f699296/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/p7dJntXLLWQIkXfHIjI01wBEDyK.jpg" tvg-name="蝙蝠俠對超人：正義曙光" group-title="隨意看",蝙蝠俠對超人：正義曙光
+https://vip.dytt-film.com/20250225/9011_840c3eda/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/sN19chX1sSmr9JasVsiypY8YCUS.jpg" tvg-name="血战许昌" group-title="隨意看",血战许昌
+https://vip.dytt-film.com/20250120/837_b0b183c2/index.m3u8

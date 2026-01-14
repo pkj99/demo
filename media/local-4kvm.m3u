@@ -1,4 +1,16 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/12/57lXtBP2x4RDUyM82eqJ9TOPDBd-185x278.jpg" tvg-name="奇遇" group-title="2025",奇遇
+http://192.168.1.249:5051/4kvm/166914.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/12/b5BInTXQHEMF3AxlJb9yCcMXTr6-185x278.jpg" tvg-name="暴蜂尼亞" group-title="2025",暴蜂尼亞
+http://192.168.1.249:5051/4kvm/166916.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/12/8KY73lednc1PMVOzzD1hRohPf2g-185x278.jpg" tvg-name="只是一場意外" group-title="2025",只是一場意外
+http://192.168.1.249:5051/4kvm/166922.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/12/790ab8e0e64d7-185x278.jpg" tvg-name="即興謀殺" group-title="2025",即興謀殺
+http://192.168.1.249:5051/4kvm/166940.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/01/ifM7LfaIIkiQ03bXn5MVe87uLf9-185x278.jpg" tvg-name="志願軍：浴血和平" group-title="2025",志願軍：浴血和平
+http://192.168.1.249:5051/4kvm/166964.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/01/8l88dZ7XwwiJo0qLJ80RiO8pw5A-185x278.jpg" tvg-name="紐倫堡審判" group-title="2025",紐倫堡審判
+http://192.168.1.249:5051/4kvm/166977.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/uhXxW7EmzZIWFVpbF42r6L2g7Oh-185x278.jpg" tvg-name="屋頂怪盜" group-title="2025",屋頂怪盜
 http://192.168.1.249:5051/4kvm/166770.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/12/vUiAm0jbrPgbUDCOhRKsvdT0u5h-185x278.jpg" tvg-name="黃金硬漢：殺出血路" group-title="2025",黃金硬漢：殺出血路
@@ -3651,6 +3663,8 @@ http://192.168.1.249:5051/4kvm/147436.m3u8
 http://192.168.1.249:5051/4kvm/147547.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2024/03/TAmMyVfw6P25KU5XMMiNSUnn7i-185x278.jpg" tvg-name="300壯士：帝國崛起" group-title="2014",300壯士：帝國崛起
 http://192.168.1.249:5051/4kvm/147586.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/12/jSzlY2RAEGGmnNK8h0VckMivHRP-185x278.jpg" tvg-name="言葉之庭" group-title="2013",言葉之庭
+http://192.168.1.249:5051/4kvm/166912.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/edoxSu8c1xE9YsG81cE71d7Ln98-185x278.jpg" tvg-name="蝙蝠俠：黑暗騎士歸來（下）" group-title="2013",蝙蝠俠：黑暗騎士歸來（下）
 http://192.168.1.249:5051/4kvm/166580.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/08/x1ZkDLydCpQ0zZZMpQdZ4QuiivQ-185x278.jpg" tvg-name="青春派" group-title="2013",青春派
