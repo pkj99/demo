@@ -8,7 +8,7 @@ TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
 中天新闻台,http://222.128.55.152:9080/live/fc.m3u8
 寰宇新闻,http://222.128.55.152:9080/live/hy.m3u8
 TVBS,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
-TVBS-Asia,http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8
+TVBS-Asia,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
 纬来育乐台,https://cdn.iptv8k.top/dl/jrys.php?id=289&time=20240926215313&ip=111.229.253.40
 纬来体育台,https://cdn.iptv8k.top/dl/jrys.php?id=292&amp;time=20240926215313&amp;ip=111.229.253.40
 靖天映画,https://cdn.iptv8k.top/dl/jrys.php?id=320&time=20240926215313&ip=111.229.253.40
@@ -17,7 +17,6 @@ TVBS-Asia,http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8
 三立戏剧,http://61.221.215.25:8800/hls/41/index.m3u8
 东森美洲新闻台,http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
 凤凰资讯,http://61.221.215.25:8800/hls/47/index.m3u8
-天映经典,https://cdn9.163189.xyz/smt1.1.php?id=Celestial
 大陸央视,#genre#
 CCTV5+,http://223.112.114.228:50080/newlive/live/hls/180/live.m3u8
 CCTV13,https://event.pull.hebtv.com/jishi/cp1.m3u8
@@ -27,7 +26,7 @@ CCTV14,https://event.pull.hebtv.com/jishi/cp2.m3u8
 海峡卫视,http://hlsbkmgsplive.miguvideo.com/migu/kailu/haixiaws/57/20230724/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
 亚洲卫视,https://p2hs.vzan.com/slowlive/821481626725612419/live.m3u8
 唐人卫视,https://ntd02.akamaized.net/HD-NY/tracks-v3a1/mono.m3u8
-浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
+浙江卫视,http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8
 河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
 延边卫视,https://srs.iyb983.cn:443/video/CYS/index.m3u8
 三沙卫视,http://btjg.net:809/hls/142/index.m3u8

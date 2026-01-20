@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/y7tpK50AnQGF2DZKRmNWxpwuMey.jpg" tvg-name="全信沒收" group-title="2026",全信沒收
+https://vip.dytt-cine.com/20260117/67355_bd471903/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ip1GREVTFUE2eMNnZmRzdnh119i.jpg" tvg-name="盛夏假期遇見愛" group-title="2026",盛夏假期遇見愛
 https://vip.dytt-cine.com/20260110/66850_86df9493/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bPOEtWhI7lGpW0OxZZGjt545OXy.jpg" tvg-name="約翰艾維 ：四分衛逆襲傳奇" group-title="2025",約翰艾維 ：四分衛逆襲傳奇
@@ -435,6 +437,8 @@ https://svipsvip.ffzy-online5.com/20240214/23503_1da05f10/index.m3u8
 https://vip.dytt-kan.com/20250622/1280_da11e8cd/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4IUEFV9mIErdfKJmaYfvFNEzvsr.jpg" tvg-name="我的好朋友黑漆漆" group-title="2024",我的好朋友黑漆漆
 https://vip.dytt-kan.com/20250623/1292_459a4ddc/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lpnRQzopVI4rPRE0aiXG3lOwjqq.jpg" tvg-name="絕地盟約：我們在山上變成誰了？" group-title="2024",絕地盟約：我們在山上變成誰了？
+https://cdn.yzzy33-play.com/20260115/4563_d74a2145/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bMJTU0PyIu4aeug2q2Ug0jdjh6Q.jpg" tvg-name="開箱靈魂" group-title="2024",開箱靈魂
 https://vip.dytt-kan.com/20250704/1682_6a81681a/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5ofRmnUVB48DoN8pfYf6q0Vnauc.jpg" tvg-name="黃金神威" group-title="2024",黃金神威
