@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/01/ySD5fHM5Lb3dVnRGAQ74aHdmN2K-185x278.jpg" tvg-name="風林火山" group-title="2025",風林火山
+http://192.168.1.249:5051/4kvm/167020.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/01/msX6Gv6MzP9IMbuV6XbUC9U2xCu-185x278.jpg" tvg-name="日租家庭" group-title="2025",日租家庭
 http://192.168.1.249:5051/4kvm/167016.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/12/57lXtBP2x4RDUyM82eqJ9TOPDBd-185x278.jpg" tvg-name="奇遇" group-title="2025",奇遇

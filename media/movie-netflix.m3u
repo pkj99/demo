@@ -1,4 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/kukyCs3z672sgO0TE4z8I4Wc2DC.jpg" tvg-name="偽術奇才" group-title="2026",偽術奇才
+https://vip.dytt-cine.com/20260124/67937_0820215b/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ddlYVZBPSiFhN2HToro4jU2zZMi.jpg" tvg-name="校園火劫：深淵" group-title="2026",校園火劫：深淵
+https://vip.dytt-cine.com/20260123/67782_712fef85/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/y7tpK50AnQGF2DZKRmNWxpwuMey.jpg" tvg-name="全信沒收" group-title="2026",全信沒收
 https://vip.dytt-cine.com/20260117/67355_bd471903/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ip1GREVTFUE2eMNnZmRzdnh119i.jpg" tvg-name="盛夏假期遇見愛" group-title="2026",盛夏假期遇見愛
@@ -1246,7 +1250,7 @@ https://vip.ffzy-online1.com/20230726/42526_8154b69f/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/nlQFKybBpJrpKS65wd7lhiSpnkt.jpg" tvg-name="奶奶的遺願" group-title="2021",奶奶的遺願
 https://vip.ffzy-play7.com/20230517/24885_b259dd6b/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/m6bUeV4mczG3z2YXXr5XDKPsQzv.jpg" tvg-name="以她之名" group-title="2021",以她之名
-https://yzzy.play-cdn7.com/20221004/21440_dae8b4fa/index.m3u8
+https://vip.dytt-network.com/20260127/15599_8cc9db4e/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/wcrjc1uwQaqoqtqi67Su4VCOYo0.jpg" tvg-name="窺探" group-title="2021",窺探
 https://vip.ffzy-video.com/20251103/30261_dcfca14d/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/w6n1pu9thpCVHILejsuhKf3tNCV.jpg" tvg-name="迷幻臥底：費瑞崛起" group-title="2021",迷幻臥底：費瑞崛起
