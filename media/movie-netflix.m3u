@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7bgnGJxHjysPtIAvpqoxFDWHHlY.jpg" tvg-name="致我的青春" group-title="2026",致我的青春
+https://vip.dytt-tvs.com/20260130/10707_e8ad3f3f/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/kukyCs3z672sgO0TE4z8I4Wc2DC.jpg" tvg-name="偽術奇才" group-title="2026",偽術奇才
 https://vip.dytt-cine.com/20260124/67937_0820215b/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ddlYVZBPSiFhN2HToro4jU2zZMi.jpg" tvg-name="校園火劫：深淵" group-title="2026",校園火劫：深淵
