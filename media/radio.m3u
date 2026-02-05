@@ -11,10 +11,12 @@ https://stream.rcs.revma.com/e0tdah74hv8uv
 https://onair.bravo913.com.tw:9130/live.mp3
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/classical-fm-97-7.png" tvg-name="ClassicalFM97.7" group-title="廣播頻道" radio="true",ClassicalFM97.7
 https://onair.family977.com.tw:8977/live.mp3
+#EXTINF:-1 tvg-logo="" tvg-name="HitFM台北之音" group-title="廣播頻道" radio="true",HitFM台北之音
+http://202.39.43.67:1935/live/RA000036/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/40952.v1.png" tvg-name="ICRT" group-title="廣播頻道" radio="true",ICRT
-http://live.leanstream.co/ICRTFM?args=tunein_aac
+https://stream.rcs.revma.com/nkdfurztxp3vv
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/41671.v3.png" tvg-name="IC之音" group-title="廣播頻道" radio="true",IC之音
-https://n10.rcs.revma.com/7mnq8rt7k5zuv
+https://stream.rcs.revma.com/7mnq8rt7k5zuv
 #EXTINF:-1 tvg-logo="http://onwebradio.com/RadioLogos/-1161544813_%E4%B8%AD%E5%9C%8B%E5%BB%A3%E6%92%AD%E5%85%AC%E5%8F%B8%E5%AE%A2%E5%AE%B6%E9%A0%BB%E9%81%93_igo_531.png" tvg-name="Igo531" group-title="廣播頻道" radio="true",Igo531
 https://stream.rcs.revma.com/1qxn2vg3qtzuv
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/42060.v9.png" tvg-name="MRadio全國廣播FM106" group-title="廣播頻道" radio="true",MRadio全國廣播FM106
@@ -30,7 +32,7 @@ https://stream.ginnet.cloud/live0115lo-89xv/_definst_/fm881/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://media.rti.org.tw/admin/img/logo_rti.png" tvg-name="中央廣播電臺華語" group-title="廣播頻道" radio="true",中央廣播電臺華語
 https://streamak0138.akamaized.net/live0138lh-mbm9/_definst_/rti3/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/bcc-news-network.png" tvg-name="中廣新聞網" group-title="廣播頻道" radio="true",中廣新聞網
-http://stream.rcs.revma.com/fgtx07f3qtzuv
+https://stream.rcs.revma.com/fgtx07f3qtzuv
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/i-like-bcc-pop-network.png" tvg-name="中廣流行網" group-title="廣播頻道" radio="true",中廣流行網
 https://stream.rcs.revma.com/s1zttsg3qtzuv
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/s91545d.png" tvg-name="中廣鄉親網" group-title="廣播頻道" radio="true",中廣鄉親網
@@ -39,8 +41,12 @@ https://stream.rcs.revma.com/p2e3rfg3qtzuv
 https://stream.rcs.revma.com/ks4vsmg3qtzuv
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/40586.v2.png" tvg-name="佳音Love聯播網" group-title="廣播頻道" radio="true",佳音Love聯播網
 https://stream.ginnet.cloud/live0119lo-p4rb/_definst_/fm909/playlist.m3u8
-#EXTINF:-1 tvg-logo="" tvg-name="全國廣播" group-title="廣播頻道" radio="true",全國廣播
+#EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/42060.v9.png" tvg-name="全國廣播" group-title="廣播頻道" radio="true",全國廣播
 http://stream.rcs.revma.com/044q61ha7a0uv
+#EXTINF:-1 tvg-logo="" tvg-name="台北愛樂電台" group-title="廣播頻道" radio="true",台北愛樂電台
+http://202.39.43.67:1935/live/RA000018/chunklist.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="台北流行廣播POPRadio" group-title="廣播頻道" radio="true",台北流行廣播POPRadio
+http://202.39.43.67:1935/live/RA000080/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/42061.png" tvg-name="台藝之聲88.3" group-title="廣播頻道" radio="true",台藝之聲88.3
 https://votastream.ntua.edu.tw:8443/vota
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/40563.png" tvg-name="國立教育廣播電台/台北101.7" group-title="廣播頻道" radio="true",國立教育廣播電台/台北101.7
@@ -51,6 +57,8 @@ http://fm971.cityfm.tw:8080/971.mp3
 http://fm901.cityfm.tw:8080/901.mp3
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/40558.v3.png" tvg-name="大愛網路電台" group-title="廣播頻道" radio="true",大愛網路電台
 http://38.96.148.28:8156/stream
+#EXTINF:-1 tvg-logo="" tvg-name="好事聯播網" group-title="廣播頻道" radio="true",好事聯播網
+http://202.39.43.67:1935/live/RA000013/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/Logo_256.png" tvg-name="幸福電台FM102.5" group-title="廣播頻道" radio="true",幸福電台FM102.5
 http://61.218.61.251:8080
 #EXTINF:-1 tvg-logo="https://vnccu.nccu.edu.tw/uploads/bulletin/image/548fc9687470004840550000/thumb_logo%E9%9B%BB%E8%85%A6JPEG.jpg" tvg-name="政大之聲88.7" group-title="廣播頻道" radio="true",政大之聲88.7
@@ -63,6 +71,8 @@ http://flv.ccdntech.com/live/_definst_/mp4:vod117_Live/live2/playlist.m3u8
 http://163.13.182.81:8001/votk
 #EXTINF:-1 tvg-logo="" tvg-name="漁業廣播電台" group-title="廣播頻道" radio="true",漁業廣播電台
 https://stream.rcs.revma.com/mk0c5vq122hvv
+#EXTINF:-1 tvg-logo="" tvg-name="漢聲廣播電臺" group-title="廣播頻道" radio="true",漢聲廣播電臺
+http://202.39.43.67:1935/live/RA000076/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/tbs.png" tvg-name="臺北廣播電臺93.1" group-title="廣播頻道" radio="true",臺北廣播電臺93.1
 https://stream.ginnet.cloud/live0130lo-yfyo/_definst_/fm/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://pkj99.github.io/demo/images/radio/220px-ROC_Police_Broadcasting_Service_Seal.svg.png" tvg-name="警察廣播電台全國治安交通網" group-title="廣播頻道" radio="true",警察廣播電台全國治安交通網
