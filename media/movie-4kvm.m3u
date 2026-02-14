@@ -1,8 +1,12 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/02/rF6txsM6cgF9vg6Ra5sNbkvUwrw-185x278.jpg" tvg-name="扭曲遊戲" group-title="2026",扭曲遊戲
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167141
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/01/icXEintMlPvKGxCskYRzwd66Oc7-185x278.jpg" tvg-name="全信沒收" group-title="2026",全信沒收
 https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167073
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/02/1C01VWRbHOzj8qzHMUaeaInXQyq-185x278.jpg" tvg-name="暴衝特攻隊" group-title="2026",暴衝特攻隊
 https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167102
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/02/mqji7R2fq5fNowia3BwEFNl18Za-185x278.jpg" tvg-name="菜肉餛飩" group-title="2025",菜肉餛飩
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167139
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/02/gpOVtRZ1Rrstx6gPABGdZUSDcPs-185x278.jpg" tvg-name="三滴血" group-title="2025",三滴血
 https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167119
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/01/p3sdbpDWYdOkrSkAnNydcwH7cvJ-185x278.jpg" tvg-name="情圣3" group-title="2025",情圣3
