@@ -1,10 +1,22 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/02/f5EoZe8Z256w0tgRhYzV0LAtNuH-185x278.jpg" tvg-name="東北警察故事3" group-title="2026",東北警察故事3
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167155
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/02/kDsSmwtX8N0wmxRRdxjgYHenFNe-185x278.jpg" tvg-name="爆水管" group-title="2026",爆水管
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167157
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/02/xHLVXu5gZAY0jeQ5BTktDA7ZlSW-185x278.jpg" tvg-name="28年毀滅倒數：人骨聖殿" group-title="2026",28年毀滅倒數：人骨聖殿
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167163
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/02/yCOqrQxlh8M8O4PV19SXATHEIK5-185x278.jpg" tvg-name="天劫倒數2：大遷徙" group-title="2026",天劫倒數2：大遷徙
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167167
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/02/rF6txsM6cgF9vg6Ra5sNbkvUwrw-185x278.jpg" tvg-name="扭曲遊戲" group-title="2026",扭曲遊戲
 https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167141
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/01/icXEintMlPvKGxCskYRzwd66Oc7-185x278.jpg" tvg-name="全信沒收" group-title="2026",全信沒收
 https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167073
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/02/1C01VWRbHOzj8qzHMUaeaInXQyq-185x278.jpg" tvg-name="暴衝特攻隊" group-title="2026",暴衝特攻隊
 https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167102
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/02/kMFzAI0CGtkgTso0KE1CeJVEPDQ-185x278.jpg" tvg-name="偷偷喜歡你" group-title="2025",偷偷喜歡你
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167159
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/02/5EsO7WaKk3Em0uNuAEKhhuTWh3E-185x278.jpg" tvg-name="你行！你上！" group-title="2025",你行！你上！
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167186
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/02/mqji7R2fq5fNowia3BwEFNl18Za-185x278.jpg" tvg-name="菜肉餛飩" group-title="2025",菜肉餛飩
 https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167139
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/02/gpOVtRZ1Rrstx6gPABGdZUSDcPs-185x278.jpg" tvg-name="三滴血" group-title="2025",三滴血
@@ -287,6 +299,8 @@ https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=164888
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=164794
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/02/7Xzf7IHltlUHosVKKW7cKWtTv1n-185x278.jpg" tvg-name="笑傲江湖" group-title="2025",笑傲江湖
 https://www.4kvm.net/artplayer?mvsource=0&type=hls&id=164695
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/02/ippDxnzzKogA83aGNom8nkhkeIs-185x278.jpg" tvg-name="熊貓計劃" group-title="2024",熊貓計劃
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167180
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/w0kvHuCoJs8oUhaLCnjfyPaugkX-185x278.jpg" tvg-name="復活劫" group-title="2024",復活劫
 https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=166658
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2025/11/ba9b2ca9ce1674-185x278.jpg" tvg-name="最後的歌舞女郎" group-title="2024",最後的歌舞女郎

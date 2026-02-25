@@ -1,4 +1,10 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mR43qEH4uj5uLdkdQaL1szLlvBW.jpg" tvg-name="浴火之森" group-title="2026",浴火之森
+https://vip.dytt-tvs.com/20260221/12094_7f7ed8ec/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/urMjy6nS4xzIZIlXxiejh3xXPts.jpg" tvg-name="孔雀舞曲" group-title="2026",孔雀舞曲
+https://vip.dytt-tvs.com/20260221/12085_19aa6c6f/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tLLzsQTqFl94Axw6Qk9FRciCcDn.jpg" tvg-name="瑞典救援暗線" group-title="2026",瑞典救援暗線
+https://cdn.yzzy33-play.com/20260220/8295_d202ed5b/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9wBzRaeWfELNOPmcvOVTmB3kDEl.jpg" tvg-name="婚前脫單快樂" group-title="2026",婚前脫單快樂
 https://vip.dytt-tvs.com/20260207/11113_4b009c2f/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7bgnGJxHjysPtIAvpqoxFDWHHlY.jpg" tvg-name="致我的青春" group-title="2026",致我的青春
@@ -13,6 +19,8 @@ https://vip.dytt-cine.com/20260117/67355_bd471903/index.m3u8
 https://vip.dytt-cine.com/20260110/66850_86df9493/index.m3u8
 #EXTINF:-1 tvg-logo="https://vip.dytt-img.com/upload/vod/20260213-1/84a4005a9894031869dbbef4bb03612d.webp" tvg-name="全面開戰：兄弟會" group-title="2026",全面開戰：兄弟會
 https://vip.dytt-tvs.com/20260213/11836_2a2f98d3/index.m3u8
+#EXTINF:-1 tvg-logo="https://vip.dytt-img.com/upload/vod/20260214-1/f632adfd84e2076b98131a776428ff5d.webp" tvg-name="爺孫大學路" group-title="2026",爺孫大學路
+https://vip.dytt-tvs.com/20260214/11901_108f6a48/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bPOEtWhI7lGpW0OxZZGjt545OXy.jpg" tvg-name="約翰艾維 ：四分衛逆襲傳奇" group-title="2025",約翰艾維 ：四分衛逆襲傳奇
 https://cdn.yzzy28-play.com/20251223/27598_db68424c/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/g4sR32zqIzvuHjaGtFRFZJfE5ni.jpg" tvg-name="十項舞蹈" group-title="2025",十項舞蹈
