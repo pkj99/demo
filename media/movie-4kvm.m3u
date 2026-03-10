@@ -1,4 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/03/jTuu8wLW2RUg1IzX4IC7wqpsjIo-185x278.jpg" tvg-name="過家家" group-title="2026",過家家
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167201
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/03/kgnfgmVMXpJaNvst7B1CJRremOV-185x278.jpg" tvg-name="侵略機器" group-title="2026",侵略機器
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167213
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/02/f5EoZe8Z256w0tgRhYzV0LAtNuH-185x278.jpg" tvg-name="東北警察故事3" group-title="2026",東北警察故事3
 https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167155
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/02/kDsSmwtX8N0wmxRRdxjgYHenFNe-185x278.jpg" tvg-name="爆水管" group-title="2026",爆水管
@@ -13,6 +17,8 @@ https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167141
 https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167073
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/02/1C01VWRbHOzj8qzHMUaeaInXQyq-185x278.jpg" tvg-name="暴衝特攻隊" group-title="2026",暴衝特攻隊
 https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167102
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/03/oymKm1yLabt8a4oezYPLIFSjOea-185x278.jpg" tvg-name="遇見世界" group-title="2025",遇見世界
+https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167215
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/02/sm5WjHemivXAIphAAEzZ5yCBdNt-185x278.jpg" tvg-name="家弒服務" group-title="2025",家弒服務
 https://www.4kvm.me/artplayer?mvsource=0&type=hls&id=167190
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/02/kMFzAI0CGtkgTso0KE1CeJVEPDQ-185x278.jpg" tvg-name="偷偷喜歡你" group-title="2025",偷偷喜歡你
