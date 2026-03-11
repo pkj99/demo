@@ -251,6 +251,8 @@ http://192.168.1.249:5053/movie/vod80787-000000M001.m3u8
 http://192.168.1.249:5053/movie/vod81331-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/81951-000000-707070.jpg" tvg-name="女孩白日夢" group-title="2025",女孩白日夢
 http://192.168.1.249:5053/movie/vod81951-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/81332-000000-702032.jpg" tvg-name="剑引恩仇" group-title="2025",剑引恩仇
+http://192.168.1.249:5053/movie/vod81332-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/74681-000000-642724.jpg" tvg-name="看到靈魂的那隻眼 師公" group-title="2024",看到靈魂的那隻眼 師公
 http://192.168.1.249:5053/movie/vod74681-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/74682-000000-642725.jpg" tvg-name="間諜交鋒" group-title="2024",間諜交鋒
@@ -2269,6 +2271,8 @@ http://192.168.1.249:5053/movie/vod80780-000000M001.m3u8
 http://192.168.1.249:5053/movie/vod67931-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/81326-000000-702033.jpg" tvg-name="故人故居故事，一代名將王靖國" group-title="2021",故人故居故事，一代名將王靖國
 http://192.168.1.249:5053/movie/vod81326-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/82254-000000-713214.jpg" tvg-name="中國醫生" group-title="2021",中國醫生
+http://192.168.1.249:5053/movie/vod82254-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/71689-000000-618271.jpg" tvg-name="我的性愛玩偶" group-title="2020",我的性愛玩偶
 http://192.168.1.249:5053/movie/vod71689-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/75099-000000-647694.jpg" tvg-name="消失的75天" group-title="2020",消失的75天
