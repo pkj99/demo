@@ -1,4 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/02/yCOqrQxlh8M8O4PV19SXATHEIK5-185x278.jpg" tvg-name="天劫倒數 2：大遷徙" group-title="2026",天劫倒數 2：大遷徙
+http://192.168.1.249:5051/4kvm/167167.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/03/r1QSrP7xTqA4roGeAUt8a3Gwiy4-185x278.jpg" tvg-name="浴血黑幫：不朽傳奇" group-title="2026",浴血黑幫：不朽傳奇
+http://192.168.1.249:5051/4kvm/167334.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/03/jTuu8wLW2RUg1IzX4IC7wqpsjIo-185x278.jpg" tvg-name="過家家" group-title="2026",過家家
 http://192.168.1.249:5051/4kvm/167201.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/03/kgnfgmVMXpJaNvst7B1CJRremOV-185x278.jpg" tvg-name="侵略機器" group-title="2026",侵略機器
@@ -3577,6 +3581,8 @@ http://192.168.1.249:5051/4kvm/131000.m3u8
 http://192.168.1.249:5051/4kvm/147347.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2024/03/7E1JlkUCsP26g60IsvnpxoqAWoM-185x278.jpg" tvg-name="暗殺教室" group-title="2015",暗殺教室
 http://192.168.1.249:5051/4kvm/147567.m3u8
+#EXTINF:-1 tvg-logo="https://www.4kvm.me/wp-content/uploads/2026/03/yxzE1uIp8behBe1yGvdfb1hsFmv-185x278.jpg" tvg-name="生命中最抓狂的小事" group-title="2014",生命中最抓狂的小事
+http://192.168.1.249:5051/4kvm/167347.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/06/a7Eb5korUAji3X4eiN6ybE1r9yn-185x278.jpg" tvg-name="心迷宮" group-title="2014",心迷宮
 http://192.168.1.249:5051/4kvm/165706.m3u8
 #EXTINF:-1 tvg-logo="https://www.4kvm.net/wp-content/uploads/2025/05/6clhNv8twYzM27e4QPW9FKdkIND-185x278.jpg" tvg-name="錦衣衛-繡春刀" group-title="2014",錦衣衛-繡春刀
