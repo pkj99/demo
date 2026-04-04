@@ -1,4 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/76nYHKu2b69Jwy7W00v1Oyc4NRj.jpg" tvg-name="汪星人訓練營" group-title="2026",汪星人訓練營
+https://vip.dytt-kan.com/20260403/13069_30cd1e36/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tdws0Z7vOyeMuIwXh2qG37bR3ok.jpg" tvg-name="53 個週日" group-title="2026",53 個週日
+https://vip.ffzy-video.com/20260330/40564_08a99fb7/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mMYedUoRMKkGJKr5dA0fC5IWsSK.jpg" tvg-name="韓國製造的我" group-title="2026",韓國製造的我
 https://vip.dytt-tvs.com/20260314/12947_16ad66b2/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lb1VqgjZuvLSTvmJJdrcPlyvFWr.jpg" tvg-name="巴黎男孩 3" group-title="2026",巴黎男孩 3
@@ -15,6 +19,8 @@ https://vip.dytt-tvs.com/20260310/12735_68310dc2/index.m3u8
 https://vip.ffzy-video.com/20260227/38422_c14bdb64/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3ikcU9Yrc65doPCA2TwU2R5qvXn.jpg" tvg-name="侵略機器" group-title="2026",侵略機器
 https://vip.dytt-tvs.com/20260310/12734_872de53a/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/cNThncbZW5M0r18yusrcXmS92Ky.jpg" tvg-name="諜報暗線" group-title="2026",諜報暗線
+https://vip.dytt-kan.com/20260401/13001_c0eab2dc/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5Wvl190QkHeNJe0BRURdtf4YzMq.jpg" tvg-name="驚城之亂" group-title="2026",驚城之亂
 https://vip.ffzy-video.com/20260227/38421_cceb9d12/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9wBzRaeWfELNOPmcvOVTmB3kDEl.jpg" tvg-name="婚前脫單快樂" group-title="2026",婚前脫單快樂
@@ -1289,6 +1295,8 @@ https://vip.ffzy-online1.com/20230718/42354_fad5ea9d/index.m3u8
 https://vip.ffzy-online1.com/20230726/42539_b7f897f7/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/36sAFHdq0Y9ePh3rLZ09PyAuDKH.jpg" tvg-name="神劍闖江湖︰The Final" group-title="2021",神劍闖江湖︰The Final
 https://vip.dytt-kan.com/20250606/325_89f0fd5c/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/da9GtIjcefaJ8OeiUKlpxxLPBc5.jpg" tvg-name="米家大戰機器人" group-title="2021",米家大戰機器人
+https://cdn.yzzyvip-32.com/20260331/27703_8c5b85b2/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lP7HmQZW39ynAlv4rYiAmT6OOVm.jpg" tvg-name="雷霆女神" group-title="2021",雷霆女神
 https://vip.dytt-kan.com/20250907/5367_c1a3d347/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/rHfYTIPjSiameKP8zJCQscEJ5wo.jpg" tvg-name="只要你願意" group-title="2021",只要你願意
