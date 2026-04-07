@@ -811,6 +811,8 @@ http://192.168.1.249:5053/movie/vod82537-000000M001.m3u8
 http://192.168.1.249:5053/movie/vod82550-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/82549-000000-712725.jpg" tvg-name="生死试炼" group-title="2024",生死试炼
 http://192.168.1.249:5053/movie/vod82549-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/82542-000000-712598.jpg" tvg-name="九州龙悸" group-title="2024",九州龙悸
+http://192.168.1.249:5053/movie/vod82542-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/71684-000000-618266.jpg" tvg-name="拯救嫌疑人" group-title="2023",拯救嫌疑人
 http://192.168.1.249:5053/movie/vod71684-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/62350-000000-546665.jpg" tvg-name="天堂幻影" group-title="2023",天堂幻影
@@ -3265,6 +3267,8 @@ http://192.168.1.249:5053//vod40498-000000M001.m3u8
 http://192.168.1.249:5053/movie/vod40739-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/41643-000000-330673.jpg" tvg-name="笑笑羊大電影：外星人來了" group-title="2019",笑笑羊大電影：外星人來了
 http://192.168.1.249:5053/movie/vod41643-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/82253-000000-713257.jpg" tvg-name="決勝時刻" group-title="2019",決勝時刻
+http://192.168.1.249:5053/movie/vod82253-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/71062-000000-612147.jpg" tvg-name="古墓獸影" group-title="2018",古墓獸影
 http://192.168.1.249:5053/movie/vod71062-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/40277-000000-307224.jpg" tvg-name="人生消極掰" group-title="2018",人生消極掰
@@ -5099,6 +5103,8 @@ http://192.168.1.249:5053/drama/vod17699-000001M001.m3u8
 http://192.168.1.249:5053/drama/vod18027-000001M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/82244-000000-710791.jpg" tvg-name="豪門夜宴(修復版)" group-title="1991",豪門夜宴(修復版)
 http://192.168.1.249:5053/movie/vod82244-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/35185-000000-628918.jpg" tvg-name="穿梭時空五百年" group-title="1991",穿梭時空五百年
+http://192.168.1.249:5053/movie/vod35185-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/61911-000000-541788.jpg" tvg-name="短暫的愛情" group-title="1990",短暫的愛情
 http://192.168.1.249:5053/movie/vod61911-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/55045-000000-489223.jpg" tvg-name="遮蔽的天空" group-title="1990",遮蔽的天空
