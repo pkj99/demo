@@ -1,11 +1,16 @@
 台灣頻道,#genre#
+SDHBO,https://t.freetv.fun/live/hbo-2.m3u8
 SD中视 *28,https://t.freetv.fun/live/zhong-shi-28.m3u8
 SD中视 *b,https://t.freetv.fun/live/zhong-shi-b.m3u8
 fun探索娱乐,https://t.freetv.fun/live/funtan-suo-yu-le-5.m3u8
+中视 *a,https://t.freetv.fun/live/zhong-shi-a.m3u8
 中视 *ee,https://t.freetv.fun/live/zhong-shi-ee.php
 华视 *28,https://t.freetv.fun/live/hua-shi-28.m3u8
+华视 *a,https://t.freetv.fun/live/hua-shi-a.m3u8
 华视教育体育文化,http://74.91.26.218:82/live/ctsjy.m3u8
 台视 *28,https://t.freetv.fun/live/tai-shi-28.ts
+台视 *a,https://t.freetv.fun/live/tai-shi-a.m3u8
+天映新加坡,https://cdn10.163189.xyz/stream/163189/typd/
 民视第一台,http://74.91.26.218:82/live/ftvdy.m3u8
 民视台湾台,http://74.91.26.218:82/live/ftvtw.m3u8
 民视,http://74.91.26.218:82/live/ftv.m3u8
@@ -44,7 +49,7 @@ TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
 TVBS,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
 TVBS-Asia,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
 中天亚洲台,https://t.freetv.fun/live/zhong-tian-ya-zhou-b.m3u8
-纬来体育台,https://live12.xiazhix1.top/live/39480955.m3u8
+纬来体育台,https://t.freetv.fun/live/wei-lai-ti-yu-ee.php
 靖天国际,https://t.freetv.fun/live/jing-tian-guo-ji.php
 靖天欢乐台,https://t.freetv.fun/live/jing-tian-huan-le.php
 纬来日本台,https://t.freetv.fun/live/wei-lai-ri-ben-ee.php
@@ -52,14 +57,14 @@ TVBS-Asia,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
 博斯运动二台,https://t.freetv.fun/live/bo-si-yun-dong-2.php
 博斯无限二台,https://t.freetv.fun/live/bo-si-wu-xian-2.php
 爱尔达综合,https://t.freetv.fun/live/eltasheng-huo-lu-you-5.m3u8
-公视,http://74.91.26.218:82/live/pts.m3u8
+公视,http://74.91.26.218:82/live/ptsty.m3u8
 靖天戏剧台,https://t.freetv.fun/live/jing-tian-xi-ju.php
 采昌影剧台,https://t.freetv.fun/live/cai-chang-ying-ju.php
 靖天映画,https://t.freetv.fun/live/jing-tian-ying-hua.php
 靖天电影台,https://t.freetv.fun/live/jing-tian-dian-ying.m3u8
 台视财经台,http://74.91.26.218:82/live/ttvcj.m3u8
 台视综合台,http://74.91.26.218:82/live/ttvzh.m3u8
-人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
+人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
 经典电影台,https://t.freetv.fun/live/jing-dian-dian-ying-5.m3u8
 经典卡通台,https://t.freetv.fun/live/jing-dian-qia-tong-5.m3u8
 纬来精采,http://61.221.215.25:8800/hls/48/index.m3u8
@@ -73,6 +78,7 @@ TVBS-Asia,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
 龙华电影,https://t.freetv.fun/live/long-hua-dian-ying-b.m3u8
 东森美洲新闻台,http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
 凤凰资讯,http://61.221.215.25:8800/hls/47/index.m3u8
+天映经典,http://o11.163189.xyz/stream/live/ccm/
 寰宇财经,https://t.freetv.fun/live/huan-yu-cai-jing-10.m3u8
 广东体育,http://74.91.26.218:82/live/cctv5p.m3u8
 大陸央视,#genre#
@@ -144,8 +150,6 @@ TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
 博斯高球1台,https://t.freetv.fun/live/bo-si-gao-qiu-1.php
 博斯高球2台,https://t.freetv.fun/live/bo-si-gao-qiu-2.php
 广东体育,http://74.91.26.218:82/live/cctv5p.m3u8
-纬来体育台,https://hls.livelivelive.space/stream/39480955.m3u8
-纬来体育台,https://live12.xiazhix1.top/live/39480955.m3u8
 纬来体育台,https://t.freetv.fun/live/wei-lai-ti-yu-ee.php
 纬来体育台,https://t.freetv.fun/live/wei-lai-ti-yu.m3u8
 时尚运动X,http://192.168.1.249:5050/4gtv-4gtv014/index.m3u8?token=8GAIcWDJCfPwAvVMWlQn79FO8EJpSCwpSNjJuQpkAKntZm2NP114XA0QgODDNRcQ&proxy=true
@@ -163,17 +167,18 @@ CCTV5+,http://74.91.26.218:82/live/cctv5p.m3u8
 靖天电影台,http://iptv.4666888.xyz/iptv2A.php?id=56
 龙华洋片,http://iptv.4666888.xyz/iptv2A.php?id=60
 龙华电影,http://iptv.4666888.xyz/iptv2A.php?id=45
+SDHBO,https://t.freetv.fun/live/hbo-2.m3u8
 东森洋片台,https://t.freetv.fun/live/dong-sen-yang-pian-ee.php
 东森电影台,https://t.freetv.fun/live/dong-sen-dian-ying-ee.php
 东森电影台,https://t.freetv.fun/live/dong-sen-dian-ying-3.php
 东森电影台,https://t.freetv.fun/live/dong-sen-dian-ying.php
 纬来电影台,https://t.freetv.fun/live/wei-lai-dian-ying-ee.php
-纬来电影台,https://t.freetv.fun/live/wei-lai-dian-ying-1.m3u8
 经典电影台,https://down-hls.qxiu.com/live/453135/index.m3u8
 经典电影台,https://t.freetv.fun/live/jing-dian-dian-ying-5.m3u8
 经典电影台,https://t.freetv.fun/live/jing-dian-dian-ying.m3u8
 靖天电影台,https://t.freetv.fun/live/jing-tian-dian-ying.m3u8
 龙华电影,https://t.freetv.fun/live/long-hua-dian-ying-b.m3u8
+龙华电影,https://t.freetv.fun/live/long-hua-dian-ying-2.m3u8
 My Cinema Europe  我的欧洲电影,http://192.168.1.249:5050/litv-ftv10/index.m3u8?token=8GAIcWDJCfPwAvVMWlQn79FO8EJpSCwpSNjJuQpkAKntZm2NP114XA0QgODDNRcQ&proxy=true
 amc电影台,http://192.168.1.249:5050/4gtv-4gtv017/index.m3u8?token=8GAIcWDJCfPwAvVMWlQn79FO8EJpSCwpSNjJuQpkAKntZm2NP114XA0QgODDNRcQ&proxy=true
 影迷数位电影台,http://192.168.1.249:5050/4gtv-4gtv011/index.m3u8?token=8GAIcWDJCfPwAvVMWlQn79FO8EJpSCwpSNjJuQpkAKntZm2NP114XA0QgODDNRcQ&proxy=true

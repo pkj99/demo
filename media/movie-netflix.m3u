@@ -1,4 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dqs5hQaWtR9HGeFjd9e6UfWMyE3.jpg" tvg-name="吐司機大危機" group-title="2026",吐司機大危機
+https://vip.dytt-kan.com/20260417/13637_0c48ff73/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/nSo9ppiNfAOHFRlZPVQlx0W4fzD.jpg" tvg-name="狂鯊風暴" group-title="2026",狂鯊風暴
+https://vip.dytt-kan.com/20260411/13383_ecb32040/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/orKCPlIHG1PulYZfG79aEKMKK29.jpg" tvg-name="心之高歌" group-title="2026",心之高歌
 https://vip.dytt-kan.com/20260404/13136_d79e8872/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/76nYHKu2b69Jwy7W00v1Oyc4NRj.jpg" tvg-name="汪星人訓練營" group-title="2026",汪星人訓練營
