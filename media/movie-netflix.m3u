@@ -1,6 +1,10 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/p79mJw7ILs8WeISptlr6FbKdJS1.jpg" tvg-name="180 度" group-title="2026",180 度
+https://vip.dytt-kan.com/20260418/13682_9eb39f49/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dqs5hQaWtR9HGeFjd9e6UfWMyE3.jpg" tvg-name="吐司機大危機" group-title="2026",吐司機大危機
 https://vip.dytt-kan.com/20260417/13637_0c48ff73/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9cGkPfSSBHwUyvosf7YAHU621hn.jpg" tvg-name="我的室友好雷" group-title="2026",我的室友好雷
+https://vip.dytt-kan.com/20260418/13681_56138186/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/nSo9ppiNfAOHFRlZPVQlx0W4fzD.jpg" tvg-name="狂鯊風暴" group-title="2026",狂鯊風暴
 https://vip.dytt-kan.com/20260411/13383_ecb32040/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/orKCPlIHG1PulYZfG79aEKMKK29.jpg" tvg-name="心之高歌" group-title="2026",心之高歌

@@ -25,7 +25,7 @@ fun探索娱乐,https://t.freetv.fun/live/funtan-suo-yu-le-5.m3u8
 纬来综合台,https://t.freetv.fun/live/wei-lai-zong-he-ee.php
 三立台湾台,https://t.freetv.fun/live/san-li-tai-wan.php
 三立都会台,https://t.freetv.fun/live/san-li-du-hui.php
-东森超视,http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
+东森超视,http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8?$720x480
 中天娱乐台,http://61.221.215.25:8800/hls/47/index.m3u8
 东森戏剧台,https://t.freetv.fun/live/dong-sen-xi-ju-ee.php
 MOMO亲子台,https://t.freetv.fun/live/momoqin-zi-8.m3u8
@@ -35,7 +35,7 @@ MOMO亲子台,https://t.freetv.fun/live/momoqin-zi-8.m3u8
 中天综合台,https://t.freetv.fun/live/zhong-tian-zong-he.m3u8
 华视新闻,http://74.91.26.218:82/live/ctsnews.m3u8
 台视新闻台,http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
-民视新闻台,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
+民视新闻台,http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
 三立新闻台,https://t.freetv.fun/live/san-li-inews-10.m3u8
 TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
 中视新闻,http://74.91.26.218:82/live/ctvnews.m3u8
@@ -64,8 +64,8 @@ TVBS-Asia,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
 靖天电影台,https://t.freetv.fun/live/jing-tian-dian-ying.m3u8
 台视财经台,http://74.91.26.218:82/live/ttvcj.m3u8
 台视综合台,http://74.91.26.218:82/live/ttvzh.m3u8
-人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
-经典电影台,https://t.freetv.fun/live/jing-dian-dian-ying-5.m3u8
+人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
+经典电影台,https://down-hls.qxiu.com/live/453135/index.m3u8
 经典卡通台,https://t.freetv.fun/live/jing-dian-qia-tong-5.m3u8
 纬来精采,http://61.221.215.25:8800/hls/48/index.m3u8
 三立戏剧,http://61.221.215.25:8800/hls/41/index.m3u8
@@ -135,7 +135,7 @@ TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
 寰宇新闻台湾台,https://t.freetv.fun/live/huan-yu-xin-wen-tai-wan-16.m3u8
 年代新闻台,https://t.freetv.fun/live/nian-dai-xin-wen-ee.php
 民视新闻台,https://pkj99.github.io/iptv/ftv.html?ChannelId=litv-ftv13
-民视新闻台,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
+民视新闻台,http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
 非凡新闻台,https://t.freetv.fun/live/fei-fan-xin-wen-1-1.php
 體育頻道,#genre#
 广东体育,http://iptv.4666888.xyz/iptv2A.php?id=20
@@ -258,6 +258,7 @@ TVBS欢乐台,rtmp://161.202.204.248/sat/tv421
 中天新闻台,rtmp://123.156.165.47/live/yifatv-ztxw01
 中天新闻台,rtmp://yj.zxhkuav.cn/live/yifatv-ztxw
 中天新闻台,rtmp://demo2.anj365.com/live/xiangjiaoge-ztxw
+中天新闻台,rtmp://vip.huahong.pro/live/xingjiaoge-ztxw2
 中视,rtmp://f13h.mine.nu/sat/tv091
 中视,rtmp://59.124.75.138/sat/tv091
 中视,rtmp://9hv9.mine.nu/sat/tv091
