@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hjapd5p3WebQNdJFwg1sYA1JA95.jpg" tvg-name="巔峰獵殺" group-title="2026",巔峰獵殺
+https://vip.dytt-kan.com/20260425/13954_7fb56a46/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/p79mJw7ILs8WeISptlr6FbKdJS1.jpg" tvg-name="180 度" group-title="2026",180 度
 https://vip.dytt-kan.com/20260418/13682_9eb39f49/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dqs5hQaWtR9HGeFjd9e6UfWMyE3.jpg" tvg-name="吐司機大危機" group-title="2026",吐司機大危機
@@ -51,6 +53,8 @@ https://vip.dytt-tvs.com/20260213/11836_2a2f98d3/index.m3u8
 https://vip.dytt-tvs.com/20260214/11901_108f6a48/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/bPOEtWhI7lGpW0OxZZGjt545OXy.jpg" tvg-name="約翰艾維 ：四分衛逆襲傳奇" group-title="2025",約翰艾維 ：四分衛逆襲傳奇
 https://cdn.yzzy28-play.com/20251223/27598_db68424c/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dl19vt92LSuIah9M1eQpvZwkVmp.jpg" tvg-name="勇者時刻" group-title="2025",勇者時刻
+https://player.yzzyvip-35.com/20260425/5476_9ba82616/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/g4sR32zqIzvuHjaGtFRFZJfE5ni.jpg" tvg-name="十項舞蹈" group-title="2025",十項舞蹈
 https://vip.ffzy-plays.com/20251218/48669_cc0e12fa/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ygsMOnttVCekvJZgvmnvaemxPHA.jpg" tvg-name="再見六月" group-title="2025",再見六月

@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/9iJpbmb9WgVqrTSPQlpeGKllpDC.jpg" tvg-name="併桌" group-title="2026",併桌
+http://192.168.1.249/4kvm/MOVIE/ch44302l7.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/unGnQyrqtNY4Bfv3BjVwCyYqDCc.jpg" tvg-name="猎战狂徒" group-title="2026",猎战狂徒
 http://192.168.1.249/4kvm/MOVIE/ch1w009hs.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/y7tpK50AnQGF2DZKRmNWxpwuMey.jpg" tvg-name="全信沒收" group-title="2026",全信沒收
