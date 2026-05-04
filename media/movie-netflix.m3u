@@ -1,6 +1,12 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4vGvKIWUyOJkaoYcywAJEswv0ot.jpg" tvg-name="奇幻變身大冒險" group-title="2026",奇幻變身大冒險
+https://vip.dytt-kan.com/20260502/14220_9e6bc039/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/15VGVcLcrljJHUYSYU3Wj1I38Gh.jpg" tvg-name="我叫艾妮塔" group-title="2026",我叫艾妮塔
+https://vip.dytt-kan.com/20260501/14185_a0cce36d/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hjapd5p3WebQNdJFwg1sYA1JA95.jpg" tvg-name="巔峰獵殺" group-title="2026",巔峰獵殺
 https://vip.dytt-kan.com/20260425/13954_7fb56a46/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/3mmaRTs5rUM9mQfMVSaUlD5Gl0C.jpg" tvg-name="我親愛的小姐" group-title="2026",我親愛的小姐
+https://vip.dytt-kan.com/20260502/14219_bc0573e9/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/p79mJw7ILs8WeISptlr6FbKdJS1.jpg" tvg-name="180 度" group-title="2026",180 度
 https://vip.dytt-kan.com/20260418/13682_9eb39f49/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dqs5hQaWtR9HGeFjd9e6UfWMyE3.jpg" tvg-name="吐司機大危機" group-title="2026",吐司機大危機
@@ -1084,7 +1090,7 @@ https://yzzy.play-cdn6.com/20220810/9337_3c7febbd/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/45yBV8SuVkCAgp9UgvmrJQsTHLD.jpg" tvg-name="我們不說再見" group-title="2022",我們不說再見
 https://vip.ffzy-online1.com/20230703/42059_a9db9676/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6yRMyWwjuhKg6IU66uiZIGhaSc8.jpg" tvg-name="深水" group-title="2022",深水
-https://vip.ffzy-play7.com/20230304/16998_bc60f9ea/index.m3u8
+https://vip.dytt-see.com/20260504/35674_c9c8e812/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/vlPfHMRKXrJZS0cQMQITxICABXn.jpg" tvg-name="搜救犬露比" group-title="2022",搜救犬露比
 https://vip.ffzy-play7.com/20230205/13294_93c2686d/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/uFGEkxMTI4il5GuB5b25alxcNVL.jpg" tvg-name="黃金屋" group-title="2022",黃金屋

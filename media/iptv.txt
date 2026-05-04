@@ -1,5 +1,5 @@
 台灣頻道,#genre#
-SDHBO,https://t.freetv.fun/live/hbo-1.m3u8
+SDHBO,https://t.freetv.fun/live/hbo-3.m3u8
 SD中视 *28,https://t.freetv.fun/live/zhong-shi-28.m3u8
 SD中视 *b,https://t.freetv.fun/live/zhong-shi-b.m3u8
 fun探索娱乐,https://t.freetv.fun/live/funtan-suo-yu-le-5.m3u8
@@ -59,7 +59,7 @@ TVBS-Asia,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
 博斯运动二台,https://t.freetv.fun/live/bo-si-yun-dong-2.php
 博斯无限二台,https://t.freetv.fun/live/bo-si-wu-xian-2.php
 爱尔达综合,https://t.freetv.fun/live/eltasheng-huo-lu-you-5.m3u8
-公视,http://74.91.26.218:82/live/pts.m3u8
+公视,http://74.91.26.218:82/live/ptsty.m3u8
 靖天戏剧台,https://t.freetv.fun/live/jing-tian-xi-ju.php
 采昌影剧台,https://t.freetv.fun/live/cai-chang-ying-ju.php
 靖天映画,https://t.freetv.fun/live/jing-tian-ying-hua.php
@@ -153,6 +153,9 @@ TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
 博斯高球2台,https://t.freetv.fun/live/bo-si-gao-qiu-2.php
 广东体育,http://74.91.26.218:82/live/cctv5p.m3u8
 纬来体育台,https://t.freetv.fun/live/wei-lai-ti-yu-ee.php
+时尚运动X,http://192.168.1.249:5050/4gtv-4gtv014/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+时尚运动X,http://192.168.1.249:5050/4gtv-live411/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+智林体育台,http://192.168.1.249:5050/4gtv-4gtv101/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
 CCTV5,http://74.91.26.218:82/live/cctv5hd.m3u8
 CCTV5+,http://223.112.114.228:50080/newlive/live/hls/180/live.m3u8
 CCTV5+,http://74.91.26.218:82/live/cctv5p.m3u8
@@ -165,7 +168,7 @@ CCTV5+,http://74.91.26.218:82/live/cctv5p.m3u8
 靖天电影台,http://iptv.4666888.xyz/iptv2A.php?id=56
 龙华洋片,http://iptv.4666888.xyz/iptv2A.php?id=60
 龙华电影,http://iptv.4666888.xyz/iptv2A.php?id=45
-SDHBO,https://t.freetv.fun/live/hbo-1.m3u8
+SDHBO,https://t.freetv.fun/live/hbo-3.m3u8
 东森洋片台,https://t.freetv.fun/live/dong-sen-yang-pian-ee.php
 东森电影台,https://t.freetv.fun/live/dong-sen-dian-ying-ee.php
 东森电影台,https://t.freetv.fun/live/dong-sen-dian-ying-3.php
@@ -178,6 +181,14 @@ SDHBO,https://t.freetv.fun/live/hbo-1.m3u8
 龙华电影,https://t.freetv.fun/live/long-hua-dian-ying-b.m3u8
 龙华电影,https://t.freetv.fun/live/long-hua-dian-ying-2.m3u8
 龙华电影,https://t.freetv.fun/live/long-hua-dian-ying-3.m3u8
+My Cinema Europe  我的欧洲电影,http://192.168.1.249:5050/litv-ftv10/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+amc电影台,http://192.168.1.249:5050/4gtv-4gtv017/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+影迷数位电影台,http://192.168.1.249:5050/4gtv-4gtv011/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+电影原声台CMusic,http://192.168.1.249:5050/4gtv-live031/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+经典电影台,http://192.168.1.249:5050/4gtv-live021/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+靖天电影台,http://192.168.1.249:5050/4gtv-4gtv061/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+龙华洋片,http://192.168.1.249:5050/litv-xinchuang02/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+龙华电影,http://192.168.1.249:5050/litv-xinchuang03/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
 龙华洋片,https://pkj99.github.io/iptv/ofiii.html?asset_id=litv-xinchuang02
 龙华电影,https://pkj99.github.io/iptv/ofiii.html?asset_id=litv-xinchuang03
 廣播頻道,#genre#
@@ -287,3 +298,132 @@ TVBS欢乐台,rtmp://161.202.204.248/sat/tv421
 纬来育乐台,rtmp://161.202.204.248/sat/tv701
 经典电影台,rtmp://live.gxrb.com.cn/pull/red_movies_0501
 非凡新闻台,rtmp://f13h.mine.nu/sat/tv581
+四季頻道L,#genre#
+民视台湾台,http://192.168.1.249:5050/4gtv-4gtv001/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+民视,http://192.168.1.249:5050/4gtv-4gtv002/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+民视第一台,http://192.168.1.249:5050/4gtv-4gtv003/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+民视综艺台,http://192.168.1.249:5050/4gtv-4gtv004/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+猪哥亮歌厅秀,http://192.168.1.249:5050/4gtv-4gtv006/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+中天新闻台,http://192.168.1.249:5050/4gtv-4gtv009/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+影迷数位电影台,http://192.168.1.249:5050/4gtv-4gtv011/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+视纳华仁纪实频道,http://192.168.1.249:5050/4gtv-4gtv013/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+时尚运动X,http://192.168.1.249:5050/4gtv-4gtv014/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+韩国娱乐台,http://192.168.1.249:5050/4gtv-4gtv016/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+amc电影台,http://192.168.1.249:5050/4gtv-4gtv017/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+达芬奇频道,http://192.168.1.249:5050/4gtv-4gtv018/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+八大精彩台,http://192.168.1.249:5050/4gtv-4gtv034/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+八大综合台,http://192.168.1.249:5050/4gtv-4gtv039/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+中视,http://192.168.1.249:5050/4gtv-4gtv040/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+华视,http://192.168.1.249:5050/4gtv-4gtv041/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+公视,http://192.168.1.249:5050/4gtv-4gtv042/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+客家电视台,http://192.168.1.249:5050/4gtv-4gtv043/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+靖天卡通台,http://192.168.1.249:5050/4gtv-4gtv044/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+靖洋戏剧台,http://192.168.1.249:5050/4gtv-4gtv045/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+靖天综合台,http://192.168.1.249:5050/4gtv-4gtv046/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+靖天日本台,http://192.168.1.249:5050/4gtv-4gtv047/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+采昌影剧台,http://192.168.1.249:5050/4gtv-4gtv049/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+华视新闻,http://192.168.1.249:5050/4gtv-4gtv052/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+GINX Esports TV,http://192.168.1.249:5050/4gtv-4gtv053/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+靖天欢乐台,http://192.168.1.249:5050/4gtv-4gtv054/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+靖天映画,http://192.168.1.249:5050/4gtv-4gtv055/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+靖洋卡通Nice Bingo,http://192.168.1.249:5050/4gtv-4gtv057/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+靖天戏剧台,http://192.168.1.249:5050/4gtv-4gtv058/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+CLASSICA古典乐,http://192.168.1.249:5050/4gtv-4gtv059/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+靖天电影台,http://192.168.1.249:5050/4gtv-4gtv061/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+靖天育乐台,http://192.168.1.249:5050/4gtv-4gtv062/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+靖天国际,http://192.168.1.249:5050/4gtv-4gtv063/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+靖天资讯台,http://192.168.1.249:5050/4gtv-4gtv065/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+TVBS精采台,http://192.168.1.249:5050/4gtv-4gtv067/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+TVBS欢乐台,http://192.168.1.249:5050/4gtv-4gtv068/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+爱尔达娱乐台,http://192.168.1.249:5050/4gtv-4gtv070/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+TVBS新闻台,http://192.168.1.249:5050/4gtv-4gtv072/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+TVBS,http://192.168.1.249:5050/4gtv-4gtv073/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+中视新闻,http://192.168.1.249:5050/4gtv-4gtv074/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+镜电视新闻台,http://192.168.1.249:5050/4gtv-4gtv075/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+亚洲旅游,http://192.168.1.249:5050/4gtv-4gtv076/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+TRACE Sport Stars,http://192.168.1.249:5050/4gtv-4gtv077/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+ARIRANG阿里郎频道,http://192.168.1.249:5050/4gtv-4gtv079/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+TRACE Urban,http://192.168.1.249:5050/4gtv-4gtv082/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+Mezzo Live,http://192.168.1.249:5050/4gtv-4gtv083/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+国会频道1,http://192.168.1.249:5050/4gtv-4gtv084/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+国会频道2,http://192.168.1.249:5050/4gtv-4gtv085/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+智林体育台,http://192.168.1.249:5050/4gtv-4gtv101/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+第1商业台,http://192.168.1.249:5050/4gtv-4gtv104/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+东森新闻台,http://192.168.1.249:5050/4gtv-4gtv152/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+东森财经新闻台,http://192.168.1.249:5050/4gtv-4gtv153/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+寰宇新闻台湾台,http://192.168.1.249:5050/4gtv-4gtv156/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+大爱一台,http://192.168.1.249:5050/4gtv-live007/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+人间卫视,http://192.168.1.249:5050/4gtv-live008/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+fun探索娱乐台,http://192.168.1.249:5050/4gtv-live011/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+滚动力rollor,http://192.168.1.249:5050/4gtv-live012/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+原住民频道,http://192.168.1.249:5050/4gtv-live014/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+DreamWorks 梦工厂动画,http://192.168.1.249:5050/4gtv-live017/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+经典电影台,http://192.168.1.249:5050/4gtv-live021/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+经典卡通台,http://192.168.1.249:5050/4gtv-live022/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+精选动漫台,http://192.168.1.249:5050/4gtv-live024/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+History 历史频道,http://192.168.1.249:5050/4gtv-live026/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+CI 罪案侦查频道,http://192.168.1.249:5050/4gtv-live027/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+Lifetime 娱乐频道,http://192.168.1.249:5050/4gtv-live029/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+LiveABC互动英语频道,http://192.168.1.249:5050/4gtv-live030/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+电影原声台CMusic,http://192.168.1.249:5050/4gtv-live031/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+Nick Jr. 儿童频道,http://192.168.1.249:5050/4gtv-live032/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+东森购物二台,http://192.168.1.249:5050/4gtv-live046/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+东森购物一台,http://192.168.1.249:5050/4gtv-live047/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+东森购物三台,http://192.168.1.249:5050/4gtv-live048/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+东森购物四台,http://192.168.1.249:5050/4gtv-live049/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+新唐人亚太台,http://192.168.1.249:5050/4gtv-live050/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+Bloomberg TV,http://192.168.1.249:5050/4gtv-live059/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+SBN全球财经台,http://192.168.1.249:5050/4gtv-live060/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+Cinema World,http://192.168.1.249:5050/4gtv-live069/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+DW德国之声,http://192.168.1.249:5050/4gtv-live071/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+ROCK Entertainment,http://192.168.1.249:5050/4gtv-live080/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+FashionTV 时尚频道,http://192.168.1.249:5050/4gtv-live085/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+三立新闻台,http://192.168.1.249:5050/4gtv-live089/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+INULTRA,http://192.168.1.249:5050/4gtv-live096/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+尼克儿童频道,http://192.168.1.249:5050/4gtv-live105/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+大爱二台,http://192.168.1.249:5050/4gtv-live106/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+MOMO亲子台,http://192.168.1.249:5050/4gtv-live107/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+Global Trekker,http://192.168.1.249:5050/4gtv-live112/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+爱尔达综合,http://192.168.1.249:5050/4gtv-live120/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+LUXE TV Channel,http://192.168.1.249:5050/4gtv-live121/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+TV5MONDE STYLE  生活时尚,http://192.168.1.249:5050/4gtv-live122/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+MagellanTV频道,http://192.168.1.249:5050/4gtv-live123/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+ROCK Entertainment,http://192.168.1.249:5050/4gtv-live124/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+CNBC Asia 财经台,http://192.168.1.249:5050/4gtv-live130/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+ROCK Entertainment,http://192.168.1.249:5050/4gtv-live138/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+金光布袋戏,http://192.168.1.249:5050/4gtv-live144/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+FRANCE24 英文台,http://192.168.1.249:5050/4gtv-live146/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+半岛国际新闻台,http://192.168.1.249:5050/4gtv-live157/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+NHK 新闻资讯台,http://192.168.1.249:5050/4gtv-live168/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+车迷 TV,http://192.168.1.249:5050/4gtv-live201/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+幸福空間居家台,http://192.168.1.249:5050/4gtv-live206/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+三立综合台,http://192.168.1.249:5050/4gtv-live207/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+Love Nature,http://192.168.1.249:5050/4gtv-live208/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+民视,http://192.168.1.249:5050/4gtv-live215/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+民视台湾台,http://192.168.1.249:5050/4gtv-live401/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+民视第一台,http://192.168.1.249:5050/4gtv-live403/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+寰宇新闻,http://192.168.1.249:5050/4gtv-live408/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+中天新闻台,http://192.168.1.249:5050/4gtv-live409/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+时尚运动X,http://192.168.1.249:5050/4gtv-live411/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+民视新闻台,http://192.168.1.249:5050/4gtv-live413/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+华视新闻,http://192.168.1.249:5050/4gtv-live452/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+中视新闻,http://192.168.1.249:5050/4gtv-live474/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+HITS频道,http://192.168.1.249:5050/4gtv-live620/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+民视旅游台,http://192.168.1.249:5050/litv-ftv07/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+民视影剧台,http://192.168.1.249:5050/litv-ftv09/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+My Cinema Europe  我的欧洲电影,http://192.168.1.249:5050/litv-ftv10/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+民视新闻台,http://192.168.1.249:5050/litv-ftv13/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+影迷数位纪实台,http://192.168.1.249:5050/litv-ftv15/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+好消息,http://192.168.1.249:5050/litv-ftv16/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+好消息2台,http://192.168.1.249:5050/litv-ftv17/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+寰宇新闻,http://192.168.1.249:5050/litv-longturn14/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+龙华动画,http://192.168.1.249:5050/litv-xinchuang01/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+龙华洋片,http://192.168.1.249:5050/litv-xinchuang02/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+龙华电影,http://192.168.1.249:5050/litv-xinchuang03/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+龙华日韩台,http://192.168.1.249:5050/litv-xinchuang11/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+龙华偶像,http://192.168.1.249:5050/litv-xinchuang12/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+龙华戏剧,http://192.168.1.249:5050/litv-xinchuang18/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+SMART知识台,http://192.168.1.249:5050/litv-xinchuang19/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+ELTV生活英语台,http://192.168.1.249:5050/litv-xinchuang20/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+龙华经典,http://192.168.1.249:5050/litv-xinchuang21/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
+台湾戏剧台,http://192.168.1.249:5050/litv-xinchuang22/index.m3u8?token=HBGbpJptm672ksFrtScgcKUBdzCcH3rDg4kZaaSx7vpTfOpdAwu7LW3GANXFu4td&proxy=true
