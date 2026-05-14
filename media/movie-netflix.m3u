@@ -1,4 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1AijqDChzy7BnUFPMEX5khDaaRx.jpg" tvg-name="明亮燦爛的你" group-title="2026",明亮燦爛的你
+https://play.phimgood.com/20260509/26598_fad81a05/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8tq08OiArD6fF4Wh3e0Dq1Pln4m.jpg" tvg-name="我的摯愛殺手" group-title="2026",我的摯愛殺手
+https://play.phimgood.com/20260509/26608_c5b14c33/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4vGvKIWUyOJkaoYcywAJEswv0ot.jpg" tvg-name="奇幻變身大冒險" group-title="2026",奇幻變身大冒險
 https://vip.dytt-kan.com/20260502/14220_9e6bc039/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/15VGVcLcrljJHUYSYU3Wj1I38Gh.jpg" tvg-name="我叫艾妮塔" group-title="2026",我叫艾妮塔
@@ -71,6 +75,8 @@ https://cdn.yzzy33-play.com/20251206/1580_dc5c768b/index.m3u8
 https://vip.ffzy-video.com/20251211/33143_38dfefa8/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gVufCABbj6NqBYyLaw6eptem28e.jpg" tvg-name="忘我星途" group-title="2025",忘我星途
 https://vip.dytt-cine.com/20251211/64327_3bcd40ff/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/jHEgYm0zSlqAduZy86Bf9Qg7v7.jpg" tvg-name="愛你的梅根：歡度佳節" group-title="2025",愛你的梅根：歡度佳節
+https://cdn.yzzy28-play.com/20260511/30091_37654b79/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tCnYPjdIERnXrIttJBEytzBu4Y2.jpg" tvg-name="山怪巨魔 2" group-title="2025",山怪巨魔 2
 https://vip.dytt-cinema.com/20251201/42065_c7f803c3/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/chBvJbLf45SGoWPgKHSX3C3vfNk.jpg" tvg-name="鋒迴路轉：亡者歸來" group-title="2025",鋒迴路轉：亡者歸來
