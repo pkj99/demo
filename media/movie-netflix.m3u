@@ -1,4 +1,10 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ilajfwHgPdD8F0baN8XnEC94o2U.jpg" tvg-name="謎印女子" group-title="2026",謎印女子
+https://play.phimgood.com/20260606/27609_0dbcc22a/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gtBS0bQNqTeOVN2UbqdwXxNFGKn.jpg" tvg-name="同事以上，戀人未滿" group-title="2026",同事以上，戀人未滿
+https://play.phimgood.com/20260606/27603_c657bb88/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/wH4DpyhjO05wUIEO7naqHYBvKhp.jpg" tvg-name="媽呀真亂來" group-title="2026",媽呀真亂來
+https://play.phimgood.com/20260606/27616_2b5102c2/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1AijqDChzy7BnUFPMEX5khDaaRx.jpg" tvg-name="明亮燦爛的你" group-title="2026",明亮燦爛的你
 https://play.phimgood.com/20260509/26598_fad81a05/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8tq08OiArD6fF4Wh3e0Dq1Pln4m.jpg" tvg-name="我的摯愛殺手" group-title="2026",我的摯愛殺手
