@@ -1,4 +1,10 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7F3XaVBrMLRAbMadwM8A9MViQkA.jpg" tvg-name="真愛留聲" group-title="2026",真愛留聲
+https://play.phimgood.com/20260620/28102_f6a81a05/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1vhjC7Ra5C6BPeZskeMz0WUmrnr.jpg" tvg-name="玩具總動員5" group-title="2026",玩具總動員5
+https://vip.dytt-see.com/20260624/41088_7370a4e2/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/rT96arZ7NkFmrw47dCRoIabaxeU.jpg" tvg-name="你的過錯：倫敦" group-title="2026",你的過錯：倫敦
+https://play.phimgood.com/20260618/28029_e8d6b4ac/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2ce0xoPEjsKvc1HVPxftF29Rl73.jpg" tvg-name="揭密日" group-title="2026",揭密日
 https://vip.dytt-network.com/20260611/35783_f05c20c5/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gtBS0bQNqTeOVN2UbqdwXxNFGKn.jpg" tvg-name="同事以上，戀人未滿" group-title="2026",同事以上，戀人未滿
@@ -10,7 +16,7 @@ https://vip.dytt-see.com/20260611/40609_16bf14ff/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/pV2RJV27vTK4jqUXiX2wutxy5ab.jpg" tvg-name="後室" group-title="2026",後室
 https://vip.dytt-network.com/20260604/34996_c7ced588/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1ROEjeeLfFtUvBuF3a28Iffe0ht.jpg" tvg-name="曼達洛人與古古" group-title="2026",曼達洛人與古古
-https://vip.dytt-network.com/20260602/33465_e72c36d5/index.m3u8
+https://vip.dytt-network.com/20260624/35935_6591c2ba/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/fRpHyOHOtMiiUTSL7BMAbUopxpT.jpg" tvg-name="湯姆克蘭西之傑克萊恩：幽影暗戰" group-title="2026",湯姆克蘭西之傑克萊恩：幽影暗戰
 https://play.phimgood.com/20260520/27060_604580f8/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/yKCIQVHcMKIKNiYxHeGuv2HkuLq.jpg" tvg-name="愛你致死不渝" group-title="2026",愛你致死不渝
@@ -23,6 +29,8 @@ https://play.phimgood.com/20260513/26738_423e44c6/index.m3u8
 https://vip.dytt-see.com/20260518/38898_66bbaf00/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4vGvKIWUyOJkaoYcywAJEswv0ot.jpg" tvg-name="奇幻變身大冒險" group-title="2026",奇幻變身大冒險
 https://vip.dytt-kan.com/20260502/14220_9e6bc039/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/d38UrBjS5QgECryNeaf58jkLSsv.jpg" tvg-name="Deep Water" group-title="2026",Deep Water
+https://vip.dytt-see.com/20260519/38904_892affbf/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/pep61TOT2GJjT0ck2JbtMwIZNyJ.jpg" tvg-name="穿著PRADA的惡魔2" group-title="2026",穿著PRADA的惡魔2
 https://vip.dytt-network.com/20260502/28117_6ca3f7ac/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/93xtN8BmdVNkLfHnVD2xhmypnl7.jpg" tvg-name="陰魂旅社" group-title="2026",陰魂旅社
@@ -401,6 +409,8 @@ https://vip.dytt-kan.com/20250606/322_5737c6ec/index.m3u8
 https://vip.dytt-kan.com/20250609/533_df877f38/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/httDaqrJROAK8auXGDha7rdxCWM.jpg" tvg-name="男人百分百" group-title="2000",男人百分百
 https://vip.dytt-film.com/20250216/7285_78ccad7d/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/69v22wS7Z5PSTqhHqCTJxfWRsXj.jpg" tvg-name="火遮眼" group-title="2000",火遮眼
+https://vip.dytt-network.com/20260611/35782_b948738d/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/28FX5rCNo6p602DzgPOTNZjyMPh.jpg" tvg-name="卧虎藏龍" group-title="2000",卧虎藏龍
 https://vip.dytt-film.com/20250129/3472_2974788b/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dzDomGKtXBSpsXbwfI5Ujn2rQvm.jpg" tvg-name="真愛伴我行" group-title="2000",真愛伴我行
@@ -413,6 +423,8 @@ https://vip.dytt-live.com/20250329/2540_9657c1ff/index.m3u8
 https://vip.dytt-kan.com/20251008/7883_3f8e8bb5/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/Ac68G8LkY4AJL6lXpClRP4uJMRV.jpg" tvg-name="阿甘正傳" group-title="1994",阿甘正傳
 https://vip.dytt-film.com/20250305/11048_1010cedf/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ovcXMedDPlieqkbn5FCqP6NBuZ4.jpg" tvg-name="烈火情人" group-title="1992",烈火情人
+https://vip.dytt-network.com/20260211/19357_368851f0/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/wCF99v3qCKUXUuyVeGO2QPYty8V.jpg" tvg-name="魔鬼戰將" group-title="1992",魔鬼戰將
 https://vip.dytt-cine.com/20250530/27345_f7ae6299/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/21mBNUe0X4WYywe6w5DyihltmAn.jpg" tvg-name="K-9" group-title="1989",K-9
@@ -429,6 +441,8 @@ https://vip.dytt-tvb.com/20251017/52208_005878dd/index.m3u8
 https://vip.dytt-tvs.com/20260129/10661_ef2f8301/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ts6Pykj9IuVm1eWwaWiVl8Gzxqt.jpg" tvg-name="High Road to China" group-title="1983",High Road to China
 https://vip.dytt-luck.com/20250720/11520_cdf49f52/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/arRNmW27fs1TFsIBOwPYCfZQFJC.jpg" tvg-name="Vacanze per un massacro" group-title="1980",Vacanze per un massacro
+https://vip.dytt-network.com/20260610/35765_617eec79/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6Kdre1PkT0Kv3nsPBBbNE4teEoK.jpg" tvg-name="洪拳與詠春" group-title="1974",洪拳與詠春
 https://vip.dytt-film.com/20250201/3986_540393ae/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/QTc1ZaLAPPDBzi2ywZocZWoTZv.jpg" tvg-name="方世玉" group-title="1972",方世玉
