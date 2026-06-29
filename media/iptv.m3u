@@ -30,7 +30,7 @@ http://61.221.215.25:8800/hls/57/index.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live050_mobile.png" tvg-name="新唐人亚太台" group-title="台灣頻道",新唐人亚太台
 http://rihou.cc:555/tv/NTD
 #EXTINF:-1 tvg-logo="https://supertv.ebc.net.tw/upload/supertv/img/logoes/pc_logo.png" tvg-name="东森超视" group-title="台灣頻道",东森超视
-http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
+http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8?$720x480
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/中天娱乐台.png" tvg-name="中天娱乐台" group-title="台灣頻道",中天娱乐台
 http://61.221.215.25:8800/hls/47/index.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv052_mobile.png" tvg-name="华视新闻" group-title="台灣頻道",华视新闻
@@ -56,27 +56,19 @@ http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/e/e9/TVBS_Asia_logo_2017.png/200px-TVBS_Asia_logo_2017.png" tvg-name="TVBS-Asia" group-title="台灣頻道",TVBS-Asia
 http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CINEMAX.png" tvg-name="CINEMAX" group-title="台灣頻道",CINEMAX
-http://23.237.104.106:8080/USA_MOREMAX/mono.m3u8
+http://23.237.104.106:8080/USA_5STARMAX/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv042_mobile.png" tvg-name="公视" group-title="台灣頻道",公视
-http://74.91.26.218:82/live/ptsty.m3u8
+http://74.91.26.218:82/live/pts.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/台视财经台.png" tvg-name="台视财经台" group-title="台灣頻道",台视财经台
 http://74.91.26.218:82/live/ttvcj.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live008_mobile.png" tvg-name="人间卫视" group-title="台灣頻道",人间卫视
-http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
+http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live021_mobile.png" tvg-name="经典电影台" group-title="台灣頻道",经典电影台
 https://kbpull.kktv8.com/livekktv/99350550/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/纬来精采.png" tvg-name="纬来精采" group-title="台灣頻道",纬来精采
 http://61.221.215.25:8800/hls/48/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/三立戏剧.png" tvg-name="三立戏剧" group-title="台灣頻道",三立戏剧
 http://61.221.215.25:8800/hls/41/index.m3u8
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/龙华经典.png" tvg-name="龙华经典" group-title="台灣頻道",龙华经典
-http://cdn8.163189.xyz/163189/lhjd
-#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV4.png" tvg-name="龙华戏剧" group-title="台灣頻道",龙华戏剧
-http://cdn8.163189.xyz/163189/lhxj
-#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV5.png" tvg-name="龙华日韩台" group-title="台灣頻道",龙华日韩台
-http://cdn8.163189.xyz/163189/lhrh
-#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV1.png" tvg-name="龙华电影" group-title="台灣頻道",龙华电影
-http://cdn8.163189.xyz/163189/lhdy
 #EXTINF:-1 tvg-logo="https://www.ebc.net.tw/Images/169-america.jpg" tvg-name="东森美洲新闻台" group-title="台灣頻道",东森美洲新闻台
 http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/凤凰资讯.png" tvg-name="凤凰资讯" group-title="台灣頻道",凤凰资讯
@@ -190,7 +182,7 @@ http://74.91.26.218:82/live/cctv5hd.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV5+.png" tvg-name="CCTV5+" group-title="體育頻道",CCTV5+
 http://223.112.114.228:50080/newlive/live/hls/180/live.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CINEMAX.png" tvg-name="CINEMAX" group-title="電影頻道",CINEMAX
-http://23.237.104.106:8080/USA_MOREMAX/mono.m3u8
+http://23.237.104.106:8080/USA_5STARMAX/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HBO.png" tvg-name="HBO" group-title="電影頻道",HBO
 http://23.237.104.106:8080/USA_HBO/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="" tvg-name="HBO FAMILY" group-title="電影頻道",HBO FAMILY
@@ -203,8 +195,6 @@ http://23.237.104.106:8080/USA_HBO_ZONE/tracks-v1a1/mono.m3u8
 http://23.237.104.106:8080/USA_HBO2/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live021_mobile.png" tvg-name="经典电影台" group-title="電影頻道",经典电影台
 https://kbpull.kktv8.com/livekktv/99350550/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV1.png" tvg-name="龙华电影" group-title="電影頻道",龙华电影
-http://cdn8.163189.xyz/163189/lhdy
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/龙华洋片.png" tvg-name="龙华洋片" group-title="電影頻道",龙华洋片
 https://pkj99.github.io/iptv/ofiii.html?asset_id=litv-xinchuang02
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/LTV1.png" tvg-name="龙华电影" group-title="電影頻道",龙华电影
