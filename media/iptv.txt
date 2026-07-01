@@ -37,7 +37,6 @@ CINEMAX,http://23.237.104.106:8080/USA_5STARMAX/tracks-v1a1/mono.m3u8
 东森美洲新闻台,http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
 凤凰资讯,http://61.221.215.25:8800/hls/47/index.m3u8
 天映经典,http://o11.163189.xyz/stream/live/ccm/
-广东体育,http://74.91.26.218:82/live/cctv5p.m3u8
 大陸央视,#genre#
 CCTV1,http://74.91.26.218:82/live/cctv1hd.m3u8
 CCTV2,http://74.91.26.218:82/live/cctv2hd.m3u8
@@ -58,6 +57,7 @@ CCTV15,http://74.91.26.218:82/live/cctv15hd.m3u8
 CCTV16,http://74.91.26.218:82/live/cctv16hd.m3u8
 CCTV17,http://74.91.26.218:82/live/cctv17hd.m3u8
 CCTV16,http://74.91.26.218:82/live/cctv16hd.m3u8
+广东体育,http://74.91.26.218:82/live/cctv5p.m3u8
 大陸卫视,#genre#
 湖南卫视4K,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 海峡卫视,http://hlsbkmgsplive.miguvideo.com/migu/kailu/haixiaws/57/20230724/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
@@ -95,7 +95,6 @@ TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
 日本体育1,http://iptv.4666888.xyz/iptv2A.php?id=6
 智林体育台,http://iptv.4666888.xyz/iptv2A.php?id=5
 华视教育体育文化,http://74.91.26.218:82/live/ctsjy.m3u8
-广东体育,http://74.91.26.218:82/live/cctv5p.m3u8
 Getwin Sports运动台,http://192.168.1.249:5050/4gtv-4gtv035/index.m3u8?token=MjadtyPa6QUFKEaFeeExJ7pqZwwdq4VFNW1gfEjQ3IFCo3xWF9eMKi9sAGrsduUI&proxy=true
 博斯无限二台,http://192.168.1.249:5050/litv-xinchuang13/index.m3u8?token=MjadtyPa6QUFKEaFeeExJ7pqZwwdq4VFNW1gfEjQ3IFCo3xWF9eMKi9sAGrsduUI&proxy=true
 博斯无限台,http://192.168.1.249:5050/litv-xinchuang10/index.m3u8?token=MjadtyPa6QUFKEaFeeExJ7pqZwwdq4VFNW1gfEjQ3IFCo3xWF9eMKi9sAGrsduUI&proxy=true
@@ -111,6 +110,7 @@ Getwin Sports运动台,http://192.168.1.249:5050/4gtv-4gtv035/index.m3u8?token=M
 CCTV5,http://74.91.26.218:82/live/cctv5hd.m3u8
 CCTV5+,http://223.112.114.228:50080/newlive/live/hls/180/live.m3u8
 CCTV5+,http://74.91.26.218:82/live/cctv5p.m3u8
+广东体育,http://74.91.26.218:82/live/cctv5p.m3u8
 電影頻道,#genre#
 东森洋片台,http://iptv.4666888.xyz/iptv2A.php?id=45
 东森电影台,http://iptv.4666888.xyz/iptv2A.php?id=48
