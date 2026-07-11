@@ -1,42 +1,61 @@
 台灣頻道,#genre#
 HBO FAMILY,http://108.181.20.255:27347/livehttpplay?channel_id=23049
-HBO喜剧,http://23.237.104.106:8080/USA_HBO_COMEDY/tracks-v1a1/mono.m3u8
 HBO王牌,http://23.237.104.106:8080/USA_HBO_ZONE/tracks-v1a1/mono.m3u8
-HBO精选,http://23.237.104.106:8080/USA_HBO2/tracks-v1a1/mono.m3u8
+TVBS *$,https://t.freetv.fun/live/tvbs-3.m3u8
+TVBS News *$,https://t.freetv.fun/live/tvbs-news.m3u8
+fun探索娱乐,https://t.freetv.fun/live/funtan-suo-yu-le.m3u8
+中视 *$,https://t.freetv.fun/live/zhong-shi-5.m3u8
+华视 *$,https://t.freetv.fun/live/hua-shi-4.m3u8
 华视教育体育文化,http://74.91.26.218:82/live/ctsjy.m3u8
+台视 *$,https://t.freetv.fun/live/tai-shi-2.m3u8
 民视第一台,http://74.91.26.218:82/live/ftvdy.m3u8
 民视台湾台,http://74.91.26.218:82/live/ftvtw.m3u8
 民视,http://74.91.26.218:82/live/ftv.m3u8
-台视,http://74.91.26.218:82/live/ttv.m3u8
-中视,http://74.91.26.218:82/live/ctv.m3u8
+台视,http://211.72.174.95:8112/0.ts
+中视,http://220.135.241.47:8301/0.ts
 中视经典,http://74.91.26.218:82/live/ctvjd.m3u8
 华视,http://74.91.26.218:82/live/cts.m3u8
+三立综合台,https://t.freetv.fun/live/san-li-zong-he-he.m3u8
+八大综合台,https://t.freetv.fun/live/ba-da-zong-yi.m3u8
 中视菁采台,http://74.91.26.218:82/live/ctvjc.m3u8
 动物星球,http://61.221.215.25:8800/hls/57/index.m3u8
 新唐人亚太台,http://rihou.cc:555/tv/NTD
-东森超视,http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8?$720x480
+东森超视,http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
+靖天卡通台,http://45.192.97.170:8880/play/950.m3u8
 中天娱乐台,http://61.221.215.25:8800/hls/47/index.m3u8
+MOMO亲子台,https://t.freetv.fun/live/momoqin-zi-1.m3u8
+东森新闻台,https://t.freetv.fun/live/dong-sen-xin-wen-2.m3u8
 华视新闻,http://74.91.26.218:82/live/ctsnews.m3u8
 台视新闻台,http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
-民视新闻台,http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
+民视新闻台,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
+三立新闻台,https://t.freetv.fun/live/san-li-inews.m3u8
 TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
 中视新闻,http://74.91.26.218:82/live/ctvnews.m3u8
 中天新闻台,http://222.128.55.152:9080/live/fc.m3u8
 寰宇新闻,http://222.128.55.152:9080/live/hy.m3u8
-HBO,http://23.237.104.106:8080/USA_HBO/tracks-v1a1/mono.m3u8
-HBO,http://23.237.104.106:8080/USA_HBO/tracks-v1a1/mono.m3u8
+寰宇新闻台湾台,https://t.freetv.fun/live/huan-yu-xin-wen-tai-wan-1.m3u8
 TVBS,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
 TVBS-Asia,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
 CINEMAX,http://23.237.104.106:8080/USA_5STARMAX/tracks-v1a1/mono.m3u8
-公视,http://74.91.26.218:82/live/pts.m3u8
-台视财经台,http://74.91.26.218:82/live/ttvcj.m3u8
-人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
+靖天欢乐台,https://t.freetv.fun/live/jing-tian-huan-le.m3u8
+亚洲新闻,https://t.freetv.fun/live/ya-zhou-xin-wen.m3u8
+爱尔达综合,https://t.freetv.fun/live/eltasheng-huo-lu-you.m3u8
+公视,http://74.91.26.218:82/live/ptsty.m3u8
+八大精彩台,https://t.freetv.fun/live/ba-da-jing-cai.m3u8
+采昌影剧台,https://t.freetv.fun/live/cai-chang-ying-ju-2.m3u8
+靖天映画,https://t.freetv.fun/live/jing-tian-ying-hua-3.m3u8
+靖天电影台,https://t.freetv.fun/live/jing-tian-dian-ying-2.m3u8
+台视财经台,http://220.135.241.47:8315/0.ts
+大爱二台,https://t.freetv.fun/live/da-ai-er-1.m3u8
+人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
 经典电影台,https://kbpull.kktv8.com/livekktv/99350550/playlist.m3u8
+经典卡通台,https://t.freetv.fun/live/jing-dian-qia-tong.m3u8
 纬来精采,http://61.221.215.25:8800/hls/48/index.m3u8
 三立戏剧,http://61.221.215.25:8800/hls/41/index.m3u8
+龙华洋片,http://45.192.97.170:8880/play/874.m3u8
 东森美洲新闻台,http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
 凤凰资讯,http://61.221.215.25:8800/hls/47/index.m3u8
-天映经典,http://o11.163189.xyz/stream/live/ccm/
+寰宇财经,https://t.freetv.fun/live/huan-yu-cai-jing.m3u8
 大陸央视,#genre#
 CCTV1,http://74.91.26.218:82/live/cctv1hd.m3u8
 CCTV2,http://74.91.26.218:82/live/cctv2hd.m3u8
@@ -75,11 +94,14 @@ CCTV16,http://74.91.26.218:82/live/cctv16hd.m3u8
 新聞頻道,#genre#
 TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
 三立新闻台,https://pkj99.github.io/iptv/ofiii.html?asset_id=iNEWS
+三立新闻台,https://t.freetv.fun/live/san-li-inews.m3u8
+东森新闻台,https://t.freetv.fun/live/dong-sen-xin-wen-2.m3u8
 东森美洲新闻台,http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
 中天新闻台,https://pkj99.github.io/iptv/ofiii.html?asset_id=4gtv-4gtv009
 中天新闻台,http://222.128.55.152:9080/live/fc.m3u8
 中视新闻,https://pkj99.github.io/iptv/ofiii.html?asset_id=4gtv-4gtv074
 中视新闻,http://74.91.26.218:82/live/ctvnews.m3u8
+亚洲新闻,https://t.freetv.fun/live/ya-zhou-xin-wen.m3u8
 倪珍播新闻,https://pkj99.github.io/iptv/ofiii.html?asset_id=nnews-zh
 华视新闻,https://pkj99.github.io/iptv/ofiii.html?asset_id=4gtv-4gtv052
 华视新闻,http://74.91.26.218:82/live/ctsnews.m3u8
@@ -87,8 +109,9 @@ TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
 寰宇新闻,https://pkj99.github.io/iptv/ofiii.html?asset_id=litv-longturn14
 寰宇新闻,http://222.128.55.152:9080/live/hy.m3u8
 寰宇新闻台湾台,https://pkj99.github.io/iptv/ofiii.html?asset_id=4gtv-4gtv156
+寰宇新闻台湾台,https://t.freetv.fun/live/huan-yu-xin-wen-tai-wan-1.m3u8
 民视新闻台,https://pkj99.github.io/iptv/ftv.html?ChannelId=litv-ftv13
-民视新闻台,http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
+民视新闻台,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 體育頻道,#genre#
 博斯运动一台,http://iptv.4666888.xyz/iptv2A.php?id=6
 广东体育,http://iptv.4666888.xyz/iptv2A.php?id=20
@@ -124,12 +147,13 @@ CCTV5+,http://74.91.26.218:82/live/cctv5p.m3u8
 龙华电影,http://iptv.4666888.xyz/iptv2A.php?id=45
 CINEMAX,http://23.237.104.106:8080/USA_MOREMAX/mono.m3u8
 CINEMAX,http://23.237.104.106:8080/USA_5STARMAX/tracks-v1a1/mono.m3u8
-HBO,http://23.237.104.106:8080/USA_HBO/tracks-v1a1/mono.m3u8
 HBO FAMILY,http://108.181.20.255:27347/livehttpplay?channel_id=23049
-HBO喜剧,http://23.237.104.106:8080/USA_HBO_COMEDY/tracks-v1a1/mono.m3u8
 HBO王牌,http://23.237.104.106:8080/USA_HBO_ZONE/tracks-v1a1/mono.m3u8
-HBO精选,http://23.237.104.106:8080/USA_HBO2/tracks-v1a1/mono.m3u8
 经典电影台,https://kbpull.kktv8.com/livekktv/99350550/playlist.m3u8
+经典电影台,https://t.freetv.fun/live/jing-dian-dian-ying-1-1.php
+靖天电影台,https://t.freetv.fun/live/jing-tian-dian-ying-2.m3u8
+靖天电影台,https://t.freetv.fun/live/jing-tian-dian-ying-3.m3u8
+龙华洋片,http://45.192.97.170:8880/play/874.m3u8
 My Cinema Europe  我的欧洲电影,http://192.168.1.249:5050/litv-ftv10/index.m3u8?token=MjadtyPa6QUFKEaFeeExJ7pqZwwdq4VFNW1gfEjQ3IFCo3xWF9eMKi9sAGrsduUI&proxy=true
 amc电影台,http://192.168.1.249:5050/4gtv-4gtv017/index.m3u8?token=MjadtyPa6QUFKEaFeeExJ7pqZwwdq4VFNW1gfEjQ3IFCo3xWF9eMKi9sAGrsduUI&proxy=true
 影迷数位电影台,http://192.168.1.249:5050/4gtv-4gtv011/index.m3u8?token=MjadtyPa6QUFKEaFeeExJ7pqZwwdq4VFNW1gfEjQ3IFCo3xWF9eMKi9sAGrsduUI&proxy=true
@@ -214,6 +238,8 @@ TVBS欢乐台,rtmp://161.202.204.248/sat/tv421
 中天新闻台,rtmp://home.aceimage.cn/live/332123-ztxw
 中天新闻台,rtmp://media.atmsiot.com/live/ztxw
 中天新闻台,rtmp://221.4.216.91/live/332123-ztxw
+中天新闻台,rtmp://ai.gdjs.net.cn/live/332000-ztxw2
+中天新闻台,rtmp://www.ipanlian.com/live/ztxw
 中视,rtmp://f13h.mine.nu/sat/tv091
 中视,rtmp://59.124.75.138/sat/tv091
 中视,rtmp://9hv9.mine.nu/sat/tv091
