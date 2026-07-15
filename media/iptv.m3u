@@ -3,12 +3,18 @@
 http://108.181.20.255:27347/livehttpplay?channel_id=23049
 #EXTINF:-1 tvg-logo="" tvg-name="HBO FAMILY " group-title="台灣頻道",HBO FAMILY 
 http://108.181.20.255:27347/livehttpplay?channel_id=23049
-#EXTINF:-1 tvg-logo="" tvg-name="HBO王牌" group-title="台灣頻道",HBO王牌
-http://23.237.104.106:8080/USA_HBO_ZONE/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="TVBS " group-title="台灣頻道",TVBS 
+https://t.freetv.fun/live/tvbs-2.m3u8
 #EXTINF:-1 tvg-logo="" tvg-name="fun探索娱乐" group-title="台灣頻道",fun探索娱乐
 https://t.freetv.fun/live/funtan-suo-yu-le.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="中视 " group-title="台灣頻道",中视 
+https://t.freetv.fun/live/zhong-shi-3.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="华视 " group-title="台灣頻道",华视 
+https://t.freetv.fun/live/hua-shi-3.m3u8
 #EXTINF:-1 tvg-logo="" tvg-name="华视教育体育文化" group-title="台灣頻道",华视教育体育文化
 http://74.91.26.218:82/live/ctsjy.m3u8
+#EXTINF:-1 tvg-logo="" tvg-name="台视 " group-title="台灣頻道",台视 
+https://t.freetv.fun/live/tai-shi-2.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv003_mobile.png" tvg-name="民视第一台" group-title="台灣頻道",民视第一台
 http://74.91.26.218:82/live/ftvdy.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv001_mobile.png" tvg-name="民视台湾台" group-title="台灣頻道",民视台湾台
@@ -16,7 +22,7 @@ http://74.91.26.218:82/live/ftvtw.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv002_mobile.png" tvg-name="民视" group-title="台灣頻道",民视
 http://74.91.26.218:82/live/ftv.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv066_tv.png" tvg-name="台视" group-title="台灣頻道",台视
-http://211.72.174.95:8112/0.ts
+http://74.91.26.218:82/live/ttv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv040_mobile.png" tvg-name="中视" group-title="台灣頻道",中视
 http://74.91.26.218:82/live/ctv.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv080_mobile.png" tvg-name="中视经典" group-title="台灣頻道",中视经典
@@ -46,7 +52,7 @@ https://t.freetv.fun/live/dong-sen-xin-wen-2.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv052_mobile.png" tvg-name="华视新闻" group-title="台灣頻道",华视新闻
 http://74.91.26.218:82/live/ctsnews.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv051_tv.png" tvg-name="台视新闻台" group-title="台灣頻道",台视新闻台
-http://74.91.26.218:82/live/ttvnews.m3u8
+http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-ftv13_mobile.png" tvg-name="民视新闻台" group-title="台灣頻道",民视新闻台
 http://74.91.26.218:82/live/ftvnews.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live089_mobile.png" tvg-name="三立新闻台" group-title="台灣頻道",三立新闻台
@@ -84,9 +90,9 @@ http://74.91.26.218:82/live/ttvcj.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live106_mobile.png" tvg-name="大爱二台" group-title="台灣頻道",大爱二台
 https://t.freetv.fun/live/da-ai-er-1.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live008_mobile.png" tvg-name="人间卫视" group-title="台灣頻道",人间卫视
-http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
+http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live021_mobile.png" tvg-name="经典电影台" group-title="台灣頻道",经典电影台
-https://kbpull.kktv8.com/livekktv/99350550/playlist.m3u8
+https://t.freetv.fun/live/jing-dian-dian-ying-1-1.php
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live022_mobile.png" tvg-name="经典卡通台" group-title="台灣頻道",经典卡通台
 https://t.freetv.fun/live/jing-dian-qia-tong.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/纬来精采.png" tvg-name="纬来精采" group-title="台灣頻道",纬来精采
@@ -95,6 +101,34 @@ http://61.221.215.25:8800/hls/48/index.m3u8
 http://61.221.215.25:8800/hls/41/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/龙华洋片.png" tvg-name="龙华洋片" group-title="台灣頻道",龙华洋片
 http://45.192.97.170:8880/play/874.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" tvg-name="2" group-title="台灣頻道",2
+http://74.91.26.218:82/live/cctv2hd.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV3.png" tvg-name="3" group-title="台灣頻道",3
+http://74.91.26.218:82/live/cctv3hd.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV4.png" tvg-name="4" group-title="台灣頻道",4
+http://74.91.26.218:82/live/cctv4hd.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV6.png" tvg-name="6" group-title="台灣頻道",6
+http://74.91.26.218:82/live/cctv6hd.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7.png" tvg-name="7" group-title="台灣頻道",7
+http://74.91.26.218:82/live/cctv7hd.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV8.png" tvg-name="8" group-title="台灣頻道",8
+http://74.91.26.218:82/live/cctv8hd.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV9.png" tvg-name="9" group-title="台灣頻道",9
+http://74.91.26.218:82/live/cctv9hd.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV10.png" tvg-name="10" group-title="台灣頻道",10
+http://74.91.26.218:82/live/cctv10hd.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV11.png" tvg-name="11" group-title="台灣頻道",11
+http://74.91.26.218:82/live/cctv11hd.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV12.png" tvg-name="12" group-title="台灣頻道",12
+http://74.91.26.218:82/live/cctv12hd.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV13.png" tvg-name="13" group-title="台灣頻道",13
+http://74.91.26.218:82/live/cctv13hd.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV14.png" tvg-name="14" group-title="台灣頻道",14
+http://74.91.26.218:82/live/cctv14hd.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV15.png" tvg-name="15" group-title="台灣頻道",15
+http://74.91.26.218:82/live/cctv15hd.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" tvg-name="17" group-title="台灣頻道",17
+http://74.91.26.218:82/live/cctv17hd.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/凤凰资讯.png" tvg-name="凤凰资讯" group-title="台灣頻道",凤凰资讯
 http://61.221.215.25:8800/hls/47/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/寰宇财经.png" tvg-name="寰宇财经" group-title="台灣頻道",寰宇财经
@@ -178,7 +212,7 @@ https://t.freetv.fun/live/ya-zhou-xin-wen.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv052_mobile.png" tvg-name="华视新闻" group-title="新聞頻道",华视新闻
 http://74.91.26.218:82/live/ctsnews.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv051_tv.png" tvg-name="台视新闻台" group-title="新聞頻道",台视新闻台
-http://74.91.26.218:82/live/ttvnews.m3u8
+http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-longturn14_mobile.png" tvg-name="寰宇新闻" group-title="新聞頻道",寰宇新闻
 http://222.128.55.152:9080/live/hy.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_litv-longturn15_mobile.png" tvg-name="寰宇新闻台湾台" group-title="新聞頻道",寰宇新闻台湾台
@@ -213,10 +247,8 @@ http://74.91.26.218:82/live/cctv5p.m3u8
 http://108.181.20.255:27347/livehttpplay?channel_id=23049
 #EXTINF:-1 tvg-logo="" tvg-name="HBO FAMILY " group-title="電影頻道",HBO FAMILY 
 http://108.181.20.255:27347/livehttpplay?channel_id=23049
-#EXTINF:-1 tvg-logo="" tvg-name="HBO王牌" group-title="電影頻道",HBO王牌
-http://23.237.104.106:8080/USA_HBO_ZONE/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live021_mobile.png" tvg-name="经典电影台" group-title="電影頻道",经典电影台
-https://kbpull.kktv8.com/livekktv/99350550/playlist.m3u8
+https://t.freetv.fun/live/jing-dian-dian-ying-1-1.php
 #EXTINF:-1 tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv061_mobile.png" tvg-name="靖天电影台" group-title="電影頻道",靖天电影台
 https://t.freetv.fun/live/jing-tian-dian-ying-2.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/龙华洋片.png" tvg-name="龙华洋片" group-title="電影頻道",龙华洋片
