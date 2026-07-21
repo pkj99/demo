@@ -1,6 +1,12 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/j1Db6SR126am4KfkkadPDGuRjfv.jpg" tvg-name="戀愛修課：直到永遠" group-title="2026",戀愛修課：直到永遠
+https://play.phimgood.com/20260718/29076_744c7571/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/r2qZvqdzO1m9X3BRtqKLJBMl1ym.jpg" tvg-name="親情習作" group-title="2026",親情習作
+https://play.phimgood.com/20260717/29033_aa2c576b/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/A4yhPrkzCyfbvFHtoSGyRASkRGo.jpg" tvg-name="愛無退路" group-title="2026",愛無退路
 https://play.phimgood.com/20260710/28813_f1a64a0e/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/m2ssTXvZ1YlbJ9HfqoDzl6wMklK.jpg" tvg-name="破浪救援" group-title="2026",破浪救援
+https://play.phimgood.com/20260718/29075_b025330e/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7F3XaVBrMLRAbMadwM8A9MViQkA.jpg" tvg-name="真愛留聲" group-title="2026",真愛留聲
 https://play.phimgood.com/20260620/28102_f6a81a05/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4X2GCtIyFCgmQJ706AVJQfVTDMv.jpg" tvg-name="人夫總動員" group-title="2026",人夫總動員
@@ -17,6 +23,8 @@ https://play.phimgood.com/20260606/27603_c657bb88/index.m3u8
 https://play.phimgood.com/20260606/27616_2b5102c2/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1AijqDChzy7BnUFPMEX5khDaaRx.jpg" tvg-name="明亮燦爛的你" group-title="2026",明亮燦爛的你
 https://play.phimgood.com/20260509/26598_fad81a05/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zuv0kksLAhlDjksYHrFUOyDvcYb.jpg" tvg-name="慾海暗湧" group-title="2026",慾海暗湧
+https://play.phimgood.com/20260718/29079_be37636f/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8tq08OiArD6fF4Wh3e0Dq1Pln4m.jpg" tvg-name="我的摯愛殺手" group-title="2026",我的摯愛殺手
 https://play.phimgood.com/20260509/26608_c5b14c33/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4vGvKIWUyOJkaoYcywAJEswv0ot.jpg" tvg-name="奇幻變身大冒險" group-title="2026",奇幻變身大冒險

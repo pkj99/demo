@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/pV2RJV27vTK4jqUXiX2wutxy5ab.jpg" tvg-name="後室" group-title="2026",後室
+http://192.168.1.249/4kvm/MOVIE/ch4dsluz7.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/7F3XaVBrMLRAbMadwM8A9MViQkA.jpg" tvg-name="真愛留聲" group-title="2026",真愛留聲
 http://192.168.1.249/4kvm/MOVIE/ch4arz9y2.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/gTPjQulzvkcNGfOlbGB8AuSTHUp.jpg" tvg-name="森中有林" group-title="2026",森中有林
@@ -187,6 +189,10 @@ http://192.168.1.249/4kvm/MOVIE/ch43aa8lu.m3u8
 http://192.168.1.249/4kvm/MOVIE/ch1lk6jh9.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/tBo4Umz1GaHirWnqBE6PPDAS8g5.jpg" tvg-name="聖母殺手" group-title="2025",聖母殺手
 http://192.168.1.249/4kvm/MOVIE/ch1m0evps.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/w6sSCcNWE1GGkIM0nzdi7n7VHhu.jpg" tvg-name="慾情故縱" group-title="2024",慾情故縱
+http://192.168.1.249/4kvm/MOVIE/ch4dyulum.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/aSU9UZp3HywUyJzg8Gl6v54YR7z.jpg" tvg-name="挑逗你的慾望" group-title="2024",挑逗你的慾望
+http://192.168.1.249/4kvm/MOVIE/ch4ecl1qr.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/fe8WGSUvT5lnQiPE7iBEtyZvdxF.jpg" tvg-name="寄宿學校謀殺案" group-title="2024",寄宿學校謀殺案
 http://192.168.1.249/4kvm/MOVIE/ch2n6wh00.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/egbdDkWertVNfwQEa5EYXWXTok4.jpg" tvg-name="烏有之地" group-title="2024",烏有之地
@@ -2119,6 +2125,8 @@ http://192.168.1.249/4kvm/MOVIE/ch3gy6xau.m3u8
 http://192.168.1.249/4kvm/MOVIE/ch331i9zr.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/1mzatpEVIHpYKI6A05pRMsDYwXX.jpg" tvg-name="聖母峰" group-title="2015",聖母峰
 http://192.168.1.249/4kvm/MOVIE/ch3z876dz.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/gQmOsU2hA0PrGvxGjzty1S2OO3H.jpg" tvg-name="重燃心希望" group-title="2014",重燃心希望
+http://192.168.1.249/4kvm/MOVIE/ch4d64rv9.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/fzS6UHZa7SXiNDc4P9ZkgMGEjeB.jpg" tvg-name="飢餓遊戲：自由幻夢Ⅰ" group-title="2014",飢餓遊戲：自由幻夢Ⅰ
 http://192.168.1.249/4kvm/MOVIE/ch4cfwu8q.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/2cfTEo5qe2uALgnHz80UJGZ2sPz.jpg" tvg-name="微交少女" group-title="2014",微交少女
@@ -2285,6 +2293,8 @@ http://192.168.1.249/4kvm/MOVIE/ch2f588wo.m3u8
 http://192.168.1.249/4kvm/MOVIE/ch0hn1yjg.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/xbOUJ4PUWSj7aZYwpJHIBzUB4n2.jpg" tvg-name="厲陰宅" group-title="2013",厲陰宅
 http://192.168.1.249/4kvm/MOVIE/ch3qxsb2u.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/pboZ9WuLA3CDKPpkWZ3wkY0WXZ8.jpg" tvg-name="熊麻吉" group-title="2012",熊麻吉
+http://192.168.1.249/4kvm/MOVIE/ch4dg4d99.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/qHuj8TDG9OB4rJLDFkXvnOBnG2C.jpg" tvg-name="飢餓遊戲" group-title="2012",飢餓遊戲
 http://192.168.1.249/4kvm/MOVIE/ch4c0xg5y.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/sZBogqzLZla7I4J7DI5KGp39pO6.jpg" tvg-name="吉貓出租" group-title="2012",吉貓出租
@@ -2581,6 +2591,8 @@ http://192.168.1.249/4kvm/MOVIE/ch2dyrz16.m3u8
 http://192.168.1.249/4kvm/MOVIE/ch1rf6yok.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/gJXsxs3hAvrWMpgf4bOAoYa3b27.jpg" tvg-name="親愛的" group-title="2008",親愛的
 http://192.168.1.249/4kvm/MOVIE/ch2bzlv6b.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/B2a5vjUKeerfX3oqERx3T7U32W.jpg" tvg-name="贖罪" group-title="2007",贖罪
+http://192.168.1.249/4kvm/MOVIE/ch4ebc3kk.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/32wPTw329KPuc29OOjAxtsQxa7V.jpg" tvg-name="我的藍莓夜" group-title="2007",我的藍莓夜
 http://192.168.1.249/4kvm/MOVIE/ch4c9o3dr.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/elnpVWdB2WwMhScK7OD95ZklgBI.jpg" tvg-name="不死殺陣" group-title="2007",不死殺陣
@@ -2667,6 +2679,8 @@ http://192.168.1.249/4kvm/MOVIE/ch1jh9l3t.m3u8
 http://192.168.1.249/4kvm/MOVIE/ch1uusxsh.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/lXRSRP5QMfrr9cSiupvcGDJW1Sa.jpg" tvg-name="蝙蝠俠：開戰時刻" group-title="2005",蝙蝠俠：開戰時刻
 http://192.168.1.249/4kvm/MOVIE/ch2z1x44a.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/3FLGz1590rMZZCPMfsu29lr83dL.jpg" tvg-name="花與愛麗絲" group-title="2004",花與愛麗絲
+http://192.168.1.249/4kvm/MOVIE/ch4e2lgd7.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/83j0auiOhGK62xOCG1NnalZvgdh.jpg" tvg-name="特洛伊：木馬屠城" group-title="2004",特洛伊：木馬屠城
 http://192.168.1.249/4kvm/MOVIE/ch4cm5l3p.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/hvzw4wufKZkDCTPVeG71Z7pGfZh.jpg" tvg-name="秘窗" group-title="2004",秘窗
@@ -2695,6 +2709,8 @@ http://192.168.1.249/4kvm/MOVIE/ch3nqwz6a.m3u8
 http://192.168.1.249/4kvm/MOVIE/ch3ess2l0.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/5I2pRuJI3SZVsxP5iaorGaczzkI.jpg" tvg-name="兩隻老虎" group-title="2004",兩隻老虎
 http://192.168.1.249/4kvm/MOVIE/ch2fu78d0.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/zXLXaepIBvFVLU25DH3wv4IPSbe.jpg" tvg-name="搖滾教室" group-title="2003",搖滾教室
+http://192.168.1.249/4kvm/MOVIE/ch4drcwt0.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/lVUGS77mttqJcGEsgdWEGFdC6u8.jpg" tvg-name="下一站…天后" group-title="2003",下一站…天后
 http://192.168.1.249/4kvm/MOVIE/ch2gafklz.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/oI6BivZQsKj5uZLsudJOke8rc1S.jpg" tvg-name="風雨哈佛路" group-title="2003",風雨哈佛路
@@ -2783,6 +2799,12 @@ http://192.168.1.249/4kvm/MOVIE/ch1pdiyhr.m3u8
 http://192.168.1.249/4kvm/MOVIE/ch27l1b82.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/q4wDxoY3EtZgreA6aK9jh9LxPEM.jpg" tvg-name="艾蜜莉的異想世界" group-title="2001",艾蜜莉的異想世界
 http://192.168.1.249/4kvm/MOVIE/ch0xwn5lj.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/1tBO874iaE2DxrG6iDMWImiy0ag.jpg" tvg-name="噩夢輓歌" group-title="2000",噩夢輓歌
+http://192.168.1.249/4kvm/MOVIE/ch4d8mo7n.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/qGUfIJ5qCDJ4YxOYCH09kUgNUNX.jpg" tvg-name="勝者為王" group-title="2000",勝者為王
+http://192.168.1.249/4kvm/MOVIE/ch4e8u786.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/69v22wS7Z5PSTqhHqCTJxfWRsXj.jpg" tvg-name="火遮眼" group-title="2000",火遮眼
+http://192.168.1.249/4kvm/MOVIE/ch4csebyo.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/vUZ5TKQR8CF30IJETGKQyTHQpgP.jpg" tvg-name="花樣年華" group-title="2000",花樣年華
 http://192.168.1.249/4kvm/MOVIE/ch4c8f574.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/uiCcDkz7mcL3upCUmKW4yEYWs8w.jpg" tvg-name="一一" group-title="2000",一一
