@@ -91,6 +91,8 @@ http://192.168.1.249:5053/drama/vod85180-000004M001.m3u8
 http://192.168.1.249:5053/drama/vod85246-000005M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/85199-000000-740346.jpg" tvg-name="種墨園" group-title="2026",種墨園
 http://192.168.1.249:5053/drama/vod85199-000033M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/85246-000000-740638.jpg" tvg-name="昭陽公主" group-title="2026",昭陽公主
+http://192.168.1.249:5053/drama/vod85246-000010M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/76555-000000-658484.jpg" tvg-name="佔有姜西" group-title="2025",佔有姜西
 http://192.168.1.249:5053/drama/vod76555-000001M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/76398-000000-657622.jpg" tvg-name="180天重啟計劃" group-title="2025",180天重啟計劃
@@ -4723,6 +4725,8 @@ http://192.168.1.249:5053//vod9881-000000M001.m3u8
 http://192.168.1.249:5053/movie/vod73092-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/82249-000000-712364.jpg" tvg-name="爸爸的假期" group-title="2015",爸爸的假期
 http://192.168.1.249:5053/movie/vod82249-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/43707-000000-702888.jpg" tvg-name="即刻封鎖" group-title="2015",即刻封鎖
+http://192.168.1.249:5053/movie/vod43707-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/45072-000000-407939.jpg" tvg-name="餘生-賽德克．巴萊" group-title="2014",餘生-賽德克．巴萊
 http://192.168.1.249:5053/movie/vod45072-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/60480-000000-528181.jpg" tvg-name="我戀愛的記憶" group-title="2014",我戀愛的記憶
@@ -5335,6 +5339,8 @@ http://192.168.1.249:5053//vod8781-000000M001.m3u8
 http://192.168.1.249:5053/movie/vod47065-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/47065-000000-629131.jpg" tvg-name="英雄烈女" group-title="1996",英雄烈女
 http://192.168.1.249:5053/movie/vod47065-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/52043-000000-475639.jpg" tvg-name="怪醫黑傑克 劇場版" group-title="1996",怪醫黑傑克 劇場版
+http://192.168.1.249:5053//vod52043-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/33295-000000-197081.jpg" tvg-name="百變金剛" group-title="1995",百變金剛
 http://192.168.1.249:5053/movie/vod33295-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/32381-000000-191182.jpg" tvg-name="齊天大聖東遊記：西遊記之月光寶盒" group-title="1995",齊天大聖東遊記：西遊記之月光寶盒

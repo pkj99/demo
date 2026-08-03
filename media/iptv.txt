@@ -1,6 +1,4 @@
 台灣頻道,#genre#
-HBO FAMILY,http://108.181.20.255:27347/livehttpplay?channel_id=23049
-HBO FAMILY ,http://108.181.20.255:27347/livehttpplay?channel_id=23049
 TVBS ,https://t.freetv.fun/live/tvbs-2.m3u8
 fun探索娱乐,https://t.freetv.fun/live/funtan-suo-yu-le.m3u8
 中视 ,https://t.freetv.fun/live/zhong-shi-3.m3u8
@@ -34,15 +32,18 @@ TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
 寰宇新闻,http://222.128.55.152:9080/live/hy.m3u8
 寰宇新闻台湾台,https://t.freetv.fun/live/huan-yu-xin-wen-tai-wan-1.m3u8
 TVBS-Asia,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
+好莱坞电影台,https://t.freetv.fun/live/hao-lai-wu-dian-ying-v.ts
+纬来体育台,https://t.freetv.fun/live/wei-lai-ti-yu-2.php
 靖天欢乐台,https://t.freetv.fun/live/jing-tian-huan-le.m3u8
 亚洲新闻,https://t.freetv.fun/live/ya-zhou-xin-wen.m3u8
 爱尔达综合,https://t.freetv.fun/live/eltasheng-huo-lu-you.m3u8
-公视,http://74.91.26.218:82/live/ptsty.m3u8
+公视,http://74.91.26.218:82/live/pts.m3u8
 八大精彩台,https://t.freetv.fun/live/ba-da-jing-cai.m3u8
 采昌影剧台,https://t.freetv.fun/live/cai-chang-ying-ju-2.m3u8
 靖天映画,https://t.freetv.fun/live/jing-tian-ying-hua-3.m3u8
 靖天电影台,https://t.freetv.fun/live/jing-tian-dian-ying-2.m3u8
 台视财经台,http://74.91.26.218:82/live/ttvcj.m3u8
+台视综合台,https://t.freetv.fun/live/tai-shi-zong-he.ts
 大爱二台,https://t.freetv.fun/live/da-ai-er-1.m3u8
 人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
 经典电影台,https://t.freetv.fun/live/jing-dian-dian-ying-1-1.php
@@ -155,11 +156,9 @@ CCTV5+,http://74.91.26.218:82/live/cctv5p.m3u8
 靖天电影台,http://iptv.4666888.xyz/iptv2A.php?id=56
 龙华洋片,http://iptv.4666888.xyz/iptv2A.php?id=60
 龙华电影,http://iptv.4666888.xyz/iptv2A.php?id=45
-HBO FAMILY,http://108.181.20.255:27347/livehttpplay?channel_id=23049
-HBO FAMILY ,http://108.181.20.255:27347/livehttpplay?channel_id=23049
+好莱坞电影台,https://t.freetv.fun/live/hao-lai-wu-dian-ying-v.ts
 经典电影台,https://t.freetv.fun/live/jing-dian-dian-ying-1-1.php
 经典电影台,https://t.freetv.fun/live/jing-dian-dian-ying-1.php
-经典电影台,https://t.freetv.fun/live/lin-zheng-ying-jing-dian-dian-ying.m3u8
 靖天电影台,https://t.freetv.fun/live/jing-tian-dian-ying-2.m3u8
 靖天电影台,https://t.freetv.fun/live/jing-tian-dian-ying-3.m3u8
 龙华洋片,http://45.192.97.170:8880/play/874.m3u8
@@ -249,6 +248,7 @@ TVBS欢乐台,rtmp://161.202.204.248/sat/tv421
 中天新闻台,rtmp://221.4.216.91/live/332123-ztxw
 中天新闻台,rtmp://ai.gdjs.net.cn/live/332000-ztxw2
 中天新闻台,rtmp://www.ipanlian.com/live/ztxw
+中天新闻台,rtmp://47.238.2.198/live/888ztxw
 中视,rtmp://f13h.mine.nu/sat/tv091
 中视,rtmp://59.124.75.138/sat/tv091
 中视,rtmp://9hv9.mine.nu/sat/tv091
