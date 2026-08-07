@@ -1,5 +1,4 @@
 台灣頻道,#genre#
-华视教育体育文化,http://74.91.26.218:82/live/ctsjy.m3u8
 民视第一台,http://74.91.26.218:82/live/ftvdy.m3u8
 民视台湾台,http://74.91.26.218:82/live/ftvtw.m3u8
 民视,http://74.91.26.218:82/live/ftv.m3u8
@@ -21,7 +20,7 @@ TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
 寰宇新闻,http://222.128.55.152:9080/live/hy.m3u8
 TVBS,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
 TVBS-Asia,http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8
-公视,http://74.91.26.218:82/live/pts.m3u8
+公视,http://74.91.26.218:82/live/ptsty.m3u8
 台视财经台,http://74.91.26.218:82/live/ttvcj.m3u8
 人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
 纬来精采,http://61.221.215.25:8800/hls/48/index.m3u8
@@ -90,7 +89,6 @@ TVBS新闻台,http://61.221.215.25:8800/hls/9/index.m3u8
 广东体育,http://iptv.4666888.xyz/iptv2A.php?id=20
 日本体育1,http://iptv.4666888.xyz/iptv2A.php?id=6
 智林体育台,http://iptv.4666888.xyz/iptv2A.php?id=5
-华视教育体育文化,http://74.91.26.218:82/live/ctsjy.m3u8
 Getwin Sports运动台,http://192.168.1.249:5050/4gtv-4gtv035/index.m3u8?token=MjadtyPa6QUFKEaFeeExJ7pqZwwdq4VFNW1gfEjQ3IFCo3xWF9eMKi9sAGrsduUI&proxy=true
 博斯无限二台,http://192.168.1.249:5050/litv-xinchuang13/index.m3u8?token=MjadtyPa6QUFKEaFeeExJ7pqZwwdq4VFNW1gfEjQ3IFCo3xWF9eMKi9sAGrsduUI&proxy=true
 博斯无限台,http://192.168.1.249:5050/litv-xinchuang10/index.m3u8?token=MjadtyPa6QUFKEaFeeExJ7pqZwwdq4VFNW1gfEjQ3IFCo3xWF9eMKi9sAGrsduUI&proxy=true
@@ -100,8 +98,8 @@ Getwin Sports运动台,http://192.168.1.249:5050/4gtv-4gtv035/index.m3u8?token=M
 博斯高球二台,http://192.168.1.249:5050/litv-xinchuang06/index.m3u8?token=MjadtyPa6QUFKEaFeeExJ7pqZwwdq4VFNW1gfEjQ3IFCo3xWF9eMKi9sAGrsduUI&proxy=true
 博斯高球台,http://192.168.1.249:5050/litv-xinchuang05/index.m3u8?token=MjadtyPa6QUFKEaFeeExJ7pqZwwdq4VFNW1gfEjQ3IFCo3xWF9eMKi9sAGrsduUI&proxy=true
 博斯魅力,http://192.168.1.249:5050/litv-xinchuang04/index.m3u8?token=MjadtyPa6QUFKEaFeeExJ7pqZwwdq4VFNW1gfEjQ3IFCo3xWF9eMKi9sAGrsduUI&proxy=true
-时尚运动X,http://192.168.1.249:5050/4gtv-live411/index.m3u8?token=MjadtyPa6QUFKEaFeeExJ7pqZwwdq4VFNW1gfEjQ3IFCo3xWF9eMKi9sAGrsduUI&proxy=true
 时尚运动X,http://192.168.1.249:5050/4gtv-4gtv014/index.m3u8?token=MjadtyPa6QUFKEaFeeExJ7pqZwwdq4VFNW1gfEjQ3IFCo3xWF9eMKi9sAGrsduUI&proxy=true
+时尚运动X,http://192.168.1.249:5050/4gtv-live411/index.m3u8?token=MjadtyPa6QUFKEaFeeExJ7pqZwwdq4VFNW1gfEjQ3IFCo3xWF9eMKi9sAGrsduUI&proxy=true
 智林体育台,http://192.168.1.249:5050/4gtv-4gtv101/index.m3u8?token=MjadtyPa6QUFKEaFeeExJ7pqZwwdq4VFNW1gfEjQ3IFCo3xWF9eMKi9sAGrsduUI&proxy=true
 CCTV5,http://74.91.26.218:82/live/cctv5hd.m3u8
 CCTV5+,http://223.112.114.228:50080/newlive/live/hls/180/live.m3u8
