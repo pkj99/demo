@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9c5MdgpbHsGHFWrI5mglUDgo8o5.jpg" tvg-name="最後孤屋" group-title="2026",最後孤屋
+https://svip.ryplay14.com/20260809/18010_70d74d27/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/wIAcaNVNfk5Prk4l9zurFAmVUtO.jpg" tvg-name="深信之疑" group-title="2026",深信之疑
 https://svip.ryplay14.com/20260726/17454_77494dc8/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/tKP38jaiHUUz1F5sXsrhXMK4Sjj.jpg" tvg-name="真心慢動作" group-title="2026",真心慢動作
