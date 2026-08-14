@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/AuIkNEpyPcuMWl9gr3JpbvUk02g.jpg" tvg-name="完美世界剧场版 九劫焚天" group-title="2026",完美世界剧场版 九劫焚天
+http://192.168.1.249/4kvm/MOVIE/ch4g5ieqn.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/v1mXfFXyAQRedKHIg1ji9gGKmSt.jpg" tvg-name="消失的人" group-title="2026",消失的人
 http://192.168.1.249/4kvm/MOVIE/ch4fu9v6g.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/9XHBlpDp9c60uNlhMyjMOymsCAn.jpg" tvg-name="屍速禁區" group-title="2026",屍速禁區
