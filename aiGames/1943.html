@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1943: 終極空戰 (最終版 V5)</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        :root {
+            --primary-color: #00ffcc;
+            --secondary-color: #ff3366;
+            --bg-color: #0a0a12;
+            --text-color: #ffffff;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Press Start 2P', cursive;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            touch-action: none; /* 防止在手機上滑動頁面 */
+        }
+
+        #game-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            height: 100%;
+            max-height: 800px;
+            border: 4px solid var(--primary-color);
+            box-shadow: 0 0 20px var(--primary-color), inset 0 0 20px var(--primary-color);
+            background: linear-gradient(to bottom, #1a4a76, #4facfe); /* 更改為天空與海洋的藍色漸層 */
+            overflow: hidden;
+        }
+
+        canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        .ui-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.85);
+            z-index: 10;
+            text-align: center;
+        }
+
+        .ui-overlay.hidden {
+            display: none;
+        }
+
+        .title {
+            font-size: 36px;
+            color: var(--primary-color);
+            text-shadow: 0 0 10px var(--primary-color);
+            margin-bottom: 25px;
+            padding: 0 10px;
+        }
+
+        @media (min-width: 480px) {
+            .title {
+                font-size: 42px;
+            }
+        }
+
+        .info {
+            font-size: 14px;
+            margin-bottom: 35px;
+            line-height: 2.2;
+            padding: 0 20px;
+        }
+
+        .blink {
+            animation: blinker 1s linear infinite;
+            font-size: 14px;
+        }
+
+        @keyframes blinker {
+            50% { opacity: 0; }
+        }
+
+        .score-display, .bombs-display {
+            position: absolute;
+            left: 15px;
+            font-size: 16px;
+            z-index: 5;
+        }
+        
+        .lives-display, .level-display {
+            position: absolute;
+            right: 15px;
+            font-size: 16px;
+            z-index: 5;
+        }
+
+        .score-display { top: 15px; }
+        .lives-display { top: 15px; font-size: 20px; }
+        .bombs-display { bottom: 15px; color: #ff9900; }
+        .level-display { bottom: 15px; color: #ffff00; }
+
+        /* Boss Health Bar */
+        .boss-health-container {
+            position: absolute;
+            top: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60%;
+            height: 12px;
+            border: 2px solid var(--secondary-color);
+            z-index: 5;
+            display: none;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .boss-health-bar {
+            width: 100%;
+            height: 100%;
+            background-color: var(--secondary-color);
+            transition: width 0.1s;
+        }
+
+        #leaderboard-screen {
+            background: rgba(0, 0, 0, 0.95);
+        }
+        .leaderboard-table {
+            width: 90%;
+            border-collapse: collapse;
+            margin-bottom: 25px;
+            font-size: 12px;
+        }
+        @media (min-width: 480px) {
+            .leaderboard-table { width: 80%; font-size: 14px; }
+        }
+        .leaderboard-table th, .leaderboard-table td {
+            border: 2px solid var(--primary-color);
+            padding: 10px;
+            text-align: left;
+        }
+        .leaderboard-table th {
+            background-color: var(--primary-color);
+            color: var(--bg-color);
+        }
+        .leaderboard-table tr:nth-child(odd) {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        input[type="text"] {
+            padding: 12px;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 14px;
+            background: #000;
+            border: 3px solid var(--primary-color);
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            width: 70%;
+            text-align: center;
+        }
+        input[type="text"]:focus {
+            outline: none;
+            box-shadow: 0 0 15px var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div class="score-display">SCORE: <span id="score">0</span></div>
+        <div class="lives-display" id="lives-display">❤️❤️❤️</div>
+        <div class="level-display">LEVEL: <span id="level">1</span></div>
+        <div class="bombs-display">BOMBS: <span id="bombs">3</span> (B)</div>
+        
+        <!-- Boss Health Bar -->
+        <div class="boss-health-container" id="boss-health-container">
+            <div class="boss-health-bar" id="boss-health-bar"></div>
+        </div>
+
+        <!-- 開始畫面 -->
+        <div id="start-screen" class="ui-overlay">
+            <h1 class="title">1943</h1>
+            <p class="info">
+                MOUSE / ARROWS: Move<br><br>
+                L-CLICK / SPACE: Shoot (Hold)<br><br>
+                R-CLICK / B: Special Bomb (3)
+            </p>
+            <p class="blink">[ PRESS SPACE TO START ]</p>
+        </div>
+
+        <!-- 過關畫面 -->
+        <div id="level-screen" class="ui-overlay hidden">
+            <h1 class="title" style="color: #ffff00;">STAGE CLEARED!</h1>
+            <p class="info">SCORE: <span id="level-score">0</span></p>
+            <p class="blink">[ PRESS SPACE TO CONTINUE ]</p>
+        </div>
+
+        <!-- 遊戲結束畫面 -->
+        <div id="gameover-screen" class="ui-overlay hidden">
+            <h1 class="title" style="color: var(--secondary-color);">GAME OVER</h1>
+            <p class="info">FINAL SCORE: <span id="final-score">0</span></p>
+            <p class="blink">[ PRESS SPACE TO RESTART ]</p>
+        </div>
+
+        <!-- 排行榜畫面 -->
+        <div id="leaderboard-screen" class="ui-overlay hidden">
+            <h1 class="title">TOP 5 SCORES</h1>
+            <table class="leaderboard-table">
+                <thead><tr><th>Rank</th><th>Name</th><th>Score</th></tr></thead>
+                <tbody id="leaderboard-body"></tbody>
+            </table>
+            <p id="new-score-msg" style="color: #00ffcc; font-size: 12px; margin-bottom: 15px;"></p>
+            <input type="text" id="player-name-input" placeholder="Enter Name" maxlength="8">
+            <p class="blink">[ PRESS ENTER TO SAVE ]</p>
+        </div>
+    </div>
+
+<script>
+    // --- 音效系統 (Web Audio API) ---
+    class SoundManager {
+        constructor() {
+            this.ctx = new (window.AudioContext || window.webkitAudioContext)();
+        }
+
+        playShoot() {
+            if(this.ctx.state === 'suspended') return;
+            const osc = this.ctx.createOscillator();
+            const gain = this.ctx.createGain();
+            osc.type = 'square';
+            osc.frequency.setValueAtTime(440, this.ctx.currentTime);
+            osc.frequency.exponentialRampToValueAtTime(880, this.ctx.currentTime + 0.1);
+            gain.gain.setValueAtTime(0.05, this.ctx.currentTime); // 降低音量避免刺耳
+            gain.gain.exponentialRampToValueAtTime(0.01, this.ctx.currentTime + 0.1);
+            osc.connect(gain);
+            gain.connect(this.ctx.destination);
+            osc.start();
+            osc.stop(this.ctx.currentTime + 0.1);
+        }
+
+        playExplosion() {
+            if(this.ctx.state === 'suspended') return;
+            const bufferSize = this.ctx.sampleRate * 0.5; // 0.5 秒長的緩衝區
+            const buffer = this.ctx.createBuffer(1, bufferSize, this.ctx.sampleRate);
+            const data = buffer.getChannelData(0);
+            for (let i = 0; i < bufferSize; i++) {
+                data[i] = Math.random() * 2 - 1;
+            }
+
+            const noise = this.ctx.createBufferSource();
+            noise.buffer = buffer;
+
+            const filter = this.ctx.createBiquadFilter();
+            filter.type = 'lowpass';
+            filter.frequency.value = 1000;
+
+            const gain = this.ctx.createGain();
+            gain.gain.setValueAtTime(0.2, this.ctx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.01, this.ctx.currentTime + 0.5);
+
+            noise.connect(filter);
+            filter.connect(gain);
+            gain.connect(this.ctx.destination);
+            noise.start();
+        }
+
+        playBossExplosion() {
+            if(this.ctx.state === 'suspended') return;
+            const bufferSize = this.ctx.sampleRate * 1.0; 
+            const buffer = this.ctx.createBuffer(1, bufferSize, this.ctx.sampleRate);
+            const data = buffer.getChannelData(0);
+            for (let i = 0; i < bufferSize; i++) {
+                data[i] = Math.random() * 2 - 1;
+            }
+
+            const noise = this.ctx.createBufferSource();
+            noise.buffer = buffer;
+
+            const filter = this.ctx.createBiquadFilter();
+            filter.type = 'lowpass';
+            filter.frequency.value = 800;
+
+            const gain = this.ctx.createGain();
+            gain.gain.setValueAtTime(0.3, this.ctx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.01, this.ctx.currentTime + 1.0);
+
+            noise.connect(filter);
+            filter.connect(gain);
+            gain.connect(this.ctx.destination);
+            noise.start();
+        }
+
+        playPlayerHit() {
+            if(this.ctx.state === 'suspended') return;
+            const osc = this.ctx.createOscillator();
+            const gain = this.ctx.createGain();
+            osc.type = 'sawtooth';
+            osc.frequency.setValueAtTime(200, this.ctx.currentTime);
+            osc.frequency.exponentialRampToValueAtTime(50, this.ctx.currentTime + 0.3);
+            gain.gain.setValueAtTime(0.2, this.ctx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.01, this.ctx.currentTime + 0.3);
+            osc.connect(gain);
+            gain.connect(this.ctx.destination);
+            osc.start();
+            osc.stop(this.ctx.currentTime + 0.3);
+        }
+
+        playBomb() {
+            if(this.ctx.state === 'suspended') return;
+            const bufferSize = this.ctx.sampleRate * 0.8; 
+            const buffer = this.ctx.createBuffer(1, bufferSize, this.ctx.sampleRate);
+            const data = buffer.getChannelData(0);
+            for (let i = 0; i < bufferSize; i++) {
+                data[i] = Math.random() * 2 - 1;
+            }
+
+            const noise = this.ctx.createBufferSource();
+            noise.buffer = buffer;
+
+            const filter = this.ctx.createBiquadFilter();
+            filter.type = 'lowpass';
+            filter.frequency.value = 500;
+
+            const gain = this.ctx.createGain();
+            gain.gain.setValueAtTime(0.4, this.ctx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.01, this.ctx.currentTime + 0.8);
+
+            noise.connect(filter);
+            filter.connect(gain);
+            gain.connect(this.ctx.destination);
+            noise.start();
+        }
+    }
+
+    // --- 遊戲實體 ---
+    class Entity {
+        constructor(x, y, width, height, color, speed, drawFn) {
+            this.x = x;
+            this.y = y;
+            this.width = width;
+            this.height = height;
+            this.color = color;
+            this.speed = speed;
+            this.drawFn = drawFn;
+            this.toRemove = false;
+        }
+
+        update() {}
+
+        draw(ctx) {
+            this.drawFn(ctx, this.x, this.y, this.width, this.height, this.color);
+        }
+
+        collidesWith(other) {
+            return (
+                this.x < other.x + other.width &&
+                this.x + this.width > other.x &&
+                this.y < other.y + other.height &&
+                this.y + this.height > other.y
+            );
+        }
+    }
+
+    class Player extends Entity {
+        constructor(x, y) {
+            super(x, y, 30, 30, '#00ffcc', 5, (ctx, x, y, w, h, c) => {
+                // 像素化繪製玩家飛機
+                ctx.fillStyle = c;
+                // 機身
+                ctx.fillRect(x + w * 0.4, y, w * 0.2, h);
+                ctx.fillRect(x + w * 0.3, y + h * 0.2, w * 0.4, h * 0.6);
+                // 機翼
+                ctx.fillRect(x, y + h * 0.4, w, h * 0.2);
+                // 尾翼
+                ctx.fillStyle = '#008866';
+                ctx.fillRect(x + w * 0.1, y + h * 0.6, w * 0.1, h * 0.3);
+                ctx.fillRect(x + w * 0.8, y + h * 0.6, w * 0.1, h * 0.3);
+                // 引擎火焰
+                if (Math.random() > 0.5) {
+                    ctx.fillStyle = '#ff9900';
+                    ctx.fillRect(x + w * 0.4, y + h, w * 0.2, h * 0.2);
+                }
+            });
+        }
+
+        move(dx, dy) {
+            this.x += dx * this.speed;
+            this.y += dy * this.speed;
+            // 邊界檢查
+            this.x = Math.max(0, Math.min(this.canvasWidth - this.width, this.x));
+            this.y = Math.max(0, Math.min(this.canvasHeight - this.height, this.y));
+        }
+    }
+
+    class Bullet extends Entity {
+        constructor(x, y, speedX, speedY, color, radius) {
+            super(x - radius, y - radius, radius * 2, radius * 2, color, 0, (ctx, x, y, w, h, c) => {
+                ctx.fillStyle = c;
+                ctx.beginPath();
+                ctx.arc(x + radius, y + radius, radius, 0, Math.PI * 2);
+                ctx.fill();
+            });
+            this.speedX = speedX;
+            this.speedY = speedY;
+            this.radius = radius;
+        }
+        update() {
+            this.x += this.speedX;
+            this.y += this.speedY;
+            if (this.y + this.height < 0 || this.y > this.canvasHeight || this.x + this.width < 0 || this.x > this.canvasWidth) this.toRemove = true;
+        }
+    }
+
+    class Enemy extends Entity {
+        constructor(x, y, type, speedMultiplier, canvasWidth, canvasHeight) {
+            const configs = {
+                'basic': { w: 30, h: 30, color: '#ff3366', score: 100, draw: (ctx, x, y, w, h, c) => {
+                    ctx.fillStyle = c;
+                    ctx.fillRect(x + w*0.2, y, w*0.6, h); 
+                    ctx.fillRect(x, y+h*0.4, w, h*0.2); 
+                    ctx.fillStyle = '#880022';
+                    ctx.fillRect(x+w*0.1, y+h*0.8, w*0.1, h*0.2); 
+                    ctx.fillRect(x+w*0.8, y+h*0.8, w*0.1, h*0.2);
+                    ctx.fillStyle = '#ff9999';
+                    ctx.fillRect(x+w*0.4, y, w*0.2, h*0.2); 
+                }},
+                'fast': { w: 20, h: 20, color: '#ff9900', score: 200, draw: (ctx, x, y, w, h, c) => {
+                    ctx.fillStyle = c;
+                    ctx.fillRect(x+w*0.4, y, w*0.2, h);
+                    ctx.fillRect(x, y+h*0.5, w, h*0.2);
+                    ctx.fillStyle = '#cc7700';
+                    ctx.fillRect(x+w*0.3, y+h*0.6, w*0.4, h*0.2);
+                }},
+                'tank': { w: 40, h: 40, color: '#cc0000', score: 300, draw: (ctx, x, y, w, h, c) => {
+                    ctx.fillStyle = c;
+                    ctx.fillRect(x, y, w, h); 
+                    ctx.fillStyle = '#660000';
+                    ctx.fillRect(x+w*0.2, y+h*0.2, w*0.6, h*0.6); 
+                    ctx.fillStyle = '#ff6666';
+                    ctx.fillRect(x+w*0.4, y, w*0.2, h*0.2); 
+                }}
+            };
+            const cfg = configs[type];
+            super(x, y, cfg.w, cfg.h, cfg.color, 1.5 * speedMultiplier, cfg.draw);
+            this.type = type;
+            this.score = cfg.score;
+            this.health = type === 'tank' ? 3 : 1;
+            this.canvasWidth = canvasWidth;
+            this.canvasHeight = canvasHeight;
+        }
+
+        update(player) {
+            this.y += this.speed;
+            // 簡單的左右擺動
+            if (this.type === 'fast') {
+                this.x += Math.sin(this.y * 0.05) * 3;
+                this.x = Math.max(0, Math.min(this.canvasWidth - this.width, this.x));
+            }
+            
+            // 隨機發射飛彈
+            if (Math.random() < 0.005) {
+                return new Bullet(this.x + this.width / 2, this.y + this.height, 0, 4, '#ffff00', 4);
+            }
+
+            if (this.y > this.canvasHeight) this.toRemove = true;
+        }
+    }
+
+    class Boss extends Entity {
+        constructor(canvasWidth, canvasHeight, level) {
+            const health = 60 + level * 20; // 大幅增加 Boss 血量，使血條下降變慢
+            const score = 1500 * level;
+            // 動態計算 Boss 寬度以適應手機版
+            const bossWidth = Math.min(150, canvasWidth * 0.4); 
+            const bossHeight = bossWidth * 0.6;
+            
+            super(canvasWidth / 2 - bossWidth/2, -bossHeight - 50, bossWidth, bossHeight, '#ff00ff', 0.5, (ctx, x, y, w, h, c) => {
+                ctx.fillStyle = c;
+                ctx.fillRect(x + w*0.3, y, w*0.4, h*0.8);
+                ctx.fillRect(x + w*0.2, y + h*0.1, w*0.6, h*0.6);
+                ctx.fillRect(x, y + h*0.3, w, h*0.2);
+                ctx.fillRect(x + w*0.1, y + h*0.1, w*0.2, h*0.2);
+                ctx.fillRect(x + w*0.7, y + h*0.1, w*0.2, h*0.2);
+                ctx.fillStyle = '#880088';
+                ctx.fillRect(x + w*0.35, y + h*0.9, w*0.3, h*0.1);
+                ctx.fillStyle = '#ff66ff';
+                ctx.fillRect(x + w*0.4, y + h*0.2, w*0.2, h*0.2);
+            });
+            this.health = health;
+            this.maxHealth = health;
+            this.score = score;
+            this.canvasWidth = canvasWidth;
+            this.canvasHeight = canvasHeight;
+            this.shootTimer = 0;
+        }
+
+        update(player) {
+            // 進入畫面後停止並左右移動
+            if (this.y < 50) {
+                this.y += this.speed;
+            } else {
+                this.x += Math.sin(Date.now() * 0.002) * 2;
+                this.x = Math.max(0, Math.min(this.canvasWidth - this.width, this.x));
+            }
+
+            // 定期發射
+            this.shootTimer++;
+            if (this.shootTimer > 80) {
+                this.shootTimer = 0;
+                const centerX = this.x + this.width / 2;
+                const startY = this.y + this.height;
+                
+                // 【修正：Boss 飛彈向下發射問題】
+                const numShots = 9; // 總共發射9發 (減少數量讓畫面更乾淨)
+                const angleStep = Math.PI / 12; // 調整角度間隔，使彈幕集中朝下
+                const baseSpeed = 4.5;
+                const bullets = [];
+
+                for (let i = 0; i < numShots; i++) {
+                    // Math.PI / 2 代表朝下 (90度)。
+                    const angle = Math.PI / 2 + (i - Math.floor(numShots / 2)) * angleStep; 
+                    const speedX = Math.cos(angle) * baseSpeed;
+                    const speedY = Math.sin(angle) * baseSpeed;
+                    bullets.push(new Bullet(centerX, startY, speedX, speedY, '#ff00ff', 5));
+                }
+                return bullets;
+            }
+            return [];
+        }
+    }
+
+    class Explosion {
+        constructor(x, y) {
+            this.x = x;
+            this.y = y;
+            this.radius = 1;
+            this.alpha = 1;
+            this.toRemove = false;
+        }
+
+        update() {
+            this.radius += 2.5;
+            this.alpha -= 0.06;
+            if (this.alpha <= 0) this.toRemove = true;
+        }
+
+        draw(ctx) {
+            ctx.save();
+            ctx.globalAlpha = this.alpha;
+            ctx.fillStyle = '#ffff00';
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.fillStyle = '#ff9900';
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, this.radius * 0.6, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.restore();
+        }
+    }
+
+    class Cloud {
+        constructor(canvasWidth, canvasHeight) {
+            this.reset(canvasWidth, canvasHeight, true);
+        }
+
+        reset(canvasWidth, canvasHeight, initial = false) {
+            this.canvasWidth = canvasWidth;
+            this.canvasHeight = canvasHeight;
+            this.x = Math.random() * canvasWidth;
+            this.y = initial ? Math.random() * canvasHeight - canvasHeight : -150 - Math.random() * 200;
+            
+            // 雲朵分層：深色遠景(速度慢)、明亮近景(速度快)
+            this.layer = Math.random() > 0.4 ? 'front' : 'back';
+            if (this.layer === 'front') {
+                this.speed = 1.2 + Math.random() * 1.8;
+                this.width = 100 + Math.random() * 100;
+                this.height = 45 + Math.random() * 45;
+                this.alpha = 0.35 + Math.random() * 0.25;
+                this.color = '#ffffff';
+            } else {
+                this.speed = 0.4 + Math.random() * 0.7;
+                this.width = 60 + Math.random() * 70;
+                this.height = 25 + Math.random() * 25;
+                this.alpha = 0.15 + Math.random() * 0.15;
+                this.color = '#cce7ff'; // 遠景雲稍微帶點藍色調增加深度感
+            }
+
+            // 產生獨特的膨脹圓球組成豐富的雲朵形狀
+            this.puffs = [];
+            const puffCount = 5 + Math.floor(Math.random() * 4); // 5-8個泡泡組合
+            for(let i = 0; i < puffCount; i++) {
+                this.puffs.push({
+                    offsetX: (Math.random() - 0.5) * (this.width * 0.7),
+                    offsetY: (Math.random() - 0.5) * (this.height * 0.4),
+                    radius: (this.height * 0.45) + Math.random() * (this.height * 0.35)
+                });
+            }
+        }
+
+        update() {
+            this.y += this.speed;
+            if (this.y - this.height * 2 > this.canvasHeight) {
+                this.reset(this.canvasWidth, this.canvasHeight, false);
+            }
+        }
+
+        draw(ctx) {
+            ctx.save();
+            ctx.globalAlpha = this.alpha;
+            ctx.fillStyle = this.color;
+            ctx.beginPath();
+            
+            // 組合多個精緻圓形繪製蓬鬆雲朵
+            this.puffs.forEach(p => {
+                ctx.moveTo(this.x + p.offsetX + p.radius, this.y + p.offsetY);
+                ctx.arc(this.x + p.offsetX, this.y + p.offsetY, p.radius, 0, Math.PI * 2);
+            });
+            
+            ctx.fill();
+
+            // 若是近景雲朵，加上柔和的高光層次
+            if (this.layer === 'front') {
+                ctx.globalAlpha = this.alpha * 0.4;
+                ctx.fillStyle = '#ffffff';
+                ctx.beginPath();
+                this.puffs.slice(0, 2).forEach(p => {
+                    ctx.arc(this.x + p.offsetX - 5, this.y + p.offsetY - 5, p.radius * 0.6, 0, Math.PI * 2);
+                });
+                ctx.fill();
+            }
+
+            ctx.restore();
+        }
+    }
+
+    // --- 遊戲主體 ---
+    class Game {
+        constructor() {
+            this.container = document.getElementById('game-container');
+            this.canvas = document.getElementById('gameCanvas');
+            this.ctx = this.canvas.getContext('2d');
+            
+            // 響應式 Canvas 設定
+            this.resizeCanvas();
+            window.addEventListener('resize', () => this.resizeCanvas());
+
+            this.soundManager = new SoundManager();
+            
+            this.keys = {};
+            this.player = null;
+            this.bullets = [];
+            this.enemyBullets = [];
+            this.enemies = [];
+            this.explosions = [];
+            this.boss = null;
+            this.clouds = [];
+
+            this.score = 0;
+            this.lives = 3;
+            this.level = 1;
+            this.state = 'start'; 
+
+            this.enemySpawnTimer = 0;
+            this.enemiesToSpawn = 0;
+            this.enemiesDefeated = 0;
+
+            this.bombs = 3;
+            this.bombActive = false;
+            this.bombTimer = 0;
+
+            this.leaderboard = JSON.parse(localStorage.getItem('1943_leaderboard')) || [];
+
+            this.setupInputs();
+            this.updateUI();
+
+            for (let i = 0; i < 5; i++) { // 大幅增加雲朵總數至 45 朵，營造豐富的空中雲海
+                this.clouds.push(new Cloud(this.width, this.height));
+            }
+
+            this.lastTime = 0;
+            this.shootTimer = 0;
+            this.shootDelay = 8; 
+            requestAnimationFrame((ts) => this.gameLoop(ts));
+        }
+
+        resizeCanvas() {
+            this.width = this.container.clientWidth;
+            this.height = this.container.clientHeight;
+            this.canvas.width = this.width;
+            this.canvas.height = this.height;
+            if(this.player) {
+                this.player.canvasWidth = this.width;
+                this.player.canvasHeight = this.height;
+            }
+        }
+
+        setupInputs() {
+            window.addEventListener('keydown', (e) => {
+                this.keys[e.code] = true;
+                this.handleGlobalInput(e.code);
+            });
+
+            window.addEventListener('keyup', (e) => {
+                this.keys[e.code] = false;
+                if (e.code === 'Space' || e.code === 'Enter') {
+                    this.keys['shoot'] = false;
+                }
+            });
+
+            // 支援手機觸控遊玩 (基本移動與射擊)
+            this.canvas.addEventListener('touchstart', (e) => this.handleTouch(e), {passive: false});
+            this.canvas.addEventListener('touchmove', (e) => this.handleTouch(e), {passive: false});
+            this.canvas.addEventListener('touchend', () => { this.keys['shoot'] = false; });
+            
+            // 加入滑鼠控制支援
+            this.canvas.addEventListener('mousemove', (e) => this.handleMouseMove(e));
+            this.canvas.addEventListener('mousedown', (e) => this.handleMouseDown(e));
+            this.canvas.addEventListener('mouseup', (e) => this.handleMouseUp(e));
+            this.canvas.addEventListener('contextmenu', (e) => e.preventDefault()); // 禁用右鍵選單
+
+            // 點擊覆蓋層來進入下一步
+            document.querySelectorAll('.ui-overlay').forEach(overlay => {
+                overlay.addEventListener('click', () => {
+                    if(!overlay.classList.contains('hidden')) {
+                        if(this.state === 'start') this.startGame();
+                        else if(this.state === 'level_cleared') this.nextLevel();
+                        else if(this.state === 'game_over') this.resetGame();
+                    }
+                });
+            });
+            
+            // 阻止 input 點擊冒泡
+            document.getElementById('player-name-input').addEventListener('click', (e) => e.stopPropagation());
+        }
+
+        handleGlobalInput(code) {
+            if (this.state === 'start' && (code === 'Space' || code === 'Enter')) {
+                this.startGame();
+            } else if (this.state === 'level_cleared' && (code === 'Space' || code === 'Enter')) {
+                this.nextLevel();
+            } else if (this.state === 'game_over' && (code === 'Space' || code === 'Enter')) {
+                this.resetGame();
+            } else if (this.state === 'leaderboard' && code === 'Enter') {
+                this.saveScore();
+            } else if (this.state === 'playing' && (code === 'Space' || code === 'Enter')) {
+                this.keys['shoot'] = true;
+            } else if (this.state === 'playing' && code === 'KeyB') {
+                this.useBomb();
+            }
+        }
+
+        handleMouseMove(e) {
+            if (this.state !== 'playing' || !this.player) return;
+            const rect = this.canvas.getBoundingClientRect();
+            // 計算縮放比例以適應可能被 CSS 縮放的 Canvas
+            const scaleX = this.canvas.width / rect.width;
+            const scaleY = this.canvas.height / rect.height;
+            
+            const mouseX = (e.clientX - rect.left) * scaleX;
+            const mouseY = (e.clientY - rect.top) * scaleY;
+            
+            // 讓飛機中心對準滑鼠游標
+            this.player.x = mouseX - this.player.width / 2;
+            this.player.y = mouseY - this.player.height / 2;
+            
+            // 邊界限制
+            this.player.x = Math.max(0, Math.min(this.width - this.player.width, this.player.x));
+            this.player.y = Math.max(0, Math.min(this.height - this.player.height, this.player.y));
+        }
+
+        handleMouseDown(e) {
+            if (this.state === 'playing') {
+                if (e.button === 0) { // 左鍵發射
+                    this.keys['shoot'] = true;
+                } else if (e.button === 2) { // 右鍵放炸彈
+                    this.useBomb();
+                }
+            } else {
+                // 在 UI 畫面上允許點擊左鍵進入下一步
+                if (e.button === 0) {
+                     if(this.state === 'start') this.startGame();
+                     else if(this.state === 'level_cleared') this.nextLevel();
+                     else if(this.state === 'game_over') this.resetGame();
+                }
+            }
+        }
+
+        handleMouseUp(e) {
+            if (e.button === 0) { // 左鍵放開停止發射
+                this.keys['shoot'] = false;
+            }
+        }
+
+        handleTouch(e) {
+            e.preventDefault();
+            if(this.state !== 'playing' || !this.player) return;
+            
+            const touch = e.touches[0];
+            const rect = this.canvas.getBoundingClientRect();
+            const touchX = touch.clientX - rect.left;
+            const touchY = touch.clientY - rect.top;
+            
+            // 直接將玩家移動到觸控位置 (平滑跟隨)
+            this.player.x = touchX - this.player.width / 2;
+            this.player.y = touchY - this.player.height - 20; // 稍微偏上避免手指擋住飛機
+            
+            // 邊界限制
+            this.player.x = Math.max(0, Math.min(this.width - this.player.width, this.player.x));
+            this.player.y = Math.max(0, Math.min(this.height - this.player.height, this.player.y));
+            
+            this.keys['shoot'] = true; // 觸控時自動射擊
+        }
+
+        startGame() {
+            if (this.soundManager.ctx.state === 'suspended') {
+                this.soundManager.ctx.resume();
+            }
+            this.player = new Player(this.width / 2 - 15, this.height - 120);
+            this.player.canvasWidth = this.width;
+            this.player.canvasHeight = this.height;
+            this.bullets = [];
+            this.enemyBullets = [];
+            this.enemies = [];
+            this.explosions = [];
+            this.boss = null;
+            this.score = 0;
+            this.lives = 3;
+            this.level = 1;
+            this.bombs = 3;
+            this.state = 'playing';
+            this.startLevel();
+            this.updateUI();
+            this.toggleScreen('game-container');
+        }
+
+        resetGame() {
+            this.startGame();
+        }
+
+        startLevel() {
+            this.enemies = [];
+            this.bullets = [];
+            this.enemyBullets = [];
+            this.enemySpawnTimer = 0;
+            this.enemiesToSpawn = 10 + this.level * 3;
+            this.enemiesDefeated = 0;
+            this.boss = null;
+            document.getElementById('boss-health-container').style.display = 'none';
+            this.updateUI();
+        }
+
+        nextLevel() {
+            this.level++;
+            this.player.x = this.width / 2 - 15;
+            this.player.y = this.height - 120;
+            this.state = 'playing';
+            this.startLevel();
+            this.toggleScreen('game-container'); 
+        }
+
+        shoot() {
+            if (this.state !== 'playing') return;
+            this.bullets.push(new Bullet(this.player.x + this.player.width / 2, this.player.y, 0, -10, '#ffff00', 3));
+            this.soundManager.playShoot();
+        }
+
+        spawnEnemy() {
+            // Boss 戰時不再限制生成總數，但生成頻率會由 gameLoop 控制
+            if (this.enemiesToSpawn > 0 || this.boss) {
+                const type = Math.random() > 0.8 ? 'tank' : (Math.random() > 0.5 ? 'fast' : 'basic');
+                const x = Math.random() * (this.width - 40);
+                const speedMultiplier = 1 + (this.level * 0.1);
+                this.enemies.push(new Enemy(x, -40, type, speedMultiplier, this.width, this.height));
+                if (this.enemiesToSpawn > 0) {
+                    this.enemiesToSpawn--;
+                }
+            }
+        }
+
+        spawnBoss() {
+            this.boss = new Boss(this.width, this.height, this.level);
+        }
+
+        useBomb() {
+            if (this.bombs > 0 && !this.bombActive) {
+                this.bombs--;
+                this.bombActive = true;
+                this.bombTimer = 30; // 畫面閃爍時間
+                this.soundManager.playBomb();
+                this.updateUI();
+
+                this.enemies.forEach(enemy => {
+                    enemy.health -= 5; // 炸彈傷害提高
+                    if (enemy.health <= 0) {
+                        enemy.toRemove = true;
+                        this.score += enemy.score;
+                        this.enemiesDefeated++;
+                        this.explosions.push(new Explosion(enemy.x + enemy.width/2, enemy.y + enemy.height/2));
+                    }
+                });
+                
+                // 清除所有敵方子彈
+                this.enemyBullets.forEach(b => b.toRemove = true);
+
+                if (this.boss && !this.boss.toRemove) {
+                    this.boss.health -= 15; // 對 Boss 造成大量傷害
+                    this.updateBossHealthBar();
+                    this.explosions.push(new Explosion(this.boss.x + this.boss.width/2, this.boss.y + this.boss.height/2));
+                    if (this.boss.health <= 0) {
+                        this.boss.toRemove = true;
+                        this.score += this.boss.score;
+                        this.soundManager.playBossExplosion();
+                        for (let i = 0; i < 8; i++) {
+                            setTimeout(() => {
+                                if(this.boss) {
+                                    this.explosions.push(new Explosion(
+                                        this.boss.x + Math.random() * this.boss.width,
+                                        this.boss.y + Math.random() * this.boss.height
+                                    ));
+                                }
+                            }, i * 150);
+                        }
+                        this.updateUI();
+                    }
+                }
+            }
+        }
+
+        playerHit() {
+            this.lives--;
+            this.soundManager.playPlayerHit();
+            this.explosions.push(new Explosion(this.player.x + this.player.width/2, this.player.y + this.player.height/2));
+            
+            // 無敵閃爍或暫時保護可以加在這，簡化版直接重生
+            this.player.x = this.width / 2 - 15;
+            this.player.y = this.height - 120;
+            
+            // 給予短暫的清空敵彈效果避免連續被擊中
+            this.enemyBullets.forEach(b => b.toRemove = true);
+            
+            this.updateUI();
+
+            if (this.lives <= 0) {
+                this.gameOver();
+            }
+        }
+
+        gameOver() {
+            this.state = 'game_over';
+            this.updateUI();
+            document.getElementById('boss-health-container').style.display = 'none'; // 隱藏血條
+            this.toggleScreen('gameover-screen');
+            document.getElementById('final-score').innerText = this.score;
+
+            if (this.isHighScore()) {
+                setTimeout(() => {
+                    this.showLeaderboard();
+                }, 1500);
+            }
+        }
+
+        isHighScore() {
+            return this.leaderboard.length < 5 || this.score > this.leaderboard[this.leaderboard.length - 1].score;
+        }
+
+        showLeaderboard() {
+            this.state = 'leaderboard';
+            this.toggleScreen('leaderboard-screen');
+            this.renderLeaderboard();
+            if (this.isHighScore()) {
+                document.getElementById('new-score-msg').innerText = "NEW HIGH SCORE! ENTER NAME:";
+                document.getElementById('player-name-input').style.display = 'inline-block';
+                document.getElementById('player-name-input').focus();
+            } else {
+                document.getElementById('new-score-msg').innerText = "";
+                document.getElementById('player-name-input').style.display = 'none';
+            }
+        }
+
+        saveScore() {
+            const nameInput = document.getElementById('player-name-input');
+            if(nameInput.style.display === 'none') return;
+            
+            let name = nameInput.value.trim() || "ANON";
+            name = name.toUpperCase();
+            
+            const newEntry = { name: name, score: this.score };
+            this.leaderboard.push(newEntry);
+            this.leaderboard.sort((a, b) => b.score - a.score);
+            this.leaderboard = this.leaderboard.slice(0, 5); 
+
+            localStorage.setItem('1943_leaderboard', JSON.stringify(this.leaderboard));
+            
+            nameInput.value = '';
+            this.state = 'game_over';
+            this.toggleScreen('gameover-screen');
+        }
+
+        renderLeaderboard() {
+            const tbody = document.getElementById('leaderboard-body');
+            tbody.innerHTML = '';
+            this.leaderboard.forEach((entry, index) => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `<td>${index + 1}</td><td>${entry.name}</td><td>${entry.score}</td>`;
+                tbody.appendChild(tr);
+            });
+        }
+
+        checkCollisions() {
+            // 玩家子彈 vs 敵機
+            this.bullets.forEach(bullet => {
+                this.enemies.forEach(enemy => {
+                    if (!bullet.toRemove && !enemy.toRemove && bullet.collidesWith(enemy)) {
+                        bullet.toRemove = true;
+                        enemy.health--;
+                        if (enemy.health <= 0) {
+                            enemy.toRemove = true;
+                            this.score += enemy.score;
+                            this.enemiesDefeated++;
+                            this.soundManager.playExplosion();
+                            this.explosions.push(new Explosion(enemy.x + enemy.width/2, enemy.y + enemy.height/2));
+                            this.updateUI();
+                        } else {
+                            this.explosions.push(new Explosion(bullet.x, bullet.y));
+                        }
+                    }
+                });
+            });
+
+            // 玩家子彈 vs Boss
+            if (this.boss && !this.boss.toRemove) {
+                this.bullets.forEach(bullet => {
+                    if (!bullet.toRemove && bullet.collidesWith(this.boss)) {
+                        bullet.toRemove = true;
+                        this.boss.health--;
+                        this.updateBossHealthBar();
+                        this.explosions.push(new Explosion(bullet.x, bullet.y));
+                        if (this.boss.health <= 0) {
+                            this.boss.toRemove = true;
+                            this.score += this.boss.score;
+                            this.soundManager.playBossExplosion();
+                            for (let i = 0; i < 8; i++) {
+                                setTimeout(() => {
+                                    if(this.boss){
+                                        this.explosions.push(new Explosion(
+                                            this.boss.x + Math.random() * this.boss.width,
+                                            this.boss.y + Math.random() * this.boss.height
+                                        ));
+                                    }
+                                }, i * 150);
+                            }
+                            this.updateUI();
+                        }
+                    }
+                });
+            }
+
+            // 玩家 vs 敵機
+            this.enemies.forEach(enemy => {
+                if (!enemy.toRemove && enemy.collidesWith(this.player)) {
+                    enemy.toRemove = true;
+                    this.playerHit();
+                    this.explosions.push(new Explosion(enemy.x + enemy.width/2, enemy.y + enemy.height/2));
+                }
+            });
+
+            // 玩家 vs 敵機子彈
+            this.enemyBullets.forEach(enemyBullet => {
+                if (!enemyBullet.toRemove && enemyBullet.collidesWith(this.player)) {
+                    enemyBullet.toRemove = true;
+                    this.playerHit();
+                    this.explosions.push(new Explosion(enemyBullet.x, enemyBullet.y));
+                }
+            });
+            
+            // 玩家 vs Boss本體
+            if (this.boss && !this.boss.toRemove && this.boss.collidesWith(this.player)) {
+                this.playerHit();
+            }
+        }
+        
+        updateBossHealthBar() {
+            if (this.boss) {
+                const healthPercent = Math.max(0, (this.boss.health / this.boss.maxHealth) * 100);
+                document.getElementById('boss-health-bar').style.width = `${healthPercent}%`;
+            }
+        }
+
+        checkLevelStatus() {
+            // 【修正：簡化 Boss 生成條件】
+            // 當預定的敵人生成完畢後，即呼叫 Boss。不用等待畫面上清空敵人。
+            if (!this.boss && this.enemiesToSpawn <= 0 && this.state === 'playing') {
+                this.spawnBoss();
+                document.getElementById('boss-health-container').style.display = 'block';
+                this.updateBossHealthBar();
+            }
+            
+            // 【修正：過關狀態判定】補回遺漏的 if 條件式
+            if (this.boss && this.boss.toRemove && this.state === 'playing') {
+                this.state = 'level_cleared';
+                document.getElementById('level-score').innerText = this.score;
+                document.getElementById('boss-health-container').style.display = 'none'; // 隱藏血條
+                
+                // 延遲一點顯示過關畫面，讓玩家看完爆炸
+                setTimeout(() => {
+                    this.toggleScreen('level-screen');
+                }, 1000);
+            }
+
+            // 如果Boss離開畫面，則遊戲結束 (防呆機制)
+            if (this.boss && this.boss.y > this.height) {
+                this.gameOver();
+            }
+        }
+
+        updateUI() {
+            document.getElementById('score').innerText = this.score;
+            let hearts = '';
+            for (let i = 0; i < this.lives; i++) hearts += '❤️';
+            document.getElementById('lives-display').innerText = hearts;
+            document.getElementById('level').innerText = this.level;
+            document.getElementById('bombs').innerText = this.bombs;
+        }
+
+        toggleScreen(screenIdToShow) {
+            ['start-screen', 'level-screen', 'gameover-screen', 'leaderboard-screen'].forEach(id => {
+                const el = document.getElementById(id);
+                if (id === screenIdToShow) {
+                    el.classList.remove('hidden');
+                } else {
+                    el.classList.add('hidden');
+                }
+            });
+        }
+
+        gameLoop(timestamp) {
+            if (!this.lastTime) this.lastTime = timestamp;
+            const deltaTime = timestamp - this.lastTime;
+            this.lastTime = timestamp;
+
+            this.ctx.clearRect(0, 0, this.width, this.height);
+
+            // 繪製背景雲朵
+            this.clouds.forEach(cloud => {
+                cloud.update();
+                cloud.draw(this.ctx);
+            });
+
+            if (this.state === 'playing') {
+                // 炸彈閃光效果
+                if (this.bombActive) {
+                    this.ctx.fillStyle = 'rgba(255, 255, 255, 0.7)';
+                    this.ctx.fillRect(0, 0, this.width, this.height);
+                    this.bombTimer--;
+                    if (this.bombTimer <= 0) {
+                        this.bombActive = false;
+                    }
+                }
+
+                // 玩家鍵盤移動
+                let dx = 0, dy = 0;
+                if (this.keys['ArrowLeft']) dx = -1;
+                if (this.keys['ArrowRight']) dx = 1;
+                if (this.keys['ArrowUp']) dy = -1;
+                if (this.keys['ArrowDown']) dy = 1;
+                if (this.player && (dx !== 0 || dy !== 0)) {
+                    this.player.move(dx, dy);
+                }
+
+                // 連發子彈
+                if (this.keys['shoot']) {
+                    this.shootTimer++;
+                    if (this.shootTimer >= this.shootDelay) {
+                        this.shoot();
+                        this.shootTimer = 0;
+                    }
+                } else {
+                    this.shootTimer = this.shootDelay;
+                }
+
+                // 生成敵人
+                this.enemySpawnTimer++;
+                // Boss 戰時生成頻率稍微降低一點，避免畫面過於混亂
+                let spawnInterval = Math.max(20, 60 - this.level * 5); 
+                if (this.boss) {
+                    spawnInterval *= 1.5; // Boss 戰時，小敵機生成間隔變為 1.5 倍
+                }
+
+                if (this.enemySpawnTimer > spawnInterval) { 
+                    this.spawnEnemy();
+                    this.enemySpawnTimer = 0;
+                }
+
+                // 收集並更新子彈
+                if (this.player) this.player.draw(this.ctx);
+                this.bullets.forEach(b => b.update());
+                this.enemyBullets.forEach(b => b.update());
+                
+                let newEnemyBullets = [];
+                this.enemies.forEach(e => {
+                    const bullet = e.update(this.player);
+                    if (bullet) newEnemyBullets.push(bullet);
+                });
+                
+                if (this.boss && !this.boss.toRemove) {
+                    const bossBullets = this.boss.update(this.player);
+                    if (bossBullets) newEnemyBullets.push(...bossBullets);
+                }
+                
+                this.enemyBullets.push(...newEnemyBullets);
+                this.explosions.forEach(e => e.update());
+
+                // 碰撞檢測
+                this.checkCollisions();
+
+                // 【修正：將 checkLevelStatus 移到「清理實體」之前！】
+                // 這樣才能在 boss.toRemove = true 時，正確觸發過關邏輯。
+                this.checkLevelStatus();
+
+                // 清理標記為 toRemove 的實體
+                this.bullets = this.bullets.filter(b => !b.toRemove);
+                this.enemyBullets = this.enemyBullets.filter(b => !b.toRemove);
+                this.enemies = this.enemies.filter(e => !e.toRemove);
+                this.explosions = this.explosions.filter(e => !e.toRemove);
+                if (this.boss && this.boss.toRemove) {
+                    this.boss = null; // 清除 Boss 物件
+                }
+
+                // 繪製剩下的實體
+                this.bullets.forEach(b => b.draw(this.ctx));
+                this.enemyBullets.forEach(b => b.draw(this.ctx));
+                this.enemies.forEach(e => e.draw(this.ctx));
+                if (this.boss) {
+                    this.boss.draw(this.ctx);
+                }
+                this.explosions.forEach(e => e.draw(this.ctx));
+
+            } else if (this.state === 'level_cleared' || this.state === 'game_over') {
+                // 在過場畫面持續繪製爆炸效果與玩家殘影，讓畫面不過於生硬
+                if(this.player && this.state === 'level_cleared') {
+                    this.player.y -= 2; // 玩家飛離畫面
+                    this.player.draw(this.ctx);
+                }
+                
+                this.explosions.forEach(e => {
+                    e.update();
+                    e.draw(this.ctx);
+                });
+                this.explosions = this.explosions.filter(e => !e.toRemove);
+            }
+
+            requestAnimationFrame((ts) => this.gameLoop(ts));
+        }
+    }
+
+    // 啟動遊戲
+    window.onload = () => {
+        const game = new Game();
+    };
+</script>
+
+</body>
+</html>

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<title>青蛙過街 - Frogger</title>
+<style>
+    :root {
+        --neon-green: #00ffcc;
+        --neon-pink: #ff0055;
+        --neon-blue: #00ccff;
+        --bg-dark: #050505;
+    }
+
+    body {
+        margin: 0; padding: 0; background-color: var(--bg-dark);
+        color: var(--neon-green); font-family: 'Courier New', monospace;
+        display: flex; flex-direction: column; align-items: center;
+        justify-content: center; height: 100vh; overflow: hidden;
+    }
+
+    #game-container {
+        position: relative; width: 400px; border: 4px solid #333;
+        box-shadow: 0 0 30px rgba(0, 255, 204, 0.2);
+        display: flex; flex-direction: column; transform: scale(1.3);
+    }
+
+    #header {
+        width: 100%; height: 50px; display: flex; justify-content: space-around;
+        align-items: center; background: #1a1a1a; border-bottom: 2px solid #333;
+        box-sizing: border-box; font-size: 16px; font-weight: bold;
+        text-shadow: 0 0 8px var(--neon-green);
+    }
+
+    canvas { display: block; background-color: #000; }
+
+    #footer {
+        width: 100%; height: 25px; background: #111; border-top: 2px solid #333;
+        position: relative; box-sizing: border-box; overflow: hidden;
+    }
+
+    #time-bar {
+        height: 100%; width: 100%;
+        background: linear-gradient(90deg, var(--neon-pink), var(--neon-green));
+        transition: width 0.1s linear;
+    }
+
+    #footer-label {
+        position: absolute; width: 100%; text-align: center; top: 3px;
+        font-size: 12px; color: white; text-shadow: 1px 1px 2px black;
+        pointer-events: none;
+    }
+
+    #overlay {
+        position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(0,0,0,0.85); display: none;
+        flex-direction: column; align-items: center; justify-content: center;
+        z-index: 100; text-align: center;
+    }
+
+    #overlay h2 { font-size: 32px; color: var(--neon-pink); margin: 0; }
+    #overlay input {
+        background: transparent; border: 2px solid var(--neon-green);
+        color: var(--neon-green); padding: 8px; font-size: 18px;
+        text-align: center; margin-top: 15px; outline: none;
+    }
+    .leaderboard { margin: 15px 0; font-size: 14px; color: #fff; }
+    .continue-hint { font-size: 12px; color: #888; margin-top: 10px; }
+
+</style>
+</head>
+<body id="body">
+
+    <div id="game-container">
+        <div id="header">
+            <div>SC: <span id="score">0</span></div>
+            <div>HI: <span id="hi-score">5310</span></div>
+            <div>LV: <span id="lives">3</span></div>
+        </div>
+
+        <canvas id="gameCanvas" width="400" height="500"></canvas>
+
+        <div id="footer">
+            <div id="time-bar"></div>
+            <div id="footer-label">TIME REMAINING</div>
+        </div>
+
+        <div id="overlay">
+            <h2 id="overlay-title">GAME OVER</h2>
+            <div id="score-display"></div>
+            <div id="name-input-zone" style="display:none;">
+                <p>NEW HIGH SCORE!</p>
+                <input type="text" id="player-name" maxlength="10" placeholder="NAME">
+            </div>
+            <div class="leaderboard" id="leaderboard-list"></div>
+            <div id="continue-hint" class="continue-hint">Press [SPACE] to Restart</div>
+        </div>
+    </div>
+
+<script>
+/** --- 音效引擎 --- **/
+const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+function playSound(freq, type, duration, vol=0.1) {
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.type = type;
+    osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+    gain.gain.setValueAtTime(vol, audioCtx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + duration);
+    osc.connect(gain); gain.connect(audioCtx.destination);
+    osc.start(); osc.stop(audioCtx.currentTime + duration);
+}
+
+const sounds = {
+    jump: () => playSound(400, 'square', 0.1),
+    score: () => { playSound(600, 'sine', 0.1); setTimeout(()=>playSound(800, 'sine', 0.2), 100); },
+    hit: () => playSound(150, 'sawtooth', 0.4),
+    win: () => { [440, 554, 659, 880].forEach((f, i) => setTimeout(() => playSound(f, 'sine', 0.3), i * 150)); }
+};
+
+/** --- 遊戲邏輯 --- **/
+const canvas = document.getElementById('gameCanvas');
+const ctx = canvas.getContext('2d');
+const GRID = 50;
+
+let gameState = {
+    score: 0,
+    hiScore: parseInt(localStorage.getItem('frogger_hi')) || 5310,
+    lives: 3,
+    level: 1,
+    timeLeft: 120,
+    maxTime: 120,
+    pitsFilled: 0,
+    running: true,
+    leaderboard: JSON.parse(localStorage.getItem('frogger_scores')) || [
+        {name: 'CYBER', score: 5000}, {name: 'NEON', score: 4000},
+        {name: 'ACE', score: 3000}, {name: 'BIT', score: 2000}, {name: 'Z', score: 1000}
+    ]
+};
+
+let frog = { x: 4 * GRID, y: 9 * GRID, w: 34, h: 34 };
+let obstacles = [];
+
+// 像素繪圖函數
+function drawPixelFrog(x, y, scale=1) {
+    const s = scale;
+    ctx.fillStyle = '#00ff00'; 
+    ctx.fillRect(x+8*s, y+10*s, 24*s, 24*s);
+    ctx.fillRect(x+4*s, y+20*s, 32*s, 14*s);
+    ctx.fillStyle = '#00cc00'; 
+    ctx.fillRect(x+10*s, y+5*s, 20*s, 15*s);
+    ctx.fillStyle = 'white'; 
+    ctx.fillRect(x+12*s, y+8*s, 6*s, 6*s); ctx.fillRect(x+22*s, y+8*s, 6*s, 6*s);
+    ctx.fillStyle = 'black'; 
+    ctx.fillRect(x+14*s, y+10*s, 2*s, 2*s); ctx.fillRect(x+24*s, y+10*s, 2*s, 2*s);
+}
+
+function drawPixelCar(x, y, w, h, color) {
+    ctx.fillStyle = color; ctx.fillRect(x, y+5, w, h-10);
+    ctx.fillStyle = 'rgba(255,255,255,0.5)'; ctx.fillRect(x+w*0.2, y+2, w*0.6, h-4);
+    ctx.fillStyle = '#333'; ctx.fillRect(x+5, y, 8, 5); ctx.fillRect(x+w-13, y, 8, 5);
+    ctx.fillRect(x+5, y+h-5, 8, 5); ctx.fillRect(x+w-13, y+h-5, 8, 5);
+    ctx.fillStyle = '#ffff00'; ctx.fillRect(x+w-5, y+2, 5, 5);
+}
+
+function drawPixelLog(x, y, w, h) {
+    ctx.fillStyle = '#7a5230'; ctx.fillRect(x, y+5, w, h-10);
+    ctx.fillStyle = '#a67c52'; ctx.fillRect(x+5, y+10, w-10, 5);
+}
+
+class Obstacle {
+    constructor(row, speed, color, type) {
+        this.row = row; this.y = row * GRID + 10; this.speed = speed;
+        this.color = color; this.type = type;
+        this.w = type === 'car' ? 45 : 100; this.h = 30;
+        this.x = Math.random() * canvas.width;
+    }
+    update() {
+        this.x += this.speed;
+        if (this.speed > 0 && this.x > canvas.width) this.x = -this.w;
+        else if (this.speed < 0 && this.x < -this.w) this.x = canvas.width;
+    }
+    draw() {
+        if (this.type === 'car') drawPixelCar(this.x, this.y, this.w, this.h, this.color);
+        else drawPixelLog(this.x, this.y, this.w, this.h);
+    }
+}
+
+function initLevel() {
+    obstacles = [];
+    const carColors = ['#ff0055', '#00ccff', '#ffff00', '#ff00ff'];
+    for (let i = 5; i <= 8; i++) {
+        let speed = (i % 2 === 0 ? 1 : -1) * (1 + gameState.level * 0.5);
+        for (let j = 0; j < 3; j++) obstacles.push(new Obstacle(i, speed, carColors[i % 4], 'car'));
+    }
+    for (let i = 1; i <= 3; i++) {
+        let speed = (i % 2 === 0 ? -1 : 1) * (1 + gameState.level * 0.3);
+        for (let j = 0; j < 2; j++) obstacles.push(new Obstacle(i, speed, '#8888ff', 'log'));
+    }
+    frog.x = 4 * GRID; frog.y = 9 * GRID;
+    gameState.timeLeft = Math.max(30, 120 - (gameState.level - 1) * 20);
+    gameState.maxTime = gameState.timeLeft;
+}
+
+function handleLifeLoss() {
+    gameState.lives--;
+    sounds.hit();
+    if (gameState.lives <= 0) {
+        gameOver("GAME OVER");
+        return true;
+    } else {
+        frog.x = 4 * GRID; frog.y = 9 * GRID;
+        gameState.timeLeft = gameState.maxTime;
+        return false;
+    }
+}
+
+function gameOver(msg) {
+    gameState.running = false;
+    document.getElementById('overlay').style.display = 'flex';
+    document.getElementById('overlay-title').innerText = msg;
+    document.getElementById('score-display').innerText = "SCORE: " + gameState.score;
+    
+    const fifthScore = gameState.leaderboard[4].score;
+    if (gameState.score > fifthScore) {
+        document.getElementById('name-input-zone').style.display = 'block';
+        document.getElementById('continue-hint').style.display = 'none';
+    } else {
+        document.getElementById('name-input-zone').style.display = 'none';
+        document.getElementById('continue-hint').innerText = "Press [SPACE] to Restart";
+        document.getElementById('continue-hint').style.display = 'block';
+    }
+    showLeaderboard();
+}
+
+function showLeaderboard() {
+    const list = document.getElementById('leaderboard-list');
+    list.innerHTML = "<strong style='color:var(--neon-green)'>TOP 5:</strong><br>";
+    gameState.leaderboard.forEach(e => list.innerHTML += `${e.name}: ${e.score}<br>`);
+}
+
+function update() {
+    if (!gameState.running) return;
+
+    gameState.timeLeft -= 1/60;
+    if (gameState.timeLeft <= 0) {
+        if (handleLifeLoss()) return;
+    }
+
+    obstacles.forEach(o => o.update());
+
+    let onLog = false;
+    for (let o of obstacles) {
+        if (frog.x < o.x + o.w && frog.x + frog.w > o.x && 
+            frog.y < o.y + o.h && frog.y + frog.h > o.y) {
+            if (o.type === 'car') {
+                if (handleLifeLoss()) return;
+            } else {
+                onLog = true;
+                frog.x += o.speed;
+            }
+        }
+    }
+
+    if (frog.y >= GRID && frog.y <= 3 * GRID && !onLog) {
+        if (handleLifeLoss()) return;
+    }
+    if (frog.x < 0 || frog.x > canvas.width - frog.w) {
+        if (handleLifeLoss()) return;
+    }
+
+    if (frog.y === 0) {
+        gameState.pitsFilled++;
+        sounds.score();
+        frog.y = 9 * GRID; frog.x = 4 * GRID;
+        if (gameState.pitsFilled >= 5) {
+            gameState.score += 500;
+            gameState.level++;
+            gameState.pitsFilled = 0;
+            sounds.win();
+            initLevel();
+        }
+    }
+
+    draw();
+    requestAnimationFrame(update);
+}
+
+function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = '#003300'; ctx.fillRect(0, 9*GRID, canvas.width, GRID);
+    ctx.fillStyle = '#111'; ctx.fillRect(0, 5*GRID, canvas.width, 4*GRID);
+    ctx.fillStyle = '#000044'; ctx.fillRect(0, 1*GRID, canvas.width, 3*GRID);
+    ctx.fillStyle = '#004400'; ctx.fillRect(0, 0, canvas.width, GRID);
+
+    // 繪製坑洞與填滿後的強化視覺
+    for(let i=0; i<5; i++) {
+        let pitX = i * 80;
+        if (gameState.pitsFilled > i) {
+            // 【優化版】填滿狀態：深色背景 + 霓虹邊框 + 居中且放大的青蛙
+            ctx.fillStyle = '#080808'; // 深色底
+            ctx.fillRect(pitX, 0, 80, GRID);
+            
+            // 霓虹邊框
+            ctx.strokeStyle = '#00ffcc';
+            ctx.lineWidth = 2;
+            ctx.strokeRect(pitX + 2, 2, 76, GRID - 4);
+            
+            // 【計算精確置中】
+            // 坑洞寬度 80, 青蛙寬度 34 * scale(0.5) = 17
+            // 偏移 = (80 - 17) / 2 = 31.5
+            // 坑洞高度 50, 青蛙高度 34 * scale(0.5) = 17
+            // 偏移 = (50 - 17) / 2 = 16.5
+            const centerX = pitX + 22;
+            const centerY = 7;
+            drawPixelFrog(centerX, centerY, 1); 
+            // const centerX = pitX + 31;
+            // const centerY = 16;
+            // drawPixelFrog(centerX, centerY, 0.5); 
+        } else {
+            ctx.fillStyle = '#002211';
+            ctx.fillRect(pitX, 0, 80, GRID);
+        }
+    }
+
+    obstacles.forEach(o => o.draw());
+    drawPixelFrog(frog.x, frog.y);
+
+    document.getElementById('score').innerText = gameState.score;
+    document.getElementById('hi-score').innerText = gameState.hiScore;
+    document.getElementById('lives').innerText = gameState.lives;
+    const timePercent = Math.max(0, (gameState.timeLeft / gameState.maxTime) * 100);
+    document.getElementById('time-bar').style.width = timePercent + "%";
+}
+
+window.addEventListener('keydown', (e) => {
+    if (gameState.running) {
+        if (e.key === 'ArrowUp') { frog.y -= GRID; sounds.jump(); }
+        if (e.key === 'ArrowDown' && frog.y < 9*GRID) frog.y += GRID;
+        if (e.key === 'ArrowLeft' && frog.x > 0) frog.x -= GRID;
+        if (e.key === 'ArrowRight' && frog.x < canvas.width - GRID) frog.x += GRID;
+    } else {
+        const inputZone = document.getElementById('name-input-zone');
+        if (inputZone.style.display === 'block') {
+            if (e.key === 'Enter') {
+                const name = document.getElementById('player-name').value || 'ANON';
+                gameState.leaderboard.push({name, score: gameState.score});
+                gameState.leaderboard.sort((a, b) => b.score - a.score);
+                gameState.leaderboard = gameState.leaderboard.slice(0, 5);
+                localStorage.setItem('frogger_scores', JSON.stringify(gameState.leaderboard));
+                if (gameState.score > gameState.hiScore) {
+                    gameState.hiScore = gameState.score;
+                    localStorage.setItem('frogger_hi', gameState.hiScore);
+                }
+                gameState.pitsFilled = 0; gameState.level++; gameState.running = true;
+                document.getElementById('overlay').style.display = 'none';
+                initLevel(); update();
+            }
+        } else {
+            if (e.key === ' ' || e.key === 'Enter') location.reload();
+        }
+    }
+});
+
+initLevel();
+update();
+
+</script>
+</body>
+</html>

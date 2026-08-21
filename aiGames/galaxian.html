@@ -1,0 +1,1684 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小蜜蜂 - Galaxian</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(180deg, #000000 0%, #000022 50%, #000044 100%);
+            font-family: 'Courier New', monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .game-wrapper {
+            position: relative;
+            border: 3px solid #00ff00;
+            box-shadow: 0 0 30px rgba(0, 255, 0, 0.6), inset 0 0 20px rgba(0, 255, 0, 0.2);
+            border-radius: 15px;
+            overflow: hidden;
+            background: #000;
+        }
+
+        canvas {
+            display: block;
+            background: #000;
+        }
+
+        .ui-overlay {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            right: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 16px;
+            pointer-events: none;
+            z-index: 10;
+        }
+
+        .score-section, .high-score-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .label {
+            color: #fff;
+            margin-bottom: 5px;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 0 0 5px #fff;
+        }
+
+        .value {
+            color: #ff0;
+            font-weight: bold;
+            font-size: 18px;
+            text-shadow: 0 0 10px #ff0;
+        }
+
+        .lives-section {
+            color: #ff0000;
+            font-size: 20px;
+            text-shadow: 0 0 10px #ff0000;
+        }
+
+        .start-screen, .game-over-screen, .level-complete-screen {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.95);
+            z-index: 100;
+            backdrop-filter: blur(5px);
+        }
+
+        .title {
+            font-size: 64px;
+            color: #00ff00;
+            margin-bottom: 20px;
+            text-shadow: 0 0 20px #00ff00, 0 0 40px #00ff00, 0 0 60px #00ff00;
+            animation: glow 2s ease-in-out infinite alternate;
+            letter-spacing: 8px;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 20px #00ff00, 0 0 40px #00ff00, 0 0 60px #00ff00; }
+            to { text-shadow: 0 0 30px #00ff00, 0 0 60px #00ff00, 0 0 90px #00ff00, 0 0 120px #00ff00; }
+        }
+
+        .subtitle {
+            font-size: 28px;
+            color: #00ffff;
+            margin-bottom: 50px;
+            text-shadow: 0 0 15px #00ffff;
+            letter-spacing: 5px;
+        }
+
+        .instructions {
+            font-size: 18px;
+            color: #888;
+            margin-bottom: 40px;
+            text-align: center;
+            line-height: 2;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #444;
+        }
+
+        .start-btn {
+            padding: 18px 50px;
+            font-size: 24px;
+            color: #000;
+            background: linear-gradient(45deg, #00ff00, #00aa00);
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            transition: all 0.3s ease;
+            border-radius: 5px;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+        }
+
+        .start-btn:hover {
+            transform: scale(1.1) translateY(-3px);
+            box-shadow: 0 0 40px rgba(0, 255, 0, 0.8);
+        }
+
+        .game-over-title {
+            font-size: 56px;
+            color: #ff0000;
+            margin-bottom: 30px;
+            text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000;
+            animation: pulse 1s ease-in-out infinite alternate;
+        }
+
+        @keyframes pulse {
+            from { transform: scale(1); }
+            to { transform: scale(1.05); }
+        }
+
+        .game-over-content {
+            display: flex;
+            gap: 40px;
+            margin-bottom: 40px;
+            max-width: 900px;
+        }
+
+        .score-panel {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 25px;
+            border-radius: 15px;
+            border: 2px solid #ff0000;
+            min-width: 250px;
+        }
+
+        .score-panel h3 {
+            font-size: 24px;
+            color: #ff0;
+            margin-bottom: 20px;
+            text-align: center;
+            text-shadow: 0 0 10px #ff0;
+        }
+
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            padding: 10px 0;
+            border-bottom: 1px solid #333;
+        }
+
+        .stat-label {
+            color: #888;
+            font-size: 16px;
+        }
+
+        .stat-value {
+            color: #fff;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .ranking-panel {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 25px;
+            border-radius: 15px;
+            border: 2px solid #00ff00;
+            flex: 1;
+            max-width: 400px;
+        }
+
+        .ranking-panel h3 {
+            font-size: 24px;
+            color: #00ff00;
+            margin-bottom: 20px;
+            text-align: center;
+            text-shadow: 0 0 10px #00ff00;
+        }
+
+        .ranking-list {
+            list-style: none;
+        }
+
+        .ranking-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 15px;
+            margin-bottom: 8px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            border: 1px solid #333;
+            transition: all 0.3s ease;
+        }
+
+        .ranking-item.new-record {
+            background: rgba(255, 255, 0, 0.1);
+            border: 1px solid #ffff00;
+            animation: highlight 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes highlight {
+            from { box-shadow: 0 0 5px rgba(255, 255, 0, 0.3); }
+            to { box-shadow: 0 0 15px rgba(255, 255, 0, 0.6); }
+        }
+
+        .rank-number {
+            font-size: 20px;
+            font-weight: bold;
+            width: 40px;
+            color: #888;
+        }
+
+        .ranking-item:nth-child(1) .rank-number {
+            color: #ffd700;
+            text-shadow: 0 0 10px #ffd700;
+        }
+
+        .ranking-item:nth-child(2) .rank-number {
+            color: #c0c0c0;
+            text-shadow: 0 0 10px #c0c0c0;
+        }
+
+        .ranking-item:nth-child(3) .rank-number {
+            color: #cd7f32;
+            text-shadow: 0 0 10px #cd7f32;
+        }
+
+        .rank-name {
+            flex: 1;
+            margin: 0 15px;
+            font-size: 16px;
+            color: #fff;
+        }
+
+        .rank-score {
+            font-size: 18px;
+            font-weight: bold;
+            color: #ff0;
+        }
+
+        .rank-date {
+            font-size: 12px;
+            color: #666;
+            margin-left: 10px;
+        }
+
+        .game-over-buttons {
+            display: flex;
+            gap: 20px;
+        }
+
+        .game-over-btn {
+            padding: 15px 40px;
+            font-size: 20px;
+            color: #000;
+            background: linear-gradient(45deg, #00ff00, #00aa00);
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: all 0.3s ease;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+        }
+
+        .game-over-btn:hover {
+            transform: scale(1.05) translateY(-2px);
+            box-shadow: 0 0 25px rgba(0, 255, 0, 0.8);
+        }
+
+        .game-over-btn.secondary {
+            background: linear-gradient(45deg, #888, #666);
+            box-shadow: 0 0 15px rgba(100, 100, 100, 0.5);
+        }
+
+        .game-over-btn.secondary:hover {
+            box-shadow: 0 0 25px rgba(100, 100, 100, 0.8);
+        }
+
+        .level-complete-title {
+            font-size: 48px;
+            color: #00ff00;
+            margin-bottom: 30px;
+            text-shadow: 0 0 20px #00ff00, 0 0 40px #00ff00;
+            animation: glow 1.5s ease-in-out infinite alternate;
+        }
+
+        .level-info {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            border: 2px solid #00ff00;
+            margin-bottom: 30px;
+            text-align: center;
+            min-width: 300px;
+        }
+
+        .level-number {
+            font-size: 36px;
+            color: #00ffff;
+            margin-bottom: 15px;
+            text-shadow: 0 0 15px #00ffff;
+        }
+
+        .level-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .stat-item {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #333;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 5px;
+        }
+
+        .stat-value {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ff0;
+        }
+
+        .difficulty-indicator {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #333;
+        }
+
+        .difficulty-title {
+            font-size: 16px;
+            color: #ff6600;
+            margin-bottom: 10px;
+        }
+
+        .difficulty-bar {
+            height: 10px;
+            background: #333;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-bottom: 5px;
+        }
+
+        .difficulty-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #00ff00, #ffff00, #ff0000);
+            width: 0%;
+            transition: width 0.5s ease;
+        }
+
+        .difficulty-text {
+            font-size: 14px;
+            color: #ff6600;
+        }
+
+        .bonus-text {
+            color: #ff00ff;
+            font-size: 20px;
+            margin-top: 10px;
+            text-shadow: 0 0 10px #ff00ff;
+        }
+
+        .next-level-info {
+            color: #00ffff;
+            font-size: 16px;
+            margin-top: 15px;
+            text-shadow: 0 0 10px #00ffff;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        .new-record-badge {
+            display: inline-block;
+            background: #ff0;
+            color: #000;
+            font-size: 12px;
+            padding: 2px 8px;
+            border-radius: 10px;
+            margin-left: 10px;
+            font-weight: bold;
+            animation: badgePulse 1s ease-in-out infinite alternate;
+        }
+
+        @keyframes badgePulse {
+            from { transform: scale(1); }
+            to { transform: scale(1.1); }
+        }
+
+        .player-name-input {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .player-name-input label {
+            display: block;
+            font-size: 18px;
+            color: #00ffff;
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px #00ffff;
+        }
+
+        .player-name-input input {
+            padding: 12px 20px;
+            font-size: 18px;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.7);
+            border: 2px solid #00ffff;
+            border-radius: 5px;
+            outline: none;
+            width: 250px;
+            text-align: center;
+            font-family: 'Courier New', monospace;
+        }
+
+        .player-name-input input:focus {
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+        }
+
+        .player-name-input input::placeholder {
+            color: #666;
+        }
+
+        /* 模態對話框樣式 */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal-content {
+            background: linear-gradient(180deg, #000022 0%, #000044 100%);
+            padding: 30px;
+            border-radius: 15px;
+            border: 3px solid #00ff00;
+            box-shadow: 0 0 30px rgba(0, 255, 0, 0.5);
+            max-width: 400px;
+            width: 90%;
+            text-align: center;
+        }
+
+        .modal-title {
+            font-size: 24px;
+            color: #00ff00;
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px #00ff00;
+        }
+
+        .modal-input {
+            width: 100%;
+            padding: 12px;
+            font-size: 18px;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.7);
+            border: 2px solid #00ffff;
+            border-radius: 5px;
+            outline: none;
+            margin-bottom: 20px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .modal-input:focus {
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+        }
+
+        .modal-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .modal-btn {
+            padding: 10px 25px;
+            font-size: 16px;
+            color: #000;
+            background: linear-gradient(45deg, #00ff00, #00aa00);
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .modal-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+        }
+
+        .modal-btn.cancel {
+            background: linear-gradient(45deg, #888, #666);
+        }
+
+        .modal-btn.cancel:hover {
+            box-shadow: 0 0 15px rgba(100, 100, 100, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="game-wrapper">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        
+        <div class="ui-overlay">
+            <div class="score-section">
+                <span class="label">SCORE</span>
+                <span class="value" id="score">0</span>
+            </div>
+            <div class="lives-section">
+                <span id="lives">♥♥♥</span>
+            </div>
+            <div class="high-score-section">
+                <span class="label">HIGH SCORE</span>
+                <span class="value" id="highScore">0</span>
+            </div>
+        </div>
+
+        <div class="start-screen" id="startScreen">
+            <div class="title">小蜜蜂</div>
+            <div class="subtitle">GALAXIAN</div>
+            <div class="instructions">
+                ← → 移動飛船<br>
+                空白鍵 / Enter 發射子彈（長按連續發射）<br>
+                點擊螢幕 / 空白鍵 / Enter 開始遊戲<br>
+                擊落所有外星人即可過關
+            </div>
+            <button class="start-btn" onclick="startGame()">開始遊戲</button>
+        </div>
+
+        <div class="game-over-screen hidden" id="gameOverScreen">
+            <div class="game-over-title">GAME OVER</div>
+            <div class="game-over-content">
+                <div class="score-panel">
+                    <h3>遊戲統計</h3>
+                    <div class="stat-row">
+                        <span class="stat-label">最終分數</span>
+                        <span class="stat-value" id="finalScore">0</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">達到關卡</span>
+                        <span class="stat-value" id="finalLevel">1</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">總擊殺數</span>
+                        <span class="stat-value" id="totalKills">0</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">歷史最高分</span>
+                        <span class="stat-value" id="highScoreDisplay">0</span>
+                    </div>
+                </div>
+                
+                <div class="ranking-panel">
+                    <h3>排行榜 (Top 5)</h3>
+                    <ul class="ranking-list" id="rankingList">
+                        <!-- 排行榜項目將由 JavaScript 動態生成 -->
+                    </ul>
+                </div>
+            </div>
+            <div class="game-over-buttons">
+                <button class="game-over-btn" onclick="restartGame()">再玩一次</button>
+                <button class="game-over-btn secondary" onclick="showStartScreen()">返回主選單</button>
+            </div>
+        </div>
+
+        <div class="level-complete-screen hidden" id="levelCompleteScreen">
+            <div class="level-complete-title">LEVEL COMPLETE!</div>
+            <div class="level-info">
+                <div class="level-number">第 <span id="completedLevel">1</span> 關</div>
+                <div class="level-stats">
+                    <div class="stat-item">
+                        <div class="stat-label">本關得分</div>
+                        <div class="stat-value" id="levelScore">0</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">總分</div>
+                        <div class="stat-value" id="totalScore">0</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">剩餘生命</div>
+                        <div class="stat-value" id="remainingLives">♥♥♥</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">擊殺數</div>
+                        <div class="stat-value" id="killCount">0</div>
+                    </div>
+                </div>
+                <div class="difficulty-indicator">
+                    <div class="difficulty-title">下一關難度</div>
+                    <div class="difficulty-bar">
+                        <div class="difficulty-fill" id="difficultyFill"></div>
+                    </div>
+                    <div class="difficulty-text" id="difficultyText">簡單</div>
+                </div>
+                <div class="next-level-info">
+                    下一關將增加更多敵人與更快的速度！
+                </div>
+            </div>
+            <button class="start-btn" onclick="nextLevel()">繼續下一關</button>
+        </div>
+    </div>
+
+    <!-- 玩家名稱輸入模態對話框 -->
+    <div class="modal-overlay hidden" id="playerNameModal">
+        <div class="modal-content">
+            <div class="modal-title">輸入玩家名稱</div>
+            <input type="text" class="modal-input" id="playerNameInput" placeholder="請輸入玩家名稱" maxlength="10">
+            <div class="modal-buttons">
+                <button class="modal-btn" onclick="confirmPlayerName()">確認</button>
+                <button class="modal-btn cancel" onclick="cancelPlayerName()">取消</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // 遊戲設定
+        const GAME_WIDTH = 800;
+        const GAME_HEIGHT = 600;
+        canvas.width = GAME_WIDTH;
+        canvas.height = GAME_HEIGHT + 30;
+
+        // 遊戲狀態
+        let gameState = 'start'; // start, playing, gameOver, levelComplete
+        let score = 0;
+        let levelScore = 0;
+        let highScore = 0;
+        let lives = 3;
+        let level = 1;
+        let animationId = null;
+        let totalKills = 0; // 總擊殺數
+        let isNewRecord = false; // 是否創下新高分
+        let playerName = '玩家'; // 玩家名稱
+        let pendingScore = 0; // 待保存的分數
+        let pendingLevel = 0; // 待保存的關卡
+        let shouldPromptName = false; // 是否應該提示輸入名稱
+
+        // 排行榜
+        let rankings = [];
+
+        // 玩家
+        const player = {
+            x: GAME_WIDTH / 2,
+            y: GAME_HEIGHT - 60,
+            width: 35,
+            height: 25,
+            speed: 6,
+            bullets: [],
+            lastShot: 0,
+            shootCooldown: 150,
+            isHoldingSpace: false
+        };
+
+        // 外星人陣列
+        let aliens = [];
+        let alienBullets = [];
+        let alienDirection = 1;
+        let alienSpeed = 1.2;
+        let alienDropDistance = 18;
+
+        // 粒子效果
+        let particles = [];
+        let backgroundStars = [];
+
+        // 音效
+        let audioContext = null;
+
+        // 初始化排行榜
+        function initRankings() {
+            // 從 localStorage 加載排行榜
+            const savedRankings = localStorage.getItem('galaxianRankings');
+            if (savedRankings) {
+                rankings = JSON.parse(savedRankings);
+            } else {
+                // 初始化預設排行榜
+                rankings = [
+                    { name: '玩家1', score: 5000, level: 5, date: new Date().toLocaleDateString() },
+                    { name: '玩家2', score: 3000, level: 3, date: new Date().toLocaleDateString() },
+                    { name: '玩家3', score: 2000, level: 2, date: new Date().toLocaleDateString() },
+                    { name: '玩家4', score: 1000, level: 1, date: new Date().toLocaleDateString() },
+                    { name: '玩家5', score: 500, level: 1, date: new Date().toLocaleDateString() }
+                ];
+            }
+            // 按分數排序
+            rankings.sort((a, b) => b.score - a.score);
+        }
+
+        // 保存排行榜到 localStorage
+        function saveRankings() {
+            localStorage.setItem('galaxianRankings', JSON.stringify(rankings));
+        }
+
+        // 添加新記錄到排行榜
+        function addRanking(name, score, level) {
+            rankings.push({
+                name: name,
+                score: score,
+                level: level,
+                date: new Date().toLocaleDateString()
+            });
+            
+            // 按分數排序
+            rankings.sort((a, b) => b.score - a.score);
+            
+            // 只保留前10名
+            if (rankings.length > 10) {
+                rankings = rankings.slice(0, 10);
+            }
+            
+            saveRankings();
+            
+            // 檢查是否創下新高分
+            if (rankings.length > 0 && rankings[0].score === score) {
+                isNewRecord = true;
+            }
+        }
+
+        // 檢查是否需要提示輸入名稱
+        function checkShouldPromptName() {
+            // 如果排行榜不足5人，或者分數高於第5名，則需要提示輸入名稱
+            if (rankings.length < 5) {
+                return true;
+            } else {
+                // 分數高於第5名（索引4）
+                return score > rankings[4].score;
+            }
+        }
+
+        // 更新排行榜顯示
+        function updateRankingDisplay() {
+            const rankingList = document.getElementById('rankingList');
+            rankingList.innerHTML = '';
+            
+            // 只显示前5名
+            const topRankings = rankings.slice(0, 5);
+            
+            for (let i = 0; i < topRankings.length; i++) {
+                const ranking = topRankings[i];
+                const item = document.createElement('li');
+                item.className = 'ranking-item';
+                
+                // 如果是新創下的記錄，添加特殊樣式
+                if (isNewRecord && ranking.score === pendingScore && i === 0) {
+                    item.classList.add('new-record');
+                }
+                
+                item.innerHTML = `
+                    <span class="rank-number">${i + 1}</span>
+                    <span class="rank-name">${ranking.name} ${i === 0 && isNewRecord ? '<span class="new-record-badge">NEW!</span>' : ''}</span>
+                    <span class="rank-score">${ranking.score}</span>
+                `;
+                
+                rankingList.appendChild(item);
+            }
+        }
+
+        // 初始化背景星星
+        function createBackgroundStars() {
+            backgroundStars = [];
+            for (let i = 0; i < 100; i++) {
+                backgroundStars.push({
+                    x: Math.random() * GAME_WIDTH,
+                    y: Math.random() * GAME_HEIGHT,
+                    size: Math.random() * 2 + 1,
+                    speed: Math.random() * 0.5 + 0.1,
+                    brightness: Math.random()
+                });
+            }
+        }
+
+        // 初始化遊戲
+        function initGame() {
+            player.x = GAME_WIDTH / 2;
+            player.y = GAME_HEIGHT - 60;
+            player.bullets = [];
+            player.lastShot = 0;
+            player.isHoldingSpace = false;
+            
+            aliens = [];
+            createAliens();
+            
+            alienBullets = [];
+            particles = [];
+            alienDirection = 1;
+            
+            // 根據關卡難度調整參數
+            adjustDifficulty();
+            
+            levelScore = 0;
+            updateUI();
+            
+            // 立即繪製一次以確保畫面顯示
+            draw();
+        }
+
+        // 根據關卡調整難度
+        function adjustDifficulty() {
+            // 基礎速度隨關卡增加
+            alienSpeed = 1.0 + (level - 1) * 0.3;
+            
+            // 外星人下移距離隨關卡增加
+            alienDropDistance = 15 + (level - 1) * 3;
+        }
+
+        // 建立外星人
+        function createAliens() {
+            aliens = [];
+            
+            // 根據關卡增加敵人數量
+            const baseRows = 4;
+            const baseCols = 9;
+            const rows = Math.min(7, baseRows + Math.floor(level / 2));
+            const cols = Math.min(13, baseCols + Math.floor(level / 3));
+            
+            for (let row = 0; row < rows; row++) {
+                for (let col = 0; col < cols; col++) {
+                    let type = 0;
+                    if (row === 0) type = 2; // 頂層 - 最高分
+                    else if (row < 3) type = 1; // 中層 - 中分
+                    else type = 0; // 底層 - 低分
+                    
+                    // 高關卡增加高級敵人比例
+                    if (level > 3 && Math.random() < 0.2 * (level - 3) * 0.1) {
+                        type = Math.min(2, type + 1);
+                    }
+                    
+                    aliens.push({
+                        x: 70 + col * 55,
+                        y: 40 + row * 45,
+                        width: 30,
+                        height: 25,
+                        type: type,
+                        alive: true,
+                        animationOffset: Math.random() * Math.PI * 2,
+                        // 高關卡外星人可能有不同的行為
+                        shootRate: 0.001 + (level - 1) * 0.0005
+                    });
+                }
+            }
+        }
+
+        // 建立粒子效果
+        function createExplosion(x, y, color) {
+            const particleCount = 20;
+            for (let i = 0; i < particleCount; i++) {
+                const angle = (Math.PI * 2 * i) / particleCount;
+                const speed = Math.random() * 4 + 2;
+                particles.push({
+                    x: x,
+                    y: y,
+                    vx: Math.cos(angle) * speed,
+                    vy: Math.sin(angle) * speed,
+                    life: 1,
+                    decay: Math.random() * 0.02 + 0.015,
+                    color: color,
+                    size: Math.random() * 4 + 2
+                });
+            }
+        }
+
+        // 更新粒子
+        function updateParticles() {
+            particles = particles.filter(p => {
+                p.x += p.vx;
+                p.y += p.vy;
+                p.life -= p.decay;
+                p.vx *= 0.98;
+                p.vy *= 0.98;
+                return p.life > 0;
+            });
+        }
+
+        // 繪製粒子
+        function drawParticles() {
+            particles.forEach(p => {
+                ctx.globalAlpha = p.life;
+                ctx.fillStyle = p.color;
+                ctx.shadowBlur = 10;
+                ctx.shadowColor = p.color;
+                ctx.fillRect(p.x - p.size/2, p.y - p.size/2, p.size, p.size);
+            });
+            ctx.globalAlpha = 1;
+            ctx.shadowBlur = 0;
+        }
+
+        // 播放音效
+        function playSound(type) {
+            if (!audioContext) {
+                audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            }
+            
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            try {
+                switch(type) {
+                    case 'shoot':
+                        oscillator.frequency.setValueAtTime(800, audioContext.currentTime);
+                        oscillator.frequency.exponentialRampToValueAtTime(400, audioContext.currentTime + 0.08);
+                        gainNode.gain.setValueAtTime(0.15, audioContext.currentTime);
+                        gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.08);
+                        oscillator.start(audioContext.currentTime);
+                        oscillator.stop(audioContext.currentTime + 0.08);
+                        break;
+                    case 'explosion':
+                        oscillator.frequency.setValueAtTime(150, audioContext.currentTime);
+                        oscillator.frequency.exponentialRampToValueAtTime(30, audioContext.currentTime + 0.2);
+                        gainNode.gain.setValueAtTime(0.3, audioContext.currentTime);
+                        gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.2);
+                        oscillator.start(audioContext.currentTime);
+                        oscillator.stop(audioContext.currentTime + 0.2);
+                        break;
+                    case 'hit':
+                        oscillator.frequency.setValueAtTime(200, audioContext.currentTime);
+                        gainNode.gain.setValueAtTime(0.25, audioContext.currentTime);
+                        gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.15);
+                        oscillator.start(audioContext.currentTime);
+                        oscillator.stop(audioContext.currentTime + 0.15);
+                        break;
+                    case 'levelComplete':
+                        oscillator.frequency.setValueAtTime(440, audioContext.currentTime);
+                        oscillator.frequency.setValueAtTime(554, audioContext.currentTime + 0.1);
+                        oscillator.frequency.setValueAtTime(659, audioContext.currentTime + 0.2);
+                        gainNode.gain.setValueAtTime(0.2, audioContext.currentTime);
+                        gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.3);
+                        oscillator.start(audioContext.currentTime);
+                        oscillator.stop(audioContext.currentTime + 0.3);
+                        break;
+                }
+            } catch(e) {
+                // 忽略音效錯誤
+            }
+        }
+
+        // 更新玩家
+        function updatePlayer() {
+            if (keys.ArrowLeft && player.x > player.width/2) {
+                player.x -= player.speed;
+            }
+            if (keys.ArrowRight && player.x < GAME_WIDTH - player.width/2) {
+                player.x += player.speed;
+            }
+            
+            // 連續發射子彈
+            if (player.isHoldingSpace && gameState === 'playing') {
+                const now = Date.now();
+                if (now - player.lastShot > player.shootCooldown) {
+                    player.bullets.push({
+                        x: player.x,
+                        y: player.y - 20,
+                        speed: 10,
+                        width: 4,
+                        height: 15,
+                        trail: []
+                    });
+                    playSound('shoot');
+                    player.lastShot = now;
+                }
+            }
+        }
+
+        // 更新玩家子彈
+        function updatePlayerBullets() {
+            player.bullets = player.bullets.filter(bullet => {
+                bullet.trail.push({x: bullet.x, y: bullet.y});
+                if (bullet.trail.length > 5) bullet.trail.shift();
+                
+                bullet.y -= bullet.speed;
+                return bullet.y > 0;
+            });
+        }
+
+        // 更新外星人
+        function updateAliens() {
+            let shouldDrop = false;
+            let aliveAliens = aliens.filter(alien => alien.alive);
+            
+            if (aliveAliens.length === 0) {
+                levelComplete();
+                return;
+            }
+            
+            aliveAliens.forEach(alien => {
+                alien.x += alienSpeed * alienDirection;
+                
+                if (alien.x <= 35 || alien.x >= GAME_WIDTH - 35) {
+                    shouldDrop = true;
+                }
+                
+                // 外星人隨機射擊（根據關卡難度調整射擊頻率）
+                if (Math.random() < alien.shootRate) {
+                    alienBullets.push({
+                        x: alien.x,
+                        y: alien.y + alien.height/2,
+                        speed: 3.5,
+                        width: 5,
+                        height: 10,
+                        trail: []
+                    });
+                }
+            });
+            
+            if (shouldDrop) {
+                alienDirection *= -1;
+                aliveAliens.forEach(alien => {
+                    alien.y += alienDropDistance;
+                });
+            }
+            
+            // 檢查外星人是否到達底部
+            aliveAliens.forEach(alien => {
+                if (alien.y + alien.height/2 >= player.y - player.height/2) {
+                    gameOver();
+                }
+            });
+        }
+
+        // 更新外星人子彈
+        function updateAlienBullets() {
+            alienBullets = alienBullets.filter(bullet => {
+                bullet.trail.push({x: bullet.x, y: bullet.y});
+                if (bullet.trail.length > 3) bullet.trail.shift();
+                
+                bullet.y += bullet.speed;
+                return bullet.y < GAME_HEIGHT;
+            });
+        }
+
+        // 檢測碰撞
+        function checkCollisions() {
+            // 玩家子彈與外星人碰撞
+            for (let bulletIndex = player.bullets.length - 1; bulletIndex >= 0; bulletIndex--) {
+                const bullet = player.bullets[bulletIndex];
+                
+                for (let alienIndex = aliens.length - 1; alienIndex >= 0; alienIndex--) {
+                    const alien = aliens[alienIndex];
+                    
+                    if (alien.alive && 
+                        Math.abs(bullet.x - alien.x) < (alien.width + bullet.width) / 2 &&
+                        Math.abs(bullet.y - alien.y) < (alien.height + bullet.height) / 2) {
+                        
+                        alien.alive = false;
+                        player.bullets.splice(bulletIndex, 1);
+                        
+                        const colors = ['#ff0000', '#ff8800', '#ffff00'];
+                        createExplosion(alien.x, alien.y, colors[alien.type]);
+                        playSound('explosion');
+                        
+                        const points = [10, 20, 30];
+                        const pointsEarned = points[alien.type];
+                        score += pointsEarned;
+                        levelScore += pointsEarned;
+                        totalKills++;
+                        updateUI();
+                        break;
+                    }
+                }
+            }
+            
+            // 外星人子彈與玩家碰撞
+            for (let bulletIndex = alienBullets.length - 1; bulletIndex >= 0; bulletIndex--) {
+                const bullet = alienBullets[bulletIndex];
+                
+                if (Math.abs(bullet.x - player.x) < (player.width + bullet.width) / 2 &&
+                    Math.abs(bullet.y - player.y) < (player.height + bullet.height) / 2) {
+                    
+                    alienBullets.splice(bulletIndex, 1);
+                    createExplosion(player.x, player.y, '#00ff00');
+                    playSound('hit');
+                    
+                    lives--;
+                    updateUI();
+                    
+                    if (lives <= 0) {
+                        gameOver();
+                    }
+                    break;
+                }
+            }
+        }
+
+        // 繪製像素風格外星人
+        function drawAliens() {
+            aliens.forEach(alien => {
+                if (!alien.alive) return;
+                
+                const colors = ['#ff0000', '#ff8800', '#ffff00'];
+                const color = colors[alien.type];
+                const time = Date.now() / 1000;
+                const animation = Math.sin(time * 2 + alien.animationOffset) * 0.1;
+                
+                ctx.save();
+                ctx.translate(alien.x, alien.y);
+                ctx.scale(1 + animation, 1 + animation);
+                
+                ctx.fillStyle = color;
+                ctx.shadowBlur = 15;
+                ctx.shadowColor = color;
+                
+                // 根據類型繪製不同形狀
+                if (alien.type === 0) {
+                    ctx.fillRect(-13, -9, 26, 18);
+                    ctx.fillRect(-18, -5, 5, 10);
+                    ctx.fillRect(13, -5, 5, 10);
+                    ctx.fillRect(-5, -13, 10, 4);
+                    ctx.fillRect(-12, 9, 4, 4);
+                    ctx.fillRect(8, 9, 4, 4);
+                } else if (alien.type === 1) {
+                    ctx.fillRect(-11, -7, 22, 14);
+                    ctx.fillRect(-16, -3, 5, 8);
+                    ctx.fillRect(11, -3, 5, 8);
+                    ctx.fillRect(-7, -11, 14, 4);
+                    ctx.fillRect(-10, 7, 4, 4);
+                    ctx.fillRect(6, 7, 4, 4);
+                } else {
+                    ctx.fillRect(-9, -9, 18, 18);
+                    ctx.fillRect(-14, -5, 5, 10);
+                    ctx.fillRect(9, -5, 5, 10);
+                    ctx.fillRect(-4, -13, 8, 4);
+                    ctx.fillRect(-6, 9, 3, 4);
+                    ctx.fillRect(3, 9, 3, 4);
+                }
+                
+                // 眼睛
+                ctx.fillStyle = '#000';
+                ctx.shadowBlur = 0;
+                ctx.fillRect(-7, -3, 5, 5);
+                ctx.fillRect(2, -3, 5, 5);
+                
+                ctx.fillStyle = '#fff';
+                ctx.fillRect(-5, -2, 2, 2);
+                ctx.fillRect(4, -2, 2, 2);
+                
+                ctx.restore();
+            });
+        }
+
+        // 繪製玩家飛船
+        function drawPlayer() {
+            ctx.save();
+            ctx.translate(player.x, player.y);
+            
+            // 飛船尾焰效果
+            if (keys.ArrowLeft || keys.ArrowRight) {
+                ctx.fillStyle = `rgba(255, ${Math.random() * 100}, 0, ${0.3 + Math.random() * 0.7})`;
+                ctx.fillRect(-8, 15, 16, 8 + Math.random() * 5);
+            }
+            
+            ctx.fillStyle = '#00ff00';
+            ctx.shadowBlur = 20;
+            ctx.shadowColor = '#00ff00';
+            
+            // 飛船主體
+            ctx.beginPath();
+            ctx.moveTo(0, -15);
+            ctx.lineTo(-17, 12);
+            ctx.lineTo(-8, 8);
+            ctx.lineTo(0, 12);
+            ctx.lineTo(8, 8);
+            ctx.lineTo(17, 12);
+            ctx.closePath();
+            ctx.fill();
+            
+            // 飛船細節
+            ctx.fillStyle = '#00aa00';
+            ctx.fillRect(-3, -18, 6, 3);
+            
+            // 駕駛艙
+            ctx.fillStyle = '#00ffff';
+            ctx.beginPath();
+            ctx.arc(0, -2, 4, 0, Math.PI * 2);
+            ctx.fill();
+            
+            ctx.restore();
+        }
+
+        // 繪製子彈
+        function drawBullets() {
+            // 玩家子彈
+            player.bullets.forEach(bullet => {
+                bullet.trail.forEach((pos, index) => {
+                    const alpha = index / bullet.trail.length * 0.5;
+                    ctx.fillStyle = `rgba(255, 255, 0, ${alpha})`;
+                    ctx.fillRect(pos.x - bullet.width/2, pos.y - bullet.height/2, bullet.width, bullet.height);
+                });
+                
+                ctx.fillStyle = '#ffff00';
+                ctx.shadowBlur = 12;
+                ctx.shadowColor = '#ffff00';
+                ctx.fillRect(bullet.x - bullet.width/2, bullet.y - bullet.height/2, bullet.width, bullet.height);
+                
+                ctx.fillStyle = '#ffffff';
+                ctx.fillRect(bullet.x - 1, bullet.y - bullet.height/2, 2, bullet.height);
+            });
+            
+            // 外星人子彈
+            alienBullets.forEach(bullet => {
+                bullet.trail.forEach((pos, index) => {
+                    const alpha = index / bullet.trail.length * 0.4;
+                    ctx.fillStyle = `rgba(255, 0, 0, ${alpha})`;
+                    ctx.fillRect(pos.x - bullet.width/2, pos.y - bullet.height/2, bullet.width, bullet.height);
+                });
+                
+                ctx.fillStyle = '#ff0000';
+                ctx.shadowBlur = 10;
+                ctx.shadowColor = '#ff0000';
+                ctx.fillRect(bullet.x - bullet.width/2, bullet.y - bullet.height/2, bullet.width, bullet.height);
+                
+                ctx.fillStyle = '#ffaaaa';
+                ctx.fillRect(bullet.x - 1, bullet.y - bullet.height/2, 2, bullet.height);
+            });
+            
+            ctx.shadowBlur = 0;
+        }
+
+        // 繪製底座發射台和控制提示
+        function drawLauncher() {
+            const launcherY = GAME_HEIGHT - 30;
+            
+            // 底座主體
+            const gradient = ctx.createLinearGradient(0, launcherY - 10, 0, launcherY + 10);
+            gradient.addColorStop(0, '#00aa00');
+            gradient.addColorStop(0.5, '#00ff00');
+            gradient.addColorStop(1, '#008800');
+            
+            ctx.fillStyle = gradient;
+            ctx.shadowBlur = 15;
+            ctx.shadowColor = '#00ff00';
+            
+            // 底座形狀
+            ctx.beginPath();
+            ctx.moveTo(player.x - 25, launcherY + 10);
+            ctx.lineTo(player.x - 20, launcherY - 5);
+            ctx.lineTo(player.x + 20, launcherY - 5);
+            ctx.lineTo(player.x + 25, launcherY + 10);
+            ctx.closePath();
+            ctx.fill();
+            
+            // 發射口
+            ctx.fillStyle = '#000';
+            ctx.fillRect(player.x - 3, launcherY - 15, 6, 10);
+            
+            // 發射口光環
+            ctx.strokeStyle = '#00ffff';
+            ctx.lineWidth = 2;
+            ctx.shadowBlur = 10;
+            ctx.shadowColor = '#00ffff';
+            ctx.beginPath();
+            ctx.arc(player.x, launcherY - 10, 5, 0, Math.PI * 2);
+            ctx.stroke();
+            
+            // 底座裝飾
+            ctx.fillStyle = '#00ff00';
+            ctx.fillRect(player.x - 15, launcherY + 5, 30, 3);
+
+            // --- 繪製格狀控制提示 ---
+            // 使用絕對坐標確保位置固定
+            const boxX = 0;
+            const boxWidth = 800;
+            const boxHeight = 45;
+            const boxY = launcherY + 15; // 緊貼發射台下方
+
+            // 1. 繪製半透明黑色背景
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.7)';
+            ctx.fillRect(boxX, boxY, boxWidth, boxHeight);
+
+            // 2. 繪製上下兩條綠線
+            //ctx.strokeStyle = '#00ff00';
+            //ctx.lineWidth = 2;
+            //ctx.shadowBlur = 8;
+            //ctx.shadowColor = '#00ff00';
+            
+            // 上線
+            //ctx.beginPath();
+            //ctx.moveTo(boxX, boxY);
+            //ctx.lineTo(boxX + boxWidth, boxY);
+            //ctx.stroke();
+            
+            // 下線
+            //ctx.beginPath();
+            //ctx.moveTo(boxX, boxY + boxHeight);
+            //ctx.lineTo(boxX + boxWidth, boxY + boxHeight);
+            //ctx.stroke();
+            
+            // 3. 繪製灰色文字
+            // 先關閉陰影，讓文字清晰
+            ctx.shadowBlur = 0;
+            ctx.fillStyle = '#888888'; // 灰色
+            ctx.font = '16px Courier New';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            
+            const textY = boxY + boxHeight / 2;
+            const textX = boxX + boxWidth / 2;
+            const controlText = "← → 移動 | 空白鍵 射擊（長按連續發射）";
+            
+            ctx.fillText(controlText, textX, textY);
+            
+            // 恢復陰影狀態
+            ctx.shadowBlur = 0;
+        }
+
+        // 繪製背景
+        function drawBackground() {
+            const gradient = ctx.createLinearGradient(0, 0, 0, GAME_HEIGHT);
+            gradient.addColorStop(0, '#000000');
+            gradient.addColorStop(0.5, '#000022');
+            gradient.addColorStop(1, '#000044');
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, GAME_WIDTH, GAME_HEIGHT);
+            
+            backgroundStars.forEach(star => {
+                star.y += star.speed;
+                if (star.y > GAME_HEIGHT) {
+                    star.y = 0;
+                    star.x = Math.random() * GAME_WIDTH;
+                }
+                
+                star.brightness += (Math.random() - 0.5) * 0.1;
+                star.brightness = Math.max(0.2, Math.min(1, star.brightness));
+                
+                ctx.fillStyle = `rgba(255, 255, 255, ${star.brightness})`;
+                ctx.fillRect(star.x, star.y, star.size, star.size);
+            });
+            
+            // 底部邊界線
+            ctx.strokeStyle = '#00ff00';
+            ctx.lineWidth = 3;
+            ctx.shadowBlur = 10;
+            ctx.shadowColor = '#00ff00';
+            ctx.beginPath();
+            ctx.moveTo(0, GAME_HEIGHT - 20);
+            ctx.lineTo(GAME_WIDTH, GAME_HEIGHT - 20);
+            ctx.stroke();
+            
+            ctx.shadowBlur = 0;
+        }
+
+        // 更新UI
+        function updateUI() {
+            document.getElementById('score').textContent = score;
+            document.getElementById('highScore').textContent = Math.max(score, highScore);
+            document.getElementById('lives').textContent = '♥'.repeat(lives);
+        }
+
+        // 遊戲結束
+        function gameOver() {
+            gameState = 'gameOver';
+            if (score > highScore) {
+                highScore = score;
+            }
+            
+            // 保存待處理的分數和關卡
+            pendingScore = score;
+            pendingLevel = level;
+            
+            // 檢查是否需要提示輸入名稱
+            shouldPromptName = checkShouldPromptName();
+            
+            if (shouldPromptName) {
+                // 顯示玩家名稱輸入模態對話框
+                document.getElementById('playerNameInput').value = playerName;
+                document.getElementById('playerNameModal').classList.remove('hidden');
+            } else {
+                // 直接顯示遊戲結束畫面，使用默認名稱
+                addRanking('匿名玩家', pendingScore, pendingLevel);
+                
+                document.getElementById('finalScore').textContent = pendingScore;
+                document.getElementById('finalLevel').textContent = pendingLevel;
+                document.getElementById('totalKills').textContent = totalKills;
+                document.getElementById('highScoreDisplay').textContent = highScore;
+                
+                // 更新排行榜顯示
+                updateRankingDisplay();
+                
+                document.getElementById('gameOverScreen').classList.remove('hidden');
+            }
+            
+            if (animationId) {
+                cancelAnimationFrame(animationId);
+                animationId = null;
+            }
+        }
+
+        // 確認玩家名稱
+        function confirmPlayerName() {
+            const input = document.getElementById('playerNameInput');
+            const name = input.value.trim();
+            
+            if (name) {
+                playerName = name;
+                addRanking(playerName, pendingScore, pendingLevel);
+                
+                document.getElementById('playerNameModal').classList.add('hidden');
+                document.getElementById('finalScore').textContent = pendingScore;
+                document.getElementById('finalLevel').textContent = pendingLevel;
+                document.getElementById('totalKills').textContent = totalKills;
+                document.getElementById('highScoreDisplay').textContent = highScore;
+                
+                // 更新排行榜顯示
+                updateRankingDisplay();
+                
+                document.getElementById('gameOverScreen').classList.remove('hidden');
+            }
+        }
+
+        // 取消玩家名稱輸入
+        function cancelPlayerName() {
+            document.getElementById('playerNameModal').classList.add('hidden');
+            // 使用默認名稱
+            addRanking('匿名玩家', pendingScore, pendingLevel);
+            
+            document.getElementById('finalScore').textContent = pendingScore;
+            document.getElementById('finalLevel').textContent = pendingLevel;
+            document.getElementById('totalKills').textContent = totalKills;
+            document.getElementById('highScoreDisplay').textContent = highScore;
+            
+            // 更新排行榜顯示
+            updateRankingDisplay();
+            
+            document.getElementById('gameOverScreen').classList.remove('hidden');
+        }
+
+        // 過關畫面
+        function levelComplete() {
+            gameState = 'levelComplete';
+            
+            // 設置過關畫面數據
+            document.getElementById('completedLevel').textContent = level;
+            document.getElementById('levelScore').textContent = levelScore;
+            document.getElementById('totalScore').textContent = score;
+            document.getElementById('remainingLives').textContent = '♥'.repeat(lives);
+            document.getElementById('killCount').textContent = totalKills;
+            
+            // 設置難度指示器
+            const difficultyPercent = Math.min(100, (level - 1) * 10);
+            document.getElementById('difficultyFill').style.width = difficultyPercent + '%';
+            
+            // 設置難度文字
+            let difficultyText = '簡單';
+            if (level > 5) difficultyText = '困難';
+            else if (level > 3) difficultyText = '中等';
+            else if (level > 1) difficultyText = '簡單';
+            document.getElementById('difficultyText').textContent = difficultyText;
+            
+            document.getElementById('levelCompleteScreen').classList.remove('hidden');
+            playSound('levelComplete');
+            if (animationId) {
+                cancelAnimationFrame(animationId);
+                animationId = null;
+            }
+        }
+
+        // 遊戲主循環
+        function gameLoop() {
+            if (gameState !== 'playing') return;
+            
+            updatePlayer();
+            updatePlayerBullets();
+            updateAliens();
+            updateAlienBullets();
+            updateParticles();
+            checkCollisions();
+            
+            draw();
+            
+            animationId = requestAnimationFrame(gameLoop);
+        }
+
+        // 繪製函數
+        function draw() {
+            drawBackground();
+            drawParticles();
+            drawAliens();
+            drawLauncher();
+            drawPlayer();
+            drawBullets();
+        }
+
+        // 鍵盤輸入
+        const keys = {};
+        let spaceKeyDown = false;
+        
+        document.addEventListener('keydown', (e) => {
+            keys[e.code] = true;
+            
+            if (e.code === 'Space' || e.code === 'Enter') {
+                e.preventDefault();
+                
+                if (gameState === 'playing') {
+                    if (!spaceKeyDown) {
+                        spaceKeyDown = true;
+                        player.isHoldingSpace = true;
+                        
+                        const now = Date.now();
+                        if (now - player.lastShot > player.shootCooldown) {
+                            player.bullets.push({
+                                x: player.x,
+                                y: player.y - 20,
+                                speed: 10,
+                                width: 4,
+                                height: 15,
+                                trail: []
+                            });
+                            playSound('shoot');
+                            player.lastShot = now;
+                        }
+                    }
+                } else if (gameState === 'start' || gameState === 'gameOver' || gameState === 'levelComplete') {
+                    // 在開始畫面、遊戲結束畫面或過關畫面，按下 Enter 或 Space 觸發按鈕點擊
+                    if (e.code === 'Space' || e.code === 'Enter') {
+                        // 檢查哪個視圖是可見的
+                        if (!document.getElementById('startScreen').classList.contains('hidden')) {
+                            startGame();
+                        } else if (!document.getElementById('gameOverScreen').classList.contains('hidden')) {
+                            restartGame();
+                        } else if (!document.getElementById('levelCompleteScreen').classList.contains('hidden')) {
+                            nextLevel();
+                        }
+                    }
+                }
+            }
+        });
+        
+        document.addEventListener('keyup', (e) => {
+            keys[e.code] = false;
+            
+            if (e.code === 'Space') {
+                spaceKeyDown = false;
+                player.isHoldingSpace = false;
+            }
+        });
+
+        // 滑鼠點擊事件
+        canvas.addEventListener('click', (e) => {
+            if (gameState === 'start' || gameState === 'gameOver' || gameState === 'levelComplete') {
+                // 檢查點擊位置是否在按鈕上
+                const rect = canvas.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                
+                // 這裡可以添加更精確的按鈕檢測邏輯
+                // 簡單起見，點擊螢幕任何地方都觸發相應動作
+                if (!document.getElementById('startScreen').classList.contains('hidden')) {
+                    startGame();
+                } else if (!document.getElementById('gameOverScreen').classList.contains('hidden')) {
+                    restartGame();
+                } else if (!document.getElementById('levelCompleteScreen').classList.contains('hidden')) {
+                    nextLevel();
+                }
+            }
+        });
+
+        // 開始遊戲
+        function startGame() {
+            gameState = 'playing';
+            score = 0;
+            lives = 3;
+            level = 1;
+            totalKills = 0;
+            isNewRecord = false;
+            alienBullets = [];
+            shouldPromptName = false;
+            
+            document.getElementById('startScreen').classList.add('hidden');
+            document.getElementById('gameOverScreen').classList.add('hidden');
+            document.getElementById('levelCompleteScreen').classList.add('hidden');
+            document.getElementById('playerNameModal').classList.add('hidden');
+            
+            createBackgroundStars();
+            initGame();
+            
+            if (animationId) {
+                cancelAnimationFrame(animationId);
+            }
+            gameLoop();
+        }
+
+        // 重新開始
+        function restartGame() {
+            startGame();
+        }
+
+        // 返回主選單
+        function showStartScreen() {
+            gameState = 'start';
+            document.getElementById('startScreen').classList.remove('hidden');
+            document.getElementById('gameOverScreen').classList.add('hidden');
+            document.getElementById('levelCompleteScreen').classList.add('hidden');
+            document.getElementById('playerNameModal').classList.add('hidden');
+        }
+
+        // 下一關
+        function nextLevel() {
+            level++;
+            document.getElementById('levelCompleteScreen').classList.add('hidden');
+            gameState = 'playing';
+            
+            if (animationId) {
+                cancelAnimationFrame(animationId);
+            }
+            
+            initGame();
+            gameLoop();
+        }
+
+        // 初始化
+        initRankings();
+        createBackgroundStars();
+        initGame();
+        
+        // 開始遊戲循環（即使在開始畫面也繪製背景動畫）
+        function backgroundLoop() {
+            if (gameState === 'start' || gameState === 'gameOver' || gameState === 'levelComplete') {
+                draw();
+            }
+            requestAnimationFrame(backgroundLoop);
+        }
+        backgroundLoop();
+    </script>
+</body>
+</html>

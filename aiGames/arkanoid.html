@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>打磚塊 - Arkanoid Pro</title>
+    <style>
+        :root {
+            --bg-color: #050a18;
+            --accent-color: #00f2ff;
+            --panel-bg: rgba(0, 242, 255, 0.15);
+            --heart-color: #ff0055;
+        }
+        body {
+            background-color: var(--bg-color);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+        }
+        #game-container {
+            position: relative;
+            box-shadow: 0 0 40px rgba(0, 242, 255, 0.2);
+            border: 3px solid #222;
+        }
+        canvas { display: block; background: radial-gradient(circle, #0a1931 0%, #050a18 100%); }
+        .ui-overlay {
+            position: absolute;
+            top: 10px; width: 100%;
+            display: flex; justify-content: space-around; align-items: center;
+            pointer-events: none; text-shadow: 0 0 5px var(--accent-color);
+            font-size: 18px; z-index: 5;
+        }
+        #lives-display { color: var(--heart-color); letter-spacing: 3px; }
+        #modal-overlay {
+            display: none; position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            flex-direction: column; align-items: center; justify-content: center;
+            z-index: 10; text-align: center;
+        }
+        #modal-content {
+            background: var(--panel-bg); padding: 25px;
+            border: 2px solid var(--accent-color); border-radius: 15px;
+            width: 80%; max-height: 80%;
+        }
+        input {
+            background: transparent; border: none; border-bottom: 2px solid var(--accent-color);
+            color: white; font-size: 24px; text-align: center; outline: none;
+            margin: 15px 0; font-family: inherit;
+        }
+        .leaderboard-table {
+            width: 100%; margin: 15px 0; border-collapse: collapse; font-size: 14px;
+        }
+        .leaderboard-table th, .leaderboard-table td {
+            padding: 8px; border-bottom: 1px solid rgba(0, 242, 255, 0.3);
+        }
+        .leaderboard-table th { color: var(--accent-color); }
+        .hint { font-size: 12px; color: #888; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <h1 style="margin-bottom: 10px; letter-spacing: 5px; color: var(--accent-color);">ARKANOID</h1>
+
+    <div id="game-container">
+        <div class="ui-overlay">
+            <div id="score-display">SCORE: 0</div>
+            <div id="lives-display"></div>
+            <div id="level-display">LVL: 1</div>
+        </div>
+
+        <div id="modal-overlay">
+            <div id="modal-content">
+                <h2 id="modal-title"></h2>
+                <p id="modal-score"></p>
+                
+                <!-- 流程 A: 輸入名字 (僅 Game Over 時) -->
+                <div id="name-input-area" style="display: none;">
+                    <p>進入排行榜！請輸入名稱：</p>
+                    <input type="text" id="player-name" maxlength="10" autocomplete="off">
+                    <p class="hint">按下 [Enter] 提交</p>
+                </div>
+
+                <!-- 流程 B: 顯示排行榜 (輸入名字後) -->
+                <div id="leaderboard-area" style="display: none;">
+                    <table class="leaderboard-table">
+                        <thead><tr><th>RANK</th><th>NAME</th><th>SCORE</th></tr></thead>
+                        <tbody id="leaderboard-body"></tbody>
+                    </table>
+                    <p class="hint">按下 [Enter] 重新開始</p>
+                </div>
+
+                <!-- 流程 C: 繼續/重新開始按鈕提示 -->
+                <div id="continue-area" style="display: none;">
+                    <p id="continue-text" class="hint"></p>
+                </div>
+            </div>
+        </div>
+
+        <canvas id="gameCanvas" width="480" height="600"></canvas>
+    </div>
+
+    <script>
+        /** --- 音效系統 --- **/
+        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        function playSound(type) {
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            osc.connect(gain); gain.connect(audioCtx.destination);
+            const now = audioCtx.currentTime;
+            if (type === 'hit') {
+                osc.type = 'square'; osc.frequency.setValueAtTime(150, now); osc.frequency.exponentialRampToValueAtTime(40, now + 0.1);
+                gain.gain.setValueAtTime(0.1, now); gain.gain.exponentialRampToValueAtTime(0.01, now + 0.1);
+                osc.start(); osc.stop(now + 0.1);
+            } else if (type === 'brick') {
+                osc.type = 'sine'; osc.frequency.setValueAtTime(400, now); osc.frequency.exponentialRampToValueAtTime(600, now + 0.1);
+                gain.gain.setValueAtTime(0.1, now); gain.gain.exponentialRampToValueAtTime(0.01, now + 0.1);
+                osc.start(); osc.stop(now + 0.1);
+            } else if (type === 'win') {
+                osc.type = 'triangle'; osc.frequency.setValueAtTime(523, now); osc.frequency.exponentialRampToValueAtTime(1046, now + 0.3);
+                gain.gain.setValueAtTime(0.1, now); gain.gain.exponentialRampToValueAtTime(0.01, now + 0.3);
+                osc.start(); osc.stop(now + 0.3);
+            } else if (type === 'gameover') {
+                osc.type = 'sawtooth'; osc.frequency.setValueAtTime(200, now); osc.frequency.linearRampToValueAtTime(50, now + 0.5);
+                gain.gain.setValueAtTime(0.2, now); gain.gain.linearRampToValueAtTime(0.01, now + 0.5);
+                osc.start(); osc.stop(now + 0.5);
+            } else if (type === 'life-lost') {
+                osc.type = 'sine'; osc.frequency.setValueAtTime(100, now); osc.frequency.linearRampToValueAtTime(20, now + 0.3);
+                gain.gain.setValueAtTime(0.2, now); gain.gain.linearRampToValueAtTime(0.01, now + 0.3);
+                osc.start(); osc.stop(now + 0.3);
+            }
+        }
+
+        /** --- 變數 --- **/
+        const canvas = document.getElementById("gameCanvas");
+        const ctx = canvas.getContext("2d");
+        const modal = document.getElementById("modal-overlay");
+        const playerNameInput = document.getElementById("player-name");
+
+        let score = 0, level = 1, lives = 3, isPaused = false;
+        let currentModalState = ""; // "inputting", "showing_leaderboard", "next_level", "restart"
+
+        let leaderboard = [
+            {name: "ACE", score: 5000}, {name: "PRO", score: 4000}, 
+            {name: "MAX", score: 3000}, {name: "SKY", score: 2000}, 
+            {name: "ZOD", score: 1000}
+        ];
+
+        let ballRadius = 7, x, y, dx, dy;
+        const paddleHeight = 12, paddleWidth = 85;
+        let paddleX;
+        let rightPressed = false, leftPressed = false;
+
+        const brickRowCount = 6, brickColumnCount = 8;
+        const brickWidth = 50, brickHeight = 15, brickPadding = 5, brickOffsetTop = 100, brickOffsetLeft = 25;
+        let bricks = [];
+
+        function updateUI() {
+            document.getElementById("score-display").innerText = `SCORE: ${score}`;
+            document.getElementById("level-display").innerText = `LVL: ${level}`;
+            document.getElementById("lives-display").innerHTML = "❤".repeat(lives);
+        }
+
+        function initLevel() {
+            x = canvas.width / 2; y = canvas.height - 40;
+            let speed = 3 + (level * 0.6);
+            dx = speed; dy = -speed;
+            paddleX = (canvas.width - paddleWidth) / 2;
+            bricks = [];
+            const colors = ["#ff0055", "#ffaa00", "#ccff00", "#00ffaa", "#00aaff", "#aa00ff"];
+            for (let c = 0; c < brickColumnCount; c++) {
+                bricks[c] = [];
+                for (let r = 0; r < brickRowCount; r++) {
+                    bricks[c][r] = { x: 0, y: 0, status: 1, color: colors[r] };
+                }
+            }
+            updateUI();
+        }
+
+        /** --- 流程控制核心 --- **/
+
+        // 1. 關卡過關 (Stage Clear)
+        function triggerStageClear() {
+            playSound('win');
+            isPaused = true;
+            modal.style.display = "flex";
+            document.getElementById("modal-title").innerText = "STAGE CLEAR!";
+            document.getElementById("modal-score").innerText = `SCORE: ${score}`;
+            
+            document.getElementById("name-input-area").style.display = "none";
+            document.getElementById("leaderboard-area").style.display = "none";
+            document.getElementById("continue-area").style.display = "block";
+            document.getElementById("continue-text").innerText = "按下 [Enter] 或 [Space] 下一關";
+            currentModalState = "next_level";
+        }
+
+        // 2. 遊戲結束 (Game Over)
+        function triggerGameOver() {
+            isPaused = true;
+            playSound('gameover');
+            modal.style.display = "flex";
+            document.getElementById("modal-title").innerText = "GAME OVER";
+            document.getElementById("modal-score").innerText = `FINAL SCORE: ${score}`;
+            
+            const nameArea = document.getElementById("name-input-area");
+            const lbArea = document.getElementById("leaderboard-area");
+            const contArea = document.getElementById("continue-area");
+
+            // 檢查是否要進入排行榜
+            if (score > leaderboard[4].score) {
+                nameArea.style.display = "block";
+                lbArea.style.display = "none";
+                contArea.style.display = "none";
+                playerNameInput.focus();
+                currentModalState = "inputting";
+            } else {
+                nameArea.style.display = "none";
+                lbArea.style.display = "none";
+                contArea.style.display = "block";
+                document.getElementById("continue-text").innerText = "按下 [Enter] 重新開始";
+                currentModalState = "restart";
+            }
+        }
+
+        // 3. 顯示排行榜
+        function showLeaderboard() {
+            document.getElementById("name-input-area").style.display = "none";
+            document.getElementById("leaderboard-area").style.display = "block";
+            document.getElementById("continue-area").style.display = "none";
+            
+            const tbody = document.getElementById("leaderboard-body");
+            tbody.innerHTML = "";
+            leaderboard.forEach((entry, index) => {
+                tbody.innerHTML += `<tr><td>${index + 1}</td><td>${entry.name}</td><td>${entry.score}</td></tr>`;
+            });
+            currentModalState = "showing_leaderboard";
+        }
+
+        function startNextLevel() {
+            modal.style.display = "none";
+            level++;
+            isPaused = false;
+            initLevel();
+            draw();
+        }
+
+        function restartGame() {
+            location.reload();
+        }
+
+        /** --- 遊戲引擎 --- **/
+
+        function collisionDetection() {
+            for (let c = 0; c < brickColumnCount; c++) {
+                for (let r = 0; r < brickRowCount; r++) {
+                    let b = bricks[c][r];
+                    if (b.status === 1) {
+                        if (x > b.x && x < b.x + brickWidth && y > b.y && y < b.y + brickHeight) {
+                            dy = -dy; b.status = 0; score += 100;
+                            document.getElementById("score-display").innerText = `SCORE: ${score}`;
+                            playSound('brick');
+                            let remaining = 0;
+                            for(let i=0; i<brickColumnCount; i++) 
+                                for(let j=0; j<brickRowCount; j++) if(bricks[i][j].status === 1) remaining++;
+                            if (remaining === 0) triggerStageClear();
+                        }
+                    }
+                }
+            }
+        }
+
+        function draw() {
+            if (isPaused) return;
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            // 畫磚塊
+            for (let c = 0; c < brickColumnCount; c++) {
+                for (let r = 0; r < brickRowCount; r++) {
+                    if (bricks[c][r].status === 1) {
+                        let bx = c * (brickWidth + brickPadding) + brickOffsetLeft;
+                        let by = r * (brickHeight + brickPadding) + brickOffsetTop;
+                        bricks[c][r].x = bx; bricks[c][r].y = by;
+                        ctx.fillStyle = bricks[c][r].color;
+                        ctx.fillRect(bx, by, brickWidth, brickHeight);
+                    }
+                }
+            }
+
+            // 畫球
+            ctx.beginPath();
+            ctx.arc(x, y, ballRadius, 0, Math.PI * 2);
+            ctx.fillStyle = "#fff"; ctx.shadowBlur = 10; ctx.shadowColor = "#fff";
+            ctx.fill(); ctx.closePath(); ctx.shadowBlur = 0;
+
+            // 畫球拍
+            ctx.fillStyle = "#00f2ff";
+            ctx.fillRect(paddleX, canvas.height - paddleHeight - 10, paddleWidth, paddleHeight);
+
+            collisionDetection();
+
+            if (x + dx > canvas.width - ballRadius || x + dx < ballRadius) { dx = -dx; playSound('hit'); }
+            if (y + dy < ballRadius) { dy = -dy; playSound('hit'); }
+            else if (y + dy > canvas.height - ballRadius - 10) {
+                if (x > paddleX && x < paddleX + paddleWidth) {
+                    dy = -dy;
+                    dx = 8 * ((x - (paddleX + paddleWidth / 2)) / paddleWidth);
+                    playSound('hit');
+                } else if (y + dy > canvas.height) {
+                    lives--;
+                    playSound('life-lost');
+                    updateUI();
+                    if (lives <= 0) triggerGameOver();
+                    else { x = canvas.width/2; y = canvas.height-40; let s = 3+(level*0.6); dx=s; dy=-s; }
+                }
+            }
+
+            if (rightPressed && paddleX < canvas.width - paddleWidth) paddleX += 7;
+            else if (leftPressed && paddleX > 0) paddleX -= 7;
+
+            x += dx; y += dy;
+            requestAnimationFrame(draw);
+        }
+
+        /** --- 事件監聽 --- **/
+
+        document.addEventListener("keydown", (e) => {
+            if (e.key === "Right" || e.key === "ArrowRight") rightPressed = true;
+            else if (e.key === "Left" || e.key === "ArrowLeft") leftPressed = true;
+
+            if (isPaused) {
+                if (e.key === "Enter" || e.key === " ") {
+                    if (currentModalState === "inputting") {
+                        const name = playerNameInput.value.trim() || "ANON";
+                        leaderboard.push({name: name, score: score});
+                        leaderboard.sort((a, b) => b.score - a.score);
+                        leaderboard = leaderboard.slice(0, 5);
+                        showLeaderboard();
+                    } else if (currentModalState === "showing_leaderboard") {
+                        restartGame();
+                    } else if (currentModalState === "next_level") {
+                        startNextLevel();
+                    } else if (currentModalState === "restart") {
+                        restartGame();
+                    }
+                }
+            }
+        });
+
+        document.addEventListener("keyup", (e) => {
+            if (e.key === "Right" || e.key === "ArrowRight") rightPressed = false;
+            else if (e.key === "Left" || e.key === "ArrowLeft") leftPressed = false;
+        });
+
+        document.addEventListener("mousemove", (e) => {
+            const rect = canvas.getBoundingClientRect();
+            const relX = e.clientX - rect.left;
+            if (relX > 0 && relX < canvas.width) paddleX = relX - paddleWidth / 2;
+        });
+
+        initLevel();
+        draw();
+    </script>
+</body>
+</html>

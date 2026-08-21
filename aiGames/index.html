@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Game Hub | 遊戲入口</title>
+    <style>
+        /* --- 基礎設定 --- */
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Noto+Sans+TC:wght@300;500&display=swap');
+
+        :root {
+            --bg-color: #0b0c15;
+            --card-bg: rgba(255, 255, 255, 0.05);
+            --text-color: #e0e6ed;
+            --accent-cyan: #00f3ff;
+            --accent-pink: #ff00ff;
+            --accent-green: #00ff9d;
+            --accent-yellow: #fcee0a;
+            --accent-lime: #39ff14;
+            --accent-purple: #bc13fe; /* Tetris 專用色 */
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Noto Sans TC', sans-serif;
+            overflow-x: hidden;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* --- 背景動畫 Canvas --- */
+        #bg-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        /* --- 標題區域 --- */
+        header {
+            margin-top: 60px;
+            margin-bottom: 60px;
+            text-align: center;
+            z-index: 1;
+        }
+
+        h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 3rem;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            background: linear-gradient(90deg, var(--accent-cyan), var(--accent-pink));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 20px rgba(0, 243, 255, 0.3);
+            margin-bottom: 10px;
+        }
+
+        p.subtitle {
+            font-size: 1.1rem;
+            opacity: 0.8;
+            letter-spacing: 2px;
+        }
+
+        /* --- 遊戲卡片容器 --- */
+        .game-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+            padding: 20px;
+            width: 90%;
+            max-width: 1200px;
+            margin-bottom: 100px;
+            z-index: 1;
+        }
+
+        /* --- 單個遊戲卡片 --- */
+        .game-card {
+            background: var(--card-bg);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            backdrop-filter: blur(10px);
+            text-decoration: none;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .game-card:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 0 25px rgba(0, 243, 255, 0.2);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        /* 圖片區域 */
+        .card-image-wrapper {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+            background: #000;
+        }
+
+        .card-image-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+            opacity: 0.9;
+        }
+
+        .game-card:hover .card-image-wrapper img {
+            transform: scale(1.1);
+            opacity: 1;
+        }
+
+        /* 遊戲資訊 */
+        .card-info {
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .game-title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+            color: var(--accent-cyan);
+        }
+
+        .start-btn {
+            margin-top: 15px;
+            padding: 8px 24px;
+            border: 1px solid var(--accent-cyan);
+            background: transparent;
+            color: var(--accent-cyan);
+            font-family: 'Orbitron', sans-serif;
+            font-size: 0.9rem;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .game-card:hover .start-btn {
+            background: var(--accent-cyan);
+            color: #000;
+            box-shadow: 0 0 15px var(--accent-cyan);
+        }
+
+        /* --- 特殊顏色設定 --- */
+        /* Pacman */
+        .card-pacman:hover { box-shadow: 0 0 25px rgba(252, 238, 10, 0.2); border-color: var(--accent-yellow); }
+        .card-pacman .game-title { color: var(--accent-yellow); }
+        .card-pacman .start-btn { border-color: var(--accent-yellow); color: var(--accent-yellow); }
+        .card-pacman:hover .start-btn { background: var(--accent-yellow); color: #000; box-shadow: 0 0 15px var(--accent-yellow); }
+
+        /* Arkanoid */
+        .card-arkanoid:hover { box-shadow: 0 0 25px rgba(255, 0, 255, 0.2); border-color: var(--accent-pink); }
+        .card-arkanoid .game-title { color: var(--accent-pink); }
+        .card-arkanoid .start-btn { border-color: var(--accent-pink); color: var(--accent-pink); }
+        .card-arkanoid:hover .start-btn { background: var(--accent-pink); color: #000; box-shadow: 0 0 15px var(--accent-pink); }
+
+        /* Galaxian */
+        .card-galaxian:hover { box-shadow: 0 0 25px rgba(0, 255, 157, 0.2); border-color: var(--accent-green); }
+        .card-galaxian .game-title { color: var(--accent-green); }
+        .card-galaxian .start-btn { border-color: var(--accent-green); color: var(--accent-green); }
+        .card-galaxian:hover .start-btn { background: var(--accent-green); color: #000; box-shadow: 0 0 15px var(--accent-green); }
+
+        /* Frogger */
+        .card-frogger:hover { box-shadow: 0 0 25px rgba(0, 243, 255, 0.2); border-color: var(--accent-cyan); }
+        .card-frogger .game-title { color: var(--accent-cyan); }
+        .card-frogger .start-btn { border-color: var(--accent-cyan); color: var(--accent-cyan); }
+        .card-frogger:hover .start-btn { background: var(--accent-cyan); color: #000; box-shadow: 0 0 15px var(--accent-cyan); }
+
+        /* 1943 */
+        .card-1943:hover { box-shadow: 0 0 25px rgba(57, 255, 20, 0.3); border-color: var(--accent-lime); }
+        .card-1943 .game-title { color: var(--accent-lime); }
+        .card-1943 .start-btn { border-color: var(--accent-lime); color: var(--accent-lime); }
+        .card-1943:hover .start-btn { background: var(--accent-lime); color: #000; box-shadow: 0 0 15px var(--accent-lime); }
+
+        /* Tetris - New */
+        .card-tetris:hover { box-shadow: 0 0 25px rgba(188, 19, 254, 0.3); border-color: var(--accent-purple); }
+        .card-tetris .game-title { color: var(--accent-purple); }
+        .card-tetris .start-btn { border-color: var(--accent-purple); color: var(--accent-purple); }
+        .card-tetris:hover .start-btn { background: var(--accent-purple); color: #000; box-shadow: 0 0 15px var(--accent-purple); }
+
+        /* --- RWD 調整 --- */
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .game-container { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 背景動畫 -->
+    <canvas id="bg-canvas"></canvas>
+
+    <header>
+        <h1>AI Game Hub</h1>
+        <p class="subtitle">SELECT YOUR CHALLENGE</p>
+    </header>
+
+    <main class="game-container">
+        
+        <!-- Pacman -->
+        <a href="./pacman.html" class="game-card card-pacman">
+            <div class="card-image-wrapper">
+                <img src="pacman.png" alt="Pacman Game">
+            </div>
+            <div class="card-info">
+                <h2 class="game-title">PAC-MAN</h2>
+                <button class="start-btn">PLAY NOW</button>
+            </div>
+        </a>
+
+        <!-- Arkanoid -->
+        <a href="./arkanoid.html" class="game-card card-arkanoid">
+            <div class="card-image-wrapper">
+                <img src="arkanoid.png" alt="Arkanoid Game">
+            </div>
+            <div class="card-info">
+                <h2 class="game-title">ARKANOID</h2>
+                <button class="start-btn">PLAY NOW</button>
+            </div>
+        </a>
+
+        <!-- Galaxian -->
+        <a href="./galaxian.html" class="game-card card-galaxian">
+            <div class="card-image-wrapper">
+                <img src="galaxian.png" alt="Galaxian Game">
+            </div>
+            <div class="card-info">
+                <h2 class="game-title">GALAXIAN</h2>
+                <button class="start-btn">PLAY NOW</button>
+            </div>
+        </a>
+
+        <!-- Frogger -->
+        <a href="./frogger.html" class="game-card card-frogger">
+            <div class="card-image-wrapper">
+                <img src="frogger.png" alt="Frogger Game">
+            </div>
+            <div class="card-info">
+                <h2 class="game-title">FROGGER</h2>
+                <button class="start-btn">PLAY NOW</button>
+            </div>
+        </a>
+
+        <!-- 1943 -->
+        <a href="./1943.html" class="game-card card-1943">
+            <div class="card-image-wrapper">
+                <img src="1943.png" alt="1943 Game">
+            </div>
+            <div class="card-info">
+                <h2 class="game-title">1943</h2>
+                <button class="start-btn">PLAY NOW</button>
+            </div>
+        </a>
+
+        <!-- Tetris - New -->
+        <a href="./tetris.html" class="game-card card-tetris">
+            <div class="card-image-wrapper">
+                <img src="tetris.png" alt="Tetris Game">
+            </div>
+            <div class="card-info">
+                <h2 class="game-title">TETRIS</h2>
+                <button class="start-btn">PLAY NOW</button>
+            </div>
+        </a>
+
+    </main>
+
+    <script>
+        // --- 科技感粒子背景動畫 ---
+        const canvas = document.getElementById('bg-canvas');
+        const ctx = canvas.getContext('2d');
+        
+        let width, height;
+        let particles = [];
+
+        function resize() {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+        }
+
+        window.addEventListener('resize', resize);
+        resize();
+
+        class Particle {
+            constructor() {
+                this.x = Math.random() * width;
+                this.y = Math.random() * height;
+                this.vx = (Math.random() - 0.5) * 0.5;
+                this.vy = (Math.random() - 0.5) * 0.5;
+                this.size = Math.random() * 2 + 1;
+            }
+
+            update() {
+                this.x += this.vx;
+                this.y += this.vy;
+
+                if (this.x < 0 || this.x > width) this.vx *= -1;
+                if (this.y < 0 || this.y > height) this.vy *= -1;
+            }
+
+            draw() {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fillStyle = 'rgba(0, 243, 255, 0.5)';
+                ctx.fill();
+            }
+        }
+
+        for (let i = 0; i < 50; i++) {
+            particles.push(new Particle());
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+            
+            for (let i = 0; i < particles.length; i++) {
+                particles[i].update();
+                particles[i].draw();
+
+                for (let j = i; j < particles.length; j++) {
+                    const dx = particles[i].x - particles[j].x;
+                    const dy = particles[i].y - particles[j].y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+
+                    if (distance < 150) {
+                        ctx.beginPath();
+                        ctx.strokeStyle = `rgba(0, 243, 255, ${0.1 - distance/1500})`;
+                        ctx.lineWidth = 1;
+                        ctx.moveTo(particles[i].x, particles[i].y);
+                        ctx.lineTo(particles[j].x, particles[j].y);
+                        ctx.stroke();
+                    }
+                }
+            }
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+    </script>
+</body>
+</html>

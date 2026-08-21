@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小精靈 - Pac-Man</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #00ff00;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        .game-container {
+            background: rgba(0, 0, 0, 0.9);
+            border: 2px solid #00ff00;
+            border-radius: 10px;
+            box-shadow: 0 0 30px rgba(0, 255, 0, 0.3);
+            padding: 20px;
+            position: relative;
+        }
+
+        .game-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding: 10px;
+            background: rgba(0, 255, 0, 0.1);
+            border-radius: 5px;
+            border: 1px solid #00ff00;
+        }
+
+        .score-display, .level-display, .lives-display {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        #gameCanvas {
+            border: 2px solid #00ff00;
+            border-radius: 5px;
+            background: #000;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+            display: block;
+        }
+
+        .game-footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .controls-hint {
+            color: #00ff00;
+            font-size: 14px;
+        }
+
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.85);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal-content {
+            background: #000;
+            border: 2px solid #00ff00;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 0 30px rgba(0, 255, 0, 0.5);
+            max-width: 400px;
+            width: 90%;
+        }
+
+        .modal-content h2 {
+            color: #00ff00;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .modal-content p {
+            color: #00ff00;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        #finalScore {
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: #00ff00;
+        }
+
+        #leaderboard {
+            margin: 20px 0;
+            text-align: left;
+            color: #fff;
+            font-size: 16px;
+            max-height: 450px;
+            overflow-y: auto;
+            border-top: 2px dashed #00ff00;
+            border-bottom: 2px dashed #00ff00;
+            padding: 15px 0;
+            scrollbar-width: thin;
+            scrollbar-color: #00ff00 #000;
+        }
+
+        #leaderboard::-webkit-scrollbar {
+            width: 8px;
+        }
+        #leaderboard::-webkit-scrollbar-thumb {
+            background-color: #00ff00;
+            border-radius: 4px;
+        }
+
+        .lb-entry {
+            margin: 8px 0;
+            padding: 10px 15px;
+            background: rgba(0, 255, 0, 0.05);
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid rgba(0, 255, 0, 0.2);
+            transition: all 0.3s;
+        }
+
+        .lb-entry:hover {
+            background: rgba(0, 255, 0, 0.2);
+            transform: translateX(5px);
+        }
+
+        .lb-header {
+            font-weight: bold;
+            color: #00ff00;
+            padding: 5px 15px;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(0, 255, 0, 0.5);
+            margin-bottom: 10px;
+        }
+
+        .lb-rank {
+            width: 50px;
+            font-weight: bold;
+        }
+        
+        .lb-name {
+            flex: 1;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+        
+        .lb-score {
+            width: 80px;
+            text-align: right;
+            color: #ffff00;
+            font-weight: bold;
+        }
+
+        /* 前三名樣式 */
+        .rank-1 .lb-rank { color: #ffd700; text-shadow: 0 0 5px #ffd700; }
+        .rank-2 .lb-rank { color: #c0c0c0; text-shadow: 0 0 5px #c0c0c0; }
+        .rank-3 .lb-rank { color: #cd7f32; text-shadow: 0 0 5px #cd7f32; }
+
+        .lb-highlight {
+            background: rgba(0, 255, 0, 0.3) !important;
+            border-color: #00ff00;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            margin: 10px 0;
+            background: #1a1a2e;
+            border: 1px solid #00ff00;
+            color: #00ff00;
+            font-family: 'Courier New', monospace;
+            font-size: 16px;
+            border-radius: 5px;
+            width: 80%;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            background: #00ff00;
+            border: none;
+            color: #000;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background: #00cc00;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 20px rgba(0, 255, 0, 0.2); }
+            50% { box-shadow: 0 0 40px rgba(0, 255, 0, 0.6); }
+            100% { box-shadow: 0 0 20px rgba(0, 255, 0, 0.2); }
+        }
+
+        .game-container {
+            animation: pulse 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <div class="score-display">
+                <div>得分: <span id="currentScore">0</span></div>
+                <div>最高分: <span id="highScore">0</span></div>
+            </div>
+            <div class="level-display">
+                <div>關卡: <span id="currentLevel">1</span></div>
+            </div>
+            <div class="lives-display">
+                <div>生命: <span id="lives">3</span></div>
+            </div>
+        </div>
+        <canvas id="gameCanvas" width="600" height="640"></canvas>
+        <div class="game-footer">
+            <div class="controls-hint">
+                <p>使用方向鍵移動小精靈</p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="gameOverModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <h2>遊戲結束</h2>
+            <div id="finalScore">最終得分: 0</div>
+            <div id="leaderboard"></div>
+            <button id="restartBtn" onclick="restartGame()">重新開始</button>
+        </div>
+    </div>
+    
+    <div id="levelCompleteModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <h2>關卡完成！</h2>
+            <p id="levelCompleteScore">當前得分: 0</p>
+            <button id="nextLevelBtn" onclick="nextLevel()">前往下一關</button>
+        </div>
+    </div>
+
+    <div id="nameInputModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <h2>恭喜！創下新高分！</h2>
+            <p>請輸入你的姓名：</p>
+            <input type="text" id="playerName" maxlength="10" placeholder="輸入姓名">
+            <button id="submitNameBtn" onclick="submitName()">送出</button>
+        </div>
+    </div>
+
+    <script>
+        // --- 音效管理系統 (Web Audio API) ---
+        class SoundManager {
+            constructor() {
+                this.audioCtx = null;
+                this.initialized = false;
+            }
+
+            init() {
+                if (this.initialized) return;
+                try {
+                    this.audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+                    this.initialized = true;
+                } catch (e) {
+                    console.error("Web Audio API not supported");
+                }
+            }
+
+            playTone(type) {
+                if (!this.initialized) return;
+                if (this.audioCtx.state === 'suspended') this.audioCtx.resume();
+
+                const osc = this.audioCtx.createOscillator();
+                const gainNode = this.audioCtx.createGain();
+                
+                osc.connect(gainNode);
+                gainNode.connect(this.audioCtx.destination);
+
+                const now = this.audioCtx.currentTime;
+
+                switch (type) {
+                    case 'chomp':
+                        osc.type = 'square';
+                        osc.frequency.setValueAtTime(200, now);
+                        osc.frequency.exponentialRampToValueAtTime(600, now + 0.05);
+                        gainNode.gain.setValueAtTime(0.1, now);
+                        gainNode.gain.exponentialRampToValueAtTime(0.01, now + 0.1);
+                        osc.start(now);
+                        osc.stop(now + 0.1);
+                        break;
+                    case 'power':
+                        osc.type = 'sine';
+                        osc.frequency.setValueAtTime(400, now);
+                        osc.frequency.linearRampToValueAtTime(1200, now + 0.3);
+                        gainNode.gain.setValueAtTime(0.1, now);
+                        gainNode.gain.linearRampToValueAtTime(0, now + 0.3);
+                        osc.start(now);
+                        osc.stop(now + 0.3);
+                        break;
+                    case 'eatGhost':
+                        osc.type = 'square';
+                        osc.frequency.setValueAtTime(800, now);
+                        osc.frequency.linearRampToValueAtTime(1500, now + 0.1);
+                        osc.frequency.linearRampToValueAtTime(800, now + 0.2);
+                        osc.frequency.linearRampToValueAtTime(1500, now + 0.3);
+                        gainNode.gain.setValueAtTime(0.1, now);
+                        gainNode.gain.linearRampToValueAtTime(0, now + 0.4);
+                        osc.start(now);
+                        osc.stop(now + 0.4);
+                        break;
+                    case 'die':
+                        osc.type = 'sawtooth';
+                        osc.frequency.setValueAtTime(500, now);
+                        osc.frequency.linearRampToValueAtTime(50, now + 1.0);
+                        gainNode.gain.setValueAtTime(0.2, now);
+                        gainNode.gain.linearRampToValueAtTime(0, now + 1.0);
+                        osc.start(now);
+                        osc.stop(now + 1.0);
+                        break;
+                }
+            }
+        }
+
+        const soundManager = new SoundManager();
+
+        class PacmanGame {
+            constructor() {
+                this.canvas = document.getElementById('gameCanvas');
+                this.ctx = this.canvas.getContext('2d');
+                
+                this.cellSize = 30; 
+                this.scaleFactor = 1; 
+                this.displayCellSize = this.cellSize * this.scaleFactor; 
+                
+                const map1 = [
+                    [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+                    [1,2,2,2,2,2,2,2,2,1,1,2,2,2,2,2,2,2,2,1],
+                    [1,3,1,1,2,1,1,1,2,1,1,2,1,1,1,2,1,1,3,1],
+                    [1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1],
+                    [1,2,1,1,2,1,2,1,1,1,1,1,1,2,1,2,1,1,2,1],
+                    [1,2,2,2,2,1,2,2,2,1,1,2,2,2,1,2,2,2,2,1],
+                    [1,1,1,1,2,1,1,1,0,1,1,0,1,1,1,2,1,1,1,1],
+                    [0,0,0,1,2,1,0,0,0,0,0,0,0,0,1,2,1,0,0,0],
+                    [1,1,1,1,2,1,0,1,1,0,0,1,1,0,1,2,1,1,1,1],
+                    [2,2,2,2,2,0,0,1,0,0,0,0,1,0,0,2,2,2,2,2],
+                    [1,1,1,1,2,1,0,1,1,1,1,1,1,0,1,2,1,1,1,1],
+                    [0,0,0,1,2,1,0,0,0,0,0,0,0,0,1,2,1,0,0,0],
+                    [1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1],
+                    [1,2,2,2,2,2,2,2,2,1,1,2,2,2,2,2,2,2,2,1],
+                    [1,2,1,1,2,1,1,1,2,1,1,2,1,1,1,2,1,1,2,1],
+                    [1,3,2,1,2,2,2,2,2,2,2,2,2,2,2,2,1,2,3,1],
+                    [1,1,2,1,2,1,2,1,1,1,1,1,1,2,1,2,1,2,1,1],
+                    [1,2,2,2,2,1,2,2,2,1,1,2,2,2,1,2,2,2,2,1],
+                    [1,2,1,1,1,1,1,1,2,1,1,2,1,1,1,1,1,1,2,1],
+                    [1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1],
+                    [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+                ];
+
+                const map2 = [
+                    [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+                    [1,3,2,2,2,2,2,2,2,1,1,2,2,2,2,2,2,2,3,1],
+                    [1,2,1,1,1,2,1,1,2,1,1,2,1,1,2,1,1,1,2,1],
+                    [1,2,1,1,1,2,1,1,2,1,1,2,1,1,2,1,1,1,2,1],
+                    [1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1],
+                    [1,2,1,1,1,2,1,1,1,1,1,1,1,1,2,1,1,1,2,1],
+                    [1,2,2,2,2,2,1,1,0,1,1,0,1,1,2,2,2,2,2,1],
+                    [1,1,1,1,1,2,0,0,0,0,0,0,0,0,2,1,1,1,1,1],
+                    [0,0,0,0,1,2,0,1,1,0,0,1,1,0,2,1,0,0,0,0],
+                    [1,1,1,1,1,2,0,1,0,0,0,0,1,0,2,1,1,1,1,1],
+                    [0,0,0,0,1,2,0,1,1,1,1,1,1,0,2,1,0,0,0,0],
+                    [1,1,1,1,1,2,0,0,0,0,0,0,0,0,2,1,1,1,1,1],
+                    [1,2,2,2,2,2,1,1,1,1,1,1,1,1,2,2,2,2,2,1],
+                    [1,2,1,1,1,2,2,2,2,1,1,2,2,2,2,1,1,1,2,1],
+                    [1,2,2,2,1,1,1,1,2,1,1,2,1,1,1,1,2,2,2,1],
+                    [1,1,1,2,1,3,2,2,2,2,2,2,2,2,3,1,2,1,1,1],
+                    [1,2,2,2,1,2,1,1,1,1,1,1,1,1,2,1,2,2,2,1],
+                    [1,2,1,1,1,2,2,2,2,1,1,2,2,2,2,1,1,1,2,1],
+                    [1,2,2,2,2,2,1,1,2,1,1,2,1,1,2,2,2,2,2,1],
+                    [1,3,1,1,1,1,1,1,2,2,2,2,1,1,1,1,1,1,3,1],
+                    [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+                ];
+
+                const map3 = [
+                    [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+                    [1,3,2,2,2,1,1,2,2,2,2,2,2,1,1,2,2,2,3,1],
+                    [1,2,1,1,2,1,1,2,1,1,1,1,2,1,1,2,1,1,2,1],
+                    [1,2,1,1,2,2,2,2,2,1,1,2,2,2,2,2,1,1,2,1],
+                    [1,2,2,2,2,1,1,1,2,1,1,2,1,1,1,2,2,2,2,1],
+                    [1,1,1,1,2,1,1,1,0,1,1,0,1,1,1,2,1,1,1,1],
+                    [0,0,0,1,2,1,0,0,0,0,0,0,0,0,1,2,1,0,0,0],
+                    [1,1,1,1,2,1,0,1,1,0,0,1,1,0,1,2,1,1,1,1],
+                    [2,2,2,2,2,0,0,1,0,0,0,0,1,0,0,2,2,2,2,2],
+                    [1,1,1,1,2,1,0,1,1,1,1,1,1,0,1,2,1,1,1,1],
+                    [0,0,0,1,2,1,0,0,0,0,0,0,0,0,1,2,1,0,0,0],
+                    [1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1],
+                    [1,2,2,2,2,2,2,2,2,1,1,2,2,2,2,2,2,2,2,1],
+                    [1,2,1,1,2,1,1,1,2,1,1,2,1,1,1,2,1,1,2,1],
+                    [1,2,2,1,2,2,2,1,2,2,2,2,1,2,2,2,1,2,2,1],
+                    [1,1,2,1,1,1,2,1,1,1,1,1,1,2,1,1,1,2,1,1],
+                    [1,3,2,2,2,2,2,2,2,1,1,2,2,2,2,2,2,2,3,1],
+                    [1,1,2,1,1,1,1,1,2,1,1,2,1,1,1,1,1,2,1,1],
+                    [1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1],
+                    [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+                    [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+                ];
+                
+                this.maps = [map1, map2, map3];
+                this.currentLevelData = null;
+                this.pacman = {
+                    x: 0,
+                    y: 0,
+                    gridX: 0,
+                    gridY: 0,
+                    direction: 'right',
+                    nextDirection: null,
+                    mouthOpen: 0,
+                    mouthDirection: 'open',
+                    speed: 2 // 【修正1】提供正常順滑移動的速度基準
+                };
+                
+                this.ghosts = [];
+                
+                this.score = 0;
+                this.highScore = this.loadHighScore();
+                this.lives = 3;
+                this.level = 1;
+                this.gameOver = false;
+                this.paused = false;
+                this.powerMode = false;
+                this.powerModeTimer = null;
+                
+                document.body.addEventListener('click', () => soundManager.init(), { once: true });
+                
+                this.loadLevel(1);
+                this.init();
+            }
+            
+            loadLevel(level) {
+                this.currentLevel = level;
+                let mapIndex = (level - 1) % this.maps.length;
+                this.currentLevelData = this.maps[mapIndex].map(row => [...row]);
+                
+                switch(level) {
+                    case 1:
+                        this.ghostSpeed = 1.6; 
+                        this.pacmanSpeed = 2.0; 
+                        this.powerModeDuration = 8000;
+                        break;
+                    case 2:
+                        this.ghostSpeed = 1.8; 
+                        this.pacmanSpeed = 2.0;
+                        this.powerModeDuration = 7000;
+                        break;
+                    default:
+                        this.ghostSpeed = 2.0;
+                        this.pacmanSpeed = 2.2;
+                        this.powerModeDuration = 6000;
+                }
+                
+                this.resetPositions();
+            }
+            
+            resetPositions() {
+                this.pacman.gridX = 10; 
+                this.pacman.gridY = 15;
+                this.pacman.x = this.pacman.gridX * this.displayCellSize;
+                this.pacman.y = this.pacman.gridY * this.displayCellSize;
+                this.pacman.direction = 'up';
+                this.pacman.nextDirection = null;
+                this.pacman.speed = this.pacmanSpeed; // 更新速度
+                
+                this.ghosts = [
+                    { gridX: 9, gridY: 8, x: 9 * this.displayCellSize, y: 8 * this.displayCellSize, color: '#ff0000', direction: 'left', speed: this.ghostSpeed, scared: false, type: 'chaser' },
+                    { gridX: 10, gridY: 8, x: 10 * this.displayCellSize, y: 8 * this.displayCellSize, color: '#ffb8ff', direction: 'up', speed: this.ghostSpeed, scared: false, type: 'ambusher' },
+                    { gridX: 9, gridY: 9, x: 9 * this.displayCellSize, y: 9 * this.displayCellSize, color: '#00ffff', direction: 'down', speed: this.ghostSpeed, scared: false, type: 'random' },
+                    { gridX: 10, gridY: 9, x: 10 * this.displayCellSize, y: 9 * this.displayCellSize, color: '#ffb852', direction: 'right', speed: this.ghostSpeed, scared: false, type: 'random' }
+                ];
+            }
+            
+            init() {
+                this.updateHighScore();
+                this.bindEvents();
+                this.gameLoop();
+            }
+            
+            bindEvents() {
+                document.addEventListener('keydown', (e) => {
+                    const levelCompleteModal = document.getElementById('levelCompleteModal');
+                    const gameOverModal = document.getElementById('gameOverModal');
+                    const nameInputModal = document.getElementById('nameInputModal');
+
+                    // 處理各個 Modal 的鍵盤操作 (Enter / Space)
+                    if (levelCompleteModal && levelCompleteModal.style.display === 'flex') {
+                        if (e.key === 'Enter' || e.key === ' ') {
+                            e.preventDefault();
+                            nextLevel();
+                        }
+                        return;
+                    }
+
+                    if (nameInputModal && nameInputModal.style.display === 'flex') {
+                        if (e.key === 'Enter') {
+                            e.preventDefault();
+                            submitName();
+                        }
+                        return;
+                    }
+
+                    if (gameOverModal && gameOverModal.style.display === 'flex') {
+                        if (e.key === 'Enter' || e.key === ' ') {
+                            e.preventDefault();
+                            restartGame();
+                        }
+                        return;
+                    }
+
+                    if (this.gameOver || this.paused) return;
+                    soundManager.init();
+
+                    switch(e.key) {
+                        case 'ArrowUp':
+                            this.pacman.nextDirection = 'up';
+                            e.preventDefault();
+                            break;
+                        case 'ArrowDown':
+                            this.pacman.nextDirection = 'down';
+                            e.preventDefault();
+                            break;
+                        case 'ArrowLeft':
+                            this.pacman.nextDirection = 'left';
+                            e.preventDefault();
+                            break;
+                        case 'ArrowRight':
+                            this.pacman.nextDirection = 'right';
+                            e.preventDefault();
+                            break;
+                    }
+                });
+            }
+            
+            gameLoop() {
+                if (!this.gameOver) {
+                    this.update();
+                    this.render();
+                }
+                requestAnimationFrame(() => this.gameLoop());
+            }
+            
+            update() {
+                if (this.paused) return;
+                
+                this.updatePacman();
+                this.updateGhosts();
+                this.checkCollisions();
+                this.updatePowerMode();
+            }
+            
+            updatePacman() {
+                let centerX = this.pacman.gridX * this.displayCellSize + this.displayCellSize / 2;
+                let centerY = this.pacman.gridY * this.displayCellSize + this.displayCellSize / 2;
+                let pacCenterX = this.pacman.x + this.displayCellSize / 2;
+                let pacCenterY = this.pacman.y + this.displayCellSize / 2;
+                
+                // 當接近網格中心時，觸發狀態與方向判定
+                if (Math.abs(pacCenterX - centerX) < 2 && Math.abs(pacCenterY - centerY) < 2) {
+                    
+                    // 1. 處理意圖轉向 (nextDirection)
+                    if (this.pacman.nextDirection) {
+                        let nextGridX = this.pacman.gridX;
+                        let nextGridY = this.pacman.gridY;
+                        
+                        switch(this.pacman.nextDirection) {
+                            case 'up': nextGridY -= 1; break;
+                            case 'down': nextGridY += 1; break;
+                            case 'left': nextGridX -= 1; break;
+                            case 'right': nextGridX += 1; break;
+                        }
+                        
+                        // 處理隧道循環 (模擬預測)
+                        if (nextGridX < 0) nextGridX = this.currentLevelData[0].length - 1;
+                        if (nextGridX >= this.currentLevelData[0].length) nextGridX = 0;
+                        
+                        // 如果轉向的方向沒有牆，就確認轉向
+                        if (!this.isWall(nextGridX, nextGridY)) {
+                            this.pacman.direction = this.pacman.nextDirection;
+                            this.pacman.nextDirection = null;
+                        }
+                    }
+                    
+                    // 2. 依照確定的當前方向，取得下一格
+                    let nextGridX = this.pacman.gridX;
+                    let nextGridY = this.pacman.gridY;
+                    
+                    switch(this.pacman.direction) {
+                        case 'up': nextGridY -= 1; break;
+                        case 'down': nextGridY += 1; break;
+                        case 'left': nextGridX -= 1; break;
+                        case 'right': nextGridX += 1; break;
+                    }
+                    
+                    // 【修正3】處理穿透隧道時的座標同步 (防止倒退滑行)
+                    if (nextGridX < 0) {
+                        nextGridX = this.currentLevelData[0].length - 1;
+                        this.pacman.x = nextGridX * this.displayCellSize; 
+                    }
+                    else if (nextGridX >= this.currentLevelData[0].length) {
+                        nextGridX = 0;
+                        this.pacman.x = nextGridX * this.displayCellSize; 
+                    }
+                    
+                    if (!this.isWall(nextGridX, nextGridY)) {
+                        this.pacman.gridX = nextGridX;
+                        this.pacman.gridY = nextGridY;
+                        // 【關鍵修復】: 移除了會導致「瞬間移動」的強制定址代碼
+                        // ❌ 刪除 this.pacman.x = this.pacman.gridX * this.displayCellSize;
+                        // ❌ 刪除 this.pacman.y = this.pacman.gridY * this.displayCellSize;
+                        
+                        this.eatDots();
+                    } else {
+                        // 撞到牆，強制停止並對齊網格中心點
+                        this.pacman.x = this.pacman.gridX * this.displayCellSize;
+                        this.pacman.y = this.pacman.gridY * this.displayCellSize;
+                    }
+                } else {
+                    // 平滑移動：讓 speed 機制真正發揮作用
+                    let targetX = this.pacman.gridX * this.displayCellSize;
+                    let targetY = this.pacman.gridY * this.displayCellSize;
+                    
+                    if (this.pacman.direction === 'right' && this.pacman.x < targetX) {
+                        this.pacman.x += this.pacman.speed;
+                    } else if (this.pacman.direction === 'left' && this.pacman.x > targetX) {
+                        this.pacman.x -= this.pacman.speed;
+                    } else if (this.pacman.direction === 'down' && this.pacman.y < targetY) {
+                        this.pacman.y += this.pacman.speed;
+                    } else if (this.pacman.direction === 'up' && this.pacman.y > targetY) {
+                        this.pacman.y -= this.pacman.speed;
+                    }
+                }
+                
+                // 嘴巴動畫保持原樣
+                this.pacman.mouthOpen += 0.2;
+                if (this.pacman.mouthOpen > 0.3 || this.pacman.mouthOpen < 0) {
+                    this.pacman.mouthDirection = this.pacman.mouthDirection === 'open' ? 'close' : 'open';
+                }
+            }
+            
+            updateGhosts() {
+                this.ghosts.forEach(ghost => this.moveGhost(ghost));
+            }
+            
+            moveGhost(ghost) {
+                let centerX = ghost.gridX * this.displayCellSize + this.displayCellSize / 2;
+                let centerY = ghost.gridY * this.displayCellSize + this.displayCellSize / 2;
+                let ghostCenterX = ghost.x + this.displayCellSize / 2;
+                let ghostCenterY = ghost.y + this.displayCellSize / 2;
+                
+                if (Math.abs(ghostCenterX - centerX) < 2 && Math.abs(ghostCenterY - centerY) < 2) {
+                    let directions = ['up', 'down', 'left', 'right'];
+                    let validDirections = [];
+                    
+                    directions.forEach(dir => {
+                        let nextGridX = ghost.gridX;
+                        let nextGridY = ghost.gridY;
+                        
+                        switch(dir) {
+                            case 'up': nextGridY -= 1; break;
+                            case 'down': nextGridY += 1; break;
+                            case 'left': nextGridX -= 1; break;
+                            case 'right': nextGridX += 1; break;
+                        }
+                        
+                        if (nextGridX < 0) nextGridX = this.currentLevelData[0].length - 1;
+                        if (nextGridX >= this.currentLevelData[0].length) nextGridX = 0;
+                        
+                        if (!this.isWall(nextGridX, nextGridY)) {
+                            if (dir !== this.getOppositeDirection(ghost.direction)) {
+                                validDirections.push(dir);
+                            }
+                        }
+                    });
+                    
+                    if (validDirections.length === 0) {
+                        directions.forEach(dir => {
+                            let nextGridX = ghost.gridX;
+                            let nextGridY = ghost.gridY;
+                            switch(dir) {
+                                case 'up': nextGridY -= 1; break;
+                                case 'down': nextGridY += 1; break;
+                                case 'left': nextGridX -= 1; break;
+                                case 'right': nextGridX += 1; break;
+                            }
+                            if (nextGridX < 0) nextGridX = this.currentLevelData[0].length - 1;
+                            if (nextGridX >= this.currentLevelData[0].length) nextGridX = 0;
+                            if (!this.isWall(nextGridX, nextGridY)) {
+                                validDirections.push(dir);
+                            }
+                        });
+                    }
+                    
+                    if (validDirections.length > 0) {
+                        let newDirection;
+                        if (ghost.scared) {
+                            newDirection = validDirections[Math.floor(Math.random() * validDirections.length)];
+                        } else {
+                            switch(ghost.type) {
+                                case 'chaser': newDirection = this.getChaseDirection(ghost, 'chaser', validDirections); break;
+                                case 'ambusher': newDirection = this.getChaseDirection(ghost, 'ambusher', validDirections); break;
+                                case 'random': newDirection = validDirections[Math.floor(Math.random() * validDirections.length)]; break;
+                            }
+                            if (!newDirection || !validDirections.includes(newDirection)) {
+                                newDirection = validDirections[Math.floor(Math.random() * validDirections.length)];
+                            }
+                        }
+                        
+                        let nextGridX = ghost.gridX;
+                        let nextGridY = ghost.gridY;
+                        
+                        switch(newDirection) {
+                            case 'up': nextGridY -= 1; break;
+                            case 'down': nextGridY += 1; break;
+                            case 'left': nextGridX -= 1; break;
+                            case 'right': nextGridX += 1; break;
+                        }
+                        
+                        // 【修正4】修復鬼魂經過隧道時的滑行問題
+                        if (nextGridX < 0) {
+                            nextGridX = this.currentLevelData[0].length - 1;
+                            ghost.x = nextGridX * this.displayCellSize;
+                        }
+                        else if (nextGridX >= this.currentLevelData[0].length) {
+                            nextGridX = 0;
+                            ghost.x = nextGridX * this.displayCellSize;
+                        }
+                        
+                        ghost.gridX = nextGridX;
+                        ghost.gridY = nextGridY;
+                        ghost.direction = newDirection;
+                    }
+                } else {
+                    let targetX = ghost.gridX * this.displayCellSize;
+                    let targetY = ghost.gridY * this.displayCellSize;
+                    
+                    if (ghost.direction === 'right' && ghost.x < targetX) ghost.x += ghost.speed;
+                    else if (ghost.direction === 'left' && ghost.x > targetX) ghost.x -= ghost.speed;
+                    else if (ghost.direction === 'down' && ghost.y < targetY) ghost.y += ghost.speed;
+                    else if (ghost.direction === 'up' && ghost.y > targetY) ghost.y -= ghost.speed;
+                }
+            }
+            
+            getOppositeDirection(direction) {
+                switch(direction) {
+                    case 'up': return 'down';
+                    case 'down': return 'up';
+                    case 'left': return 'right';
+                    case 'right': return 'left';
+                    default: return null;
+                }
+            }
+            
+            getChaseDirection(ghost, type, validDirections) {
+                let targetGridX = this.pacman.gridX;
+                let targetGridY = this.pacman.gridY;
+                
+                if (type === 'ambusher') {
+                    switch(this.pacman.direction) {
+                        case 'up': targetGridY -= 4; break;
+                        case 'down': targetGridY += 4; break;
+                        case 'left': targetGridX -= 4; break;
+                        case 'right': targetGridX += 4; break;
+                    }
+                }
+                
+                let bestDirection = null;
+                let minDistance = Infinity;
+                
+                validDirections.forEach(dir => {
+                    let nextGridX = ghost.gridX;
+                    let nextGridY = ghost.gridY;
+                    
+                    switch(dir) {
+                        case 'up': nextGridY -= 1; break;
+                        case 'down': nextGridY += 1; break;
+                        case 'left': nextGridX -= 1; break;
+                        case 'right': nextGridX += 1; break;
+                    }
+                    
+                    let distance = Math.sqrt(Math.pow(nextGridX - targetGridX, 2) + Math.pow(nextGridY - targetGridY, 2));
+                    if (distance < minDistance) {
+                        minDistance = distance;
+                        bestDirection = dir;
+                    }
+                });
+                return bestDirection;
+            }
+            
+            checkCollisions() {
+                this.ghosts.forEach(ghost => {
+                    let distance = Math.sqrt(Math.pow(this.pacman.x - ghost.x, 2) + Math.pow(this.pacman.y - ghost.y, 2));
+                    
+                    if (distance < this.displayCellSize) {
+                        if (ghost.scared) {
+                            this.eatGhost(ghost);
+                        } else {
+                            this.pacmanDie();
+                        }
+                    }
+                });
+            }
+            
+            eatGhost(ghost) {
+                ghost.gridX = 9;
+                ghost.gridY = 8;
+                ghost.x = 9 * this.displayCellSize;
+                ghost.y = 8 * this.displayCellSize;
+                ghost.scared = false;
+                
+                this.score += 200;
+                this.updateScore();
+                soundManager.playTone('eatGhost');
+            }
+            
+            pacmanDie() {
+                soundManager.playTone('die');
+                this.lives--;
+                this.updateLives();
+                
+                if (this.lives <= 0) {
+                    this.gameOver = true;
+                    this.showGameOver();
+                } else {
+                    this.resetPositions();
+                }
+            }
+            
+            eatDots() {
+                let gridX = this.pacman.gridX;
+                let gridY = this.pacman.gridY;
+                
+                if (gridY >= 0 && gridY < this.currentLevelData.length && 
+                    gridX >= 0 && gridX < this.currentLevelData[0].length) {
+                    
+                    let cellValue = this.currentLevelData[gridY][gridX];
+                    
+                    if (cellValue === 2) {
+                        this.currentLevelData[gridY][gridX] = 0;
+                        this.score += 10;
+                        this.updateScore();
+                        soundManager.playTone('chomp');
+                        this.checkLevelComplete();
+                    } else if (cellValue === 3) {
+                        this.currentLevelData[gridY][gridX] = 0;
+                        this.score += 50;
+                        this.updateScore();
+                        this.activatePowerMode();
+                        soundManager.playTone('power');
+                        this.checkLevelComplete();
+                    }
+                }
+            }
+            
+            checkLevelComplete() {
+                let hasDots = false;
+                for (let y = 0; y < this.currentLevelData.length; y++) {
+                    for (let x = 0; x < this.currentLevelData[0].length; x++) {
+                        if (this.currentLevelData[y][x] === 2 || this.currentLevelData[y][x] === 3) {
+                            hasDots = true;
+                            break;
+                        }
+                    }
+                    if (hasDots) break;
+                }
+                
+                if (!hasDots) {
+                    this.paused = true; // 暫停遊戲迴圈
+                    document.getElementById('levelCompleteModal').style.display = 'flex';
+                    document.getElementById('levelCompleteScore').textContent = `當前得分: ${this.score}`;
+                }
+            }
+            
+            activatePowerMode() {
+                this.powerMode = true;
+                this.ghosts.forEach(ghost => ghost.scared = true);
+                
+                if (this.powerModeTimer) clearTimeout(this.powerModeTimer);
+                
+                this.powerModeTimer = setTimeout(() => {
+                    this.powerMode = false;
+                    this.ghosts.forEach(ghost => ghost.scared = false);
+                }, this.powerModeDuration);
+            }
+            
+            updatePowerMode() {}
+            
+            isWall(gridX, gridY) {
+                if (gridY < 0 || gridY >= this.currentLevelData.length) return true;
+                if (gridX < 0 || gridX >= this.currentLevelData[0].length) return false;
+                return this.currentLevelData[gridY][gridX] === 1;
+            }
+            
+            render() {
+                this.ctx.fillStyle = '#000';
+                this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
+                
+                this.drawMap();
+                this.drawPacman();
+                this.drawGhosts();
+            }
+            
+            drawMap() {
+                for (let y = 0; y < this.currentLevelData.length; y++) {
+                    for (let x = 0; x < this.currentLevelData[0].length; x++) {
+                        let cell = this.currentLevelData[y][x];
+                        let posX = x * this.displayCellSize;
+                        let posY = y * this.displayCellSize;
+                        
+                        if (cell === 1) {
+                            this.ctx.fillStyle = '#0000ff';
+                            this.ctx.fillRect(posX, posY, this.displayCellSize, this.displayCellSize);
+                        } else if (cell === 2) {
+                            this.ctx.fillStyle = '#ffffff';
+                            this.ctx.beginPath();
+                            this.ctx.arc(posX + this.displayCellSize/2, posY + this.displayCellSize/2, 2 * this.scaleFactor, 0, Math.PI * 2);
+                            this.ctx.fill();
+                        } else if (cell === 3) {
+                            this.ctx.fillStyle = '#ffffff';
+                            this.ctx.beginPath();
+                            this.ctx.arc(posX + this.displayCellSize/2, posY + this.displayCellSize/2, 6 * this.scaleFactor, 0, Math.PI * 2);
+                            this.ctx.fill();
+                        }
+                    }
+                }
+            }
+            
+            drawPacman() {
+                let centerX = this.pacman.x + this.displayCellSize/2;
+                let centerY = this.pacman.y + this.displayCellSize/2;
+                let radius = (this.displayCellSize/2 - 2) * this.scaleFactor;
+                
+                this.ctx.fillStyle = '#ffff00';
+                this.ctx.beginPath();
+                
+                let startAngle, endAngle;
+                let mouthSize = 0.2 * Math.PI * Math.abs(Math.sin(this.pacman.mouthOpen));
+                
+                switch(this.pacman.direction) {
+                    case 'right':
+                        startAngle = mouthSize;
+                        endAngle = 2 * Math.PI - mouthSize;
+                        break;
+                    case 'left':
+                        startAngle = Math.PI + mouthSize;
+                        endAngle = Math.PI - mouthSize;
+                        break;
+                    case 'up':
+                        startAngle = 1.5 * Math.PI + mouthSize;
+                        endAngle = 1.5 * Math.PI - mouthSize;
+                        break;
+                    case 'down':
+                        startAngle = 0.5 * Math.PI + mouthSize;
+                        endAngle = 0.5 * Math.PI - mouthSize;
+                        break;
+                }
+                
+                this.ctx.arc(centerX, centerY, radius, startAngle, endAngle);
+                this.ctx.lineTo(centerX, centerY);
+                this.ctx.fill();
+            }
+            
+            drawGhosts() {
+                this.ghosts.forEach(ghost => {
+                    const gCx = ghost.x + this.displayCellSize / 2;
+                    const gCy = ghost.y + this.displayCellSize / 2;
+                    let radius = (this.displayCellSize/2 - 1) * this.scaleFactor;
+                    
+                    this.ctx.fillStyle = ghost.scared ? '#0000ff' : ghost.color;
+                    if (ghost.scared && !this.powerMode) this.ctx.fillStyle = '#fff'; 
+
+                    this.ctx.shadowBlur = 10;
+                    this.ctx.shadowColor = this.ctx.fillStyle;
+                    
+                    this.ctx.beginPath();
+                    this.ctx.arc(gCx, gCy - 2, radius, Math.PI, 0);
+                    this.ctx.lineTo(gCx + radius, gCy + radius);
+                    this.ctx.lineTo(gCx + radius/2, gCy + radius - 5);
+                    this.ctx.lineTo(gCx, gCy + radius);
+                    this.ctx.lineTo(gCx - radius/2, gCy + radius - 5);
+                    this.ctx.lineTo(gCx - radius, gCy + radius);
+                    this.ctx.fill();
+
+                    this.ctx.fillStyle = '#fff';
+                    this.ctx.shadowBlur = 0;
+                    this.ctx.beginPath();
+                    this.ctx.arc(gCx - 6, gCy - 6, 5, 0, Math.PI*2);
+                    this.ctx.arc(gCx + 6, gCy - 6, 5, 0, Math.PI*2);
+                    this.ctx.fill();
+                    
+                    this.ctx.fillStyle = '#0000ff';
+                    this.ctx.beginPath();
+                    
+                    let eyeOffX = 0;
+                    let eyeOffY = 0;
+                    const offset = 2;
+
+                    switch(ghost.direction) {
+                        case 'left': eyeOffX = -offset; break;
+                        case 'right': eyeOffX = offset; break;
+                        case 'up': eyeOffY = -offset; break;
+                        case 'down': eyeOffY = offset; break;
+                    }
+                    
+                    this.ctx.arc(gCx - 6 + eyeOffX, gCy - 6 + eyeOffY, 2.5, 0, Math.PI*2);
+                    this.ctx.arc(gCx + 6 + eyeOffX, gCy - 6 + eyeOffY, 2.5, 0, Math.PI*2);
+                    this.ctx.fill();
+                });
+            }
+            
+            updateScore() {
+                document.getElementById('currentScore').textContent = this.score;
+            }
+            
+            updateHighScore() {
+                document.getElementById('highScore').textContent = this.highScore;
+            }
+            
+            updateLives() {
+                document.getElementById('lives').textContent = this.lives;
+            }
+            
+            updateLevel() {
+                document.getElementById('currentLevel').textContent = this.level;
+            }
+            
+            showGameOver() {
+                document.getElementById('gameOverModal').style.display = 'flex';
+                document.getElementById('finalScore').textContent = `最終得分: ${this.score}`;
+                this.showLeaderboard();
+                
+                if (this.score > this.getFifthPlaceScore()) {
+                    document.getElementById('gameOverModal').style.display = 'none';
+                    document.getElementById('nameInputModal').style.display = 'flex';
+                    // 讓輸入框自動獲得焦點，更方便直接鍵盤輸入
+                    setTimeout(() => document.getElementById('playerName').focus(), 100);
+                }
+            }
+            
+            showLeaderboard(newEntryName = null) {
+                let leaderboard = this.loadLeaderboard();
+                let leaderboardDiv = document.getElementById('leaderboard');
+                
+                leaderboardDiv.innerHTML = `
+                    <div class="lb-header">
+                        <span class="lb-rank">排名</span>
+                        <span class="lb-name">姓名</span>
+                        <span class="lb-score">分數</span>
+                    </div>
+                `;
+                
+                leaderboard.slice(0, 5).forEach((entry, index) => {
+                    let div = document.createElement('div');
+                    div.className = `lb-entry rank-${index + 1}`;
+                    
+                    // 如果是剛輸入的新成績，加上突顯效果
+                    if (entry.name === newEntryName && entry.score === this.score) {
+                        div.classList.add('lb-highlight');
+                    }
+                    
+                    let rankDisplay = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : `#${index + 1}`;
+
+                    div.innerHTML = `
+                        <span class="lb-rank">${rankDisplay}</span> 
+                        <span class="lb-name">${entry.name}</span> 
+                        <span class="lb-score">${entry.score}</span>
+                    `;
+                    leaderboardDiv.appendChild(div);
+                });
+            }
+            
+            getFifthPlaceScore() {
+                let leaderboard = this.loadLeaderboard();
+                if (leaderboard.length < 5) return 0;
+                return leaderboard[4].score;
+            }
+            
+            loadLeaderboard() {
+                let leaderboard = localStorage.getItem('pacmanLeaderboard');
+                if (!leaderboard) return [];
+                try {
+                    return JSON.parse(leaderboard);
+                } catch (e) {
+                    return [];
+                }
+            }
+            
+            saveLeaderboard(leaderboard) {
+                localStorage.setItem('pacmanLeaderboard', JSON.stringify(leaderboard));
+            }
+            
+            loadHighScore() {
+                let highScore = localStorage.getItem('pacmanHighScore');
+                return highScore ? parseInt(highScore) : 0;
+            }
+            
+            saveHighScore(score) {
+                localStorage.setItem('pacmanHighScore', score.toString());
+            }
+            
+            restartGame() {
+                this.score = 0;
+                this.lives = 3;
+                this.level = 1;
+                this.gameOver = false;
+                this.loadLevel(1);
+                this.updateScore();
+                this.updateLives();
+                this.updateLevel();
+                document.getElementById('gameOverModal').style.display = 'none';
+            }
+        }
+
+        let game;
+
+        window.addEventListener('load', () => {
+            game = new PacmanGame();
+        });
+
+        function nextLevel() {
+            if (game) {
+                document.getElementById('levelCompleteModal').style.display = 'none';
+                game.level++;
+                game.loadLevel(game.level);
+                game.updateLevel();
+                game.paused = false; // 恢復遊戲
+            }
+        }
+
+        function restartGame() {
+            if (game) game.restartGame();
+        }
+
+        function submitName() {
+            let playerName = document.getElementById('playerName').value.trim();
+            if (playerName && game) {
+                let leaderboard = game.loadLeaderboard();
+                let existingEntry = leaderboard.find(entry => entry.name === playerName);
+                if (existingEntry) {
+                    if (game.score > existingEntry.score) {
+                        existingEntry.score = game.score;
+                    }
+                } else {
+                    leaderboard.push({
+                        name: playerName,
+                        score: game.score
+                    });
+                }
+                
+                leaderboard.sort((a, b) => b.score - a.score);
+                leaderboard = leaderboard.slice(0, 10);
+                
+                game.saveLeaderboard(leaderboard);
+                
+                if (game.score > game.highScore) {
+                    game.saveHighScore(game.score);
+                    game.updateHighScore();
+                }
+                
+                document.getElementById('nameInputModal').style.display = 'none';
+                document.getElementById('gameOverModal').style.display = 'flex';
+                game.showLeaderboard(playerName);
+            }
+        }
+    </script>
+</body>
+</html>
