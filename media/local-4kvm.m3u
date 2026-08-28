@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/vrSTe060mRIiD3WSF1RMxUwUDgV.jpg" tvg-name="夜王" group-title="2026",夜王
+http://192.168.1.249/4kvm/MOVIE/ch4iieyhn.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/9izltMxWdnbUGPti3zAm51SGjwu.jpg" tvg-name="尋找艾米麗" group-title="2026",尋找艾米麗
 http://192.168.1.249/4kvm/MOVIE/ch4gmzp5d.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/1vhjC7Ra5C6BPeZskeMz0WUmrnr.jpg" tvg-name="玩具總動員5" group-title="2026",玩具總動員5
@@ -1537,6 +1539,8 @@ http://192.168.1.249/4kvm/MOVIE/ch2arwn4m.m3u8
 http://192.168.1.249/4kvm/MOVIE/ch2e3rrpy.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/7bKTOjBDv8o965UWCcIQ85ssyhW.jpg" tvg-name="皮行者" group-title="2019",皮行者
 http://192.168.1.249/4kvm/MOVIE/ch2d7b380.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/rtOfVKu2JCbtzTcrxwF6WSTLr9u.jpg" tvg-name="靈魂擺渡·黃泉" group-title="2018",靈魂擺渡·黃泉
+http://192.168.1.249/4kvm/MOVIE/ch4iner6f.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/laDSc9RJhIf5jIkDg7GBaqovj4r.jpg" tvg-name="紅雀" group-title="2018",紅雀
 http://192.168.1.249/4kvm/MOVIE/ch2yqokk3.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/uy72t6snarRxNdDpfeOqaIwV1Ry.jpg" tvg-name="幻象" group-title="2018",幻象
@@ -2085,6 +2089,8 @@ http://192.168.1.249/4kvm/MOVIE/ch2fa81lg.m3u8
 http://192.168.1.249/4kvm/MOVIE/ch3isd8gh.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/3C9I6seUa0oqsyo9nCPjbuYkHF6.jpg" tvg-name="魔鬼剋星" group-title="2016",魔鬼剋星
 http://192.168.1.249/4kvm/MOVIE/ch41b44rf.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/oNo2gd5uKoTZKr9h78qPICI7NyN.jpg" tvg-name="八惡人" group-title="2015",八惡人
+http://192.168.1.249/4kvm/MOVIE/ch4ieo3z2.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/k39MynEwsh1dvs0OGuoAN6QYc2c.jpg" tvg-name="师父" group-title="2015",师父
 http://192.168.1.249/4kvm/MOVIE/ch06kr5ej.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/IYurEdTaEILfV8kcQAUDMrMr7G.jpg" tvg-name="飢餓遊戲：自由幻夢 終結戰" group-title="2015",飢餓遊戲：自由幻夢 終結戰
@@ -2651,6 +2657,8 @@ http://192.168.1.249/4kvm/MOVIE/ch2dyrz16.m3u8
 http://192.168.1.249/4kvm/MOVIE/ch1rf6yok.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/gJXsxs3hAvrWMpgf4bOAoYa3b27.jpg" tvg-name="親愛的" group-title="2008",親愛的
 http://192.168.1.249/4kvm/MOVIE/ch2bzlv6b.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/jqZrHEsaoKdnwPJHwVmQrnehVUA.jpg" tvg-name="投名狀" group-title="2007",投名狀
+http://192.168.1.249/4kvm/MOVIE/ch4ionpcm.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/3wMjxbmCejNDCff9WA0TgCALsc1.jpg" tvg-name="黑金企業" group-title="2007",黑金企業
 http://192.168.1.249/4kvm/MOVIE/ch473mnmc.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/B2a5vjUKeerfX3oqERx3T7U32W.jpg" tvg-name="贖罪" group-title="2007",贖罪
@@ -2837,6 +2845,8 @@ http://192.168.1.249/4kvm/MOVIE/ch1lqfac8.m3u8
 http://192.168.1.249/4kvm/MOVIE/ch1rnxlwd.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/bzKQHuKvkuD4Mm0k3TPup5hv9DL.jpg" tvg-name="哈利波特：消失的密室" group-title="2002",哈利波特：消失的密室
 http://192.168.1.249/4kvm/MOVIE/ch1j3j578.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/uabD9uIrEuvaF9EJmxoutsc6M1O.jpg" tvg-name="性感野獸" group-title="2001",性感野獸
+http://192.168.1.249/4kvm/MOVIE/ch4ifx259.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/gR5YWv3aJCOn9XLVKOxkfeQwyqF.jpg" tvg-name="殺手阿一" group-title="2001",殺手阿一
 http://192.168.1.249/4kvm/MOVIE/ch4idf5sv.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/iRzEndtF52MBwjPsnNreyHTgU8L.jpg" tvg-name="缺席的男人" group-title="2001",缺席的男人

@@ -411,6 +411,8 @@ http://192.168.1.249:5053/movie/vod84265-000000M001.m3u8
 http://192.168.1.249:5053/movie/vod84693-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/84448-000000-733402.jpg" tvg-name="青蛇緣起" group-title="2025",青蛇緣起
 http://192.168.1.249:5053/movie/vod84448-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/84691-000000-734345.jpg" tvg-name="亂世棄兵" group-title="2025",亂世棄兵
+http://192.168.1.249:5053/movie/vod84691-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/74681-000000-642724.jpg" tvg-name="看到靈魂的那隻眼 師公" group-title="2024",看到靈魂的那隻眼 師公
 http://192.168.1.249:5053/movie/vod74681-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/74682-000000-642725.jpg" tvg-name="間諜交鋒" group-title="2024",間諜交鋒
@@ -1019,6 +1021,12 @@ http://192.168.1.249:5053/movie/vod84796-000000M001.m3u8
 http://192.168.1.249:5053/movie/vod84795-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/80529-000000-695721.jpg" tvg-name="宮﨑駿的奇幻世界" group-title="2024",宮﨑駿的奇幻世界
 http://192.168.1.249:5053/movie/vod80529-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/84678-000000-734461.jpg" tvg-name="荒原狼" group-title="2024",荒原狼
+http://192.168.1.249:5053/movie/vod84678-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/80530-000000-695722.jpg" tvg-name="為我辦一場西式的喪禮" group-title="2024",為我辦一場西式的喪禮
+http://192.168.1.249:5053/movie/vod80530-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/84690-000000-734346.jpg" tvg-name="VR復仇實境" group-title="2024",VR復仇實境
+http://192.168.1.249:5053/movie/vod84690-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/71684-000000-618266.jpg" tvg-name="拯救嫌疑人" group-title="2023",拯救嫌疑人
 http://192.168.1.249:5053/movie/vod71684-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/62350-000000-546665.jpg" tvg-name="天堂幻影" group-title="2023",天堂幻影
@@ -1641,6 +1649,10 @@ http://192.168.1.249:5053/movie/vod84499-000000M001.m3u8
 http://192.168.1.249:5053/movie/vod73387-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/84447-000000-733403.jpg" tvg-name="黄金诡事录" group-title="2023",黄金诡事录
 http://192.168.1.249:5053/movie/vod84447-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/84799-000000-735527.jpg" tvg-name="長安三萬里" group-title="2023",長安三萬里
+http://192.168.1.249:5053/movie/vod84799-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/84507-000000-733056.jpg" tvg-name="闇之祭" group-title="2023",闇之祭
+http://192.168.1.249:5053/movie/vod84507-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/66961-000000-581652.jpg" tvg-name="槍神趙子龍" group-title="2022",槍神趙子龍
 http://192.168.1.249:5053/movie/vod66961-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/66959-000000-581914.jpg" tvg-name="七剑降魔传" group-title="2022",七剑降魔传
@@ -3017,6 +3029,10 @@ http://192.168.1.249:5053/movie/vod84263-000000M001.m3u8
 http://192.168.1.249:5053/movie/vod44471-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/45022-000000-403675.jpg" tvg-name="奪命守門人" group-title="2020",奪命守門人
 http://192.168.1.249:5053/movie/vod45022-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/49588-000000-449443.jpg" tvg-name="喬瑟與虎與魚群動畫版" group-title="2020",喬瑟與虎與魚群動畫版
+http://192.168.1.249:5053/movie/vod49588-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/84682-000000-734457.jpg" tvg-name="驚天神偷團" group-title="2020",驚天神偷團
+http://192.168.1.249:5053/movie/vod84682-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/41513-000000-328356.jpg" tvg-name="返校" group-title="2019",返校
 http://192.168.1.249:5053/movie/vod41513-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/75101-000000-647693.jpg" tvg-name="霍家拳之精武英雄" group-title="2019",霍家拳之精武英雄
@@ -3603,6 +3619,8 @@ http://192.168.1.249:5053/movie/vod83963-000000M001.m3u8
 http://192.168.1.249:5053/movie/vod42381-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/84680-000000-734459.jpg" tvg-name="我的便利貼情人" group-title="2019",我的便利貼情人
 http://192.168.1.249:5053/movie/vod84680-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/81534-000000-702890.jpg" tvg-name="進擊的狗狗" group-title="2019",進擊的狗狗
+http://192.168.1.249:5053/movie/vod81534-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/71062-000000-612147.jpg" tvg-name="古墓獸影" group-title="2018",古墓獸影
 http://192.168.1.249:5053/movie/vod71062-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/40277-000000-307224.jpg" tvg-name="人生消極掰" group-title="2018",人生消極掰
@@ -4905,6 +4923,8 @@ http://192.168.1.249:5053/movie/vod73086-000000M001.m3u8
 http://192.168.1.249:5053/movie/vod82260-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/9327-000000-031679.jpg" tvg-name="厄夜迷踪" group-title="2014",厄夜迷踪
 http://192.168.1.249:5053/movie/vod9327-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/9553-000000-031442.jpg" tvg-name="辛白林：誘惑獵痕" group-title="2014",辛白林：誘惑獵痕
+http://192.168.1.249:5053/movie/vod9553-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/9310-000000-469059.jpg" tvg-name="再見溪谷" group-title="2013",再見溪谷
 http://192.168.1.249:5053/movie/vod9310-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/9045-000000-025783.jpg" tvg-name="末日列車" group-title="2013",末日列車
