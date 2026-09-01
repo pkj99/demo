@@ -1027,6 +1027,10 @@ http://192.168.1.249:5053/movie/vod84678-000000M001.m3u8
 http://192.168.1.249:5053/movie/vod80530-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/84690-000000-734346.jpg" tvg-name="VR復仇實境" group-title="2024",VR復仇實境
 http://192.168.1.249:5053/movie/vod84690-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/80533-000000-695725.jpg" tvg-name="長椅小情歌" group-title="2024",長椅小情歌
+http://192.168.1.249:5053/movie/vod80533-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/84846-000000-737134.jpg" tvg-name="精武少年" group-title="2024",精武少年
+http://192.168.1.249:5053/movie/vod84846-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/71684-000000-618266.jpg" tvg-name="拯救嫌疑人" group-title="2023",拯救嫌疑人
 http://192.168.1.249:5053/movie/vod71684-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/62350-000000-546665.jpg" tvg-name="天堂幻影" group-title="2023",天堂幻影

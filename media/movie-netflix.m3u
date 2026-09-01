@@ -1,4 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/nPoEHrPHmzSsiFyu4aeyi9neE3I.jpg" tvg-name="她的秘密人生" group-title="2026",她的秘密人生
+https://play.phimgood.com/20260829/30703_86113dc5/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hKoPZgUwahXD9p8CnqK93HT8wg4.jpg" tvg-name="耳語人" group-title="2026",耳語人
+https://play.phimgood.com/20260829/30705_d42f6190/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/iwCeOpuBtuTP1kLosqgniey5OvX.jpg" tvg-name="夜巡毒梟" group-title="2026",夜巡毒梟
 https://play.phimgood.com/20260822/30438_29524de1/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/vKMQlsutWlEFt3yK9mPlaMWnwF7.jpg" tvg-name="失焦命案：被遺忘的女童" group-title="2026",失焦命案：被遺忘的女童
