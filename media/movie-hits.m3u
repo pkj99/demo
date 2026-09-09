@@ -1,6 +1,12 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2QTgXM76o36hFssiXLrezcmmwWT.jpg" tvg-name="礙的迫降" group-title="2026",礙的迫降
+https://play.phimgood.com/20260904/30879_2aa40209/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hKoPZgUwahXD9p8CnqK93HT8wg4.jpg" tvg-name="耳語人" group-title="2026",耳語人
+https://play.phimgood.com/20260829/30705_d42f6190/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/iwCeOpuBtuTP1kLosqgniey5OvX.jpg" tvg-name="夜巡毒梟" group-title="2026",夜巡毒梟
 https://play.phimgood.com/20260822/30438_29524de1/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/xONOMna5Z102bw0jMPBM4H73B9m.jpg" tvg-name="威利狼大戰阿卡米公司" group-title="2026",威利狼大戰阿卡米公司
+https://vip.dytt-network.com/20260831/39121_d3ee4b88/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/qedJqBUK645xfXBwTJpKj4tdCb1.jpg" tvg-name="玩命航線" group-title="2026",玩命航線
 https://play.phimgood.com/20260820/30306_e3423656/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9c5MdgpbHsGHFWrI5mglUDgo8o5.jpg" tvg-name="最後孤屋" group-title="2026",最後孤屋
