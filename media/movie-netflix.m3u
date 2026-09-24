@@ -1,4 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5W6eRCUywdVOSswhmkwi2et1Amk.jpg" tvg-name="愛慾四重奏3" group-title="2026",愛慾四重奏3
+https://play.phimgood.com/20260919/31425_d79f7940/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gflpW1CDJjX2qG48E9uadNGkOip.jpg" tvg-name="最佳舞伴" group-title="2026",最佳舞伴
+https://play.phimgood.com/20260919/31426_69b72154/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/nPoEHrPHmzSsiFyu4aeyi9neE3I.jpg" tvg-name="她的秘密人生" group-title="2026",她的秘密人生
 https://play.phimgood.com/20260829/30703_86113dc5/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hKoPZgUwahXD9p8CnqK93HT8wg4.jpg" tvg-name="耳語人" group-title="2026",耳語人
@@ -2009,6 +2013,8 @@ https://yzzy.play-cdn7.com/20220930/20720_7a0915d1/index.m3u8
 https://vip.dytt-luck.com/20250805/15242_3721e4fa/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9rnoQFrmdBwqAAEWvmBWY2tGNFs.jpg" tvg-name="紅色情深" group-title="1994",紅色情深
 https://yzzy.play-cdn7.com/20220713/5019_9bed581b/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gNscrLaRH0xqIMQX4ur2dIlq3Zq.jpg" tvg-name="犧牲" group-title="1986",犧牲
+https://vip.ffzy-play10.com/20260821/70684_110f3b83/index.m3u8
 #EXTINF:-1 tvg-logo="https://vip.dytt-img.com/upload/vod/20250510-1/5560bc0047513a28a84cc9bbf8eaa675.jpg" tvg-name="怒火" group-title="1973",怒火
 https://vip.dytt-live.com/20250510/6183_c14a2a57/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1qz3qUOHnVy7dL7M7G8jSErxE4b.jpg" tvg-name="蝴蝶夢" group-title="1940",蝴蝶夢
