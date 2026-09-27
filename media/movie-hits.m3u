@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lRgnTOCqunKJoDdKjGyEpuVogDm.jpg" tvg-name="假戀愛真心動" group-title="2026",假戀愛真心動
+https://play.phimgood.com/20260924/31578_8c8c3978/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lVXZnG5oCJNsQlThZUgUg7EJPHU.jpg" tvg-name="惡靈古堡：爆發夜" group-title="2026",惡靈古堡：爆發夜
 https://vip.dytt-network.com/20260921/39826_735b3580/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/noGrxxPWZsWcJ19kRsEEawfFnEl.jpg" tvg-name="撥亂行動" group-title="2026",撥亂行動
@@ -444,7 +446,7 @@ https://vip.dytt-hot.com/20250211/59522_8d723043/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1a4VU9z2hxEvugHMK7VsobB9xTX.jpg" tvg-name="大象" group-title="2003",大象
 https://vip.dytt-tv.com/20250905/38019_6fb5805e/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/nwYnlNBb8qmcyujxDQrM3fDapzX.jpg" tvg-name="鬼擋路" group-title="2003",鬼擋路
-https://vip.dytt-kan.com/20251002/7173_162d1815/index.m3u8
+https://vip.dytt-see.com/20260923/44009_5b2aad03/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/exr5xYRHbj200Y3SxMDGfcT6zla.jpg" tvg-name="Darkness" group-title="2002",Darkness
 https://vip.dytt-cinema.com/20251017/37581_be1c8444/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4BApOzZUP24DHznRvnJnRsXQVJ4.jpg" tvg-name="限制級戰警" group-title="2002",限制級戰警

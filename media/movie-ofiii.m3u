@@ -113,6 +113,8 @@ http://192.168.1.249:5053/drama/vod85500-000012M001.m3u8
 http://192.168.1.249:5053/drama/vod85553-000012M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/86021-000000-749702.jpg" tvg-name="长生契" group-title="2026",长生契
 http://192.168.1.249:5053/drama/vod86021-000001M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/86021-000000-749702.jpg" tvg-name="長生契" group-title="2026",長生契
+http://192.168.1.249:5053/drama/vod86021-000003M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/76555-000000-658484.jpg" tvg-name="佔有姜西" group-title="2025",佔有姜西
 http://192.168.1.249:5053/drama/vod76555-000001M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/76398-000000-657622.jpg" tvg-name="180天重啟計劃" group-title="2025",180天重啟計劃
@@ -3083,6 +3085,8 @@ http://192.168.1.249:5053/movie/vod84682-000000M001.m3u8
 http://192.168.1.249:5053/movie/vod52148-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/84692-000000-734344.jpg" tvg-name="染血黑錢" group-title="2020",染血黑錢
 http://192.168.1.249:5053/movie/vod84692-000000M001.m3u8
+#EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/44442-000000-391418.jpg" tvg-name="特務搞飛機" group-title="2020",特務搞飛機
+http://192.168.1.249:5053/movie/vod44442-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/41513-000000-328356.jpg" tvg-name="返校" group-title="2019",返校
 http://192.168.1.249:5053/movie/vod41513-000000M001.m3u8
 #EXTINF:-1 tvg-logo="https://p-cdnstatic.svc.litv.tv/pics/75101-000000-647693.jpg" tvg-name="霍家拳之精武英雄" group-title="2019",霍家拳之精武英雄
