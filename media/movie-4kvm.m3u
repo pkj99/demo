@@ -1,4 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/pZ5jt77v1c48Uq4FQuTGlSWYu7C.jpg" tvg-name="大學炸彈客" group-title="2026",大學炸彈客
+http://192.168.1.249/4kvm/MOVIE/ch4mphtea.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/azv0T4WEDjaaRe7ZeiegUEsKMHs.jpg" tvg-name="一個部門的誕生" group-title="2026",一個部門的誕生
+http://192.168.1.249/4kvm/MOVIE/ch4mqqrkh.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/2QTgXM76o36hFssiXLrezcmmwWT.jpg" tvg-name="礙的迫降" group-title="2026",礙的迫降
 http://192.168.1.249/4kvm/MOVIE/ch4jyutqp.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/cyzcsp95W2Op3G5Gb8S2cPEnSc2.jpg" tvg-name="特立独行" group-title="2026",特立独行
@@ -1289,6 +1293,8 @@ http://192.168.1.249/4kvm/MOVIE/ch3j63od2.m3u8
 http://192.168.1.249/4kvm/MOVIE/ch2utlb10.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/naulW3iS8s8WiXmZeLowIoqgxjL.jpg" tvg-name="驅魔師的門徒" group-title="2020",驅魔師的門徒
 http://192.168.1.249/4kvm/MOVIE/ch3uuvklx.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/i7sOh7g5cKpl16V1fXd6rNDVTiy.jpg" tvg-name="完美搭檔" group-title="2019",完美搭檔
+http://192.168.1.249/4kvm/MOVIE/ch4m6rksx.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/bLlMOaUk89xkFfqcam0d19FUilf.jpg" tvg-name="從前，有個好萊塢" group-title="2019",從前，有個好萊塢
 http://192.168.1.249/4kvm/MOVIE/ch4hbyom5.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/f5x5g6ShpLgj3mfRmZSlCIsK8Vo.jpg" tvg-name="燈塔" group-title="2019",燈塔
@@ -1793,6 +1799,8 @@ http://192.168.1.249/4kvm/MOVIE/ch3b1xjww.m3u8
 http://192.168.1.249/4kvm/MOVIE/cgzouq32y.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/3isyx0mgWHGYGYhPQl4PQRGsHAs.jpg" tvg-name="どうしようもない恋の唄" group-title="2018",どうしようもない恋の唄
 http://192.168.1.249/4kvm/MOVIE/ch1tlurkl.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/ntsyazWKclgwObVftWVVAEBcvRq.jpg" tvg-name="見習修女" group-title="2017",見習修女
+http://192.168.1.249/4kvm/MOVIE/ch4m80iz4.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/i7lhHL8puIpgxtxBhFj8mKVeB9k.jpg" tvg-name="羞羞的铁拳" group-title="2017",羞羞的铁拳
 http://192.168.1.249/4kvm/MOVIE/ch4ku2k2g.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/407W3bpva8phUZVwR8PFKZUnguZ.jpg" tvg-name="逃出絕命鎮" group-title="2017",逃出絕命鎮
@@ -2113,6 +2121,8 @@ http://192.168.1.249/4kvm/MOVIE/ch2fa81lg.m3u8
 http://192.168.1.249/4kvm/MOVIE/ch3isd8gh.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/3C9I6seUa0oqsyo9nCPjbuYkHF6.jpg" tvg-name="魔鬼剋星" group-title="2016",魔鬼剋星
 http://192.168.1.249/4kvm/MOVIE/ch41b44rf.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/yUW3QiPGx1quA8AXTWu18P0xiOx.jpg" tvg-name="我的少女時代" group-title="2015",我的少女時代
+http://192.168.1.249/4kvm/MOVIE/ch4m99h5r.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/b67l9BGar21hIR2TTUPvSEO68Cn.jpg" tvg-name="走鋼索的人" group-title="2015",走鋼索的人
 http://192.168.1.249/4kvm/MOVIE/ch4k1cq3j.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/oNo2gd5uKoTZKr9h78qPICI7NyN.jpg" tvg-name="八惡人" group-title="2015",八惡人
@@ -2211,6 +2221,8 @@ http://192.168.1.249/4kvm/MOVIE/ch3gy6xau.m3u8
 http://192.168.1.249/4kvm/MOVIE/ch331i9zr.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/1mzatpEVIHpYKI6A05pRMsDYwXX.jpg" tvg-name="聖母峰" group-title="2015",聖母峰
 http://192.168.1.249/4kvm/MOVIE/ch3z876dz.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/30wBFyQI1HctmAa3srZP8N0QUBQ.jpg" tvg-name="神劍闖江湖3：傳說的最終篇" group-title="2014",神劍闖江湖3：傳說的最終篇
+http://192.168.1.249/4kvm/MOVIE/ch4maifby.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/55GzVkmOP4GPHa38vrD6QWTDAWy.jpg" tvg-name="超時空攔截" group-title="2014",超時空攔截
 http://192.168.1.249/4kvm/MOVIE/ch4lpaae7.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/6rOGF3d7pgCp6lD7AL0yTpq1u3Q.jpg" tvg-name="神劍闖江湖2︰京都大火篇" group-title="2014",神劍闖江湖2︰京都大火篇
@@ -2825,6 +2837,8 @@ http://192.168.1.249/4kvm/MOVIE/ch3nqwz6a.m3u8
 http://192.168.1.249/4kvm/MOVIE/ch3ess2l0.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/5I2pRuJI3SZVsxP5iaorGaczzkI.jpg" tvg-name="兩隻老虎" group-title="2004",兩隻老虎
 http://192.168.1.249/4kvm/MOVIE/ch2fu78d0.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/sTTY7AcsQF1go0HFbPG0XPbrFst.jpg" tvg-name="咒怨2" group-title="2003",咒怨2
+http://192.168.1.249/4kvm/MOVIE/ch4md0boc.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/1lQBDz6g3jvcBeE0Nk3efxfEiXx.jpg" tvg-name="盲劍俠" group-title="2003",盲劍俠
 http://192.168.1.249/4kvm/MOVIE/ch4jimhi6.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/zsMZ11zStQ05g68qXNMSRBoBCxy.jpg" tvg-name="追殺比爾" group-title="2003",追殺比爾
@@ -2851,6 +2865,8 @@ http://192.168.1.249/4kvm/MOVIE/ch2l6heze.m3u8
 http://192.168.1.249/4kvm/MOVIE/ch232pwr8.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/uomqRqnDtYQoLt2n9yO5KI00zgL.jpg" tvg-name="愛情不用翻譯" group-title="2003",愛情不用翻譯
 http://192.168.1.249/4kvm/MOVIE/ch023op3w.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/fXmo4r0iXBk6kOl8h0GRkMgR9ML.jpg" tvg-name="咒怨" group-title="2002",咒怨
+http://192.168.1.249/4kvm/MOVIE/ch4mbrdi5.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/lGfaMxcdYaHNEVPQf3ocHPJvFUW.jpg" tvg-name="無法無天" group-title="2002",無法無天
 http://192.168.1.249/4kvm/MOVIE/ch4lrs6ql.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/tkgBvQLxlIALtgjJmDdSwfEGyUD.jpg" tvg-name="星艦奇航記10：星戰啟示錄" group-title="2002",星艦奇航記10：星戰啟示錄
