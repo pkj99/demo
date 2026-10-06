@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/cpgLuRAT8SW7YiZaBYUGZ43GiLL.jpg" tvg-name="仙逆剧场版：弑仙之战" group-title="2026",仙逆剧场版：弑仙之战
+http://192.168.1.249/4kvm/MOVIE/ch4mwzifw.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/pZ5jt77v1c48Uq4FQuTGlSWYu7C.jpg" tvg-name="大學炸彈客" group-title="2026",大學炸彈客
 http://192.168.1.249/4kvm/MOVIE/ch4mphtea.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/azv0T4WEDjaaRe7ZeiegUEsKMHs.jpg" tvg-name="一個部門的誕生" group-title="2026",一個部門的誕生
@@ -665,6 +667,8 @@ http://192.168.1.249/4kvm/MOVIE/ch0coi7tn.m3u8
 http://192.168.1.249/4kvm/MOVIE/ch04t2qla.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/vVoAcY26pgYqs0MjJQ06ynyKHwt.jpg" tvg-name="別擔心親愛的" group-title="2022",別擔心親愛的
 http://192.168.1.249/4kvm/MOVIE/ch1qmh4pn.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/1CMDjGG8UBLkZPcUneugG96w1P.jpg" tvg-name="銀河騎士傳 織愛之星" group-title="2021",銀河騎士傳 織愛之星
+http://192.168.1.249/4kvm/MOVIE/ch4n881zn.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/5l6k0Z9tYddXW9327V2jZrfWG00.jpg" tvg-name="希望鳥" group-title="2021",希望鳥
 http://192.168.1.249/4kvm/MOVIE/ch37tt9ul.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/zLO2uXFvic6tDQCvNFpZbJNCJGN.jpg" tvg-name="媽媽的神奇小子" group-title="2021",媽媽的神奇小子
