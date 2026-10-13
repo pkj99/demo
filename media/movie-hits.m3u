@@ -1,4 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1IwZW1Qk3hwdEVZtn7Er9oe9Jrb.jpg" tvg-name="人性本獸" group-title="2026",人性本獸
+https://play.phimgood.com/20261011/32389_81361e46/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2pDMnUmn9DE1DmuqF8HrNad6W6f.jpg" tvg-name="Matchbox 電影" group-title="2026",Matchbox 電影
+https://play.phimgood.com/20261011/32394_99d86f4e/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/pZ5jt77v1c48Uq4FQuTGlSWYu7C.jpg" tvg-name="大學炸彈客" group-title="2026",大學炸彈客
 https://play.phimgood.com/20260925/31654_26079c27/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lRgnTOCqunKJoDdKjGyEpuVogDm.jpg" tvg-name="假戀愛真心動" group-title="2026",假戀愛真心動
@@ -332,7 +336,7 @@ https://vip.dytt-see.com/20251115/6053_4e55139e/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gcWFleGQ0ZTDkXFRX6Pho8CrkOX.jpg" tvg-name="險鱷禁地" group-title="2024",險鱷禁地
 https://vip.dytt-cine.com/20251121/62455_3187cdf5/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/wHmzCQwBzT6m8wtZdXHOIITn82B.jpg" tvg-name="夜間狩獵" group-title="2024",夜間狩獵
-https://vip.dytt-kan.com/20251223/11623_4abe8aa8/index.m3u8
+https://play.phimgood.com/20261005/32142_17250557/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/grIFQLXXwQmjvYYfXVXCgGTMUWw.jpg" tvg-name="Rita" group-title="2024",Rita
 https://vip.dytt-kan.com/20250929/6949_f3be5eb7/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/rh9RQXZ1zCucxcr7wP5wNoKdsj.jpg" tvg-name="哥吉拉-1.0" group-title="2023",哥吉拉-1.0
