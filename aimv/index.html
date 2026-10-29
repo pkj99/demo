@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI MV 創作畫廊 - 奇幻音樂與科技的交響曲</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Noto Sans TC & Outfits -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        warm: {
+                            50: '#FFFDF9',
+                            100: '#FFF7ED',
+                            200: '#FFEDD5',
+                            300: '#FDBA74',
+                            400: '#FB923C',
+                            500: '#F97316',
+                            600: '#EA580C',
+                            700: '#C2410C',
+                            800: '#9A3412',
+                            900: '#7C2D12',
+                        },
+                        cozy: {
+                            bg: '#FAF6F0',
+                            card: '#FFFFFF',
+                            accent: '#E76F51',
+                            secondary: '#F4A261',
+                            gold: '#E9C46A',
+                            text: '#4A3E3D',
+                            subtext: '#8C7A78'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Noto Sans TC', 'Outfit', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'warm-sm': '0 4px 14px 0 rgba(244, 162, 97, 0.15)',
+                        'warm-lg': '0 10px 30px -5px rgba(231, 111, 81, 0.2)',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body {
+            background-color: #FAF6F0;
+            color: #4A3E3D;
+            font-family: 'Noto Sans TC', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        /* 柔和微光漸層背景 */
+        .warm-gradient-bg {
+            background: linear-gradient(135deg, #FFF7ED 0%, #FAF6F0 50%, #FFEDD5 100%);
+        }
+
+        .card-hover {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 28px -4px rgba(231, 111, 81, 0.22);
+        }
+
+        /* 脈動撥放按鈕動畫 */
+        @keyframes pulse-warm {
+            0% { box-shadow: 0 0 0 0 rgba(231, 111, 81, 0.6); }
+            70% { box-shadow: 0 0 0 15px rgba(231, 111, 81, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(231, 111, 81, 0); }
+        }
+
+        .play-btn-pulse {
+            animation: pulse-warm 2s infinite;
+        }
+
+        /* 自訂滾動條 */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #FAF6F0;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #F4A261;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #E76F51;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-cozy-accent selection:text-white">
+
+    <!-- 頂部導覽列 -->
+    <header class="sticky top-0 z-40 bg-cozy-bg/90 backdrop-blur-md border-b border-warm-200/60 transition-all duration-300">
+        <div class="max-w-6xl mx-mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between mx-auto">
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cozy-accent to-cozy-gold flex items-center justify-center text-white shadow-warm-sm group-hover:scale-105 transition-transform">
+                    <i class="fa-solid font-bold fa-compact-disc text-xl animate-spin-slow"></i>
+                </div>
+                <div>
+                    <span class="font-extrabold text-lg sm:text-xl tracking-tight text-cozy-text block leading-none">AI MV Gallery</span>
+                    <span class="text-xs text-cozy-subtext font-light tracking-wide">生成式音樂影片作品集</span>
+                </div>
+            </a>
+
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-cozy-text">
+                <a href="#process" class="hover:text-cozy-accent transition-colors flex items-center gap-1.5">
+                    <i class="fa-solid fa-wand-magic-sparkles text-cozy-secondary"></i> 製作流程
+                </a>
+                <a href="#gallery" class="hover:text-cozy-accent transition-colors flex items-center gap-1.5">
+                    <i class="fa-solid fa-film text-cozy-secondary"></i> 作品展示
+                </a>
+            </nav>
+
+            <a href="#gallery" class="bg-gradient-to-r from-cozy-accent to-cozy-secondary text-white px-4 py-2 rounded-full text-xs sm:text-sm font-medium shadow-warm-sm hover:opacity-95 transition-all flex items-center gap-2">
+                <i class="fa-solid fa-play text-xs"></i> 立即賞析
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero 主視覺區塊 -->
+    <section class="relative pt-12 pb-16 md:pt-20 md:pb-24 overflow-hidden warm-gradient-bg">
+        <div class="absolute -top-24 -left-24 w-96 h-96 bg-cozy-gold/20 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute top-1/2 -right-24 w-96 h-96 bg-cozy-accent/15 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center relative z-10">
+            <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-medium bg-warm-200/60 text-cozy-accent border border-warm-300/50 mb-6">
+                <i class="fa-solid fa-heart text-cozy-accent"></i> 溫馨暖色系 AI 影音實踐展示
+            </span>
+            <h1 class="text-3xl sm:text-5xl md:text-6xl font-extrabold text-cozy-text leading-tight mb-6 tracking-tight">
+                當人工智慧遇上音樂<br class="hidden sm:inline"/>
+                編織<span class="bg-clip-text text-transparent bg-gradient-to-r from-cozy-accent via-cozy-secondary to-cozy-gold">溫暖動人</span>的視覺樂章
+            </h1>
+            <p class="text-cozy-subtext text-base sm:text-lg max-w-2xl mx-auto mb-8 font-normal leading-relaxed">
+                結合頂尖 AI 圖像繪製、聲音重構與精準對口技術，將絕妙的音樂靈魂轉化為如夢似幻的動態畫面。
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#gallery" class="w-full sm:w-auto px-8 py-3.5 rounded-2xl bg-cozy-accent text-white font-medium shadow-warm-lg hover:bg-cozy-accent/90 transition-all flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-circle-play"></i> 觀看 6 首作品展示
+                </a>
+                <a href="#process" class="w-full sm:w-auto px-8 py-3.5 rounded-2xl bg-white text-cozy-text border border-warm-200 shadow-sm hover:bg-warm-50 transition-all flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-lightbulb text-cozy-gold"></i> 了解製作步驟
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 步驟說明區塊 (AI製作說明) -->
+    <section id="process" class="py-16 md:py-24 bg-white relative">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <h2 class="text-xs font-bold tracking-widest text-cozy-accent uppercase mb-2">Workflow Process</h2>
+                <h3 class="text-2xl sm:text-3xl font-extrabold text-cozy-text">AI 音樂錄影帶製作三大步驟</h3>
+                <div class="w-12 h-1 bg-gradient-to-r from-cozy-accent to-cozy-gold mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <!-- 3 步驟卡片網格 -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+                <!-- 橫向連接線 (僅限桌面端) -->
+                <div class="hidden md:block absolute top-1/2 left-1/6 right-1/6 h-0.5 bg-gradient-to-r from-warm-200 via-cozy-gold to-warm-200 -translate-y-8 z-0"></div>
+
+                <!-- 步驟 1 -->
+                <div class="relative z-10 bg-cozy-bg rounded-3xl p-7 border border-warm-200/80 shadow-sm flex flex-col items-center text-center group hover:bg-warm-50 transition-all">
+                    <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-amber-400 to-cozy-gold text-white flex items-center justify-center text-2xl shadow-warm-sm mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-image"></i>
+                    </div>
+                    <span class="px-3 py-1 bg-warm-200 text-cozy-accent rounded-full text-xs font-bold mb-3">步驟一 (T2I)</span>
+                    <h4 class="text-xl font-bold text-cozy-text mb-3">場景畫面生成</h4>
+                    <p class="text-cozy-subtext text-sm leading-relaxed">
+                        運用 <span class="font-semibold text-cozy-text">Text-to-Image (T2I)</span> 繪圖模型，根據歌詞意境與音樂節奏生成高畫質且視覺一致的藝術場景與角色圖像。
+                    </p>
+                </div>
+
+                <!-- 步驟 2 -->
+                <div class="relative z-10 bg-cozy-bg rounded-3xl p-7 border border-warm-200/80 shadow-sm flex flex-col items-center text-center group hover:bg-warm-50 transition-all">
+                    <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-cozy-secondary to-cozy-accent text-white flex items-center justify-center text-2xl shadow-warm-sm mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-microphone-lines"></i>
+                    </div>
+                    <span class="px-3 py-1 bg-warm-200 text-cozy-accent rounded-full text-xs font-bold mb-3">步驟二 (RVC)</span>
+                    <h4 class="text-xl font-bold text-cozy-text mb-3">語音模型轉換</h4>
+                    <p class="text-cozy-subtext text-sm leading-relaxed">
+                        透過 <span class="font-semibold text-cozy-text">Retrieval-based Voice Conversion (RVC)</span> 技術，精準替換或優化演唱音色，打造極具特色與感染力的歌曲人聲。
+                    </p>
+                </div>
+
+                <!-- 步驟 3 -->
+                <div class="relative z-10 bg-cozy-bg rounded-3xl p-7 border border-warm-200/80 shadow-sm flex flex-col items-center text-center group hover:bg-warm-50 transition-all">
+                    <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-cozy-accent to-warm-800 text-white flex items-center justify-center text-2xl shadow-warm-sm mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-face-smile-beam"></i>
+                    </div>
+                    <span class="px-3 py-1 bg-warm-200 text-cozy-accent rounded-full text-xs font-bold mb-3">步驟三 (S2V)</span>
+                    <h4 class="text-xl font-bold text-cozy-text mb-3">人聲對口驅動</h4>
+                    <p class="text-cozy-subtext text-sm leading-relaxed">
+                        使用 <span class="font-semibold text-cozy-text">Speech/Audio-to-Video (S2V)</span> AI 動畫技術，將語音與生成圖片結合，達成高同步率的自然唇形與面部表情動畫。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MV 作品列表 (YouTube 影片網格) -->
+    <section id="gallery" class="py-16 md:py-24 warm-gradient-bg border-t border-warm-200/60">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                <div>
+                    <h2 class="text-xs font-bold tracking-widest text-cozy-accent uppercase mb-2">Showcase</h2>
+                    <h3 class="text-2xl sm:text-3xl font-extrabold text-cozy-text">精選 AI MV 展演</h3>
+                </div>
+                <p class="text-cozy-subtext text-sm mt-2 md:mt-0">點擊卡片即可立即播放 YouTube 音樂錄影帶</p>
+            </div>
+
+            <!-- 6 個影片卡片網格 -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8" id="videoGrid">
+                <!-- 由 JavaScript 自動渲染 6 個影片卡片 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁尾 Footer -->
+    <footer class="bg-cozy-text text-warm-100 py-10 border-t border-warm-900">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left flex flex-col sm:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-lg bg-cozy-accent flex items-center justify-center text-white text-sm">
+                    <i class="fa-solid fa-compact-disc"></i>
+                </div>
+                <span class="font-bold text-lg tracking-tight">AI MV Gallery</span>
+            </div>
+            <p class="text-xs text-warm-300">
+                &copy; 2026 AI Music Video Demo. Powered by PKJ Studio
+            </p>
+        </div>
+    </footer>
+
+    <!-- 影片播放 Modal (Lightbox Player) -->
+    <div id="videoModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md opacity-0 pointer-events-none transition-opacity duration-300">
+        <div class="relative w-full max-w-4xl bg-black rounded-3xl overflow-hidden shadow-2xl border border-warm-500/20 transform scale-95 transition-transform duration-300" id="modalContainer">
+            
+            <!-- 關閉按鈕 -->
+            <button id="closeModalBtn" aria-label="關閉影片" class="absolute top-4 right-4 z-20 w-10 h-10 rounded-full bg-black/60 text-white hover:bg-cozy-accent flex items-center justify-center transition-colors border border-white/20">
+                <i class="fa-solid fa-xmark text-lg"></i>
+            </button>
+
+            <!-- 影片 Ratios 響應式容器 (16:9) -->
+            <div class="relative pt-[56.25%] w-full bg-black">
+                <iframe id="youtubeIframe" class="absolute top-0 left-0 w-full h-full" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <!-- Modal 底部資訊 -->
+            <div class="p-5 bg-cozy-text text-white flex justify-between items-center">
+                <div>
+                    <h4 id="modalTitle" class="font-bold text-base sm:text-lg">AI 音樂錄影帶作品</h4>
+                    <p class="text-xs text-warm-300 mt-1">使用 T2I + RVC + S2V 完整製作</p>
+                </div>
+                <span class="px-3 py-1 rounded-full text-xs bg-cozy-accent/30 text-cozy-gold border border-cozy-gold/30">
+                    <i class="fa-brands fa-youtube mr-1"></i> HD
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript 邏輯 -->
+    <script>
+        // 6 部 YouTube AI MV 影片資料
+        const videos = [
+            { id: "PE9EidvB7G4", title: "吻別", tag: "AI", desc: "細緻風格圖像結合靈魂嗓音" },
+            { id: "Y5akbfSf2I8", title: "忘情水", tag: "AI", desc: "柔潤視覺調性與順暢動態對口" },
+            { id: "MjylLzTkcak", title: "特別的愛給特別的你", tag: "AI", desc: "溫馨畫風沉浸式場景演繹" },
+            { id: "OF1h-ukFT8M", title: "背叛", tag: "AI", desc: "現代音樂創作與多變場面切換" },
+            { id: "rWJjTPH2sk0", title: "痴心絕對", tag: "AI", desc: "古典氣息與細膩語音轉換" },
+            { id: "nXVOv2i1O98", title: "男人KTV", tag: "AI", desc: "極致療癒美學與擬真眼神表情" }
+        ];
+
+        const videoGrid = document.getElementById('videoGrid');
+        const videoModal = document.getElementById('videoModal');
+        const modalContainer = document.getElementById('modalContainer');
+        const youtubeIframe = document.getElementById('youtubeIframe');
+        const closeModalBtn = document.getElementById('closeModalBtn');
+        const modalTitle = document.getElementById('modalTitle');
+
+        // 動態生成 6 個影片卡片
+        function renderVideos() {
+            videoGrid.innerHTML = videos.map((video, index) => {
+                // 使用 YouTube 官方 HQ 縮圖
+                const thumbUrl = `https://img.youtube.com/vi/${video.id}/hqdefault.jpg`;
+                
+                return `
+                    <div class="bg-cozy-card rounded-3xl overflow-hidden border border-warm-200/80 shadow-warm-sm card-hover flex flex-col group cursor-pointer"
+                         onclick="openVideoModal('${video.id}', '${video.title}')">
+                        
+                        <!-- 縮圖區塊 -->
+                        <div class="relative aspect-video overflow-hidden bg-warm-100">
+                            <img src="${thumbUrl}" 
+                                 alt="${video.title}" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                 onerror="this.src='https://placehold.co/600x337/F4A261/FFFFFF?text=AI+MV+Demo+${index+1}'" />
+                            
+                            <!-- 漸層遮罩 -->
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent opacity-60 group-hover:opacity-40 transition-opacity"></div>
+                            
+                            <!-- 播放按鈕圖示 -->
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-14 h-14 rounded-full bg-cozy-accent/90 text-white flex items-center justify-center text-xl shadow-lg play-btn-pulse group-hover:scale-110 transition-transform">
+                                    <i class="fa-solid fa-play ml-1"></i>
+                                </div>
+                            </div>
+
+                            <!-- 標籤 -->
+                            <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-semibold bg-white/90 text-cozy-accent backdrop-blur-md shadow-sm">
+                                ${video.tag}
+                            </span>
+                        </div>
+
+                        <!-- 內文說明 -->
+                        <div class="p-5 flex-1 flex flex-col justify-between bg-white">
+                            <div>
+                                <h4 class="font-bold text-lg text-cozy-text group-hover:text-cozy-accent transition-colors mb-1">
+                                    ${video.title}
+                                </h4>
+                                <!--
+								<p class="text-xs text-cozy-subtext line-clamp-2 leading-relaxed">
+                                    ${video.desc}
+                                </p>
+								-->
+                            </div>
+							
+							<!--
+                            <div class="mt-4 pt-3 border-t border-warm-100 flex items-center justify-between text-xs text-cozy-subtext">
+                                <span class="flex items-center gap-1.5 text-cozy-accent font-medium">
+                                    <i class="fa-solid fa-play-circle"></i> 點擊播放 MV
+                                </span>
+                                <span class="text-warm-400 font-mono">ID: ${video.id}</span>
+                            </div>
+							-->
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // 開啟 Modal 影片播放
+        function openVideoModal(videoId, title) {
+            youtubeIframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+            modalTitle.innerText = title;
+            
+            videoModal.classList.remove('opacity-0', 'pointer-events-none');
+            modalContainer.classList.remove('scale-95');
+            modalContainer.classList.add('scale-100');
+            
+            // 禁止背景滾動
+            document.body.style.overflow = 'hidden';
+        }
+
+        // 關閉 Modal
+        function closeVideoModal() {
+            youtubeIframe.src = '';
+            
+            videoModal.classList.add('opacity-0', 'pointer-events-none');
+            modalContainer.classList.remove('scale-100');
+            modalContainer.classList.add('scale-95');
+            
+            // 恢復背景滾動
+            document.body.style.overflow = 'auto';
+        }
+
+        // 事件監聽
+        closeModalBtn.addEventListener('click', closeVideoModal);
+        
+        // 點擊 Modal 背景關閉
+        videoModal.addEventListener('click', (e) => {
+            if (e.target === videoModal) {
+                closeVideoModal();
+            }
+        });
+
+        // 按 ESC 鍵關閉
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && !videoModal.classList.contains('opacity-0')) {
+                closeVideoModal();
+            }
+        });
+
+        // 頁面初始化
+        window.addEventListener('DOMContentLoaded', () => {
+            renderVideos();
+        });
+    </script>
+</body>
+</html>
