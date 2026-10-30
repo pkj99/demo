@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>語音對答資料庫助手（含 Fuse.js 模糊比對）</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Fuse.js 模糊搜尋庫 -->
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+    <style>
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+        }
+
+        @keyframes pulse-ring {
+            0% { transform: scale(0.95); opacity: 0.8; }
+            50% { transform: scale(1.15); opacity: 0.4; }
+            100% { transform: scale(0.95); opacity: 0.8; }
+        }
+
+        .pulse-active {
+            animation: pulse-ring 2s infinite ease-in-out;
+        }
+
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1e293b;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #475569;
+            border-radius: 4px;
+        }
+
+        .wave-bar {
+            display: inline-block;
+            width: 4px;
+            height: 16px;
+            border-radius: 2px;
+            background-color: #38bdf8;
+            animation: wave 1.2s infinite ease-in-out;
+        }
+        .wave-bar:nth-child(2) { animation-delay: 0.2s; }
+        .wave-bar:nth-child(3) { animation-delay: 0.4s; }
+        .wave-bar:nth-child(4) { animation-delay: 0.6s; }
+
+        @keyframes wave {
+            0%, 100% { height: 8px; }
+            50% { height: 16px; }
+        }
+    </style>
+</head>
+<body class="h-screen flex flex-col overflow-hidden bg-slate-900">
+
+    <!-- Top Navigation Header -->
+    <header class="bg-slate-800/80 backdrop-blur border-b border-slate-700/60 px-6 py-4 flex justify-between items-center z-10">
+        <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-500 to-cyan-400 flex items-center justify-center text-white shadow-lg shadow-indigo-500/30">
+                <i class="fa-solid font-bold fa-robot text-xl"></i>
+            </div>
+            <div>
+                <h1 class="text-lg font-bold text-slate-100 flex items-center gap-2">
+                    語音助手
+                    <span class="text-xs font-normal px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">v2.0 (Fuse.js)</span>
+                </h1>
+                <p class="text-xs text-slate-400">支援手機端與同音異字模糊比對</p>
+            </div>
+        </div>
+
+        <div class="flex items-center gap-3">
+            <button id="btn-open-db" class="px-3.5 py-2 rounded-lg bg-slate-700 hover:bg-slate-600 text-slate-200 text-sm font-medium transition flex items-center gap-2 border border-slate-600">
+                <i class="fa-solid fa-database text-indigo-400"></i> <!-- 管理資料庫 -->
+            </button>
+            <button id="btn-settings" class="p-2 rounded-lg bg-slate-700 hover:bg-slate-600 text-slate-300 transition border border-slate-600">
+                <i class="fa-solid fa-gear"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="flex-1 flex flex-col md:flex-row overflow-hidden relative">
+
+        <!-- Left Column: Voice Controller & Context Dashboard -->
+        <section class="w-full md:w-5/12 lg:w-1/3 bg-slate-800/40 border-r border-slate-700/50 p-6 flex flex-col justify-between items-center gap-6 overflow-y-auto">
+            
+            <!-- Voice State Visualization Indicator -->
+            <div class="w-full flex flex-col items-center justify-center pt-2">
+                <div class="relative flex items-center justify-center">
+                    <div id="pulse-ring" class="absolute w-40 h-40 rounded-full bg-indigo-500/20 hidden"></div>
+                    <button id="btn-mic" class="relative z-10 w-28 h-28 rounded-full bg-gradient-to-br from-indigo-600 to-slate-800 border-4 border-indigo-400/30 flex flex-col items-center justify-center text-white shadow-2xl transition-all hover:scale-105 active:scale-95 group focus:outline-none">
+                        <i id="mic-icon" class="fa-solid fa-microphone text-3xl mb-1 text-slate-300 group-hover:text-white transition"></i>
+                        <span id="mic-status-text" class="text-xs font-medium text-slate-300">點擊開始語音</span>
+                    </button>
+                </div>
+
+                <!-- Status Badge -->
+                <div class="mt-4 flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-800 border border-slate-700 shadow-inner">
+                    <span id="status-dot" class="w-2.5 h-2.5 rounded-full bg-slate-500"></span>
+                    <span id="status-label" class="text-xs text-slate-300 font-medium">系統就緒 (Idle)</span>
+                    <div id="tts-wave" class="hidden flex items-center gap-1 ml-2">
+                        <span class="wave-bar"></span>
+                        <span class="wave-bar"></span>
+                        <span class="wave-bar"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Active Context Card (With Photo support) -->
+            <div class="w-full bg-slate-800/90 border border-slate-700/80 rounded-2xl p-5 shadow-lg relative overflow-hidden">
+                <div class="absolute -right-6 -bottom-6 w-24 h-24 bg-indigo-500/10 rounded-full blur-xl pointer-events-none"></div>
+                <div class="flex items-center justify-between mb-3 border-b border-slate-700/60 pb-2">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-indigo-400 flex items-center gap-1.5">
+                        <i class="fa-solid fa-user-tag"></i> 當前查詢對象 (Context)
+                    </span>
+                    <button id="btn-clear-context" class="text-xs text-slate-400 hover:text-rose-400 transition" title="重設">
+                        <i class="fa-solid fa-arrows-rotate"></i> 重設
+                    </button>
+                </div>
+
+                <div id="context-empty" class="text-center py-6 text-slate-500 text-sm">
+                    <i class="fa-regular fa-id-card text-3xl mb-2 block opacity-50"></i>
+                    尚未鎖定對象。<br>請說出姓名（例如：「小明」、「曉明」）
+                </div>
+
+                <div id="context-card" class="hidden space-y-3">
+                    <div class="flex items-center gap-3">
+                        <div id="ctx-avatar-container" class="w-12 h-12 rounded-xl bg-indigo-600/30 border border-indigo-500/40 flex items-center justify-center text-indigo-300 text-xl font-bold overflow-hidden shrink-0">
+                            <span id="ctx-avatar-text">明</span>
+                            <img id="ctx-avatar-img" src="" alt="頭像" class="w-full h-full object-cover hidden">
+                        </div>
+                        <div>
+                            <div class="text-lg font-bold text-white flex items-center gap-2" id="ctx-name">小明</div>
+                            <div class="text-xs text-slate-400">綽號：<span class="text-indigo-300 font-medium" id="ctx-nickname">阿明</span></div>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-2 pt-2 border-t border-slate-700/50 text-xs">
+                        <div class="bg-slate-900/60 p-2.5 rounded-lg border border-slate-700/40">
+                            <span class="text-slate-400 block mb-0.5"><i class="fa-solid fa-apple-whole text-rose-400 mr-1"></i> 喜愛水果</span>
+                            <span class="text-slate-200 font-medium" id="ctx-fruit">蘋果</span>
+                        </div>
+                        <div class="bg-slate-900/60 p-2.5 rounded-lg border border-slate-700/40">
+                            <span class="text-slate-400 block mb-0.5"><i class="fa-solid fa-heart text-amber-400 mr-1"></i> 興趣喜好</span>
+                            <span class="text-slate-200 font-medium truncate block" id="ctx-interests">籃球 / 看書</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Speech Instructions Quick Guide -->
+			<!--
+            <div class="w-full bg-slate-800/40 border border-slate-700/40 rounded-xl p-3.5 text-xs text-slate-400 space-y-1.5">
+                <div class="font-semibold text-slate-300 flex items-center gap-1.5">
+                    <i class="fa-regular fa-lightbulb text-amber-400"></i> 模糊比對提示：
+                </div>
+                <p class="text-slate-400 leading-relaxed">
+                    系統已啟用 <code class="text-indigo-300 bg-slate-900 px-1 py-0.5 rounded">Fuse.js</code> 模糊搜尋，即使語音辨識出現同音異字（如「曉明」對應「小明」），也能自動正確配對。
+                </p>
+            </div>
+			-->
+        </section>
+
+        <!-- Right Column: Interactive Chat Log -->
+        <section class="flex-1 flex flex-col bg-slate-900 p-6 overflow-hidden">
+            <div class="flex items-center justify-between mb-4">
+                <h2 class="text-sm font-semibold text-slate-300 flex items-center gap-2">
+                    <i class="fa-solid fa-comments text-indigo-400"></i> 對話交流紀錄 (Dialogue Log)
+                </h2>
+                <button id="btn-clear-chat" class="text-xs text-slate-400 hover:text-slate-200 px-2 py-1 rounded bg-slate-800 border border-slate-700 transition">
+                    <i class="fa-solid fa-trash-can mr-1"></i> 清除對話
+                </button>
+            </div>
+
+            <!-- Chat History Area -->
+            <div id="chat-container" class="flex-1 overflow-y-auto space-y-4 pr-2">
+                <div class="flex gap-3">
+                    <div class="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center text-white text-xs shrink-0 mt-1">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <div class="bg-slate-800 border border-slate-700/80 rounded-2xl rounded-tl-none p-3.5 max-w-xl text-slate-200 text-sm shadow-sm">
+                        您好！我是您的語音資料庫助手（已升級模糊比對）。請點擊麥克風開始對話，或直接輸入名字查詢。
+                    </div>
+                </div>
+            </div>
+
+            <!-- Manual Text Trigger -->
+            <div class="mt-4 pt-3 border-t border-slate-800 flex gap-2">
+                <input id="text-input" type="text" placeholder="手動輸入指令或問題（例如：曉明 水果）..." class="flex-1 bg-slate-800 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-slate-200 focus:outline-none focus:border-indigo-500 transition">
+                <button id="btn-text-send" class="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-medium text-sm rounded-xl transition flex items-center gap-2">
+                    <span>傳送</span>
+                    <i class="fa-solid fa-paper-plane text-xs"></i>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal: Database Management Modal -->
+    <div id="modal-db" class="fixed inset-0 bg-slate-950/70 backdrop-blur-sm z-50 flex items-center justify-center hidden opacity-0 transition-opacity duration-200">
+        <div class="bg-slate-800 border border-slate-700 rounded-2xl w-full max-w-2xl mx-4 overflow-hidden shadow-2xl flex flex-col max-h-[85vh]">
+            <div class="px-6 py-4 border-b border-slate-700 flex justify-between items-center bg-slate-800/80">
+                <h3 class="font-bold text-slate-100 flex items-center gap-2">
+                    <i class="fa-solid fa-database text-indigo-400"></i> 人員資料庫管理 (含照片)
+                </h3>
+                <button class="close-modal text-slate-400 hover:text-white transition text-lg"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+
+            <div class="p-6 overflow-y-auto flex-1 space-y-6">
+                <!-- Add / Edit Form -->
+                <form id="form-db-entry" class="bg-slate-900/60 border border-slate-700/60 rounded-xl p-4 space-y-4">
+                    <div class="text-xs font-semibold text-indigo-400 uppercase tracking-wider mb-2">新增或編輯資料</div>
+                    <input type="hidden" id="edit-id" value="">
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <div>
+                            <label class="block text-xs font-medium text-slate-300 mb-1">姓名 *</label>
+                            <input id="input-name" type="text" required placeholder="如：小明" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-1.5 text-sm text-slate-200 focus:outline-none focus:border-indigo-500">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-medium text-slate-300 mb-1">綽號 *</label>
+                            <input id="input-nickname" type="text" required placeholder="如：阿明" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-1.5 text-sm text-slate-200 focus:outline-none focus:border-indigo-500">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-medium text-slate-300 mb-1">喜歡的水果</label>
+                            <input id="input-fruit" type="text" placeholder="如：蘋果" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-1.5 text-sm text-slate-200 focus:outline-none focus:border-indigo-500">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-medium text-slate-300 mb-1">興趣與喜好</label>
+                            <input id="input-interests" type="text" placeholder="如：籃球 / 看書" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-1.5 text-sm text-slate-200 focus:outline-none focus:border-indigo-500">
+                        </div>
+                        <div class="sm:col-span-2">
+                            <label class="block text-xs font-medium text-slate-300 mb-1">大頭貼照片 (上傳檔案或輸入圖片網址)</label>
+                            <div class="flex gap-2">
+                                <input id="input-photo" type="text" placeholder="https://... 或上傳圖片" class="flex-1 bg-slate-800 border border-slate-700 rounded-lg px-3 py-1.5 text-sm text-slate-200 focus:outline-none focus:border-indigo-500">
+                                <input type="file" id="input-file" accept="image/*" class="hidden">
+                                <button type="button" onclick="document.getElementById('input-file').click()" class="px-3 py-1.5 bg-slate-700 hover:bg-slate-600 text-slate-200 text-xs rounded-lg transition border border-slate-600">
+                                    <i class="fa-solid fa-upload mr-1"></i> 選擇檔案
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-end gap-2 pt-1">
+                        <button type="button" id="btn-reset-form" class="px-3 py-1.5 text-xs text-slate-400 hover:text-white transition">重設表單</button>
+                        <button type="submit" class="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-medium rounded-lg transition">儲存資料</button>
+                    </div>
+                </form>
+
+                <!-- Data Table -->
+                <div class="border border-slate-700/60 rounded-xl overflow-hidden">
+                    <table class="w-full text-left text-sm text-slate-300">
+                        <thead class="bg-slate-900/80 text-xs text-slate-400 uppercase border-b border-slate-700/60">
+                            <tr>
+                                <th class="px-4 py-2.5">照片</th>
+                                <th class="px-4 py-2.5">姓名</th>
+                                <th class="px-4 py-2.5">綽號</th>
+                                <th class="px-4 py-2.5">喜歡水果</th>
+                                <th class="px-4 py-2.5 text-right">操作</th>
+                            </tr>
+                        </thead>
+                        <tbody id="db-table-body" class="divide-y divide-slate-700/40 bg-slate-800/40"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Settings Modal -->
+    <div id="modal-settings" class="fixed inset-0 bg-slate-950/70 backdrop-blur-sm z-50 flex items-center justify-center hidden opacity-0 transition-opacity duration-200">
+        <div class="bg-slate-800 border border-slate-700 rounded-2xl w-full max-w-md mx-4 overflow-hidden shadow-2xl">
+            <div class="px-6 py-4 border-b border-slate-700 flex justify-between items-center bg-slate-800/80">
+                <h3 class="font-bold text-slate-100 flex items-center gap-2">
+                    <i class="fa-solid fa-sliders text-indigo-400"></i> 語音朗讀設定 (TTS)
+                </h3>
+                <button class="close-modal text-slate-400 hover:text-white transition text-lg"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+
+            <div class="p-6 space-y-5">
+                <div>
+                    <label class="block text-xs font-medium text-slate-300 mb-1">語音引擎 (Voice)</label>
+                    <select id="select-voice" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-200 focus:outline-none focus:border-indigo-500"></select>
+                </div>
+                <div>
+                    <div class="flex justify-between text-xs font-medium text-slate-300 mb-1">
+                        <span>語速 (Rate)</span>
+                        <span id="rate-val" class="text-indigo-400">1.0</span>
+                    </div>
+                    <input id="range-rate" type="range" min="0.5" max="1.5" step="0.1" value="1.0" class="w-full accent-indigo-500 bg-slate-700 rounded-lg">
+                </div>
+                <div>
+                    <div class="flex justify-between text-xs font-medium text-slate-300 mb-1">
+                        <span>音高 (Pitch)</span>
+                        <span id="pitch-val" class="text-indigo-400">1.0</span>
+                    </div>
+                    <input id="range-pitch" type="range" min="0.5" max="1.5" step="0.1" value="1.0" class="w-full accent-indigo-500 bg-slate-700 rounded-lg">
+                </div>
+                <button id="btn-test-speech" class="w-full py-2 bg-slate-700 hover:bg-slate-600 text-slate-200 rounded-lg text-xs font-medium transition border border-slate-600 flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-volume-high"></i> 測試語音輸出
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Application Script -->
+    <script>
+        let database = [
+            { 
+                id: 1, 
+                name: "小明", 
+                nickname: "阿明", 
+                fruit: "蘋果", 
+                interests: "籃球、閱讀",
+                photo: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=200&auto=format&fit=crop&q=80"
+            },
+            { 
+                id: 2, 
+                name: "小華", 
+                nickname: "華華", 
+                fruit: "芒果", 
+                interests: "繪畫、唱歌",
+                photo: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80"
+            },
+            { 
+                id: 3, 
+                name: "老王", 
+                nickname: "王總", 
+                fruit: "西瓜", 
+                interests: "釣魚、程式設計",
+                photo: "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=200&auto=format&fit=crop&q=80"
+            },
+            { 
+                id: 4, 
+                name: "阿美", 
+                nickname: "美美", 
+                fruit: "草莓", 
+                interests: "瑜伽、烹飪",
+                photo: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&auto=format&fit=crop&q=80"
+            },
+            { 
+                id: 5, 
+                name: "康惠明", 
+                nickname: "老烏龜", 
+                fruit: "水蜜桃", 
+                interests: "程式設計、唱歌",
+                photo: "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=200&auto=format&fit=crop&q=80"
+            },
+            { 
+                id: 6, 
+                name: "黃仁勳", 
+                nickname: "Jason", 
+                fruit: "芒果", 
+                interests: "程式設計、唱歌",
+                photo: "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=200&auto=format&fit=crop&q=80"
+            }
+		];
+
+        let activePerson = null;
+        let isListening = false;
+        let recognition = null;
+        let synth = window.speechSynthesis;
+        let voices = [];
+        let fuse = null;
+
+        // 初始化 Fuse.js 模糊搜尋實例
+        function initFuse() {
+            const options = {
+                keys: ['name', 'nickname'],
+                includeScore: true,
+                threshold: 0.4 // 數值越小越嚴格，0.4 完美支援同音字與輕微辨識誤差
+            };
+            fuse = new Fuse(database, options);
+        }
+
+        const btnMic = document.getElementById('btn-mic');
+        const micIcon = document.getElementById('mic-icon');
+        const micStatusText = document.getElementById('mic-status-text');
+        const pulseRing = document.getElementById('pulse-ring');
+        const statusDot = document.getElementById('status-dot');
+        const statusLabel = document.getElementById('status-label');
+        const ttsWave = document.getElementById('tts-wave');
+
+        const contextEmpty = document.getElementById('context-empty');
+        const contextCard = document.getElementById('context-card');
+        const ctxAvatarContainer = document.getElementById('ctx-avatar-container');
+        const ctxAvatarText = document.getElementById('ctx-avatar-text');
+        const ctxAvatarImg = document.getElementById('ctx-avatar-img');
+        const ctxName = document.getElementById('ctx-name');
+        const ctxNickname = document.getElementById('ctx-nickname');
+        const ctxFruit = document.getElementById('ctx-fruit');
+        const ctxInterests = document.getElementById('ctx-interests');
+
+        const chatContainer = document.getElementById('chat-container');
+        const textInput = document.getElementById('text-input');
+        const btnTextSend = document.getElementById('btn-text-send');
+
+        const selectVoice = document.getElementById('select-voice');
+        const rangeRate = document.getElementById('range-rate');
+        const rangePitch = document.getElementById('range-pitch');
+        const rateVal = document.getElementById('rate-val');
+        const pitchVal = document.getElementById('pitch-val');
+
+        window.onload = () => {
+            initFuse();
+            initSpeechRecognition();
+            initSpeechSynthesis();
+            renderDbTable();
+            setupEventListeners();
+        };
+
+        function initSpeechRecognition() {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            if (!SpeechRecognition) {
+                appendChatMessage("system", "警告：此瀏覽器不支援語音辨識 API。");
+                btnMic.disabled = true;
+                return;
+            }
+
+            recognition = new SpeechRecognition();
+            recognition.continuous = true;
+            recognition.interimResults = false;
+            recognition.lang = 'zh-TW';
+
+            recognition.onstart = () => { isListening = true; updateMicUI('listening'); };
+            recognition.onresult = (event) => {
+                const current = event.resultIndex;
+                const transcript = event.results[current][0].transcript.trim();
+                if (transcript) processUserInput(transcript);
+            };
+            recognition.onerror = () => { updateMicUI('idle'); };
+            recognition.onend = () => {
+                if (isListening) {
+                    try { recognition.start(); } catch (e) { updateMicUI('idle'); }
+                } else {
+                    updateMicUI('idle');
+                }
+            };
+        }
+
+        function toggleListening() {
+            if (!recognition) return;
+            if (isListening) {
+                isListening = false;
+                recognition.stop();
+                updateMicUI('idle');
+            } else {
+                try { recognition.start(); } catch(e) { console.error(e); }
+            }
+        }
+
+        function updateMicUI(state) {
+            if (state === 'listening') {
+                pulseRing.classList.remove('hidden');
+                pulseRing.classList.add('pulse-active');
+                btnMic.className = "relative z-10 w-28 h-28 rounded-full bg-gradient-to-br from-rose-500 to-red-700 border-4 border-rose-400/30 flex flex-col items-center justify-center text-white shadow-2xl transition-all group focus:outline-none";
+                micIcon.className = "fa-solid fa-microphone text-3xl mb-1 text-white animate-bounce";
+                micStatusText.innerText = "聆聽中...";
+                statusDot.className = "w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping";
+                statusLabel.innerText = "正在聆聽語音...";
+            } else if (state === 'speaking') {
+                pulseRing.classList.add('hidden');
+                pulseRing.classList.remove('pulse-active');
+                ttsWave.classList.remove('hidden');
+                statusDot.className = "w-2.5 h-2.5 rounded-full bg-cyan-400";
+                statusLabel.innerText = "語音回答中...";
+            } else {
+                isListening = false;
+                pulseRing.classList.add('hidden');
+                pulseRing.classList.remove('pulse-active');
+                ttsWave.classList.add('hidden');
+                btnMic.className = "relative z-10 w-28 h-28 rounded-full bg-gradient-to-br from-indigo-600 to-slate-800 border-4 border-indigo-400/30 flex flex-col items-center justify-center text-white shadow-2xl transition-all hover:scale-105 active:scale-95 group focus:outline-none";
+                micIcon.className = "fa-solid fa-microphone text-3xl mb-1 text-slate-300 group-hover:text-white transition";
+                micStatusText.innerText = "點擊開始語音";
+                statusDot.className = "w-2.5 h-2.5 rounded-full bg-slate-500";
+                statusLabel.innerText = "系統就緒 (Idle)";
+            }
+        }
+
+        function initSpeechSynthesis() {
+            if (!('speechSynthesis' in window)) return;
+            const populateVoices = () => {
+                voices = synth.getVoices().filter(v => v.lang.includes('zh') || v.lang.includes('CN') || v.lang.includes('TW'));
+                selectVoice.innerHTML = '';
+                if (voices.length === 0) voices = synth.getVoices();
+                voices.forEach((voice, i) => {
+                    const option = document.createElement('option');
+                    option.value = i;
+                    option.textContent = `${voice.name} (${voice.lang})`;
+                    if (voice.lang === 'zh-TW' || voice.default) option.selected = true;
+                    selectVoice.appendChild(option);
+                });
+            };
+            populateVoices();
+            if (speechSynthesis.onvoiceschanged !== undefined) speechSynthesis.onvoiceschanged = populateVoices;
+        }
+
+        function speakText(text, callback) {
+            if (!('speechSynthesis' in window)) { if (callback) callback(); return; }
+            synth.cancel();
+            const utterance = new SpeechSynthesisUtterance(text);
+            if (voices[selectVoice.value]) utterance.voice = voices[selectVoice.value];
+            utterance.rate = parseFloat(rangeRate.value);
+            utterance.pitch = parseFloat(rangePitch.value);
+
+            utterance.onstart = () => updateMicUI('speaking');
+            utterance.onend = () => {
+                updateMicUI(isListening ? 'listening' : 'idle');
+                if (callback) callback();
+            };
+            utterance.onerror = () => {
+                updateMicUI(isListening ? 'listening' : 'idle');
+                if (callback) callback();
+            };
+            synth.speak(utterance);
+        }
+
+        // 核心對話與 Fuse.js 模糊比對引擎
+        function processUserInput(rawText) {
+            const input = rawText.trim();
+            if (!input) return;
+
+            appendChatMessage("user", input);
+
+            if (/結束|停止|再見|拜拜|關閉/.test(input)) {
+                const response = "好的，對話已結束。";
+                appendChatMessage("bot", response);
+                speakText(response, () => {
+                    isListening = false;
+                    if (recognition) recognition.stop();
+                    updateMicUI('idle');
+                });
+                return;
+            }
+
+            // 使用 Fuse.js 進行模糊搜尋（容許同音異字）
+            let matchedPerson = null;
+            const searchResults = fuse.search(input);
+            if (searchResults.length > 0 && searchResults[0].score < 0.45) {
+                matchedPerson = searchResults[0].item;
+            }
+
+            if (matchedPerson) {
+                setActiveContext(matchedPerson);
+                if (/綽號|叫什麼|名字|找到/.test(input) || input.includes(matchedPerson.name)) {
+                    const reply = `${matchedPerson.name} 的綽號是 ${matchedPerson.nickname}。`;
+                    appendChatMessage("bot", reply, matchedPerson.photo);
+                    speakText(reply);
+                    return;
+                }
+            }
+
+            if (activePerson) {
+                if (/水果|喜歡吃什麼|喜歡的水果|吃什麼/.test(input)) {
+                    const fruitReply = `${activePerson.name} 喜歡的水果是 ${activePerson.fruit || "未登記"}。`;
+                    appendChatMessage("bot", fruitReply, activePerson.photo);
+                    speakText(fruitReply);
+                    return;
+                }
+
+                if (/興趣|喜好|嗜好|喜歡做什麼|休閒/.test(input)) {
+                    const interestReply = `${activePerson.name} 的興趣是 ${activePerson.interests || "未登記"}。`;
+                    appendChatMessage("bot", interestReply, activePerson.photo);
+                    speakText(interestReply);
+                    return;
+                }
+
+                if (matchedPerson) {
+                    const infoReply = `已為您找到 ${matchedPerson.name}，綽號是 ${matchedPerson.nickname}。`;
+                    appendChatMessage("bot", infoReply, matchedPerson.photo);
+                    speakText(infoReply);
+                    return;
+                }
+            }
+
+            let fallback = activePerson 
+                ? `目前對象為 ${activePerson.name}。請詢問水果或興趣，或說出其他人名。` 
+                : "抱歉，沒有在資料庫中找到符合的人員，請再說一次名字。";
+            appendChatMessage("bot", fallback);
+            speakText(fallback);
+        }
+
+        function setActiveContext(person) {
+            activePerson = person;
+            contextEmpty.classList.add('hidden');
+            contextCard.classList.remove('hidden');
+
+            if (person.photo) {
+                ctxAvatarText.classList.add('hidden');
+                ctxAvatarImg.src = person.photo;
+                ctxAvatarImg.classList.remove('hidden');
+            } else {
+                ctxAvatarImg.classList.add('hidden');
+                ctxAvatarText.classList.remove('hidden');
+                ctxAvatarText.innerText = person.name.charAt(0);
+            }
+
+            ctxName.innerText = person.name;
+            ctxNickname.innerText = person.nickname;
+            ctxFruit.innerText = person.fruit || "未填寫";
+            ctxInterests.innerText = person.interests || "未填寫";
+        }
+
+        function clearActiveContext() {
+            activePerson = null;
+            contextCard.classList.add('hidden');
+            contextEmpty.classList.remove('hidden');
+        }
+
+        function appendChatMessage(sender, text, photoUrl = "") {
+            const msgDiv = document.createElement('div');
+            msgDiv.className = "flex gap-3 animate-fade-in";
+
+            if (sender === 'user') {
+                msgDiv.innerHTML = `
+                    <div class="flex gap-3 ml-auto justify-end max-w-xl">
+                        <div class="bg-indigo-600 text-white rounded-2xl rounded-tr-none p-3.5 text-sm shadow-sm">
+                            ${escapeHtml(text)}
+                        </div>
+                        <div class="w-8 h-8 rounded-lg bg-slate-700 border border-slate-600 flex items-center justify-center text-slate-300 text-xs shrink-0 mt-1">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                    </div>
+                `;
+            } else if (sender === 'bot') {
+                let avatarHtml = `<div class="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center text-white text-xs shrink-0 mt-1"><i class="fa-solid fa-robot"></i></div>`;
+                if (photoUrl) {
+                    avatarHtml = `<div class="w-8 h-8 rounded-lg overflow-hidden shrink-0 mt-1 border border-indigo-500/40"><img src="${photoUrl}" class="w-full h-full object-cover"></div>`;
+                }
+                msgDiv.innerHTML = `
+                    ${avatarHtml}
+                    <div class="bg-slate-800 border border-slate-700/80 rounded-2xl rounded-tl-none p-3.5 max-w-xl text-slate-200 text-sm shadow-sm flex flex-col gap-2">
+                        <div>${escapeHtml(text)}</div>
+                        <button onclick="speakText('${escapeHtml(text)}')" class="self-start text-xs text-indigo-400 hover:text-indigo-300 transition flex items-center gap-1 pt-1">
+                            <i class="fa-solid fa-volume-high"></i> 重播語音
+                        </button>
+                    </div>
+                `;
+            } else {
+                msgDiv.innerHTML = `<div class="w-full text-center my-1"><span class="text-xs bg-slate-800 border border-slate-700/60 text-slate-400 px-3 py-1 rounded-full">${escapeHtml(text)}</span></div>`;
+            }
+
+            chatContainer.appendChild(msgDiv);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+
+        function renderDbTable() {
+            const tbody = document.getElementById('db-table-body');
+            tbody.innerHTML = '';
+
+            database.forEach(item => {
+                const tr = document.createElement('tr');
+                tr.className = "hover:bg-slate-700/30 transition border-b border-slate-700/30";
+                
+                let photoCell = `<div class="w-8 h-8 rounded-lg bg-slate-700 flex items-center justify-center text-xs font-bold text-slate-300">${item.name.charAt(0)}</div>`;
+                if (item.photo) {
+                    photoCell = `<div class="w-8 h-8 rounded-lg overflow-hidden border border-slate-600"><img src="${item.photo}" class="w-full h-full object-cover"></div>`;
+                }
+
+                tr.innerHTML = `
+                    <td class="px-4 py-2">${photoCell}</td>
+                    <td class="px-4 py-2 font-medium text-white">${escapeHtml(item.name)}</td>
+                    <td class="px-4 py-2 text-indigo-300">${escapeHtml(item.nickname)}</td>
+                    <td class="px-4 py-2">${escapeHtml(item.fruit || '-')}</td>
+                    <td class="px-4 py-2 text-right space-x-2">
+                        <button onclick="editEntry(${item.id})" class="text-xs text-slate-400 hover:text-indigo-400 transition"><i class="fa-solid fa-pen"></i></button>
+                        <button onclick="deleteEntry(${item.id})" class="text-xs text-slate-400 hover:text-rose-400 transition"><i class="fa-solid fa-trash"></i></button>
+                    </td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        function editEntry(id) {
+            const entry = database.find(item => item.id === id);
+            if (!entry) return;
+            document.getElementById('edit-id').value = entry.id;
+            document.getElementById('input-name').value = entry.name;
+            document.getElementById('input-nickname').value = entry.nickname;
+            document.getElementById('input-fruit').value = entry.fruit || '';
+            document.getElementById('input-interests').value = entry.interests || '';
+            document.getElementById('input-photo').value = entry.photo || '';
+        }
+
+        function deleteEntry(id) {
+            database = database.filter(item => item.id !== id);
+            if (activePerson && activePerson.id === id) clearActiveContext();
+            initFuse();
+            renderDbTable();
+        }
+
+        function setupEventListeners() {
+            btnMic.addEventListener('click', toggleListening);
+
+            btnTextSend.addEventListener('click', () => {
+                const text = textInput.value;
+                textInput.value = '';
+                processUserInput(text);
+            });
+
+            textInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    const text = textInput.value;
+                    textInput.value = '';
+                    processUserInput(text);
+                }
+            });
+
+            document.getElementById('btn-clear-chat').addEventListener('click', () => {
+                chatContainer.innerHTML = '';
+                appendChatMessage("system", "對話紀錄已清除。");
+            });
+
+            document.getElementById('btn-clear-context').addEventListener('click', clearActiveContext);
+
+            const modalDb = document.getElementById('modal-db');
+            const modalSettings = document.getElementById('modal-settings');
+
+            document.getElementById('btn-open-db').addEventListener('click', () => openModal(modalDb));
+            document.getElementById('btn-settings').addEventListener('click', () => openModal(modalSettings));
+
+            document.querySelectorAll('.close-modal').forEach(btn => {
+                btn.addEventListener('click', () => { closeModal(modalDb); closeModal(modalSettings); });
+            });
+
+            // 圖片上傳轉 Base64
+            document.getElementById('input-file').addEventListener('change', (e) => {
+                const file = e.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = (event) => {
+                        document.getElementById('input-photo').value = event.target.result;
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
+
+            document.getElementById('form-db-entry').addEventListener('submit', (e) => {
+                e.preventDefault();
+                const id = document.getElementById('edit-id').value;
+                const name = document.getElementById('input-name').value.trim();
+                const nickname = document.getElementById('input-nickname').value.trim();
+                const fruit = document.getElementById('input-fruit').value.trim();
+                const interests = document.getElementById('input-interests').value.trim();
+                const photo = document.getElementById('input-photo').value.trim();
+
+                if (id) {
+                    const entry = database.find(item => item.id == id);
+                    if (entry) {
+                        entry.name = name;
+                        entry.nickname = nickname;
+                        entry.fruit = fruit;
+                        entry.interests = interests;
+                        entry.photo = photo;
+                        if (activePerson && activePerson.id == id) setActiveContext(entry);
+                    }
+                } else {
+                    database.push({ id: Date.now(), name, nickname, fruit, interests, photo });
+                }
+
+                resetForm();
+                initFuse();
+                renderDbTable();
+            });
+
+            document.getElementById('btn-reset-form').addEventListener('click', resetForm);
+            rangeRate.addEventListener('input', (e) => rateVal.innerText = e.target.value);
+            rangePitch.addEventListener('input', (e) => pitchVal.innerText = e.target.value);
+            document.getElementById('btn-test-speech').addEventListener('click', () => speakText("語音測試成功。"));
+        }
+
+        function resetForm() {
+            document.getElementById('edit-id').value = '';
+            document.getElementById('form-db-entry').reset();
+        }
+
+        function openModal(modal) {
+            modal.classList.remove('hidden');
+            setTimeout(() => modal.classList.remove('opacity-0'), 10);
+        }
+
+        function closeModal(modal) {
+            modal.classList.add('opacity-0');
+            setTimeout(() => modal.classList.add('hidden'), 200);
+        }
+
+        function escapeHtml(text) {
+            if (!text) return '';
+            return text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+        }
+    </script>
+</body>
+</html>
