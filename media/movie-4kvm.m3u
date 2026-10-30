@@ -1,4 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/bW5USzie3abCz9RO0gMwakrSxWG.jpg" tvg-name="凸槌拍檔" group-title="2026",凸槌拍檔
+http://192.168.1.249/4kvm/MOVIE/ch4r9261r.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/7H23ieTIusX91xe78DQkyjYfgFl.jpg" tvg-name="誤闖遺忘島" group-title="2026",誤闖遺忘島
+http://192.168.1.249/4kvm/MOVIE/ch4rrsemo.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/9xroV2lTOG1Pk8D9Qbsyzl5FfZo.jpg" tvg-name="害群之馬" group-title="2026",害群之馬
 http://192.168.1.249/4kvm/MOVIE/ch4qbcjdm.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/tX2WwEkOgE90HAtPcPli2quY1En.jpg" tvg-name="花綠青綻放之時" group-title="2026",花綠青綻放之時
@@ -1837,6 +1841,8 @@ http://192.168.1.249/4kvm/MOVIE/ch3b1xjww.m3u8
 http://192.168.1.249/4kvm/MOVIE/cgzouq32y.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/3isyx0mgWHGYGYhPQl4PQRGsHAs.jpg" tvg-name="どうしようもない恋の唄" group-title="2018",どうしようもない恋の唄
 http://192.168.1.249/4kvm/MOVIE/ch1tlurkl.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/n1qHge3l4egGqDSJf2B8zuayAVm.jpg" tvg-name="極惡非道最終章" group-title="2017",極惡非道最終章
+http://192.168.1.249/4kvm/MOVIE/ch4rgjv2x.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/wTLVbBmU0pX6qe5yog8LK4hY1oB.jpg" tvg-name="星際異攻隊2" group-title="2017",星際異攻隊2
 http://192.168.1.249/4kvm/MOVIE/ch4n9h05u.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/ntsyazWKclgwObVftWVVAEBcvRq.jpg" tvg-name="見習修女" group-title="2017",見習修女
@@ -2449,6 +2455,8 @@ http://192.168.1.249/4kvm/MOVIE/ch2f588wo.m3u8
 http://192.168.1.249/4kvm/MOVIE/ch0hn1yjg.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/xbOUJ4PUWSj7aZYwpJHIBzUB4n2.jpg" tvg-name="厲陰宅" group-title="2013",厲陰宅
 http://192.168.1.249/4kvm/MOVIE/ch3qxsb2u.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/unwwJRHiTJi5ytWKSbTWx9muN8Q.jpg" tvg-name="極惡非道2" group-title="2012",極惡非道2
+http://192.168.1.249/4kvm/MOVIE/ch4rfawwq.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/eVRaJCHd6siT9BJjCfEBIW29IG6.jpg" tvg-name="登堂入室" group-title="2012",登堂入室
 http://192.168.1.249/4kvm/MOVIE/ch4kmkv1a.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/1kdTL3IvaTg3PqeRqYmE3Q1ESb4.jpg" tvg-name="鄰居的狗吠聲" group-title="2012",鄰居的狗吠聲
@@ -2599,6 +2607,8 @@ http://192.168.1.249/4kvm/MOVIE/ch1rmonq6.m3u8
 http://192.168.1.249/4kvm/MOVIE/cgzhpijh4.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/vtj8TTq8vCc7e3mAo38bqnc2aTQ.jpg" tvg-name="鞋貓劍客" group-title="2011",鞋貓劍客
 http://192.168.1.249/4kvm/MOVIE/ch32xrfh6.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/fC0DHRJnAAsPctGkfyWtNuQqukN.jpg" tvg-name="極惡非道" group-title="2010",極惡非道
+http://192.168.1.249/4kvm/MOVIE/ch4rct0kc.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/axtJ3Ze9L2dgTLYtQmOsZXwTFmA.jpg" tvg-name="山楂樹之戀" group-title="2010",山楂樹之戀
 http://192.168.1.249/4kvm/MOVIE/ch2dg1qft.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w780/1WKtl5GPtJDaQKwSuKcN2XsaXlg.jpg" tvg-name="竊盜城" group-title="2010",竊盜城
