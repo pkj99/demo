@@ -1,4 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/AjhWhX0FONW4dBb9OEhtG74aTwp.jpg" tvg-name="失控撞劫" group-title="2026",失控撞劫
+https://play.phimgood.com/20261031/33422_4100a058/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mfSdUGDbR6RzbnPhWQ9h97R8oXE.jpg" tvg-name="我們好一點" group-title="2026",我們好一點
+https://play.phimgood.com/20261031/33430_ecf63486/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ucdoFmKmxjGUr2iTM576UcFgEW8.jpg" tvg-name="抗擊颶風" group-title="2026",抗擊颶風
 https://play.phimgood.com/20261026/33161_2511e300/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dMJKqMIvgToRBcIXCAdbfV06MeL.jpg" tvg-name="失控長夜" group-title="2026",失控長夜

@@ -1,10 +1,16 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/vpTNP6p8byWvgPhJn8ys2C4YycF.jpg" tvg-name="德利鎮故事" group-title="2026",德利鎮故事
+https://play.phimgood.com/20261101/33446_0f45a49a/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/AjhWhX0FONW4dBb9OEhtG74aTwp.jpg" tvg-name="失控撞劫" group-title="2026",失控撞劫
+https://play.phimgood.com/20261031/33422_4100a058/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/8OyiIQo7aQOr5F6iTSMTjgQdGX9.jpg" tvg-name="假面戀人：換檔追愛" group-title="2026",假面戀人：換檔追愛
 https://play.phimgood.com/20261029/33308_3bbc8b8a/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ixiyLP1jMUczFISdsM12A4g7KA9.jpg" tvg-name="終極盜局" group-title="2026",終極盜局
 https://play.phimgood.com/20261017/32722_36acb34a/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1IwZW1Qk3hwdEVZtn7Er9oe9Jrb.jpg" tvg-name="人性本獸" group-title="2026",人性本獸
 https://play.phimgood.com/20261011/32389_81361e46/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/uetPkpv6ed4jUMsa0VqNBX5nB2c.jpg" tvg-name="喪屍浩劫：新世界" group-title="2026",喪屍浩劫：新世界
+https://play.phimgood.com/20261031/33429_96614fbb/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2pDMnUmn9DE1DmuqF8HrNad6W6f.jpg" tvg-name="Matchbox 電影" group-title="2026",Matchbox 電影
 https://play.phimgood.com/20261011/32394_99d86f4e/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6MYR8uHe9bDvHJT7tDscaLAiiF9.jpg" tvg-name="不存在的罪人" group-title="2026",不存在的罪人
@@ -14,7 +20,7 @@ https://play.phimgood.com/20260925/31654_26079c27/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lRgnTOCqunKJoDdKjGyEpuVogDm.jpg" tvg-name="假戀愛真心動" group-title="2026",假戀愛真心動
 https://play.phimgood.com/20260924/31578_8c8c3978/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lVXZnG5oCJNsQlThZUgUg7EJPHU.jpg" tvg-name="惡靈古堡：爆發夜" group-title="2026",惡靈古堡：爆發夜
-https://vip.dytt-network.com/20260921/39826_735b3580/index.m3u8
+https://vip.dytt-see.com/20261102/46804_717d08a8/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/noGrxxPWZsWcJ19kRsEEawfFnEl.jpg" tvg-name="撥亂行動" group-title="2026",撥亂行動
 https://vip.dytt-network.com/20260919/39750_c411fcc0/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/d7lwNomWZbBVv0Mc4IVD2I74P2Q.jpg" tvg-name="危情守護" group-title="2026",危情守護
