@@ -1,4 +1,8 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dUvyjVQa6HwejaT3apTA2Xmhn0H.jpg" tvg-name="浮誇特攻隊" group-title="2026",浮誇特攻隊
+https://play.phimgood.com/20261106/33675_9692a39f/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2e9IxgDFtFwKLlVZfuVvgLbPtD5.jpg" tvg-name="狗狗的完美聖誕" group-title="2026",狗狗的完美聖誕
+https://play.phimgood.com/20261106/33678_c0c0d016/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/AjhWhX0FONW4dBb9OEhtG74aTwp.jpg" tvg-name="失控撞劫" group-title="2026",失控撞劫
 https://play.phimgood.com/20261031/33422_4100a058/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/mfSdUGDbR6RzbnPhWQ9h97R8oXE.jpg" tvg-name="我們好一點" group-title="2026",我們好一點
@@ -19,6 +23,8 @@ https://play.phimgood.com/20260925/31654_26079c27/index.m3u8
 https://play.phimgood.com/20260919/31425_d79f7940/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gflpW1CDJjX2qG48E9uadNGkOip.jpg" tvg-name="最佳舞伴" group-title="2026",最佳舞伴
 https://play.phimgood.com/20260919/31426_69b72154/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ktWq3WRGKpdIn5ocE3DG8aeyqIf.jpg" tvg-name="說走就走的熟女之旅" group-title="2026",說走就走的熟女之旅
+https://play.phimgood.com/20261103/33539_7d3b9ec7/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/nPoEHrPHmzSsiFyu4aeyi9neE3I.jpg" tvg-name="她的秘密人生" group-title="2026",她的秘密人生
 https://play.phimgood.com/20260829/30703_86113dc5/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hKoPZgUwahXD9p8CnqK93HT8wg4.jpg" tvg-name="耳語人" group-title="2026",耳語人
