@@ -1,4 +1,12 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/i2T0uBFPJ59kj1oaMrh8ck6gGWL.jpg" tvg-name="心鄉迷蹤" group-title="2026",心鄉迷蹤
+https://play.phimgood.com/20261115/34492_dcf05231/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7iMuYJgP2xwaqDxCUKcScaohrft.jpg" tvg-name="艾倫" group-title="2026",艾倫
+https://play.phimgood.com/20261113/34225_0febd888/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/xqYb7XSptLwd4FsXtYwl5smXBNe.jpg" tvg-name="交換身分過聖誕" group-title="2026",交換身分過聖誕
+https://play.phimgood.com/20261115/34497_d77de86d/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/yLtBqiRN5U08peEg9Rn8kA2H3Sf.jpg" tvg-name="絕境反擊" group-title="2026",絕境反擊
+https://play.phimgood.com/20261113/34224_94ae7826/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dUvyjVQa6HwejaT3apTA2Xmhn0H.jpg" tvg-name="浮誇特攻隊" group-title="2026",浮誇特攻隊
 https://play.phimgood.com/20261106/33675_9692a39f/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2e9IxgDFtFwKLlVZfuVvgLbPtD5.jpg" tvg-name="狗狗的完美聖誕" group-title="2026",狗狗的完美聖誕
@@ -163,6 +171,8 @@ https://vip.dytt-cine.com/20260117/67355_bd471903/index.m3u8
 https://vip.dytt-cine.com/20260110/66850_86df9493/index.m3u8
 #EXTINF:-1 tvg-logo="https://vip.dytt-img.com/upload/vod/20260214-1/f632adfd84e2076b98131a776428ff5d.webp" tvg-name="爺孫大學路" group-title="2026",爺孫大學路
 https://vip.dytt-tvs.com/20260214/11901_108f6a48/index.m3u8
+#EXTINF:-1 tvg-logo="https://pic3.yzzyimg.online/upload/vod/2026-10-31/202610311793438444.jpg" tvg-name="蜜糖里藏著什麼" group-title="2026",蜜糖里藏著什麼
+https://player.yzzy37-play.vip/20261031/1640_84f0f204/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/sKknnpiwrdBkEDbo2Zz1BBizhwV.jpg" tvg-name="致命撞擊：青春情殺案" group-title="2025",致命撞擊：青春情殺案
 https://svip.ryiplay18.com/20260515/6456_6c73a0cd/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/xCawp08whOaJS434IDlBytX7sSm.jpg" tvg-name="邪惡網紅：育兒界的黑暗故事" group-title="2025",邪惡網紅：育兒界的黑暗故事

@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/yLtBqiRN5U08peEg9Rn8kA2H3Sf.jpg" tvg-name="絕境反擊" group-title="2026",絕境反擊
+https://play.phimgood.com/20261113/34224_94ae7826/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/vpTNP6p8byWvgPhJn8ys2C4YycF.jpg" tvg-name="德利鎮故事" group-title="2026",德利鎮故事
 https://play.phimgood.com/20261101/33446_0f45a49a/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/AjhWhX0FONW4dBb9OEhtG74aTwp.jpg" tvg-name="失控撞劫" group-title="2026",失控撞劫
@@ -11,6 +13,8 @@ https://play.phimgood.com/20261017/32722_36acb34a/index.m3u8
 https://play.phimgood.com/20261011/32389_81361e46/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/uetPkpv6ed4jUMsa0VqNBX5nB2c.jpg" tvg-name="喪屍浩劫：新世界" group-title="2026",喪屍浩劫：新世界
 https://play.phimgood.com/20261031/33429_96614fbb/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gnzFgRnlqGUP6NHmwSxGN7BAlZr.jpg" tvg-name="另一個媽咪" group-title="2026",另一個媽咪
+https://play.phimgood.com/20261113/34221_b02ec300/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2pDMnUmn9DE1DmuqF8HrNad6W6f.jpg" tvg-name="Matchbox 電影" group-title="2026",Matchbox 電影
 https://play.phimgood.com/20261011/32394_99d86f4e/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/6MYR8uHe9bDvHJT7tDscaLAiiF9.jpg" tvg-name="不存在的罪人" group-title="2026",不存在的罪人
