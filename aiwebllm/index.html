@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Gemma 4 E2B 邊緣語音助理 (WebGPU)</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --surface: #1e293b;
+      --primary: #38bdf8;
+      --accent: #f43f5e;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    header {
+      padding: 14px 16px;
+      background: var(--surface);
+      border-bottom: 1px solid #334155;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 { font-size: 1.05rem; font-weight: 600; }
+    .badge {
+      font-size: 0.75rem;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: #0284c7;
+      color: #fff;
+    }
+    #progress-box {
+      padding: 12px 16px;
+      background: #172554;
+      font-size: 0.85rem;
+      border-bottom: 1px solid #1e40af;
+    }
+    progress {
+      width: 100%;
+      height: 8px;
+      margin-top: 6px;
+      accent-color: var(--primary);
+    }
+    #chat-box {
+      flex: 1;
+      overflow-y: auto;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      -webkit-overflow-scrolling: touch;
+    }
+    .msg {
+      max-width: 85%;
+      padding: 10px 14px;
+      border-radius: 16px;
+      line-height: 1.5;
+      font-size: 0.95rem;
+      word-wrap: break-word;
+      white-space: pre-wrap;
+    }
+    .user {
+      align-self: flex-end;
+      background: #0284c7;
+      color: #fff;
+      border-bottom-right-radius: 4px;
+    }
+    .ai {
+      align-self: flex-start;
+      background: var(--surface);
+      border: 1px solid #334155;
+      border-bottom-left-radius: 4px;
+    }
+    .controls {
+      padding: 12px;
+      background: var(--surface);
+      border-top: 1px solid #334155;
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      padding-bottom: max(12px, env(safe-area-inset-bottom));
+    }
+    #text-input {
+      flex: 1;
+      background: var(--bg);
+      border: 1px solid #334155;
+      color: var(--text);
+      padding: 12px 14px;
+      border-radius: 24px;
+      font-size: 16px;
+      outline: none;
+    }
+    button {
+      border: none;
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 1.2rem;
+      transition: transform 0.15s, background 0.2s;
+      flex-shrink: 0;
+    }
+    button:active { transform: scale(0.92); }
+    button:disabled { opacity: 0.4; cursor: not-allowed; }
+    #mic-btn { background: #334155; color: var(--text); }
+    #mic-btn.recording {
+      background: var(--accent);
+      animation: pulse 1.2s infinite;
+    }
+    #send-btn { background: var(--primary); color: #0f172a; font-weight: bold; }
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(244, 63, 94, 0.7); }
+      70% { box-shadow: 0 0 0 12px rgba(244, 63, 94, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(244, 63, 94, 0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Gemma 4 E2B 語音助理</h1>
+    <span class="badge" id="device-badge">偵測硬體中...</span>
+  </header>
+
+  <div id="progress-box">
+    <div id="status-text">正在初始化端側 WebGPU 引擎...</div>
+    <progress id="load-progress" value="0" max="100"></progress>
+  </div>
+
+  <main id="chat-box">
+    <div class="msg ai">你好！我是運行在你裝置本地端的 Gemma 4 E2B 模型。請點擊下方麥克風說話，或直接輸入文字。</div>
+  </main>
+
+  <footer class="controls">
+    <button id="mic-btn" title="語音輸入" disabled>🎤</button>
+    <input type="text" id="text-input" placeholder="載入模型後即可對話..." disabled />
+    <button id="send-btn" title="送出" disabled>➤</button>
+  </footer>
+
+  <script type="module">
+    import { pipeline, TextStreamer, env } from 'https://cdn.jsdelivr.net/npm/@huggingface/transformers@4.3.0';
+
+    const hasCacheAPI = typeof caches !== 'undefined' && typeof caches.open === 'function';
+    env.allowLocalModels = false;
+    env.useBrowserCache = hasCacheAPI;
+
+    // const MODEL_ID = 'onnx-community/gemma-4-E2B-it-ONNX';
+    // const MODEL_ID = 'onnx-community/Qwen3-0.6B-ONNX';
+    // const MODEL_ID = 'HuggingFaceTB/SmolLM2-360M-Instruct';
+
+    // WebGPU 預設模型與 WASM 備援輕量模型可依需求調整
+    const WEBGPU_DEFAULT_MODEL = 'onnx-community/gemma-4-E2B-it-ONNX';
+    const WASM_DEFAULT_MODEL = 'onnx-community/gemma-4-E2B-it-ONNX';
+
+    const statusText = document.getElementById('status-text');
+    const progressBar = document.getElementById('load-progress');
+    const progressBox = document.getElementById('progress-box');
+    const deviceBadge = document.getElementById('device-badge');
+    const chatBox = document.getElementById('chat-box');
+    const textInput = document.getElementById('text-input');
+    const sendBtn = document.getElementById('send-btn');
+    const micBtn = document.getElementById('mic-btn');
+
+    let generator = null;
+    let isGenerating = false;
+    let conversationHistory = [
+      { role: 'system', content: '你是一個精簡、友善的手機端 AI 語音助理。請用繁體中文回答，回覆盡量簡短口語（控制在 80 字以內），適合語音朗讀。' }
+    ];
+
+    async function checkWebGPUAdapter() {
+      if (!navigator.gpu || typeof navigator.gpu.requestAdapter !== 'function') {
+        return false;
+      }
+      try {
+        const adapter = await navigator.gpu.requestAdapter();
+        return !!adapter;
+      } catch {
+        return false;
+      }
+    }
+
+async function initModel(customModelId = null, autoSetDefaultByDevice = true) {
+      enableInputs(false);
+      progressBox.style.display = 'block';
+      progressBar.value = 0;
+
+      const gpuReady = await checkWebGPUAdapter();
+      const device = gpuReady ? 'webgpu' : 'wasm';
+      const cacheLabel = hasCacheAPI ? '' : '・無快取';
+
+      let modelId = customModelId?.trim();
+      if (!modelId) {
+        modelId = autoSetDefaultByDevice
+          ? (gpuReady ? WEBGPU_DEFAULT_MODEL : WASM_DEFAULT_MODEL)
+          : WASM_DEFAULT_MODEL;
+        // modelInput.value = modelId;
+      }
+
+      // WASM 下通常以 'q4' 比 'q4f16' 相容性更好
+      const dtype = gpuReady ? 'q4f16' : 'q4';
+      deviceBadge.textContent = `${device.toUpperCase()} (${dtype})${cacheLabel}`;
+      statusText.textContent = `使用 ${device.toUpperCase()} 載入 ${modelId}...`;
+
+      try {
+        const fileProgress = new Map();
+        generator = await pipeline('text-generation', modelId, {
+          device,
+          dtype,
+          progress_callback: (info) => {
+            if (info.status === 'progress') {
+              fileProgress.set(info.file, info.progress);
+              const avg = Array.from(fileProgress.values()).reduce((a, b) => a + b, 0) / fileProgress.size;
+              progressBar.value = Math.round(avg);
+              const note = hasCacheAPI ? '' : '（目前環境不支援瀏覽器快取，重整需重新下載）';
+              statusText.textContent = `[${device.toUpperCase()}] 下載模型中 (${Math.round(avg)}%)...${note}`;
+            } else if (info.status === 'ready') {
+              progressBox.style.display = 'none';
+              enableInputs(true);
+            }
+          }
+        });
+      } catch (err) {
+        statusText.textContent = `[${device.toUpperCase()}] 載入失敗：${err.message}`;
+        console.error(err);
+      }
+    }
+
+
+    // async function initModel() {
+    //   const gpuReady = await checkWebGPUAdapter();
+    //   const cacheLabel = hasCacheAPI ? '' : '・無快取';
+
+    //   if (!gpuReady) {
+    //     deviceBadge.textContent = `無 WebGPU${cacheLabel}`;
+    //     statusText.textContent = '目前裝置/瀏覽器無法取得 WebGPU 轉接器，此量化模型在 CPU 模式缺少 GatherBlockQuantized 算子，請改用支援 WebGPU 的裝置或瀏覽器。';
+    //     console.error('WebGPU adapter is unavailable; refusing CPU fallback due to missing GatherBlockQuantized kernel.');
+    //     // return;
+    //   }
+
+    //   deviceBadge.textContent = `WebGPU${cacheLabel}`;
+
+    //   const device = gpuReady ? 'webgpu' : 'wasm';
+
+    //   try {
+    //     const fileProgress = new Map();
+    //     // 若 q4f16 仍遇到算子問題，可改試 dtype: 'q4'
+    //     generator = await pipeline('text-generation', MODEL_ID, {
+    //     //   device: 'webgpu',
+    //     //   dtype: 'q4f16',
+    //       device: device,
+    //       dtype: 'q4',
+    //       progress_callback: (info) => {
+    //         if (info.status === 'progress') {
+    //           fileProgress.set(info.file, info.progress);
+    //           const avg = Array.from(fileProgress.values()).reduce((a, b) => a + b, 0) / fileProgress.size;
+    //           progressBar.value = Math.round(avg);
+    //           const note = hasCacheAPI ? '' : '（目前環境不支援瀏覽器快取，重整需重新下載）';
+    //           statusText.textContent = `下載模型中 (${Math.round(avg)}%)...${note}`;
+    //         } else if (info.status === 'ready') {
+    //           progressBox.style.display = 'none';
+    //           enableInputs(true);
+    //         }
+    //       }
+    //     });
+    //   } catch (err) {
+    //     statusText.textContent = `載入失敗：${err.message}`;
+    //     console.error(err);
+    //   }
+    // }
+
+    function enableInputs(enabled) {
+      textInput.disabled = !enabled;
+      sendBtn.disabled = !enabled;
+      micBtn.disabled = !enabled;
+      if (enabled) textInput.placeholder = '輸入訊息或點擊麥克風...';
+    }
+
+    function appendMessage(role, text = '') {
+      const div = document.createElement('div');
+      div.className = `msg ${role}`;
+      div.textContent = text;
+      chatBox.appendChild(div);
+      chatBox.scrollTop = chatBox.scrollHeight;
+      return div;
+    }
+
+    function speakText(text) {
+      if (!('speechSynthesis' in window)) return;
+      window.speechSynthesis.cancel();
+      const cleanText = text.replace(/[*#`]/g, '');
+      const utterance = new SpeechSynthesisUtterance(cleanText);
+      utterance.lang = 'zh-TW';
+      utterance.rate = 1.1;
+      window.speechSynthesis.speak(utterance);
+    }
+
+    async function handleUserQuery(userText, shouldSpeak = false) {
+      if (!userText.trim() || isGenerating || !generator) return;
+
+      isGenerating = true;
+      enableInputs(false);
+      window.speechSynthesis?.cancel();
+
+      appendMessage('user', userText);
+      conversationHistory.push({ role: 'user', content: userText });
+
+      if (conversationHistory.length > 9) {
+        conversationHistory = [conversationHistory[0], ...conversationHistory.slice(-8)];
+      }
+
+      const aiMsgDiv = appendMessage('ai', '思考中...');
+      let fullResponse = '';
+
+      try {
+        const streamer = new TextStreamer(generator.tokenizer, {
+          skip_prompt: true,
+          skip_special_tokens: true,
+          callback_function: (token) => {
+            fullResponse += token;
+            aiMsgDiv.textContent = fullResponse;
+            chatBox.scrollTop = chatBox.scrollHeight;
+          }
+        });
+
+        await generator(conversationHistory, {
+          max_new_tokens: 180,
+          do_sample: false,
+          streamer
+        });
+
+        conversationHistory.push({ role: 'assistant', content: fullResponse });
+
+        if (shouldSpeak && fullResponse) {
+          speakText(fullResponse);
+        }
+      } catch (err) {
+        aiMsgDiv.textContent = `推理發生錯誤：${err.message}`;
+      } finally {
+        isGenerating = false;
+        enableInputs(true);
+      }
+    }
+
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    let recognition = null;
+
+    if (SpeechRecognition) {
+      recognition = new SpeechRecognition();
+      recognition.lang = 'zh-TW';
+      recognition.interimResults = false;
+      recognition.maxAlternatives = 1;
+
+      recognition.onstart = () => {
+        micBtn.classList.add('recording');
+        textInput.placeholder = '請說話...';
+      };
+
+      recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        handleUserQuery(transcript, true);
+      };
+
+      recognition.onerror = (event) => {
+        console.warn('語音辨識錯誤:', event.error);
+        micBtn.classList.remove('recording');
+        textInput.placeholder = '語音辨識失敗，請重試';
+      };
+
+      recognition.onend = () => {
+        micBtn.classList.remove('recording');
+      };
+
+      micBtn.addEventListener('click', () => {
+        if (isGenerating) return;
+        window.speechSynthesis?.cancel();
+        try {
+          recognition.start();
+        } catch (e) {
+          recognition.stop();
+        }
+      });
+    } else {
+      micBtn.style.display = 'none';
+    }
+
+    sendBtn.addEventListener('click', () => {
+      const text = textInput.value;
+      textInput.value = '';
+      handleUserQuery(text, false);
+    });
+
+    textInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        sendBtn.click();
+      }
+    });
+
+    initModel();
+  </script>
+</body>
+</html>
