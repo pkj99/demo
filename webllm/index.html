@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title>小彭同學邊緣語音助理 (模型設定 & TTS 設定)</title>
+  <title>小彭同學</title>
   <style>
     :root {
       --bg: #0f172a;
@@ -12,7 +12,9 @@
       --primary: #6366f1;
       --primary-bright: #38bdf8;
       --accent: #f43f5e;
-      --danger: #ef4444;
+      --warn-bg: #2a2112;
+      --warn-border: #d97706;
+      --warn-text: #fde68a;
       --text: #f8fafc;
       --muted: #94a3b8;
       --border: #334155;
@@ -69,6 +71,40 @@
       color: #fff;
       white-space: nowrap;
     }
+    .ios-tip-banner {
+      display: none;
+      padding: 9px 14px;
+      background: var(--warn-bg);
+      border-bottom: 1px solid var(--warn-border);
+      color: var(--warn-text);
+      font-size: 0.8rem;
+      line-height: 1.45;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .ios-tip-banner.show { display: flex; }
+    .ios-tip-actions {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+    .ios-tip-btn {
+      background: #b45309;
+      color: #fff;
+      border: 1px solid #f59e0b;
+      border-radius: 8px;
+      padding: 4px 9px;
+      font-size: 0.76rem;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .ios-tip-btn.secondary {
+      background: transparent;
+      color: var(--warn-text);
+      border-color: rgba(253, 230, 138, 0.45);
+    }
     #progress-box {
       padding: 10px 16px;
       background: #172554;
@@ -118,6 +154,7 @@
       font-size: 0.8rem;
       padding: 6px 12px;
       border-radius: 999px;
+      text-align: center;
     }
     .controls {
       padding: 12px;
@@ -166,7 +203,6 @@
       100% { box-shadow: 0 0 0 0 rgba(244, 63, 94, 0); }
     }
 
-    /* 共用設定彈窗樣式 */
     .modal-backdrop {
       position: fixed;
       inset: 0;
@@ -223,6 +259,18 @@
       font-weight: 600;
       font-variant-numeric: tabular-nums;
     }
+    .modal-hint {
+      font-size: 0.78rem;
+      color: var(--warn-text);
+      background: rgba(217, 119, 6, 0.14);
+      border: 1px solid rgba(245, 158, 11, 0.35);
+      border-radius: 8px;
+      padding: 8px 10px;
+      margin-bottom: 14px;
+      line-height: 1.45;
+      display: none;
+    }
+    .modal-hint.show { display: block; }
     .settings-modal select,
     .settings-modal input[type="text"] {
       width: 100%;
@@ -354,6 +402,16 @@
     </div>
   </header>
 
+  <div id="ios-tip-banner" class="ios-tip-banner" role="region" aria-label="iOS 輕量模型建議">
+    <div id="ios-tip-text">
+      偵測到 iOS 裝置：瀏覽器單頁記憶體有限，建議使用 0.5B／360M 等輕量模型，避免下載大型模型時閃退。
+    </div>
+    <div class="ios-tip-actions">
+      <button id="apply-light-model-btn" class="ios-tip-btn" type="button">改用輕量模型</button>
+      <button id="dismiss-ios-tip-btn" class="ios-tip-btn secondary" type="button">知道了</button>
+    </div>
+  </div>
+
   <div id="progress-box">
     <div id="status-text">正在初始化端側推理引擎...</div>
     <progress id="load-progress" value="0" max="100"></progress>
@@ -380,17 +438,21 @@
         <button id="close-model-modal-btn" class="close-btn" type="button" aria-label="關閉">✕</button>
       </div>
 
+      <div id="modal-ios-hint" class="modal-hint">
+        已偵測到 iOS 裝置：建議優先選擇 <strong>Qwen2.5 0.5B Instruct</strong> 或 <strong>SmolLM2 360M Instruct</strong>。若載入 E2B / E4B / 2B 模型時發生閃退，請先按「清除快取」再切換輕量模型。
+      </div>
+
       <div class="field-group">
         <div class="field-label-row">
           <label for="preset-model-select">預設模型清單</label>
         </div>
         <select id="preset-model-select">
-          <option value="onnx-community/gemma-4-E4B-it-ONNX|q4f16">Gemma 4 E4B IT (WebGPU / q4f16)</option>
-          <option value="onnx-community/gemma-4-E2B-it-ONNX|q4f16">Gemma 4 E2B IT (WebGPU / q4f16)</option>
-          <option value="onnx-community/Qwen3.5-2B-ONNX|q4f16">Qwen3.5 2B ONNX (q4f16)</option>
-          <option value="onnx-community/Qwen3.5-0.8B-ONNX|q4f16">Qwen3.5 0.8B ONNX (q4f16)</option>
-          <option value="onnx-community/Qwen2.5-0.5B-Instruct|q4" selected>Qwen2.5 0.5B Instruct (輕量 / q4)</option>
-          <option value="HuggingFaceTB/SmolLM2-360M-Instruct|q4">SmolLM2 360M Instruct (極輕量 / q4)</option>
+          <option value="onnx-community/gemma-4-E4B-it-ONNX|q4f16">Gemma 4 E4B IT (大型・建議桌機)</option>
+          <option value="onnx-community/gemma-4-E2B-it-ONNX|q4f16">Gemma 4 E2B IT (中大型・WebGPU)</option>
+          <option value="onnx-community/Qwen3.5-2B-ONNX|q4f16">Qwen3.5 2B ONNX (中型・q4f16)</option>
+          <option value="onnx-community/Qwen3.5-0.8B-ONNX|q4f16">Qwen3.5 0.8B ONNX (輕量・q4f16)</option>
+          <option value="onnx-community/Qwen2.5-0.5B-Instruct|q4" selected>Qwen2.5 0.5B Instruct (輕量防閃退・q4)</option>
+          <option value="HuggingFaceTB/SmolLM2-360M-Instruct|q4">SmolLM2 360M Instruct (極輕量防閃退・q4)</option>
           <option value="custom|auto">自訂模型 ID...</option>
         </select>
       </div>
@@ -502,12 +564,27 @@
     env.allowLocalModels = false;
     env.useBrowserCache = hasCacheAPI;
 
+    // iOS 裝置偵測（含 iPadOS 桌面模式識別）
+    function detectIOSDevice() {
+      const ua = navigator.userAgent || '';
+      const isAppleMobile = /iPhone|iPad|iPod/i.test(ua);
+      const isIPadDesktopUA = navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1;
+      return isAppleMobile || isIPadDesktopUA;
+    }
+
+    const isIOS = detectIOSDevice();
+    const IOS_LIGHT_MODEL = 'onnx-community/Qwen2.5-0.5B-Instruct';
+    const IOS_LIGHT_DTYPE = 'q4';
     const WEBGPU_DEFAULT_MODEL = 'onnx-community/gemma-4-E2B-it-ONNX';
     const WASM_DEFAULT_MODEL = 'onnx-community/Qwen2.5-0.5B-Instruct';
     const TTS_STORAGE_KEY = 'edge_webllm_tts_settings_v2';
     const GOODBYE_REPLY = '好的，結束對話';
 
-    // 模型設定彈窗 DOM
+    const iosTipBanner = document.getElementById('ios-tip-banner');
+    const applyLightModelBtn = document.getElementById('apply-light-model-btn');
+    const dismissIosTipBtn = document.getElementById('dismiss-ios-tip-btn');
+    const modalIosHint = document.getElementById('modal-ios-hint');
+
     const openModelModalBtn = document.getElementById('open-model-modal-btn');
     const closeModelModalBtn = document.getElementById('close-model-modal-btn');
     const modelModalBackdrop = document.getElementById('model-modal-backdrop');
@@ -517,7 +594,6 @@
     const reloadModelBtn = document.getElementById('reload-model-btn');
     const clearCacheBtn = document.getElementById('clear-cache-btn');
 
-    // 主畫面與 TTS DOM
     const statusText = document.getElementById('status-text');
     const progressBar = document.getElementById('load-progress');
     const progressBox = document.getElementById('progress-box');
@@ -543,7 +619,7 @@
       enabled: true,
       continuous: false,
       voiceName: '',
-      rate: 1.0,
+      rate: 1.2,
       pitch: 1.0
     };
 
@@ -556,7 +632,25 @@
       { role: 'system', content: '你是一個精簡、友善的語音助理。請用繁體中文回答，回覆盡量簡短口語（控制在 60 字以內），適合語音朗讀。' }
     ];
 
-    // 模型彈窗互動
+    function setupIOSRecommendations() {
+      if (!isIOS) return;
+      iosTipBanner.classList.add('show');
+      modalIosHint.classList.add('show');
+      appendSystemNote('已偵測到 iOS 裝置：預設建議使用 0.5B 輕量模型（q4）以降低分頁記憶體閃退機率。');
+    }
+
+    applyLightModelBtn.addEventListener('click', () => {
+      if (isGenerating || isEndingConversation) return;
+      modelInput.value = IOS_LIGHT_MODEL;
+      dtypeSelect.value = IOS_LIGHT_DTYPE;
+      presetModelSelect.value = `${IOS_LIGHT_MODEL}|${IOS_LIGHT_DTYPE}`;
+      initModel(IOS_LIGHT_MODEL, IOS_LIGHT_DTYPE, false);
+    });
+
+    dismissIosTipBtn.addEventListener('click', () => {
+      iosTipBanner.classList.remove('show');
+    });
+
     openModelModalBtn.addEventListener('click', () => {
       modelModalBackdrop.classList.add('open');
     });
@@ -577,6 +671,9 @@
         modelInput.value = repoId;
         if (suggestedDtype && Array.from(dtypeSelect.options).some(o => o.value === suggestedDtype)) {
           dtypeSelect.value = suggestedDtype;
+        }
+        if (isIOS && /E4B|E2B|2B/i.test(repoId)) {
+          appendSystemNote('提醒：此模型體積較大，在 iOS 瀏覽器載入時若發生閃退，建議改選 0.5B 或 360M 輕量模型。');
         }
       } else {
         modelInput.focus();
@@ -836,27 +933,33 @@
 
       const gpuReady = await checkWebGPUAdapter();
       const device = gpuReady ? 'webgpu' : 'wasm';
+      const osTag = isIOS ? 'iOS・' : '';
       const cacheLabel = hasCacheAPI ? '' : '・無快取';
 
       let modelId = customModelId?.trim();
       let selectedDtype = customDtype;
 
       if (!modelId) {
-        modelId = autoSetDefaultByDevice
-          ? (gpuReady ? WEBGPU_DEFAULT_MODEL : WASM_DEFAULT_MODEL)
-          : WASM_DEFAULT_MODEL;
+        if (isIOS) {
+          modelId = IOS_LIGHT_MODEL;
+        } else {
+          modelId = autoSetDefaultByDevice
+            ? (gpuReady ? WEBGPU_DEFAULT_MODEL : WASM_DEFAULT_MODEL)
+            : WASM_DEFAULT_MODEL;
+        }
         modelInput.value = modelId;
       }
 
       if (!selectedDtype) {
-        selectedDtype = gpuReady ? 'q4f16' : 'q4';
+        selectedDtype = isIOS ? IOS_LIGHT_DTYPE : (gpuReady ? 'q4f16' : 'q4');
         dtypeSelect.value = selectedDtype;
       }
 
       const matchedPreset = Array.from(presetModelSelect.options).find(o => o.value.startsWith(modelId + '|'));
       presetModelSelect.value = matchedPreset ? matchedPreset.value : 'custom|auto';
 
-      deviceBadge.textContent = `${device.toUpperCase()} (${selectedDtype})${cacheLabel}`;
+    //   deviceBadge.textContent = `${osTag}${device.toUpperCase()} (${selectedDtype})${cacheLabel}`;
+      deviceBadge.textContent = `${osTag}${device.toUpperCase()} ${cacheLabel}`;
       statusText.textContent = `使用 ${device.toUpperCase()} 載入 ${modelId} [${selectedDtype}]...`;
 
       try {
@@ -1101,6 +1204,7 @@
     });
 
     loadTtsSettings();
+    setupIOSRecommendations();
     initModel(null, null, true);
   </script>
 </body>
