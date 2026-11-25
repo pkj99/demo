@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml"
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/kyjjzPqMVlGo2BggtyetZgGBRkw.jpg" tvg-name="守護你，遇見愛" group-title="2026",守護你，遇見愛
+https://play.dyttzyv.com/20261119/34765_ff08c7b6/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/i2T0uBFPJ59kj1oaMrh8ck6gGWL.jpg" tvg-name="心鄉迷蹤" group-title="2026",心鄉迷蹤
 https://play.phimgood.com/20261115/34492_dcf05231/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7iMuYJgP2xwaqDxCUKcScaohrft.jpg" tvg-name="艾倫" group-title="2026",艾倫
@@ -6,7 +8,7 @@ https://play.phimgood.com/20261113/34225_0febd888/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/xqYb7XSptLwd4FsXtYwl5smXBNe.jpg" tvg-name="交換身分過聖誕" group-title="2026",交換身分過聖誕
 https://play.phimgood.com/20261115/34497_d77de86d/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/yLtBqiRN5U08peEg9Rn8kA2H3Sf.jpg" tvg-name="絕境反擊" group-title="2026",絕境反擊
-https://play.phimgood.com/20261113/34224_94ae7826/index.m3u8
+https://play.dyttzyv.com/20261113/34224_94ae7826/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dUvyjVQa6HwejaT3apTA2Xmhn0H.jpg" tvg-name="浮誇特攻隊" group-title="2026",浮誇特攻隊
 https://play.phimgood.com/20261106/33675_9692a39f/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/2e9IxgDFtFwKLlVZfuVvgLbPtD5.jpg" tvg-name="狗狗的完美聖誕" group-title="2026",狗狗的完美聖誕
@@ -31,6 +33,10 @@ https://play.phimgood.com/20260925/31654_26079c27/index.m3u8
 https://play.phimgood.com/20260919/31425_d79f7940/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/gflpW1CDJjX2qG48E9uadNGkOip.jpg" tvg-name="最佳舞伴" group-title="2026",最佳舞伴
 https://play.phimgood.com/20260919/31426_69b72154/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/uTSA6jOSa6yNwpG1sMpHk8EmBTV.jpg" tvg-name="親密怪物" group-title="2026",親密怪物
+https://play.dyttzyv.com/20261119/34762_8a16b0e6/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/9aQFrPxHFLa3vbX9xwcygzaeKBT.jpg" tvg-name="辯護倒數" group-title="2026",辯護倒數
+https://vod.ffzy-bofang.com/20261121/5036_c731077c/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ktWq3WRGKpdIn5ocE3DG8aeyqIf.jpg" tvg-name="說走就走的熟女之旅" group-title="2026",說走就走的熟女之旅
 https://play.phimgood.com/20261103/33539_7d3b9ec7/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/nPoEHrPHmzSsiFyu4aeyi9neE3I.jpg" tvg-name="她的秘密人生" group-title="2026",她的秘密人生
@@ -38,7 +44,7 @@ https://play.phimgood.com/20260829/30703_86113dc5/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/hKoPZgUwahXD9p8CnqK93HT8wg4.jpg" tvg-name="耳語人" group-title="2026",耳語人
 https://play.phimgood.com/20260829/30705_d42f6190/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/iwCeOpuBtuTP1kLosqgniey5OvX.jpg" tvg-name="夜巡毒梟" group-title="2026",夜巡毒梟
-https://play.phimgood.com/20260822/30438_29524de1/index.m3u8
+https://play.dyttzyv.com/20260822/30438_29524de1/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/vKMQlsutWlEFt3yK9mPlaMWnwF7.jpg" tvg-name="失焦命案：被遺忘的女童" group-title="2026",失焦命案：被遺忘的女童
 https://play.phimgood.com/20260822/30442_2ae3d2aa/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/dwnqhUeXO1vRgXH9zgyeeihpxqo.jpg" tvg-name="街角少年電影版：南多的兩個世界" group-title="2026",街角少年電影版：南多的兩個世界
