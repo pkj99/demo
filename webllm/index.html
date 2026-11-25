@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>小彭同學邊緣語音助理 (模型設定 & TTS 設定)</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --surface: #1e293b;
+      --panel: #1b2236;
+      --primary: #6366f1;
+      --primary-bright: #38bdf8;
+      --accent: #f43f5e;
+      --danger: #ef4444;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --border: #334155;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans TC", sans-serif; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    header {
+      padding: 12px 16px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+    header h1 { font-size: 1rem; font-weight: 600; white-space: nowrap; }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+    .icon-btn {
+      background: #273249;
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 6px 11px;
+      font-size: 0.78rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      white-space: nowrap;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .icon-btn:hover {
+      background: #313f5c;
+      border-color: #60a5fa;
+    }
+    .badge {
+      font-size: 0.72rem;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: #0284c7;
+      color: #fff;
+      white-space: nowrap;
+    }
+    #progress-box {
+      padding: 10px 16px;
+      background: #172554;
+      font-size: 0.82rem;
+      border-bottom: 1px solid #1e40af;
+    }
+    progress {
+      width: 100%;
+      height: 7px;
+      margin-top: 6px;
+      accent-color: var(--primary-bright);
+    }
+    #chat-box {
+      flex: 1;
+      overflow-y: auto;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      -webkit-overflow-scrolling: touch;
+    }
+    .msg {
+      max-width: 85%;
+      padding: 10px 14px;
+      border-radius: 16px;
+      line-height: 1.5;
+      font-size: 0.95rem;
+      word-wrap: break-word;
+      white-space: pre-wrap;
+    }
+    .user {
+      align-self: flex-end;
+      background: #0284c7;
+      color: #fff;
+      border-bottom-right-radius: 4px;
+    }
+    .ai {
+      align-self: flex-start;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-bottom-left-radius: 4px;
+    }
+    .system-note {
+      align-self: center;
+      background: rgba(51, 65, 85, 0.55);
+      color: var(--muted);
+      font-size: 0.8rem;
+      padding: 6px 12px;
+      border-radius: 999px;
+    }
+    .controls {
+      padding: 12px;
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      padding-bottom: max(12px, env(safe-area-inset-bottom));
+    }
+    #text-input {
+      flex: 1;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 12px 14px;
+      border-radius: 24px;
+      font-size: 16px;
+      outline: none;
+    }
+    .round-btn {
+      border: none;
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 1.2rem;
+      transition: transform 0.15s, background 0.2s;
+      flex-shrink: 0;
+    }
+    .round-btn:active { transform: scale(0.92); }
+    .round-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+    #mic-btn { background: #334155; color: var(--text); }
+    #mic-btn.listening {
+      background: var(--accent);
+      animation: pulse 1.2s infinite;
+    }
+    #send-btn { background: var(--primary-bright); color: #0f172a; font-weight: bold; }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(244, 63, 94, 0.7); }
+      70% { box-shadow: 0 0 0 12px rgba(244, 63, 94, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(244, 63, 94, 0); }
+    }
+
+    /* 共用設定彈窗樣式 */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(2, 6, 23, 0.72);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      z-index: 50;
+    }
+    .modal-backdrop.open { display: flex; }
+    .settings-modal {
+      width: 100%;
+      max-width: 520px;
+      background: var(--panel);
+      border: 1px solid #2d3754;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    }
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    .modal-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.05rem;
+      font-weight: 600;
+    }
+    .close-btn {
+      background: transparent;
+      border: none;
+      color: var(--muted);
+      font-size: 1.3rem;
+      cursor: pointer;
+      padding: 4px 8px;
+      border-radius: 8px;
+    }
+    .close-btn:hover { color: var(--text); background: rgba(255,255,255,0.06); }
+    .field-group { margin-bottom: 16px; }
+    .field-label-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+      font-size: 0.9rem;
+    }
+    .field-value {
+      color: #818cf8;
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+    }
+    .settings-modal select,
+    .settings-modal input[type="text"] {
+      width: 100%;
+      background: #121726;
+      color: var(--text);
+      border: 1px solid #4f46e5;
+      border-radius: 10px;
+      padding: 11px 12px;
+      font-size: 0.9rem;
+      outline: none;
+    }
+    input[type="range"] {
+      width: 100%;
+      accent-color: var(--primary);
+      cursor: pointer;
+      height: 6px;
+    }
+    .modal-btn-row {
+      display: flex;
+      gap: 10px;
+      margin-top: 8px;
+    }
+    .action-btn {
+      flex: 1;
+      padding: 11px 14px;
+      border-radius: 10px;
+      border: 1px solid #334155;
+      background: #283044;
+      color: var(--text);
+      font-size: 0.92rem;
+      font-weight: 500;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+    .action-btn:hover { background: #313b54; }
+    .action-btn.primary {
+      background: #4f46e5;
+      border-color: #6366f1;
+      color: #fff;
+    }
+    .action-btn.primary:hover { background: #4338ca; }
+    .action-btn.danger {
+      background: rgba(239, 68, 68, 0.16);
+      border-color: rgba(239, 68, 68, 0.5);
+      color: #fecaca;
+    }
+    .action-btn.danger:hover { background: rgba(239, 68, 68, 0.28); }
+
+    .toggle-card {
+      background: #141b2d;
+      border: 1px solid #2a344e;
+      border-radius: 12px;
+      padding: 4px 14px;
+      margin-bottom: 18px;
+    }
+    .toggle-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 11px 0;
+      font-size: 0.9rem;
+      gap: 12px;
+    }
+    .toggle-row + .toggle-row {
+      border-top: 1px solid #242e47;
+    }
+    .toggle-desc {
+      display: block;
+      font-size: 0.76rem;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 44px;
+      height: 24px;
+      flex-shrink: 0;
+    }
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      inset: 0;
+      background-color: #334155;
+      border-radius: 999px;
+      transition: 0.2s;
+    }
+    .slider::before {
+      position: absolute;
+      content: "";
+      height: 18px;
+      width: 18px;
+      left: 3px;
+      bottom: 3px;
+      background-color: #fff;
+      border-radius: 50%;
+      transition: 0.2s;
+    }
+    .switch input:checked + .slider {
+      background-color: var(--primary);
+    }
+    .switch input:checked + .slider::before {
+      transform: translateX(20px);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>小彭同學</h1>
+    <div class="header-actions">
+      <button id="open-model-modal-btn" class="icon-btn" type="button" title="模型載入與快取設定">
+        <span>🤖</span>
+        <span>模型設定</span>
+      </button>
+      <button id="open-tts-modal-btn" class="icon-btn" type="button" title="語音與朗讀設定">
+        <span>🎛️</span>
+        <span>TTS 設定</span>
+      </button>
+      <span class="badge" id="device-badge">偵測中...</span>
+    </div>
+  </header>
+
+  <div id="progress-box">
+    <div id="status-text">正在初始化端側推理引擎...</div>
+    <progress id="load-progress" value="0" max="100"></progress>
+  </div>
+
+  <main id="chat-box">
+    <div class="msg ai">你好！點擊右上角「模型設定」可切換模型、量化精度與清除快取；點擊「TTS 設定」可調整語音朗讀與連續聆聽模式。</div>
+  </main>
+
+  <footer class="controls">
+    <button id="mic-btn" class="round-btn" title="語音輸入 / 停止聆聽" disabled>🎤</button>
+    <input type="text" id="text-input" placeholder="載入模型後即可對話..." disabled />
+    <button id="send-btn" class="round-btn" title="送出" disabled>➤</button>
+  </footer>
+
+  <!-- 模型載入設定彈窗 -->
+  <div id="model-modal-backdrop" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="model-modal-title">
+    <div class="settings-modal">
+      <div class="modal-header">
+        <div class="modal-title" id="model-modal-title">
+          <span>🤖</span>
+          <span>模型載入設定</span>
+        </div>
+        <button id="close-model-modal-btn" class="close-btn" type="button" aria-label="關閉">✕</button>
+      </div>
+
+      <div class="field-group">
+        <div class="field-label-row">
+          <label for="preset-model-select">預設模型清單</label>
+        </div>
+        <select id="preset-model-select">
+          <option value="onnx-community/gemma-4-E4B-it-ONNX|q4f16">Gemma 4 E4B IT (WebGPU / q4f16)</option>
+          <option value="onnx-community/gemma-4-E2B-it-ONNX|q4f16">Gemma 4 E2B IT (WebGPU / q4f16)</option>
+          <option value="onnx-community/Qwen3.5-2B-ONNX|q4f16">Qwen3.5 2B ONNX (q4f16)</option>
+          <option value="onnx-community/Qwen3.5-0.8B-ONNX|q4f16">Qwen3.5 0.8B ONNX (q4f16)</option>
+          <option value="onnx-community/Qwen2.5-0.5B-Instruct|q4" selected>Qwen2.5 0.5B Instruct (輕量 / q4)</option>
+          <option value="HuggingFaceTB/SmolLM2-360M-Instruct|q4">SmolLM2 360M Instruct (極輕量 / q4)</option>
+          <option value="custom|auto">自訂模型 ID...</option>
+        </select>
+      </div>
+
+      <div class="field-group">
+        <div class="field-label-row">
+          <label for="model-input">模型 ID (Hugging Face Repo)</label>
+        </div>
+        <input type="text" id="model-input" value="onnx-community/Qwen2.5-0.5B-Instruct" />
+      </div>
+
+      <div class="field-group">
+        <div class="field-label-row">
+          <label for="dtype-select">量化精度 (dtype)</label>
+        </div>
+        <select id="dtype-select">
+          <option value="q4f16">q4f16</option>
+          <option value="q4" selected>q4</option>
+          <option value="int4">int4</option>
+          <option value="fp16">fp16</option>
+          <option value="auto">auto</option>
+        </select>
+      </div>
+
+      <div class="modal-btn-row">
+        <button id="reload-model-btn" class="action-btn primary" type="button">
+          <span>⬇️</span>
+          <span>載入模型</span>
+        </button>
+        <button id="clear-cache-btn" class="action-btn danger" type="button">
+          <span>🗑️</span>
+          <span>清除快取</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 語音朗讀設定 (TTS) 彈窗 -->
+  <div id="tts-modal-backdrop" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="tts-modal-title">
+    <div class="settings-modal">
+      <div class="modal-header">
+        <div class="modal-title" id="tts-modal-title">
+          <span>🎛️</span>
+          <span>語音朗讀設定 (TTS)</span>
+        </div>
+        <button id="close-tts-modal-btn" class="close-btn" type="button" aria-label="關閉">✕</button>
+      </div>
+
+      <div class="toggle-card">
+        <div class="toggle-row">
+          <div>
+            <span>自動語音朗讀回覆</span>
+            <span class="toggle-desc">AI 生成回答後自動以語音念出</span>
+          </div>
+          <label class="switch" aria-label="自動語音朗讀回覆">
+            <input type="checkbox" id="modal-speak-enabled" checked />
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="toggle-row">
+          <div>
+            <span>連續聆聽對話模式</span>
+            <span class="toggle-desc">朗讀完畢後自動開啟麥克風，說「結束」即停止</span>
+          </div>
+          <label class="switch" aria-label="連續聆聽對話模式">
+            <input type="checkbox" id="modal-continuous-enabled" />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="field-group">
+        <div class="field-label-row">
+          <label for="voice-select">語音引擎 (Voice)</label>
+        </div>
+        <select id="voice-select">
+          <option value="">載入系統語音中...</option>
+        </select>
+      </div>
+
+      <div class="field-group">
+        <div class="field-label-row">
+          <label for="rate-range">語速 (Rate)</label>
+          <span class="field-value" id="rate-value">1.0</span>
+        </div>
+        <input type="range" id="rate-range" min="0.5" max="2.0" step="0.1" value="1.0" />
+      </div>
+
+      <div class="field-group">
+        <div class="field-label-row">
+          <label for="pitch-range">音高 (Pitch)</label>
+          <span class="field-value" id="pitch-value">1.0</span>
+        </div>
+        <input type="range" id="pitch-range" min="0.5" max="2.0" step="0.1" value="1.0" />
+      </div>
+
+      <button id="test-tts-btn" class="action-btn" type="button">
+        <span>🔊</span>
+        <span>測試語音輸出</span>
+      </button>
+    </div>
+  </div>
+
+  <script type="module">
+    import { pipeline, TextStreamer, env } from 'https://cdn.jsdelivr.net/npm/@huggingface/transformers@4.3.0';
+
+    const hasCacheAPI = typeof caches !== 'undefined' && typeof caches.open === 'function';
+    env.allowLocalModels = false;
+    env.useBrowserCache = hasCacheAPI;
+
+    const WEBGPU_DEFAULT_MODEL = 'onnx-community/gemma-4-E2B-it-ONNX';
+    const WASM_DEFAULT_MODEL = 'onnx-community/Qwen2.5-0.5B-Instruct';
+    const TTS_STORAGE_KEY = 'edge_webllm_tts_settings_v2';
+    const GOODBYE_REPLY = '好的，結束對話';
+
+    // 模型設定彈窗 DOM
+    const openModelModalBtn = document.getElementById('open-model-modal-btn');
+    const closeModelModalBtn = document.getElementById('close-model-modal-btn');
+    const modelModalBackdrop = document.getElementById('model-modal-backdrop');
+    const presetModelSelect = document.getElementById('preset-model-select');
+    const modelInput = document.getElementById('model-input');
+    const dtypeSelect = document.getElementById('dtype-select');
+    const reloadModelBtn = document.getElementById('reload-model-btn');
+    const clearCacheBtn = document.getElementById('clear-cache-btn');
+
+    // 主畫面與 TTS DOM
+    const statusText = document.getElementById('status-text');
+    const progressBar = document.getElementById('load-progress');
+    const progressBox = document.getElementById('progress-box');
+    const deviceBadge = document.getElementById('device-badge');
+    const chatBox = document.getElementById('chat-box');
+    const textInput = document.getElementById('text-input');
+    const sendBtn = document.getElementById('send-btn');
+    const micBtn = document.getElementById('mic-btn');
+
+    const openTtsModalBtn = document.getElementById('open-tts-modal-btn');
+    const closeTtsModalBtn = document.getElementById('close-tts-modal-btn');
+    const ttsModalBackdrop = document.getElementById('tts-modal-backdrop');
+    const modalSpeakEnabled = document.getElementById('modal-speak-enabled');
+    const modalContinuousEnabled = document.getElementById('modal-continuous-enabled');
+    const voiceSelect = document.getElementById('voice-select');
+    const rateRange = document.getElementById('rate-range');
+    const rateValue = document.getElementById('rate-value');
+    const pitchRange = document.getElementById('pitch-range');
+    const pitchValue = document.getElementById('pitch-value');
+    const testTtsBtn = document.getElementById('test-tts-btn');
+
+    let ttsSettings = {
+      enabled: true,
+      continuous: false,
+      voiceName: '',
+      rate: 1.0,
+      pitch: 1.0
+    };
+
+    let generator = null;
+    let isGenerating = false;
+    let isEndingConversation = false;
+    let continuousConversation = false;
+    let isRecognizing = false;
+    let conversationHistory = [
+      { role: 'system', content: '你是一個精簡、友善的語音助理。請用繁體中文回答，回覆盡量簡短口語（控制在 60 字以內），適合語音朗讀。' }
+    ];
+
+    // 模型彈窗互動
+    openModelModalBtn.addEventListener('click', () => {
+      modelModalBackdrop.classList.add('open');
+    });
+
+    closeModelModalBtn.addEventListener('click', () => {
+      modelModalBackdrop.classList.remove('open');
+    });
+
+    modelModalBackdrop.addEventListener('click', (e) => {
+      if (e.target === modelModalBackdrop) {
+        modelModalBackdrop.classList.remove('open');
+      }
+    });
+
+    presetModelSelect.addEventListener('change', () => {
+      const [repoId, suggestedDtype] = presetModelSelect.value.split('|');
+      if (repoId !== 'custom') {
+        modelInput.value = repoId;
+        if (suggestedDtype && Array.from(dtypeSelect.options).some(o => o.value === suggestedDtype)) {
+          dtypeSelect.value = suggestedDtype;
+        }
+      } else {
+        modelInput.focus();
+      }
+    });
+
+    modelInput.addEventListener('input', () => {
+      const val = modelInput.value.trim();
+      const matched = Array.from(presetModelSelect.options).find(o => o.value.startsWith(val + '|'));
+      presetModelSelect.value = matched ? matched.value : 'custom|auto';
+    });
+
+    clearCacheBtn.addEventListener('click', async () => {
+      if (isGenerating || isEndingConversation) return;
+      let clearedCount = 0;
+      try {
+        if (hasCacheAPI && typeof caches.keys === 'function') {
+          const keys = await caches.keys();
+          await Promise.all(keys.map(async (k) => {
+            const ok = await caches.delete(k);
+            if (ok) clearedCount++;
+          }));
+        }
+        generator = null;
+        progressBox.style.display = 'block';
+        progressBar.value = 0;
+        statusText.textContent = `已清除 ${clearedCount} 個快取項目，請按「載入模型」重新下載。`;
+        appendSystemNote(`已清除瀏覽器快取（${clearedCount} 項），釋放快取空間。`);
+        modelModalBackdrop.classList.remove('open');
+      } catch (err) {
+        appendSystemNote(`清除快取失敗：${err.message}`);
+      }
+    });
+
+    function loadTtsSettings() {
+      try {
+        const saved = JSON.parse(localStorage.getItem(TTS_STORAGE_KEY) || '{}');
+        ttsSettings = { ...ttsSettings, ...saved };
+      } catch {}
+      rateRange.value = Number(ttsSettings.rate).toFixed(1);
+      rateValue.textContent = Number(ttsSettings.rate).toFixed(1);
+      pitchRange.value = Number(ttsSettings.pitch).toFixed(1);
+      pitchValue.textContent = Number(ttsSettings.pitch).toFixed(1);
+      modalSpeakEnabled.checked = Boolean(ttsSettings.enabled);
+      continuousConversation = Boolean(ttsSettings.continuous);
+      modalContinuousEnabled.checked = continuousConversation;
+    }
+
+    function saveTtsSettings() {
+      localStorage.setItem(TTS_STORAGE_KEY, JSON.stringify(ttsSettings));
+    }
+
+    function populateVoices() {
+      if (!('speechSynthesis' in window)) {
+        voiceSelect.innerHTML = '<option value="">此瀏覽器不支援語音合成</option>';
+        return;
+      }
+      const voices = window.speechSynthesis.getVoices();
+      if (!voices.length) return;
+
+      voiceSelect.innerHTML = '';
+      const sortedVoices = [...voices].sort((a, b) => {
+        const aZh = a.lang.toLowerCase().startsWith('zh') ? -1 : 0;
+        const bZh = b.lang.toLowerCase().startsWith('zh') ? -1 : 0;
+        return aZh - bZh || a.name.localeCompare(b.name);
+      });
+
+      sortedVoices.forEach((v) => {
+        const opt = document.createElement('option');
+        opt.value = v.name;
+        opt.textContent = `${v.name} (${v.lang})`;
+        voiceSelect.appendChild(opt);
+      });
+
+      if (ttsSettings.voiceName && sortedVoices.some(v => v.name === ttsSettings.voiceName)) {
+        voiceSelect.value = ttsSettings.voiceName;
+      } else {
+        const defaultZh = sortedVoices.find(v => v.lang.toLowerCase().includes('zh-tw'))
+          || sortedVoices.find(v => v.lang.toLowerCase().startsWith('zh'))
+          || sortedVoices[0];
+        if (defaultZh) {
+          voiceSelect.value = defaultZh.name;
+          ttsSettings.voiceName = defaultZh.name;
+          saveTtsSettings();
+        }
+      }
+    }
+
+    function getSelectedVoice() {
+      if (!('speechSynthesis' in window)) return null;
+      const voices = window.speechSynthesis.getVoices();
+      return voices.find(v => v.name === voiceSelect.value) || null;
+    }
+
+    function speakText(text, forceSpeak = false, onDone = null) {
+      if (!('speechSynthesis' in window)) {
+        onDone?.();
+        return;
+      }
+      if (!forceSpeak && !ttsSettings.enabled) {
+        onDone?.();
+        return;
+      }
+
+      window.speechSynthesis.cancel();
+      const cleanText = text.replace(/[*#`]/g, '').trim();
+      if (!cleanText) {
+        onDone?.();
+        return;
+      }
+
+      const utterance = new SpeechSynthesisUtterance(cleanText);
+      const voice = getSelectedVoice();
+      if (voice) {
+        utterance.voice = voice;
+        utterance.lang = voice.lang;
+      } else {
+        utterance.lang = 'zh-TW';
+      }
+      utterance.rate = Number(ttsSettings.rate) || 1.0;
+      utterance.pitch = Number(ttsSettings.pitch) || 1.0;
+
+      let finished = false;
+      const safetyTimer = setTimeout(finishOnce, Math.max(2500, cleanText.length * 220));
+
+      function finishOnce() {
+        if (finished) return;
+        finished = true;
+        clearTimeout(safetyTimer);
+        onDone?.();
+      }
+
+      utterance.onend = finishOnce;
+      utterance.onerror = finishOnce;
+      window.speechSynthesis.speak(utterance);
+    }
+
+    function setContinuousMode(enabled, { showNote = true, startMicIfReady = true, persist = true } = {}) {
+      continuousConversation = Boolean(enabled);
+      modalContinuousEnabled.checked = continuousConversation;
+      if (persist) {
+        ttsSettings.continuous = continuousConversation;
+        saveTtsSettings();
+      }
+
+      if (!continuousConversation) {
+        micBtn.classList.remove('listening');
+        if (recognition && isRecognizing) {
+          try {
+            recognition.stop();
+          } catch {}
+        }
+        isRecognizing = false;
+        if (!textInput.disabled) {
+          textInput.placeholder = '輸入訊息或點擊麥克風...';
+        }
+        if (showNote) {
+          appendSystemNote('已關閉連續聆聽模式。');
+        }
+      } else {
+        window.speechSynthesis?.cancel();
+        if (showNote) {
+          appendSystemNote('已開啟連續聆聽，AI 回覆後將自動繼續聆聽；說「結束」可停止。');
+        }
+        if (!textInput.disabled) {
+          textInput.placeholder = '連續聆聽中（說「結束」可停止）...';
+        }
+        if (startMicIfReady && generator && !isGenerating && !isEndingConversation) {
+          setTimeout(() => startListeningSafely(), 180);
+        }
+      }
+    }
+
+    modalSpeakEnabled.addEventListener('change', () => {
+      ttsSettings.enabled = modalSpeakEnabled.checked;
+      saveTtsSettings();
+      if (!ttsSettings.enabled) {
+        window.speechSynthesis?.cancel();
+      }
+    });
+
+    modalContinuousEnabled.addEventListener('change', () => {
+      setContinuousMode(modalContinuousEnabled.checked, {
+        showNote: true,
+        startMicIfReady: true,
+        persist: true
+      });
+    });
+
+    openTtsModalBtn.addEventListener('click', () => {
+      populateVoices();
+      modalSpeakEnabled.checked = ttsSettings.enabled;
+      modalContinuousEnabled.checked = continuousConversation;
+      ttsModalBackdrop.classList.add('open');
+    });
+
+    closeTtsModalBtn.addEventListener('click', () => {
+      ttsModalBackdrop.classList.remove('open');
+    });
+
+    ttsModalBackdrop.addEventListener('click', (e) => {
+      if (e.target === ttsModalBackdrop) {
+        ttsModalBackdrop.classList.remove('open');
+      }
+    });
+
+    voiceSelect.addEventListener('change', () => {
+      ttsSettings.voiceName = voiceSelect.value;
+      saveTtsSettings();
+    });
+
+    rateRange.addEventListener('input', () => {
+      const val = Number(rateRange.value).toFixed(1);
+      rateValue.textContent = val;
+      ttsSettings.rate = Number(val);
+      saveTtsSettings();
+    });
+
+    pitchRange.addEventListener('input', () => {
+      const val = Number(pitchRange.value).toFixed(1);
+      pitchValue.textContent = val;
+      ttsSettings.pitch = Number(val);
+      saveTtsSettings();
+    });
+
+    testTtsBtn.addEventListener('click', () => {
+      speakText('你好，這是語音朗讀測試。目前語速與音高設定已套用。', true);
+    });
+
+    if ('speechSynthesis' in window) {
+      populateVoices();
+      window.speechSynthesis.onvoiceschanged = populateVoices;
+    }
+
+    async function checkWebGPUAdapter() {
+      if (!navigator.gpu || typeof navigator.gpu.requestAdapter !== 'function') {
+        return false;
+      }
+      try {
+        const adapter = await navigator.gpu.requestAdapter();
+        return !!adapter;
+      } catch {
+        return false;
+      }
+    }
+
+    async function initModel(customModelId = null, customDtype = null, autoSetDefaultByDevice = true) {
+      isEndingConversation = false;
+      if (recognition && isRecognizing) {
+        try { recognition.stop(); } catch {}
+      }
+      isRecognizing = false;
+      micBtn.classList.remove('listening');
+      enableInputs(false);
+      progressBox.style.display = 'block';
+      progressBar.value = 0;
+
+      const gpuReady = await checkWebGPUAdapter();
+      const device = gpuReady ? 'webgpu' : 'wasm';
+      const cacheLabel = hasCacheAPI ? '' : '・無快取';
+
+      let modelId = customModelId?.trim();
+      let selectedDtype = customDtype;
+
+      if (!modelId) {
+        modelId = autoSetDefaultByDevice
+          ? (gpuReady ? WEBGPU_DEFAULT_MODEL : WASM_DEFAULT_MODEL)
+          : WASM_DEFAULT_MODEL;
+        modelInput.value = modelId;
+      }
+
+      if (!selectedDtype) {
+        selectedDtype = gpuReady ? 'q4f16' : 'q4';
+        dtypeSelect.value = selectedDtype;
+      }
+
+      const matchedPreset = Array.from(presetModelSelect.options).find(o => o.value.startsWith(modelId + '|'));
+      presetModelSelect.value = matchedPreset ? matchedPreset.value : 'custom|auto';
+
+      deviceBadge.textContent = `${device.toUpperCase()} (${selectedDtype})${cacheLabel}`;
+      statusText.textContent = `使用 ${device.toUpperCase()} 載入 ${modelId} [${selectedDtype}]...`;
+
+      try {
+        const fileProgress = new Map();
+        const options = {
+          device,
+          progress_callback: (info) => {
+            if (info.status === 'progress') {
+              fileProgress.set(info.file, info.progress);
+              const avg = Array.from(fileProgress.values()).reduce((a, b) => a + b, 0) / fileProgress.size;
+              progressBar.value = Math.round(avg);
+              const note = hasCacheAPI ? '' : '（目前環境不支援瀏覽器快取）';
+              statusText.textContent = `[${device.toUpperCase()}] 下載模型中 (${Math.round(avg)}%)...${note}`;
+            } else if (info.status === 'ready') {
+              progressBox.style.display = 'none';
+              enableInputs(true);
+            }
+          }
+        };
+
+        if (selectedDtype !== 'auto') {
+          options.dtype = selectedDtype;
+        }
+
+        generator = await pipeline('text-generation', modelId, options);
+        if (continuousConversation) {
+          setTimeout(() => startListeningSafely(), 250);
+        }
+      } catch (err) {
+        if (err.name === 'ModelFileNotFoundError') {
+          statusText.textContent = `找不到指定的量化檔 (${selectedDtype})，請開啟「模型設定」切換其他 dtype 後重試。`;
+        } else {
+          statusText.textContent = `[${device.toUpperCase()}] 載入失敗：${err.message}`;
+        }
+        console.error(err);
+      }
+    }
+
+    function enableInputs(enabled) {
+      textInput.disabled = !enabled;
+      sendBtn.disabled = !enabled;
+      micBtn.disabled = !enabled;
+      if (enabled) {
+        textInput.placeholder = continuousConversation
+          ? '連續聆聽中（說「結束」可停止）...'
+          : '輸入訊息或點擊麥克風...';
+      }
+    }
+
+    function appendMessage(role, text = '') {
+      const div = document.createElement('div');
+      div.className = `msg ${role}`;
+      div.textContent = text;
+      chatBox.appendChild(div);
+      chatBox.scrollTop = chatBox.scrollHeight;
+      return div;
+    }
+
+    function appendSystemNote(text) {
+      const div = document.createElement('div');
+      div.className = 'system-note';
+      div.textContent = text;
+      chatBox.appendChild(div);
+      chatBox.scrollTop = chatBox.scrollHeight;
+    }
+
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    let recognition = null;
+
+    function startListeningSafely() {
+      if (!recognition || !continuousConversation || isGenerating || isEndingConversation || isRecognizing) return;
+      try {
+        recognition.start();
+      } catch {}
+    }
+
+    function isEndCommand(transcript) {
+      const normalized = transcript.replace(/[，。！？、\s]/g, '');
+      return normalized === '結束' || normalized === '結束對話' || normalized.endsWith('結束');
+    }
+
+    function replyAndStopConversation(transcript) {
+      if (isEndingConversation) return;
+      isEndingConversation = true;
+      setContinuousMode(false, { showNote: false, persist: true });
+      enableInputs(false);
+
+      appendMessage('user', transcript);
+      appendMessage('ai', GOODBYE_REPLY);
+
+      conversationHistory.push(
+        { role: 'user', content: transcript },
+        { role: 'assistant', content: GOODBYE_REPLY }
+      );
+
+      const finalizeStop = () => {
+        isEndingConversation = false;
+        enableInputs(true);
+        appendSystemNote('已停止對話。');
+      };
+
+      speakText(GOODBYE_REPLY, false, finalizeStop);
+    }
+
+    if (SpeechRecognition) {
+      recognition = new SpeechRecognition();
+      recognition.lang = 'zh-TW';
+      recognition.interimResults = false;
+      recognition.maxAlternatives = 1;
+
+      recognition.onstart = () => {
+        isRecognizing = true;
+        micBtn.classList.add('listening');
+        textInput.placeholder = continuousConversation
+          ? '連續聆聽中... 說「結束」可停止'
+          : '請說話...';
+      };
+
+      recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript.trim();
+        if (!transcript) return;
+
+        if (isEndCommand(transcript)) {
+          replyAndStopConversation(transcript);
+          return;
+        }
+
+        handleUserQuery(transcript);
+      };
+
+      recognition.onerror = (event) => {
+        console.warn('語音辨識錯誤:', event.error);
+        isRecognizing = false;
+        micBtn.classList.remove('listening');
+        if (event.error === 'not-allowed' || event.error === 'service-not-allowed') {
+          setContinuousMode(false, { showNote: false, persist: true });
+          textInput.placeholder = '麥克風權限未開啟，請改用文字輸入';
+        }
+      };
+
+      recognition.onend = () => {
+        isRecognizing = false;
+        micBtn.classList.remove('listening');
+        if (continuousConversation && !isGenerating && !isEndingConversation && generator) {
+          setTimeout(() => startListeningSafely(), 220);
+        }
+      };
+
+      micBtn.addEventListener('click', () => {
+        if (!generator || isGenerating || isEndingConversation) return;
+        window.speechSynthesis?.cancel();
+
+        if (isRecognizing) {
+          if (continuousConversation) {
+            setContinuousMode(false, { showNote: true, persist: true });
+          } else {
+            try { recognition.stop(); } catch {}
+          }
+          return;
+        }
+
+        try {
+          recognition.start();
+        } catch {}
+      });
+    } else {
+      micBtn.style.display = 'none';
+      modalContinuousEnabled.disabled = true;
+    }
+
+    async function handleUserQuery(userText) {
+      if (!userText.trim() || isGenerating || isEndingConversation || !generator) return;
+
+      isGenerating = true;
+      enableInputs(false);
+      window.speechSynthesis?.cancel();
+
+      appendMessage('user', userText);
+      conversationHistory.push({ role: 'user', content: userText });
+
+      if (conversationHistory.length > 7) {
+        conversationHistory = [conversationHistory[0], ...conversationHistory.slice(-6)];
+      }
+
+      const aiMsgDiv = appendMessage('ai', '思考中...');
+      let fullResponse = '';
+
+      try {
+        const streamer = new TextStreamer(generator.tokenizer, {
+          skip_prompt: true,
+          skip_special_tokens: true,
+          callback_function: (token) => {
+            fullResponse += token;
+            aiMsgDiv.textContent = fullResponse;
+            chatBox.scrollTop = chatBox.scrollHeight;
+          }
+        });
+
+        await generator(conversationHistory, {
+          max_new_tokens: 120,
+          do_sample: false,
+          streamer
+        });
+
+        conversationHistory.push({ role: 'assistant', content: fullResponse });
+
+        isGenerating = false;
+        enableInputs(true);
+
+        speakText(fullResponse, false, () => {
+          if (continuousConversation && !isEndingConversation) {
+            setTimeout(() => startListeningSafely(), 250);
+          }
+        });
+      } catch (err) {
+        aiMsgDiv.textContent = `推理發生錯誤：${err.message}`;
+        isGenerating = false;
+        enableInputs(true);
+        if (continuousConversation && !isEndingConversation) {
+          setTimeout(() => startListeningSafely(), 300);
+        }
+      }
+    }
+
+    sendBtn.addEventListener('click', () => {
+      const text = textInput.value;
+      textInput.value = '';
+      handleUserQuery(text);
+    });
+
+    textInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        sendBtn.click();
+      }
+    });
+
+    reloadModelBtn.addEventListener('click', () => {
+      if (isGenerating || isEndingConversation) return;
+      modelModalBackdrop.classList.remove('open');
+      initModel(modelInput.value, dtypeSelect.value, false);
+    });
+
+    loadTtsSettings();
+    initModel(null, null, true);
+  </script>
+</body>
+</html>
