@@ -447,13 +447,17 @@
           <label for="preset-model-select">預設模型清單</label>
         </div>
         <select id="preset-model-select">
+          <!-- <option value="onnx-community/gpt-oss-20b-ONNX|q4f16">gpt-oss-20b (超大型・建議桌機)</option> -->
           <option value="onnx-community/gemma-4-E4B-it-ONNX|q4f16">Gemma 4 E4B IT (大型・建議桌機)</option>
           <option value="onnx-community/gemma-4-E2B-it-ONNX|q4f16">Gemma 4 E2B IT (中大型・WebGPU)</option>
-          <option value="onnx-community/Qwen3.5-2B-ONNX|q4f16">Qwen3.5 2B ONNX (中型・q4f16)</option>
+          <option value="onnx-community/Llama-3.2-3B-Instruct-ONNX|q4f16">Llama 3.2 3B Instruct (中大型・WebGPU)</option>
+          <option value="onnx-community/Llama-3.2-1B-Instruct-ONNX|q4f16">Llama 3.2 1B Instruct (中型・WebGPU)</option>
+          <option value="onnx-community/Qwen3.5-2B-ONNX|q4f16">Qwen3.5 2B ONNX (中型・q4f16)</option>          
+          <option value="onnx-community/Bonsai-1.7B-ONNX|q4">Bonsai-1.7B (中型・q4)</option>
           <option value="onnx-community/Qwen3.5-0.8B-ONNX|q4f16">Qwen3.5 0.8B ONNX (輕量・q4f16)</option>
           <option value="onnx-community/Qwen2.5-0.5B-Instruct|q4" selected>Qwen2.5 0.5B Instruct (輕量防閃退・q4)</option>
-          <option value="HuggingFaceTB/SmolLM2-360M-Instruct|q4">SmolLM2 360M Instruct (極輕量防閃退・q4)</option>
-          <option value="custom|auto">自訂模型 ID...</option>
+          <option value="onnx-community/SmolLM2-360M-Instruct-ONNX|q4">SmolLM2 360M Instruct (極輕量防閃退・q4)</option>
+          <!-- <option value="repo/model|auto">自訂模型 ID...</option> -->
         </select>
       </div>
 
@@ -958,8 +962,11 @@
       const matchedPreset = Array.from(presetModelSelect.options).find(o => o.value.startsWith(modelId + '|'));
       presetModelSelect.value = matchedPreset ? matchedPreset.value : 'custom|auto';
 
+      console.log(presetModelSelect.value);
+
     //   deviceBadge.textContent = `${osTag}${device.toUpperCase()} (${selectedDtype})${cacheLabel}`;
-      deviceBadge.textContent = `${osTag}${device.toUpperCase()} ${cacheLabel}`;
+    //  deviceBadge.textContent = `${osTag}${device.toUpperCase()} ${cacheLabel}`;
+      deviceBadge.textContent = presetModelSelect.value.split('/')[1].split('-ONNX')[0];
       statusText.textContent = `使用 ${device.toUpperCase()} 載入 ${modelId} [${selectedDtype}]...`;
 
       try {
